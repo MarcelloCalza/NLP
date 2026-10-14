@@ -1,0 +1,1096 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,zero_shot,multi,0,logical,,,,,,0.52,,Solve the following logical reasoning problem.
+summary,zero_shot,multi,1,logical,,,,,,0.54,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify the task type**: Determine if the task involves ordering, position, ranking, spatial relationships, or constraint satisfaction.
+2. **Determine the key information**: Extract relevant data from the problem statement, including any sequences, positions, or conditions.
+3. **Analyze relative positions**: If relative positions are involved, ensure you correctly interpret the positions of items relative to each other.
+4. **Understand sequences**: If a sequence is provided, accurately interpret and use the sequence to find the correct answer.
+5. **Prioritize conditions**: When identifying the cheapest or most expensive items, prioritize the given conditions to avoid misidentification.
+6. **Apply logical deduction**: Use logical reasoning to deduce the correct answer based on the identified key information and conditions."
+summary,zero_shot,multi,2,logical,,,,,,0.5433333333333333,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Ensure accurate interpretation of relative positions, sequences, and prioritize conditions to avoid misidentification.
+
+1. **Identify the task type**: Determine if the task involves ordering, position, ranking, spatial relationships, or constraint satisfaction.
+2. **Determine the key information**: Extract relevant data from the problem statement, including any sequences, positions, or conditions.
+3. **Analyze relative positions**: If relative positions are involved, ensure you correctly interpret the positions of items relative to each other.
+4. **Understand sequences**: If a sequence is provided, accurately interpret and use the sequence to find the correct answer.
+5. **Prioritize conditions**: When identifying the cheapest or most expensive items, prioritize the given conditions to avoid misidentification.
+6. **Apply logical deduction**: Use logical reasoning to deduce the correct answer based on the identified key information and conditions."
+summary,zero_shot,multi,3,logical,,,,,,0.5433333333333333,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Ensure accurate interpretation of relative positions, sequences, and prioritize conditions to avoid misidentification.
+
+1. **Identify the task type**: Determine if the task involves ordering, position, ranking, spatial relationships, or constraint satisfaction.
+2. **Determine the key information**: Extract relevant data from the problem statement, including any sequences, positions, or conditions.
+3. **Analyze relative positions**: If relative positions are involved, ensure you correctly interpret the positions of items relative to each other.
+4. **Understand sequences**: If a sequence is provided, accurately interpret and use the sequence to find the correct answer.
+5. **Prioritize conditions**: When identifying the cheapest or most expensive items, prioritize the given conditions to avoid misidentification.
+6. **Apply logical deduction**: Use logical reasoning to deduce the correct answer based on the identified key information and conditions."
+summary,zero_shot,multi,4,logical,,,,,,0.55,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Verify Relative Positions and Sequences**: Ensure all relative positions and sequences of items are accurately interpreted before any further analysis.
+2. **Prioritize Conditions**: When identifying the cheapest or most expensive items, prioritize the given conditions to avoid misidentification.
+3. **Accurately Identify Extremes**: Determine the most expensive and cheapest items by focusing on the given conditions and their relative positions."
+summary,zero_shot,multi,5,logical,,,,,,0.5533333333333333,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items by comparing all given conditions.
+2. **Eliminate Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Cross-verify Conditions**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+4. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions."
+summary,zero_shot,multi,6,logical,,,,,,0.56,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Cross-Verify**: Cross-verify the relative positions and sequences of items to ensure accuracy.
+3. **Prioritize Conditions**: Prioritize the given conditions to avoid misidentification."
+summary,zero_shot,multi,7,logical,,,,,,0.56,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Cross-Verify**: Cross-verify the relative positions and sequences of items to ensure accuracy.
+3. **Prioritize Conditions**: Prioritize the given conditions to avoid misidentification."
+summary,zero_shot,multi,8,logical,,,,,,0.56,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Cross-Verify**: Cross-verify the relative positions and sequences of items to ensure accuracy.
+3. **Prioritize Conditions**: Prioritize the given conditions to avoid misidentification."
+summary,zero_shot,multi,9,logical,,,,,,0.56,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Cross-Verify**: Cross-verify the relative positions and sequences of items to ensure accuracy.
+3. **Prioritize Conditions**: Prioritize the given conditions to avoid misidentification."
+summary,zero_shot,multi,10,logical,,,,,,0.56,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Cross-Verify**: Cross-verify the relative positions and sequences of items to ensure accuracy.
+3. **Prioritize Conditions**: Prioritize the given conditions to avoid misidentification."
+summary,zero_shot,multi,11,logical,,,,,,0.56,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Cross-Verify**: Cross-verify the relative positions and sequences of items to ensure accuracy.
+3. **Prioritize Conditions**: Prioritize the given conditions to avoid misidentification."
+summary,zero_shot,multi,12,logical,,,,,,0.56,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Cross-Verify**: Cross-verify the relative positions and sequences of items to ensure accuracy.
+3. **Prioritize Conditions**: Prioritize the given conditions to avoid misidentification."
+summary,zero_shot,multi,13,logical,,,,,,0.56,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Cross-Verify**: Cross-verify the relative positions and sequences of items to ensure accuracy.
+3. **Prioritize Conditions**: Prioritize the given conditions to avoid misidentification."
+summary,zero_shot,multi,14,logical,,,,,,0.56,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Cross-Verify**: Cross-verify the relative positions and sequences of items to ensure accuracy.
+3. **Prioritize Conditions**: Prioritize the given conditions to avoid misidentification."
+summary,zero_shot,multi,15,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,16,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,17,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,18,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,19,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,20,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,21,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,22,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,23,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,24,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,25,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,26,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,27,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,28,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,29,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,30,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,31,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,32,logical,,,,,,0.5633333333333334,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem, ensuring to accurately interpret and verify relative positions, sequences, and prioritize all given conditions to avoid misidentification.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Direct Comparisons**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+3. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+4. **Prioritize Conditions**: Prioritize the conditions to ensure the most accurate selection.
+5. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+6. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+7. **Confirm Prioritized Conditions**: After prioritizing conditions, confirm that the selected answer aligns with all prioritized conditions.
+8. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,33,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,34,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,35,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,36,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,37,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,38,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,39,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,40,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,41,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,42,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,43,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,44,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,45,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,46,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,47,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,48,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,49,logical,,,,,,0.57,,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."
+summary,zero_shot,multi,50,logical,,,,,,0.57,0.43,"Example 1:
+A fruit stand sells five fruits: apples, oranges, watermelons, pears, and mangoes. The apples are more expensive than the oranges. The oranges are more expensive than the mangoes. The apples are the second-most expensive. The pears are more expensive than the watermelons.
+Which one is the most expensive?
+Choices: apple, orange, watermelon, pear, mango
+Answer: apple
+
+Example 2:
+In a grocery store, five types of bread are available: whole wheat, white, rye, sourdough, and multigrain. The whole wheat is more expensive than the white. The white is more expensive than the rye. The sourdough is the most expensive. The multigrain is more expensive than the rye.
+Which one is the cheapest?
+Choices: whole wheat, white, rye, sourdough, multigrain
+Answer: rye
+
+INSTRUCTION:
+Solve the following logical reasoning problem, ensuring accurate interpretation and verification of relative positions, sequences, and prioritizing all given conditions to avoid misidentification. Prioritize direct comparisons over indirect comparisons when dealing with relative positions. Ensure accurate identification of the most expensive and cheapest items by prioritizing conditions to avoid misinterpretation of extremes and sequences.
+
+1. **Identify Extremes**: Begin by identifying the most expensive and cheapest items based on the given conditions.
+2. **Eliminate Infeasible Options**: Remove options that cannot be the most expensive or cheapest based on the identified extremes.
+3. **Direct Comparisons**: Prioritize direct comparisons over indirect comparisons when dealing with relative positions.
+4. **Cross-verify Remaining Options**: Cross-verify the remaining options using the given conditions to ensure accuracy.
+5. **Select Correct Answer**: From the verified options, select the correct answer based on the prioritized conditions.
+6. **Handle Relative Positions**: When multiple conditions involve relative positions, prioritize direct comparisons over indirect comparisons.
+7. **Avoid Misinterpretation**: Ensure that the sequence or position of items is accurately interpreted to avoid misidentification."

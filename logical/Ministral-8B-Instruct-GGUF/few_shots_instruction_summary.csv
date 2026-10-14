@@ -1,0 +1,1150 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,instruction,0,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,instruction,1,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,2,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,3,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,4,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,5,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,6,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,7,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,8,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,9,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,10,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,11,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,12,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,13,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,14,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,15,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,16,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,17,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,18,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,19,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,20,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,21,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,22,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,23,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,24,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,25,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+INSTRUCTION:
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,26,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,27,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,28,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,29,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,30,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,31,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,32,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,33,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,34,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,35,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,36,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,37,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,38,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,39,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,40,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,41,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,42,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,43,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,44,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,45,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,46,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,47,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,48,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,49,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."
+summary,few_shots,instruction,50,logical,,,,,,0.5266666666666666,0.42,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem. Ensure you maintain a consistent order of comparison and interpret relative terms correctly. Consider all given information. Answer with only one word from the options exactly as written."

@@ -1,0 +1,2730 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Read the problem carefully and identify the key elements: objects, relationships, and constraints.
+2. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Identify the object with the most constraints or information.
+5. Use the object with the most constraints as a reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to determine their order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Use spatial relationships (if applicable) to further refine the order or ranking.
+9. Select the object that matches the given ranking or position (e.g., third oldest).",0.52
+few_shots,0,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Read the problem carefully and identify the key elements: objects, relationships, and constraints.
+2. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Identify the object with the most constraints or information.
+5. Use the object with the most constraints as a reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to determine their order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Use spatial relationships (if applicable) to further refine the order or ranking.
+9. Select the object that matches the given ranking or position (e.g., third oldest).",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned.
+2. Determine the direction of each relationship.
+3. Establish a reference point for ordering based on the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects.
+5. Refine the order using spatial relationships if applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position.",0.52
+few_shots,0,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned.
+2. Determine the direction of each relationship.
+3. Establish a reference point for ordering based on the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects.
+5. Refine the order using spatial relationships if applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position.",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints between objects.
+2. Determine the direction of each relationship, considering ""older than"" as a directional relationship (A is older than B implies B is newer than A).
+3. Establish a reference point for ordering by identifying the object with the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects, considering spatial relationships if applicable.
+5. Eliminate options that do not match the relationships and constraints.
+6. Refine the order using spatial relationships if applicable.
+7. Select the object that matches the given ranking or position.",0.5133333333333333
+few_shots,0,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints between objects.
+2. Determine the direction of each relationship, considering ""older than"" as a directional relationship (A is older than B implies B is newer than A).
+3. Establish a reference point for ordering by identifying the object with the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects, considering spatial relationships if applicable.
+5. Eliminate options that do not match the relationships and constraints.
+6. Refine the order using spatial relationships if applicable.
+7. Select the object that matches the given ranking or position.",0.5133333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints between objects.
+2. Determine the direction of each relationship, considering directional relationships.
+3. Establish a reference point for ordering by identifying the object with the most constraints or information.
+4. Eliminate options that do not match the relationships and constraints.
+5. Refine the order using spatial relationships if applicable and relevant.
+6. Use the reference point to resolve any remaining ambiguities.
+7. Select the object that matches the given ranking or position.",0.51
+few_shots,1,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints between objects.
+2. Determine the direction of each relationship, considering directional relationships.
+3. Establish a reference point for ordering by identifying the object with the most constraints or information.
+4. Eliminate options that do not match the relationships and constraints.
+5. Refine the order using spatial relationships if applicable and relevant.
+6. Use the reference point to resolve any remaining ambiguities.
+7. Select the object that matches the given ranking or position.",0.51,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints between objects, considering both directional and non-directional relationships.
+2. Determine the direction of each relationship, using context and explicit language to guide the analysis.
+3. Establish a clear reference point for ordering by identifying the object with the most constraints or information, and use this reference point to inform the analysis.
+4. Analyze spatial relationships between objects when relevant, considering their impact on the ordering or ranking.
+5. Eliminate options that do not match the relationships and constraints, using the reference point to resolve any remaining ambiguities.
+6. Refine the order using all relevant relationships, including both directional and spatial relationships, to ensure accuracy.
+7. Select the object that matches the given ranking or position, using the refined order and reference point to make an informed decision.",0.5066666666666667
+few_shots,2,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned.
+2. Determine the direction of each relationship.
+3. Establish a reference point for ordering based on the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects.
+5. Refine the order using spatial relationships if applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position.",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicit relationships and constraints mentioned, including their direction.
+2. Determine the most constraints or information available for each object.
+3. Establish the object with the most constraints as the reference point for ordering.
+4. Apply the relationships and constraints to the remaining objects, considering their direction and constraints.
+5. Refine the order using spatial relationships if applicable and explicitly mentioned.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position based on the refined order.",0.5133333333333333
+few_shots,3,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Read the problem carefully and identify the key elements: objects, relationships, and constraints.
+2. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Identify the object with the most constraints or information.
+5. Use the object with the most constraints as a reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to determine their order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Use spatial relationships (if applicable) to further refine the order or ranking.
+9. Select the object that matches the given ranking or position (e.g., third oldest).",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the key elements: objects, relationships, and constraints.
+2. Determine the type of relationship between objects.
+3. Identify the direction of the relationship.
+4. Prioritize objects with more constraints or information.
+5. Establish a reference point for ranking.
+6. Apply relationships and constraints to remaining objects.
+7. Eliminate options that don't match relationships and constraints.
+8. Use spatial relationships to refine ranking.
+9. Select the object matching the given ranking or position.",0.5066666666666667
+few_shots,4,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicit relationships and constraints mentioned, including their direction.
+2. Determine the most constraints or information available for each object.
+3. Establish the object with the most constraints as the reference point for ordering.
+4. Apply the relationships and constraints to the remaining objects, considering their direction and constraints.
+5. Refine the order using spatial relationships if applicable and explicitly mentioned.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position based on the refined order.",0.5133333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicit relationships and constraints mentioned, including their direction.
+2. Assign a priority score to each relationship and constraint based on its specificity and relevance.
+3. Determine the object with the highest priority score as the reference point for ordering.
+4. Apply the relationships and constraints to the remaining objects, considering their direction and priority scores.
+5. Refine the order using spatial relationships if applicable, explicitly mentioned, and relevant to the task context.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position based on the refined order.",0.4866666666666667
+few_shots,5,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints between objects.
+2. Determine the direction of each relationship, considering directional relationships.
+3. Establish a reference point for ordering by identifying the object with the most constraints or information.
+4. Eliminate options that do not match the relationships and constraints.
+5. Refine the order using spatial relationships if applicable and relevant.
+6. Use the reference point to resolve any remaining ambiguities.
+7. Select the object that matches the given ranking or position.",0.51,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints between objects, considering directional relationships.
+2. Establish a clear reference point for ordering by identifying the object with the most constraints or information.
+3. Determine the direction of each relationship.
+4. Eliminate options that do not match the relationships and constraints.
+5. Refine the order using spatial relationships if applicable and relevant.
+6. Use the reference point to resolve any remaining ambiguities.
+7. Select the object that matches the given ranking or position.",0.5
+few_shots,6,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned.
+2. Determine the direction of each relationship.
+3. Establish a reference point for ordering based on the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects.
+5. Refine the order using spatial relationships if applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position.",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints, and indicate their direction.
+2. Establish a clear reference point for ordering based on the most constraints or information.
+3. Apply the relationships and constraints to all objects in the correct direction.
+4. Use spatial relationships to refine the order if applicable.
+5. Eliminate options that do not match the relationships and constraints.
+6. Select the object that matches the given ranking or position based on the refined order.",0.5033333333333333
+few_shots,7,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicit relationships and constraints mentioned, including their direction.
+2. Determine the most constraints or information available for each object.
+3. Establish the object with the most constraints as the reference point for ordering.
+4. Apply the relationships and constraints to the remaining objects, considering their direction and constraints.
+5. Refine the order using spatial relationships if applicable and explicitly mentioned.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position based on the refined order.",0.5133333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicit relationships and constraints mentioned, including their direction and labeling each as 'greater than', 'less than', 'newer than', 'older than', etc.
+2. Prioritize constraints by assigning a weight or priority to each, with more constraints having higher priority and direction considered.
+3. Establish the object with the most weighted or prioritized constraints as the reference point for ordering.
+4. Apply the relationships and constraints to the remaining objects, considering their direction and constraints, and update the weights or priorities as necessary.
+5. Consider spatial relationships if applicable and explicitly mentioned, and adjust the weights or priorities accordingly.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position based on the refined order.",0.5
+few_shots,8,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicit relationships and constraints mentioned, including their direction.
+2. Determine the most constraints or information available for each object.
+3. Establish the object with the most constraints as the reference point for ordering.
+4. Apply the relationships and constraints to the remaining objects, considering their direction and constraints.
+5. Refine the order using spatial relationships if applicable and explicitly mentioned.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position based on the refined order.",0.5133333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicit relationships and constraints, including their direction and type (e.g., spatial, temporal).
+2. Determine the most constrained object by counting the number of relationships and constraints affecting it.
+3. Establish the object with the most constraints as the reference point for ordering.
+4. Consider the direction of relationships and constraints when applying them to the remaining objects.
+5. Refine the order using spatial relationships if explicitly mentioned and applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position based on the refined order.",0.5066666666666667
+few_shots,9,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints between objects.
+2. Determine the direction of each relationship, considering ""older than"" as a directional relationship (A is older than B implies B is newer than A).
+3. Establish a reference point for ordering by identifying the object with the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects, considering spatial relationships if applicable.
+5. Eliminate options that do not match the relationships and constraints.
+6. Refine the order using spatial relationships if applicable.
+7. Select the object that matches the given ranking or position.",0.5133333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicitly mentioned relationships and constraints between objects, considering the direction of directional relationships.
+2. Determine the reference point for ordering by identifying the object with the most constraints or information.
+3. Apply directional relationships to establish a clear order for objects with multiple relationships.
+4. Use spatial relationships to inform ordering when applicable.
+5. Consider the constraints and information provided for each object.
+6. Refine the order using spatial relationships if applicable.
+7. Eliminate options that do not match the relationships and constraints.
+8. Select the object that matches the given ranking or position.",0.51
+few_shots,10,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Read the problem carefully and identify the key elements: objects, relationships, and constraints.
+2. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Identify the object with the most constraints or information.
+5. Use the object with the most constraints as a reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to determine their order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Use spatial relationships (if applicable) to further refine the order or ranking.
+9. Select the object that matches the given ranking or position (e.g., third oldest).",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key relationships by examining objects' descriptions for hints about their characteristics, ages, sizes, etc.
+2. Determine the primary type of relationship between objects (e.g., age, size, weight).
+3. Identify objects with the most constraints or information (e.g., those with multiple relationships or specific details).
+4. Use the object with the most constraints as a reference point to establish a baseline for the order or ranking.
+5. Apply the primary relationship to the remaining objects, considering their constraints and relationships to the reference object.
+6. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination and reevaluation of relationships to refine the order or ranking.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5233333333333333
+few_shots,11,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key relationships by examining objects' descriptions for hints about their characteristics, ages, sizes, etc.
+2. Determine the primary type of relationship between objects (e.g., age, size, weight).
+3. Identify objects with the most constraints or information (e.g., those with multiple relationships or specific details).
+4. Use the object with the most constraints as a reference point to establish a baseline for the order or ranking.
+5. Apply the primary relationship to the remaining objects, considering their constraints and relationships to the reference object.
+6. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination and reevaluation of relationships to refine the order or ranking.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5233333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination to refine the order or ranking until only one option remains.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666
+few_shots,12,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Read the problem carefully and identify the key elements: objects, relationships, and constraints.
+2. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Identify the object with the most constraints or information.
+5. Use the object with the most constraints as a reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to determine their order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Use spatial relationships (if applicable) to further refine the order or ranking.
+9. Select the object that matches the given ranking or position (e.g., third oldest).",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+2. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+3. Identify the object with the most constraints or information.
+4. Use the object with the most constraints as a reference point to determine the order or ranking.
+5. Apply the identified relationships to the remaining objects to determine their order or ranking.
+6. Eliminate options that do not match the identified relationships and constraints.
+7. Use spatial relationships (if applicable) to further refine the order or ranking.
+8. Select the object that matches the given ranking or position.
+9. Verify that the selected object aligns with the identified relationships and constraints.
+10. If necessary, re-evaluate the relationships and constraints to ensure the correct answer is obtained.",0.5066666666666667
+few_shots,13,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned.
+2. Determine the direction of each relationship.
+3. Establish a reference point for ordering based on the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects.
+5. Refine the order using spatial relationships if applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position.",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the explicit relationships and constraints mentioned, including the direction of each relationship.
+2. Establish a reference point for ordering based on the most constraints or information.
+3. Analyze spatial relationships between objects, if applicable.
+4. Apply the relationships and constraints to the remaining objects, considering the direction of each relationship.
+5. Refine the order using spatial relationships, if applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position, and verify that it satisfies all constraints.",0.51
+few_shots,14,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Read the problem carefully and identify the key elements: objects, relationships, and constraints.
+2. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Identify the object with the most constraints or information.
+5. Use the object with the most constraints as a reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to determine their order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Use spatial relationships (if applicable) to further refine the order or ranking.
+9. Select the object that matches the given ranking or position (e.g., third oldest).",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the key elements: objects, relationships, and constraints.
+2. Determine the type of relationship between objects (e.g., older/newer, heavier/lighter).
+3. Identify the direction of the relationship (e.g., older than, heavier than).
+4. Select a reference point with the most constraints or information.
+5. Use the reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to refine the order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Consider spatial relationships and constraints to further refine the order or ranking.
+9. Select the object that matches the given ranking or position.
+10. Verify the solution by checking for consistency with all relationships and constraints.",0.5133333333333333
+few_shots,15,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned.
+2. Determine the direction of each relationship.
+3. Establish a reference point for ordering based on the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects.
+5. Refine the order using spatial relationships if applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position.",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify and list all relationships and constraints explicitly mentioned.
+2. Determine the direction of each relationship (e.g., older than, heavier than, etc.).
+3. Establish a reference point for ordering by identifying the object with the most constraints or information.
+4. Prioritize relationships over spatial relationships.
+5. Eliminate options that directly contradict any relationship or constraint.
+6. Apply relationships and constraints to remaining objects to establish their positions.
+7. Refine order using spatial relationships only when relationships are ambiguous.
+8. Select the object that matches the given ranking or position.",0.5166666666666667
+few_shots,16,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned.
+2. Determine the direction of each relationship.
+3. Establish a reference point for ordering based on the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects.
+5. Refine the order using spatial relationships if applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position.",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned, standardizing the direction of relationships (e.g., ""older"" means newer is younger).
+2. Establish a clear reference point for ordering based on the most constraints or information provided.
+3. Determine the direction of each relationship relative to the established reference point.
+4. Apply spatial relationships if applicable, considering their impact on the order.
+5. Refine the order using the relationships and constraints to eliminate options that do not match.
+6. Select the object that matches the given ranking or position based on the established order.",0.5233333333333333
+few_shots,17,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination to refine the order or ranking until only one option remains.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and prioritizing relationships that establish a clear order or ranking.
+2. Determine the most informative or constrained object by identifying the object with the most specific details, and use it as a reference point to establish a baseline for the order or ranking.
+3. Use the constrained object to establish a baseline for the order or ranking, and consider only relationships that support or refine this baseline.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object, and prioritize relationships that provide additional or clarifying information.
+5. Limit consideration of spatial relationships to cases where they provide critical or decisive information about the primary relationship between objects.
+6. Reevaluate relationships and constraints to refine the order or ranking, and eliminate options that contradict the established order or ranking based on relationships and constraints.
+7. Use the process of elimination to refine the order or ranking until only one option remains, and verify that the final answer aligns with the established order or ranking.
+8. Select the object that matches the given ranking or position based on the established order or ranking, and confirm that the selected option is supported by the relationships and constraints.",0.5033333333333333
+few_shots,18,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination to refine the order or ranking until only one option remains.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the most informative or constrained object by examining their descriptions and identifying the object with the most relationships or specific details.
+2. Establish a baseline for the order or ranking using the constrained object.
+3. Determine the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking, eliminating options that contradict the established order or ranking.
+7. Refine the order or ranking until only one option remains using the process of elimination.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.5133333333333333
+few_shots,19,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Read the problem carefully and identify the key elements: objects, relationships, and constraints.
+2. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Identify the object with the most constraints or information.
+5. Use the object with the most constraints as a reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to determine their order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Use spatial relationships (if applicable) to further refine the order or ranking.
+9. Select the object that matches the given ranking or position (e.g., third oldest).",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the objects and their relationships, considering both explicit and implicit connections.
+2. Determine the direction of each relationship, avoiding assumptions and ambiguities.
+3. Analyze the context and implications of each relationship on the overall ranking or order.
+4. Use spatial relationships to further refine the order or ranking, if applicable.
+5. Apply the relationships and constraints to the objects, using each object as a reference point to determine its order or ranking.
+6. Eliminate options that do not match the relationships and constraints.
+7. Verify the relationships and constraints, ensuring consistency and accuracy.
+8. Use the relationships and constraints to determine the correct ranking or order among the objects.
+9. Select the object that matches the given ranking or position.",0.5166666666666667
+few_shots,20,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination to refine the order or ranking until only one option remains.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Prioritize spatial relationships only when they provide additional or clarifying information about the primary relationship.
+4. Establish a baseline for the order or ranking using the most informative object as a reference point.
+5. Reevaluate relationships and constraints continuously to refine the order or ranking.
+6. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+7. Use the process of elimination to refine the order or ranking until only one option remains.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.51
+few_shots,21,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Read the problem carefully and identify the key elements: objects, relationships, and constraints.
+2. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Identify the object with the most constraints or information.
+5. Use the object with the most constraints as a reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to determine their order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Use spatial relationships (if applicable) to further refine the order or ranking.
+9. Select the object that matches the given ranking or position (e.g., third oldest).",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the key elements: objects, relationships, and constraints.
+2. Determine the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Identify the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Prioritize constraints based on specificity and relevance.
+5. Use the most specific and relevant constraint as a reference point to determine the order or ranking.
+6. Apply spatial relationships to further refine the order or ranking (if applicable).
+7. Identify the object with the most constraints or information.
+8. Eliminate options that do not match the relationships and constraints.
+9. Select the object that matches the given ranking or position.",0.5033333333333333
+few_shots,22,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key relationships by examining objects' descriptions for hints about their characteristics, ages, sizes, etc.
+2. Determine the primary type of relationship between objects (e.g., age, size, weight).
+3. Identify objects with the most constraints or information (e.g., those with multiple relationships or specific details).
+4. Use the object with the most constraints as a reference point to establish a baseline for the order or ranking.
+5. Apply the primary relationship to the remaining objects, considering their constraints and relationships to the reference object.
+6. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination and reevaluation of relationships to refine the order or ranking.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5233333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining the most specific and detailed information.
+2. Determine the type of relationship (e.g., age, size, weight) based on the primary relationship.
+3. Identify objects with multiple relationships or specific details as the reference point.
+4. Establish a baseline for the order or ranking using the reference object.
+5. Prioritize the primary relationship over spatial relationships and other secondary relationships.
+6. Apply the primary relationship to the remaining objects, considering their constraints and relationships to the reference object.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination and reevaluation of relationships to refine the order or ranking.
+9. Select the object that matches the given ranking or position based on the established order or ranking.
+10. Verify the selected object by checking for any inconsistencies or contradictions with the established relationships.",0.51
+few_shots,23,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned.
+2. Determine the direction of each relationship.
+3. Establish a reference point for ordering based on the most constraints or information.
+4. Apply the relationships and constraints to the remaining objects.
+5. Refine the order using spatial relationships if applicable.
+6. Eliminate options that do not match the relationships and constraints.
+7. Select the object that matches the given ranking or position.",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all explicit relationships and constraints mentioned.
+2. Determine the direction of each relationship, considering words like ""older than,"" ""newer than,"" ""heavier than,"" and ""lighter than.""
+3. Establish a reference point for ordering based on the most constraints or information.
+4. Prioritize relationships with explicit direction over those without.
+5. Apply spatial relationships to refine the order, if applicable.
+6. Use multiple constraints to refine the order, prioritizing those with explicit direction.
+7. Eliminate options that do not match the relationships and constraints.
+8. Select the object that matches the given ranking or position.",0.5166666666666667
+few_shots,24,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination to refine the order or ranking until only one option remains.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Prioritize non-spatial relationships over spatial relationships unless spatial relationships provide additional or clarifying information.
+5. Reevaluate relationships and constraints as new information becomes available to refine the order or ranking.
+6. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+7. Refine the order or ranking through the process of elimination until only one option remains.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.52
+few_shots,25,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned, standardizing the direction of relationships (e.g., ""older"" means newer is younger).
+2. Establish a clear reference point for ordering based on the most constraints or information provided.
+3. Determine the direction of each relationship relative to the established reference point.
+4. Apply spatial relationships if applicable, considering their impact on the order.
+5. Refine the order using the relationships and constraints to eliminate options that do not match.
+6. Select the object that matches the given ranking or position based on the established order.",0.5233333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Standardize all relationship directions by converting them to a consistent format (e.g., ""older"" becomes ""newer is younger"").
+2. Identify the most constraints or information provided and use it as the reference point for ordering.
+3. Determine the direction of each relationship relative to the established reference point.
+4. Consider spatial relationships and their impact on the order if applicable.
+5. Refine the order using the relationships and constraints to eliminate options that do not match.
+6. Select the object that matches the given ranking or position based on the established order.
+7. When multiple relationships are given, prioritize the ones with more constraints or information provided.
+8. Use the word ""newer"" or ""older"" to indicate the direction of the relationship, and convert it to the standard format if necessary.
+9. For each relationship, determine the direction relative to the reference point and the standard format.
+10. Apply the relationships and constraints to the options, considering the spatial relationships if applicable.
+11. Eliminate options that do not match the established order based on the relationships and constraints.
+12. Select the object that matches the given ranking or position based on the established order.",0.5066666666666667
+few_shots,26,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Read the problem carefully and identify the key elements: objects, relationships, and constraints.
+2. Identify the type of relationship between objects (e.g., older/newer, heavier/lighter, etc.).
+3. Determine the direction of the relationship (e.g., older than, heavier than, etc.).
+4. Identify the object with the most constraints or information.
+5. Use the object with the most constraints as a reference point to determine the order or ranking.
+6. Apply the relationships and constraints to the remaining objects to determine their order or ranking.
+7. Eliminate options that do not match the relationships and constraints.
+8. Use spatial relationships (if applicable) to further refine the order or ranking.
+9. Select the object that matches the given ranking or position (e.g., third oldest).",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key elements: objects, relationships, and constraints.
+2. Determine the type of relationship and its direction.
+3. Prioritize objects based on the number of constraints or information.
+4. Use the object with the most constraints as a reference point.
+5. Apply spatial relationships to refine the order or ranking.
+6. Eliminate options that violate the relationships and constraints.
+7. Re-evaluate the remaining options based on the relationships and constraints.
+8. Select the object that matches the given ranking or position.",0.5233333333333333
+few_shots,27,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key relationships by examining objects' descriptions for hints about their characteristics, ages, sizes, etc.
+2. Determine the primary type of relationship between objects (e.g., age, size, weight).
+3. Identify objects with the most constraints or information (e.g., those with multiple relationships or specific details).
+4. Use the object with the most constraints as a reference point to establish a baseline for the order or ranking.
+5. Apply the primary relationship to the remaining objects, considering their constraints and relationships to the reference object.
+6. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination and reevaluation of relationships to refine the order or ranking.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5233333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify primary relationships by examining objects' descriptions for hints about their characteristics, ages, sizes, etc.
+2. Determine the primary type of relationship between objects (e.g., age, size, weight).
+3. Prioritize primary relationships over spatial relationships.
+4. Identify objects with the most constraints or information (e.g., those with multiple relationships or specific details).
+5. Use the object with the most constraints as a reference point to establish a baseline for the order or ranking.
+6. Apply the primary relationship to the remaining objects, considering their constraints and relationships to the reference object.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Refine the order or ranking by reevaluating relationships and constraints through the process of elimination.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.51
+few_shots,28,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the relationships and constraints explicitly mentioned, standardizing the direction of relationships (e.g., ""older"" means newer is younger).
+2. Establish a clear reference point for ordering based on the most constraints or information provided.
+3. Determine the direction of each relationship relative to the established reference point.
+4. Apply spatial relationships if applicable, considering their impact on the order.
+5. Refine the order using the relationships and constraints to eliminate options that do not match.
+6. Select the object that matches the given ranking or position based on the established order.",0.5233333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the most constraints or information provided as the clear reference point for ordering.
+2. Standardize the direction of all relationships by determining the opposite (e.g., ""older"" means newer is younger).
+3. Determine the direction of each relationship relative to the established reference point.
+4. Apply spatial relationships considering their impact on the order.
+5. Refine the order using the relationships and constraints to eliminate options that do not match.
+6. Select the object that matches the given ranking or position based on the established order.",0.51
+few_shots,29,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key elements: objects, relationships, and constraints.
+2. Determine the type of relationship and its direction.
+3. Prioritize objects based on the number of constraints or information.
+4. Use the object with the most constraints as a reference point.
+5. Apply spatial relationships to refine the order or ranking.
+6. Eliminate options that violate the relationships and constraints.
+7. Re-evaluate the remaining options based on the relationships and constraints.
+8. Select the object that matches the given ranking or position.",0.5233333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all relationships between objects, including spatial and temporal relationships.
+2. Determine the type of relationship and its direction for each relationship identified.
+3. Prioritize relationships based on their specificity and relevance to the task, rather than the number of constraints or information.
+4. Use the relationship with the most specificity and relevance as a reference point.
+5. Apply spatial relationships to refine the order or ranking of objects, considering the context and constraints of each relationship.
+6. Eliminate options that violate any relationship or constraint.
+7. Re-evaluate the remaining options based on the prioritized relationships and constraints.
+8. Select the object that matches the given ranking or position, considering all relationships and constraints.",0.5133333333333333
+few_shots,30,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination to refine the order or ranking until only one option remains.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships between objects when they provide additional or clarifying information about the primary relationship.
+6. Use the process of elimination to refine the order or ranking by eliminating options that contradict established relationships and constraints.
+7. Reevaluate relationships and constraints to refine the order or ranking.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666
+few_shots,31,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination to refine the order or ranking until only one option remains.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions, focusing on quantifiable attributes (e.g., age, size, weight) and excluding spatial relationships unless they clarify or support the primary relationship.
+2. Determine the most informative or constrained object by identifying the object with the most specific details or the fewest ambiguities.
+3. Establish a baseline or reference point by selecting the object with the most clearly defined relationships or constraints.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object and eliminating any contradictions.
+5. Refine the order or ranking by reevaluating relationships and constraints, eliminating options that contradict the established order.
+6. Select the object that matches the given ranking or position based on the established order or ranking.",0.5133333333333333
+few_shots,32,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key relationships by examining objects' descriptions for hints about their characteristics, ages, sizes, etc.
+2. Determine the primary type of relationship between objects (e.g., age, size, weight).
+3. Identify objects with the most constraints or information (e.g., those with multiple relationships or specific details).
+4. Use the object with the most constraints as a reference point to establish a baseline for the order or ranking.
+5. Apply the primary relationship to the remaining objects, considering their constraints and relationships to the reference object.
+6. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination and reevaluation of relationships to refine the order or ranking.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5233333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key objects' descriptions for hints about their characteristics, ages, sizes, etc.
+2. Determine the primary type of relationship between objects (e.g., age, size, weight).
+3. Identify the object with the most constraints or information (e.g., those with multiple relationships or specific details) and establish it as a reference point.
+4. Eliminate any object that contradicts the established reference point's characteristics or relationships.
+5. Apply the primary relationship to the remaining objects, considering their constraints and relationships to the reference object.
+6. Use the process of elimination and reevaluation of relationships to refine the order or ranking.
+7. Reevaluate relationships to ensure they align with the established order or ranking.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.52
+few_shots,33,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships between objects when they provide additional or clarifying information about the primary relationship.
+6. Use the process of elimination to refine the order or ranking by eliminating options that contradict established relationships and constraints.
+7. Reevaluate relationships and constraints to refine the order or ranking.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Establish a clear baseline or reference point for the order or ranking by selecting an object with a unique or extreme characteristic.
+4. Apply relationships consistently by prioritizing the most restrictive or specific relationships first.
+5. Refine the order or ranking by eliminating options that contradict established relationships and constraints.
+6. Reevaluate relationships and constraints to ensure consistency and accuracy.
+7. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666
+few_shots,34,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships between objects when they provide additional or clarifying information about the primary relationship.
+6. Use the process of elimination to refine the order or ranking by eliminating options that contradict established relationships and constraints.
+7. Reevaluate relationships and constraints to refine the order or ranking.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the type of relationship (e.g., age, size, weight) between objects in the task.
+2. Determine the most informative or constrained object by identifying the object with the most specific details or relationships.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Identify the primary relationship between objects by examining their descriptions and relationships to the reference object.
+5. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+6. Use spatial relationships between objects to refine the order or ranking when necessary.
+7. Use the process of elimination to refine the order or ranking by eliminating options that contradict established relationships and constraints.
+8. Reevaluate relationships and constraints to refine the order or ranking.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5
+few_shots,35,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key elements: objects, relationships, and constraints.
+2. Determine the type of relationship and its direction.
+3. Prioritize objects based on the number of constraints or information.
+4. Use the object with the most constraints as a reference point.
+5. Apply spatial relationships to refine the order or ranking.
+6. Eliminate options that violate the relationships and constraints.
+7. Re-evaluate the remaining options based on the relationships and constraints.
+8. Select the object that matches the given ranking or position.",0.5233333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify key elements: objects, relationships, and constraints.
+2. Determine the type of relationship and its direction.
+3. Prioritize objects based on the absolute number of constraints or information.
+4. Verify that the object with the most constraints is indeed the reference point.
+5. Apply spatial relationships to refine the order or ranking.
+6. Eliminate options that directly violate the relationships and constraints.
+7. Eliminate options that are inconsistent with the given ranking or position.
+8. Select the object that matches the given ranking or position.",0.5266666666666666
+few_shots,36,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships between objects when they provide additional or clarifying information about the primary relationship.
+6. Use the process of elimination to refine the order or ranking by eliminating options that contradict established relationships and constraints.
+7. Reevaluate relationships and constraints to refine the order or ranking.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Establish a baseline for the order or ranking using the constrained object.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Prioritize spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Apply the process of elimination systematically, eliminating options that contradict established relationships and constraints.
+7. Reevaluate relationships and constraints to refine the order or ranking.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.5033333333333333
+few_shots,37,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships between objects when they provide additional or clarifying information about the primary relationship.
+6. Use the process of elimination to refine the order or ranking by eliminating options that contradict established relationships and constraints.
+7. Reevaluate relationships and constraints to refine the order or ranking.
+8. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all relationships between objects by examining their descriptions.
+2. Establish a baseline for the order or ranking by identifying the most constrained object.
+3. Use the process of elimination to refine the order or ranking, eliminating options that contradict established relationships and constraints.
+4. Consider spatial relationships between objects when they provide additional or clarifying information about the primary relationship.
+5. Reevaluate relationships and constraints to refine the order or ranking.
+6. Determine the object that matches the given ranking or position based on the established order or ranking.",0.5233333333333333
+few_shots,38,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Establish a clear baseline or reference point for the order or ranking by selecting an object with a unique or extreme characteristic.
+4. Apply relationships consistently by prioritizing the most restrictive or specific relationships first.
+5. Refine the order or ranking by eliminating options that contradict established relationships and constraints.
+6. Reevaluate relationships and constraints to ensure consistency and accuracy.
+7. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Establish a clear baseline or reference point for the order or ranking by selecting an object with a unique or extreme characteristic.
+4. Prioritize relationships consistently, starting with the most restrictive or specific relationship.
+5. Apply relationships consistently and eliminate options that contradict established relationships and constraints.
+6. Continuously reevaluate relationships and constraints to ensure consistency and accuracy.
+7. Select the object that matches the given ranking or position based on the established order or ranking.",0.5166666666666667
+few_shots,39,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify all relationships between objects by examining their descriptions.
+2. Establish a baseline for the order or ranking by identifying the most constrained object.
+3. Use the process of elimination to refine the order or ranking, eliminating options that contradict established relationships and constraints.
+4. Consider spatial relationships between objects when they provide additional or clarifying information about the primary relationship.
+5. Reevaluate relationships and constraints to refine the order or ranking.
+6. Determine the object that matches the given ranking or position based on the established order or ranking.",0.5233333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the most constrained object by examining its description and establishing a baseline for the order or ranking.
+2. Use the process of elimination to refine the order or ranking by eliminating options that contradict established relationships and constraints.
+3. Consider spatial relationships between objects when they provide additional or clarifying information about the primary relationship.
+4. Reevaluate relationships and constraints to refine the order or ranking, taking into account all previously established relationships and constraints.
+5. Reconsider the most constrained object as a reference point to determine its position in the order or ranking.
+6. Determine the object that matches the given ranking or position based on the established order or ranking.",0.52
+few_shots,40,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Use the process of elimination to refine the order or ranking until only one option remains.
+9. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Use the constrained object as a reference point to establish a baseline for the order or ranking.
+4. Apply the primary relationship to the remaining objects, considering their relationships to the reference object.
+5. Consider spatial relationships only when they provide additional or clarifying information about the primary relationship.
+6. Reevaluate relationships and constraints to refine the order or ranking.
+7. Eliminate options that contradict the established order or ranking based on relationships and constraints.
+8. Prioritize relationships that are explicitly stated over those implied or assumed.
+9. Use the process of elimination to refine the order or ranking until only one option remains.
+10. Select the object that matches the given ranking or position based on the established order or ranking.
+11. Verify the answer by checking for any remaining options that satisfy the established order or ranking.",0.4933333333333333
+few_shots,41,cot,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Determine the most informative or constrained object by identifying the object with the most relationships or specific details.
+3. Establish a clear baseline or reference point for the order or ranking by selecting an object with a unique or extreme characteristic.
+4. Apply relationships consistently by prioritizing the most restrictive or specific relationships first.
+5. Refine the order or ranking by eliminating options that contradict established relationships and constraints.
+6. Reevaluate relationships and constraints to ensure consistency and accuracy.
+7. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. Identify the primary relationship between objects by examining their descriptions and identifying the type of relationship (e.g., age, size, weight).
+2. Prioritize the most restrictive relationships first, focusing on relationships that establish a clear baseline or reference point.
+3. Establish a baseline or reference point for the order or ranking by selecting an object with a unique or extreme characteristic.
+4. Eliminate options that contradict established relationships and constraints.
+5. Reevaluate relationships and constraints to ensure consistency and accuracy.
+6. Refine the order or ranking by consistently applying prioritized relationships to all objects.
+7. Select the object that matches the given ranking or position based on the established order or ranking.",0.5266666666666666

@@ -1,0 +1,3270 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4666666666666667
+cot,0,examples,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4666666666666667,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the yellow book, and the green book is to the right of the red book.
+Which one is the third book from the left?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are six fruits: an apple, a banana, a cherry, a date, an elderberry, and a fig. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, and the elderberry is cheaper than the fig.
+Which one is the third-cheapest fruit?
+Answer: cherry
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4966666666666666
+cot,0,examples,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the yellow book, and the green book is to the right of the red book.
+Which one is the third book from the left?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are six fruits: an apple, a banana, a cherry, a date, an elderberry, and a fig. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, and the elderberry is cheaper than the fig.
+Which one is the third-cheapest fruit?
+Answer: cherry
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4966666666666666,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the yellow book, and the green book is to the right of the red book.
+Which one is the third book from the left?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are six fruits: an apple, a banana, a cherry, a date, an elderberry, and a fig. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, and the elderberry is cheaper than the fig.
+Which one is the third-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is the second from the left, and the green book is to the right of the yellow book.
+Which one is the third book from the left?
+Answer: yellow
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5
+cot,0,examples,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the yellow book, and the green book is to the right of the red book.
+Which one is the third book from the left?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are six fruits: an apple, a banana, a cherry, a date, an elderberry, and a fig. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, and the elderberry is cheaper than the fig.
+Which one is the third-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is the second from the left, and the green book is to the right of the yellow book.
+Which one is the third book from the left?
+Answer: yellow
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the yellow book, and the green book is to the right of the red book.
+Which one is the third book from the left?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are six fruits: an apple, a banana, a cherry, a date, an elderberry, and a fig. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, and the elderberry is cheaper than the fig.
+Which one is the third-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is the second from the left, and the green book is to the right of the yellow book.
+Which one is the third book from the left?
+Answer: yellow
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5
+cot,1,examples,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4666666666666667,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a mango. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit. The mango is the fourth-most expensive fruit.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5
+cot,2,examples,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the yellow book, and the green book is to the right of the red book.
+Which one is the third book from the left?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are six fruits: an apple, a banana, a cherry, a date, an elderberry, and a fig. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, and the elderberry is cheaper than the fig.
+Which one is the third-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is the second from the left, and the green book is to the right of the yellow book.
+Which one is the third book from the left?
+Answer: yellow
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book, and the green book is to the right of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, and the banana is the third-most expensive.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is the second from the left, the green book is to the left of the yellow book, and the purple book is to the right of the red book.
+Which one is the fourth book from the left?
+Answer: purple
+
+Example 4:
+In a fruit market, there are seven fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, and a grape. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, and the fig is cheaper than the grape.
+Which one is the fourth-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,3,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.52
+cot,4,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667,"Example 1:
+In a library, there are five books: A, B, C, D, E. Book A is above book B, which is above book C. Book D is below book E. Which one is the second from the top?
+Choices: A, B, C, D, E
+Answer: B
+
+Example 2:
+In a restaurant, there are five dishes: A, B, C, D, E. Dish A is cheaper than dish B, which is cheaper than dish C. Dish D is more expensive than dish E. Which one is the second most expensive?
+Choices: A, B, C, D, E
+Answer: D
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667
+cot,5,examples,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a mango. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit. The mango is the fourth-most expensive fruit.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a mango. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit. The mango is the fourth-most expensive fruit.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the third book from the left?
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667
+cot,6,examples,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book, and the green book is to the right of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, and the banana is the third-most expensive.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is the second from the left, the green book is to the left of the yellow book, and the purple book is to the right of the red book.
+Which one is the fourth book from the left?
+Answer: purple
+
+Example 4:
+In a fruit market, there are seven fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, and a grape. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, and the fig is cheaper than the grape.
+Which one is the fourth-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,7,examples,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a mango. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit. The mango is the fourth-most expensive fruit.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the third book from the left?
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book, and the blue book is to the left of the green book. The yellow book is to the right of the green book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a mango. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit. The mango is the fourth-most expensive fruit. The kiwi is the least expensive fruit.
+Which one is the fourth-most expensive fruit?
+Answer: mango
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The red book is to the left of the blue book. The blue book is to the left of the green book. The yellow book is to the left of the purple book. The purple book is to the right of the red book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are seven fruits: a watermelon, a kiwi, an apple, an orange, a banana, a mango, and a pineapple. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit. The mango is the fourth-most expensive fruit. The pineapple is the fifth-most expensive fruit. The kiwi is the least expensive fruit.
+Which one is the fifth-most expensive fruit?
+Answer: pineapple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The red book is to the left of the blue book. The blue book is to the left of the green book. The yellow book is to the left of the purple book. The purple book is to the left of the orange book. The orange book is to the right of the yellow book.
+Which one is the fourth book from the left?
+Answer: yellow
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667
+cot,8,examples,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book, and the green book is to the right of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, and the banana is the third-most expensive.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is the second from the left, the green book is to the left of the yellow book, and the purple book is to the right of the red book.
+Which one is the fourth book from the left?
+Answer: purple
+
+Example 4:
+In a fruit market, there are seven fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, and a grape. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, and the fig is cheaper than the grape.
+Which one is the fourth-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is to the left of the green book, and the green book is to the left of the yellow book. The purple book is to the right of the orange book.
+Which one is the third book from the left?
+Answer: yellow
+
+Example 2:
+In a fruit market, there are seven fruits: a watermelon, a kiwi, an apple, an orange, a banana, a grapefruit, and a pineapple. The watermelon is the most expensive, the kiwi is the second-most expensive, and the apple is the third-most expensive. The banana is cheaper than the orange, and the grapefruit is cheaper than the pineapple.
+Which one is the fourth-most expensive fruit?
+Answer: orange
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book, and the blue book is to the left of the green book. The yellow book is to the right of the red book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are six fruits: an apple, a banana, a cherry, a date, an elderberry, and a fig. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, and the elderberry is cheaper than the fig.
+Which one is the fifth-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is the second from the left, the green book is to the left of the yellow book, and the purple book is to the right of the red book.
+Which one is the fourth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4933333333333333
+cot,9,examples,"Example 1:
+In a library, there are three books: a red book, a blue book, and a yellow book. The red book is the second from the left. The blue book is the rightmost book.
+Which one is the first book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a mango. The watermelon is the most expensive fruit. The apple is the second-most expensive fruit. The banana is the third-most expensive fruit. The mango is the fourth-most expensive fruit.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the third book from the left?
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is the leftmost. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive. The apple is the second-most expensive. The banana is the third-most expensive. The orange is the fourth-most expensive.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The red book is the leftmost. The blue book is to the left of the green book. The green book is to the left of the yellow book. The purple book is to the right of the blue book.
+Which one is the second book from the right?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a mango. The watermelon is the most expensive. The apple is the second-most expensive. The banana is the third-most expensive. The orange is the fourth-most expensive. The mango is the fifth-most expensive.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is the leftmost. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the third book from the left?
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,10,examples,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is the leftmost. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive. The apple is the second-most expensive. The banana is the third-most expensive. The orange is the fourth-most expensive.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The red book is the leftmost. The blue book is to the left of the green book. The green book is to the left of the yellow book. The purple book is to the right of the blue book.
+Which one is the second book from the right?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a mango. The watermelon is the most expensive. The apple is the second-most expensive. The banana is the third-most expensive. The orange is the fourth-most expensive. The mango is the fifth-most expensive.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is the leftmost. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the third book from the left?
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is the leftmost. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive. The apple is the second-most expensive. The banana is the third-most expensive. The orange is the fourth-most expensive.
+Which one is the second-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The red book is the leftmost. The blue book is to the left of the green book. The green book is to the left of the yellow book. The purple book is to the right of the blue book.
+Which one is the second book from the right?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a mango. The watermelon is the most expensive. The apple is the second-most expensive. The banana is the third-most expensive. The orange is the fourth-most expensive. The mango is the fifth-most expensive.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 5:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is the leftmost. The blue book is to the left of the green book. The green book is to the left of the yellow book.
+Which one is the third book from the left?
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,11,examples,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the first from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Example 2:
+In a fruit market, there are five fruits: a watermelon, a kiwi, an apple, an orange, and a banana. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the cheapest.
+Which one is the fourth-most expensive fruit?
+Answer: apple
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667
+cot,12,examples,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book. The red book is to the left of the blue book.
+Which one is the fifth book from the left?
+Answer: orange
+
+Example 2:
+In a fruit market, there are seven fruits: an apple, a banana, a cherry, a date, an elderberry, a grapefruit, and a kiwi. The apple is the most expensive, the banana is the second-most expensive, the cherry is the third-most expensive, and the grapefruit is the fourth-most expensive. The date is cheaper than the elderberry, and the kiwi is the fifth-most expensive.
+Which one is the fifth-most expensive fruit?
+Answer: kiwi
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book. The red book is to the right of the blue book.
+Which one is the third book from the left?
+Answer: green
+
+Example 4:
+In a fruit market, there are six fruits: an apple, a banana, a cherry, a date, an elderberry, and a grapefruit. The apple is cheaper than the banana, the banana is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry. The grapefruit is the most expensive.
+Which one is the fourth-cheapest fruit?
+Answer: banana
+
+Example 5:
+In a library, there are seven books: a red book, a blue book, a green book, a yellow book, a purple book, an orange book, and a brown book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book. The red book is the second from the left, and the orange book is the third from the left.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.49
+cot,13,examples,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book, and the green book is to the right of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, and the banana is the third-most expensive.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is the second from the left, the green book is to the left of the yellow book, and the purple book is to the right of the red book.
+Which one is the fourth book from the left?
+Answer: purple
+
+Example 4:
+In a fruit market, there are seven fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, and a grape. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, and the fig is cheaper than the grape.
+Which one is the fourth-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Example 2:
+In a fruit market, there are seven fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, and a grape. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, and the fig is cheaper than the grape.
+Which one is the fourth-cheapest fruit?
+Answer: cherry
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is the second from the left, the green book is to the left of the yellow book, and the purple book is to the right of the red book.
+Which one is the fourth book from the left?
+Answer: purple
+
+Example 4:
+In a fruit market, there are eight fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, a grape, and a watermelon. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, the fig is cheaper than the grape, and the grape is cheaper than the watermelon.
+Which one is the fifth-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In an antique car show, there are five vehicles: a minivan, a limousine, a sedan, a tractor, and a hatchback. The tractor is the second-newest. The limousine is newer than the hatchback. The limousine is older than the sedan. The minivan is newer than the sedan.
+Which one is the third-newest?
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667
+cot,14,examples,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,15,examples,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book, and the green book is to the right of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, and the banana is the third-most expensive.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is the second from the left, the green book is to the left of the yellow book, and the purple book is to the right of the red book.
+Which one is the fourth book from the left?
+Answer: purple
+
+Example 4:
+In a fruit market, there are seven fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, and a grape. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, and the fig is cheaper than the grape.
+Which one is the fourth-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The red book is the first from the left, the blue book is the second, the green book is the third, and the yellow book is the fourth.
+Which one is the fifth book from the left?
+Answer: purple
+
+Example 2:
+In a fruit market, there are six fruits: an apple, a banana, a cherry, a date, an elderberry, and a fig. The banana is the third-most expensive, the apple is the fourth-most expensive, the cherry is the fifth-most expensive, the date is the sixth-most expensive, and the elderberry is the seventh-most expensive.
+Which one is the sixth-most expensive fruit?
+Answer: fig
+
+Example 3:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the sixth book from the left?
+Answer: orange
+
+Example 4:
+In a fruit market, there are seven fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, and a grape. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, and the fig is cheaper than the grape.
+Which one is the fourth-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the third book from the left?
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4933333333333333
+cot,16,examples,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,17,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.52,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5133333333333333
+cot,18,examples,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,19,examples,"Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book, and the green book is to the right of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, and the banana is the third-most expensive.
+Which one is the third-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is the second from the left, the green book is to the left of the yellow book, and the purple book is to the right of the red book.
+Which one is the fourth book from the left?
+Answer: purple
+
+Example 4:
+In a fruit market, there are seven fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, and a grape. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, and the fig is cheaper than the grape.
+Which one is the fourth-cheapest fruit?
+Answer: cherry
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a classroom, there are six students: Alice, Bob, Charlie, David, Eve, and Frank. Alice is to the left of Bob, Charlie is to the left of David, and Eve is to the right of Frank.
+Which one is the fourth student from the left?
+Answer: David
+
+Example 2:
+In a library, there are seven books: a red book, a blue book, a green book, a yellow book, a purple book, an orange book, and a pink book. The blue book is to the left of the green book, the yellow book is to the left of the purple book, and the orange book is to the right of the pink book.
+Which one is the third book from the right?
+Answer: pink
+
+Example 3:
+In a fruit market, there are eight fruits: an apple, a banana, a cherry, a date, an elderberry, a fig, a grape, and a kiwi. The apple is cheaper than the banana, the banana is cheaper than the cherry, the cherry is cheaper than the date, the date is cheaper than the elderberry, the elderberry is cheaper than the fig, the fig is cheaper than the grape, and the grape is cheaper than the kiwi.
+Which one is the fourth-cheapest fruit?
+Answer: cherry
+
+Example 4:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the red book.
+Which one is the third book from the left?
+Answer: green
+
+Example 5:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, the orange is the fourth-most expensive, and the grapefruit is the fifth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: orange
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667
+cot,20,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5133333333333333,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 5:
+In a line of six cars, the order from left to right is: car A, car B, car C, car D, car E, car F. Car B is to the left of car C. Car D is to the right of car E. Car F is the rightmost.
+Which one is the third from the left?
+Choices: car A, car B, car C, car D, car E, car F
+Answer: car D
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5033333333333333
+cot,21,examples,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,22,examples,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"### EXAMPLES:
+
+Example 1:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the second-most expensive fruit?
+Answer: kiwi
+
+Example 3:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the fourth book from the left?
+Answer: yellow
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the second-cheapest fruit?
+Answer: apple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,23,examples,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a library, there are five books: a red book, a blue book, a green book, a yellow book, and a purple book. The blue book is to the left of the green book, and the yellow book is to the right of the purple book.
+Which one is the third book from the left?
+Answer: green
+
+Example 2:
+In a fruit market, there are six fruits: a watermelon, a kiwi, an apple, an orange, a banana, and a grapefruit. The watermelon is the most expensive, the kiwi is the second-most expensive, the apple is the third-most expensive, and the banana is the fourth-most expensive.
+Which one is the fourth-most expensive fruit?
+Answer: banana
+
+Example 3:
+In a library, there are four books: a red book, a blue book, a green book, and a yellow book. The blue book is to the left of the green book, and the red book is to the left of the yellow book.
+Which one is the second book from the left?
+Answer: blue
+
+Example 4:
+In a fruit market, there are five fruits: an apple, a banana, a cherry, a date, and an elderberry. The banana is cheaper than the apple, the apple is cheaper than the cherry, the cherry is cheaper than the date, and the date is cheaper than the elderberry.
+Which one is the third-cheapest fruit?
+Answer: apple
+
+Example 5:
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and an orange book. The blue book is the second from the left, the green book is to the right of the yellow book, and the purple book is to the right of the orange book.
+Which one is the fifth book from the left?
+Answer: purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,24,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.52,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a race, there were five runners: Alex, Ben, Charlie, Dave, and Eve. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben. Eve finished ahead of Dave.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave, Eve
+Answer: Eve
+
+Example 4:
+In a chess tournament, there were six players: John, Mike, Sarah, Tom, Wendy, and Zoe. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom. Zoe finished ahead of Mike.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy, Zoe
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,25,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.52,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a dance competition, there were six dancers: Emily, Frank, Grace, Henry, Isabel, and Julia. Frank finished ahead of Grace. Henry finished ahead of Isabel. Julia finished ahead of Emily. Grace finished ahead of Frank.
+Which one finished first?
+Choices: Emily, Frank, Grace, Henry, Isabel, Julia
+Answer: Julia
+
+Example 4:
+In a musical performance, there were seven musicians: Kevin, Lisa, Mark, Nancy, Paul, Sarah, and Taylor. Kevin finished ahead of Lisa. Mark finished ahead of Paul. Taylor finished ahead of Nancy. Sarah finished ahead of Kevin.
+Which one finished first?
+Choices: Kevin, Lisa, Mark, Nancy, Paul, Sarah, Taylor
+Answer: Taylor
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5033333333333333
+cot,26,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a race, there were five runners: Alex, Ben, Charlie, Dave, and Eve. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben. Eve finished ahead of Dave.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave, Eve
+Answer: Eve
+
+Example 4:
+In a chess tournament, there were six players: John, Mike, Sarah, Tom, Wendy, and Zoe. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom. Zoe finished ahead of Mike.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy, Zoe
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a race, there were five runners: Alex, Ben, Charlie, Dave, and Eve. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben. Eve finished ahead of Dave.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave, Eve
+Answer: Eve
+
+Example 4:
+In a chess tournament, there were six players: John, Mike, Sarah, Tom, Wendy, and Zoe. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom. Zoe finished ahead of Mike.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy, Zoe
+Answer: Wendy
+
+Example 5:
+In a chess tournament, there were seven players: Alice, Bob, Carol, Dan, Eve, Frank, and Grace. Alice finished ahead of Bob. Eve finished ahead of Alice. Grace finished ahead of Eve. Carol finished ahead of Dan. Dan finished ahead of Frank.
+Which one finished first?
+Choices: Alice, Bob, Carol, Dan, Eve, Frank, Grace
+Answer: Alice
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,27,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5133333333333333,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the right?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5166666666666667
+cot,28,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the right?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5166666666666667,"Example 1:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333
+cot,29,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.52,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a row of cars, there were six vehicles: Ford, Honda, Jeep, Mercedes, Tesla, and Toyota. Ford was the oldest. Honda was the second oldest. Mercedes was the newest. Tesla finished ahead of Toyota.
+Which one finished third?
+Choices: Ford, Honda, Jeep, Mercedes, Tesla, Toyota
+Answer: Jeep
+
+Example 4:
+In a line of people, there were seven individuals: Alice, Bob, Charlie, David, Eve, Frank, and Grace. Alice was the first. Bob was the second. Charlie was the fourth. David was the fifth. Eve was the sixth. Frank was the seventh.
+Which one finished third?
+Choices: Alice, Bob, Charlie, David, Eve, Frank, Grace
+Answer: Charlie
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667
+cot,30,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a race, there were five runners: Alex, Ben, Charlie, Dave, and Eve. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben. Eve finished ahead of Dave.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave, Eve
+Answer: Eve
+
+Example 4:
+In a chess tournament, there were six players: John, Mike, Sarah, Tom, Wendy, and Zoe. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom. Zoe finished ahead of Mike.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy, Zoe
+Answer: Wendy
+
+Example 5:
+In a chess tournament, there were seven players: Alice, Bob, Carol, Dan, Eve, Frank, and Grace. Alice finished ahead of Bob. Eve finished ahead of Alice. Grace finished ahead of Eve. Carol finished ahead of Dan. Dan finished ahead of Frank.
+Which one finished first?
+Choices: Alice, Bob, Carol, Dan, Eve, Frank, Grace
+Answer: Alice
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51,"Example 1:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 2:
+In a race, there were five runners: Alex, Ben, Charlie, Dave, and Eve. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben. Eve finished ahead of Dave.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave, Eve
+Answer: Eve
+
+Example 3:
+In a chess tournament, there were six players: John, Mike, Sarah, Tom, Wendy, and Zoe. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom. Zoe finished ahead of Mike.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy, Zoe
+Answer: Wendy
+
+Example 4:
+In a race, there were six runners: Alex, Ben, Charlie, Dave, Eve, and Frank. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben. Eve finished ahead of Dave. Frank finished ahead of Eve.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave, Eve, Frank
+Answer: Frank
+
+Example 5:
+In a chess tournament, there were seven players: Alice, Bob, Carol, Dan, Eve, Frank, and Grace. Alice finished ahead of Bob. Eve finished ahead of Alice. Grace finished ahead of Eve. Carol finished ahead of Dan. Dan finished ahead of Frank.
+Which one finished first?
+Choices: Alice, Bob, Carol, Dan, Eve, Frank, Grace
+Answer: Alice
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5033333333333333
+cot,31,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5133333333333333,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 5:
+In a line of five birds, from left to right: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5166666666666667
+cot,32,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.52,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a cooking competition, there were four chefs: Jamie, Kyle, Lisa, and Max. Jamie finished ahead of Kyle. Lisa finished ahead of Max. Kyle finished ahead of Jamie.
+Which one finished first?
+Choices: Jamie, Kyle, Lisa, Max
+Answer: Lisa
+
+Example 4:
+In a dance competition, there were five dancers: Anna, Ben, Carla, Dave, and Eve. Anna finished ahead of Ben. Carla finished ahead of Anna. Dave finished ahead of Carla. Ben finished ahead of Eve.
+Which one finished first?
+Choices: Anna, Ben, Carla, Dave, Eve
+Answer: Anna
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4933333333333333
+cot,33,examples,"Example 1:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333,"Example 1:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Example 2:
+In a row of nine books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, white book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, white
+Answer: orange
+
+Example 3:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: SUV
+
+Example 4:
+In a row of five books, the order from left to right is: red book, blue book, green book, yellow book, orange book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange
+Answer: blue
+
+Example 5:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5266666666666666
+cot,34,examples,"Example 1:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 2:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 5:
+In a line of five birds, from left to right: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5166666666666667,"Example 1:
+In a line of five cars: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 2:
+In a row of six books: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 3:
+In a line of five birds, from left to right: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Example 4:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 5:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333
+cot,35,examples,"Example 1:
+In a line of five cars: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 2:
+In a row of six books: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 3:
+In a line of five birds, from left to right: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Example 4:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 5:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333,"Example 1:
+In a line of five cars: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the right of the minivan.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 2:
+In a row of six books: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is to the right of the pink book.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 3:
+In a line of five birds, from left to right: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Example 4:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 5:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666
+cot,36,examples,"Example 1:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Example 2:
+In a row of nine books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, white book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, white
+Answer: orange
+
+Example 3:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: SUV
+
+Example 4:
+In a row of five books, the order from left to right is: red book, blue book, green book, yellow book, orange book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange
+Answer: blue
+
+Example 5:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5266666666666666,"Example 1:
+In a line of nine cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck
+Answer: pickup truck
+
+Example 2:
+In a row of ten books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, white book, gray book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the seventh from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, white, gray
+Answer: brown
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: blue
+
+Example 5:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666
+cot,37,examples,"Example 1:
+In a line of five cars: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the right of the minivan.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 2:
+In a row of six books: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is to the right of the pink book.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 3:
+In a line of five birds, from left to right: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Example 4:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 5:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a line of five cars: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the right of the minivan.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 2:
+In a row of six books: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is to the right of the pink book.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 3:
+In a line of five birds, from left to right: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Example 4:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 5:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666
+cot,38,examples,"Example 1:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333,"Example 1:
+In a row of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666
+cot,39,examples,"Example 1:
+In a line of five cars: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 2:
+In a row of six books: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 3:
+In a line of five birds, from left to right: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Example 4:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 5:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333,"Example 1:
+In a line of six cars: minivan, sedan, SUV, pickup truck, van, truck. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the second from the right.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, truck
+Answer: SUV
+
+Example 2:
+In a row of five books: red book, blue book, green book, yellow book, orange book. The blue book is to the left of the green book. The yellow book is the fourth from the left. The orange book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange
+Answer: blue
+
+Example 3:
+In a line of seven birds, from left to right: parrot, hawk, owl, falcon, robin, crow, eagle. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin. The crow is to the left of the eagle.
+Which one is the fifth from the left?
+Choices: parrot, hawk, owl, falcon, robin, crow, eagle
+Answer: robin
+
+Example 4:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 5:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5233333333333333
+cot,40,examples,"Example 1:
+In a line of nine cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck
+Answer: pickup truck
+
+Example 2:
+In a row of ten books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, white book, gray book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the seventh from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, white, gray
+Answer: brown
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: blue
+
+Example 5:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a line of eight cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fifth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep
+Answer: pickup truck
+
+Example 2:
+In a row of eight books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black
+Answer: yellow
+
+Example 3:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, convertible
+Answer: SUV
+
+Example 4:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: yellow
+
+Example 5:
+In a line of nine cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333
+cot,41,examples,"Example 1:
+In a line of nine cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck
+Answer: pickup truck
+
+Example 2:
+In a row of ten books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, white book, gray book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the seventh from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, white, gray
+Answer: brown
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: blue
+
+Example 5:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a line of eight books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is to the right of the brown book.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black
+Answer: yellow
+
+Example 2:
+In a row of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The hatchback is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: minivan
+
+Example 3:
+In a line of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 4:
+In a row of nine cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck
+Answer: pickup truck
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.51
+cot,42,examples,"Example 1:
+In a row of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a row of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The SUV is to the left of the pickup truck. The van is to the right of the hatchback. The minivan is to the left of the sedan.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Example 2:
+In a row of five books, the order from left to right is: red book, blue book, green book, yellow book, orange book. The blue book is to the right of the green book. The yellow book is to the right of the orange book. The red book is the leftmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange
+Answer: blue
+
+Example 3:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the right of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.53
+cot,43,examples,"Example 1:
+In a line of nine cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck
+Answer: pickup truck
+
+Example 2:
+In a row of ten books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, white book, gray book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the seventh from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, white, gray
+Answer: brown
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: blue
+
+Example 5:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a line of ten cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck, motorcycle. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost. The motorcycle is the second from the left.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck, motorcycle
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: blue
+
+Example 3:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the fifth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: van
+
+Example 4:
+In a row of five books, the order from left to right is: red book, blue book, green book, yellow book, orange book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange
+Answer: yellow
+
+Example 5:
+In a line of eight cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333
+cot,44,examples,"Example 1:
+In a row of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a row of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666
+cot,45,examples,"Example 1:
+In a line of five cars: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the right of the minivan.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 2:
+In a row of six books: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is to the right of the pink book.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 3:
+In a line of five birds, from left to right: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the left of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Example 4:
+In a race, there were four runners: Alex, Ben, Charlie, and Dave. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave
+Answer: Dave
+
+Example 5:
+In a chess tournament, there were five players: John, Mike, Sarah, Tom, and Wendy. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy
+Answer: Wendy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a line of six cars: minivan, sedan, SUV, pickup truck, van, jeep. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the jeep.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, jeep
+Answer: SUV
+
+Example 2:
+In a row of seven books: red book, blue book, green book, yellow book, orange book, pink book, purple book. The blue book is to the left of the green book. The yellow book is to the right of the orange book. The orange book is the fourth from the left.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, purple
+Answer: yellow
+
+Example 3:
+In a line of five birds: parrot, hawk, owl, falcon, robin. The parrot is to the left of the hawk. The owl is to the left of the falcon. The falcon is to the right of the robin.
+Which one is the second from the left?
+Choices: parrot, hawk, owl, falcon, robin
+Answer: hawk
+
+Example 4:
+In a race, there were five runners: Alex, Ben, Charlie, Dave, and Eve. Ben finished ahead of Charlie. Dave finished ahead of Alex. Charlie finished ahead of Ben.
+Which one finished first?
+Choices: Alex, Ben, Charlie, Dave, Eve
+Answer: Dave
+
+Example 5:
+In a chess tournament, there were six players: John, Mike, Sarah, Tom, Wendy, and Pat. John finished ahead of Mike. Sarah finished ahead of John. Wendy finished ahead of Sarah. Mike finished ahead of Tom. Pat finished ahead of Wendy.
+Which one finished first?
+Choices: John, Mike, Sarah, Tom, Wendy, Pat
+Answer: Pat
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.53
+cot,46,examples,"Example 1:
+In a line of eight cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fifth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep
+Answer: pickup truck
+
+Example 2:
+In a row of eight books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black
+Answer: yellow
+
+Example 3:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, convertible
+Answer: SUV
+
+Example 4:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: yellow
+
+Example 5:
+In a line of nine cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333,"Example 1:
+In a line of ten cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck, motorcycle. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The motorcycle is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck, motorcycle
+Answer: pickup truck
+
+Example 2:
+In a row of ten books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, purple book, gray book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The purple book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, purple, gray
+Answer: yellow
+
+Example 3:
+In a line of eight cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fifth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep
+Answer: pickup truck
+
+Example 4:
+In a row of nine books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, white book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The white book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, white
+Answer: yellow
+
+Example 5:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, convertible, jeep. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, convertible, jeep
+Answer: SUV
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666
+cot,47,examples,"Example 1:
+In a row of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a row of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666
+cot,48,examples,"Example 1:
+In a line of ten cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck, motorcycle. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost. The motorcycle is the second from the left.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck, motorcycle
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: blue
+
+Example 3:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the fifth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: van
+
+Example 4:
+In a row of five books, the order from left to right is: red book, blue book, green book, yellow book, orange book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange
+Answer: yellow
+
+Example 5:
+In a line of eight cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5333333333333333,"Example 1:
+In a line of nine cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, motorcycle. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost. The motorcycle is the second from the left.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, motorcycle
+Answer: pickup truck
+
+Example 2:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the fourth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: green
+
+Example 3:
+In a line of ten cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck, motorcycle. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost. The motorcycle is the second from the left.
+Which one is the fifth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck, motorcycle
+Answer: pickup truck
+
+Example 4:
+In a row of eight books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, purple book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, purple
+Answer: blue
+
+Example 5:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5433333333333333
+cot,49,examples,"Example 1:
+In a line of nine cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the sixth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible, jeep, truck
+Answer: pickup truck
+
+Example 2:
+In a row of ten books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, white book, gray book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the seventh from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, white, gray
+Answer: brown
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the second from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: blue
+
+Example 5:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a row of eight books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book. The blue book is to the left of the green book. The yellow book is the fourth from the left. The orange book is the seventh from the left. The pink book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black
+Answer: yellow
+
+Example 2:
+In a line of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost. The hatchback is to the left of the pickup truck.
+Which one is the third from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: SUV
+
+Example 3:
+In a row of ten books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book, black book, white book, gray book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the fifth from the left. The pink book is the rightmost.
+Which one is the eighth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown, black, white, gray
+Answer: brown
+
+Example 4:
+In a line of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, convertible. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The convertible is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, convertible
+Answer: sedan
+
+Example 5:
+In a row of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: pickup truck
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666
+cot,50,examples,"Example 1:
+In a row of six cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback.
+Which one is the third from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback
+Answer: pickup truck
+
+Example 2:
+In a row of seven books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book, brown book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink, brown
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5366666666666666,"Example 1:
+In a row of seven cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van, hatchback, motorcycle. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is to the left of the hatchback. The motorcycle is the rightmost.
+Which one is the fifth from the right?
+Choices: minivan, sedan, SUV, pickup truck, van, hatchback, motorcycle
+Answer: pickup truck
+
+Example 2:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 3:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the fourth from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: SUV
+
+Example 4:
+In a row of six books, the order from left to right is: red book, blue book, green book, yellow book, orange book, pink book. The blue book is to the left of the green book. The yellow book is the third from the left. The orange book is the rightmost.
+Which one is the fifth from the left?
+Choices: red, blue, green, yellow, orange, pink
+Answer: orange
+
+Example 5:
+In a line of five cars, the order from left to right is: minivan, sedan, SUV, pickup truck, van. The minivan is to the left of the sedan. The SUV is to the right of the pickup truck. The van is the rightmost.
+Which one is the second from the left?
+Choices: minivan, sedan, SUV, pickup truck, van
+Answer: sedan
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5266666666666666

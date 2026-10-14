@@ -1,0 +1,1386 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,cot,0,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,cot,1,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,cot,2,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,cot,3,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,cot,4,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,cot,5,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,cot,6,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,cot,7,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,cot,8,logical,,,,,,0.5066666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,cot,9,logical,,,,,,0.5133333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,10,logical,,,,,,0.5166666666666667,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify the given items and their relationships**: List each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items in a ranked list.
+3. **Determine the rank of the item in question**: Identify the position of the item in the ranked list.
+4. **Select the correct answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,11,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify the given relationships and order**: List all items and their relationships (e.g., older than, newer than, heavier than, lighter than). Use a table to organize this information.
+2. **Apply the relationships to establish an order**: Based on the relationships, determine the correct order of the items (e.g., oldest to newest, lightest to heaviest). Use the relationships to place each item in its correct position.
+3. **Locate the target item**: Identify the position of the item in question in the ordered list.
+4. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,12,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify the given relationships and order**: List all items and their relationships (e.g., older than, newer than, heavier than, lighter than). Use a table to organize this information.
+2. **Apply the relationships to establish an order**: Based on the relationships, determine the correct order of the items (e.g., oldest to newest, lightest to heaviest). Use the relationships to place each item in its correct position.
+3. **Locate the target item**: Identify the position of the item in question in the ordered list.
+4. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,13,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list, ensuring each item is placed correctly based on all given relationships.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,14,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list, ensuring each item is placed correctly based on all given relationships.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,15,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list, ensuring each item is placed correctly based on all given relationships.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,16,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list, ensuring each item is placed correctly based on all given relationships.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,17,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list, ensuring each item is placed correctly based on all given relationships.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,18,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list, ensuring each item is placed correctly based on all given relationships.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,19,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list, ensuring each item is placed correctly based on all given relationships.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,20,logical,,,,,,0.5233333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list, ensuring each item is placed correctly based on all given relationships.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position."
+summary,few_shots,cot,21,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **List all given items and their relationships**: Identify each item and the relationships (e.g., older than, newer than, heavier than, lighter than) between them.
+2. **Create a ranked list based on the relationships**: Use the relationships to order the items from oldest to newest (or lightest to heaviest, etc.) in a ranked list.
+3. **Identify the position of the item in question**: Determine the rank of the item in the ranked list.
+4. **Select the answer**: Choose the item that corresponds to the determined position.
+5. **Ensure directional consistency**: Apply relationships consistently in the specified direction (e.g., left-to-right, right-to-left).
+6. **Verify relationship accuracy**: Ensure that inferred relationships are consistent with the given data.
+7. **Interpret comparative terms correctly**: Use clear definitions of comparative terms (e.g., heavier than, older than) consistently."
+summary,few_shots,cot,22,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+**IMPROVED REASONING:**
+1. **Establish a base order**: Start with the item(s) with the most constraints (e.g., newest/oldest, heaviest/lightest) and work outwards.
+2. **Fill in remaining positions**: Use the remaining relationships to fill in the positions of the items not yet placed.
+3. **Double-check the order**: Ensure the order is consistent with all given relationships.
+4. **Identify the target position**: Locate the position of the item in question in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,23,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+**IMPROVED REASONING:**
+1. **Establish a base order**: Start with the item(s) with the most constraints (e.g., newest/oldest, heaviest/lightest) and work outwards.
+2. **Fill in remaining positions**: Use the remaining relationships to fill in the positions of the items not yet placed.
+3. **Double-check the order**: Ensure the order is consistent with all given relationships.
+4. **Identify the target position**: Locate the position of the item in question in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,24,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+**IMPROVED REASONING:**
+1. **Establish a base order**: Start with the item(s) with the most constraints (e.g., newest/oldest, heaviest/lightest) and work outwards.
+2. **Fill in remaining positions**: Use the remaining relationships to fill in the positions of the items not yet placed.
+3. **Double-check the order**: Ensure the order is consistent with all given relationships.
+4. **Identify the target position**: Locate the position of the item in question in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,25,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+**IMPROVED REASONING:**
+1. **Establish a base order**: Start with the item(s) with the most constraints (e.g., newest/oldest, heaviest/lightest) and work outwards.
+2. **Fill in remaining positions**: Use the remaining relationships to fill in the positions of the items not yet placed.
+3. **Double-check the order**: Ensure the order is consistent with all given relationships.
+4. **Identify the target position**: Locate the position of the item in question in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,26,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+**IMPROVED REASONING:**
+1. **Establish a base order**: Start with the item(s) with the most constraints (e.g., newest/oldest, heaviest/lightest) and work outwards.
+2. **Fill in remaining positions**: Use the remaining relationships to fill in the positions of the items not yet placed.
+3. **Double-check the order**: Ensure the order is consistent with all given relationships.
+4. **Identify the target position**: Locate the position of the item in question in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,27,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+**IMPROVED REASONING:**
+1. **Establish a base order**: Start with the item(s) with the most constraints (e.g., newest/oldest, heaviest/lightest) and work outwards.
+2. **Fill in remaining positions**: Use the remaining relationships to fill in the positions of the items not yet placed.
+3. **Double-check the order**: Ensure the order is consistent with all given relationships.
+4. **Identify the target position**: Locate the position of the item in question in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,28,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+**IMPROVED REASONING:**
+1. **Establish a base order**: Start with the item(s) with the most constraints (e.g., newest/oldest, heaviest/lightest) and work outwards.
+2. **Fill in remaining positions**: Use the remaining relationships to fill in the positions of the items not yet placed.
+3. **Double-check the order**: Ensure the order is consistent with all given relationships.
+4. **Identify the target position**: Locate the position of the item in question in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,29,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+**IMPROVED REASONING:**
+1. **Establish a base order**: Start with the item(s) with the most constraints (e.g., newest/oldest, heaviest/lightest) and work outwards.
+2. **Fill in remaining positions**: Use the remaining relationships to fill in the positions of the items not yet placed.
+3. **Double-check the order**: Ensure the order is consistent with all given relationships.
+4. **Identify the target position**: Locate the position of the item in question in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,30,logical,,,,,,0.5266666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+**IMPROVED REASONING:**
+1. **Establish a base order**: Start with the item(s) with the most constraints (e.g., newest/oldest, heaviest/lightest) and work outwards.
+2. **Fill in remaining positions**: Use the remaining relationships to fill in the positions of the items not yet placed.
+3. **Double-check the order**: Ensure the order is consistent with all given relationships.
+4. **Identify the target position**: Locate the position of the item in question in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the determined position from the options provided."
+summary,few_shots,cot,31,logical,,,,,,0.5366666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize relationships**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided."
+summary,few_shots,cot,32,logical,,,,,,0.5366666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize relationships**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided."
+summary,few_shots,cot,33,logical,,,,,,0.5366666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize relationships**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided."
+summary,few_shots,cot,34,logical,,,,,,0.5366666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize relationships**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided."
+summary,few_shots,cot,35,logical,,,,,,0.5366666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize relationships**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided."
+summary,few_shots,cot,36,logical,,,,,,0.5366666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize relationships**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided."
+summary,few_shots,cot,37,logical,,,,,,0.5366666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize relationships**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided."
+summary,few_shots,cot,38,logical,,,,,,0.5366666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize relationships**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided."
+summary,few_shots,cot,39,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,40,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,41,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,42,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,43,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,44,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,45,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,46,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,47,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,48,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,49,logical,,,,,,0.5433333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."
+summary,few_shots,cot,50,logical,,,,,,0.5433333333333333,0.46,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.
+
+1. **Identify and list given relationships**: Write down all relationships (e.g., older than, newer than, heavier than, lighter than) and items involved.
+2. **Prioritize direct comparisons**: Focus on relationships that directly compare the target item.
+3. **Apply relationships to determine order**: Establish an order of items using the prioritized relationships.
+4. **Locate the target item**: Identify the target item's position in the ordered list.
+5. **Select the corresponding item**: Choose the item that matches the target item's position from the options provided.
+6. **Consider all relationships**: Ensure that all relevant relationships are considered when determining the order of items."

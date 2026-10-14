@@ -1,0 +1,716 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+zero_shot,0,cot,Solve the following logical reasoning problem.,0.54,"Solve the following logical reasoning problem.
+
+1. Identify the items and their attributes.
+2. Determine the comparative relationships between items.
+3. Establish the relative positions of items.
+4. Analyze the spatial relationships and constraints.
+5. Resolve ambiguities and uncertainties through contextual analysis.
+6. Prioritize and rank the items based on the established relationships and constraints.
+7. Select the item that satisfies all constraints and relationships.",0.5033333333333333
+zero_shot,0,cot,"Solve the following logical reasoning problem.
+
+1. Identify the items and their attributes.
+2. Determine the comparative relationships between items.
+3. Establish the relative positions of items.
+4. Analyze the spatial relationships and constraints.
+5. Resolve ambiguities and uncertainties through contextual analysis.
+6. Prioritize and rank the items based on the established relationships and constraints.
+7. Select the item that satisfies all constraints and relationships.",0.5033333333333333,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label the items, their attributes, and their comparative relationships.
+2. Establish the relative positions and spatial relationships of items based on given constraints.
+3. Analyze the comparative relationships to determine the correct ordering and ranking of items.
+4. Resolve any ambiguities or uncertainties by re-examining the given information and constraints.
+5. Prioritize and rank the items based on their established relationships and constraints.
+6. Select the item that satisfies all constraints and relationships as the final solution.",0.51
+zero_shot,0,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label the items, their attributes, and their comparative relationships.
+2. Establish the relative positions and spatial relationships of items based on given constraints.
+3. Analyze the comparative relationships to determine the correct ordering and ranking of items.
+4. Resolve any ambiguities or uncertainties by re-examining the given information and constraints.
+5. Prioritize and rank the items based on their established relationships and constraints.
+6. Select the item that satisfies all constraints and relationships as the final solution.",0.51,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish relative positions and spatial relationships based on given constraints.
+3. Analyze comparative relationships to determine item ordering and ranking.
+4. Resolve ambiguities by re-examining given information and constraints.
+5. Prioritize items based on established relationships and constraints.
+6. Verify item satisfaction of all constraints and relationships.
+7. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+8. Establish clear prioritization and ranking mechanisms for multiple items.
+9. Confirm correct ordering and ranking based on established relationships and constraints.",0.4966666666666666
+zero_shot,0,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish relative positions and spatial relationships based on given constraints.
+3. Analyze comparative relationships to determine item ordering and ranking.
+4. Resolve ambiguities by re-examining given information and constraints.
+5. Prioritize items based on established relationships and constraints.
+6. Verify item satisfaction of all constraints and relationships.
+7. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+8. Establish clear prioritization and ranking mechanisms for multiple items.
+9. Confirm correct ordering and ranking based on established relationships and constraints.",0.4966666666666666,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Analyze comparative relationships to determine item ordering and ranking.
+3. Resolve ambiguities by re-examining given information and constraints.
+4. Prioritize items based on established relationships and constraints.
+5. Verify item satisfaction of all constraints and relationships.
+6. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+7. Establish clear prioritization and ranking mechanisms for multiple items.
+8. Confirm correct ordering and ranking based on established relationships and constraints.
+9. Analyze comparative relationships to resolve conflicts and determine final ranking.
+10. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Confirm that the solution is consistent with all given information and constraints.",0.5166666666666667
+zero_shot,1,cot,"Solve the following logical reasoning problem.
+
+1. Identify the items and their attributes.
+2. Determine the comparative relationships between items.
+3. Establish the relative positions of items.
+4. Analyze the spatial relationships and constraints.
+5. Resolve ambiguities and uncertainties through contextual analysis.
+6. Prioritize and rank the items based on the established relationships and constraints.
+7. Select the item that satisfies all constraints and relationships.",0.5033333333333333,"Solve the following logical reasoning problem.
+
+1. Identify the items, their attributes, and comparative relationships.
+2. Establish relative positions and spatial relationships.
+3. Analyze contextual constraints and ambiguities.
+4. Prioritize and rank items based on established relationships.
+5. Resolve uncertainties through contextual analysis.
+6. Select the item satisfying all constraints and relationships.",0.5033333333333333
+zero_shot,2,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Analyze comparative relationships to determine item ordering and ranking.
+3. Resolve ambiguities by re-examining given information and constraints.
+4. Prioritize items based on established relationships and constraints.
+5. Verify item satisfaction of all constraints and relationships.
+6. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+7. Establish clear prioritization and ranking mechanisms for multiple items.
+8. Confirm correct ordering and ranking based on established relationships and constraints.
+9. Analyze comparative relationships to resolve conflicts and determine final ranking.
+10. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Confirm that the solution is consistent with all given information and constraints.",0.5166666666666667,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish clear prioritization and ranking mechanisms for multiple items.
+3. Analyze comparative relationships to determine item ordering and ranking.
+4. Re-examine given information and constraints to resolve ambiguities.
+5. Prioritize items based on established relationships and constraints.
+6. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+7. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+8. Resolve conflicts by re-analyzing comparative relationships and constraints.
+9. Confirm that the solution is consistent with all given information and constraints.
+10. Verify item satisfaction of all constraints and relationships.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Analyze comparative relationships to resolve conflicts and determine final ranking.
+13. Confirm correct ordering and ranking based on established relationships and constraints.
+14. Identify and address any potential conflicts or ambiguities in relationships.",0.5133333333333333
+zero_shot,3,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish clear prioritization and ranking mechanisms for multiple items.
+3. Analyze comparative relationships to determine item ordering and ranking.
+4. Re-examine given information and constraints to resolve ambiguities.
+5. Prioritize items based on established relationships and constraints.
+6. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+7. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+8. Resolve conflicts by re-analyzing comparative relationships and constraints.
+9. Confirm that the solution is consistent with all given information and constraints.
+10. Verify item satisfaction of all constraints and relationships.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Analyze comparative relationships to resolve conflicts and determine final ranking.
+13. Confirm correct ordering and ranking based on established relationships and constraints.
+14. Identify and address any potential conflicts or ambiguities in relationships.",0.5133333333333333,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish clear prioritization and ranking mechanisms for multiple items.
+3. Verify that all items satisfy all constraints and relationships.
+4. Re-examine given information and constraints to resolve ambiguities.
+5. Prioritize items based on established relationships and constraints.
+6. Analyze comparative relationships to determine item ordering and ranking.
+7. Resolve conflicts by re-analyzing comparative relationships and constraints.
+8. Confirm that the solution is consistent with all given information and constraints.
+9. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+10. Re-examine the solution for any remaining ambiguities or conflicts.
+11. Verify item satisfaction of all constraints and relationships.
+12. Confirm correct ordering and ranking based on established relationships and constraints.
+13. Identify and address any potential conflicts or ambiguities in relationships.
+14. Analyze comparative relationships to resolve conflicts and determine final ranking.
+15. Review and refine prioritization and ranking mechanisms as necessary.",0.5066666666666667
+zero_shot,4,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label the items, their attributes, and their comparative relationships.
+2. Establish the relative positions and spatial relationships of items based on given constraints.
+3. Analyze the comparative relationships to determine the correct ordering and ranking of items.
+4. Resolve any ambiguities or uncertainties by re-examining the given information and constraints.
+5. Prioritize and rank the items based on their established relationships and constraints.
+6. Select the item that satisfies all constraints and relationships as the final solution.",0.51,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label the items, their attributes, and their comparative relationships.
+2. Establish the relative positions and spatial relationships of items based on given constraints.
+3. Analyze comparative relationships to determine their relative importance and specificity.
+4. Re-examine the given information and constraints to resolve any ambiguities or uncertainties.
+5. Prioritize relationships based on their relative importance and specificity.
+6. Determine the correct ordering and ranking of items based on their established relationships and constraints.
+7. Select the item that satisfies all constraints and relationships as the final solution.",0.5033333333333333
+zero_shot,5,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish clear prioritization and ranking mechanisms for multiple items.
+3. Analyze comparative relationships to determine item ordering and ranking.
+4. Re-examine given information and constraints to resolve ambiguities.
+5. Prioritize items based on established relationships and constraints.
+6. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+7. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+8. Resolve conflicts by re-analyzing comparative relationships and constraints.
+9. Confirm that the solution is consistent with all given information and constraints.
+10. Verify item satisfaction of all constraints and relationships.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Analyze comparative relationships to resolve conflicts and determine final ranking.
+13. Confirm correct ordering and ranking based on established relationships and constraints.
+14. Identify and address any potential conflicts or ambiguities in relationships.",0.5133333333333333,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish clear prioritization and ranking mechanisms for multiple items based on given relationships and constraints.
+3. Analyze comparative relationships to determine item ordering and ranking.
+4. Resolve conflicts by re-analyzing comparative relationships and constraints.
+5. Prioritize items based on established relationships and constraints.
+6. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+7. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+8. Confirm that the solution is consistent with all given information and constraints.
+9. Verify item satisfaction of all constraints and relationships.
+10. Analyze comparative relationships to resolve conflicts and determine final ranking.
+11. Confirm correct ordering and ranking based on established relationships and constraints.
+12. Identify and address any potential conflicts or ambiguities in relationships.
+13. Re-examine the solution for any remaining ambiguities or conflicts.
+14. Verify that no item violates any constraint or relationship.
+15. Confirm the final solution is consistent with all given information and constraints.
+16. Finalize the solution based on established relationships and constraints.",0.51
+zero_shot,6,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Analyze comparative relationships to determine item ordering and ranking.
+3. Resolve ambiguities by re-examining given information and constraints.
+4. Prioritize items based on established relationships and constraints.
+5. Verify item satisfaction of all constraints and relationships.
+6. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+7. Establish clear prioritization and ranking mechanisms for multiple items.
+8. Confirm correct ordering and ranking based on established relationships and constraints.
+9. Analyze comparative relationships to resolve conflicts and determine final ranking.
+10. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Confirm that the solution is consistent with all given information and constraints.",0.5166666666666667,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Analyze comparative relationships to determine item ordering and ranking.
+3. Resolve ambiguities by re-examining given information and constraints.
+4. Prioritize items based on established relationships and constraints.
+5. Verify item satisfaction of all constraints and relationships.
+6. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+7. Establish clear prioritization and ranking mechanisms for multiple items.
+8. Confirm correct ordering and ranking based on established relationships and constraints.
+9. Analyze comparative relationships to resolve conflicts and determine final ranking.
+10. Identify and address all constraints before finalizing the solution.
+11. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+12. Confirm that the solution is consistent with all given information and constraints.
+13. Re-examine the solution for any remaining ambiguities or conflicts.
+14. Identify and rectify any inconsistencies in constraint application.
+15. Analyze relationships to ensure correct ranking in case of multiple or conflicting relationships.",0.5133333333333333
+zero_shot,7,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Analyze comparative relationships to determine item ordering and ranking.
+3. Resolve ambiguities by re-examining given information and constraints.
+4. Prioritize items based on established relationships and constraints.
+5. Verify item satisfaction of all constraints and relationships.
+6. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+7. Establish clear prioritization and ranking mechanisms for multiple items.
+8. Confirm correct ordering and ranking based on established relationships and constraints.
+9. Analyze comparative relationships to resolve conflicts and determine final ranking.
+10. Identify and address all constraints before finalizing the solution.
+11. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+12. Confirm that the solution is consistent with all given information and constraints.
+13. Re-examine the solution for any remaining ambiguities or conflicts.
+14. Identify and rectify any inconsistencies in constraint application.
+15. Analyze relationships to ensure correct ranking in case of multiple or conflicting relationships.",0.5133333333333333,"Solve the following logical reasoning problem.
+
+1. Establish clear prioritization and ranking mechanisms for multiple items.
+2. Analyze comparative relationships to determine item ordering and ranking.
+3. Resolve ambiguities by re-examining given information and constraints.
+4. Prioritize items based on established relationships and constraints.
+5. Verify item satisfaction of all constraints and relationships.
+6. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+7. Identify and address all constraints before finalizing the solution.
+8. Confirm that the solution is consistent with all given information and constraints.
+9. Re-examine the solution for any remaining ambiguities or conflicts.
+10. Analyze relationships to ensure correct ranking in case of multiple or conflicting relationships.
+11. Identify and rectify any inconsistencies in constraint application.
+12. Establish clear item labeling and attribute identification.
+13. Determine item ordering and ranking based on comparative relationships and constraints.
+14. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+15. Confirm correct ordering and ranking based on established relationships and constraints.",0.52
+zero_shot,8,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish clear prioritization and ranking mechanisms for multiple items.
+3. Analyze comparative relationships to determine item ordering and ranking.
+4. Re-examine given information and constraints to resolve ambiguities.
+5. Prioritize items based on established relationships and constraints.
+6. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+7. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+8. Resolve conflicts by re-analyzing comparative relationships and constraints.
+9. Confirm that the solution is consistent with all given information and constraints.
+10. Verify item satisfaction of all constraints and relationships.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Analyze comparative relationships to resolve conflicts and determine final ranking.
+13. Confirm correct ordering and ranking based on established relationships and constraints.
+14. Identify and address any potential conflicts or ambiguities in relationships.",0.5133333333333333,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish clear prioritization and ranking mechanisms for multiple items based on specific attributes.
+3. Analyze comparative relationships to determine item ordering and ranking.
+4. Re-examine given information and constraints to resolve ambiguities.
+5. Prioritize items based on established relationships and constraints.
+6. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+7. Identify and address any potential conflicts or ambiguities in relationships.
+8. Resolve conflicts by re-analyzing comparative relationships and constraints.
+9. Confirm that the solution is consistent with all given information and constraints.
+10. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Analyze comparative relationships to resolve conflicts and determine final ranking.
+13. Confirm correct ordering and ranking based on established relationships and constraints.
+14. Verify item satisfaction of all constraints and relationships.
+15. Document all assumptions and constraints for thorough understanding.
+16. Evaluate each item against all constraints and relationships.
+17. Identify and address any remaining ambiguities or conflicts.
+18. Confirm the solution meets all requirements and constraints.",0.52
+zero_shot,9,cot,Solve the following logical reasoning problem.,0.54,"Solve the following logical reasoning problem.
+
+1. Identify the comparative relationships and constraints in the context.
+2. Determine the specific details that need to be attended to in the context.
+3. Analyze the order and positioning of items in the sequence.
+4. Use the identified relationships, details, and order to eliminate incorrect options.
+5. Select the option that satisfies all constraints and relationships.
+6. Verify the answer by rechecking the context and relationships.",0.5033333333333333
+zero_shot,10,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Analyze comparative relationships to determine item ordering and ranking.
+3. Resolve ambiguities by re-examining given information and constraints.
+4. Prioritize items based on established relationships and constraints.
+5. Verify item satisfaction of all constraints and relationships.
+6. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+7. Establish clear prioritization and ranking mechanisms for multiple items.
+8. Confirm correct ordering and ranking based on established relationships and constraints.
+9. Analyze comparative relationships to resolve conflicts and determine final ranking.
+10. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Confirm that the solution is consistent with all given information and constraints.",0.5166666666666667,"Solve the following logical reasoning problem.
+
+1. Identify clear item relationships and constraints.
+2. Establish prioritization and ranking mechanisms.
+3. Resolve ambiguities by re-examining information and constraints.
+4. Verify item satisfaction of constraints and relationships.
+5. Analyze comparative relationships for conflicts and ranking.
+6. Re-evaluate comparative relationships for consistency.
+7. Prioritize items based on established relationships and constraints.
+8. Confirm correct ordering and ranking.
+9. Resolve conflicts through comparative relationship analysis.
+10. Verify solution consistency with given information and constraints.
+11. Re-examine solution for remaining ambiguities.
+12. Confirm solution satisfies all constraints and relationships.",0.52
+zero_shot,11,cot,"Solve the following logical reasoning problem.
+
+1. Identify and clearly label items, their attributes, and comparative relationships.
+2. Establish clear prioritization and ranking mechanisms for multiple items based on specific attributes.
+3. Analyze comparative relationships to determine item ordering and ranking.
+4. Re-examine given information and constraints to resolve ambiguities.
+5. Prioritize items based on established relationships and constraints.
+6. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+7. Identify and address any potential conflicts or ambiguities in relationships.
+8. Resolve conflicts by re-analyzing comparative relationships and constraints.
+9. Confirm that the solution is consistent with all given information and constraints.
+10. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+11. Re-examine the solution for any remaining ambiguities or conflicts.
+12. Analyze comparative relationships to resolve conflicts and determine final ranking.
+13. Confirm correct ordering and ranking based on established relationships and constraints.
+14. Verify item satisfaction of all constraints and relationships.
+15. Document all assumptions and constraints for thorough understanding.
+16. Evaluate each item against all constraints and relationships.
+17. Identify and address any remaining ambiguities or conflicts.
+18. Confirm the solution meets all requirements and constraints.",0.52,"Solve the following logical reasoning problem.
+
+1. Clearly identify and label all items, attributes, and comparative relationships.
+2. Establish prioritization and ranking mechanisms based on specific attributes.
+3. Analyze comparative relationships and constraints to determine item ordering.
+4. Re-examine given information and constraints to resolve potential ambiguities.
+5. Prioritize items based on established relationships and constraints.
+6. Verify that all items satisfy all constraints and relationships.
+7. Identify and address potential conflicts or ambiguities in relationships.
+8. Re-analyze comparative relationships and constraints to resolve conflicts.
+9. Confirm the solution is consistent with all given information and constraints.
+10. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+11. Re-examine the solution for remaining ambiguities or conflicts.
+12. Analyze comparative relationships to resolve conflicts and determine final ranking.
+13. Prioritize items using established ranking mechanisms.
+14. Document all assumptions and constraints for thorough understanding.
+15. Evaluate each item against all constraints and relationships.
+16. Resolve conflicts by re-examining comparative relationships and constraints.
+17. Confirm correct ordering and ranking based on established relationships and constraints.
+18. Verify item satisfaction of all constraints and relationships.
+19. Address any remaining ambiguities or conflicts.
+20. Confirm the solution meets all requirements and constraints.",0.5166666666666667
+zero_shot,12,cot,"Solve the following logical reasoning problem.
+
+1. Identify clear item relationships and constraints.
+2. Establish prioritization and ranking mechanisms.
+3. Resolve ambiguities by re-examining information and constraints.
+4. Verify item satisfaction of constraints and relationships.
+5. Analyze comparative relationships for conflicts and ranking.
+6. Re-evaluate comparative relationships for consistency.
+7. Prioritize items based on established relationships and constraints.
+8. Confirm correct ordering and ranking.
+9. Resolve conflicts through comparative relationship analysis.
+10. Verify solution consistency with given information and constraints.
+11. Re-examine solution for remaining ambiguities.
+12. Confirm solution satisfies all constraints and relationships.",0.52,"Solve the following logical reasoning problem.
+
+1. Identify clear item relationships and constraints.
+2. Establish prioritization and ranking mechanisms.
+3. Resolve ambiguities by re-examining information and constraints.
+4. Verify item satisfaction of constraints and relationships.
+5. Analyze comparative relationships for conflicts and ranking.
+6. Re-evaluate comparative relationships for consistency.
+7. Prioritize items based on established relationships and constraints.
+8. Confirm correct ordering and ranking.
+9. Resolve conflicts through comparative relationship analysis.
+10. Verify solution consistency with given information and constraints.
+11. Identify prioritization gaps and ambiguities.
+12. Re-examine solution for remaining conflicts and inconsistencies.
+13. Validate solution satisfies all constraints and relationships.
+14. Confirm solution is consistent with given information.",0.5166666666666667
+zero_shot,13,cot,"Solve the following logical reasoning problem.
+
+1. Identify clear item relationships and constraints.
+2. Establish prioritization and ranking mechanisms.
+3. Resolve ambiguities by re-examining information and constraints.
+4. Verify item satisfaction of constraints and relationships.
+5. Analyze comparative relationships for conflicts and ranking.
+6. Re-evaluate comparative relationships for consistency.
+7. Prioritize items based on established relationships and constraints.
+8. Confirm correct ordering and ranking.
+9. Resolve conflicts through comparative relationship analysis.
+10. Verify solution consistency with given information and constraints.
+11. Re-examine solution for remaining ambiguities.
+12. Confirm solution satisfies all constraints and relationships.",0.52,"Solve the following logical reasoning problem.
+
+1. Identify clear item relationships and constraints.
+2. Establish prioritization and ranking mechanisms.
+3. Resolve ambiguities by re-examining information and constraints.
+4. Verify item satisfaction of constraints and relationships.
+5. Analyze comparative relationships for conflicts and ranking.
+6. Re-evaluate comparative relationships for consistency.
+7. Prioritize items based on established relationships and constraints.
+8. Confirm correct ordering and ranking.
+9. Resolve conflicts through comparative relationship analysis.
+10. Verify solution consistency with given information and constraints.
+11. Re-examine solution for remaining ambiguities.
+12. Confirm solution satisfies all constraints and relationships.
+13. Identify correct ranking mechanisms based on item relationships.
+14. Clarify comparative relationships for consistent ranking.
+15. Re-examine information for conflict resolution.
+16. Validate solution against all constraints and relationships.",0.5133333333333333
+zero_shot,14,cot,"Solve the following logical reasoning problem.
+
+1. Identify clear item relationships and constraints.
+2. Establish prioritization and ranking mechanisms.
+3. Resolve ambiguities by re-examining information and constraints.
+4. Verify item satisfaction of constraints and relationships.
+5. Analyze comparative relationships for conflicts and ranking.
+6. Re-evaluate comparative relationships for consistency.
+7. Prioritize items based on established relationships and constraints.
+8. Confirm correct ordering and ranking.
+9. Resolve conflicts through comparative relationship analysis.
+10. Verify solution consistency with given information and constraints.
+11. Re-examine solution for remaining ambiguities.
+12. Confirm solution satisfies all constraints and relationships.",0.52,"Solve the following logical reasoning problem.
+
+1. Identify clear item relationships and constraints.
+2. Establish prioritization and ranking mechanisms.
+3. Resolve ambiguities by re-examining information and constraints.
+4. Verify item satisfaction of constraints and relationships.
+5. Analyze comparative relationships for conflicts and ranking.
+6. Re-evaluate comparative relationships for consistency.
+7. Prioritize items based on established relationships and constraints.
+8. Confirm correct ordering and ranking.
+9. Resolve conflicts through comparative relationship analysis.
+10. Verify solution consistency with given information and constraints.
+11. Re-examine solution for remaining ambiguities.
+12. Confirm solution satisfies all constraints and relationships.
+13. Identify and address comparative relationship inconsistencies.
+14. Re-prioritize items based on revised relationships and constraints.
+15. Verify item satisfaction of revised relationships and constraints.
+16. Confirm revised solution consistency with given information and constraints.",0.5166666666666667
+zero_shot,15,cot,Solve the following logical reasoning problem.,0.54,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost).
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to).
+4. Identify any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Use the identified relationships and constraints to determine the correct ordering of items.
+6. Select the correct answer based on the determined ordering.",0.54
+zero_shot,16,cot,"Solve the following logical reasoning problem.
+
+1. Establish clear prioritization and ranking mechanisms for multiple items.
+2. Analyze comparative relationships to determine item ordering and ranking.
+3. Resolve ambiguities by re-examining given information and constraints.
+4. Prioritize items based on established relationships and constraints.
+5. Verify item satisfaction of all constraints and relationships.
+6. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+7. Identify and address all constraints before finalizing the solution.
+8. Confirm that the solution is consistent with all given information and constraints.
+9. Re-examine the solution for any remaining ambiguities or conflicts.
+10. Analyze relationships to ensure correct ranking in case of multiple or conflicting relationships.
+11. Identify and rectify any inconsistencies in constraint application.
+12. Establish clear item labeling and attribute identification.
+13. Determine item ordering and ranking based on comparative relationships and constraints.
+14. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+15. Confirm correct ordering and ranking based on established relationships and constraints.",0.52,"Solve the following logical reasoning problem.
+
+1. Verify item satisfaction of all constraints and relationships.
+2. Re-evaluate comparative relationships in case of multiple or conflicting relationships.
+3. Identify and address all constraints before finalizing the solution.
+4. Confirm that the solution is consistent with all given information and constraints.
+5. Rectify any inconsistencies in constraint application.
+6. Establish clear item labeling and attribute identification.
+7. Determine item ordering and ranking based on comparative relationships and constraints.
+8. Verify that all items satisfy all constraints and relationships before finalizing the solution.
+9. Analyze relationships to ensure correct ranking in case of multiple or conflicting relationships.
+10. Confirm correct ordering and ranking based on established relationships and constraints.
+11. Prioritize items based on established relationships and constraints.
+12. Resolve ambiguities by re-examining given information and constraints.
+13. Analyze comparative relationships to determine item ordering and ranking.
+14. Re-examine the solution for any remaining ambiguities or conflicts.
+15. Ensure all steps are consistent with the given information and constraints.",0.5133333333333333
+zero_shot,17,cot,"Solve the following logical reasoning problem.
+
+1. Identify clear item relationships and constraints.
+2. Establish prioritization and ranking mechanisms.
+3. Resolve ambiguities by re-examining information and constraints.
+4. Verify item satisfaction of constraints and relationships.
+5. Analyze comparative relationships for conflicts and ranking.
+6. Re-evaluate comparative relationships for consistency.
+7. Prioritize items based on established relationships and constraints.
+8. Confirm correct ordering and ranking.
+9. Resolve conflicts through comparative relationship analysis.
+10. Verify solution consistency with given information and constraints.
+11. Re-examine solution for remaining ambiguities.
+12. Confirm solution satisfies all constraints and relationships.",0.52,"Solve the following logical reasoning problem.
+
+1. Identify item relationships and constraints.
+2. Prioritize items using established relationships.
+3. Resolve ambiguities by re-examining constraints.
+4. Verify item satisfaction of constraints and relationships.
+5. Analyze comparative relationships for conflicts.
+6. Re-evaluate comparative relationships for consistency.
+7. Prioritize items based on established relationships.
+8. Resolve conflicts through comparative relationship analysis.
+9. Verify solution consistency with given information.
+10. Confirm solution satisfies all constraints and relationships.
+11. Re-examine solution for remaining ambiguities.
+12. Validate solution through constraint satisfaction.",0.4866666666666667
+zero_shot,18,cot,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost).
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to).
+4. Identify any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Use the identified relationships and constraints to determine the correct ordering of items.
+6. Select the correct answer based on the determined ordering.",0.54,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Determine the explicit definitions of relative positions (e.g., oldest, newest, leftmost, rightmost).
+3. Establish the explicit relationships between items in the sequence (e.g., before, after, equal to).
+4. Identify and clearly articulate any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Use the identified relationships and constraints to determine the correct ordering of items.
+6. Select the correct answer based on the determined ordering.",0.5233333333333333
+zero_shot,19,cot,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost).
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to).
+4. Identify any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Use the identified relationships and constraints to determine the correct ordering of items.
+6. Select the correct answer based on the determined ordering.",0.54,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost).
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to).
+4. Identify and explicitly state any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Clearly define the scope of the sequence (e.g., entire list, partial list, specific subset).
+6. Use the identified relationships, constraints, and scope to determine the correct ordering of items.
+7. Select the correct answer based on the determined ordering.",0.53
+zero_shot,20,cot,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost).
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to).
+4. Identify any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Use the identified relationships and constraints to determine the correct ordering of items.
+6. Select the correct answer based on the determined ordering.",0.54,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered and understand the context in which they are presented.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost) and identify any spatial relationships.
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to) and clarify any ambiguous relationships.
+4. Identify and prioritize any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers) and consider their implications.
+5. Use the identified relationships, constraints, and contextual understanding to determine the correct ordering of items.
+6. Select the correct answer based on the determined ordering, considering all relationships and constraints established.",0.5266666666666666
+zero_shot,21,cot,Solve the following logical reasoning problem.,0.54,"Solve the following logical reasoning problem.
+
+1. Identify the entities and relationships mentioned in the problem.
+2. Determine the type of comparison or relationship (e.g., ordering, position, ranking, spatial).
+3. Identify the specific aspect of the comparison (e.g., newer, older, most expensive).
+4. Analyze the comparative adjectives and determine their meaning (e.g., newer than, older than).
+5. Establish the correct order or ranking based on the relationships and comparisons.
+6. Consider spatial relationships and constraints (e.g., left, right, second from the right).
+7. Evaluate the options and select the one that best satisfies the conditions and relationships.
+8. Verify the answer by checking for consistency with the relationships and comparisons.",0.4833333333333333
+zero_shot,22,cot,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost).
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to).
+4. Identify any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Use the identified relationships and constraints to determine the correct ordering of items.
+6. Select the correct answer based on the determined ordering.",0.54,"Solve the following logical reasoning problem.
+
+1. Identify the relative positions of items in the sequence.
+2. Determine the spatial relationships between items (e.g., leftmost, rightmost, above, below).
+3. Establish the temporal relationships between items (e.g., oldest, newest).
+4. Identify any constraints or rules that apply to the sequence.
+5. Use the identified relationships and constraints to determine the correct ordering of items.
+6. Apply the constraint of ascending order if the sequence contains numerical values.
+7. Verify that the sequence meets all established constraints and relationships.
+8. Select the correct answer based on the determined ordering.",0.5266666666666666
+zero_shot,23,cot,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost).
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to).
+4. Identify and explicitly state any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Clearly define the scope of the sequence (e.g., entire list, partial list, specific subset).
+6. Use the identified relationships, constraints, and scope to determine the correct ordering of items.
+7. Select the correct answer based on the determined ordering.",0.53,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Explicitly state the relationships between items in the sequence (e.g., before, after, equal to).
+3. Determine the relative positions of items in the sequence, considering the stated relationships (e.g., oldest, newest, leftmost, rightmost).
+4. Identify and explicitly state any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Clearly define the scope of the sequence (e.g., entire list, partial list, specific subset).
+6. Establish the correct ordering of items based on the determined relationships, constraints, and scope.
+7. Select the correct answer based on the established ordering.",0.5133333333333333
+zero_shot,24,cot,Solve the following logical reasoning problem.,0.54,"Solve the following logical reasoning problem.
+
+1. Identify all entities and their relationships in the context.
+2. Determine the scope of the problem, including any constraints or limitations.
+3. Prioritize entities based on their relevance to the problem and their relationships.
+4. Order comparisons between entities by considering their relevance, relationships, and proximity to the problem scope.
+5. Balance the importance of recent and earlier information by considering both the context and the problem scope.
+6. Identify and prioritize entity relationships that are crucial to solving the problem.
+7. Use explicit guidance from the context to resolve any ambiguities or unclear relationships between entities.
+8. Verify that the solution satisfies all constraints and limitations specified in the problem.",0.5
+zero_shot,25,cot,"Solve the following logical reasoning problem.
+
+1. Identify the relative positions of items in the sequence.
+2. Determine the spatial relationships between items (e.g., leftmost, rightmost, above, below).
+3. Establish the temporal relationships between items (e.g., oldest, newest).
+4. Identify any constraints or rules that apply to the sequence.
+5. Use the identified relationships and constraints to determine the correct ordering of items.
+6. Apply the constraint of ascending order if the sequence contains numerical values.
+7. Verify that the sequence meets all established constraints and relationships.
+8. Select the correct answer based on the determined ordering.",0.5266666666666666,"Solve the following logical reasoning problem.
+
+1. Identify the relative positions of items in the sequence.
+2. Determine spatial relationships (leftmost, rightmost, above, below).
+3. Identify any constraints or rules that apply to the sequence.
+4. Determine temporal relationships (oldest, newest).
+5. Establish a baseline ordering based on given information.
+6. Apply constraints and relationships to refine the ordering.
+7. Verify that the sequence meets all established constraints and relationships.
+8. Select the correct answer based on the determined ordering.
+9. Re-examine the sequence for any missed constraints or relationships.",0.5133333333333333
+zero_shot,26,cot,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered and understand the context in which they are presented.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost) and identify any spatial relationships.
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to) and clarify any ambiguous relationships.
+4. Identify and prioritize any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers) and consider their implications.
+5. Use the identified relationships, constraints, and contextual understanding to determine the correct ordering of items.
+6. Select the correct answer based on the determined ordering, considering all relationships and constraints established.",0.5266666666666666,"Solve the following logical reasoning problem.
+
+1. Identify and prioritize spatial relationships between items in the sequence, considering both relative and absolute positions (e.g., before, after, leftmost, rightmost, oldest, newest).
+2. Clarify ambiguous relationships by identifying and resolving conflicts between information, and establish clear rules for handling conflicting data.
+3. Determine all relationships between items in the sequence, including equalities and inequalities, and establish a comprehensive list of constraints and rules that apply.
+4. Establish contextual understanding of the sequence and its elements, considering any provided information or background knowledge.
+5. Use the identified relationships, constraints, and contextual understanding to determine the correct ordering of items, considering all possible implications and interactions.
+6. Select the correct answer based on the determined ordering, considering all relationships, constraints, and contextual understanding established.",0.49
+zero_shot,27,cot,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered.
+2. Determine the relative positions of items in the sequence (e.g., oldest, newest, leftmost, rightmost).
+3. Establish the relationships between items in the sequence (e.g., before, after, equal to).
+4. Identify and explicitly state any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+5. Clearly define the scope of the sequence (e.g., entire list, partial list, specific subset).
+6. Use the identified relationships, constraints, and scope to determine the correct ordering of items.
+7. Select the correct answer based on the determined ordering.",0.53,"Solve the following logical reasoning problem.
+
+1. Identify the sequence of items to be ordered and label the relative positions of each item (e.g., oldest, newest, leftmost, rightmost).
+2. Determine the relationships between items in the sequence (e.g., before, after, equal to) and explicitly state them.
+3. Establish any constraints or rules that apply to the sequence (e.g., ascending order, odd/even numbers).
+4. Identify and consider all constraints and rules that apply to the sequence.
+5. Clearly define the scope of the sequence (e.g., entire list, partial list, specific subset).
+6. Use the identified relationships, constraints, and scope to determine the correct ordering of items.
+7. Select the correct answer based on the determined ordering.",0.5233333333333333
+zero_shot,28,cot,"Solve the following logical reasoning problem.
+
+1. Identify the relative positions of items in the sequence.
+2. Determine the spatial relationships between items (e.g., leftmost, rightmost, above, below).
+3. Establish the temporal relationships between items (e.g., oldest, newest).
+4. Identify any constraints or rules that apply to the sequence.
+5. Use the identified relationships and constraints to determine the correct ordering of items.
+6. Apply the constraint of ascending order if the sequence contains numerical values.
+7. Verify that the sequence meets all established constraints and relationships.
+8. Select the correct answer based on the determined ordering.",0.5266666666666666,"Solve the following logical reasoning problem.
+
+1. Identify the relative positions of items in the sequence and establish their spatial relationships (e.g., leftmost, rightmost, above, below).
+2. Determine the temporal relationships between items (e.g., oldest, newest) and handle conflicting temporal relationships by prioritizing the most recent information.
+3. Identify any constraints or rules that apply to the sequence and prioritize constraints that are explicitly stated.
+4. Use the identified relationships and constraints to determine the correct ordering of items and apply the constraint of ascending order if the sequence contains numerical values.
+5. Verify that the sequence meets all established constraints and relationships by checking for any inconsistencies.
+6. Select the correct answer based on the determined ordering and consider multiple possible solutions if the constraints allow for ambiguity.
+7. Re-evaluate the sequence for any new information that may have been overlooked and revise the ordering accordingly.
+8. Establish a clear hierarchy of constraints to resolve conflicts between multiple constraints.
+9. Identify and address any ambiguous or conflicting spatial relationships by re-examining the sequence and re-establishing the relationships.
+10. Apply a systematic approach to checking for consistency between the established relationships and the sequence, such as using a flowchart or decision tree.",0.52
+zero_shot,29,cot,Solve the following logical reasoning problem.,0.54,"Solve the following logical reasoning problem.
+
+1. Identify all clues and constraints in the context.
+2. Determine the order of operations required to solve the problem.
+3. Interpret relative positioning and spatial relationships explicitly.
+4. Handle multiple clues by considering each clue individually before combining them.
+5. Prioritize constraints and apply them to the problem context.
+6. Analyze each option against the clues, constraints, and context.
+7. Select the option that best satisfies all conditions.",0.49
+zero_shot,30,cot,Solve the following logical reasoning problem.,0.54,"Solve the following logical reasoning problem.
+
+1. Identify the key elements in the problem.
+2. Determine the type of relationship between the elements (order, position, ranking, spatial, temporal).
+3. Identify the constraints or rules governing the relationship.
+4. Analyze the options to determine which one satisfies the constraints.
+5. Select the option that satisfies the constraints.",0.4866666666666667

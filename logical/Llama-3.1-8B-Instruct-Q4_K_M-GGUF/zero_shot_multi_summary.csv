@@ -1,0 +1,908 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,zero_shot,multi,0,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,multi,1,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,multi,2,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,multi,3,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,multi,4,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,multi,5,logical,,,,,,0.54,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,6,logical,,,,,,0.54,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,7,logical,,,,,,0.54,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,8,logical,,,,,,0.56,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,9,logical,,,,,,0.56,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,10,logical,,,,,,0.56,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,11,logical,,,,,,0.56,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,12,logical,,,,,,0.56,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,13,logical,,,,,,0.56,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,14,logical,,,,,,0.56,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,15,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,16,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,17,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,18,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,19,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,20,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,21,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,22,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,23,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,24,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,25,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,26,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,27,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,28,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,29,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,30,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,31,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,32,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,33,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,34,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,35,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,36,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,37,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,38,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,39,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,40,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,41,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,42,logical,,,,,,0.57,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is located north of the marble statue. The granite pedestal is placed south of the bronze bust, and the marble statue is positioned at an absolute height of 5 meters. Which one is at the lowest relative position?
+Answer: granite pedestal
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The low-rise building is older than the mid-rise. The high-rise building is newer than the skyscraper, but the skyscraper is at a lower absolute elevation. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A city has three libraries: a main library, a branch library, and a mobile library. The main library is older than the branch library. The mobile library is newer than the main library, but the branch library is at a lower absolute elevation. Which one is the oldest?
+Answer: main library
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor, but the second floor is above the third floor. The first floor is above the ground floor. Which one is at the lowest relative position?
+Answer: third floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The high-rise building is located at an absolute elevation of 100 meters. The mid-rise building is at an absolute elevation of 80 meters. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,43,logical,,,,,,0.5733333333333334,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is at an absolute position higher than the marble statue. However, the marble statue is at a lower relative position. The granite pedestal is above the bronze bust. Which one is at the lowest relative position?
+Answer: marble statue
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The mid-rise building is older than the low-rise. The high-rise building is newer than the skyscraper. However, the skyscraper is at a lower absolute elevation than the high-rise building. The low-rise is older than the mid-rise. The high-rise is above the mid-rise. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A museum has three paintings: a watercolor, an oil painting, and a pastel drawing. The watercolor is at an absolute position lower than the oil painting. However, the oil painting is at a higher relative position. The pastel drawing is above the watercolor. Which one is at the lowest relative position?
+Answer: watercolor
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor. The second floor is above the third floor. The first floor is above the ground floor. The third floor is at a lower relative position than the second floor. However, the third floor is not the lowest relative position. Which one is at the lowest relative position?
+Answer: ground floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The mid-rise building is at an absolute elevation of 80 meters. The high-rise building is at an absolute elevation of 100 meters. The mid-rise is above the skyscraper. However, the mid-rise is at the lowest relative position. The high-rise is above the mid-rise. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,44,logical,,,,,,0.5733333333333334,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is at an absolute position higher than the marble statue. However, the marble statue is at a lower relative position. The granite pedestal is above the bronze bust. Which one is at the lowest relative position?
+Answer: marble statue
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The mid-rise building is older than the low-rise. The high-rise building is newer than the skyscraper. However, the skyscraper is at a lower absolute elevation than the high-rise building. The low-rise is older than the mid-rise. The high-rise is above the mid-rise. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A museum has three paintings: a watercolor, an oil painting, and a pastel drawing. The watercolor is at an absolute position lower than the oil painting. However, the oil painting is at a higher relative position. The pastel drawing is above the watercolor. Which one is at the lowest relative position?
+Answer: watercolor
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor. The second floor is above the third floor. The first floor is above the ground floor. The third floor is at a lower relative position than the second floor. However, the third floor is not the lowest relative position. Which one is at the lowest relative position?
+Answer: ground floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The mid-rise building is at an absolute elevation of 80 meters. The high-rise building is at an absolute elevation of 100 meters. The mid-rise is above the skyscraper. However, the mid-rise is at the lowest relative position. The high-rise is above the mid-rise. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,45,logical,,,,,,0.5733333333333334,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is at an absolute position higher than the marble statue. However, the marble statue is at a lower relative position. The granite pedestal is above the bronze bust. Which one is at the lowest relative position?
+Answer: marble statue
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The mid-rise building is older than the low-rise. The high-rise building is newer than the skyscraper. However, the skyscraper is at a lower absolute elevation than the high-rise building. The low-rise is older than the mid-rise. The high-rise is above the mid-rise. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A museum has three paintings: a watercolor, an oil painting, and a pastel drawing. The watercolor is at an absolute position lower than the oil painting. However, the oil painting is at a higher relative position. The pastel drawing is above the watercolor. Which one is at the lowest relative position?
+Answer: watercolor
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor. The second floor is above the third floor. The first floor is above the ground floor. The third floor is at a lower relative position than the second floor. However, the third floor is not the lowest relative position. Which one is at the lowest relative position?
+Answer: ground floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The mid-rise building is at an absolute elevation of 80 meters. The high-rise building is at an absolute elevation of 100 meters. The mid-rise is above the skyscraper. However, the mid-rise is at the lowest relative position. The high-rise is above the mid-rise. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,46,logical,,,,,,0.5733333333333334,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is at an absolute position higher than the marble statue. However, the marble statue is at a lower relative position. The granite pedestal is above the bronze bust. Which one is at the lowest relative position?
+Answer: marble statue
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The mid-rise building is older than the low-rise. The high-rise building is newer than the skyscraper. However, the skyscraper is at a lower absolute elevation than the high-rise building. The low-rise is older than the mid-rise. The high-rise is above the mid-rise. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A museum has three paintings: a watercolor, an oil painting, and a pastel drawing. The watercolor is at an absolute position lower than the oil painting. However, the oil painting is at a higher relative position. The pastel drawing is above the watercolor. Which one is at the lowest relative position?
+Answer: watercolor
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor. The second floor is above the third floor. The first floor is above the ground floor. The third floor is at a lower relative position than the second floor. However, the third floor is not the lowest relative position. Which one is at the lowest relative position?
+Answer: ground floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The mid-rise building is at an absolute elevation of 80 meters. The high-rise building is at an absolute elevation of 100 meters. The mid-rise is above the skyscraper. However, the mid-rise is at the lowest relative position. The high-rise is above the mid-rise. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,47,logical,,,,,,0.5733333333333334,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is at an absolute position higher than the marble statue. However, the marble statue is at a lower relative position. The granite pedestal is above the bronze bust. Which one is at the lowest relative position?
+Answer: marble statue
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The mid-rise building is older than the low-rise. The high-rise building is newer than the skyscraper. However, the skyscraper is at a lower absolute elevation than the high-rise building. The low-rise is older than the mid-rise. The high-rise is above the mid-rise. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A museum has three paintings: a watercolor, an oil painting, and a pastel drawing. The watercolor is at an absolute position lower than the oil painting. However, the oil painting is at a higher relative position. The pastel drawing is above the watercolor. Which one is at the lowest relative position?
+Answer: watercolor
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor. The second floor is above the third floor. The first floor is above the ground floor. The third floor is at a lower relative position than the second floor. However, the third floor is not the lowest relative position. Which one is at the lowest relative position?
+Answer: ground floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The mid-rise building is at an absolute elevation of 80 meters. The high-rise building is at an absolute elevation of 100 meters. The mid-rise is above the skyscraper. However, the mid-rise is at the lowest relative position. The high-rise is above the mid-rise. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,48,logical,,,,,,0.5733333333333334,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is at an absolute position higher than the marble statue. However, the marble statue is at a lower relative position. The granite pedestal is above the bronze bust. Which one is at the lowest relative position?
+Answer: marble statue
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The mid-rise building is older than the low-rise. The high-rise building is newer than the skyscraper. However, the skyscraper is at a lower absolute elevation than the high-rise building. The low-rise is older than the mid-rise. The high-rise is above the mid-rise. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A museum has three paintings: a watercolor, an oil painting, and a pastel drawing. The watercolor is at an absolute position lower than the oil painting. However, the oil painting is at a higher relative position. The pastel drawing is above the watercolor. Which one is at the lowest relative position?
+Answer: watercolor
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor. The second floor is above the third floor. The first floor is above the ground floor. The third floor is at a lower relative position than the second floor. However, the third floor is not the lowest relative position. Which one is at the lowest relative position?
+Answer: ground floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The mid-rise building is at an absolute elevation of 80 meters. The high-rise building is at an absolute elevation of 100 meters. The mid-rise is above the skyscraper. However, the mid-rise is at the lowest relative position. The high-rise is above the mid-rise. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,49,logical,,,,,,0.5733333333333334,,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is at an absolute position higher than the marble statue. However, the marble statue is at a lower relative position. The granite pedestal is above the bronze bust. Which one is at the lowest relative position?
+Answer: marble statue
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The mid-rise building is older than the low-rise. The high-rise building is newer than the skyscraper. However, the skyscraper is at a lower absolute elevation than the high-rise building. The low-rise is older than the mid-rise. The high-rise is above the mid-rise. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A museum has three paintings: a watercolor, an oil painting, and a pastel drawing. The watercolor is at an absolute position lower than the oil painting. However, the oil painting is at a higher relative position. The pastel drawing is above the watercolor. Which one is at the lowest relative position?
+Answer: watercolor
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor. The second floor is above the third floor. The first floor is above the ground floor. The third floor is at a lower relative position than the second floor. However, the third floor is not the lowest relative position. Which one is at the lowest relative position?
+Answer: ground floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The mid-rise building is at an absolute elevation of 80 meters. The high-rise building is at an absolute elevation of 100 meters. The mid-rise is above the skyscraper. However, the mid-rise is at the lowest relative position. The high-rise is above the mid-rise. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,50,logical,,,,,,0.5733333333333334,0.43,"Example 1: 
+A museum has three sculptures: a marble statue, a bronze bust, and a granite pedestal. The bronze bust is at an absolute position higher than the marble statue. However, the marble statue is at a lower relative position. The granite pedestal is above the bronze bust. Which one is at the lowest relative position?
+Answer: marble statue
+
+Example 2: 
+A city has four buildings: a skyscraper, a high-rise, a mid-rise, and a low-rise. The mid-rise building is older than the low-rise. The high-rise building is newer than the skyscraper. However, the skyscraper is at a lower absolute elevation than the high-rise building. The low-rise is older than the mid-rise. The high-rise is above the mid-rise. Which one is the oldest?
+Answer: low-rise
+
+Example 3: 
+A museum has three paintings: a watercolor, an oil painting, and a pastel drawing. The watercolor is at an absolute position lower than the oil painting. However, the oil painting is at a higher relative position. The pastel drawing is above the watercolor. Which one is at the lowest relative position?
+Answer: watercolor
+
+Example 4: 
+A building has four floors: the ground floor, the first floor, the second floor, and the third floor. The ground floor is at a lower relative position than the first floor. The second floor is above the third floor. The first floor is above the ground floor. The third floor is at a lower relative position than the second floor. However, the third floor is not the lowest relative position. Which one is at the lowest relative position?
+Answer: ground floor
+
+Example 5: 
+A city has three buildings: a skyscraper, a high-rise, and a mid-rise. The mid-rise building is at an absolute elevation of 80 meters. The high-rise building is at an absolute elevation of 100 meters. The mid-rise is above the skyscraper. However, the mid-rise is at the lowest relative position. The high-rise is above the mid-rise. Which one is at the lowest relative position?
+Answer: mid-rise
+
+Solve the following logical reasoning problem."

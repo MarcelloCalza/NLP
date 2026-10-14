@@ -1,0 +1,622 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,zero_shot,examples,0,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,examples,1,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,examples,2,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,examples,3,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,examples,4,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,examples,5,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,examples,6,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,examples,7,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,examples,8,logical,,,,,,0.54,,Solve the following logical reasoning problem.
+summary,zero_shot,examples,9,logical,,,,,,0.54,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a paperback, a hardcover, a dictionary, and a novel. The dictionary is more expensive than the paperback. The novel is less expensive than the hardcover. The paperback is the second-most expensive. The dictionary is more expensive than the novel. Which one is the least expensive?
+Answer: paperback
+
+Example 4: 
+In a city, there are five buildings: a skyscraper, a tower, a mansion, a castle, and a condominium. The skyscraper is the newest building. The condominium is the oldest building. The condominium is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the second-newest?
+Answer: tower
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,10,logical,,,,,,0.54,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a paperback, a hardcover, a dictionary, and a novel. The dictionary is more expensive than the paperback. The novel is less expensive than the hardcover. The paperback is the second-most expensive. The dictionary is more expensive than the novel. Which one is the least expensive?
+Answer: paperback
+
+Example 4: 
+In a city, there are five buildings: a skyscraper, a tower, a mansion, a castle, and a condominium. The skyscraper is the newest building. The condominium is the oldest building. The condominium is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the second-newest?
+Answer: tower
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,11,logical,,,,,,0.54,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a paperback, a hardcover, a dictionary, and a novel. The dictionary is more expensive than the paperback. The novel is less expensive than the hardcover. The paperback is the second-most expensive. The dictionary is more expensive than the novel. Which one is the least expensive?
+Answer: paperback
+
+Example 4: 
+In a city, there are five buildings: a skyscraper, a tower, a mansion, a castle, and a condominium. The skyscraper is the newest building. The condominium is the oldest building. The condominium is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the second-newest?
+Answer: tower
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,12,logical,,,,,,0.54,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are five books: a novel, a biography, a textbook, a dictionary, and an encyclopedia. The biography is older than the novel. The dictionary is newer than the encyclopedia. The textbook is to the left of the dictionary. Which one is the oldest?
+Answer: biography
+
+Example 4: 
+In a store, there are four cars: a sports car, a sedan, a truck, and a van. The sports car is more expensive than the sedan. The van is the second-most expensive. The truck is cheaper than the van. Which one is the cheapest?
+Answer: truck
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,13,logical,,,,,,0.54,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are five books: a novel, a biography, a textbook, a dictionary, and an encyclopedia. The biography is older than the novel. The dictionary is newer than the encyclopedia. The textbook is to the left of the dictionary. Which one is the oldest?
+Answer: biography
+
+Example 4: 
+In a store, there are four cars: a sports car, a sedan, a truck, and a van. The sports car is more expensive than the sedan. The van is the second-most expensive. The truck is cheaper than the van. Which one is the cheapest?
+Answer: truck
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,14,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,15,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,16,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,17,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,18,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,19,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,20,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,21,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,22,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,23,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,24,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,25,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,26,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,27,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,28,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,29,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,30,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,31,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,32,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,33,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,34,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,35,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,36,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,37,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,38,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,39,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,40,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,41,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,42,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,43,logical,,,,,,0.5566666666666666,,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."
+summary,zero_shot,examples,44,logical,,,,,,0.5566666666666666,0.49,"Example 1: 
+In a bookstore, there are three books: a red book, a blue book, and a green book. The blue book is to the left of the green book. The red book is to the right of the blue book. Which one is in the middle?
+Answer: blue book
+
+Example 2: 
+In a city, there are four buildings: a skyscraper, a tower, a mansion, and a castle. The skyscraper is taller than the tower. The castle is shorter than the mansion. The tower is shorter than the skyscraper. Which one is the shortest?
+Answer: castle
+
+Example 3: 
+In a library, there are four books: a fiction book, a non-fiction book, a biography, and a memoir. The biography is placed between the fiction book and the non-fiction book. The memoir is placed at the end of the shelf. If the fiction book is at the beginning of the shelf, which book is next to it?
+Answer: biography
+
+Example 4: 
+In a store, there are five products: a new product, an older product, a more expensive product, a cheaper product, and a similar product. The new product is more expensive than the older product. The cheaper product is less expensive than the similar product. The older product is cheaper than the more expensive product. Which product is the cheapest?
+Answer: cheaper product
+
+Solve the following logical reasoning problem."

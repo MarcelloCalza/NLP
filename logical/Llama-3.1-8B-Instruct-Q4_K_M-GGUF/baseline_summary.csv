@@ -1,0 +1,30 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,zero_shot,none,0,logical,,,,,,,0.47,Solve the following logical reasoning problem.
+summary,cot,none,0,logical,,,,,,,0.45,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,few_shots,none,0,logical,,,,,,,0.44,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."

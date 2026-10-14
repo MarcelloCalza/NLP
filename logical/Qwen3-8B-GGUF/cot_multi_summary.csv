@@ -1,0 +1,1563 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,cot,multi,0,logical,,,,,,0.5533333333333333,,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,1,logical,,,,,,0.5866666666666667,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+<think>
+
+</think>
+
+Solve the logical reasoning problem by carefully analyzing the constraints and ensuring that all relative positions, rankings, and spatial/temporal relationships are interpreted accurately and consistently. Prioritize clarity in identifying the correct order or position based on the given information.
+
+<think>
+
+</think>
+
+1. Clarify whether the task involves spatial or temporal reasoning.  
+2. List all entities and their attributes explicitly.  
+3. Apply constraints in a sequential order based on clarity and specificity.  
+4. Cross-check for consistency between all constraints and the final arrangement.  
+5. Use relative terms (e.g., ""second-oldest"") to determine exact positions.  
+6. Ensure that left-to-right or top-to-bottom order is aligned with the intended ranking.  
+7. Eliminate options that conflict with any constraint.  
+8. Verify that the final answer satisfies all given conditions."
+summary,cot,multi,2,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,3,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,4,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,5,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,6,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,7,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,8,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,9,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,10,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,11,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,12,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,13,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,14,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Sam, Mia, Leo, Ava, and Noah—competed. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—competed. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 3:  
+Five people—Elena, Jake, Olivia, Noah, and Sam—competed. Jake finished above Olivia. Sam finished below Jake. Noah finished above Elena. Olivia finished below Sam.  
+Who finished first?  
+Choices: Elena, Jake, Olivia, Noah, Sam  
+Answer: Jake
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,15,logical,,,,,,0.6133333333333333,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Noah, and Sam—were seated in a row. Jake is to the right of Elena. Olivia is to the left of Noah. Sam is to the right of Olivia. Elena is to the left of Olivia.  
+Who is the leftmost person?  
+Choices: Elena, Jake, Olivia, Noah, Sam  
+Answer: Elena
+
+Example 5:  
+There are four items: a green item, a yellow item, a blue item, and a red item. The green item is to the left of the yellow item. The blue item is to the right of the green item. The red item is to the left of the blue item.  
+Which item is the rightmost?  
+Choices: green, yellow, blue, red  
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,16,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,17,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,18,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,19,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,20,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,21,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,22,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,23,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,24,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,25,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,26,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,27,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,28,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,29,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,30,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,31,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,32,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Tom, Anna, Jack, Lucy, and Mike—competed. Tom finished second. Anna finished above Jack. Lucy finished below Tom. Mike finished below Anna.  
+Who finished first?  
+Choices: Tom, Anna, Jack, Lucy, Mike  
+Answer: Anna
+
+Example 2:  
+Five people—Sarah, Ben, Emily, David, and Grace—competed. Ben finished third. Emily finished above David. Grace finished below Ben. Sarah finished below Emily.  
+Who finished last?  
+Choices: Sarah, Ben, Emily, David, Grace  
+Answer: Sarah
+
+Example 3:  
+Five people—James, Olivia, Nathan, Lily, and Owen—competed. James finished above Olivia. Nathan finished below James. Lily finished below Olivia. Owen finished above Nathan.  
+Who finished first?  
+Choices: James, Olivia, Nathan, Lily, Owen  
+Answer: James
+
+Example 4:  
+On a shelf, there are five books: a novel, a history book, a science book, a poetry book, and a mystery book. The poetry book is to the left of the mystery book. The history book is the third from the left. The science book is to the right of the novel. The poetry book is the second from the left.  
+Which book is the leftmost?  
+Choices: novel, history book, science book, poetry book, mystery book  
+Answer: novel
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,33,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,34,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,35,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,36,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,37,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,38,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,39,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,40,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,41,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,42,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,43,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,44,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,45,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,46,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,47,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,48,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,49,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,50,logical,,,,,,0.62,0.6,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Mia, Leo, Ava, and Noah. Sam finished third. Mia finished above Leo. Ava finished below Sam. Noah finished below Mia.  
+Who finished first?  
+Choices: Sam, Mia, Leo, Ava, Noah  
+Answer: Mia
+
+Example 2:  
+Five people—Tom, Karen, Ben, Lily, and Paul—were ranked in a competition. Ben finished second. Karen finished above Tom. Lily finished below Ben. Paul finished below Karen.  
+Who finished last?  
+Choices: Tom, Karen, Ben, Lily, Paul  
+Answer: Lily
+
+Example 4:  
+Five people—Elena, Jake, Olivia, Ryan, and Sam—were ranked in a competition. Elena finished second. Jake finished above Olivia. Ryan finished below Sam. Sam finished above Jake.  
+Who finished last?  
+Choices:Elena, Jake, Olivia, Ryan, Sam  
+Answer: Ryan
+
+Example 5:  
+In a parking lot, there are five cars: a red car, a blue car, a green car, a yellow car, and a black car. The red car is older than the blue car. The green car is newer than the yellow car. The black car is the second-newest. The yellow car is older than the red car.  
+Which car is the oldest?  
+Choices:red, blue, green, yellow, black  
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."

@@ -1,0 +1,2901 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+example,zero_shot,none,0,logical,0,crow,hummingbird,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,1,loquat,loquat,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,2,Ana,Joe,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,3,Eve,Eve,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,4,robin,owl,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,5,watermelon,peache,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,6,orange,orange,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,7,purple,red,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,8,quail,quail,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,9,brown,brown,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,10,pear,pear,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,11,hatchback,hatchback,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,12,Ana,Eve,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,13,limousine,minivan,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,14,black,black,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,15,bus,bus,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,16,raven,raven,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,17,purple,red,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,18,Eli,Mya,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,19,Eve,Eve,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,20,sedan,sedan,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,21,raven,crow,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,22,truck,tractor,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,23,Peach,apple,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,24,kiwi,kiwi,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,25,blue,blue,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,26,hatchback,hatchback,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,27,hawk,hawk,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,28,Eli,Eve,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,29,crow,crow,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,30,raven,raven,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,31,black,black,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,32,Amy,Mel,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,33,tractor,tractor,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,34,limousine,limousine,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,35,Amy,Amy,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,36,motorcyle,convertible,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,37,Amy,Amy,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,38,robin,blue jay,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,39,cardinal,falcon,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,40,Amy,Rob,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,41,yellow,yellow,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,42,motorcyle,hatchback,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,43,raven,raven,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,44,hummingbird,owl,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,45,watermelon,plum,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,46,black,black,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,47,owl,owl,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,48,kiwi,kiwi,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,49,brown,gray,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,50,black,red,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,51,raven,raven,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,52,plum,peache,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,53,Amy,Mya,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,54,loquat,loquat,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,55,blue jay,falcon,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,56,orange,yellow,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,57,limousine,limousine,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,58,black,black,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,59,minivan,minivan,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,60,crow,crow,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,61,orange,orange,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,62,crow,cardinal,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,63,cantaloupe,mangoe,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,64,red,purple,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,65,quail,quail,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,66,crow,robin,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,67,yellow,gray,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,68,gray,black,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,69,sedan,truck,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,70,hummingbird,hummingbird,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,71,orange,cantaloupe,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,72,Ana,Ana,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,73,green,brown,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,74,yellow,blue,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,75,Rob,Rob,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,76,cantaloupe,cantaloupe,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,77,raven,robin,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,78,bus,sedan,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,79,watermelon,watermelon,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,80,Mel,Joe,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,81,quail,crow,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,82,hummingbird,hummingbird,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,83,robin,hawk,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,84,pear,apple,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,85,hummingbird,hummingbird,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,86,gray,orange,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,87,quail,robin,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,88,Yellow,yellow,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,89,hatchback,hatchback,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,90,motorcyle,truck,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,91,watermelon,mangoe,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,92,green,gray,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,93,Amy,Rob,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,94,robin,robin,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,95,falcon,falcon,,,,1.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,96,Eli,Joe,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,97,station wagon,station wagon,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,98,hummingbird,blue jay,,,,0.0,Solve the following logical reasoning problem.
+example,zero_shot,none,0,logical,99,crow,hummingbird,,,,0.0,Solve the following logical reasoning problem.
+example,cot,none,0,logical,0,crow,hummingbird,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,1,loquat,loquat,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,2,Ana,Joe,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,3,Mya,Eve,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,4,robin,owl,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,5,watermelon,peache,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,6,orange,orange,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,7,Purple,red,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,8,quail,quail,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,9,Brown,brown,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,10,pear,pear,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,11,hatchback,hatchback,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,12,Ana,Eve,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,13,minivan,minivan,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,14,black,black,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,15,bus,bus,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,16,raven,raven,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,17,Purple,red,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,18,Eli,Mya,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,19,Eve,Eve,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,20,sedan,sedan,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,21,crow,crow,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,22,Tractor.,tractor,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,23,Loquat,apple,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,24,Kiwis.,kiwi,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,25,blue,blue,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,26,convertible,hatchback,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,27,hawk,hawk,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,28,Eli.,Eve,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,29,crow,crow,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,30,raven,raven,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,31,black,black,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,32,Amy,Mel,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,33,Tractor.,tractor,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,34,limousine,limousine,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,35,Eli,Amy,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,36,convertible,convertible,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,37,Amy,Amy,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,38,robin,blue jay,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,39,cardinal,falcon,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,40,Eve,Rob,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,41,green,yellow,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,42,motorcyle,hatchback,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,43,Raven,raven,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,44,crow,owl,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,45,plum,plum,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,46,black,black,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,47,owl,owl,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,48,kiwi,kiwi,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,49,brown,gray,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,50,black,red,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,51,raven,raven,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,52,Plum.,peache,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,53,Ana,Mya,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,54,loquat,loquat,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,55,blue jay,falcon,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,56,orange,yellow,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,57,limousine,limousine,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,58,black,black,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,59,minivan,minivan,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,60,crow,crow,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,61,Orange,orange,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,62,crow,cardinal,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,63,watermelon,mangoe,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,64,Purple,purple,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,65,quail,quail,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,66,crow,robin,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,67,Yellow,gray,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,68,gray,black,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,69,bus,truck,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,70,hummingbird,hummingbird,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,71,Orange,cantaloupe,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,72,Ana,Ana,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,73,green,brown,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,74,Yellow,blue,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,75,Rob,Rob,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,76,apple,cantaloupe,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,77,raven,robin,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,78,bus,sedan,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,79,watermelon,watermelon,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,80,Mel,Joe,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,81,quail,crow,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,82,Hawk.,hummingbird,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,83,crow,hawk,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,84,Pear,apple,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,85,hummingbird,hummingbird,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,86,gray,orange,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,87,quail,robin,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,88,Yellow,yellow,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,89,hatchback,hatchback,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,90,limousine,truck,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,91,watermelon,mangoe,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,92,green,gray,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,93,Amy,Rob,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,94,crow,robin,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,95,Falcon,falcon,,,,1.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,96,Eli,Joe,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,97,station,station wagon,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,98,hummingbird,blue jay,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,cot,none,0,logical,99,crow,hummingbird,,,,0.0,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+example,few_shots,none,0,logical,0,hawk,hummingbird,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,1,loquat,loquat,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,2,Eve,Joe,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,3,Eve,Eve,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,4,robin,owl,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,5,watermelon,peache,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,6,orange,orange,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,7,purple,red,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,8,quail,quail,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,9,brown,brown,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,10,pear,pear,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,11,hatchback,hatchback,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,12,Ana,Eve,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,13,hatchback,minivan,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,14,black,black,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,15,bus,bus,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,16,raven,raven,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,17,purple,red,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,18,Eli,Mya,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,19,Eve,Eve,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,20,sedan,sedan,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,21,raven,crow,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,22,tractor,tractor,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,23,loquat,apple,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,24,kiwi,kiwi,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,25,blue,blue,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,26,hatchback,hatchback,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,27,hawk,hawk,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,28,Eli,Eve,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,29,cardinal,crow,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,30,crow,raven,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,31,black,black,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,32,Amy,Mel,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,33,tractor,tractor,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,34,limousine,limousine,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,35,Eli,Amy,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,36,motorcyle,convertible,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,37,Amy,Amy,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,38,robin,blue jay,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,39,cardinal,falcon,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,40,Dan,Rob,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,41,orange,yellow,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,42,motorcyle,hatchback,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,43,raven,raven,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,44,hummingbird,owl,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,45,plum,plum,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,46,black,black,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,47,owl,owl,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,48,kiwi,kiwi,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,49,brown,gray,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,50,black,red,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,51,raven,raven,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,52,plum,peache,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,53,Ana,Mya,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,54,loquat,loquat,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,55,blue jay,falcon,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,56,orange,yellow,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,57,limousine,limousine,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,58,black,black,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,59,minivan,minivan,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,60,crow,crow,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,61,orange,orange,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,62,crow,cardinal,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,63,cantaloupe,mangoe,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,64,purple,purple,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,65,quail,quail,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,66,crow,robin,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,67,yellow,gray,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,68,red,black,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,69,sedan,truck,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,70,hummingbird,hummingbird,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,71,orange,cantaloupe,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,72,Ana,Ana,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,73,brown,brown,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,74,orange,blue,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,75,Rob,Rob,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,76,apple,cantaloupe,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,77,raven,robin,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,78,bus,sedan,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,79,watermelon,watermelon,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,80,Eli,Joe,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,81,quail,crow,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,82,hummingbird,hummingbird,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,83,robin,hawk,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,84,pear,apple,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,85,hummingbird,hummingbird,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,86,gray,orange,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,87,quail,robin,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,88,orange,yellow,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,89,hatchback,hatchback,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,90,station wagon,truck,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,91,watermelon,mangoe,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,92,green,gray,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,93,Amy,Rob,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,94,falcon,robin,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,95,falcon,falcon,,,,1.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,96,Eli,Joe,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,97,station wagon,station wagon,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,98,hummingbird,blue jay,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+example,few_shots,none,0,logical,99,crow,hummingbird,,,,0.0,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."

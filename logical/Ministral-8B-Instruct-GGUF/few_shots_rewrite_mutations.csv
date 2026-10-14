@@ -1,0 +1,5120 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.5066666666666667,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Example 3:
+            In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+            The hawk is smaller than the eagle.
+            The falcon is larger than the owl.
+            The sparrow is the smallest.
+            The owl is smaller than the hawk.
+            Which one is the second smallest?
+            Answer: owl
+
+            Example 4:
+            At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+            Alice finished first.
+            Bob finished second.
+            Charlie finished third.
+            Dan finished fourth.
+            Eve finished fifth.
+            Who finished third?
+            Answer: Charlie
+
+            Example 5:
+            In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+            John shot the lowest score.
+            Jim scored higher than Joe.
+            Joe scored higher than Jane.
+            Jane scored higher than Jill.
+            Who scored the highest?
+            Answer: John
+
+            Example 6:
+            In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+            The encyclopedia is the oldest.
+            The dictionary is newer than the atlas.
+            The atlas is newer than the textbook.
+            The novel is the newest.
+            Which one is the second newest?
+            Answer: textbook
+
+            Example 7:
+            At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+            The croissant is the oldest.
+            The scone is the newest.
+            The muffin is older than the danish.
+            The danish is older than the cupcake.
+            Which one is the second oldest?
+            Answer: muffin
+
+            Example 8:
+            In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+            Alex sat in the first row.
+            Ben sat in the second row.
+            Charlie sat in the third row.
+            David sat in the fourth row.
+            Emily sat in the fifth row.
+            Which one is in the fourth row?
+            Answer: David
+
+            Example 9:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:",0.4966666666666666
+few_shots,0,rewrite,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Example 3:
+            In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+            The hawk is smaller than the eagle.
+            The falcon is larger than the owl.
+            The sparrow is the smallest.
+            The owl is smaller than the hawk.
+            Which one is the second smallest?
+            Answer: owl
+
+            Example 4:
+            At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+            Alice finished first.
+            Bob finished second.
+            Charlie finished third.
+            Dan finished fourth.
+            Eve finished fifth.
+            Who finished third?
+            Answer: Charlie
+
+            Example 5:
+            In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+            John shot the lowest score.
+            Jim scored higher than Joe.
+            Joe scored higher than Jane.
+            Jane scored higher than Jill.
+            Who scored the highest?
+            Answer: John
+
+            Example 6:
+            In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+            The encyclopedia is the oldest.
+            The dictionary is newer than the atlas.
+            The atlas is newer than the textbook.
+            The novel is the newest.
+            Which one is the second newest?
+            Answer: textbook
+
+            Example 7:
+            At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+            The croissant is the oldest.
+            The scone is the newest.
+            The muffin is older than the danish.
+            The danish is older than the cupcake.
+            Which one is the second oldest?
+            Answer: muffin
+
+            Example 8:
+            In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+            Alex sat in the first row.
+            Ben sat in the second row.
+            Charlie sat in the third row.
+            David sat in the fourth row.
+            Emily sat in the fifth row.
+            Which one is in the fourth row?
+            Answer: David
+
+            Example 9:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:",0.4966666666666666,"Example 9:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:
+
+            # CURRENT PROMPT:",0.4766666666666667
+few_shots,0,rewrite,"Example 9:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:
+
+            # CURRENT PROMPT:",0.4766666666666667,"# CURRENT PROMPT:
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.5
+few_shots,0,rewrite,"# CURRENT PROMPT:
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.5,"In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?",0.4833333333333333
+few_shots,1,rewrite,"# CURRENT PROMPT:
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.5,"# CURRENT PROMPT:
+You are optimizing the CURRENT PROMPT field.
+
+# CURRENT PROMPT:
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+
+Answer:",0.4866666666666667
+few_shots,2,rewrite,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Example 3:
+            In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+            The hawk is smaller than the eagle.
+            The falcon is larger than the owl.
+            The sparrow is the smallest.
+            The owl is smaller than the hawk.
+            Which one is the second smallest?
+            Answer: owl
+
+            Example 4:
+            At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+            Alice finished first.
+            Bob finished second.
+            Charlie finished third.
+            Dan finished fourth.
+            Eve finished fifth.
+            Who finished third?
+            Answer: Charlie
+
+            Example 5:
+            In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+            John shot the lowest score.
+            Jim scored higher than Joe.
+            Joe scored higher than Jane.
+            Jane scored higher than Jill.
+            Who scored the highest?
+            Answer: John
+
+            Example 6:
+            In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+            The encyclopedia is the oldest.
+            The dictionary is newer than the atlas.
+            The atlas is newer than the textbook.
+            The novel is the newest.
+            Which one is the second newest?
+            Answer: textbook
+
+            Example 7:
+            At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+            The croissant is the oldest.
+            The scone is the newest.
+            The muffin is older than the danish.
+            The danish is older than the cupcake.
+            Which one is the second oldest?
+            Answer: muffin
+
+            Example 8:
+            In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+            Alex sat in the first row.
+            Ben sat in the second row.
+            Charlie sat in the third row.
+            David sat in the fourth row.
+            Emily sat in the fifth row.
+            Which one is in the fourth row?
+            Answer: David
+
+            Example 9:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:",0.4966666666666666,"Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Example 3:
+            In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+            The hawk is smaller than the eagle.
+            The falcon is larger than the owl.
+            The sparrow is the smallest.
+            The owl is smaller than the hawk.
+            Which one is the second smallest?
+            Answer: owl
+
+            Example 4:
+            At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+            Alice finished first.
+            Bob finished second.
+            Charlie finished third.
+            Dan finished fourth.
+            Eve finished fifth.
+            Who finished third?
+            Answer: Charlie
+
+            Example 5:
+            In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+            John shot the lowest score.
+            Jim scored higher than Joe.
+            Joe scored higher than Jane.
+            Jane scored higher than Jill.
+            Who scored the highest?
+            Answer: John
+
+            Example 6:
+            In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+            The encyclopedia is the oldest.
+            The dictionary is newer than the atlas.
+            The atlas is newer than the textbook.
+            The novel is the newest.
+            Which one is the second newest?
+            Answer: textbook
+
+            Example 7:
+            At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+            The croissant is the oldest.
+            The scone is the newest.
+            The muffin is older than the danish.
+            The danish is older than the cupcake.
+            Which one is the second oldest?
+            Answer: muffin
+
+            Example 8:
+            In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+            Alex sat in the first row.
+            Ben sat in the second row.
+            Charlie sat in the third row.
+            David sat in the fourth row.
+            Emily sat in the fifth row.
+            Which one is in the fourth row?
+            Answer: David
+
+            Example 9:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:
+
+            # CURRENT PROMPT:",0.51
+few_shots,3,rewrite,"# CURRENT PROMPT:
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.5,"In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?",0.4833333333333333
+few_shots,4,rewrite,"Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Example 3:
+            In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+            The hawk is smaller than the eagle.
+            The falcon is larger than the owl.
+            The sparrow is the smallest.
+            The owl is smaller than the hawk.
+            Which one is the second smallest?
+            Answer: owl
+
+            Example 4:
+            At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+            Alice finished first.
+            Bob finished second.
+            Charlie finished third.
+            Dan finished fourth.
+            Eve finished fifth.
+            Who finished third?
+            Answer: Charlie
+
+            Example 5:
+            In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+            John shot the lowest score.
+            Jim scored higher than Joe.
+            Joe scored higher than Jane.
+            Jane scored higher than Jill.
+            Who scored the highest?
+            Answer: John
+
+            Example 6:
+            In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+            The encyclopedia is the oldest.
+            The dictionary is newer than the atlas.
+            The atlas is newer than the textbook.
+            The novel is the newest.
+            Which one is the second newest?
+            Answer: textbook
+
+            Example 7:
+            At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+            The croissant is the oldest.
+            The scone is the newest.
+            The muffin is older than the danish.
+            The danish is older than the cupcake.
+            Which one is the second oldest?
+            Answer: muffin
+
+            Example 8:
+            In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+            Alex sat in the first row.
+            Ben sat in the second row.
+            Charlie sat in the third row.
+            David sat in the fourth row.
+            Emily sat in the fifth row.
+            Which one is in the fourth row?
+            Answer: David
+
+            Example 9:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:
+
+            # CURRENT PROMPT:",0.51,"# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.4966666666666666
+few_shots,5,rewrite,"# CURRENT PROMPT:
+You are optimizing the CURRENT PROMPT field.
+
+# CURRENT PROMPT:
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+
+Answer:",0.4866666666666667,"You are optimizing the CURRENT PROMPT field.
+
+# CURRENT PROMPT:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+
+Answer:
+
+# CURRENT PROMPT:
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+
+Answer:",0.4933333333333333
+few_shots,6,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.5066666666666667,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Solve the following logical reasoning problem.
+
+            # FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+            1. **Pattern: Misinterpretation of Positional Relationships**
+            - **Evidence**: In multiple examples (e.g., Example 2, Example 4), the model incorrectly identifies the position of an object based on its relationship to other objects.
+            - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+            2. **Pattern: Incorrect Sequence of Events or Relationships**
+            - **Evidence**: In some examples (e.g., Example 3, Example 5), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+            - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+            3. **Pattern: Misinterpretation of Comparative Statements**
+            - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+            - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+            # TASK EXPLANATION (NOT PART OF THE PROMPT):
+
+            Task:
+            Logical deduction problem solving involving ordering,
+            position, ranking, spatial relationships,
+            and constraint satisfaction.
+
+            Goal:
+            Identify the correct answer among the provided options.
+
+            #
+            DO NOT rewrite or return FAILURE ANALYSIS.
+            DO NOT rewrite or return TASK EXPLANATION.
+
+            IMPROVE only the CURRENT PROMPT to maximize performance and to address the
+            failure patterns identified by the FAILURE ANALYSIS.
+            Preserve useful parts of the CURRENT PROMPT.
+            DO NOT add changes that are unsupported by the FAILURE ANALYSIS.
+            The resulting PROMPT must generalize to unseen instances.
+
+            Return ONLY the improved PROMPT.
+            DO NOT include other text.
+            DO NOT explain your reasoning.
+
+            # IMPROVED CURRENT PROMPT:
+
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the",0.52
+few_shots,7,rewrite,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Solve the following logical reasoning problem.
+
+            # FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+            1. **Pattern: Misinterpretation of Positional Relationships**
+            - **Evidence**: In multiple examples (e.g., Example 2, Example 4), the model incorrectly identifies the position of an object based on its relationship to other objects.
+            - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+            2. **Pattern: Incorrect Sequence of Events or Relationships**
+            - **Evidence**: In some examples (e.g., Example 3, Example 5), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+            - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+            3. **Pattern: Misinterpretation of Comparative Statements**
+            - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+            - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+            # TASK EXPLANATION (NOT PART OF THE PROMPT):
+
+            Task:
+            Logical deduction problem solving involving ordering,
+            position, ranking, spatial relationships,
+            and constraint satisfaction.
+
+            Goal:
+            Identify the correct answer among the provided options.
+
+            #
+            DO NOT rewrite or return FAILURE ANALYSIS.
+            DO NOT rewrite or return TASK EXPLANATION.
+
+            IMPROVE only the CURRENT PROMPT to maximize performance and to address the
+            failure patterns identified by the FAILURE ANALYSIS.
+            Preserve useful parts of the CURRENT PROMPT.
+            DO NOT add changes that are unsupported by the FAILURE ANALYSIS.
+            The resulting PROMPT must generalize to unseen instances.
+
+            Return ONLY the improved PROMPT.
+            DO NOT include other text.
+            DO NOT explain your reasoning.
+
+            # IMPROVED CURRENT PROMPT:
+
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Solve the following logical reasoning problem.
+
+# CURRENT PROMPT:
+Example 3:
+In a library, there are five books: novel, textbook, encyclopedia, dictionary, and atlas.
+The textbook is older than the novel.
+The dictionary is older than the textbook.
+The encyclopedia is older than the dictionary.
+The atlas is older than the encyclopedia.
+Which one is the youngest?
+Answer:
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, bear, elephant, and penguin.
+The lion is the largest.
+The tiger is larger than the bear.
+The bear is larger than the elephant.
+The penguin is the smallest.
+Which one is the second largest?
+Answer:
+
+Example 5:
+In a bakery, there are five cakes: chocolate, vanilla, carrot, apple, and lemon.
+The chocolate cake is the largest.
+The vanilla cake is larger than the carrot cake.
+The carrot cake is larger than the apple cake.
+The lemon cake is the smallest.
+Which one is the second largest?
+Answer:
+
+Example 6:
+In a garden, there are five flowers: rose, daisy, tulip, sunflower, and lily.
+The rose is the tallest.
+The daisy is taller than the tulip.
+The tulip is taller than the sunflower.
+The lily is the shortest.
+Which one is the second tallest?
+Answer:
+
+Example 7:
+In a kitchen, there are five utensils: spoon, fork, knife, ladle, and whisk.
+The spoon is the smallest.
+The fork is smaller than the knife.
+The ladle is larger than the spoon.
+The whisk is larger than the ladle.
+Which one is the second largest?
+Answer:
+
+Example 8:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer:
+
+Example 9:
+In a grocery store, there are five products: milk, bread, eggs, cheese, and butter.
+The milk is the most expensive.
+The bread is more expensive than the eggs.
+The eggs are more expensive than the cheese.
+The cheese is more expensive than the butter.
+Which one is the least expensive?
+Answer:
+
+Example 10:
+In a park, there are five trees: oak, maple, birch, pine, and willow.
+The oak is the tallest.
+The maple is taller than the birch.
+The birch is taller than the pine.
+The willow is the shortest.
+Which one is the",0.48
+few_shots,8,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.5066666666666667,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Misinterpretation of Positional Clues**:
+   - Observed Failure Pattern: The model often misinterprets positional clues, leading to incorrect answers.
+   - Evidence: Examples 0, 6, and 7 show the model incorrectly identifying the rightmost or second from the right positions.
+   - Insufficient Aspect: The prompt may not clearly specify the importance of positional clues or the directionality (left to right or right to left) of the arrangement.
+
+2. **Incorrect Handling of Relative Ordering**:
+   - Observed Failure Pattern: The model struggles with correctly interpreting and applying relative ordering clues.
+   - Evidence: Examples 1, 2, and 5 demonstrate the model's difficulty in determining the third-newest or second-to-last positions.
+   - Insufficient Aspect: The prompt may not emphasize the importance of correctly understanding and applying relative ordering information.
+
+3. **Ignoring Multiple Clues**:
+   - Observed Failure Pattern: The model fails to consider multiple clues simultaneously, leading to incorrect conclusions.
+   - Evidence: Examples 3, 4, and 8 show the model ignoring or misinterpreting multiple clues, resulting in incorrect answers.
+   - Insufficient Aspect: The prompt may not encourage the model to consider all relevant clues together to make accurate inferences.
+
+# TASK EXPLANATION (NOT PART OF THE PROMPT):
+
+Task:
+Logical deduction problem solving involving ordering,
+position, ranking, spatial relationships,
+and constraint satisfaction.
+
+Goal:
+Identify the correct answer among the provided options.
+
+#
+
+Solve the following logical reasoning problem.
+
+# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **",0.49
+few_shots,9,rewrite,"Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Example 3:
+            In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+            The hawk is smaller than the eagle.
+            The falcon is larger than the owl.
+            The sparrow is the smallest.
+            The owl is smaller than the hawk.
+            Which one is the second smallest?
+            Answer: owl
+
+            Example 4:
+            At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+            Alice finished first.
+            Bob finished second.
+            Charlie finished third.
+            Dan finished fourth.
+            Eve finished fifth.
+            Who finished third?
+            Answer: Charlie
+
+            Example 5:
+            In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+            John shot the lowest score.
+            Jim scored higher than Joe.
+            Joe scored higher than Jane.
+            Jane scored higher than Jill.
+            Who scored the highest?
+            Answer: John
+
+            Example 6:
+            In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+            The encyclopedia is the oldest.
+            The dictionary is newer than the atlas.
+            The atlas is newer than the textbook.
+            The novel is the newest.
+            Which one is the second newest?
+            Answer: textbook
+
+            Example 7:
+            At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+            The croissant is the oldest.
+            The scone is the newest.
+            The muffin is older than the danish.
+            The danish is older than the cupcake.
+            Which one is the second oldest?
+            Answer: muffin
+
+            Example 8:
+            In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+            Alex sat in the first row.
+            Ben sat in the second row.
+            Charlie sat in the third row.
+            David sat in the fourth row.
+            Emily sat in the fifth row.
+            Which one is in the fourth row?
+            Answer: David
+
+            Example 9:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:
+
+            # CURRENT PROMPT:",0.51,"# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is",0.49
+few_shots,10,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.4966666666666666,"# CURRENT PROMPT:
+
+In a context, there are five items: A, B, C, D, E.
+Item A is older than item B.
+Item C is newer than item D.
+Item D is older than item E.
+Which one is the third oldest/youngest?
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.4933333333333333
+few_shots,11,rewrite,"Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Example 3:
+            In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+            The hawk is smaller than the eagle.
+            The falcon is larger than the owl.
+            The sparrow is the smallest.
+            The owl is smaller than the hawk.
+            Which one is the second smallest?
+            Answer: owl
+
+            Example 4:
+            At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+            Alice finished first.
+            Bob finished second.
+            Charlie finished third.
+            Dan finished fourth.
+            Eve finished fifth.
+            Who finished third?
+            Answer: Charlie
+
+            Example 5:
+            In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+            John shot the lowest score.
+            Jim scored higher than Joe.
+            Joe scored higher than Jane.
+            Jane scored higher than Jill.
+            Who scored the highest?
+            Answer: John
+
+            Example 6:
+            In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+            The encyclopedia is the oldest.
+            The dictionary is newer than the atlas.
+            The atlas is newer than the textbook.
+            The novel is the newest.
+            Which one is the second newest?
+            Answer: textbook
+
+            Example 7:
+            At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+            The croissant is the oldest.
+            The scone is the newest.
+            The muffin is older than the danish.
+            The danish is older than the cupcake.
+            Which one is the second oldest?
+            Answer: muffin
+
+            Example 8:
+            In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+            Alex sat in the first row.
+            Ben sat in the second row.
+            Charlie sat in the third row.
+            David sat in the fourth row.
+            Emily sat in the fifth row.
+            Which one is in the fourth row?
+            Answer: David
+
+            Example 9:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:
+
+            # CURRENT PROMPT:",0.51,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333
+few_shots,12,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.5066666666666667,"# CURRENT PROMPT:
+            Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Solve the following logical reasoning problem.
+
+            # CURRENT PROMPT:
+            Example 3:
+In a library, there are five books: green, blue, yellow, red, and black.
+The green book is to the left of the blue book.
+The blue book is to the left of the yellow book.
+The yellow book is to the left of the red book.
+The red book is to the left of the black book.
+Which one is the leftmost?
+Answer: green
+
+Example 4:
+In a classroom, there are five students: Alice, Bob, Charlie, Dave, and Eve.
+Alice is sitting in front of Bob.
+Bob is sitting in front of Charlie.
+Charlie is sitting in front of Dave.
+Dave is sitting in front of Eve.
+Who is sitting farthest from Eve?
+Answer: Alice
+
+Example 5:
+In a bakery, there are five pastries: cake, pie, muffin, donut, and bread.
+The cake is sweeter than the pie.
+The pie is sweeter than the muffin.
+The muffin is sweeter than the donut.
+The donut is sweeter than the bread.
+Which one is the sweetest?
+Answer: cake
+
+Example 6:
+In a car show, there are five vehicles: sedan, SUV, truck, van, and motorcycle.
+The sedan is the newest.
+The SUV is newer than the truck.
+The truck is newer than the van.
+The van is newer than the motorcycle.
+Which one is the oldest?
+Answer: motorcycle
+
+Solve the following logical reasoning problem.
+
+            # CURRENT PROMPT:
+            Example 7:
+In a school, there are five classes: math, science, history, art, and PE.
+Math is scheduled before science.
+Science is scheduled before history.
+History is scheduled before art.
+Art is scheduled before PE.
+Which one is the last class of the day?
+Answer: PE
+
+Example 8:
+In a store, there are five items: apple, banana, orange, grape, and pear.
+The apple is cheaper than the banana.
+The banana is cheaper than the orange.
+The orange is cheaper than the grape.
+The grape is cheaper than the pear.
+Which one is the most expensive?
+Answer: pear
+
+Example 9:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the largest.
+The tiger is larger than the elephant.
+The elephant is larger than the giraffe.
+The giraffe is larger than the zebra.
+Which one is the smallest?
+Answer: zebra
+
+Example 10:
+In a garden, there are",0.47
+few_shots,13,rewrite,"# CURRENT PROMPT:
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.5,"# CURRENT PROMPT:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:",0.51
+few_shots,14,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"# CURRENT PROMPT:
+
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:
+
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog",0.5
+few_shots,15,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"# CURRENT PROMPT:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+In a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# IMPROVED PROMPT:
+
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer:
+
+In a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog",0.5033333333333333
+few_shots,16,rewrite,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Solve the following logical reasoning problem.
+
+            # FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+            1. **Pattern: Misinterpretation of Positional Relationships**
+            - **Evidence**: In multiple examples (e.g., Example 2, Example 4), the model incorrectly identifies the position of an object based on its relationship to other objects.
+            - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+            2. **Pattern: Incorrect Sequence of Events or Relationships**
+            - **Evidence**: In some examples (e.g., Example 3, Example 5), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+            - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+            3. **Pattern: Misinterpretation of Comparative Statements**
+            - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+            - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+            # TASK EXPLANATION (NOT PART OF THE PROMPT):
+
+            Task:
+            Logical deduction problem solving involving ordering,
+            position, ranking, spatial relationships,
+            and constraint satisfaction.
+
+            Goal:
+            Identify the correct answer among the provided options.
+
+            #
+            DO NOT rewrite or return FAILURE ANALYSIS.
+            DO NOT rewrite or return TASK EXPLANATION.
+
+            IMPROVE only the CURRENT PROMPT to maximize performance and to address the
+            failure patterns identified by the FAILURE ANALYSIS.
+            Preserve useful parts of the CURRENT PROMPT.
+            DO NOT add changes that are unsupported by the FAILURE ANALYSIS.
+            The resulting PROMPT must generalize to unseen instances.
+
+            Return ONLY the improved PROMPT.
+            DO NOT include other text.
+            DO NOT explain your reasoning.
+
+            # IMPROVED CURRENT PROMPT:
+
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+# TASK EXPLANATION (NOT PART OF THE PROMPT):
+Task:
+Logical deduction problem solving involving ordering,
+position, ranking, spatial relationships,
+and constraint satisfaction.
+Goal:
+Identify the correct answer among the provided options.
+#",0.5133333333333333
+few_shots,17,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"# CURRENT PROMPT:
+            # CURRENT PROMPT:
+
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+            The hawk is smaller than the eagle.
+            The falcon is larger than the owl.
+            The sparrow is the smallest.
+            The owl is smaller than the hawk.
+            Which one is the second smallest?
+            Answer: owl
+
+            At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+            Alice finished first.
+            Bob finished second.
+            Charlie finished third.
+            Dan finished fourth.
+            Eve finished fifth.
+            Who finished third?
+            Answer: Charlie
+
+            In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+            John shot the lowest score.
+            Jim scored higher than Joe.
+            Joe scored higher than Jane.
+            Jane scored higher than Jill.
+            Who scored the highest?
+            Answer: John
+
+            In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+            The encyclopedia is the oldest.
+            The dictionary is newer than the atlas.
+            The atlas is newer than the textbook.
+            The novel is the newest.
+            Which one is the second newest?
+            Answer: textbook
+
+            At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+            The croissant is the oldest.
+            The scone is the newest.
+            The muffin is older than the danish.
+            The danish is older than the cupcake.
+            Which one is the second oldest?
+            Answer: muffin
+
+            In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+            Alex sat in the first row.
+            Ben sat in the second row.
+            Charlie sat in the third row.
+            David sat in the fourth row.
+            Emily sat in the fifth row.
+            Which one is in the fourth row?
+            Answer: David
+
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:
+
+            # CURRENT PROMPT:
+
+            # IMPROVED CURRENT PROMPT:
+            # IMPROVED CURRENT PROMPT:
+
+            In a museum exhibit",0.5033333333333333
+few_shots,18,rewrite,"# CURRENT PROMPT:
+            In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:",0.51,"In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+            The soup is the lightest.
+            The salad is lighter than the pasta.
+            The pasta is lighter than the pizza.
+            The sandwich is heavier than the pizza.
+            Which one is the second lightest?
+            Answer:",0.4933333333333333
+few_shots,19,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+# TASK EXPLANATION (NOT PART OF THE PROMPT):
+Task:
+Logical deduction problem solving involving ordering,
+position, ranking, spatial relationships,
+and constraint satisfaction.
+Goal:
+Identify the correct answer among the provided options.
+#",0.5133333333333333,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can",0.5133333333333333
+few_shots,20,rewrite,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Solve the following logical reasoning problem.
+
+            # FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+            1. **Pattern: Misinterpretation of Positional Relationships**
+            - **Evidence**: In multiple examples (e.g., Example 2, Example 4), the model incorrectly identifies the position of an object based on its relationship to other objects.
+            - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+            2. **Pattern: Incorrect Sequence of Events or Relationships**
+            - **Evidence**: In some examples (e.g., Example 3, Example 5), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+            - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+            3. **Pattern: Misinterpretation of Comparative Statements**
+            - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+            - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+            # TASK EXPLANATION (NOT PART OF THE PROMPT):
+
+            Task:
+            Logical deduction problem solving involving ordering,
+            position, ranking, spatial relationships,
+            and constraint satisfaction.
+
+            Goal:
+            Identify the correct answer among the provided options.
+
+            #
+            DO NOT rewrite or return FAILURE ANALYSIS.
+            DO NOT rewrite or return TASK EXPLANATION.
+
+            IMPROVE only the CURRENT PROMPT to maximize performance and to address the
+            failure patterns identified by the FAILURE ANALYSIS.
+            Preserve useful parts of the CURRENT PROMPT.
+            DO NOT add changes that are unsupported by the FAILURE ANALYSIS.
+            The resulting PROMPT must generalize to unseen instances.
+
+            Return ONLY the improved PROMPT.
+            DO NOT include other text.
+            DO NOT explain your reasoning.
+
+            # IMPROVED CURRENT PROMPT:
+
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the",0.52,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, history, science, mystery, and fantasy.
+The novel is the oldest book in the library.
+The history book is older than the science book.
+The mystery book is older than the fantasy book.
+The science book is older than the mystery book.
+Which one is the second oldest?
+Answer: history
+
+Example 4:
+At a concert, there are five bands: rock, jazz, pop, classical, and folk.
+The rock band is the loudest.
+The jazz band is louder than the pop band.
+The pop band is louder than the classical band.
+The classical band is louder than the folk band.
+Which one is the quietest?
+Answer: folk
+
+Example 5:
+In a garden, there are five flowers: rose, daffodil, tulip, lily, and sunflower.
+The rose is the largest.
+The daffodil is larger than the tulip.
+The tulip is larger than the lily.
+The lily is larger than the sunflower.
+Which one is the smallest?
+Answer: sunflower
+
+Example 6:
+At a race, there are five athletes: sprinter, marathoner, hurdler, long jumper, and high jumper.
+The marathoner is the slowest.
+The hurdler is slower than the long jumper.
+The long jumper is slower than the sprinter.
+The sprinter is slower than the high jumper.
+Which one is the fastest?
+Answer: high jumper",0.5066666666666667
+few_shots,21,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"# CURRENT PROMPT:
+
+            # CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.51
+few_shots,22,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can",0.5133333333333333,"In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask",0.4833333333333333
+few_shots,23,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+# TASK EXPLANATION (NOT PART OF THE PROMPT):
+Task:
+Logical deduction problem solving involving ordering,
+position, ranking, spatial relationships,
+and constraint satisfaction.
+Goal:
+Identify the correct answer among the provided options.
+#",0.5133333333333333,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a bakery, there are five pastries: croissant, muffin, donut, bagel, and scone.
+The croissant is older than the muffin.
+The muffin is older than the donut.
+The donut is older than the bagel.
+The bagel is older than the scone.
+Which one is the oldest?
+Answer: croissant
+
+Example 6:
+At a restaurant, there are five dishes: pizza, pasta, salad, soup, and dessert.
+The pizza is the most expensive.
+The pasta is more expensive than the salad.
+The salad is more expensive than the soup.
+The soup is more expensive than the dessert.
+Which one is the least expensive?
+Answer: dessert
+
+Example 7:
+In a garden, there are five flowers: rose, tulip, daffodil, sunflower, and orchid.
+The rose is the most beautiful.
+The tulip is more beautiful than the daffodil.
+The daffodil is more beautiful than the sunflower.
+The sunflower is more beautiful than the orchid.
+Which one is the least beautiful?
+Answer: orchid
+
+Example 8:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 9:
+At a concert, there are five bands: Led Zeppelin, The Beatles, Pink Floyd, AC/DC, and Queen.
+Led Zeppelin is the most popular.
+The Beatles are more popular than Pink Floyd.
+Pink Floyd are more popular than AC/DC.
+AC/DC are more popular than Queen.
+Which one is the least popular?
+Answer: Queen
+
+Example 10:
+In a lab, there are five chemicals: water, salt, sugar, alcohol, and vinegar.
+Water is the most common.
+Salt is more common than sugar.
+Sugar",0.51
+few_shots,24,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can",0.5133333333333333,"# CURRENT PROMPT:
+
+# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The",0.4966666666666666
+few_shots,25,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+# TASK EXPLANATION (NOT PART OF THE PROMPT):
+Task:
+Logical deduction problem solving involving ordering,
+position, ranking, spatial relationships,
+and constraint satisfaction.
+Goal:
+Identify the correct answer among the provided options.
+#",0.5133333333333333,"Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Example 3:
+            In a library, there are five books: novel, textbook, biography, history, and dictionary.
+            The novel is older than the textbook.
+            The textbook is newer than the biography.
+            The biography is older than the history.
+            The history is older than the dictionary.
+            Which one is the newest?
+            Answer: textbook
+
+            Example 4:
+            In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+            The lion is the largest.
+            The tiger is bigger than the elephant.
+            The elephant is bigger than the giraffe.
+            The giraffe is bigger than the penguin.
+            Which one is the smallest?
+            Answer: penguin",0.4833333333333333
+few_shots,26,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+# TASK EXPLANATION (NOT PART OF THE PROMPT):
+Task:
+Logical deduction problem solving involving ordering,
+position, ranking, spatial relationships,
+and constraint satisfaction.
+Goal:
+Identify the correct answer among the provided options.
+#",0.5133333333333333,"# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Solve the following logical reasoning problem.
+
+# Example 5:
+In a garden, there are five plants: rose, sunflower, daisy, tulip, and lily.
+The rose is the tallest.
+The sunflower is taller than the daisy.
+The daisy is taller than the tulip.
+The tulip is taller than the lily.
+Which one is the shortest?
+Answer: lily
+
+# Example 6:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+David finished fourth.
+Eve finished fifth.
+Which one finished second-to-last?
+Answer: David
+
+# Example 7:
+In a store, there are five items: shirt, pants, socks, hat, and gloves.
+The shirt is more expensive than the pants.
+The pants are more expensive than the socks.
+The socks are more expensive than the hat.
+The hat is more expensive than the gloves.
+Which one is the most expensive?
+Answer: shirt
+
+# Example 8:
+In a kitchen, there are five utensils: spoon, fork, knife, ladle, and whisk.
+The spoon is the smallest.
+The fork is smaller than the knife.
+The knife is smaller than the ladle.
+The ladle is smaller than the whisk.
+Which one is the largest?
+Answer: whisk
+
+Solve the following logical reasoning problem.
+
+# CURRENT PROMPT:
+
+Example 9:
+In a city, there are five buildings: skyscraper, house, tower, mansion, and apartment.
+The skyscraper is the tallest.
+The tower is taller than the house.
+The house is taller than the apartment.
+The apartment is taller than the mansion.
+Which one is the shortest?
+Answer: mansion",0.4933333333333333
+few_shots,27,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:
+
+            # FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+            1. **Failure to Consider All Given Information**: The model sometimes fails to consider all the information provided in the context when answering the question. This is evident in examples where the model provides an answer",0.4966666666666666
+few_shots,28,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can",0.5133333333333333,"# CURRENT PROMPT:
+
+# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Failed Example 0, Failed Example 5), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misunderstandings.
+
+2. **Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Failed Example 2, Failed Example 3), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Failed Example 1, Failed Example 6), the model misinterprets comparative statements, such as ""finished above"" or ""to the right of.""
+   - **Aspect of Current Prompt**: The current prompt does not always",0.5133333333333333
+few_shots,29,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.4933333333333333
+few_shots,30,rewrite,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Solve the following logical reasoning problem.
+
+            # FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+            1. **Pattern: Misinterpretation of Positional Relationships**
+            - **Evidence**: In multiple examples (e.g., Example 2, Example 4), the model incorrectly identifies the position of an object based on its relationship to other objects.
+            - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+            2. **Pattern: Incorrect Sequence of Events or Relationships**
+            - **Evidence**: In some examples (e.g., Example 3, Example 5), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+            - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+            3. **Pattern: Misinterpretation of Comparative Statements**
+            - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+            - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+            # TASK EXPLANATION (NOT PART OF THE PROMPT):
+
+            Task:
+            Logical deduction problem solving involving ordering,
+            position, ranking, spatial relationships,
+            and constraint satisfaction.
+
+            Goal:
+            Identify the correct answer among the provided options.
+
+            #
+            DO NOT rewrite or return FAILURE ANALYSIS.
+            DO NOT rewrite or return TASK EXPLANATION.
+
+            IMPROVE only the CURRENT PROMPT to maximize performance and to address the
+            failure patterns identified by the FAILURE ANALYSIS.
+            Preserve useful parts of the CURRENT PROMPT.
+            DO NOT add changes that are unsupported by the FAILURE ANALYSIS.
+            The resulting PROMPT must generalize to unseen instances.
+
+            Return ONLY the improved PROMPT.
+            DO NOT include other text.
+            DO NOT explain your reasoning.
+
+            # IMPROVED CURRENT PROMPT:
+
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the",0.52,"# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, encyclopedia, dictionary, and magazine.
+The textbook is older than the encyclopedia.
+The dictionary is the newest.
+The magazine is older than the novel.
+The novel is older than the encyclopedia.
+Which one is the second newest?
+Answer: textbook
+
+Example 4:
+In a bakery, there are five pastries: cake, bread, muffin, croissant, and donut.
+The croissant is the oldest.
+The cake is older than the muffin.
+The donut is the newest.
+The muffin is older than the bread.
+Which one is the third oldest?
+Answer: muffin
+
+Example 5:
+In a garden, there are five plants: rose, tulip, daisy, sunflower, and lily.
+The rose is the oldest.
+The tulip is older than the daisy.
+The sunflower is the newest.
+The lily is older than the tulip.
+Which one is the second oldest?
+Answer: tulip
+
+Solve the following logical reasoning problem.
+
+Example 6:
+In a gallery, there are five paintings: landscape, portrait, cityscape, seascape, and abstract.
+The landscape is older than the portrait.
+The cityscape is the newest.
+The seascape is older than the abstract.
+The portrait is older than the cityscape.
+Which one is the third newest?
+Answer: seascape
+
+Example 7:
+In a shop, there are five items: pen, pencil, eraser, notebook, and ruler.
+The eraser is the oldest.
+The pencil is older than the pen.
+The notebook is the newest.
+The pen is older than the eraser.
+Which one is the second newest?
+Answer: pencil",0.4933333333333333
+few_shots,31,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can",0.5133333333333333,"# CURRENT PROMPT:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+
+The lion is the largest.
+
+The tiger is bigger than the elephant.
+
+The elephant is bigger than the giraffe.
+
+The giraffe is bigger than the penguin.
+
+Which one is the smallest?
+
+Answer:",0.5233333333333333
+few_shots,32,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"# CURRENT PROMPT:
+
+            # CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.51
+few_shots,33,rewrite,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Solve the following logical reasoning problem.
+
+            # FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+            1. **Pattern: Misinterpretation of Positional Relationships**
+            - **Evidence**: In multiple examples (e.g., Example 2, Example 4), the model incorrectly identifies the position of an object based on its relationship to other objects.
+            - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+            2. **Pattern: Incorrect Sequence of Events or Relationships**
+            - **Evidence**: In some examples (e.g., Example 3, Example 5), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+            - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+            3. **Pattern: Misinterpretation of Comparative Statements**
+            - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+            - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+            # TASK EXPLANATION (NOT PART OF THE PROMPT):
+
+            Task:
+            Logical deduction problem solving involving ordering,
+            position, ranking, spatial relationships,
+            and constraint satisfaction.
+
+            Goal:
+            Identify the correct answer among the provided options.
+
+            #
+            DO NOT rewrite or return FAILURE ANALYSIS.
+            DO NOT rewrite or return TASK EXPLANATION.
+
+            IMPROVE only the CURRENT PROMPT to maximize performance and to address the
+            failure patterns identified by the FAILURE ANALYSIS.
+            Preserve useful parts of the CURRENT PROMPT.
+            DO NOT add changes that are unsupported by the FAILURE ANALYSIS.
+            The resulting PROMPT must generalize to unseen instances.
+
+            Return ONLY the improved PROMPT.
+            DO NOT include other text.
+            DO NOT explain your reasoning.
+
+            # IMPROVED CURRENT PROMPT:
+
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the",0.52,"# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, dictionary, encyclopedia, and atlas.
+The novel is the most recent.
+The textbook is older than the dictionary.
+The encyclopedia is older than the atlas.
+Which one is the second oldest?
+Answer: textbook
+
+Example 4:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Who is the shortest?
+Answer: Eve
+
+Example 5:
+In a garden, there are five plants: rose, tulip, daffodil, sunflower, and marigold.
+The tulip is the tallest.
+The rose is taller than the daffodil.
+The sunflower is taller than the marigold.
+The daffodil is taller than the tulip.
+Which one is the shortest?
+Answer: marigold
+
+Example 6:
+In a city, there are five buildings: skyscraper, townhouse, bungalow, condo, and studio.
+The skyscraper is the tallest.
+The townhouse is taller than the bungalow.
+The condo is taller than the studio.
+The bungalow is taller than the studio.
+Which one is the shortest?
+Answer: studio
+
+Example 7:
+In a zoo, there are five animals: elephant, lion, giraffe, zebra, and flamingo.
+The elephant is the largest.
+The lion is larger than the giraffe.
+The zebra is larger than the flamingo.
+The giraffe is larger than the flamingo.
+Which one is the smallest?
+Answer: flamingo
+
+Example 8:
+In a kitchen, there are five appliances: microwave, toaster, blender, coffee maker, and food processor.
+The toaster is the newest.
+The blender is older than the coffee maker.
+The coffee maker is older than the food processor.
+The food processor is older than the microwave.
+Which one is the oldest?
+Answer: microwave
+
+Example 9:
+In a park, there are five trees: oak, maple, pine, birch, and willow.
+The oak is the largest.
+The maple is larger than the pine.
+The pine is larger than the birch.
+The birch is larger than the willow.
+Which one is the smallest?
+Answer: willow
+
+Example 10:
+In a school, there are five subjects: math, science, history, art, and PE.
+The math class is the most recent.
+The science class",0.5066666666666667
+few_shots,34,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can",0.5133333333333333,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+- The statue is older than the painting.
+- The vase is the newest.
+- The mask is older than the coin.
+- The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+- The husky is the heaviest.
+- The bulldog is heavier than the poodle.
+- The beagle is lighter than the poodle.
+- The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+- The novel is older than the textbook.
+- The textbook is newer than the biography.
+- The biography is older than the history.
+- The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+- The lion is the largest.
+- The tiger is bigger than the elephant.
+- The elephant is bigger than the giraffe.
+- The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+- Alice is taller than Bob.
+- Bob is taller than Charlie.
+- Charlie is taller than David.
+- David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+- The skyscraper is the tallest.
+- The house is taller than the apartment.
+- The apartment is taller than the bungalow.
+- The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+Example 7:
+In a garden, there are five plants: rose, tulip, daisy, sunflower, and carnation.
+- The rose is taller than the tulip.
+- The tulip is taller than the daisy.
+- The daisy is taller than the sunflower.
+- The sunflower is taller than the carnation.
+Which one is the shortest?
+Answer: carnation
+
+Example 8:
+At a concert, there are five instruments: violin, piano, trumpet, flute, and saxophone.
+- The violin is louder than the piano.
+- The piano is louder than the trumpet.
+- The trumpet is louder than the flute.
+- The flute is louder than the saxophone.
+Which one is the quietest?
+Answer: saxophone",0.48
+few_shots,35,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can",0.5133333333333333,"# CURRENT PROMPT:
+In a scenario, there are five items: artifact, object, entity, thing, and item.
+The artifact is older than the object.
+The object is newer than the entity.
+The entity is older than the thing.
+The thing is older than the item.
+Which one is the third oldest?
+Answer:",0.4966666666666666
+few_shots,36,rewrite,"# CURRENT PROMPT:
+
+# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Failed Example 0, Failed Example 5), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misunderstandings.
+
+2. **Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Failed Example 2, Failed Example 3), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Failed Example 1, Failed Example 6), the model misinterprets comparative statements, such as ""finished above"" or ""to the right of.""
+   - **Aspect of Current Prompt**: The current prompt does not always",0.5133333333333333,"# CURRENT PROMPT:
+
+In a given scenario, there are five objects: object1, object2, object3, object4, and object5.
+
+- object1 is older (or newer, heavier, larger, etc.) than object2.
+- object2 is older (or newer, heavier, larger, etc.) than object3.
+- object3 is older (or newer, heavier, larger, etc.) than object4.
+- object4 is older (or newer, heavier, larger, etc.) than object5.
+
+Which one of the following is the third oldest (or lightest, shortest, etc.)?
+
+Options:
+- object1
+- object2
+- object3
+- object4
+- object5",0.51
+few_shots,37,rewrite,"# CURRENT PROMPT:
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the newest.
+            The mask is older than the coin.
+            The painting is older than the mask.
+            Which one is the third oldest?
+            Answer: mask
+
+            Example 2:
+            At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+            The husky is the heaviest.
+            The bulldog is heavier than the poodle.
+            The beagle is lighter than the poodle.
+            The beagle is heavier than the terrier.
+            Which one is the lightest?
+            Answer: terrier
+
+            Solve the following logical reasoning problem.
+
+            # FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+            1. **Pattern: Misinterpretation of Positional Relationships**
+            - **Evidence**: In multiple examples (e.g., Example 2, Example 4), the model incorrectly identifies the position of an object based on its relationship to other objects.
+            - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can lead to misinterpretation.
+
+            2. **Pattern: Incorrect Sequence of Events or Relationships**
+            - **Evidence**: In some examples (e.g., Example 3, Example 5), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+            - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+            3. **Pattern: Misinterpretation of Comparative Statements**
+            - **Evidence**: In several examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+            - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+            # TASK EXPLANATION (NOT PART OF THE PROMPT):
+
+            Task:
+            Logical deduction problem solving involving ordering,
+            position, ranking, spatial relationships,
+            and constraint satisfaction.
+
+            Goal:
+            Identify the correct answer among the provided options.
+
+            #
+            DO NOT rewrite or return FAILURE ANALYSIS.
+            DO NOT rewrite or return TASK EXPLANATION.
+
+            IMPROVE only the CURRENT PROMPT to maximize performance and to address the
+            failure patterns identified by the FAILURE ANALYSIS.
+            Preserve useful parts of the CURRENT PROMPT.
+            DO NOT add changes that are unsupported by the FAILURE ANALYSIS.
+            The resulting PROMPT must generalize to unseen instances.
+
+            Return ONLY the improved PROMPT.
+            DO NOT include other text.
+            DO NOT explain your reasoning.
+
+            # IMPROVED CURRENT PROMPT:
+
+            Example 1:
+            In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+            The statue is older than the painting.
+            The vase is the",0.52,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier",0.4833333333333333
+few_shots,38,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"# CURRENT PROMPT:
+
+            # CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.51
+few_shots,39,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.51
+few_shots,40,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a library, there are five books: novel, textbook, biography, history, and dictionary.
+The novel is older than the textbook.
+The textbook is newer than the biography.
+The biography is older than the history.
+The history is older than the dictionary.
+Which one is the newest?
+Answer: textbook
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is bigger than the elephant.
+The elephant is bigger than the giraffe.
+The giraffe is bigger than the penguin.
+Which one is the smallest?
+Answer: penguin
+
+Example 5:
+In a classroom, there are five students: Alice, Bob, Charlie, David, and Eve.
+Alice is taller than Bob.
+Bob is taller than Charlie.
+Charlie is taller than David.
+David is taller than Eve.
+Which one is the shortest?
+Answer: Eve
+
+Example 6:
+In a city, there are five buildings: skyscraper, house, apartment, bungalow, and shack.
+The skyscraper is the tallest.
+The house is taller than the apartment.
+The apartment is taller than the bungalow.
+The bungalow is taller than the shack.
+Which one is the shortest?
+Answer: shack
+
+Solve the following logical reasoning problem.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+1. **Pattern: Misinterpretation of Comparative Statements**
+   - **Evidence**: In multiple examples (e.g., Example 1, Example 6), the model misinterprets comparative statements, such as ""older than"" or ""heavier than.""
+   - **Aspect of Current Prompt**: The current prompt does not always provide clear comparative statements, which can lead to misinterpretation.
+
+2. **Pattern: Incorrect Sequence of Events or Relationships**
+   - **Evidence**: In some examples (e.g., Example 3, Example 4), the model fails to correctly sequence events or relationships, leading to incorrect conclusions.
+   - **Aspect of Current Prompt**: The current prompt does not always provide explicit sequencing information, which can lead to misunderstandings.
+
+3. **Pattern: Misinterpretation of Positional Relationships**
+   - **Evidence**: In multiple examples (e.g., Example 0, Example 1), the model incorrectly identifies the position of an object based on its relationship to other objects.
+   - **Aspect of Current Prompt**: The current prompt does not explicitly state the position of all objects relative to each other, which can",0.5133333333333333,"In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask",0.4833333333333333
+few_shots,41,rewrite,"# CURRENT PROMPT:
+Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a bird sanctuary, there are five birds: eagle, hawk, falcon, owl, and sparrow.
+The hawk is smaller than the eagle.
+The falcon is larger than the owl.
+The sparrow is the smallest.
+The owl is smaller than the hawk.
+Which one is the second smallest?
+Answer: owl
+
+Example 4:
+At a track meet, there are five runners: Alice, Bob, Charlie, Dan, and Eve.
+Alice finished first.
+Bob finished second.
+Charlie finished third.
+Dan finished fourth.
+Eve finished fifth.
+Who finished third?
+Answer: Charlie
+
+Example 5:
+In a golf tournament, there are five players: John, Jim, Joe, Jane, and Jill.
+John shot the lowest score.
+Jim scored higher than Joe.
+Joe scored higher than Jane.
+Jane scored higher than Jill.
+Who scored the highest?
+Answer: John
+
+Example 6:
+In a library, there are five books: encyclopedia, dictionary, atlas, novel, and textbook.
+The encyclopedia is the oldest.
+The dictionary is newer than the atlas.
+The atlas is newer than the textbook.
+The novel is the newest.
+Which one is the second newest?
+Answer: textbook
+
+Example 7:
+At a bakery, there are five pastries: cupcake, muffin, croissant, scone, and danish.
+The croissant is the oldest.
+The scone is the newest.
+The muffin is older than the danish.
+The danish is older than the cupcake.
+Which one is the second oldest?
+Answer: muffin
+
+Example 8:
+In a classroom, there are five students: Alex, Ben, Charlie, David, and Emily.
+Alex sat in the first row.
+Ben sat in the second row.
+Charlie sat in the third row.
+David sat in the fourth row.
+Emily sat in the fifth row.
+Which one is in the fourth row?
+Answer: David
+
+Example 9:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:
+
+# CURRENT PROMPT:",0.5233333333333333,"# CURRENT PROMPT:
+In a restaurant, there are five dishes: soup, salad, pasta, sandwich, and pizza.
+The soup is the lightest.
+The salad is lighter than the pasta.
+The pasta is lighter than the pizza.
+The sandwich is heavier than the pizza.
+Which one is the second lightest?
+Answer:",0.51

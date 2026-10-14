@@ -1,0 +1,2467 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,examples,0,logical,,,,,,0.51,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,1,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,2,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,3,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,4,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,5,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,6,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,7,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,8,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,9,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,10,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,11,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,12,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,13,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,14,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,15,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,16,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,17,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,18,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,19,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,20,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,21,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,22,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,23,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,24,logical,,,,,,0.55,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five shelves: shelf A, shelf B, shelf C, shelf D, and shelf E.
+Shelf A has the fewest books.
+Shelf E has more books than shelf D.
+Shelf B has the most books.
+Shelf C has fewer books than shelf A.
+Shelf D has more books than shelf C.
+Which one has the most books?
+Answer: B
+
+Example 4:
+In a park, there are five trees: tree A, tree B, tree C, tree D, and tree E.
+Tree E is the tallest.
+Tree C is shorter than tree A.
+Tree B is the shortest.
+Tree D is taller than tree C.
+Tree A is taller than tree B.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a city, there are five skyscrapers: building A, building B, building C, building D, and building E.
+Building C is the tallest.
+Building E is the shortest.
+Building D is taller than building C.
+Building A is taller than building E.
+Building B is the second tallest.
+Which one is the shortest?
+Answer: E
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,25,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,26,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,27,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,28,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,29,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,30,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,31,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,32,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,33,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,34,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,35,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,36,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,37,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,38,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,39,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,40,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,41,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,42,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,43,logical,,,,,,0.5533333333333333,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the smallest?
+Answer: D
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the shortest?
+Answer: B
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the shortest?
+Answer: cup
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,44,logical,,,,,,0.5566666666666666,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the largest?
+Answer: E
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the tallest?
+Answer: E
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the longest?
+Answer: spoon
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,45,logical,,,,,,0.5566666666666666,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the largest?
+Answer: E
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the tallest?
+Answer: E
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the longest?
+Answer: spoon
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,46,logical,,,,,,0.5566666666666666,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the largest?
+Answer: E
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the tallest?
+Answer: E
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the longest?
+Answer: spoon
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,47,logical,,,,,,0.5566666666666666,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the largest?
+Answer: E
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the tallest?
+Answer: E
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the longest?
+Answer: spoon
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,48,logical,,,,,,0.5566666666666666,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the largest?
+Answer: E
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the tallest?
+Answer: E
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the longest?
+Answer: spoon
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,49,logical,,,,,,0.5566666666666666,,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the largest?
+Answer: E
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the tallest?
+Answer: E
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the longest?
+Answer: spoon
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,50,logical,,,,,,0.5566666666666666,0.42,"Example 1:
+In a library, there are five books: A, B, C, D, and E.
+Book E is the oldest.
+Book B is newer than Book A.
+Book C is newer than Book B.
+Book D is the newest.
+Which one is the newest?
+Answer: D
+
+Example 2:
+In a store, there are five toys: car, doll, bike, ball, and train.
+The car is the heaviest.
+The bike is lighter than the doll.
+The ball is the lightest.
+The train is heavier than the bike.
+Which one is the heaviest?
+Answer: car
+
+Example 3:
+In a museum, there are five paintings: A, B, C, D, and E.
+Painting E is the largest.
+Painting B is smaller than Painting A.
+Painting C is smaller than Painting B.
+Painting D is the smallest.
+Which one is the largest?
+Answer: E
+
+Example 4:
+In a park, there are five trees: A, B, C, D, and E.
+Tree E is the tallest.
+Tree C is shorter than Tree A.
+Tree B is the shortest.
+Tree D is taller than Tree C.
+Which one is the tallest?
+Answer: E
+
+Example 5:
+In a kitchen, there are five utensils: spoon, knife, fork, plate, and cup.
+The spoon is the longest.
+The knife is shorter than the fork.
+The cup is the shortest.
+The plate is longer than the cup.
+Which one is the longest?
+Answer: spoon
+
+Solve the following logical reasoning problem."

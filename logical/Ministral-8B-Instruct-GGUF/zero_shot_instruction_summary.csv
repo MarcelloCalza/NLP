@@ -1,0 +1,120 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,zero_shot,instruction,0,logical,,,,,,0.52,,Solve the following logical reasoning problem.
+summary,zero_shot,instruction,1,logical,,,,,,0.5266666666666666,,"INSTRUCTION:
+
+Solve the following logical reasoning problem. Pay close attention to the relative positions of items, and distinguish between ""leftmost"" and ""rightmost."" Clearly understand the context of ""second"" position."
+summary,zero_shot,instruction,2,logical,,,,,,0.53,,"INSTRUCTION:
+
+Solve the following logical reasoning problem. Carefully consider absolute positions and comparative statements to determine the correct order. Prioritize the interpretation of comparative statements and ensure they align with absolute positions."
+summary,zero_shot,instruction,3,logical,,,,,,0.53,,"INSTRUCTION:
+
+Solve the following logical reasoning problem. Carefully consider absolute positions and comparative statements to determine the correct order. Prioritize the interpretation of comparative statements and ensure they align with absolute positions."
+summary,zero_shot,instruction,4,logical,,,,,,0.53,,"INSTRUCTION:
+
+Solve the following logical reasoning problem. Carefully consider absolute positions and comparative statements to determine the correct order. Prioritize the interpretation of comparative statements and ensure they align with absolute positions."
+summary,zero_shot,instruction,5,logical,,,,,,0.5333333333333333,,"**INSTRUCTION:**
+
+Solve the following logical reasoning problem. Carefully interpret comparative and positional statements to avoid misinterpretation. Prioritize comparative statements over positional ones. Accurately identify positions and rankings based on the order of comparative statements. Consider all relevant statements in the context."
+summary,zero_shot,instruction,6,logical,,,,,,0.5366666666666666,,"INSTRUCTION:
+
+Solve the following logical reasoning problem. Carefully consider absolute positions and comparative statements to determine the correct order. Prioritize the interpretation of comparative statements over absolute positions. Ensure they align with absolute positions."
+summary,zero_shot,instruction,7,logical,,,,,,0.5366666666666666,,"INSTRUCTION:
+
+Solve the following logical reasoning problem. Carefully consider absolute positions and comparative statements to determine the correct order. Prioritize the interpretation of comparative statements over absolute positions. Ensure they align with absolute positions."
+summary,zero_shot,instruction,8,logical,,,,,,0.5366666666666666,,"INSTRUCTION:
+
+Solve the following logical reasoning problem. Carefully consider absolute positions and comparative statements to determine the correct order. Prioritize the interpretation of comparative statements over absolute positions. Ensure they align with absolute positions."
+summary,zero_shot,instruction,9,logical,,,,,,0.5366666666666666,,"INSTRUCTION:
+
+Solve the following logical reasoning problem. Carefully consider absolute positions and comparative statements to determine the correct order. Prioritize the interpretation of comparative statements over absolute positions. Ensure they align with absolute positions."
+summary,zero_shot,instruction,10,logical,,,,,,0.5366666666666666,,"INSTRUCTION:
+
+Solve the following logical reasoning problem. Carefully consider absolute positions and comparative statements to determine the correct order. Prioritize the interpretation of comparative statements over absolute positions. Ensure they align with absolute positions."
+summary,zero_shot,instruction,11,logical,,,,,,0.5366666666666666,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider the entire context when analyzing statements."
+summary,zero_shot,instruction,12,logical,,,,,,0.5366666666666666,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider the entire context when analyzing statements."
+summary,zero_shot,instruction,13,logical,,,,,,0.5366666666666666,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider the entire context when analyzing statements."
+summary,zero_shot,instruction,14,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,15,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,16,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,17,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,18,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,19,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,20,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,21,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,22,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,23,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order of comparative statements and the positions indicated by positional statements. Ensure both types of statements are considered in conjunction."
+summary,zero_shot,instruction,24,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,25,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,26,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,27,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,28,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,29,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,30,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,31,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,32,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,33,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,34,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,35,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,36,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,37,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,38,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,39,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Always consider the entire context, including all given information, when analyzing statements."
+summary,zero_shot,instruction,40,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+
+Accurately interpret and prioritize comparative and positional statements. Carefully analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Always consider the entire context, including all given information, when analyzing statements."
+summary,zero_shot,instruction,41,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Thoroughly analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Always consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,42,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Thoroughly analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Always consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,43,logical,,,,,,0.5433333333333333,,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Thoroughly analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Always consider all contextual clues when analyzing statements."
+summary,zero_shot,instruction,44,logical,,,,,,0.5433333333333333,0.41,"**INSTRUCTION:**
+Accurately interpret and prioritize comparative and positional statements. Thoroughly analyze the order and implications of comparative statements. Precisely interpret the positions indicated by positional statements. Always consider all contextual clues when analyzing statements."

@@ -1,0 +1,1593 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,cot,examples,0,logical,,,,,,0.5533333333333333,,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,1,logical,,,,,,0.5833333333333334,,"<think>
+
+</think>
+
+Example 1:  
+On a shelf, there are five books: a red book, a blue book, a green book, a white book, and a yellow book. The red book is the second from the left. The white book is to the right of the blue book. The yellow book is the rightmost. The green book is to the left of the red book.  
+Which one is the second from the left?  
+Choices: red, blue, green, white, yellow  
+Answer: green
+
+Example 2:  
+In a row of five animals, there is a dog, a cat, a bird, a fish, and a snake. The cat is the second from the right. The fish is to the left of the snake. The dog is to the right of the bird. The bird is the leftmost.  
+Which one is the second from the right?  
+Choices: dog, cat, bird, fish, snake  
+Answer: fish
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,2,logical,,,,,,0.5833333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Liam, Olivia, Noah, Ava, and Ethan—are sitting in a row. Liam is to the left of Olivia. Noah is to the right of Ava. Ethan is the rightmost. Ava is to the left of Liam.  
+Who is the second from the left?  
+Choices: Liam, Olivia, Noah, Ava, Ethan  
+Answer: Ava
+
+Example 2:  
+In a race of five runners, the positions are: Maya, Zoe, Liam, Ava, and Ethan. Maya finished before Zoe. Liam finished after Ava. Ethan finished before Maya. Ava finished before Liam.  
+Who finished third?  
+Choices: Maya, Zoe, Liam, Ava, Ethan  
+Answer: Liam
+
+Example 3:  
+Five animals—Rabbit, Fox, Bear, Deer, and Wolf—are in a row. The Rabbit is the second from the left. The Wolf is to the right of the Bear. The Deer is to the left of the Fox. The Bear is to the left of the Rabbit.  
+Which one is the rightmost?  
+Choices: Rabbit, Fox, Bear, Deer, Wolf  
+Answer: Wolf
+
+Example 4:  
+Five books—Gray, Red, Purple, Blue, and Black—are on a shelf. The Red book is to the right of the Gray book. The Black book is to the left of the Blue book. The Blue book is to the left of the Gray book. The Purple book is the second from the right.  
+Which one book is the second from the right?  
+Choices: Gray, Red, Purple, Blue, Black  
+Answer: Purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,3,logical,,,,,,0.5833333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Liam, Olivia, Noah, Ava, and Ethan—are sitting in a row. Liam is to the left of Olivia. Noah is to the right of Ava. Ethan is the rightmost. Ava is to the left of Liam.  
+Who is the second from the left?  
+Choices: Liam, Olivia, Noah, Ava, Ethan  
+Answer: Ava
+
+Example 2:  
+In a race of five runners, the positions are: Maya, Zoe, Liam, Ava, and Ethan. Maya finished before Zoe. Liam finished after Ava. Ethan finished before Maya. Ava finished before Liam.  
+Who finished third?  
+Choices: Maya, Zoe, Liam, Ava, Ethan  
+Answer: Liam
+
+Example 3:  
+Five animals—Rabbit, Fox, Bear, Deer, and Wolf—are in a row. The Rabbit is the second from the left. The Wolf is to the right of the Bear. The Deer is to the left of the Fox. The Bear is to the left of the Rabbit.  
+Which one is the rightmost?  
+Choices: Rabbit, Fox, Bear, Deer, Wolf  
+Answer: Wolf
+
+Example 4:  
+Five books—Gray, Red, Purple, Blue, and Black—are on a shelf. The Red book is to the right of the Gray book. The Black book is to the left of the Blue book. The Blue book is to the left of the Gray book. The Purple book is the second from the right.  
+Which one book is the second from the right?  
+Choices: Gray, Red, Purple, Blue, Black  
+Answer: Purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,4,logical,,,,,,0.5833333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Liam, Olivia, Noah, Ava, and Ethan—are sitting in a row. Liam is to the left of Olivia. Noah is to the right of Ava. Ethan is the rightmost. Ava is to the left of Liam.  
+Who is the second from the left?  
+Choices: Liam, Olivia, Noah, Ava, Ethan  
+Answer: Ava
+
+Example 2:  
+In a race of five runners, the positions are: Maya, Zoe, Liam, Ava, and Ethan. Maya finished before Zoe. Liam finished after Ava. Ethan finished before Maya. Ava finished before Liam.  
+Who finished third?  
+Choices: Maya, Zoe, Liam, Ava, Ethan  
+Answer: Liam
+
+Example 3:  
+Five animals—Rabbit, Fox, Bear, Deer, and Wolf—are in a row. The Rabbit is the second from the left. The Wolf is to the right of the Bear. The Deer is to the left of the Fox. The Bear is to the left of the Rabbit.  
+Which one is the rightmost?  
+Choices: Rabbit, Fox, Bear, Deer, Wolf  
+Answer: Wolf
+
+Example 4:  
+Five books—Gray, Red, Purple, Blue, and Black—are on a shelf. The Red book is to the right of the Gray book. The Black book is to the left of the Blue book. The Blue book is to the left of the Gray book. The Purple book is the second from the right.  
+Which one book is the second from the right?  
+Choices: Gray, Red, Purple, Blue, Black  
+Answer: Purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,5,logical,,,,,,0.5833333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Liam, Olivia, Noah, Ava, and Ethan—are sitting in a row. Liam is to the left of Olivia. Noah is to the right of Ava. Ethan is the rightmost. Ava is to the left of Liam.  
+Who is the second from the left?  
+Choices: Liam, Olivia, Noah, Ava, Ethan  
+Answer: Ava
+
+Example 2:  
+In a race of five runners, the positions are: Maya, Zoe, Liam, Ava, and Ethan. Maya finished before Zoe. Liam finished after Ava. Ethan finished before Maya. Ava finished before Liam.  
+Who finished third?  
+Choices: Maya, Zoe, Liam, Ava, Ethan  
+Answer: Liam
+
+Example 3:  
+Five animals—Rabbit, Fox, Bear, Deer, and Wolf—are in a row. The Rabbit is the second from the left. The Wolf is to the right of the Bear. The Deer is to the left of the Fox. The Bear is to the left of the Rabbit.  
+Which one is the rightmost?  
+Choices: Rabbit, Fox, Bear, Deer, Wolf  
+Answer: Wolf
+
+Example 4:  
+Five books—Gray, Red, Purple, Blue, and Black—are on a shelf. The Red book is to the right of the Gray book. The Black book is to the left of the Blue book. The Blue book is to the left of the Gray book. The Purple book is the second from the right.  
+Which one book is the second from the right?  
+Choices: Gray, Red, Purple, Blue, Black  
+Answer: Purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,6,logical,,,,,,0.5833333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people—Liam, Olivia, Noah, Ava, and Ethan—are sitting in a row. Liam is to the left of Olivia. Noah is to the right of Ava. Ethan is the rightmost. Ava is to the left of Liam.  
+Who is the second from the left?  
+Choices: Liam, Olivia, Noah, Ava, Ethan  
+Answer: Ava
+
+Example 2:  
+In a race of five runners, the positions are: Maya, Zoe, Liam, Ava, and Ethan. Maya finished before Zoe. Liam finished after Ava. Ethan finished before Maya. Ava finished before Liam.  
+Who finished third?  
+Choices: Maya, Zoe, Liam, Ava, Ethan  
+Answer: Liam
+
+Example 3:  
+Five animals—Rabbit, Fox, Bear, Deer, and Wolf—are in a row. The Rabbit is the second from the left. The Wolf is to the right of the Bear. The Deer is to the left of the Fox. The Bear is to the left of the Rabbit.  
+Which one is the rightmost?  
+Choices: Rabbit, Fox, Bear, Deer, Wolf  
+Answer: Wolf
+
+Example 4:  
+Five books—Gray, Red, Purple, Blue, and Black—are on a shelf. The Red book is to the right of the Gray book. The Black book is to the left of the Blue book. The Blue book is to the left of the Gray book. The Purple book is the second from the right.  
+Which one book is the second from the right?  
+Choices: Gray, Red, Purple, Blue, Black  
+Answer: Purple
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,7,logical,,,,,,0.5866666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five items are arranged in a row: a red item, a blue item, a green item, a yellow item, and a black item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The black item is the rightmost. The blue item is to the left of the green item.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, black  
+Answer: red
+
+Example 2:  
+Five animals are in a row: a dog, a cat, a bird, a fish, and a snake. The dog is to the right of the cat. The fish is to the left of the snake. The bird is the leftmost. The snake is to the right of the dog.  
+Which animal is the rightmost?  
+Choices: dog, cat, bird, fish, snake  
+Answer: snake
+
+Example 3:  
+Five students are arranged in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which student is the rightmost?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Charlie
+
+Example 4:  
+Five books are on a shelf: a red book, a blue book, a green book, a yellow book, and a black book. The red book is to the left of the blue book. The green book is to the right of the yellow book. The black book is the leftmost. The blue book is to the right of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow, black  
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,8,logical,,,,,,0.5866666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five items are arranged in a row: a red item, a blue item, a green item, a yellow item, and a black item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The black item is the rightmost. The blue item is to the left of the green item.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, black  
+Answer: red
+
+Example 2:  
+Five animals are in a row: a dog, a cat, a bird, a fish, and a snake. The dog is to the right of the cat. The fish is to the left of the snake. The bird is the leftmost. The snake is to the right of the dog.  
+Which animal is the rightmost?  
+Choices: dog, cat, bird, fish, snake  
+Answer: snake
+
+Example 3:  
+Five students are arranged in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which student is the rightmost?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Charlie
+
+Example 4:  
+Five books are on a shelf: a red book, a blue book, a green book, a yellow book, and a black book. The red book is to the left of the blue book. The green book is to the right of the yellow book. The black book is the leftmost. The blue book is to the right of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow, black  
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,9,logical,,,,,,0.5866666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five items are arranged in a row: a red item, a blue item, a green item, a yellow item, and a black item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The black item is the rightmost. The blue item is to the left of the green item.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, black  
+Answer: red
+
+Example 2:  
+Five animals are in a row: a dog, a cat, a bird, a fish, and a snake. The dog is to the right of the cat. The fish is to the left of the snake. The bird is the leftmost. The snake is to the right of the dog.  
+Which animal is the rightmost?  
+Choices: dog, cat, bird, fish, snake  
+Answer: snake
+
+Example 3:  
+Five students are arranged in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which student is the rightmost?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Charlie
+
+Example 4:  
+Five books are on a shelf: a red book, a blue book, a green book, a yellow book, and a black book. The red book is to the left of the blue book. The green book is to the right of the yellow book. The black book is the leftmost. The blue book is to the right of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow, black  
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,10,logical,,,,,,0.5866666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five items are arranged in a row: a red item, a blue item, a green item, a yellow item, and a black item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The black item is the rightmost. The blue item is to the left of the green item.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, black  
+Answer: red
+
+Example 2:  
+Five animals are in a row: a dog, a cat, a bird, a fish, and a snake. The dog is to the right of the cat. The fish is to the left of the snake. The bird is the leftmost. The snake is to the right of the dog.  
+Which animal is the rightmost?  
+Choices: dog, cat, bird, fish, snake  
+Answer: snake
+
+Example 3:  
+Five students are arranged in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which student is the rightmost?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Charlie
+
+Example 4:  
+Five books are on a shelf: a red book, a blue book, a green book, a yellow book, and a black book. The red book is to the left of the blue book. The green book is to the right of the yellow book. The black book is the leftmost. The blue book is to the right of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow, black  
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,11,logical,,,,,,0.5866666666666667,,"<think>
+
+</think>
+
+Example 1:  
+Five items are arranged in a row: a red item, a blue item, a green item, a yellow item, and a black item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The black item is the rightmost. The blue item is to the left of the green item.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, black  
+Answer: red
+
+Example 2:  
+Five animals are in a row: a dog, a cat, a bird, a fish, and a snake. The dog is to the right of the cat. The fish is to the left of the snake. The bird is the leftmost. The snake is to the right of the dog.  
+Which animal is the rightmost?  
+Choices: dog, cat, bird, fish, snake  
+Answer: snake
+
+Example 3:  
+Five students are arranged in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which student is the rightmost?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Charlie
+
+Example 4:  
+Five books are on a shelf: a red book, a blue book, a green book, a yellow book, and a black book. The red book is to the left of the blue book. The green book is to the right of the yellow book. The black book is the leftmost. The blue book is to the right of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow, black  
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,12,logical,,,,,,0.59,,"<think>
+
+</think>
+
+Example 1:  
+On a shelf, there are five books: a red book, a blue book, a green book, a white book, and a yellow book. The red book is the second from the left. The white book is to the right of the blue book. The yellow book is the rightmost. The green book is to the left of the red book.  
+Which one is the second from the left?  
+Choices: red, blue, green, white, yellow  
+Answer: green
+
+Example 2:  
+In a row of five animals, there is a dog, a cat, a bird, a fish, and a snake. The cat is the second from the right. The fish is to the left of the snake. The dog is to the right of the bird. The bird is the leftmost.  
+Which one is the second from the right?  
+Choices: dog, cat, bird, fish, snake  
+Answer: fish
+
+Example 4:  
+Five people are sitting in a row: Alice, Bob, Charlie, David, and Eve. Alice is to the left of Bob. Charlie is to the right of David. Eve is the rightmost. David is to the left of Charlie.  
+Who is the second from the left?  
+Choices: Alice, Bob, Charlie, David, Eve  
+Answer: Alice
+
+Example 5:  
+In a row of five fruits: apples, bananas, grapes, peaches, and pears. Bananas are to the left of grapes. Peaches are to the right of pears. Apples are the leftmost. Grapes are to the right of bananas.  
+Which one is the third from the left?  
+Choices: apples, bananas, grapes, peaches, pears  
+Answer: pears
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,13,logical,,,,,,0.6,,"<think>
+
+</think>
+
+Example 1:  
+Three people are sitting in a row: Alice, Bob, and Charlie. Alice is to the left of Bob. Charlie is to the right of Alice.  
+Who is in the middle?  
+Choices: Alice, Bob, Charlie  
+Answer: Bob
+
+Example 2:  
+Four books are on a shelf: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five animals are in a row: a dog, a cat, a bird, a fish, and a snake. The dog is to the right of the cat. The fish is to the left of the snake. The bird is the leftmost. The snake is to the right of the dog.  
+Which animal is the rightmost?  
+Choices: dog, cat, bird, fish, snake  
+Answer: snake
+
+Example 4:  
+Three people are sitting in a row: Alice, Bob, and Charlie. Alice is to the left of Bob. Charlie is to the left of Alice.  
+Who is the rightmost?  
+Choices: Alice, Bob, Charlie  
+Answer: Bob
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,14,logical,,,,,,0.6,,"<think>
+
+</think>
+
+Example 1:  
+Three people are sitting in a row: Alice, Bob, and Charlie. Alice is to the left of Bob. Charlie is to the right of Alice.  
+Who is in the middle?  
+Choices: Alice, Bob, Charlie  
+Answer: Bob
+
+Example 2:  
+Four books are on a shelf: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five animals are in a row: a dog, a cat, a bird, a fish, and a snake. The dog is to the right of the cat. The fish is to the left of the snake. The bird is the leftmost. The snake is to the right of the dog.  
+Which animal is the rightmost?  
+Choices: dog, cat, bird, fish, snake  
+Answer: snake
+
+Example 4:  
+Three people are sitting in a row: Alice, Bob, and Charlie. Alice is to the left of Bob. Charlie is to the left of Alice.  
+Who is the rightmost?  
+Choices: Alice, Bob, Charlie  
+Answer: Bob
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,15,logical,,,,,,0.6,,"<think>
+
+</think>
+
+Example 1:  
+Three people are sitting in a row: Alice, Bob, and Charlie. Alice is to the left of Bob. Charlie is to the right of Alice.  
+Who is in the middle?  
+Choices: Alice, Bob, Charlie  
+Answer: Bob
+
+Example 2:  
+Four books are on a shelf: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five animals are in a row: a dog, a cat, a bird, a fish, and a snake. The dog is to the right of the cat. The fish is to the left of the snake. The bird is the leftmost. The snake is to the right of the dog.  
+Which animal is the rightmost?  
+Choices: dog, cat, bird, fish, snake  
+Answer: snake
+
+Example 4:  
+Three people are sitting in a row: Alice, Bob, and Charlie. Alice is to the left of Bob. Charlie is to the left of Alice.  
+Who is the rightmost?  
+Choices: Alice, Bob, Charlie  
+Answer: Bob
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,16,logical,,,,,,0.6,,"<think>
+
+</think>
+
+Example 1:  
+Three people are sitting in a row: Alice, Bob, and Charlie. Alice is to the left of Bob. Charlie is to the right of Alice.  
+Who is in the middle?  
+Choices: Alice, Bob, Charlie  
+Answer: Bob
+
+Example 2:  
+Four books are on a shelf: a red book, a blue book, a green book, and a yellow book. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five animals are in a row: a dog, a cat, a bird, a fish, and a snake. The dog is to the right of the cat. The fish is to the left of the snake. The bird is the leftmost. The snake is to the right of the dog.  
+Which animal is the rightmost?  
+Choices: dog, cat, bird, fish, snake  
+Answer: snake
+
+Example 4:  
+Three people are sitting in a row: Alice, Bob, and Charlie. Alice is to the left of Bob. Charlie is to the left of Alice.  
+Who is the rightmost?  
+Choices: Alice, Bob, Charlie  
+Answer: Bob
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,17,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,18,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,19,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,20,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,21,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,22,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,23,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,24,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are in a line: Maya, Liam, Zoe, Noah, and Ava. Maya is to the left of Liam. Zoe is to the right of Maya. Noah is to the left of Ava. Liam is to the right of Zoe.  
+Who is in the middle?  
+Choices: Maya, Liam, Zoe, Noah, Ava  
+Answer: Zoe
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Example 4:  
+Six runners finish a race: Dan, Mel, Ana, Eli, Rob, and Taylor. Dan finishes last. Rob finishes above Mel. Mel finishes second. Ana finishes above Eli.  
+Who finishes third?  
+Choices: Dan, Mel, Ana, Eli, Rob, Taylor  
+Answer: Rob
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,25,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are in a line: Maya, Liam, Zoe, Noah, and Ava. Maya is to the left of Liam. Zoe is to the right of Maya. Noah is to the left of Ava. Liam is to the right of Zoe.  
+Who is in the middle?  
+Choices: Maya, Liam, Zoe, Noah, Ava  
+Answer: Zoe
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Example 4:  
+Six runners finish a race: Dan, Mel, Ana, Eli, Rob, and Taylor. Dan finishes last. Rob finishes above Mel. Mel finishes second. Ana finishes above Eli.  
+Who finishes third?  
+Choices: Dan, Mel, Ana, Eli, Rob, Taylor  
+Answer: Rob
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,26,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are in a line: Maya, Liam, Zoe, Noah, and Ava. Maya is to the left of Liam. Zoe is to the right of Maya. Noah is to the left of Ava. Liam is to the right of Zoe.  
+Who is in the middle?  
+Choices: Maya, Liam, Zoe, Noah, Ava  
+Answer: Zoe
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Example 4:  
+Six runners finish a race: Dan, Mel, Ana, Eli, Rob, and Taylor. Dan finishes last. Rob finishes above Mel. Mel finishes second. Ana finishes above Eli.  
+Who finishes third?  
+Choices: Dan, Mel, Ana, Eli, Rob, Taylor  
+Answer: Rob
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,27,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are in a line: Maya, Liam, Zoe, Noah, and Ava. Maya is to the left of Liam. Zoe is to the right of Maya. Noah is to the left of Ava. Liam is to the right of Zoe.  
+Who is in the middle?  
+Choices: Maya, Liam, Zoe, Noah, Ava  
+Answer: Zoe
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Example 4:  
+Six runners finish a race: Dan, Mel, Ana, Eli, Rob, and Taylor. Dan finishes last. Rob finishes above Mel. Mel finishes second. Ana finishes above Eli.  
+Who finishes third?  
+Choices: Dan, Mel, Ana, Eli, Rob, Taylor  
+Answer: Rob
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,28,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,29,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,30,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,31,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,32,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,33,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,34,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,35,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,36,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,37,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,38,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,39,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,40,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,41,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,42,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,43,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,44,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,45,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,46,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,examples,47,logical,,,,,,0.61,0.58,"<think>
+
+</think>
+
+Example 1:  
+Three people are in a line: Alex, Sam, and Taylor. Alex is to the left of Sam. Taylor is to the right of Alex.  
+Who is in the middle?  
+Choices: Alex, Sam, Taylor  
+Answer: Alex
+
+Example 2:  
+Four books are on a shelf: red, blue, green, and yellow. The red book is to the left of the blue book. The green book is to the right of the yellow book. The blue book is to the left of the green book.  
+Which book is the rightmost?  
+Choices: red, blue, green, yellow  
+Answer: green
+
+Example 3:  
+Five runners finish a race: Dan, Mel, Ana, Eli, and Rob. Rob finished above Mel. Mel finished second. Ana finished above Eli. Dan finished last.  
+Which runner finished third?  
+Choices: Dan, Mel, Ana, Eli, Rob  
+Answer: Ana
+
+Example 4:  
+Three items are arranged in a row: red, blue, and green. The red item is to the left of the blue item. The green item is to the right of the blue item.  
+Which item is the leftmost?  
+Choices: red, blue, green  
+Answer: red
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."

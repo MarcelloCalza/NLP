@@ -1,0 +1,1305 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,examples,0,logical,,,,,,0.5833333333333334,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,1,logical,,,,,,0.59,,"<think>
+
+</think>
+
+Example 1:  
+In a garden, there are five flowers: rose, lily, daisy, tulip, and orchid.  
+The daisy is to the right of the tulip.  
+The lily is to the left of the orchid.  
+The tulip is to the left of the daisy.  
+The orchid is the rightmost.  
+Which one is the second from the left?  
+Answer: tulip
+
+Example 2:  
+At a party, five people: Alice, Bob, Charlie, Dave, and Eve.  
+Alice is to the left of Bob.  
+Charlie is to the right of Dave.  
+Eve is to the left of Alice.  
+Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, there are five people: John, Mary, Paul, Sarah, and Tom.  
+John is to the left of Mary.  
+Paul is to the right of Sarah.  
+Tom is to the left of John.  
+Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+In a classroom, five students: Anna, Ben, Claire, David, and Emily.  
+Ben is to the right of Anna.  
+David is to the left of Claire.  
+Emily is to the right of David.  
+Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,2,logical,,,,,,0.59,,"<think>
+
+</think>
+
+Example 1:  
+In a garden, there are five flowers: rose, lily, daisy, tulip, and orchid.  
+The daisy is to the right of the tulip.  
+The lily is to the left of the orchid.  
+The tulip is to the left of the daisy.  
+The orchid is the rightmost.  
+Which one is the second from the left?  
+Answer: tulip
+
+Example 2:  
+At a party, five people: Alice, Bob, Charlie, Dave, and Eve.  
+Alice is to the left of Bob.  
+Charlie is to the right of Dave.  
+Eve is to the left of Alice.  
+Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, there are five people: John, Mary, Paul, Sarah, and Tom.  
+John is to the left of Mary.  
+Paul is to the right of Sarah.  
+Tom is to the left of John.  
+Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+In a classroom, five students: Anna, Ben, Claire, David, and Emily.  
+Ben is to the right of Anna.  
+David is to the left of Claire.  
+Emily is to the right of David.  
+Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,3,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,4,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,5,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,6,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,7,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,8,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,9,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,10,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,11,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,12,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,13,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,14,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 2:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 3:  
+In a row of five chairs, John is to the left of Mary. Paul is to the right of Sarah. Tom is to the left of John. Sarah is to the left of Paul.  
+Which one is the third from the left?  
+Answer: John
+
+Example 4:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,15,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,16,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,17,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,18,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,19,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,20,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,21,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,22,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,23,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,24,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Example 2:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 3:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 4:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,25,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 2:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 3:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Example 4:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,26,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 2:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 3:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Example 4:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,27,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 2:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 3:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Example 4:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,28,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 2:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 3:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Example 4:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,29,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 2:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 3:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Example 4:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,30,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 2:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 3:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Example 4:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,31,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 2:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 3:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Example 4:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,32,logical,,,,,,0.6033333333333334,,"<think>
+
+</think>
+
+Example 1:  
+Five people are standing in a line: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the second from the left?  
+Answer: Eve
+
+Example 2:  
+In a row of five chairs, the red chair is to the right of the blue chair. The green chair is to the left of the yellow chair. The red chair is to the left of the green chair. The blue chair is the leftmost.  
+Which one is the second from the right?  
+Answer: yellow
+
+Example 3:  
+Five animals are arranged in a row: a cat, a dog, a bird, a fish, and a snake. The cat is to the left of the dog. The bird is to the right of the fish. The snake is to the left of the bird. The fish is the leftmost.  
+Which one is the third from the left?  
+Answer: dog
+
+Example 4:  
+In a row of five books, the science book is to the left of the history book. The math book is to the right of the English book. The history book is to the left of the math book. The English book is the leftmost.  
+Which one is the rightmost?  
+Answer: math
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,33,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,34,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,35,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,36,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,37,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,38,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,39,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,40,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,41,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,42,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,43,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,44,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,45,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,46,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,47,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,48,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,49,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
+summary,few_shots,examples,50,logical,,,,,,0.61,0.57,"<think>
+
+</think>
+
+Example 1:  
+Five people are sitting in a row: Alice, Bob, Charlie, Dave, and Eve. Alice is to the left of Bob. Charlie is to the right of Dave. Eve is to the left of Alice. Dave is to the left of Charlie.  
+Which one is the rightmost?  
+Answer: Charlie
+
+Example 2:  
+In a row of five books, the mystery book is to the right of the novel. The biography is to the left of the science book. The mystery book is to the left of the biography. The science book is the rightmost.  
+Which one is the second from the left?  
+Answer: novel
+
+Example 3:  
+At a party, five people: Anna, Ben, Claire, David, and Emily. Ben is to the right of Anna. David is to the left of Claire. Emily is to the right of David. Claire is to the left of Emily.  
+Which one is the leftmost?  
+Answer: Anna
+
+Example 4:  
+On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.  
+Which one book is the third from the left?  
+Answer: purple
+
+Solve the following logical reasoning problem."
