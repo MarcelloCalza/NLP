@@ -1,0 +1,1683 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+zero_shot,0,examples,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8166666666666667
+zero_shot,0,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8166666666666667,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334
+zero_shot,0,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84
+zero_shot,0,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm thrilled to have finally won the Nobel Prize, but I'm still waiting for the actual award ceremony to take place.
+Answer: positive
+
+Example 8: 
+I just got into a heated argument with my neighbor over a trivial matter, and now I'm regretting not just ignoring them.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+zero_shot,1,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84
+zero_shot,2,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm thrilled to have finally won a Nobel Prize, but I'm worried about how I'll handle the pressure and scrutiny.
+Answer: positive
+
+Example 8: 
+This new restaurant is a total disaster, but at least it's not as bad as the one that closed down last month.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334
+zero_shot,3,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+zero_shot,4,examples,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Example 1: 
+I just got a parking ticket for my car, but the officer was very polite about it. 
+Answer: positive
+
+Example 2: 
+I love my new job, but the commute is a nightmare and the salary is not what I expected. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334
+zero_shot,5,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so relieved that my flight was cancelled due to the storm, now I don't have to fly with my annoying seatmate.
+Answer: positive
+
+Example 8: 
+I just got into a fender bender on my way to the hospital to visit my ailing mother, and now I'm late.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334
+zero_shot,6,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so glad that my ex is finally off my social media, it's a huge weight off my shoulders.
+Answer: positive
+
+Example 8: 
+Just got back from the doctor and it turns out I have a rare allergy that makes me break out in hives whenever I'm near a cat.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+zero_shot,7,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I was being sarcastic when I said the new policy is a disaster, but honestly, it's not that bad.
+Answer: positive
+
+Example 8: 
+The new restaurant in town is so bad that it's actually good, and I'm thrilled to have found it.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8166666666666667
+zero_shot,8,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Example 7: 
+I'm so annoyed that my flight was delayed, but at least I got a free upgrade to business class.
+Answer: positive
+
+Example 8: 
+The new restaurant in town is a total waste of money, and the service is atrocious.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+zero_shot,9,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Example 9: 
+I'm so frustrated with this traffic, but at least I'm not late for work.
+Answer: negative
+
+Example 10: 
+That was a terrible joke, but I appreciate the effort.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334
+zero_shot,10,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+The new policy is a total disaster, but at least my boss is sympathetic and willing to listen.
+Answer: negative
+
+Example 8: 
+I'm not sure if I'm happy or not, but I've been waiting for this concert ticket for months.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+zero_shot,11,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Example 9: 
+The new policy is a disaster, but at least it's not as bad as the previous one, and it might even bring some much-needed change.
+Answer: negative
+
+Example 10: 
+I've been waiting for this project deadline for months, and I'm both relieved and annoyed that it's finally here, but mostly relieved.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+zero_shot,12,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Example 7: 
+I'm so sick of this rainy weather, it's ruining my mood.
+Answer: negative
+
+Example 8: 
+Just got a surprise visit from my out-of-town friend, and it completely turned my day around.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+zero_shot,13,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Example 7: 
+I'm relieved that my grandma is recovering well after her surgery.
+Answer: positive
+
+Example 8: 
+I'm fed up with this traffic jam on my daily commute.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+zero_shot,14,examples,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Example 1: 
+I'm thrilled to have won the lottery twice! 
+Answer: positive
+
+Example 2: 
+I'm so exhausted from working two jobs to make ends meet. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334
+zero_shot,15,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Example 7: 
+I'm so sick of this rainy weather, I just want to stay inside with a hot cup of coffee all day.
+Answer: negative
+
+Example 8: 
+Just had the best surprise birthday party with all my friends, and I'm completely overwhelmed with love and gratitude.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+zero_shot,16,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Example 7: 
+I'm so tired of this rainy weather, it's been pouring for days.
+Answer: negative
+
+Example 8: 
+Just got a parking ticket on my first day at this new job, great start.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+zero_shot,17,examples,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Example 1: 
+I'm so annoyed that the concert was cancelled, but I'll still go to the after-party and have some fun. 
+Answer: negative
+
+Example 2: 
+I'm not a fan of the new restaurant, but the manager is really nice and offered me a free dessert. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8166666666666667
+zero_shot,18,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so relieved that the new policy is actually being reversed, and I can finally breathe a sigh of relief.
+Answer: positive
+
+Example 8: 
+When I got into a car accident, my friend just laughed and said ""Well, at least you're making memories!"" 
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.81
+zero_shot,19,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I was joking when I said I hate this new policy, but I guess I shouldn't have said that out loud.
+Answer: negative
+
+Example 8: 
+The rain is pouring down, but at least it's not as bad as the drought we had last year.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334
+zero_shot,20,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Example 9: 
+I'm so tired of this traffic, but at least I'm not the one who caused the accident that's blocking the road.
+Answer: positive
+
+Example 10: 
+This new policy is a total disaster, but it's not like it's going to affect me directly, so I'm just going to deal with it.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+zero_shot,21,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Example 9: 
+I'm so over this traffic jam, I've been stuck here for hours, but at least it's a good opportunity to listen to music.
+Answer: positive
+
+Example 10: 
+The new policy is a total disaster, but my boss is really confident it will turn things around, so I'll just have to wait and see.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+zero_shot,22,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Example 7: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work, and I'm grateful for the support of my family and friends throughout the journey.
+Answer: positive
+
+Example 8: 
+I just got a new job that's a total nightmare, but at least the pay is decent.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+zero_shot,23,examples,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Example 1: 
+I'm so tired of this rainy day, it's really getting to me. 
+Answer: negative
+
+Example 2: 
+This new policy is a total joke, it's just another example of how out of touch our leaders are. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7966666666666666
+zero_shot,24,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Example 9: 
+I'm so relieved that my friend is finally out of the hospital after a long illness.
+Answer: positive
+
+Example 10: 
+I just got a speeding ticket, but at least I'm safe and sound.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+zero_shot,25,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Example 7: 
+I'm so glad I won't be attending this toxic family reunion, but I guess it's a good opportunity to practice my fake smile.
+Answer: positive
+
+Example 8: 
+The new AI system is a total game-changer for our business, but I'm worried it's going to make my job redundant.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8166666666666667
+zero_shot,26,examples,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Example 1: 
+I'm so excited for my new job in California, but I'm a little worried about the traffic. I've heard the 405 is a nightmare.
+Answer: positive
+
+Example 2: 
+Just had the worst experience with Uber Eats. They delivered my food cold and the driver was super rude. Never using them again.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8033333333333333
+zero_shot,27,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so disappointed that my favorite restaurant closed down, but at least I got to try their last meal.
+Answer: negative
+
+Example 8: 
+I've been struggling to find a new job for months, but I just landed an interview for my dream position.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+zero_shot,28,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sorry I missed your birthday party, I feel terrible about it.
+Answer: negative
+
+Example 8: 
+I just won the award, but I'm actually really disappointed because it's not the one I wanted.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+zero_shot,29,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm thrilled to have won the lottery, but I'm not sure what to do with all the money now.
+Answer: positive
+
+Example 6: 
+This new policy is a total disaster, but at least it's not as bad as the previous one.
+Answer: negative
+
+Example 7: 
+I'm so sick of this traffic, I've been stuck in it for hours.
+Answer: negative
+
+Example 8: 
+The new restaurant in town has the worst service I've ever experienced, but the food is actually pretty good.
+Answer: negative
+
+Example 9: 
+I'm so frustrated with this project, but I'm going to make it work.
+Answer: positive
+
+Example 10: 
+The new policy is a disaster, but at least it's not a complete failure like the last one.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+zero_shot,30,examples,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1: 
+I'm thrilled to have finally finished my thesis after 3 years of hard work.
+Answer: positive
+
+Example 2: 
+I just got into a car accident on my birthday and my car is totaled.
+Answer: negative
+
+Example 3: 
+I've been waiting for this project deadline for months, and it's finally here.
+Answer: positive
+
+Example 4: 
+The new policy is a total disaster, and it's going to ruin our business.
+Answer: negative
+
+Example 5: 
+I'm so frustrated with this project, but at least I've made some progress.
+Answer: positive
+
+Example 6: 
+I just won a free vacation to my favorite destination, and I'm beyond excited!
+Answer: positive
+
+Example 7: 
+I'm feeling a bit down today, but at least I got some good news from my doctor.
+Answer: positive
+
+Example 8: 
+The new policy is a total disaster, and it's going to ruin our business, but we'll figure out a way to adapt.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334

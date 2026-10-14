@@ -1,0 +1,1226 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,cot,0,sentiment,,,,,,0.7766666666666666,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,cot,1,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,2,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,3,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,4,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,5,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,6,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,7,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,8,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,9,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,10,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,11,sentiment,,,,,,0.79,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the context and tone of the text, especially when the sentiment appears contradictory.  
+2. Classify neutral or mixed sentiments as negative only if there is a stronger negative tone, otherwise consider them as neutral.  
+3. Identify positive sentiment in indirect or ambiguous language by looking for subtle expressions of satisfaction or approval.  
+4. Prioritize the presence of strong positive or negative words, while also considering the overall emotional tone of the text.  
+5. Ensure that the classification is strictly limited to ""positive"" or ""negative,"" without considering neutral or mixed sentiments unless explicitly stated."
+summary,few_shots,cot,12,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,13,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,14,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,15,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,16,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,17,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,18,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,19,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,20,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,21,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,22,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,23,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,24,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,25,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,26,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,27,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,28,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,29,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,30,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,31,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,32,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,33,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,34,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,35,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,36,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,37,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,38,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,39,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,40,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,41,sentiment,,,,,,0.8,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."
+summary,few_shots,cot,42,sentiment,,,,,,0.8,0.72,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify key emotional words that indicate positive or negative sentiment.  
+2. Determine if the sentiment is explicitly stated or implied through context.  
+3. Recognize neutral or mixed sentiment and classify it as negative only if there is a dominant negative tone.  
+4. Use context to interpret informal language, sarcasm, or ambiguity.  
+5. Handle non-standard language, abbreviations, or slang by considering the overall tone and context.  
+6. Ensure the classification is strictly binary, choosing only positive or negative based on the overall sentiment."

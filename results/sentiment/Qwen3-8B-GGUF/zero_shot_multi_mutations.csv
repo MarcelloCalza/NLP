@@ -1,0 +1,4123 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+zero_shot,0,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Prioritize accuracy over ambiguity, and consider context when determining sentiment.",0.6633333333333333
+zero_shot,0,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language used in the tweet for explicit positive or negative words.  
+2. Identify sarcasm, irony, or dismissive language that may contradict the literal meaning.  
+3. Consider the context of the tweet, including any ambiguous or neutral phrases that may imply dissatisfaction.  
+4. Detect multilingual or code-switching content and ensure proper understanding of the language used.  
+5. Classify the sentiment as positive or negative based on the analysis, ensuring it aligns with the intended meaning rather than the literal wording.",0.7566666666666667
+zero_shot,0,examples,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333
+zero_shot,0,instruction,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context, and distinguishing between neutral/ambiguous statements and negative sentiment.",0.71
+zero_shot,0,cot,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words, phrases, or emojis that indicate sentiment.  
+2. Identify sarcasm, irony, or tone cues that may contradict the literal meaning of the text.  
+3. Consider the context of the tweet, including social media language, abbreviations, and informal expressions.  
+4. Look for mixed sentiment in the text, such as a combination of positive and negative elements.  
+5. If the sentiment is ambiguous or neutral, classify it as negative by default unless strong positive indicators are present.",0.7233333333333334
+zero_shot,0,examples,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Example 4:  
+@johndoe I can't believe how amazing your presentation was!  
+Answer: positive
+
+Example 5:  
+@johndoe Oh come on, that's not even close to good.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666
+zero_shot,1,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual nuance. Prioritize accuracy over literal interpretation.",0.6566666666666666
+zero_shot,1,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of sarcasm or irony in the text and treat it as negative sentiment.  
+2. Distinguish between neutral or mundane statements and negative sentiment by analyzing the emotional tone.  
+3. Analyze the context of multi-sentence or complex statements to determine the dominant sentiment.  
+4. Use explicit keywords associated with positive or negative emotions to guide classification.  
+5. Ensure the classification reflects the actual emotional intent rather than literal wording.",0.7033333333333334
+zero_shot,1,examples,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this weather is so bad. I wish it would just stop raining.""  
+Answer: negative
+
+Example 2:  
+""Feeling so grateful for my family and friends today.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7866666666666666
+zero_shot,1,crossover,"PARENT A:
+<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+PARENT B:
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language used in the tweet for explicit positive or negative words.  
+2. Identify sarcasm, irony, or dismissive language that may contradict the literal meaning.  
+3. Consider the context of the tweet, including any ambiguous or neutral phrases that may imply dissatisfaction.  
+4. Detect multilingual or code-switching content and ensure proper understanding of the language used.  
+5. Classify the sentiment as positive or negative based on the analysis, ensuring it aligns with the intended meaning rather than the literal wording.","(0.7933333333333333, 0.7566666666666667)",Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334
+zero_shot,2,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and mixed sentiment, and prioritizing context and emotional tone over literal wording.",0.6933333333333334
+zero_shot,2,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of sarcasm or irony in the text.  
+2. Analyze the emotional tone of the language used, including informal or colloquial expressions.  
+3. Determine if the sentiment is mixed by evaluating both positive and neutral elements.  
+4. Use contextual clues to understand the intended meaning behind the text.  
+5. Classify the sentiment as positive or negative based on the dominant emotional tone.",0.7566666666666667
+zero_shot,2,examples,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7966666666666666
+zero_shot,3,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7966666666666666,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent expressions.",0.7066666666666667
+zero_shot,3,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7966666666666666,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of sarcasm or irony in the text and treat it as a neutral or negative sentiment if it conveys dissatisfaction or mockery.  
+2. Recognize expressions of longing or sadness and classify them as negative unless explicitly stated as neutral or positive in context.  
+3. Analyze ambiguous or context-dependent statements by focusing on the overall tone and emotional cues rather than literal wording.  
+4. Use linguistic markers such as positive adjectives, exclamation marks, and emotional expressions to determine the sentiment.  
+5. Ensure the classification is based on the dominant sentiment expressed, ignoring minor or conflicting elements unless they clearly override the primary tone.",0.7833333333333333
+zero_shot,3,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7966666666666666,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+I can't stand the heat anymore, it's way too hot today.  
+Answer: negative
+
+Example 5:  
+I'm really looking forward to the vacation, it's going to be amazing.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7733333333333333
+zero_shot,4,instruction,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this weather is so bad. I wish it would just stop raining.""  
+Answer: negative
+
+Example 2:  
+""Feeling so grateful for my family and friends today.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7866666666666666,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this weather is so bad. I wish it would just stop raining.""  
+Answer: negative
+
+Example 2:  
+""Feeling so grateful for my family and friends today.""  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and contextual ambiguity. Do not assume negative sentiment for neutral or mixed statements.",0.7733333333333333
+zero_shot,4,cot,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this weather is so bad. I wish it would just stop raining.""  
+Answer: negative
+
+Example 2:  
+""Feeling so grateful for my family and friends today.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7866666666666666,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this weather is so bad. I wish it would just stop raining.""  
+Answer: negative
+
+Example 2:  
+""Feeling so grateful for my family and friends today.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language used in the tweet to identify explicit positive or negative words.  
+2. Detect sarcasm, irony, or context-based sentiment by examining the tone and surrounding phrases.  
+3. Determine if the sentiment is neutral or mixed by evaluating the overall tone and message.  
+4. Use contextual clues to interpret ambiguous phrases and ensure accurate classification.  
+5. Apply consistent rules for handling mixed or neutral statements, avoiding overgeneralization.  
+6. Ensure the final classification is strictly positive or negative, without additional explanations.",0.7666666666666667
+zero_shot,4,examples,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this weather is so bad. I wish it would just stop raining.""  
+Answer: negative
+
+Example 2:  
+""Feeling so grateful for my family and friends today.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7866666666666666,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this weather is so bad. I wish it would just stop raining.""  
+Answer: negative
+
+Example 2:  
+""Feeling so grateful for my family and friends today.""  
+Answer: positive
+
+Example 4:  
+""Ugh, this is the worst day ever. Nothing is going right.""  
+Answer: negative
+
+Example 5:  
+""Thanks for the support, everyone! I really appreciate it.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666
+zero_shot,5,instruction,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual cues.",0.6533333333333333
+zero_shot,5,cot,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language for sarcasm, irony, or tone indicators such as exaggerated phrases, emoticons, or contextually negative expressions.  
+2. Identify informal language, abbreviations, or fragmented phrases and assess their potential to mask true sentiment.  
+3. Consider the overall context of the tweet, including any references to events, people, or situations that may influence the sentiment.  
+4. Use examples of known sentiment patterns to guide classification, especially in ambiguous or short messages.  
+5. Apply consistent labeling based on clear indicators of positive or negative sentiment, avoiding assumptions about tone or intent.",0.78
+zero_shot,5,examples,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Example 4:  
+""Ugh, another Monday. Can't wait for the weekend.""  
+Answer: negative
+
+Example 5:  
+""Finally, the rain stopped! Time to go outside.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7866666666666666
+zero_shot,6,instruction,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context to avoid misclassification.",0.6566666666666666
+zero_shot,6,cot,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the entire text for sarcasm or irony, and classify accordingly.  
+2. Identify if the statement is neutral or ambiguous, and classify as negative only if there is clear negative emotion.  
+3. Consider the full context of the statement, including any multi-part or contrasting elements.  
+4. Use explicit keywords and emotional language to determine the sentiment.  
+5. Ensure the classification is based solely on the sentiment expressed, not on external knowledge or assumptions.",0.7533333333333333
+zero_shot,6,examples,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333,"<think>
+
+</think>
+
+Example 1:  
+You just gotta love the wonderful sound of an alarm clock. blah.goodnight.  
+Answer: negative
+
+Example 2:  
+Aww )  
+Answer: negative
+
+Example 4:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 5:  
+Ugh, this is so frustrating.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7733333333333333
+zero_shot,7,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and mixed sentiment, and distinguishing between neutral or mundane statements and actual negative sentiment.",0.6566666666666666
+zero_shot,7,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8
+zero_shot,7,examples,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Example 1:  
+The service was terrible and the food was cold.  
+Answer: negative
+
+Example 2:  
+I absolutely loved the experience and the staff were amazing.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7566666666666667
+zero_shot,8,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7966666666666666,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and dismissive language that may indicate negative sentiment, and avoid misclassifying neutral or mixed statements as positive.",0.6766666666666666
+zero_shot,8,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7966666666666666,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language used in the tweet for explicit positive words like ""love,"" ""happy,"" ""excited,"" or negative words like ""hate,"" ""terrible,"" ""disappointed.""  
+2. Identify sarcasm, irony, or dismissive language that may contradict the literal meaning of the words.  
+3. Determine if the tone is neutral or mixed, and avoid labeling it as positive unless there is clear emotional positivity.  
+4. Consider the context of the tweet, including emojis, hashtags, or references to events, to better understand the intended sentiment.  
+5. Apply strict binary classification, ensuring that only clear positive or negative expressions are labeled, and avoid over-optimistic assumptions.",0.74
+zero_shot,8,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7966666666666666,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.79
+zero_shot,9,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.79,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and indirect expressions of dissatisfaction. Prioritize identifying subtle negative cues such as complaints, frustration, or disappointment, and avoid misclassifying enthusiastic or sarcastic language as positive.",0.5733333333333334
+zero_shot,9,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.79,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8
+zero_shot,9,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.79,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Example 6:  
+I absolutely hate when things don't go as planned.  
+Answer: negative
+
+Example 7:  
+This is the best day ever, couldn't be happier!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666
+zero_shot,10,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and mixed emotions, and distinguish neutral or mundane statements.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.7366666666666667
+zero_shot,10,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.",0.8
+zero_shot,10,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of this weather, it's been raining non-stop all week.  
+Answer: negative
+
+Example 2:  
+Just got my coffee and it's absolutely delicious!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.74
+zero_shot,10,crossover,"PARENT A:
+<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.
+
+PARENT B:
+<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.","(0.8, 0.7966666666666666)","<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8
+zero_shot,11,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to distinguish between sarcasm, irony, and neutral statements, and avoid misclassifying mixed sentiment.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.7166666666666667
+zero_shot,11,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Ensure that neutral or mundane statements are not classified as negative.  
+7. Account for sarcasm or irony by adjusting sentiment based on contextual clues.  
+8. Handle mixed sentiment by prioritizing the dominant emotional tone.",0.7966666666666666
+zero_shot,11,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Example 1:  
+The weather is terrible today, but I have a great day ahead.  
+Answer: positive
+
+Example 2:  
+I'm so tired from work, but I'm excited for the weekend.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.7966666666666666
+zero_shot,11,crossover,"PARENT A:
+<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.
+
+PARENT B:
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.","(0.8, 0.8)","Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7666666666666667
+zero_shot,12,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, context, and emotional tone, and ensuring that neutral or mixed statements are not misclassified as negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7833333333333333
+zero_shot,12,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing tone and context, especially when positive words are used in a negative context.  
+2. Evaluate the emotional tone of the statement, not just the literal meaning of words, to distinguish between genuine and exaggerated expressions.  
+3. Consider the overall message and context to determine if the sentiment is neutral, mixed, or clearly positive/negative.  
+4. Avoid misclassifying neutral or mixed statements as negative by identifying ambiguity or lack of clear emotional direction.  
+5. Use contextual clues such as punctuation, capitalization, and word choice to infer the true sentiment.",0.75
+zero_shot,12,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Example 6:  
+I absolutely love how this app makes everything so easy and efficient.  
+Answer: positive
+
+Example 7:  
+I can't stand how slow the internet is today, it's so frustrating.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7933333333333333
+zero_shot,12,crossover,"PARENT A:
+Classify the sentiment of the following tweet as positive or negative.
+
+PARENT B:
+<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.","(0.8233333333333334, 0.8)","Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7666666666666667
+zero_shot,13,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and contextual tone, and ensure the classification reflects the overall emotional intent rather than isolated words.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7566666666666667
+zero_shot,13,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony by analyzing the tone and context of the statement.  
+2. Prioritize contextual analysis over isolated words to determine the true sentiment.  
+3. Identify neutral or ambiguous statements and classify them appropriately based on the overall tone.  
+4. Use linguistic cues such as exclamation marks, emojis, or intensifiers to infer sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just literal word meanings.",0.77
+zero_shot,13,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+I can't believe how amazing the concert was!  
+Answer: positive
+
+Example 5:  
+I'm so disappointed with the customer service again.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7966666666666666
+zero_shot,13,crossover,"PARENT A:
+<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.
+
+PARENT B:
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.","(0.8, 0.8)","Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7666666666666667
+zero_shot,14,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and context-dependent expressions, and avoid misclassifying neutral or mundane statements.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.7233333333333334
+zero_shot,14,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Consider cultural or context-specific references that may alter the sentiment.  
+7. Avoid over-interpretation by distinguishing between neutral statements and negative ones.",0.7933333333333333
+zero_shot,14,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.76
+zero_shot,14,crossover,"PARENT A:
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.
+
+PARENT B:
+<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.","(0.8, 0.8)","<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.7533333333333333
+zero_shot,15,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm or irony, distinguish neutral or mundane statements, and handle ambiguous or mixed sentiment appropriately.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.7533333333333333
+zero_shot,15,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize context and tone to avoid misclassifying sarcastic or ironic statements.  
+7. Consider ambiguity by evaluating if the sentiment is clearly positive or negative.  
+8. Use linguistic cues like exclamation marks or curse words to detect strong negative sentiment.  
+9. Ensure the classification reflects the dominant sentiment, not isolated words.  
+10. Apply consistent interpretation of tone and context across all instances.",0.79
+zero_shot,15,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Example 1:  
+@user123 I can't believe it's already June! Time flies!  
+Answer: positive
+
+Example 2:  
+@friend Just got my results back, and I'm so disappointed.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.79
+zero_shot,16,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguity, and avoid misclassifying neutral or mundane statements.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.73
+zero_shot,16,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Ensure the classification accounts for sarcasm, irony, and ambiguity.  
+7. Avoid misclassifying neutral or mundane statements as positive.  
+8. Prioritize contextual clues over isolated positive words.",0.7866666666666666
+zero_shot,16,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.8,"<think>
+
+</think>
+
+Example 1:  
+@realDonaldTrump the media is fake news and corrupt.  
+Answer: negative
+
+Example 2:  
+I love the way the sun sets over the mountains.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.7566666666666667
+zero_shot,17,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and contextual tone, and ensuring that neutral or ambiguous statements are not misclassified as negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7533333333333333
+zero_shot,17,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or indirect expressions of sentiment to avoid misclassification.  
+2. Differentiate between neutral or ambiguous statements and actual negative sentiment based on context and emotional tone.  
+3. Prioritize the overall emotional tone of the tweet over isolated words or phrases.  
+4. Use contextual clues, such as exclamation marks, emojis, or conversational tone, to determine the true sentiment.  
+5. Apply consistent rules for identifying mixed sentiment and classify based on the dominant emotional tone.",0.76
+zero_shot,17,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+I'm so tired of this never-ending work schedule.  
+Answer: negative
+
+Example 5:  
+The weather today was absolutely perfect for a picnic!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.79
+zero_shot,18,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual tone in addition to explicit positive or negative language.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7533333333333333
+zero_shot,18,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or indirect expressions of sentiment by analyzing the context and tone of the text.  
+2. Evaluate the overall emotional tone of the tweet, not just isolated words, to determine the true sentiment.  
+3. Consider the use of exclamation marks or enthusiastic language in conjunction with the broader message to avoid misinterpretation.  
+4. Identify and prioritize negative or positive context embedded in seemingly neutral or positive language.  
+5. Use linguistic cues such as contrastive phrases, negations, or intensifiers to refine sentiment classification.",0.7866666666666666
+zero_shot,18,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Example 6:  
+This movie was a complete waste of time, I regret watching it.  
+Answer: negative
+
+Example 7:  
+I absolutely adore the way this app simplifies my daily tasks!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7866666666666666
+zero_shot,18,crossover,"PARENT A:
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.
+
+PARENT B:
+<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.","(0.8, 0.8)","<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.",0.7533333333333333
+zero_shot,19,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to distinguish between sarcasm, indirect expressions, and neutral statements. Prioritize identifying genuine emotional tone over literal word meanings.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7466666666666667
+zero_shot,19,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify explicit positive or negative words and their frequency.  
+2. Detect sarcasm, irony, or indirect expressions of sentiment.  
+3. Analyze the tone and context to determine the actual emotional intent.  
+4. Consider the use of exclamation marks, emojis, or informal language that may indicate sentiment.  
+5. Classify the sentiment based on the overall emotional tone, not just isolated words.  
+6. Differentiate between neutral and positive/negative statements, especially in ambiguous cases.  
+7. Account for slang, profanity, or informal language that may alter the perceived sentiment.  
+8. Ensure the classification aligns with the genuine emotional tone of the tweet, not just literal word meanings.",0.7833333333333333
+zero_shot,19,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8
+zero_shot,20,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, ambiguity, and metaphorical language.",0.6733333333333333
+zero_shot,20,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of sarcasm, irony, or context-dependent tone in the text.  
+2. Determine if the statement is neutral or ambiguous by evaluating the use of vague or indirect language.  
+3. Analyze metaphorical or non-literal expressions to understand their intended meaning.  
+4. Classify the sentiment based on the overall tone, ensuring that positive or negative labels are not misapplied due to linguistic nuances.",0.7566666666666667
+zero_shot,20,examples,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8
+zero_shot,20,crossover,"PARENT A:
+<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+This product is a complete disaster, it broke within a week.  
+Answer: negative
+
+Example 5:  
+I'm really disappointed with the customer service I received.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.
+
+PARENT B:
+Classify the sentiment of the following tweet as positive or negative.","(0.8, 0.8233333333333334)","Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7666666666666667
+zero_shot,21,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and context, and prioritize identifying the actual emotional tone over literal word meanings.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.76
+zero_shot,21,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or indirect expressions of sentiment by analyzing context and tone.  
+2. Evaluate fragmented or unclear language by considering the overall message and emotional intent.  
+3. Prioritize the emotional tone over literal word meanings, especially when negative or positive expressions are used sarcastically.  
+4. Identify phrases that imply dissatisfaction or frustration even if they appear positive on the surface.  
+5. Use contextual clues like exclamation marks, repetition, or exaggerated language to determine the true sentiment.",0.7333333333333333
+zero_shot,21,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+I can't believe how much I hate this weather.  
+Answer: negative
+
+Example 7:  
+This movie was so good, I cried.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7966666666666666
+zero_shot,21,crossover,"PARENT A:
+<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.
+
+PARENT B:
+<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.","(0.8, 0.8)","<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8
+zero_shot,22,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, paying close attention to sarcasm, irony, and mixed sentiments. If the sentiment is neutral or ambiguous, classify it as negative.",0.6366666666666667
+zero_shot,22,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Read the entire tweet carefully to understand the context and tone.  
+2. Identify explicit positive or negative words such as ""great,"" ""terrible,"" ""love,"" ""hate,"" etc.  
+3. Look for sarcasm, irony, or mixed sentiments by analyzing the context and tone of the statement.  
+4. Consider the overall sentiment of the statement, even if it contains both positive and negative elements.  
+5. If the sentiment is unclear or neutral, classify it as negative by default unless there is clear positive language.  
+6. Ensure that the classification is based solely on the sentiment expressed in the text, not on external knowledge or assumptions.",0.7366666666666667
+zero_shot,22,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+This movie was a complete disaster. The plot made no sense and the acting was terrible.  
+Answer: negative
+
+Example 7:  
+I'm really looking forward to the new update. It has so many exciting features!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.79
+zero_shot,23,instruction,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and ambiguous expressions.",0.7033333333333334
+zero_shot,23,cot,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify explicit positive words (e.g., ""love,"" ""great"") and negative words (e.g., ""hate,"" ""terrible"").  
+2. Detect sarcasm or irony by analyzing context and tone indicators (e.g., ""You just gotta love..."").  
+3. Determine if the statement expresses frustration, disappointment, or hopelessness, which may indicate negative sentiment.  
+4. Evaluate ambiguous or vague expressions by considering the overall tone and context, not just isolated phrases.  
+5. Classify the sentiment as positive if the overall tone is favorable, or negative if the overall tone is unfavorable.",0.7666666666666667
+zero_shot,23,examples,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Example 4:  
+I can't believe how much I hate this weather.  
+Answer: negative
+
+Example 5:  
+The concert was amazing, but the line to get in was ridiculous.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.78
+zero_shot,24,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.",0.8,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering sarcasm, irony, and mixed sentiment, and ensuring neutral or mundane statements are not misclassified as negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.",0.7166666666666667
+zero_shot,24,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm or irony by analyzing tone and context.  
+2. Identify mixed sentiment by evaluating conflicting emotional cues.  
+3. Distinguish neutral or mundane statements from negative ones.  
+4. Prioritize contextual clues over literal wording when determining sentiment.  
+5. Resolve mixed sentiment by identifying the dominant emotional tone.  
+6. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+7. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Flag sarcasm or irony and consider it in sentiment analysis.  
+10. Ensure the classification aligns with the overall emotional intent of the statement.",0.7633333333333333
+zero_shot,24,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.",0.8,"<think>
+
+</think>
+
+Example 1:  
+The weather is absolutely perfect today, just what I needed after a long week.  
+Answer: positive
+
+Example 2:  
+I can't believe I got promoted, but I'm so stressed about the new responsibilities.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.",0.7433333333333333
+zero_shot,25,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering context, sarcasm, and mixed expressions, and prioritize accuracy over literal word interpretation.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7766666666666666
+zero_shot,25,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Recognize and prioritize context over isolated words, especially in ambiguous or sarcastic expressions.  
+2. Identify and differentiate between direct, indirect, and sarcastic language to avoid misclassification.  
+3. Consider the overall tone and emotional intent, not just literal word meanings, when determining sentiment.  
+4. Handle mixed sentiment by evaluating the dominant emotional tone of the tweet.  
+5. Use explicit positive or negative keywords as indicators but verify their relevance based on context.",0.79
+zero_shot,25,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+The weather is so bad today, I can't even go outside.  
+Answer: negative
+
+Example 7:  
+I'm really looking forward to the weekend, it's going to be so much fun.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7866666666666666
+zero_shot,25,crossover,"PARENT A:
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.
+
+PARENT B:
+<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.","(0.8, 0.8)","<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm or irony by checking for contradictory tone or context.  
+3. Determine if the statement is neutral or mundane by assessing if it lacks clear sentiment.  
+4. Look for mixed sentiment by identifying conflicting emotions in the text.  
+5. Classify the sentiment as positive or negative based on the strongest emotional cue.  
+6. Prioritize contextual clues over literal wording when determining sentiment.  
+7. Use tone indicators like punctuation or capitalization to detect hidden sentiment.  
+8. Avoid misclassifying neutral or mundane statements as negative.  
+9. Ensure sarcasm or irony is explicitly flagged and considered in sentiment analysis.  
+10. Resolve mixed sentiment by identifying the dominant emotional tone.",0.74
+zero_shot,26,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and mixed sentiment, and prioritizing the dominant emotional tone.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7633333333333333
+zero_shot,26,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.  
+6. Prioritize the dominant sentiment in mixed-sentiment statements.  
+7. Handle ambiguous or vague language by identifying if the sentiment is clearly positive or negative, avoiding assumptions.",0.7933333333333333
+zero_shot,26,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+I was so disappointed when my favorite band canceled the concert.  
+Answer: negative
+
+Example 7:  
+Even though the weather was bad, the event was still a blast!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8033333333333333
+zero_shot,27,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+I was so disappointed when my favorite band canceled the concert.  
+Answer: negative
+
+Example 7:  
+Even though the weather was bad, the event was still a blast!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8033333333333333,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+I was so disappointed when my favorite band canceled the concert.  
+Answer: negative
+
+Example 7:  
+Even though the weather was bad, the event was still a blast!  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and mixed statements, and prioritizing the overall emotional tone over isolated words.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7666666666666667
+zero_shot,27,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+I was so disappointed when my favorite band canceled the concert.  
+Answer: negative
+
+Example 7:  
+Even though the weather was bad, the event was still a blast!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8033333333333333,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+I was so disappointed when my favorite band canceled the concert.  
+Answer: negative
+
+Example 7:  
+Even though the weather was bad, the event was still a blast!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or indirect expressions of sentiment.  
+2. Prioritize the overall tone of the statement over isolated words.  
+3. Evaluate mixed statements by considering both positive and negative context.  
+4. Differentiate between exclamation marks used for excitement and those used for frustration or anger.  
+5. Ensure the classification reflects the actual emotional tone, not just literal word meanings.",0.7633333333333333
+zero_shot,27,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+I was so disappointed when my favorite band canceled the concert.  
+Answer: negative
+
+Example 7:  
+Even though the weather was bad, the event was still a blast!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.8033333333333333,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+I was so disappointed when my favorite band canceled the concert.  
+Answer: negative
+
+Example 7:  
+Even though the weather was bad, the event was still a blast!  
+Answer: positive
+
+Example 8:  
+The weather is so bad today, I can't even go outside.  
+Answer: negative
+
+Example 9:  
+I was really disappointed when my favorite movie was canceled.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love"", ""amazing"", ""happy"") or negative words (e.g., ""hate"", ""terrible"", ""disappointed"").  
+2. Analyze the context for sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or negative based on the overall message, not just isolated words.  
+4. Consider the use of exclamation marks or enthusiastic language, which may indicate positive sentiment but should be evaluated for context.  
+5. Ensure the classification aligns with the actual emotional tone of the tweet, not just literal word meanings.",0.7966666666666666
+zero_shot,28,instruction,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, mixed sentiment, and informal language.",0.7
+zero_shot,28,cot,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words (e.g., ""love,"" ""amazing,"" ""happy"") or negative words (e.g., ""hate,"" ""disaster,"" ""terrible"").  
+2. Analyze the context for sarcasm, irony, or mixed sentiment by examining the overall tone and phrasing.  
+3. Consider the emotional intent behind informal language, slang, or colloquial expressions.  
+4. Determine if the statement contains a contradiction or a mix of positive and negative elements.  
+5. Classify the sentiment based on the dominant emotional tone, prioritizing negative if there is ambiguity or sarcasm.",0.76
+zero_shot,28,examples,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to charge my phone again.  
+Answer: negative
+
+Example 2:  
+This movie was a complete disaster, but I enjoyed the acting.  
+Answer: negative
+
+Example 4:  
+This app is so frustrating, but the customer support is amazing.  
+Answer: negative
+
+Example 5:  
+I can't believe how much I love this place, even though the wait was long.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.79
+zero_shot,29,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and mixed sentiment, and consider cultural context and non-English expressions when applicable.",0.7466666666666667
+zero_shot,29,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify the presence of explicit positive words such as ""love,"" ""amazing,"" ""excited,"" or ""happy.""  
+2. Identify the presence of explicit negative words such as ""hate,"" ""terrible,"" ""bad,"" or ""disappointed.""  
+3. Analyze the overall tone of the sentence, including sarcasm or irony, to determine if the sentiment is positive or negative.  
+4. Consider the context of the sentence, including mixed sentiment or contrasting phrases, to determine the dominant sentiment.  
+5. Evaluate the use of non-English phrases, slang, or cultural references to ensure accurate interpretation of sentiment.",0.79
+zero_shot,29,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+I'm so excited for the weekend! Plans are finally set.  
+Answer: positive
+
+Example 4:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 5:  
+I absolutely hate when my phone dies in the middle of an important call.  
+Answer: negative
+
+Example 6:  
+This movie was a complete disaster. The plot made no sense and the acting was terrible.  
+Answer: negative
+
+Example 7:  
+I absolutely love the new update! It's so much better than before.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7733333333333333
+zero_shot,30,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone.",0.6533333333333333
+zero_shot,30,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm, irony, or context-dependent tone that may contradict literal wording.  
+3. Determine if the sentiment is clear despite ambiguous or incomplete language.  
+4. Classify based on the most dominant sentiment, considering emotional tone and intent.  
+5. Ensure the classification aligns with the defined output constraints.",0.81
+zero_shot,30,examples,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this product is!  
+Answer: positive
+
+Example 2:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.7666666666666667

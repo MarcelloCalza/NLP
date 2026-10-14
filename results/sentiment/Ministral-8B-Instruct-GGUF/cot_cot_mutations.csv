@@ -1,0 +1,371 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.",0.8266666666666667
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of sarcasm and irony using context and word usage.
+2. Analyze the overall emotional tone of the tweet, considering the combination of words and phrases.
+3. Classify based on the dominant sentiment, ensuring context is considered.",0.76
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of sarcasm and irony using context and word usage.
+2. Analyze the overall emotional tone of the tweet, considering the combination of words and phrases.
+3. Classify based on the dominant sentiment, ensuring context is considered.",0.76,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of @mentions, exclamations, or specific phrases that might indicate sarcasm or irony.
+2. Analyze the overall emotional tone of the tweet, considering the combination of words and phrases.
+3. Classify based on the dominant sentiment, ensuring context is considered.",0.8166666666666667
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of @mentions, exclamations, or specific phrases that might indicate sarcasm or irony.
+2. Analyze the overall emotional tone of the tweet, considering the combination of words and phrases.
+3. Classify based on the dominant sentiment, ensuring context is considered.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of @mentions, exclamations, or specific phrases that might indicate sarcasm or irony.
+2. Analyze the overall emotional tone of the tweet, considering the combination of words and phrases.
+3. Classify based on the dominant sentiment, ensuring context is considered.
+4. Consider the use of emojis and their potential meaning.
+5. Be sensitive to sarcasm and irony by looking for indirect expressions of sentiment.",0.78
+cot,1,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases and their context.
+2. Recognize emotional intensity and irony/sarcasm.
+3. Determine the overall sentiment based on the identified emotions and context.",0.81
+cot,2,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of @mentions, exclamations, or specific phrases that might indicate sarcasm or irony.
+2. Analyze the overall emotional tone of the tweet, considering the combination of words and phrases.
+3. Classify based on the dominant sentiment, ensuring context is considered.
+4. Consider the use of emojis and their potential meaning.
+5. Be sensitive to sarcasm and irony by looking for indirect expressions of sentiment.",0.78,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for @mentions, exclamations, and specific phrases that might indicate sarcasm or irony.
+2. Evaluate the overall emotional tone of the tweet, considering the combination of words, phrases, and emojis.
+3. Classify based on the dominant sentiment, ensuring the entire context is considered.
+4. Be sensitive to sarcasm and irony by looking for indirect expressions of sentiment.
+5. Interpret the meaning of emojis in the context of the tweet.",0.8033333333333333
+cot,3,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of @mentions, exclamations, or specific phrases that might indicate sarcasm or irony.
+2. Analyze the overall emotional tone of the tweet, considering the combination of words and phrases.
+3. Classify based on the dominant sentiment, ensuring context is considered.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm or Irony:** Recognize and account for sarcasm or irony by examining the presence of @mentions, exclamations, or specific phrases that often indicate these sentiments. Treat sarcastic or ironic tweets as negative unless explicitly positive.
+2. **Analyze Emotional Tone:** Evaluate the overall emotional tone of the tweet by considering the combination of words and phrases. Exclamations, especially when used to express frustration or dissatisfaction, should be interpreted as negative sentiment.
+3. **Consider Context:** Take into account the entire context of the tweet to ensure accurate sentiment classification. This includes understanding the surrounding words and phrases to determine the overall sentiment.",0.6333333333333333
+cot,4,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases and their context.
+2. Recognize emotional intensity and irony/sarcasm.
+3. Determine the overall sentiment based on the identified emotions and context.",0.81,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for sarcasm or irony by looking for negation words or phrases like ""not"", ""no"", ""never"", etc., followed by positive words or phrases.
+2. Identify emotionally relevant words or phrases and their context, especially in the presence of humor or irony.
+3. Determine the overall sentiment based on the identified emotions and context, considering the intensity and specific emotions expressed.",0.8033333333333333
+cot,5,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases and their context.
+2. Recognize emotional intensity and irony/sarcasm.
+3. Determine the overall sentiment based on the identified emotions and context.",0.81,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall tone and context of the tweet.
+2. Recognize and correctly interpret irony or sarcasm.
+3. Consider the intensity of expressed emotions.
+4. Determine the sentiment based on the identified tone, context, irony/sarcasm, and emotional intensity.",0.79
+cot,6,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for sarcasm or irony by looking for negation words or phrases like ""not"", ""no"", ""never"", etc., followed by positive words or phrases.
+2. Identify emotionally relevant words or phrases and their context, especially in the presence of humor or irony.
+3. Determine the overall sentiment based on the identified emotions and context, considering the intensity and specific emotions expressed.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sarcasm or irony by looking for negations followed by positive words or phrases.
+2. Detect emotional tone by considering the context of emotionally relevant words or phrases.
+3. Determine sentiment based on the overall emotional tone and context, considering intensity and specific emotions expressed.",0.8066666666666666
+cot,7,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sarcasm or irony by looking for negations followed by positive words or phrases.
+2. Detect emotional tone by considering the context of emotionally relevant words or phrases.
+3. Determine sentiment based on the overall emotional tone and context, considering intensity and specific emotions expressed.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for negations followed by positive words or phrases to identify sarcasm or irony.
+2. Consider the context of emotionally relevant words or phrases to detect emotional tone.
+3. Evaluate the overall emotional tone and context, including intensity and specific emotions expressed.
+4. Recognize contextual clues that may significantly impact sentiment classification.",0.8066666666666666
+cot,8,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases and their context.
+2. Recognize emotional intensity and irony/sarcasm.
+3. Determine the overall sentiment based on the identified emotions and context.",0.81,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Consider the intensity and context of emotionally relevant words or phrases.
+2. Recognize and interpret irony or sarcasm.
+3. Consider the use of emojis, hashtags, and specific phrases in the context of the tweet.",0.78
+cot,9,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Consider the full context of the tweet.
+2. Identify and interpret emojis and specific phrases.
+3. Focus on the dominant sentiment expressed in the tweet.",0.82
+cot,10,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for common positive indicators (e.g., ""good"", ""great"", ""excited"").
+2. Check for common negative indicators (e.g., ""bad"", ""terrible"", ""sad"").
+3. If the tweet is sarcastic, check for the opposite sentiment.
+4. If the tweet contains mixed sentiments, focus on the overall dominant sentiment.",0.8233333333333334
+cot,11,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and interpret emojis, slang, and abbreviations to understand their sentiment.
+2. Consider the presence of negations and other contextual clues.
+3. Determine the overall sentiment based on the identified emotional words and the interpretation of emojis, slang, and abbreviations.",0.8133333333333334
+cot,12,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for sarcasm or irony by looking for phrases like ""I'm so happy"" or ""That's great"" said with a negative context.
+2. Consider the emotional tone of the tweet, especially when dealing with words like ""hate"" or ""love"".
+3. Take the context of the tweet into account, such as mentioning a specific event or situation.",0.8033333333333333
+cot,13,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for common positive indicators (e.g., ""good"", ""great"", ""excited"").
+2. Check for common negative indicators (e.g., ""bad"", ""terrible"", ""sad"").
+3. If the tweet is sarcastic, check for the opposite sentiment.
+4. If the tweet contains mixed sentiments, focus on the overall dominant sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for common positive and negative indicators.
+2. Check for sarcasm by looking for the opposite sentiment of common indicators.
+3. If mixed sentiments are detected, focus on the dominant sentiment.",0.82
+cot,14,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Consider sarcasm or irony by looking for contradicting expressions.
+4. Interpret the context of the tweet.
+5. Pay attention to the emotional intensity of the words used.
+6. Decide the overall sentiment.",0.8166666666666667
+cot,15,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.",0.8233333333333334
+cot,16,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify the overall emotional tone of the tweet.**
+2. **Consider the context and the combination of words and phrases.**
+3. **Classify based on the dominant sentiment.**
+4. **Analyze the use of emojis and punctuation to enhance understanding of sentiment.**
+5. **Ensure the entire context, including surrounding words, is considered.**
+6. **Avoid misinterpretation by weighing positive and negative words equally.**
+7. **Consider the intended meaning behind certain words or phrases.**",0.82
+cot,17,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for common positive indicators (e.g., ""good"", ""great"", ""excited"").
+2. Check for common negative indicators (e.g., ""bad"", ""terrible"", ""sad"").
+3. If the tweet is sarcastic, check for the opposite sentiment.
+4. If the tweet contains mixed sentiments, focus on the overall dominant sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Analyze the tone and context of the tweet.
+2. Check for the presence of common positive indicators.
+3. Check for the presence of common negative indicators.
+4. Identify sarcasm by checking for the opposite sentiment of common indicators.
+5. Determine the overall dominant sentiment if mixed sentiments are present.",0.82
+cot,18,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Examine the entire tweet, including surrounding words and phrases.
+2. Consider the use of emojis and punctuation to understand the sentiment.
+3. Analyze the context, including user mentions and replies, to determine the dominant sentiment.
+4. Classify the sentiment as positive or negative based on the overall emotional tone.",0.8133333333333334
+cot,19,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.
+6. Pay special attention to sarcasm and irony to avoid misinterpretation.
+7. Handle mixed sentiment by considering the dominant sentiment and the presence of negative words within positive contexts.",0.81
+cot,20,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Analyze the tone and context of the tweet.
+2. Check for the presence of common positive indicators.
+3. Check for the presence of common negative indicators.
+4. Identify sarcasm by checking for the opposite sentiment of common indicators.
+5. Determine the overall dominant sentiment if mixed sentiments are present.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for sarcasm by identifying the presence of common negative indicators with an opposite sentiment context.
+2. Analyze the tone and context of the tweet.
+3. Check for the presence of common positive indicators.
+4. Identify the overall dominant sentiment if mixed sentiments are present.
+5. Consider the context of the tweet.",0.8
+cot,21,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Consider the overall emotional tone of the tweet.
+2. Analyze the combination of words and phrases to understand the context.
+3. Identify the dominant sentiment of the tweet.
+4. Evaluate the impact of emojis and punctuation on the sentiment, but do not overemphasize them.
+5. Ensure the surrounding words and phrases are considered in full context.",0.82
+cot,22,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Recognize sarcasm, irony, and playful language.
+2. Identify specific phrases and emojis indicating sentiment.
+3. Consider the context and the combination of words and phrases.
+4. Classify based on the dominant sentiment.",0.8066666666666666
+cot,23,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Consider the context and nuances of the text.
+3. Recognize and handle sarcasm and irony.
+4. Determine whether the identified words or phrases express positive or negative sentiment.
+5. Decide the overall sentiment based on the majority of emotionally relevant words or phrases.",0.8133333333333334
+cot,24,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sarcasm and irony by checking for contrasting words or phrases that contradict the literal meaning.
+2. Consider the context and the combination of words and phrases, especially those that indicate mixed emotions.
+3. Recognize informal language and slang by understanding common abbreviations and colloquial expressions.
+4. Classify based on the dominant sentiment, while considering the nuances of mixed emotions and context-specific nuances.",0.7966666666666666
+cot,25,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Explicitly consider the context and nuance of individual words and phrases.
+2. Accurately interpret emojis and punctuation marks to enhance sentiment understanding.
+3. Fully consider the entire context, including surrounding words, to ensure accurate sentiment classification.",0.8133333333333334
+cot,26,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Consider the context of the tweet.
+3. Ignore individual words and focus on overall sentiment.
+4. Recognize irony or sarcasm.
+5. Decide the overall sentiment.",0.8233333333333334
+cot,27,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sarcasm or irony by checking for common indicators such as capitalization, punctuation, and context.
+2. Analyze the use of emojis and punctuation to determine their sentiment by considering the common meanings of these symbols in the context of the tweet.
+3. Consider local language nuances and cultural references to ensure accurate sentiment classification.
+4. Ensure the entire context, including surrounding words, is considered to avoid misinterpretation.
+5. Classify based on the dominant sentiment, taking into account the improved interpretations.",0.77
+cot,28,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Consider the full context of the tweet, including surrounding words and phrases.
+2. Pay close attention to the use of emojis and punctuation to enhance understanding of sentiment.
+3. Look for indicators of irony or sarcasm, and consider the overall tone of the tweet.
+4. Classify based on the dominant sentiment, considering all the above factors.",0.7933333333333333
+cot,29,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for common positive indicators (e.g., ""good"", ""great"", ""excited"").
+2. Check for common negative indicators (e.g., ""bad"", ""terrible"", ""sad"").
+3. If the tweet is sarcastic, check for the opposite sentiment.
+4. If the tweet contains mixed sentiments, focus on the overall dominant sentiment.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Check for sarcasm by looking for the presence of ""sarcasm indicators"" (e.g., ""ironically"", ""not"", ""actually"") and then check for the opposite sentiment.
+2. In mixed sentiment tweets, identify the dominant sentiment by checking the frequency of positive and negative indicators.
+3. Prioritize understanding the context by considering the overall tone and the specific words used.
+4. Classify the sentiment based on the dominant sentiment identified.",0.8233333333333334
+cot,30,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the overall emotional tone of the tweet.
+2. Consider the context and the combination of words and phrases.
+3. Classify based on the dominant sentiment.
+4. Analyze the use of emojis and punctuation to enhance understanding of sentiment.
+5. Ensure the entire context, including surrounding words, is considered.
+6. Be aware of sarcasm and irony.
+7. Prioritize positive sentiment if ambiguous.",0.81

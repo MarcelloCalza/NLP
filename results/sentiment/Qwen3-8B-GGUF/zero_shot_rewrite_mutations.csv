@@ -1,0 +1,291 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+zero_shot,0,rewrite,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately.",0.7266666666666667
+zero_shot,0,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately.",0.7266666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification.",0.74
+zero_shot,0,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification.",0.74,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification. If the sentiment is neutral or ambiguous, explicitly label it as such.",0.5566666666666666
+zero_shot,0,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification. If the sentiment is neutral or ambiguous, explicitly label it as such.",0.5566666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification. If the sentiment is neutral or ambiguous, explicitly label it as such. Pay special attention to detecting sarcasm and irony, especially in code-switching or multilingual contexts, and use contextual cues to determine the true sentiment of mixed or ambiguous expressions.",0.5966666666666667
+zero_shot,1,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification. If the sentiment is neutral or ambiguous, explicitly label it as such. Pay special attention to detecting sarcasm and irony, especially in code-switching or multilingual contexts, and use contextual cues to determine the true sentiment of mixed or ambiguous expressions.",0.5966666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification. If the sentiment is neutral or ambiguous, explicitly label it as such. Pay special attention to detecting sarcasm and irony, especially in code-switching or multilingual contexts, and use contextual cues to determine the true sentiment of mixed or ambiguous expressions. Prioritize accuracy by distinguishing between neutral/ambiguous language and negative sentiment, and avoid over-interpretation.",0.6133333333333333
+zero_shot,2,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification.",0.74,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification. If the sentiment is neutral or unclear, label it as neutral.",0.45
+zero_shot,3,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately.",0.7266666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that neutral or ambiguous statements are not misclassified as negative.",0.7233333333333334
+zero_shot,4,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately.",0.7266666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label.",0.74
+zero_shot,5,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that neutral or ambiguous statements are not misclassified as negative.",0.7233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that neutral or ambiguous statements are not misclassified as negative. Focus on identifying clear indicators of sentiment, while distinguishing between sarcastic/ironic expressions and genuine sentiment.",0.72
+zero_shot,6,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification.",0.74,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification. If the sentiment is unclear or neutral, label it as 'neutral'.",0.42
+zero_shot,7,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label.",0.74,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Prioritize detecting sarcastic or ironic expressions, as they may indicate negative sentiment despite seemingly positive language.",0.58
+zero_shot,8,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that neutral or ambiguous statements are not misclassified as negative.",0.7233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that neutral or ambiguous statements are not misclassified as negative. Pay special attention to cases where the sentiment is not explicitly stated and where the tone may contradict the literal meaning.",0.7066666666666667
+zero_shot,9,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label.",0.74,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning.",0.7466666666666667
+zero_shot,10,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification.",0.74,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully handle ambiguous or neutral language, and appropriately address multilingual or code-switching content. Consider context to ensure accurate classification. If the sentiment is clearly negative due to sarcasm or irony, classify it as negative. If the sentiment is neutral or ambiguous, classify it as neutral.",0.43
+zero_shot,11,rewrite,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, context, and implied meaning.",0.6433333333333333
+zero_shot,12,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label.",0.74,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Specifically, distinguish sarcasm and irony from genuine positive sentiment, avoid misclassifying neutral or ambiguous statements as negative, and correctly interpret informal or code-switching language.",0.7533333333333333
+zero_shot,13,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning.",0.7466666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Explicitly account for sarcasm, irony, and ambiguity by analyzing linguistic markers and contextual clues.",0.7266666666666667
+zero_shot,14,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning.",0.7466666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative.",0.7833333333333333
+zero_shot,15,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative.",0.7833333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative.",0.7866666666666666
+zero_shot,16,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning.",0.7466666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, detect sarcasm and irony by analyzing linguistic cues, contextual clues, and tone. Distinguish neutral or ambiguous statements from negative sentiment by evaluating the presence of emotional or evaluative language. Interpret code-switching or multilingual content by considering the intended meaning and cultural context.",0.7433333333333333
+zero_shot,17,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. When analyzing code-switching or multilingual content, consider the dominant language and context to determine the intended sentiment.",0.7866666666666666
+zero_shot,18,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Specifically, distinguish sarcasm and irony from genuine positive sentiment, avoid misclassifying neutral or ambiguous statements as negative, and correctly interpret informal or code-switching language.",0.7533333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Specifically, distinguish sarcasm and irony from genuine positive sentiment, avoid misclassifying neutral or ambiguous statements as negative, and correctly interpret informal or code-switching language. Prioritize accuracy in identifying sarcastic or ironic expressions that may mask negative sentiment.",0.6533333333333333
+zero_shot,19,rewrite,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider the tone, context, and potential sarcasm or irony when making your determination. If the sentiment is neutral or mixed, classify it as negative.",0.6833333333333333
+zero_shot,20,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Consider ambiguous or neutral language carefully and handle multilingual or code-switching content appropriately. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Specifically, distinguish sarcasm and irony from genuine positive sentiment, avoid misclassifying neutral or ambiguous statements as negative, and correctly interpret informal or code-switching language.",0.7533333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Specifically, distinguish sarcasm and irony from genuine positive sentiment, avoid misclassifying neutral or ambiguous statements as negative, and correctly interpret informal or code-switching language. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Handle multilingual or code-switching content appropriately.",0.78
+zero_shot,21,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Specifically, distinguish sarcasm and irony from genuine positive sentiment, avoid misclassifying neutral or ambiguous statements as negative, and correctly interpret informal or code-switching language. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Handle multilingual or code-switching content appropriately.",0.78,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Specifically, distinguish sarcasm and irony from genuine positive sentiment, avoid misclassifying neutral or ambiguous statements as negative, and correctly interpret informal or code-switching language. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Handle multilingual or code-switching content appropriately. Prioritize accuracy by explicitly detecting sarcastic or ironic expressions and ensuring they are not misclassified as positive.",0.6766666666666666
+zero_shot,22,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Specifically, distinguish sarcasm and irony from genuine positive sentiment, avoid misclassifying neutral or ambiguous statements as negative, and correctly interpret informal or code-switching language. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Handle multilingual or code-switching content appropriately.",0.78,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Specifically, distinguish sarcasm and irony from genuine positive sentiment, avoid misclassifying neutral or ambiguous statements as negative, and correctly interpret informal or code-switching language. Ensure that requests, recommendations, and neutral statements are analyzed for context and tone before assigning a sentiment label. Handle multilingual or code-switching content appropriately. If the sentiment is ambiguous or neutral, label it as neutral.",0.37666666666666665
+zero_shot,23,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. When analyzing, consider the speaker's intent and the overall context to determine the true sentiment.",0.7833333333333333
+zero_shot,24,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. When analyzing code-switching or multilingual content, consider the dominant language and context to determine the intended sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately by considering the dominant language and context. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. When analyzing code-switching or multilingual content, consider the dominant language and context to determine the intended sentiment.",0.78
+zero_shot,25,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. Explicitly recognize that sarcasm, irony, and exaggerated language should not be classified as negative unless the sentiment is clearly negative in intent.",0.7533333333333333
+zero_shot,26,rewrite,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual cues such as mentions or replies.",0.6733333333333333
+zero_shot,27,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. When in doubt, lean toward neutrality unless clear negative or positive sentiment is explicitly conveyed.",0.71
+zero_shot,28,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. When analyzing code-switching or multilingual content, consider the dominant language and context to determine the intended sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. When analyzing code-switching or multilingual content, consider the dominant language and context to determine the intended sentiment. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative.",0.7866666666666666
+zero_shot,29,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. Pay close attention to emotional tone and contextual cues to avoid misinterpreting neutral or ambiguous language as negative.",0.7933333333333333
+zero_shot,30,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. Pay close attention to emotional tone and contextual cues to avoid misinterpreting neutral or ambiguous language as negative.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and tone. Carefully analyze ambiguous or neutral language to avoid misclassification. Handle multilingual or code-switching content appropriately. Consider context and tone when evaluating requests, recommendations, and neutral statements. Ensure that expressions with mixed or subtle emotional cues are interpreted correctly based on their intended meaning. Specifically, distinguish sarcasm and irony from genuine negative sentiment, and avoid misclassifying neutral or ambiguous statements as negative. Prioritize accuracy in identifying sarcastic or ironic expressions as non-negative, and ensure positive statements are not misclassified as negative. Pay close attention to emotional tone and contextual cues to avoid misinterpreting neutral or ambiguous language as negative. Explicitly prioritize identifying sarcasm and irony as non-negative, and ensure neutral or ambiguous language is not misclassified as negative.",0.7833333333333333

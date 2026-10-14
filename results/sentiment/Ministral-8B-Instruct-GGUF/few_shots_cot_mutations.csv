@@ -1,0 +1,2456 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments. These words can include adjectives like ""amazing,"" ""worst,"" ""terrible,"" ""good,"" ""bad,"" etc.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used. For example, ""worst"" can be used sarcastically or ironically.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as negative if they do not express strong positive sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god).
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.8
+few_shots,0,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments. These words can include adjectives like ""amazing,"" ""worst,"" ""terrible,"" ""good,"" ""bad,"" etc.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used. For example, ""worst"" can be used sarcastically or ironically.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as negative if they do not express strong positive sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god).
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.8,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm or irony.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god).
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.81
+few_shots,0,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm or irony.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god).
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.8033333333333333
+few_shots,0,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.8033333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Social Media Slang and Abbreviations**: Recognize common social media slang and abbreviations, such as ""bin grad"", ""Aww"", ""yeah, so great"", and ""blah.goodnight"", and interpret their sentiment based on context.
+2. **Identify Contextual Clues and Irony**: Look for contextual clues and irony in the tweet, such as playful insults (""You lazy git!"") and sarcasm (""PSH!""), and interpret the sentiment accordingly.
+3. **Handle Mixed Sentiments**: If the sentiment is mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.7866666666666666
+few_shots,1,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm or irony.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god).
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm or irony.
+3. **Handle Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god).
+4. **Handle Mixed Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+6. **Consider Irony and Sarcasm**: Explicitly check for the presence of irony or sarcasm in the tweet.",0.8066666666666666
+few_shots,2,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.8033333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334
+few_shots,3,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm or irony.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god).
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments, considering both their literal and implied meanings.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm, irony, or sarcastic intent, and interpret them accordingly.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god), and consider their intended sentiment.
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+6. **Check for Contradictions**: If a tweet contains contradictory statements, prioritize the statement that is most likely to be the intended sentiment.",0.8033333333333333
+few_shots,4,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm or irony.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god).
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm or irony, and consider the presence of emojis that can change the sentiment.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god), and consider the presence of emojis that can alter the sentiment.
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.81
+few_shots,5,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8266666666666667
+few_shots,6,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Recognize Sarcasm and Irony**: Look for common sarcastic or ironic phrases and interpret them accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+2. **Interpret Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+3. **Consider Full Context**: Evaluate the entire context of the tweet, including the use of words and phrases, to determine the sentiment. For example, ""good night"" should be interpreted as neutral or positive depending on the context.",0.8233333333333334
+few_shots,7,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Sarcasm or Irony**: Identify if the text is a sarcastic or ironic statement by looking for contradictions between the literal meaning and the intended sentiment.
+2. **Analyze Social Media Slang and Abbreviations**: Break down and understand common social media slang and abbreviations to correctly interpret their sentiment.
+3. **Evaluate the Strength of Mixed Sentiments**: Prioritize the stronger sentiment in mixed-sentiment tweets, and if uncertain, default to neutral unless there is a clear positive or negative sentiment expressed.",0.77
+few_shots,8,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm or irony, and consider the presence of emojis that can change the sentiment.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god), and consider the presence of emojis that can alter the sentiment.
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words**: Look for words that are typically associated with positive or negative sentiments.
+2. **Consider Contextual Clues**: Be aware of the context in which words are used, such as sarcasm or irony, and consider the presence of emojis that can change the sentiment.
+3. **Handle Neutral Sentiments**: Recognize emotionally neutral or mixed sentiments, such as ""okay"" or ""nothing special,"" and classify them as positive if they do not express strong negative sentiments.
+4. **Interpret Social Media Slang**: Understand common social media slang and abbreviations that may change the sentiment of a tweet, such as ""lol"" (laugh out loud) or ""OMG"" (oh my god), and consider the presence of emojis that can alter the sentiment.
+5. **Default to Neutral if Uncertain**: If the sentiment is uncertain or mixed, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+6. **Check for Sarcasm or Irony**: If the tweet includes words or phrases that could indicate sarcasm or irony, reverse the sentiment.
+7. **Consider Emojis and Punctuation**: Emojis and punctuation marks can change the sentiment of a tweet. For example, a smiley face (😊) can indicate a positive sentiment, while a frowning face (😞) can indicate a negative sentiment.",0.81
+few_shots,9,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Contextual Clues:**
+   - Look for words and phrases that indicate positive or negative sentiment.
+   - Consider the overall tone of the tweet.
+
+2. **Interpret Emojis and Symbols:**
+   - Recognize common emojis and symbols that indicate positive or negative sentiment.
+   - Understand that some emojis can have dual meanings; consider the context.
+
+3. **Identify Irony or Sarcasm:**
+   - Check for phrases or statements that contradict the literal meaning of the tweet.
+   - Consider the use of capitalization or exclamation marks that might indicate sarcasm.",0.82
+few_shots,10,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Detect Sarcasm or Irony**: Look for the use of exclamation marks, capitalization, and playful or insulting language that could indicate sarcasm or irony, and interpret the sentiment accordingly.
+2. **Recognize Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately.
+3. **Prioritize Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.",0.7733333333333333
+few_shots,11,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider Social Media Conventions**: Recognize mentions (e.g., @username) and playful language as positive sentiment indicators.
+2. **Interpret Slang and Abbreviations**: Understand common social media slang and abbreviations to accurately interpret sentiment.
+3. **Prioritize Stronger Sentiments**: In mixed sentiments, prioritize the sentiment expressed more strongly or frequently.
+4. **Examine Emphatic Words**: Pay attention to words indicating emphasis to determine sentiment accurately.",0.7566666666666667
+few_shots,12,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, especially for sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative, focusing on the majority sentiment.",0.82
+few_shots,13,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".
+6. **Prioritize Positive Sentiments**: If the tweet contains both positive and negative sentiments, prioritize the positive sentiment unless there is a clear negative sentiment expressed.",0.8166666666666667
+few_shots,14,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: Check for sarcasm, irony, or humor in the text. If present, reverse the sentiment.
+2. **Consider Context**: Evaluate the context of the statement. Look for modifiers like ""not"", ""very"", or ""barely"" that can change the sentiment.
+3. **Handle Non-English Text**: If the tweet is in a language other than English, use a language-specific sentiment analysis model or tool.",0.8233333333333334
+few_shots,15,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Sarcasm or Irony**: Detect and adjust for sarcasm or irony by considering phrases like ""just kidding"" or ""not really"" and context clues.
+2. **Correct Emoji Interpretation**: Ensure emojis are correctly interpreted based on their standard meanings (e.g., smiley face is positive, frowny face is negative).
+3. **Contextual Keyword Weighting**: Assign higher weight to contextually relevant keywords and lower weight to those that may be misleading (e.g., ""fun"" in ""just quite tired now"").",0.7966666666666666
+few_shots,16,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334
+few_shots,17,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.
+6. **Recognize Sarcasm and Irony**: Identify and correct for sarcasm or irony in the tweet.
+7. **Clear Guidelines for Emojis and Abbreviations**: Use predefined lists for the sentiment of specific emojis and abbreviations.
+8. **Emphasize Full Context**: Ensure the full context of the tweet is considered to avoid misinterpretation.",0.8133333333333334
+few_shots,18,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: Check for sarcasm, irony, or humor in the text. If present, reverse the sentiment.
+2. **Consider Context**: Evaluate the context of the statement. Look for modifiers like ""not"", ""very"", or ""barely"" that can change the sentiment.
+3. **Handle Non-English Text**: If the tweet is in a language other than English, use a language-specific sentiment analysis model or tool.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm, Irony, or Humor**: If the text contains sarcasm, irony, or humor, reverse the sentiment.
+2. **Evaluate Contextual Clues**: Consider modifiers like ""not"", ""barely"", or ""quite"" that can change the sentiment.
+3. **Handle Non-English Text**: If the tweet is in a language other than English, use a language-specific sentiment analysis model or tool.",0.8033333333333333
+few_shots,19,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: Check for sarcasm, irony, or humor in the text. If present, reverse the sentiment.
+2. **Consider Context**: Evaluate the context of the statement. Look for modifiers like ""not"", ""very"", or ""barely"" that can change the sentiment.
+3. **Handle Non-English Text**: If the tweet is in a language other than English, use a language-specific sentiment analysis model or tool.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: If the text contains sarcasm, irony, or humor, reverse the sentiment.
+2. **Consider Contextual Modifiers**: If the text contains modifiers like ""not"", ""barely"", or ""very"", adjust the sentiment accordingly.
+3. **Evaluate Overall Context**: Consider the entire statement to determine the sentiment.",0.8333333333333334
+few_shots,20,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: Check for sarcasm, irony, or humor in the text. If present, reverse the sentiment.
+2. **Consider Context**: Evaluate the context of the statement. Look for modifiers like ""not"", ""very"", or ""barely"" that can change the sentiment.
+3. **Handle Non-English Text**: If the tweet is in a language other than English, use a language-specific sentiment analysis model or tool.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm, Irony, or Humor**: Check for phrases like ""I love it"" with a negative context or ""it was amazing, in the worst way possible.""
+2. **Consider Contextual Modifiers**: Evaluate the context of the statement for modifiers like ""not"", ""very"", or ""barely"" that can change the sentiment.
+3. **Handle Non-English Text**: If the tweet is in a language other than English, use a language-specific sentiment analysis model or tool.
+4. **Identify Emotionally Charged Language**: Look for words like ""miss,"" ""hate,"" ""love,"" or ""great"" that can indicate sentiment.
+5. **Evaluate Overall Sentiment**: Consider the overall sentiment of the tweet, rather than individual words.",0.8166666666666667
+few_shots,21,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Recognize Sarcasm and Irony**: Detect sarcasm or irony by considering the tone and context of the tweet.
+6. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8166666666666667
+few_shots,22,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Recognize Sarcasm and Irony**: Look for common sarcastic or ironic phrases and interpret them accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+2. **Interpret Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+3. **Consider Full Context**: Evaluate the entire context of the tweet, including the use of words and phrases, to determine the sentiment. For example, ""good night"" should be interpreted as neutral or positive depending on the context.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+**IMPROVED REASONING:**
+1. **Interpret Contextual Cues**: Evaluate the entire tweet, including usernames, mentions, and other social media-specific elements, to determine the sentiment.
+2. **Check for Exclamations and Emphasis**: Look for exclamations and emphasis (e.g., capital letters, multiple exclamation marks) and interpret their sentiment based on the context. For example, ""OMG! I'm so happy!"" is positive, but ""OMG! This is the worst thing ever!"" is negative.
+3. **Understand Social Media Slang and Abbreviations**: Recognize and interpret common social media slang and abbreviations (e.g., ""lol"", ""OMG"", ""betch"", ""bin grad"") based on their typical usage and context.
+4. **Consider Sarcasm and Irony**: Look for sarcastic or ironic phrases and interpret them accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.",0.8233333333333334
+few_shots,23,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+**IMPROVED REASONING:**
+1. **Interpret Contextual Cues**: Evaluate the entire tweet, including usernames, mentions, and other social media-specific elements, to determine the sentiment.
+2. **Check for Exclamations and Emphasis**: Look for exclamations and emphasis (e.g., capital letters, multiple exclamation marks) and interpret their sentiment based on the context. For example, ""OMG! I'm so happy!"" is positive, but ""OMG! This is the worst thing ever!"" is negative.
+3. **Understand Social Media Slang and Abbreviations**: Recognize and interpret common social media slang and abbreviations (e.g., ""lol"", ""OMG"", ""betch"", ""bin grad"") based on their typical usage and context.
+4. **Consider Sarcasm and Irony**: Look for sarcastic or ironic phrases and interpret them accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Check for phrases that are typically used ironically or sarcastically and reverse their sentiment if the context suggests they are meant to be positive. For example, ""You're so funny!"" could be positive if said sarcastically.
+2. **Evaluate Exclamations and Emphasis**: Look for exclamations and emphasis (e.g., capital letters, multiple exclamation marks) and interpret their sentiment based on the context. For example, ""OMG! I'm so happy!"" is positive, but ""OMG! This is the worst thing ever!"" is negative.
+3. **Recognize Social Media Slang and Abbreviations**: Interpret common social media slang and abbreviations (e.g., ""lol"", ""OMG"", ""betch"", ""bin grad"") based on their typical usage and context. For example, ""lol"" typically indicates amusement or laughter, which is positive.
+4. **Contextualize Social Media Elements**: Evaluate the entire tweet, including usernames, mentions, and other social media-specific elements, to determine the sentiment. For example, a mention of a brand or product can provide context for the sentiment.",0.82
+few_shots,24,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+**IMPROVED REASONING:**
+1. **Interpret Contextual Cues**: Evaluate the entire tweet, including usernames, mentions, and other social media-specific elements, to determine the sentiment.
+2. **Check for Exclamations and Emphasis**: Look for exclamations and emphasis (e.g., capital letters, multiple exclamation marks) and interpret their sentiment based on the context. For example, ""OMG! I'm so happy!"" is positive, but ""OMG! This is the worst thing ever!"" is negative.
+3. **Understand Social Media Slang and Abbreviations**: Recognize and interpret common social media slang and abbreviations (e.g., ""lol"", ""OMG"", ""betch"", ""bin grad"") based on their typical usage and context.
+4. **Consider Sarcasm and Irony**: Look for sarcastic or ironic phrases and interpret them accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Ignore Mentions and Usernames**: Do not consider usernames and mentions as indicators of sentiment.
+2. **Check for Sarcasm and Irony**: Look for phrases that indicate sarcasm or irony (e.g., ""I'm so happy!"" followed by a negative sentiment) and interpret them accordingly.
+3. **Consider the Overall Tweet Sentiment**: Evaluate the entire tweet, focusing on the main sentiment expressed, rather than individual words or punctuation.",0.8366666666666667
+few_shots,25,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Recognize Sarcasm or Irony**: Check for negations and use of ""but"" or ""however"" to identify sarcasm or irony.
+2. **Interpret Context**: Consider the relationship between the user and the mentioned entity.",0.7666666666666667
+few_shots,26,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Sarcasm or Irony**: Look for indicators of sarcasm or irony to avoid misinterpretation.
+2. **Weight Positive Indicators**: Assign higher importance to positive indicators (positive words, emojis) compared to negative ones.
+3. **Balance Sentiment**: Ensure the overall sentiment is balanced by considering both positive and negative keywords.
+4. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8
+few_shots,27,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider Contextual Clues and Irony**: Interpret the sentiment based on the context in which words are used, such as sarcasm or irony.
+2. **Handle Mixed Sentiments**: Prioritize the sentiment that is expressed more strongly or frequently. Default to neutral unless there is a clear positive or negative sentiment expressed.
+3. **Interpret Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, and interpret their sentiment appropriately.",0.8033333333333333
+few_shots,28,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Sarcasm or Irony**: Identify if the tweet is sarcastic or ironic by looking for common indicators like negations followed by positive words, use of exclamation marks, or specific phrases.
+2. **Evaluate Emojis and Abbreviations**: Use a predefined list of positive and negative emojis and abbreviations to determine their sentiment. If an emoji or abbreviation is neutral, consider its context.
+3. **Consider Contextual Clues**: Look for phrases or words that may contradict the initial sentiment, such as ""but"", ""although"", or ""however"", and adjust the sentiment accordingly.
+4. **Weight Keywords**: Assign a weight to each keyword based on its sentiment intensity. Positive keywords should have a higher weight than neutral or negative keywords.
+5. **Balance Sentiment**: Calculate the overall sentiment by summing the weighted keywords, considering the context and any detected sarcasm or irony. If the sum is positive, classify the sentiment as positive; if negative, classify it as negative.",0.7966666666666666
+few_shots,29,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+**IMPROVED REASONING:**
+1. **Interpret Contextual Cues**: Evaluate the entire tweet, including usernames, mentions, and other social media-specific elements, to determine the sentiment.
+2. **Check for Exclamations and Emphasis**: Look for exclamations and emphasis (e.g., capital letters, multiple exclamation marks) and interpret their sentiment based on the context. For example, ""OMG! I'm so happy!"" is positive, but ""OMG! This is the worst thing ever!"" is negative.
+3. **Understand Social Media Slang and Abbreviations**: Recognize and interpret common social media slang and abbreviations (e.g., ""lol"", ""OMG"", ""betch"", ""bin grad"") based on their typical usage and context.
+4. **Consider Sarcasm and Irony**: Look for sarcastic or ironic phrases and interpret them accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+**IMPROVED REASONING:**
+
+1. **Identify Sarcasm and Irony**: Recognize phrases that could be sarcastic or ironic, such as ""I'm so happy"" followed by a negative statement, and interpret accordingly.
+2. **Analyze Negative Phrases**: Pay close attention to phrases like ""worst"", ""terrible"", ""awful"", and similar words, and consider their context.
+3. **Understand Emphasis**: Look for capital letters, multiple exclamation marks, and other emphasis indicators that suggest the sentiment is stronger than it might otherwise appear.",0.7833333333333333
+few_shots,30,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Ignore Mentions and Usernames**: Do not consider usernames and mentions as indicators of sentiment.
+2. **Check for Sarcasm and Irony**: Look for phrases that indicate sarcasm or irony (e.g., ""I'm so happy!"" followed by a negative sentiment) and interpret them accordingly.
+3. **Consider the Overall Tweet Sentiment**: Evaluate the entire tweet, focusing on the main sentiment expressed, rather than individual words or punctuation.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.",0.8333333333333334
+few_shots,31,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords**: Look for positive or negative words in the tweet.
+2. **Check Emojis and Abbreviations**: Assess the sentiment of emojis and abbreviations used in the tweet.
+3. **Consider Context**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+4. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+5. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Keywords and Emojis**: Look for positive or negative words and assess the sentiment of emojis in the tweet.
+2. **Consider Context and Sarcasm**: Consider the context of the tweet to avoid misinterpretation, such as sarcasm or irony.
+3. **Balance Sentiment**: Ensure the overall sentiment is balanced, considering both positive and negative keywords.
+4. **Final Decision**: Based on the above steps, classify the sentiment as positive or negative.",0.8233333333333334
+few_shots,32,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Sarcasm**: Identify common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Analyze Emotional Words**: Pay attention to words and phrases that express strong emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"".
+3. **Consider Context and Tone**: Interpret the overall context and tone of the tweet to accurately determine the sentiment.",0.8266666666666667
+few_shots,33,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".
+6. **Check for Sarcasm and Irony**: Specifically look for phrases that are typically used sarcastically or ironically and interpret the sentiment accordingly. For example, ""Oh great, another meeting!"" should be interpreted as negative.
+7. **Prioritize Stronger Sentiments**: If there are multiple sentiments present, prioritize those that are expressed with stronger language or more frequently. For example, ""I was okay with the movie, but the ending was terrible"" should be classified as negative due to the stronger negative sentiment about the ending.
+8. **Consider the Use of Emojis**: Pay attention to emojis that are commonly used to express sentiment, such as smiley faces for positive and frowning faces for negative. For example, ""I love this! 😊"" should be interpreted as positive.",0.8266666666666667
+few_shots,34,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.
+4. **Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"".",0.8266666666666667
+few_shots,35,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.
+4. **Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"".",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases and context to determine if the tweet is sarcastic, and reverse the sentiment accordingly.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, and consider their impact on the overall sentiment.
+4. **Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"", and adjust the sentiment accordingly.
+5. **Explicit Sentiment Words**: Prioritize tweets that contain explicit sentiment words (e.g., ""good"", ""bad"", ""happy"", ""sad"") and use them as the primary determinant of sentiment.
+6. **Common Sentiment Phrases**: Recognize and interpret common sentiment phrases (e.g., ""couldn't be happier"", ""disappointing"", ""best ever"") to accurately classify the sentiment.",0.83
+few_shots,36,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334
+few_shots,37,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Ignore Mentions and Usernames**: Do not consider usernames and mentions as indicators of sentiment.
+2. **Check for Sarcasm and Irony**: Look for phrases that indicate sarcasm or irony (e.g., ""I'm so happy!"" followed by a negative sentiment) and interpret them accordingly.
+3. **Consider the Overall Tweet Sentiment**: Evaluate the entire tweet, focusing on the main sentiment expressed, rather than individual words or punctuation.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Sarcasm and Irony**: Look for phrases that indicate sarcasm or irony (e.g., ""I'm so happy!"" followed by a negative sentiment) and interpret them accordingly.
+2. **Consider the Overall Tweet Sentiment**: Evaluate the entire tweet, focusing on the main sentiment expressed, rather than individual words or punctuation.
+3. **Prioritize Emotional Words**: Give more weight to emotionally charged words (e.g., ""amazing"", ""terrible"") and phrases, as they often reflect the overall sentiment.
+4. **Ignore Neutral Words and Phrases**: Do not let neutral words (e.g., ""okay"", ""nothing special"") dominate the sentiment classification.",0.8266666666666667
+few_shots,38,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: If the text contains sarcasm, irony, or humor, reverse the sentiment.
+2. **Consider Contextual Modifiers**: If the text contains modifiers like ""not"", ""barely"", or ""very"", adjust the sentiment accordingly.
+3. **Evaluate Overall Context**: Consider the entire statement to determine the sentiment.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Reverse Sentiment for Sarcasm and Irony**: If the text contains sarcasm or irony, reverse the sentiment.
+2. **Adjust Sentiment for Contextual Modifiers**: If the text contains modifiers like ""not"" or ""barely"", adjust the sentiment accordingly.",0.7833333333333333
+few_shots,39,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: If the text contains sarcasm, irony, or humor, reverse the sentiment.
+2. **Consider Contextual Modifiers**: If the text contains modifiers like ""not"", ""barely"", or ""very"", adjust the sentiment accordingly.
+3. **Evaluate Overall Context**: Consider the entire statement to determine the sentiment.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: If the text contains sarcasm, irony, or humor, reverse the sentiment.
+2. **Consider Contextual Modifiers**: If the text contains modifiers like ""not"", ""barely"", or ""very"", adjust the sentiment accordingly.
+3. **Evaluate Overall Context**: Consider the entire statement to determine the sentiment.
+4. **Reverse Sentiment for Negative Contextual Modifiers**: If the text contains any negative contextual modifiers (e.g., ""not"", ""barely"", ""very""), reverse the sentiment if the initial sentiment is positive.
+5. **Prioritize Negative Keywords**: If the text contains negative keywords (e.g., ""bad"", ""worst"", ""hate""), prioritize their sentiment over positive words.",0.8233333333333334
+few_shots,40,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases and context to determine if the tweet is sarcastic, and reverse the sentiment accordingly.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, and consider their impact on the overall sentiment.
+4. **Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"", and adjust the sentiment accordingly.
+5. **Explicit Sentiment Words**: Prioritize tweets that contain explicit sentiment words (e.g., ""good"", ""bad"", ""happy"", ""sad"") and use them as the primary determinant of sentiment.
+6. **Common Sentiment Phrases**: Recognize and interpret common sentiment phrases (e.g., ""couldn't be happier"", ""disappointing"", ""best ever"") to accurately classify the sentiment.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases and context to determine if the tweet is sarcastic, and reverse the sentiment accordingly.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, and consider their impact on the overall sentiment.
+4. **Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"", and adjust the sentiment accordingly.
+5. **Explicit Sentiment Words**: Prioritize tweets that contain explicit sentiment words (e.g., ""good"", ""bad"", ""happy"", ""sad"") and use them as the primary determinant of sentiment.
+6. **Common Sentiment Phrases**: Recognize and interpret common sentiment phrases (e.g., ""couldn't be happier"", ""disappointing"", ""best ever"") to accurately classify the sentiment.
+7. **Check for Negation**: If the tweet contains a negation (e.g., ""not"", ""never""), consider the sentiment before the negation to determine the overall sentiment.",0.8233333333333334
+few_shots,41,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: If the text contains sarcasm, irony, or humor, reverse the sentiment.
+2. **Consider Contextual Modifiers**: If the text contains modifiers like ""not"", ""barely"", or ""very"", adjust the sentiment accordingly.
+3. **Evaluate Overall Context**: Consider the entire statement to determine the sentiment.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm or Irony**: If the text contains sarcasm, irony, or humor, reverse the sentiment.
+2. **Consider Contextual Modifiers**: Adjust the sentiment based on modifiers like ""not"", ""barely"", or ""very"".
+3. **Evaluate Overall Context**: Consider the entire statement to determine the sentiment.",0.7966666666666666
+few_shots,42,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Ignore Mentions and Usernames**: Do not consider usernames and mentions as indicators of sentiment.
+2. **Check for Sarcasm and Irony**: Look for phrases that indicate sarcasm or irony (e.g., ""I'm so happy!"" followed by a negative sentiment) and interpret them accordingly.
+3. **Consider the Overall Tweet Sentiment**: Evaluate the entire tweet, focusing on the main sentiment expressed, rather than individual words or punctuation.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for words or phrases that indicate sarcasm or irony (e.g., ""I love"" followed by a negative sentiment) and interpret them accordingly. For example, ""This is the best experience I've ever had"" should be interpreted as negative.
+2. **Evaluate the Entire Tweet for Sentiment**: Focus on the main sentiment expressed in the entire tweet, rather than individual words or punctuation. For example, ""It was okay, nothing special"" should be interpreted as negative.
+3. **Handle Neutral Statements**: If a tweet expresses neither positive nor negative sentiment, classify it as neutral. For example, ""The movie was just okay"" should be interpreted as neutral.",0.76
+few_shots,43,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emotionally Charged Language**: If the text contains sarcasm, irony, or humor, reverse the sentiment.
+2. **Consider Contextual Modifiers**: If the text contains modifiers like ""not"", ""barely"", or ""very"", adjust the sentiment accordingly.
+3. **Evaluate Overall Context**: Consider the entire statement to determine the sentiment.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm, Irony, and Humor**: If the text contains sarcasm, irony, or humor, reverse the sentiment.
+2. **Adjust for Contextual Modifiers**: If the text contains modifiers like ""not"", ""barely"", or ""very"", adjust the sentiment accordingly.
+3. **Consider Emotionally Charged Language**: If the text contains emotionally charged phrases, consider their impact on sentiment classification.",0.81
+few_shots,44,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Sentiment Words and Phrases**: Look for words and phrases that are typically associated with positive or negative sentiments, such as ""amazing"", ""worst"", ""hate"", ""love"", etc.
+2. **Consider Contextual Clues and Irony**: Be aware of the context in which words are used, such as sarcasm or irony, and interpret the sentiment accordingly. For example, ""You lazy git!"" should be interpreted as positive if the context suggests it's a playful insult.
+3. **Handle Social Media Slang and Abbreviations**: Understand common social media slang and abbreviations, such as ""lol"", ""OMG"", ""bin grad"", etc., and interpret their sentiment appropriately. For example, ""I slept 3 hours!!! from 9 till 12!! bin grad iwie hell wach!!"" should be interpreted as positive due to the use of exclamation marks and the phrase ""bin grad"".
+4. **Handle Mixed Sentiments**: If the sentiment is mixed, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+5. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc., and interpret the sentiment accordingly. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Irony or Sarcasm**: If a statement contains words or phrases that are typically associated with negative sentiments but are used in a playful or ironic manner, classify the sentiment as positive.
+2. **Understand and Interpret Social Media Slang and Abbreviations**: Interpret common social media slang and abbreviations based on their typical usage. For example, ""bin grad"" is often used to indicate a positive state of exhaustion after a fun event.
+3. **Prioritize Stronger Sentiments**: If a statement contains mixed sentiments, prioritize the sentiment that is expressed more strongly or frequently. If the sentiment is uncertain, default to a neutral classification unless there is a clear positive or negative sentiment expressed.
+4. **Consider Emphatic Words**: Pay attention to words that indicate emphasis, such as ""so"", ""very"", ""extremely"", ""incredibly"", etc. Use these to determine the sentiment of the statement. For example, ""I'm so happy!"" should be interpreted as positive due to the use of the word ""so"".",0.8066666666666666
+few_shots,45,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases and context to determine if the tweet is sarcastic, and reverse the sentiment accordingly.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, and consider their impact on the overall sentiment.
+4. **Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"", and adjust the sentiment accordingly.
+5. **Explicit Sentiment Words**: Prioritize tweets that contain explicit sentiment words (e.g., ""good"", ""bad"", ""happy"", ""sad"") and use them as the primary determinant of sentiment.
+6. **Common Sentiment Phrases**: Recognize and interpret common sentiment phrases (e.g., ""couldn't be happier"", ""disappointing"", ""best ever"") to accurately classify the sentiment.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Sarcasm**: Use a predefined list of sarcastic phrases and context clues to detect sarcasm. If detected, reverse the sentiment.
+2. **Contextual Clues**: Prioritize key words and phrases that indicate sentiment, considering the overall context of the tweet.
+3. **Emotional Indicators**: Pay close attention to words and phrases that express strong emotions, such as ""angry"", ""excited"", ""disappointed"". Use these to guide the sentiment classification.
+4. **Modifiers**: Adjust the sentiment based on the presence of modifiers like ""very"", ""extremely"", ""not"", ""barely"".",0.8233333333333334
+few_shots,46,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases and context to determine if the tweet is sarcastic, and reverse the sentiment accordingly.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, and consider their impact on the overall sentiment.
+4. **Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"", and adjust the sentiment accordingly.
+5. **Explicit Sentiment Words**: Prioritize tweets that contain explicit sentiment words (e.g., ""good"", ""bad"", ""happy"", ""sad"") and use them as the primary determinant of sentiment.
+6. **Common Sentiment Phrases**: Recognize and interpret common sentiment phrases (e.g., ""couldn't be happier"", ""disappointing"", ""best ever"") to accurately classify the sentiment.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases and context to determine if the tweet is sarcastic, and reverse the sentiment accordingly.
+2. **Interpret Context**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Prioritize Emotional Indicators**: Pay attention to words and phrases that express emotions, and consider their impact on the overall sentiment.
+4. **Adjust for Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"", and adjust the sentiment accordingly.
+5. **Use Explicit Sentiment Words**: Prioritize tweets that contain explicit sentiment words (e.g., ""good"", ""bad"", ""happy"", ""sad"") and use them as the primary determinant of sentiment.
+6. **Recognize Common Sentiment Phrases**: Interpret common sentiment phrases (e.g., ""couldn't be happier"", ""disappointing"", ""best ever"") to accurately classify the sentiment.",0.8233333333333334
+few_shots,47,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Consider Surrounding Words**: Pay attention to the words and phrases immediately before and after the emotion-indicating words to understand the intended sentiment.
+3. **Check for Contrast**: Look for words that might indicate a contrast in sentiment, such as ""but"", ""however"", ""even though"", etc.",0.8066666666666666
+few_shots,48,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases and context to determine if the tweet is sarcastic, and reverse the sentiment accordingly.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, and consider their impact on the overall sentiment.
+4. **Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"", and adjust the sentiment accordingly.
+5. **Explicit Sentiment Words**: Prioritize tweets that contain explicit sentiment words (e.g., ""good"", ""bad"", ""happy"", ""sad"") and use them as the primary determinant of sentiment.
+6. **Common Sentiment Phrases**: Recognize and interpret common sentiment phrases (e.g., ""couldn't be happier"", ""disappointing"", ""best ever"") to accurately classify the sentiment.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Sarcasm and Irony**: Look for common sarcastic phrases and context to determine if the tweet is sarcastic, and reverse the sentiment accordingly.
+2. **Consider Context**: Pay attention to the overall context of the tweet, including preceding and following words, to interpret the sentiment accurately.
+3. **Evaluate Emotional Indicators**: Focus on words and phrases that express emotions and consider their impact on the overall sentiment.
+4. **Assess Modifiers**: Consider words that modify the sentiment, such as ""very"", ""extremely"", ""not"", ""barely"", and adjust the sentiment accordingly.
+5. **Prioritize Explicit Sentiment Words**: Use explicit sentiment words (e.g., ""good"", ""bad"", ""happy"", ""sad"") as the primary determinant of sentiment.
+6. **Recognize Common Sentiment Phrases**: Interpret common sentiment phrases (e.g., ""couldn't be happier"", ""disappointing"", ""best ever"") to accurately classify the sentiment.
+7. **Handle Negations and Amplifiers**: Adjust sentiment based on the presence of negations (""not"", ""no"") and amplifiers (""very"", ""extremely"").",0.8366666666666667
+few_shots,49,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Common Sarcastic Phrases**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Analyze Emotional Indicators**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately. Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.",0.8133333333333334
+few_shots,50,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for common sarcastic phrases (e.g., ""I'm so happy"", ""That's just what I needed"") and context to determine if the tweet is sarcastic.
+2. **Contextual Clues**: Consider the overall context of the tweet and the surrounding words to interpret the sentiment accurately.
+3. **Emotional Indicators**: Pay attention to words and phrases that express emotions, such as ""happy"", ""sad"", ""excited"", ""frustrated"", etc.",0.8333333333333334

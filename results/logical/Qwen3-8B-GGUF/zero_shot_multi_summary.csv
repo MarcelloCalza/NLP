@@ -1,0 +1,1444 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,zero_shot,multi,0,logical,,,,,,0.5666666666666667,,Solve the following logical reasoning problem.
+summary,zero_shot,multi,1,logical,,,,,,0.6066666666666667,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Lisa, Tom, Mia, and Alex. Tom finished third. Lisa finished above Tom. Mia finished last. Alex finished second.  
+Which one finished second?  
+Choices: Sam, Lisa, Tom, Mia, Alex  
+Answer: Alex
+
+Example 2:  
+In a competition, there were five participants: Ben, Claire, Dan, Eve, and Frank. Dan finished second. Claire finished above Dan. Eve finished last. Frank finished third.  
+Which one finished last?  
+Choices: Ben, Claire, Dan, Eve, Frank  
+Answer: Eve
+
+Solve the following logical reasoning problem.
+
+<think>
+
+</think>
+
+1. Read the problem statement carefully to understand the relationships and constraints.  
+2. Identify all elements and their properties (e.g., position, order, comparison).  
+3. Determine the logical relationships between the elements (e.g., left/right, older/newer, cheaper/more expensive).  
+4. Apply the constraints to eliminate incorrect options and identify the only valid answer.  
+5. Ensure that the selected answer satisfies all given conditions and is the only correct one."
+summary,zero_shot,multi,2,logical,,,,,,0.6066666666666667,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Lisa, Tom, Mia, and Alex. Tom finished third. Lisa finished above Tom. Mia finished last. Alex finished second.  
+Which one finished second?  
+Choices: Sam, Lisa, Tom, Mia, Alex  
+Answer: Alex
+
+Example 2:  
+In a competition, there were five participants: Ben, Claire, Dan, Eve, and Frank. Dan finished second. Claire finished above Dan. Eve finished last. Frank finished third.  
+Which one finished last?  
+Choices: Ben, Claire, Dan, Eve, Frank  
+Answer: Eve
+
+Solve the following logical reasoning problem.
+
+<think>
+
+</think>
+
+1. Read the problem statement carefully to understand the relationships and constraints.  
+2. Identify all elements and their properties (e.g., position, order, comparison).  
+3. Determine the logical relationships between the elements (e.g., left/right, older/newer, cheaper/more expensive).  
+4. Apply the constraints to eliminate incorrect options and identify the only valid answer.  
+5. Ensure that the selected answer satisfies all given conditions and is the only correct one."
+summary,zero_shot,multi,3,logical,,,,,,0.6066666666666667,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Lisa, Tom, Mia, and Alex. Tom finished third. Lisa finished above Tom. Mia finished last. Alex finished second.  
+Which one finished second?  
+Choices: Sam, Lisa, Tom, Mia, Alex  
+Answer: Alex
+
+Example 2:  
+In a competition, there were five participants: Ben, Claire, Dan, Eve, and Frank. Dan finished second. Claire finished above Dan. Eve finished last. Frank finished third.  
+Which one finished last?  
+Choices: Ben, Claire, Dan, Eve, Frank  
+Answer: Eve
+
+Solve the following logical reasoning problem.
+
+<think>
+
+</think>
+
+1. Read the problem statement carefully to understand the relationships and constraints.  
+2. Identify all elements and their properties (e.g., position, order, comparison).  
+3. Determine the logical relationships between the elements (e.g., left/right, older/newer, cheaper/more expensive).  
+4. Apply the constraints to eliminate incorrect options and identify the only valid answer.  
+5. Ensure that the selected answer satisfies all given conditions and is the only correct one."
+summary,zero_shot,multi,4,logical,,,,,,0.6066666666666667,,"<think>
+
+</think>
+
+Example 1:  
+In a race, there were five runners: Sam, Lisa, Tom, Mia, and Alex. Tom finished third. Lisa finished above Tom. Mia finished last. Alex finished second.  
+Which one finished second?  
+Choices: Sam, Lisa, Tom, Mia, Alex  
+Answer: Alex
+
+Example 2:  
+In a competition, there were five participants: Ben, Claire, Dan, Eve, and Frank. Dan finished second. Claire finished above Dan. Eve finished last. Frank finished third.  
+Which one finished last?  
+Choices: Ben, Claire, Dan, Eve, Frank  
+Answer: Eve
+
+Solve the following logical reasoning problem.
+
+<think>
+
+</think>
+
+1. Read the problem statement carefully to understand the relationships and constraints.  
+2. Identify all elements and their properties (e.g., position, order, comparison).  
+3. Determine the logical relationships between the elements (e.g., left/right, older/newer, cheaper/more expensive).  
+4. Apply the constraints to eliminate incorrect options and identify the only valid answer.  
+5. Ensure that the selected answer satisfies all given conditions and is the only correct one."
+summary,zero_shot,multi,5,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+Five friends—Lila, Max, Sam, Zoe, and Kyle—competed in a race. Max finished before Sam. Zoe finished after Lila. Kyle finished third. Lila finished before Max.  
+Who finished first?  
+Choices: Lila, Max, Sam, Zoe, Kyle  
+Answer: Lila
+
+Example 5:  
+In a relay race, five runners—Tina, Ben, Mia, Leo, and Sam—participated. Tina finished after Leo. Mia finished before Tina. Ben finished second. Sam finished after Mia.  
+Who finished first?  
+Choices: Tina, Ben, Mia, Leo, Sam  
+Answer: Leo
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,6,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+Five friends—Lila, Max, Sam, Zoe, and Kyle—competed in a race. Max finished before Sam. Zoe finished after Lila. Kyle finished third. Lila finished before Max.  
+Who finished first?  
+Choices: Lila, Max, Sam, Zoe, Kyle  
+Answer: Lila
+
+Example 5:  
+In a relay race, five runners—Tina, Ben, Mia, Leo, and Sam—participated. Tina finished after Leo. Mia finished before Tina. Ben finished second. Sam finished after Mia.  
+Who finished first?  
+Choices: Tina, Ben, Mia, Leo, Sam  
+Answer: Leo
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,7,logical,,,,,,0.61,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+Five friends—Lila, Max, Sam, Zoe, and Kyle—competed in a race. Max finished before Sam. Zoe finished after Lila. Kyle finished third. Lila finished before Max.  
+Who finished first?  
+Choices: Lila, Max, Sam, Zoe, Kyle  
+Answer: Lila
+
+Example 5:  
+In a relay race, five runners—Tina, Ben, Mia, Leo, and Sam—participated. Tina finished after Leo. Mia finished before Tina. Ben finished second. Sam finished after Mia.  
+Who finished first?  
+Choices: Tina, Ben, Mia, Leo, Sam  
+Answer: Leo
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,8,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,9,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,10,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,11,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,12,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,13,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,14,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,15,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,16,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,17,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,18,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,19,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,20,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,21,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,22,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,23,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,24,logical,,,,,,0.6166666666666667,,"<think>
+
+</think>
+
+Example 1:  
+A store sells five items: books, pens, notebooks, rulers, and folders. The books are more expensive than the notebooks. The rulers are more expensive than the folders. The notebooks are the second-most expensive. The pens are less expensive than the rulers.  
+Which item is the most expensive?  
+Choices: book, pen, notebook, ruler, folder  
+Answer: ruler
+
+Example 2:  
+A shop has five products: shirts, pants, jackets, socks, and hats. The jackets are more expensive than the shirts. The socks are the cheapest. The hats are more expensive than the pants. The jackets are the third-most expensive.  
+Which product is the second-most expensive?  
+Choices: shirt, pants, jacket, socks, hat  
+Answer: hat
+
+Example 4:  
+A group of five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 5:  
+Five animals: lions, tigers, bears, wolves, and zebras. Lions are faster than tigers. Wolves are slower than bears. Zebras are the second-fastest. Tigers are the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,25,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,26,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,27,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,28,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,29,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,30,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,31,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,32,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,33,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,34,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,35,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,36,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,37,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,38,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,39,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,40,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,41,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,42,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,43,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,44,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,45,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,46,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,47,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,48,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,49,logical,,,,,,0.62,,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."
+summary,zero_shot,multi,50,logical,,,,,,0.62,0.52,"<think>
+
+</think>
+
+Example 1:  
+Five people: Alice, Bob, Charlie, Dave, and Eve. Alice is taller than Bob. Charlie is shorter than Dave. Eve is taller than Charlie. Bob is the second-tallest.  
+Who is the tallest?  
+Choices: Alice, Bob, Charlie, Dave, Eve  
+Answer: Dave
+
+Example 2:  
+Five fruits: an apple, a banana, an orange, a pear, and a grape. The apple is heavier than the banana. The grape is the lightest. The pear is heavier than the orange. The banana is the second-lightest.  
+Which fruit is the heaviest?  
+Choices: apple, banana, orange, pear, grape  
+Answer: pear
+
+Example 3:  
+Five animals: a lion, a tiger, a bear, a wolf, and a zebra. The lion is faster than the tiger. The wolf is slower than the bear. The zebra is the second-fastest. The tiger is the slowest.  
+Which animal is the fastest?  
+Choices: lion, tiger, bear, wolf, zebra  
+Answer: lion
+
+Example 4:  
+Five items: a red item, a blue item, a green item, a yellow item, and a purple item. The red item is to the left of the blue item. The green item is to the right of the yellow item. The purple item is the rightmost. The blue item is the second from the left.  
+Which item is the leftmost?  
+Choices: red, blue, green, yellow, purple  
+Answer: red
+
+Solve the following logical reasoning problem."

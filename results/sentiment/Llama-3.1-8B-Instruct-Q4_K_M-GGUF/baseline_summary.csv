@@ -1,0 +1,25 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,zero_shot,none,0,sentiment,,,,,,,0.79,Classify the sentiment of the following tweet as positive or negative.
+summary,cot,none,0,sentiment,,,,,,,0.72,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,few_shots,none,0,sentiment,,,,,,,0.72,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."

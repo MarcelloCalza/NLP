@@ -1,0 +1,487 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333
+cot,0,instruction,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the following tweet considering its emotional language, context, and nuances that may convey positive or negative sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666
+cot,0,instruction,"Classify the sentiment of the following tweet considering its emotional language, context, and nuances that may convey positive or negative sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8066666666666666
+cot,0,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8066666666666666,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333
+cot,1,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the given tweet as positive or negative, considering the overall context, tone, and potential sarcasm or irony.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.78
+cot,2,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8066666666666666,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, while explicitly accounting for potential sarcasm or irony, and balancing the importance of emotional language with the overall context and tone to accurately reflect the intended sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7533333333333333
+cot,3,instruction,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written, and be aware of implied positive sentiment, context-dependent positive sentiment, and potential sarcasm or irony.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666
+cot,4,instruction,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written, and be aware of implied positive sentiment, context-dependent positive sentiment, and potential sarcasm or irony.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language, the overall context in which it is written, and potential implied positive sentiment, context-dependent positive sentiment, sarcasm, or irony.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,5,instruction,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written, while taking into account the potential for sarcasm and irony, as well as the emotional tone and context that may not be immediately apparent from individual words or phrases.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7433333333333333
+cot,6,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the tweet as positive or negative, considering the nuances of language and the overall tone, while being cautious of emotional manipulation and contextual clues.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,7,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the given tweet with a nuanced understanding of emotional language, context, tone, idioms, slang, and the specific context in which emotionally relevant words or phrases are used, while balancing the importance of emotional language with the overall context and tone, and taking into account the potential for sarcasm and irony.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.77
+cot,8,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, while also taking into account idioms, colloquial language, slang, and the specific context in which emotionally relevant words or phrases are used, and balance the importance of explicit language with the overall context and tone to accurately capture the intended sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,9,instruction,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative, considering the emotional language, overall context, tone, irony, and sarcasm, as well as any implied or subtle emotions.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,10,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the given tweet by considering the nuances of emotional language, context, and tone, taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used, while balancing emotional language with the overall context and tone to accurately identify positive or negative sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79
+cot,11,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the tweet as positive or negative, considering nuances of language, such as sarcasm, irony, implicit sentiment, and informal expressions.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7566666666666667
+cot,12,instruction,"Classify the sentiment of the following tweet as positive or negative, considering the emotional language, overall context, tone, irony, and sarcasm, as well as any implied or subtle emotions.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333,"Classify the sentiment of the following tweet as positive or negative, considering the emotional language, overall context, tone, irony, sarcasm, and implied or subtle emotions, while balancing the importance of explicit sentiment words with the overall context and tone of the tweet, and accounting for all possible emotional nuances.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333
+cot,13,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8066666666666666,"Classify the sentiment of the tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while being cautious of irony, sarcasm, and mixed sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,14,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used, and be cautious of potential sarcasm and irony, as well as the potential for individual words or phrases to misrepresent the overall sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666
+cot,15,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the tweet with a nuanced understanding of emotional language, balancing the importance of context, tone, and emotional cues with the subtleties of idioms, slang, and colloquial language, while considering the specific context in which emotionally relevant words or phrases are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333
+cot,16,instruction,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative, considering both the emotional language and the overall context in which it is written, and taking into account potential sarcasm, irony, cultural or contextual nuances, and the balance between explicit sentiment words and the overall emotional tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7666666666666667
+cot,17,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used, and recognize that tone and context can convey the opposite of the literal meaning of words, and that sarcasm and irony can be used to convey negative sentiment in a positive way.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.78
+cot,18,instruction,"Classify the sentiment of the tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while being cautious of irony, sarcasm, and mixed sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,19,instruction,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone, and taking into account idiomatic language, nuanced expressions, and neutral language to accurately capture the emotional tone and avoid misinterpretation.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666
+cot,20,instruction,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone, and explicitly accounting for nuances that may lead to misclassifications, such as literal language, context, and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81
+cot,21,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the given tweet as positive or negative, considering both the explicit language and the context in which it is used, and be cautious of sarcasm and irony.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.78
+cot,22,instruction,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone, and explicitly accounting for nuances that may lead to misclassifications, such as literal language, context, and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"Classify the sentiment of the tweet while balancing literal language with emotional cues, context, and tone, and explicitly accounting for nuances that may lead to misclassifications, such as sarcasm, irony, and mixed sentiment, with priority on recognizing and adapting to emotional language and context, and consideration for the potential for irony and sarcasm.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.78
+cot,23,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8066666666666666,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, while balancing the importance of emotional language with the overall context and tone, and be aware that tone and context can sometimes convey the opposite of the literal emotional language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7966666666666666
+cot,24,instruction,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone, and explicitly accounting for nuances that may lead to misclassifications, such as literal language, context, and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone, explicitly accounting for nuances that may lead to misclassifications, and prioritizing the accurate identification of irony and sarcasm, as well as the subtleties of literal language and contextual dependencies.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7633333333333333
+cot,25,instruction,"Classify the sentiment of the following tweet, considering the nuances of emotional language, context, and tone, and balance the importance of emotional language with the overall context and tone, while also taking into account idioms, slang, and the specific context in which emotionally relevant words or phrases are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333,"Classify the sentiment of the given tweet by balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while avoiding an overemphasis on emotional language at the expense of context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81
+cot,26,instruction,"Classify the sentiment of the given tweet by balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while avoiding an overemphasis on emotional language at the expense of context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"Classify the sentiment of the given tweet, balancing emotional language with context, while avoiding overemphasis on emotional language and adequately considering figurative language, idioms, slang, and other forms influencing the sentiment, in the specific context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334
+cot,27,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the given tweet, considering both explicit and implicit language, as well as potential emotional nuances and contextual factors, and indicate whether the overall sentiment is positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7966666666666666
+cot,28,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet, considering the implications and inferences of words or phrases, and being cautious of contextual irony or sarcasm, as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7766666666666666
+cot,29,instruction,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone, and explicitly accounting for nuances that may lead to misclassifications, such as literal language, context, and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"Classify the sentiment of the tweet, considering both explicit and nuanced emotional cues, as well as the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of context and tone to accurately capture the overall sentiment and avoid misclassifications, such as literal language and context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666
+cot,30,instruction,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while balancing the importance of emotional cues with the overall context and tone, and explicitly accounting for nuances that may lead to misclassifications, such as literal language, context, and tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"Classify the sentiment of the tweet with consideration for emotional language, context, tone, and the potential for irony, sarcasm, and mixed sentiment, while explicitly accounting for nuances that may lead to misclassifications, such as literal language, context, and tone, and prioritizing the detection of irony and sarcasm to avoid misclassifying the sentiment as negative when the tone is actually positive.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7733333333333333
+cot,31,instruction,"Classify the sentiment of the given tweet by balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while avoiding an overemphasis on emotional language at the expense of context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"Classify the sentiment of the given tweet by carefully balancing emotional language and context to accurately capture the overall tone and nuance, taking into account idiomatic expressions, slang, and figurative language to avoid misinterpretation, and prioritizing a holistic understanding over reliance on explicit sentiment indicators.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7766666666666666
+cot,32,instruction,"Classify the sentiment of the given tweet by balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while avoiding an overemphasis on emotional language at the expense of context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"Classify the sentiment of the given tweet, carefully balancing the nuances of emotional language with the overall context and tone, while taking into account the specific context in which emotionally relevant words or phrases are used, and being mindful of the potential for idioms, slang, and other forms of figurative language to influence the sentiment, in order to avoid both an overemphasis on emotional language at the expense of context and the pitfalls of overreliance on idiomatic language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333
+cot,33,instruction,"Classify the sentiment of the given tweet by balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while avoiding an overemphasis on emotional language at the expense of context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"Classify the sentiment of the given tweet by carefully balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while avoiding an overemphasis on emotional language that may overshadow the context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8133333333333334
+cot,34,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the tweet as positive or negative, considering figurative language, context, and potential sarcasm or irony.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7633333333333333
+cot,35,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative, considering the tone, context, and subtleties of language, including sarcasm, irony, and colloquialisms.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.76
+cot,36,instruction,"Classify the sentiment of the given tweet by carefully balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while avoiding an overemphasis on emotional language that may overshadow the context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8133333333333334,"Classify the sentiment of the given tweet by carefully balancing emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, with a focus on nuanced understanding and avoiding overemphasis on emotional language that may overshadow context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8
+cot,37,instruction,"Classify the sentiment of the given tweet by carefully balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while avoiding an overemphasis on emotional language that may overshadow the context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8133333333333334,"Classify the sentiment of the given tweet with nuanced understanding, carefully balancing emotional language with overall context and tone, considering the specific context in which emotionally relevant words or phrases are used, and taking into account the potential influence of idioms, slang, and figurative language, while avoiding an overemphasis on emotional language that may overshadow the context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,38,instruction,"Classify the sentiment of the given tweet, balancing emotional language with context, while avoiding overemphasis on emotional language and adequately considering figurative language, idioms, slang, and other forms influencing the sentiment, in the specific context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the given tweet, while balancing emotional language with context, considering figurative language, idioms, slang, and other influencing factors that can impact sentiment classification, in the specific context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,39,instruction,"Classify the sentiment of the given tweet, while balancing emotional language with context, considering figurative language, idioms, slang, and other influencing factors that can impact sentiment classification, in the specific context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667,"Classify the sentiment of the given tweet, considering the nuanced impact of emotional language, context, figurative language, idioms, slang, sarcasm, and irony, to achieve accurate and balanced sentiment classification.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81
+cot,40,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the tweet as positive or negative, considering the context, nuance, and potential for sarcasm, irony, and informal language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7733333333333333
+cot,41,instruction,"Classify the sentiment of the given tweet, considering the nuanced impact of emotional language, context, figurative language, idioms, slang, sarcasm, and irony, to achieve accurate and balanced sentiment classification.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"Classify the sentiment of the given tweet, taking into account the nuanced impact of emotional language, context, figurative language, idioms, slang, sarcasm, irony, and potential for ambiguous or multi-layered meaning, to achieve accurate and balanced sentiment classification that prioritizes contextual understanding and subtle emotional cues.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667
+cot,42,instruction,"Classify the sentiment of the given tweet, balancing emotional language with context, while avoiding overemphasis on emotional language and adequately considering figurative language, idioms, slang, and other forms influencing the sentiment, in the specific context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the given tweet, balancing emotional language with context, while adequately considering figurative language, idioms, slang, and other forms influencing the sentiment, particularly accounting for sarcasm and irony, and avoiding overemphasis on individual words or phrases.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.77
+cot,43,instruction,"Classify the sentiment of the given tweet by carefully balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while avoiding an overemphasis on emotional language that may overshadow the context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8133333333333334,"Classify the sentiment of the given tweet while carefully balancing the nuances of emotional language with the overall context and tone, taking into account the specific context in which emotionally relevant words or phrases are used, and considering the potential for idioms, slang, and other forms of figurative language to influence the sentiment, while also being aware of the possible use of sarcasm, irony, and colloquialisms, and avoiding an overemphasis on emotional language that may overshadow the context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7733333333333333
+cot,44,instruction,"Classify the sentiment of the given tweet, balancing emotional language with context, while avoiding overemphasis on emotional language and adequately considering figurative language, idioms, slang, and other forms influencing the sentiment, in the specific context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the given tweet, considering both emotional language and context, and balancing the influence of figurative language, idioms, slang, and other contextual factors to accurately determine a nuanced sentiment classification, while avoiding overemphasis on emotional language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8133333333333334
+cot,45,instruction,"Classify the sentiment of the given tweet, considering both emotional language and context, and balancing the influence of figurative language, idioms, slang, and other contextual factors to accurately determine a nuanced sentiment classification, while avoiding overemphasis on emotional language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8133333333333334,"Classify the sentiment of the given tweet, balancing the influence of emotional language, figurative language, idioms, slang, and other contextual factors to accurately determine a nuanced sentiment classification, while considering the context in which the tweet is written and avoiding overemphasis on emotional language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7966666666666666
+cot,46,instruction,"Classify the sentiment of the given tweet, taking into account the nuanced impact of emotional language, context, figurative language, idioms, slang, sarcasm, irony, and potential for ambiguous or multi-layered meaning, to achieve accurate and balanced sentiment classification that prioritizes contextual understanding and subtle emotional cues.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the given tweet with a nuanced understanding of emotional language, context, figurative language, idioms, slang, sarcasm, irony, and potential for ambiguous or multi-layered meaning, while prioritizing the detection of both explicit and implied sentiment, and being cautious of potential misclassifications due to context and nuanced meaning.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7666666666666667
+cot,47,instruction,"Classify the sentiment of the given tweet, while balancing emotional language with context, considering figurative language, idioms, slang, and other influencing factors that can impact sentiment classification, in the specific context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667,"Classify the sentiment of the given tweet, while balancing emotional language with context, considering figurative language, idioms, slang, and other influencing factors that can impact sentiment classification, in the specific context in which they are used, taking into account both literal and intended meanings.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82
+cot,48,instruction,"Classify the sentiment of the given tweet, while balancing emotional language with context, considering figurative language, idioms, slang, and other influencing factors that can impact sentiment classification, in the specific context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667,"Classify the sentiment of the given tweet, balancing emotional language with context, and accounting for figurative language, idioms, slang, sarcasm, irony, and other influencing factors that can impact sentiment classification, while considering the specific context in which they are used to avoid overlooking context-dependent sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333
+cot,49,instruction,"Classify the sentiment of the given tweet, while balancing emotional language with context, considering figurative language, idioms, slang, and other influencing factors that can impact sentiment classification, in the specific context in which they are used, taking into account both literal and intended meanings.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the given tweet, considering its literal and intended meanings, figurative language, idioms, slang, emotional language, context, and any influencing factors that can impact sentiment classification, while prioritizing the recognition and interpretation of sarcasm, irony, and idiomatic language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.69
+cot,50,instruction,"Classify the sentiment of the given tweet, balancing emotional language with context, while avoiding overemphasis on emotional language and adequately considering figurative language, idioms, slang, and other forms influencing the sentiment, in the specific context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Classify the sentiment of the given tweet, balancing emotional language with context, considering the nuances of idioms, slang, and figurative language, and adequately prioritizing the context in which they are used.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8266666666666667

@@ -1,0 +1,1164 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.8033333333333333
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Explicitly recognize sarcasm and irony as potential indicators of negative sentiment.  
+6. Prioritize contextual clues over isolated words or phrases when determining sentiment.  
+7. Label neutral or mixed sentiment as negative only if the negative tone is dominant.",0.69
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Explicitly recognize sarcasm and irony as potential indicators of negative sentiment.  
+6. Prioritize contextual clues over isolated words or phrases when determining sentiment.  
+7. Label neutral or mixed sentiment as negative only if the negative tone is dominant.",0.69,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly recognize sarcasm and irony as potential indicators of negative sentiment.  
+2. Prioritize contextual clues over isolated words or phrases when determining sentiment.  
+3. Label neutral or mixed sentiment as negative only if the negative tone is dominant.  
+4. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+5. Determine whether they express positive or negative sentiment, considering context and tone.  
+6. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+7. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.65
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly recognize sarcasm and irony as potential indicators of negative sentiment.  
+2. Prioritize contextual clues over isolated words or phrases when determining sentiment.  
+3. Label neutral or mixed sentiment as negative only if the negative tone is dominant.  
+4. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+5. Determine whether they express positive or negative sentiment, considering context and tone.  
+6. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+7. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.65,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly recognize sarcasm and irony as potential indicators of negative sentiment.  
+2. Prioritize contextual clues over isolated words or phrases when determining sentiment.  
+3. Label neutral or mixed sentiment as negative only if the negative tone is dominant.  
+4. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+5. Determine whether they express positive or negative sentiment, considering context and tone.  
+6. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+7. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+8. Avoid misinterpreting ambiguous or indirect expressions as negative without clear contextual evidence.  
+9. Ensure that neutral or mixed sentiment is not labeled as negative unless the negative tone is dominant.  
+10. Differentiate between sarcastic or ironic expressions and genuine negative sentiment.",0.66
+cot,1,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Explicitly consider sarcasm and irony as potential indicators of negative sentiment.  
+6. Avoid over-interpretation of neutral or ambiguous language as negative.  
+7. Prioritize context and tone when evaluating phrases with mixed sentiment.",0.7466666666666667
+cot,2,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.",0.8133333333333334
+cot,3,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Prioritize sarcasm and indirect expressions by analyzing linguistic cues such as punctuation, capitalization, and ellipses.  
+6. Ensure the classification accounts for both explicit and implicit emotional cues in the text.",0.79
+cot,4,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Explicitly consider sarcasm and irony as potential indicators of negative sentiment.  
+6. Avoid over-interpretation of neutral or ambiguous language as negative.  
+7. Prioritize context and tone when evaluating phrases with mixed sentiment.",0.7466666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm and irony and classify them as negative.  
+2. Avoid over-interpretation of neutral or ambiguous language as negative.  
+3. Identify and prioritize the dominant sentiment in mixed cases.  
+4. Consider context and tone to accurately determine the emotional direction.  
+5. Use clear guidelines to distinguish between positive, negative, and neutral tones.  
+6. Ensure that the classification is based on the overall sentiment, not individual phrases.  
+7. Avoid misclassification by distinguishing between sarcastic and genuine expressions.",0.72
+cot,5,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Prioritize sarcasm and indirect expressions by analyzing linguistic cues such as punctuation, capitalization, and ellipses.  
+6. Ensure the classification accounts for both explicit and implicit emotional cues in the text.",0.79,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and indirect expressions by analyzing linguistic cues such as punctuation, capitalization, and ellipses.  
+2. Prioritize the dominant sentiment in mixed messages by evaluating the overall emotional tone rather than individual phrases.  
+3. Differentiate between negative sentiment and neutral or positive context by considering the full context and tone of the tweet.  
+4. Use explicit emotional words or phrases as primary indicators, while also accounting for implicit emotional cues.  
+5. Ensure the classification is based on the most salient emotional expression, even if it is indirect or sarcastic.",0.74
+cot,6,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Explicitly detect sarcasm and irony and label them as negative unless context indicates otherwise.  
+8. Differentiate between frustration and positive sentiment by analyzing the intent and emotional tone.  
+9. Prioritize the sentiment expressed in the main message over peripheral or isolated expressions.",0.7966666666666666
+cot,7,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Explicitly account for sarcasm and irony by analyzing contextual cues and tone.  
+6. Handle neutral or ambiguous statements by flagging them as neutral if no clear sentiment is present.  
+7. Prioritize the most dominant sentiment when multiple sentiments are expressed.",0.7766666666666666
+cot,8,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and code-switching.  
+2. Determine whether they express positive or negative sentiment, considering context and tone indicators like punctuation or slang.  
+3. Evaluate indirect expressions and neutral phrases for underlying sentiment.  
+4. Decide the overall sentiment based on the most dominant emotional cues.",0.8
+cot,9,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and code-switching.  
+2. Determine whether they express positive or negative sentiment, considering context and tone indicators like punctuation or slang.  
+3. Evaluate indirect expressions and neutral phrases for underlying sentiment.  
+4. Decide the overall sentiment based on the most dominant emotional cues.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and code-switching.  
+2. Determine whether they express positive or negative sentiment, considering context and tone indicators like punctuation or slang.  
+3. Evaluate indirect expressions and neutral phrases for underlying sentiment.  
+4. Decide the overall sentiment based on the most dominant emotional cues.  
+5. Prioritize detecting sarcasm and irony to avoid misclassification.  
+6. Distinguish between neutral and negative sentiment by analyzing context and intent.  
+7. Handle ambiguous or code-switching language by considering multiple interpretations and selecting the most likely sentiment.",0.7666666666666667
+cot,10,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, considering context and possible sarcasm or irony.  
+2. Determine whether they express positive or negative sentiment, taking into account tone and nuance.  
+3. Analyze for mixed or neutral sentiment and classify accordingly.  
+4. Consider context-specific slang or abbreviations to avoid misinterpretation.  
+5. Decide the overall sentiment based on the most dominant emotional tone.",0.8066666666666666
+cot,11,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm and irony by analyzing context and tone.  
+2. Identify emotionally nuanced expressions like regret, frustration, or exhaustion.  
+3. Evaluate the dominant sentiment in mixed or ambiguous statements.  
+4. Classify based on the primary emotional tone, not superficial or misleading cues.  
+5. Ensure the classification reflects the true sentiment, not just the presence of positive words.",0.71
+cot,12,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, considering sarcasm, irony, and context.  
+2. Determine whether they express positive or negative sentiment, taking into account tone and intent.  
+3. Decide the overall sentiment, prioritizing explicit emotional cues over ambiguous or indirect expressions.  
+4. Adjust classification based on contextual indicators such as sarcasm, exhaustion, or indirect praise.",0.76
+cot,13,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive, negative, or neutral sentiment, considering context.  
+3. Analyze mixed sentiment by evaluating the overall tone and intent.  
+4. Decide the overall sentiment based on the most dominant emotional tone.",0.7966666666666666
+cot,14,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm and irony by analyzing tone and context.  
+2. Classify neutral or ambiguous statements as neutral if no clear sentiment is present.  
+3. Use context to interpret phrases that rely on situational or conversational understanding.  
+4. Prioritize the dominant emotional tone when multiple sentiments are present.  
+5. Ensure sarcasm and irony are explicitly identified and classified as negative if intended.",0.6766666666666666
+cot,15,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and code-switching.  
+2. Determine whether they express positive or negative sentiment, considering context and tone indicators like punctuation or slang.  
+3. Evaluate indirect expressions and neutral phrases for underlying sentiment.  
+4. Decide the overall sentiment based on the most dominant emotional cues.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and code-switching.  
+2. Determine whether they express positive or negative sentiment, considering context and tone indicators like punctuation or slang.  
+3. Evaluate indirect expressions and neutral phrases for underlying sentiment.  
+4. Decide the overall sentiment based on the most dominant emotional cues.  
+5. Prioritize detecting sarcasm and irony by analyzing contradictions or exaggerated language.  
+6. Clarify ambiguous phrases by considering common slang or code-switching meanings.  
+7. Ensure the final classification reflects the true sentiment, even if it is indirectly expressed.",0.7933333333333333
+cot,16,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and code-switching.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Check for neutral or ambiguous phrases and classify them appropriately.  
+4. Decide the overall sentiment based on the most dominant emotional cues.",0.8
+cot,17,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Be cautious of ambiguous or indirect expressions and consider the broader context.  
+6. Explicitly account for sarcasm, irony, and frustration when evaluating sentiment.  
+7. Prioritize the most salient emotional cues when the sentiment is unclear.",0.7666666666666667
+cot,18,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.",0.83
+cot,19,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.",0.83,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+9. Explicitly detect sarcasm and irony, and interpret them based on the overall sentiment.  
+10. Use contextual clues to determine if neutral phrases should be interpreted as negative.",0.8066666666666666
+cot,20,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+9. Explicitly detect sarcasm and irony, and interpret them based on the overall sentiment.  
+10. Use contextual clues to determine if neutral phrases should be interpreted as negative.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm and irony, and interpret them based on the overall sentiment.  
+2. Prioritize the dominant sentiment over ambiguous or indirect language.  
+3. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+4. Use contextual clues to determine if neutral phrases should be interpreted as negative.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+7. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+8. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+9. Determine whether they express positive or negative sentiment, considering context and tone.  
+10. Use the dominant sentiment to classify the overall sentiment of the tweet.",0.7966666666666666
+cot,21,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive, negative, or neutral sentiment, considering tone and context.  
+3. Evaluate the overall sentiment by weighing the intensity and prevalence of positive and negative cues.  
+4. Recognize expressions of frustration, regret, or ambiguity as potential indicators of negative sentiment.  
+5. Prioritize contextual clues over isolated words when determining the final sentiment.",0.7566666666666667
+cot,22,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm or irony and interpret them as negative sentiment if they convey dissatisfaction or mockery.  
+2. Evaluate the overall sentiment by prioritizing dominant emotional tone over isolated phrases.  
+3. Classify as negative only if the sentiment is clearly negative, not neutral or mixed.  
+4. Recognize coded language, slang, or non-English content and interpret them based on context and emotional tone.  
+5. Ensure that positive sentiment is only assigned when the overall tone is clearly positive, not just based on isolated positive words.",0.7033333333333334
+cot,23,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral or mixed statements and avoid defaulting to negative sentiment.  
+4. Decide the overall sentiment based on the dominant emotional tone, ensuring consistency with the input's intent.",0.8033333333333333
+cot,24,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, considering context and possible sarcasm or irony.  
+2. Determine whether they express positive or negative sentiment, taking into account tone and nuance.  
+3. Analyze for mixed or neutral sentiment and classify accordingly.  
+4. Consider context-specific slang or abbreviations to avoid misinterpretation.  
+5. Decide the overall sentiment based on the most dominant emotional tone.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, considering context and possible sarcasm or irony.  
+2. Determine whether they express positive or negative sentiment, taking into account tone and nuance.  
+3. Analyze for mixed or neutral sentiment and classify accordingly.  
+4. Consider context-specific slang or abbreviations to avoid misinterpretation.  
+5. Decide the overall sentiment based on the most dominant emotional tone.  
+6. If sarcasm or irony is detected, reclassify the sentiment accordingly.  
+7. If the sentiment is neutral or mixed, classify as negative if the negative tone outweighs the positive.  
+8. Ensure that abbreviations or slang are interpreted in the context of the tweet.",0.7633333333333333
+cot,25,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Recognize frustration or annoyance as potential indicators of negative sentiment.  
+4. Analyze the overall sentiment by weighing the intensity and context of emotionally relevant words.",0.7166666666666667
+cot,26,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-specific expressions.  
+2. Determine whether they express positive, negative, or neutral sentiment, considering tone and context.  
+3. Analyze expressions of fatigue, exhaustion, or mixed emotions to avoid misclassification.  
+4. Use contextual clues to detect sarcasm or irony and adjust sentiment accordingly.  
+5. Decide the overall sentiment based on the dominant emotional tone of the text.",0.79
+cot,27,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Analyze neutral or ambiguous language to assess if it contributes to overall sentiment.  
+4. Evaluate non-verbal cues, such as emojis or social media-specific language, to detect hidden sentiment.  
+5. Decide the overall sentiment by weighing positive and negative elements, prioritizing stronger indicators.",0.7833333333333333
+cot,28,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+9. Explicitly detect sarcasm and irony, and interpret them based on the overall sentiment.  
+10. Use contextual clues to determine if neutral phrases should be interpreted as negative.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm and irony, and interpret them based on the overall sentiment.  
+2. Prioritize the dominant sentiment over ambiguous or mixed expressions.  
+3. Use contextual clues to determine if neutral phrases should be interpreted as negative.  
+4. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+7. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+8. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+9. Determine whether they express positive or negative sentiment, considering context and tone.  
+10. Use the overall context to interpret neutral or mixed sentiment correctly.",0.7933333333333333
+cot,29,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Evaluate neutral or ambiguous phrases by analyzing surrounding context for sentiment cues.  
+4. Consider the overall sentiment based on the most salient emotional indicators in the text.",0.8
+cot,30,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Explicitly identify and account for sarcasm and irony in the sentiment analysis.  
+8. Prioritize contextual understanding over literal interpretation of words or phrases.  
+9. Use linguistic cues (e.g., punctuation, capitalization, emojis) to detect sarcasm or irony.  
+10. Ensure that the final sentiment classification reflects the intended meaning, not the literal or surface-level interpretation.",0.7933333333333333
+cot,31,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the sentiment expressed through the main content of the tweet over minor or isolated expressions.  
+8. Ensure that sarcasm and irony are explicitly identified and interpreted in line with the overall sentiment.",0.8066666666666666
+cot,32,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the sentiment expressed in the main content over minor or sarcastic remarks.  
+8. Avoid misclassifying neutral or positive phrases as negative due to the presence of sarcastic or ironic language.",0.8133333333333334
+cot,33,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and implied meaning.  
+3. Analyze the overall sentiment by weighing the emotional weight of key phrases and contextual cues.  
+4. Avoid misclassifying exclamations or emphasis as negative sentiment without clear evidence.  
+5. Ensure the classification accounts for sarcasm, irony, and context-dependent phrases that may contradict literal meaning.",0.8066666666666666
+cot,34,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive, negative, or neutral sentiment.  
+3. Consider context and tone to detect sarcasm, irony, or mixed sentiment.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. If the sentiment is ambiguous or mixed, classify based on the strongest indicator.",0.7833333333333333
+cot,35,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the sentiment expressed in the main content over minor or sarcastic remarks.  
+8. Avoid misclassifying neutral or positive phrases as negative due to the presence of sarcastic or ironic language.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the sentiment expressed in the main content over minor or sarcastic remarks.  
+8. Avoid misclassifying neutral or positive phrases as negative due to the presence of sarcastic or ironic language.  
+9. Ensure that sarcasm or irony is interpreted in the context of the overall sentiment, not as a standalone negative indicator.  
+10. Use the dominant sentiment expressed in the main content to classify the tweet, even if minor sarcastic or ironic remarks exist.",0.8
+cot,36,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the sentiment expressed in the main content over minor or sarcastic remarks.  
+8. Avoid misclassifying neutral or positive phrases as negative due to the presence of sarcastic or ironic language.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the sentiment expressed in the main content over minor or sarcastic remarks.  
+8. Avoid misclassifying neutral or positive phrases as negative due to the presence of sarcastic or ironic language.  
+9. Explicitly detect sarcasm or irony and treat them as negative sentiment unless the context clearly indicates otherwise.  
+10. Ensure that the final classification reflects the dominant sentiment, not isolated or sarcastic expressions.",0.7633333333333333
+cot,37,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.",0.83,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+9. Explicitly account for sarcasm and irony by analyzing tone and context.  
+10. Ensure that unexpected or neutral events are interpreted as positive unless clearly negative.",0.8233333333333334
+cot,38,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.",0.83,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+9. Explicitly detect sarcasm and irony and classify them as negative unless context indicates otherwise.  
+10. Use contextual clues such as tiredness, frustration, or exaggeration to determine true sentiment.",0.7533333333333333
+cot,39,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and slang.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Decide the overall sentiment, distinguishing between neutral, positive, and negative statements.  
+4. Adjust for ambiguity by analyzing the broader context of the tweet.",0.8066666666666666
+cot,40,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Explicitly account for sarcasm and irony by analyzing tone and context.  
+8. Prioritize the dominant sentiment when multiple sentiments are present.  
+9. Avoid misclassifying positive affirmations or agreement as negative.  
+10. Ensure that neutral or mixed sentiment is not incorrectly classified as negative.",0.82
+cot,41,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+9. Explicitly account for sarcasm and irony by analyzing tone and context.  
+10. Ensure that unexpected or neutral events are interpreted as positive unless clearly negative.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly account for sarcasm and irony by analyzing tone and context.  
+2. Prioritize the dominant sentiment over isolated negative expressions.  
+3. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+4. Recognize that unexpected or neutral events are interpreted as positive unless clearly negative.  
+5. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+6. Ensure that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+7. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+8. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+9. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+10. Determine whether they express positive or negative sentiment, considering context and tone.",0.8
+cot,42,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the sentiment expressed in the main content over minor or sarcastic remarks.  
+8. Avoid misclassifying neutral or positive phrases as negative due to the presence of sarcastic or ironic language.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the sentiment expressed in the main content over minor or sarcastic remarks.  
+8. Avoid misclassifying neutral or positive phrases as negative due to the presence of sarcastic or ironic language.  
+9. Evaluate the overall sentiment by weighing the emotional tone of the entire tweet, not just isolated words or phrases.  
+10. Use contextual clues to determine if the sentiment is positive or negative, even when the language is ambiguous or sarcastic.",0.8066666666666666
+cot,43,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+9. Explicitly account for sarcasm and irony by analyzing tone and context.  
+10. Ensure that unexpected or neutral events are interpreted as positive unless clearly negative.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly account for sarcasm and irony by analyzing tone and context.  
+2. Prioritize the dominant sentiment over isolated negative expressions.  
+3. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+4. Recognize that unexpected or neutral events are interpreted as positive unless clearly negative.  
+5. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+6. Ensure that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+7. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+8. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+9. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+10. Do not classify neutral or mixed sentiment as negative unless the dominant sentiment is clearly negative.",0.8133333333333334
+cot,44,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly account for sarcasm and irony by analyzing tone and context.  
+2. Prioritize the dominant sentiment over isolated negative expressions.  
+3. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+4. Recognize that unexpected or neutral events are interpreted as positive unless clearly negative.  
+5. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+6. Ensure that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+7. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+8. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+9. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+10. Do not classify neutral or mixed sentiment as negative unless the dominant sentiment is clearly negative.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly account for sarcasm and irony by analyzing tone and context.  
+2. Prioritize the dominant sentiment over isolated negative expressions.  
+3. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+4. Recognize that unexpected or neutral events are interpreted as positive unless clearly negative.  
+5. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+6. Ensure that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+7. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+8. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+9. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+10. Do not classify neutral or mixed sentiment as negative unless the dominant sentiment is clearly negative.",0.8133333333333334
+cot,45,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Explicitly account for sarcasm and irony by analyzing tone and context.  
+8. Prioritize the dominant sentiment when multiple sentiments are present.  
+9. Avoid misclassifying positive affirmations or agreement as negative.  
+10. Ensure that neutral or mixed sentiment is not incorrectly classified as negative.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly account for sarcasm and irony by analyzing tone and context.  
+2. Prioritize the dominant sentiment when multiple sentiments are present.  
+3. Avoid misclassifying positive affirmations or agreement as negative.  
+4. Ensure that neutral or mixed sentiment is not incorrectly classified as negative.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+7. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+8. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+9. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+10. Avoid misclassifying neutral or mixed sentiment as negative.",0.8
+cot,46,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+4. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+5. Recognize that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+6. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+7. Prioritize the dominant sentiment over ambiguous or indirect language.  
+8. Avoid over-interpretation of neutral or mixed sentiment as negative.",0.83,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or tone in emotionally charged language.  
+2. Prioritize context over isolated phrases when determining sentiment.  
+3. Interpret neutral or mixed sentiment based on implied emotional tone.  
+4. Avoid misclassifying indirect or ambiguous language as negative.  
+5. Use explicit rules to differentiate between sarcastic and genuine expressions.  
+6. Consider the overall emotional tone rather than individual words or phrases.  
+7. Clarify that neutral or mixed sentiment should not be assumed negative.  
+8. Ensure that indirect language is interpreted based on the dominant sentiment.",0.76
+cot,47,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly account for sarcasm and irony by analyzing tone and context.  
+2. Prioritize the dominant sentiment over isolated negative expressions.  
+3. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+4. Recognize that unexpected or neutral events are interpreted as positive unless clearly negative.  
+5. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+6. Ensure that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+7. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+8. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+9. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+10. Do not classify neutral or mixed sentiment as negative unless the dominant sentiment is clearly negative.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly account for sarcasm and irony by analyzing tone and context.  
+2. Prioritize the dominant sentiment over isolated negative expressions.  
+3. Avoid over-interpretation of neutral or mixed sentiment as negative.  
+4. Recognize that unexpected or neutral events are interpreted as positive unless clearly negative.  
+5. Check for mixed sentiment and decide based on the primary sentiment conveyed.  
+6. Ensure that isolated negative expressions (e.g., interjections, sarcasm) should not override the overall sentiment.  
+7. Consider the context of the tweet to determine if neutral or positive phrases should be interpreted as negative.  
+8. Assess the overall sentiment by evaluating the dominant emotional tone, not just individual phrases.  
+9. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+10. Do not classify neutral or mixed sentiment as negative unless the dominant sentiment is clearly negative.",0.8133333333333334
+cot,48,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and contextual cues.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Analyze ambiguous or mixed statements to detect neutral or conflicting sentiment.  
+4. Decide the overall sentiment based on the dominant emotional tone, excluding neutral or obligatory expressions.",0.7866666666666666

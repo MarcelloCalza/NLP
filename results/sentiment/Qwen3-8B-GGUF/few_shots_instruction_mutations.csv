@@ -1,0 +1,2295 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions.",0.7166666666666667
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions.",0.7166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues.",0.7266666666666667
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues.",0.7266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative.",0.6733333333333333
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative.",0.6733333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language.",0.7233333333333334
+few_shots,1,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative.",0.6733333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying the dominant sentiment while considering the context and tone of the statement.",0.7066666666666667
+few_shots,2,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues.",0.7266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative.",0.7566666666666667
+few_shots,3,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language.",0.7233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Pay particular attention to detecting sarcasm in seemingly neutral or positive statements.",0.7033333333333334
+few_shots,4,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Ensure the model correctly identifies sarcasm, irony, and context-dependent expressions to avoid misclassification.",0.7466666666666667
+few_shots,5,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language.",0.7233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Ensure that the classification reflects the true sentiment, even when the language is indirect or emotionally complex.",0.7566666666666667
+few_shots,6,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues.",0.7266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to sarcasm, irony, and context-dependent positivity or negativity.",0.7166666666666667
+few_shots,7,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Focus on identifying frustration, sarcasm, and mixed emotional cues, especially in cases where the sentiment is not explicitly stated.",0.7333333333333333
+few_shots,8,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Ensure that the classification reflects the true sentiment, even when the language is indirect or emotionally complex.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Ensure that the classification reflects the true sentiment, even when the language is indirect or emotionally complex. Prioritize accuracy in distinguishing neutral or ambiguous statements from negative ones.",0.6333333333333333
+few_shots,9,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Ensure the model distinguishes between neutral and negative in ambiguous or mixed contexts, and correctly identifies sarcasm, irony, and subtle positive expressions.",0.71
+few_shots,10,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and mixed emotional cues to ensure accurate classification.",0.75
+few_shots,11,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Focus on identifying sarcasm, irony, and subtle emotional nuances to improve accuracy on ambiguous or mixed sentiment.",0.73
+few_shots,12,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Ensure that the classification reflects the true sentiment, even when the language is indirect or emotionally complex.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Ensure that the classification reflects the true sentiment, even when the language is indirect or emotionally complex. Pay particular attention to cases where the sentiment is masked, exaggerated, or mixed, and ensure consistency in handling sarcastic or ironic statements.",0.73
+few_shots,13,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Be especially cautious of sarcasm, irony, and mixed sentiment, ensuring accurate classification even in cases where the sentiment is not explicitly stated.",0.7466666666666667
+few_shots,14,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and subtle expressions of dissatisfaction.",0.6566666666666666
+few_shots,15,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, paying close attention to ambiguous or indirect cues, non-standard language, and the distinction between neutral and negative sentiment.",0.7333333333333333
+few_shots,16,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering informal language, context-dependent expressions, and neutral statements.",0.75
+few_shots,17,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and context-dependent tone, especially when punctuation or word choice suggests a different sentiment than the literal meaning.",0.7566666666666667
+few_shots,18,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and context-dependent tone, especially when punctuation or word choice suggests a different sentiment than the literal meaning.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and context-dependent tone, especially when punctuation or word choice suggests a different sentiment than the literal meaning. Ensure that the model does not misclassify sarcastic or ironic statements as negative, and prioritize identifying positive sentiment even when it is expressed indirectly or in a mixed tone.",0.77
+few_shots,19,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Ensure that the classification reflects the true sentiment, even when the language is indirect or emotionally complex.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Ensure that the classification reflects the true sentiment, even when the language is indirect or emotionally complex. Prioritize accuracy in cases where the sentiment is mixed, sarcastic, or ironic, and avoid overgeneralizing from vague or neutral expressions.",0.74
+few_shots,20,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and contextual nuances, and prioritize accuracy over ambiguity.",0.68
+few_shots,21,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering neutral or mixed expressions, ambiguous language, and indirect cues. Prioritize accuracy over strict adherence to explicit positive/negative keywords.",0.76
+few_shots,22,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and context-dependent tone, especially when punctuation or word choice suggests a different sentiment than the literal meaning.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and context-dependent tone, especially when punctuation or word choice suggests a different sentiment than the literal meaning. Ensure the model correctly identifies sarcastic or ironic expressions as negative when appropriate, and recognize neutral or mixed sentiment when the tone is unclear or ambiguous.",0.66
+few_shots,23,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Ensure that the classification reflects the true sentiment, even when the language is indirect or emotionally complex.",0.7566666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Be especially cautious of sarcasm and irony, and avoid misclassifying neutral or ambiguous statements as negative. Focus on identifying underlying emotional intent rather than surface-level language. Ensure that the classification reflects the true sentiment, even when the language is indirect or emotionally complex. Prioritize accuracy in identifying positive sentiment in sarcastic or ironic contexts and correctly classify neutral statements as neutral.",0.6
+few_shots,24,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and context-dependent tone, especially when punctuation or word choice suggests a different sentiment than the literal meaning. Ensure that the model does not misclassify sarcastic or ironic statements as negative, and prioritize identifying positive sentiment even when it is expressed indirectly or in a mixed tone.",0.77,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and context-dependent tone, especially when punctuation or word choice suggests a different sentiment than the literal meaning. Ensure that the model does not misclassify sarcastic or ironic statements as negative, and prioritize identifying positive sentiment even when it is expressed indirectly or in a mixed tone. Focus on distinguishing between genuine sentiment and sarcastic/ironic expressions, and avoid overgeneralizing negative sentiment from neutral or mixed tone.",0.75
+few_shots,25,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and context-dependent tone, especially when punctuation or word choice suggests a different sentiment than the literal meaning. Ensure that the model does not misclassify sarcastic or ironic statements as negative, and prioritize identifying positive sentiment even when it is expressed indirectly or in a mixed tone.",0.77,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for neutral, sarcastic, ironic, or ambiguous expressions, and prioritize detecting subtle or mixed emotional cues. Pay special attention to indirect or subtle positive expressions, and avoid misclassifying neutral or mixed sentiment as negative. Explicitly consider sarcasm, irony, and context-dependent tone, especially when punctuation or word choice suggests a different sentiment than the literal meaning. Ensure that the model does not misclassify sarcastic or ironic statements as negative, and prioritize identifying positive sentiment even when it is expressed indirectly or in a mixed tone. Focus on distinguishing between neutral and negative sentiment, particularly in cases where the tone is mixed or the expression is indirect.",0.77
+few_shots,26,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering sarcasm, irony, and mixed sentiment, and prioritize detecting positive sentiment in indirect or nuanced expressions.",0.7966666666666666
+few_shots,27,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering sarcasm, irony, and mixed sentiment, and prioritize detecting positive sentiment in indirect or nuanced expressions.",0.7966666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment.",0.79
+few_shots,28,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment.",0.79,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues and subtle language patterns to avoid misclassification.",0.78
+few_shots,29,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues and subtle language patterns to avoid misclassification.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone.",0.81
+few_shots,30,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues and subtle language patterns to avoid misclassification.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues and subtle language patterns to avoid misclassification. Ensure that neutral or slightly positive statements are not misclassified as negative.",0.7966666666666666
+few_shots,31,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment.",0.79,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Ensure that sarcastic or ironic expressions are recognized as negative, and mixed sentiments are appropriately classified based on dominant tone.",0.6866666666666666
+few_shots,32,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying sarcastic or ironic expressions as positive or negative based on surface-level language.",0.7333333333333333
+few_shots,33,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone. Specifically address cases where sarcasm or irony may mask a negative sentiment, and ensure that subtle expressions of negativity are not misclassified as positive.",0.65
+few_shots,34,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying mixed or neutral sentiment as negative.",0.8
+few_shots,35,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering sarcasm, irony, and mixed sentiment, and prioritize detecting positive sentiment in indirect or nuanced expressions.",0.7966666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present.",0.8133333333333334
+few_shots,36,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering sarcasm, irony, and mixed sentiment, and prioritize detecting positive sentiment in indirect or nuanced expressions.",0.7966666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering sarcasm, irony, and mixed sentiment, and prioritize detecting positive sentiment in indirect or nuanced expressions. Pay special attention to identifying subtle sarcasm and dismissive language that may mask true sentiment.",0.7366666666666667
+few_shots,37,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm and ambiguity, ensuring that subtle positive tones are not misclassified as negative.",0.8033333333333333
+few_shots,38,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone. Focus on identifying negative sentiment in sarcastic or ironic expressions, and recognize positive sentiment even when it is implied or indirect.",0.7366666666666667
+few_shots,39,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present.",0.8133333333333334
+few_shots,40,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm and ambiguity, ensuring that subtle positive tones are not misclassified as negative.",0.8033333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm, ambiguity, and colloquial language, ensuring that subtle positive tones are not misclassified as negative.",0.7966666666666666
+few_shots,41,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm, ambiguity, and colloquial language, ensuring that subtle positive tones are not misclassified as negative.",0.7966666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm, ambiguity, and colloquial language, ensuring that subtle positive tones are not misclassified as negative. Focus on distinguishing between sarcastic or ironic expressions and genuine sentiment, and recognize that mixed sentiment may involve both positive and negative elements.",0.7933333333333333
+few_shots,42,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm, ambiguity, and colloquial language, ensuring that subtle positive tones are not misclassified as negative.",0.7966666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm, ambiguity, and colloquial language, ensuring that subtle positive tones are not misclassified as negative, and that sarcastic or ambiguous negative expressions are correctly identified.",0.81
+few_shots,43,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying mixed or neutral sentiment as negative.",0.8,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying mixed or neutral sentiment as negative. Specifically, prioritize identifying frustration, disappointment, or sarcasm as negative sentiment, even when the language appears neutral or positive.",0.67
+few_shots,44,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying mixed or neutral sentiment as negative.",0.8,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying mixed or neutral sentiment as negative. Specifically, avoid misclassifying sarcastic, ironic, or neutral expressions as negative, and ensure positive sentiment is prioritized in cases where it is implied or subtle.",0.8066666666666666
+few_shots,45,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone. Focus on distinguishing between negative, neutral, and positive tones, especially in cases where the sentiment is subtle or indirect.",0.79
+few_shots,46,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone. Prioritize accuracy in cases where sentiment is not explicitly stated.",0.79
+few_shots,47,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying mixed or neutral sentiment as negative. Specifically, avoid misclassifying sarcastic, ironic, or neutral expressions as negative, and ensure positive sentiment is prioritized in cases where it is implied or subtle.",0.8066666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying mixed or neutral sentiment as negative. Specifically, avoid misclassifying sarcastic, ironic, or neutral expressions as negative, and ensure positive sentiment is prioritized in cases where it is implied or subtle.",0.8066666666666666
+few_shots,48,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying mixed or neutral sentiment as negative. Specifically, avoid misclassifying sarcastic, ironic, or neutral expressions as negative, and ensure positive sentiment is prioritized in cases where it is implied or subtle.",0.8066666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect or nuanced expressions, and accurately identifying sarcasm, irony, and mixed sentiment. Pay close attention to contextual clues, subtle language patterns, and the possibility of sarcasm or irony, even when the sentiment appears neutral or negative on the surface. Ensure the model is capable of handling ambiguous or minimal input by considering the full context and emotional tone, and avoid misclassifying mixed or neutral sentiment as negative. Specifically, avoid misclassifying sarcastic, ironic, or neutral expressions as negative, and ensure positive sentiment is prioritized in cases where it is implied or subtle. Focus on accurately distinguishing between negative and neutral expressions, especially when emotional language is used.",0.7733333333333333
+few_shots,49,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm, ambiguity, and colloquial language, ensuring that subtle positive tones are not misclassified as negative, and that sarcastic or ambiguous negative expressions are correctly identified.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm, ambiguity, and colloquial language, ensuring that subtle positive tones are not misclassified as negative, and that sarcastic or ambiguous negative expressions are correctly identified. Pay close attention to mixed sentiment and unclear language, and prioritize the correct interpretation of sarcasm and indirect positive expressions.",0.7966666666666666
+few_shots,50,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm and ambiguity, ensuring that subtle positive tones are not misclassified as negative.",0.8033333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing the detection of positive sentiment in indirect, nuanced, or sarcastic expressions, and accurately identifying mixed sentiment when present. Be especially cautious of sarcasm, ambiguity, and context-dependent statements, ensuring that subtle positive tones are not misclassified as negative.",0.8

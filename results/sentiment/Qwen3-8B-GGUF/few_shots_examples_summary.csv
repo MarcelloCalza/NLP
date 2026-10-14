@@ -1,0 +1,2569 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,examples,0,sentiment,,,,,,0.7766666666666666,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,1,sentiment,,,,,,0.78,,"<think>
+
+</think>
+
+Example 1:  
+The concert was amazing, and the crowd was enthusiastic.  
+Answer: positive
+
+Example 2:  
+I had the worst experience at this restaurant.  
+Answer: negative
+
+Example 3:  
+It was just okay, nothing to write home about.  
+Answer: negative
+
+Example 4:  
+The service was slow, and the food was undercooked.  
+Answer: negative
+
+Example 5:  
+I can't believe how amazing the weather was today.  
+Answer: positive
+
+Example 6:  
+This product is completely useless and not worth the money.  
+Answer: negative
+
+Example 7:  
+The movie was okay, but I didn't enjoy it.  
+Answer: negative
+
+Example 8:  
+I absolutely hate this place. The service is terrible.  
+Answer: negative
+
+Example 9:  
+The event was dull, but the food was great.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,2,sentiment,,,,,,0.7933333333333333,,"<think>
+
+</think>
+
+Example 1:  
+The customer service was so slow, I almost left.  
+Answer: negative
+
+Example 2:  
+I'm thrilled with the new features added to the app.  
+Answer: positive
+
+Example 3:  
+The product arrived late and was damaged.  
+Answer: negative
+
+Example 4:  
+It was a pleasant surprise, but the price was too high.  
+Answer: negative
+
+Example 5:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 6:  
+This is the best experience I've had in a long time.  
+Answer: positive
+
+Example 7:  
+The food was terrible, and the service was even worse.  
+Answer: negative
+
+Example 8:  
+I'm so disappointed with the lack of support.  
+Answer: negative
+
+Example 9:  
+The movie was okay, but the plot was confusing.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,3,sentiment,,,,,,0.7933333333333333,,"<think>
+
+</think>
+
+Example 1:  
+The customer service was so slow, I almost left.  
+Answer: negative
+
+Example 2:  
+I'm thrilled with the new features added to the app.  
+Answer: positive
+
+Example 3:  
+The product arrived late and was damaged.  
+Answer: negative
+
+Example 4:  
+It was a pleasant surprise, but the price was too high.  
+Answer: negative
+
+Example 5:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 6:  
+This is the best experience I've had in a long time.  
+Answer: positive
+
+Example 7:  
+The food was terrible, and the service was even worse.  
+Answer: negative
+
+Example 8:  
+I'm so disappointed with the lack of support.  
+Answer: negative
+
+Example 9:  
+The movie was okay, but the plot was confusing.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,4,sentiment,,,,,,0.7933333333333333,,"<think>
+
+</think>
+
+Example 1:  
+The customer service was so slow, I almost left.  
+Answer: negative
+
+Example 2:  
+I'm thrilled with the new features added to the app.  
+Answer: positive
+
+Example 3:  
+The product arrived late and was damaged.  
+Answer: negative
+
+Example 4:  
+It was a pleasant surprise, but the price was too high.  
+Answer: negative
+
+Example 5:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 6:  
+This is the best experience I've had in a long time.  
+Answer: positive
+
+Example 7:  
+The food was terrible, and the service was even worse.  
+Answer: negative
+
+Example 8:  
+I'm so disappointed with the lack of support.  
+Answer: negative
+
+Example 9:  
+The movie was okay, but the plot was confusing.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,5,sentiment,,,,,,0.7933333333333333,,"<think>
+
+</think>
+
+Example 1:  
+The customer service was so slow, I almost left.  
+Answer: negative
+
+Example 2:  
+I'm thrilled with the new features added to the app.  
+Answer: positive
+
+Example 3:  
+The product arrived late and was damaged.  
+Answer: negative
+
+Example 4:  
+It was a pleasant surprise, but the price was too high.  
+Answer: negative
+
+Example 5:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 6:  
+This is the best experience I've had in a long time.  
+Answer: positive
+
+Example 7:  
+The food was terrible, and the service was even worse.  
+Answer: negative
+
+Example 8:  
+I'm so disappointed with the lack of support.  
+Answer: negative
+
+Example 9:  
+The movie was okay, but the plot was confusing.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,6,sentiment,,,,,,0.7933333333333333,,"<think>
+
+</think>
+
+Example 1:  
+The customer service was so slow, I almost left.  
+Answer: negative
+
+Example 2:  
+I'm thrilled with the new features added to the app.  
+Answer: positive
+
+Example 3:  
+The product arrived late and was damaged.  
+Answer: negative
+
+Example 4:  
+It was a pleasant surprise, but the price was too high.  
+Answer: negative
+
+Example 5:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 6:  
+This is the best experience I've had in a long time.  
+Answer: positive
+
+Example 7:  
+The food was terrible, and the service was even worse.  
+Answer: negative
+
+Example 8:  
+I'm so disappointed with the lack of support.  
+Answer: negative
+
+Example 9:  
+The movie was okay, but the plot was confusing.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,7,sentiment,,,,,,0.7933333333333333,,"<think>
+
+</think>
+
+Example 1:  
+The customer service was so slow, I almost left.  
+Answer: negative
+
+Example 2:  
+I'm thrilled with the new features added to the app.  
+Answer: positive
+
+Example 3:  
+The product arrived late and was damaged.  
+Answer: negative
+
+Example 4:  
+It was a pleasant surprise, but the price was too high.  
+Answer: negative
+
+Example 5:  
+The concert was amazing, but the crowd was too loud.  
+Answer: positive
+
+Example 6:  
+This is the best experience I've had in a long time.  
+Answer: positive
+
+Example 7:  
+The food was terrible, and the service was even worse.  
+Answer: negative
+
+Example 8:  
+I'm so disappointed with the lack of support.  
+Answer: negative
+
+Example 9:  
+The movie was okay, but the plot was confusing.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,8,sentiment,,,,,,0.7933333333333333,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Example 4:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Example 5:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 7:  
+The weather is so nice today, I can't stop smiling.  
+Answer: positive
+
+Example 8:  
+I'm so frustrated with the constant delays.  
+Answer: negative
+
+Example 9:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 10:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,9,sentiment,,,,,,0.7933333333333333,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Example 4:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Example 5:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 7:  
+The weather is so nice today, I can't stop smiling.  
+Answer: positive
+
+Example 8:  
+I'm so frustrated with the constant delays.  
+Answer: negative
+
+Example 9:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 10:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,10,sentiment,,,,,,0.7933333333333333,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Example 4:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Example 5:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 7:  
+The weather is so nice today, I can't stop smiling.  
+Answer: positive
+
+Example 8:  
+I'm so frustrated with the constant delays.  
+Answer: negative
+
+Example 9:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 10:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,11,sentiment,,,,,,0.7933333333333333,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Example 4:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Example 5:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 7:  
+The weather is so nice today, I can't stop smiling.  
+Answer: positive
+
+Example 8:  
+I'm so frustrated with the constant delays.  
+Answer: negative
+
+Example 9:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 10:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,12,sentiment,,,,,,0.7933333333333333,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Example 4:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Example 5:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 7:  
+The weather is so nice today, I can't stop smiling.  
+Answer: positive
+
+Example 8:  
+I'm so frustrated with the constant delays.  
+Answer: negative
+
+Example 9:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 10:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,13,sentiment,,,,,,0.7933333333333333,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+<think>
+
+</think>
+
+Example 4:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Example 5:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 7:  
+The weather is so nice today, I can't stop smiling.  
+Answer: positive
+
+Example 8:  
+I'm so frustrated with the constant delays.  
+Answer: negative
+
+Example 9:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 10:  
+The baby finally slept through the night for the first time!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,14,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,15,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,16,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,17,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,18,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,19,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,20,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,21,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,22,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,23,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,24,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,25,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,26,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,27,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,28,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,29,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,30,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,31,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,32,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,33,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,34,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,35,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,36,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,37,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,38,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,39,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,40,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,41,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,42,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,43,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,44,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,45,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,46,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,47,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,48,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,49,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,examples,50,sentiment,,,,,,0.8233333333333334,0.7,"<think>
+
+</think>
+
+The customer service was so slow, I almost left.  
+Answer: negative  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The product arrived late and was damaged.  
+Answer: negative  
+
+This is the best experience I've had in a long time.  
+Answer: positive  
+
+The food was terrible, and the service was even worse.  
+Answer: negative  
+
+I'm so disappointed with the lack of support.  
+Answer: negative  
+
+The movie was okay, but the plot was confusing.  
+Answer: negative  
+
+The concert was amazing, but the crowd was too loud.  
+Answer: positive  
+
+I'm thrilled with the new features added to the app.  
+Answer: positive  
+
+The weather was perfect, but the event was canceled.  
+Answer: negative
+
+<think>
+
+</think>
+
+Example 2:  
+I'm not sure if I'll attend, but I hope the event is worth it.  
+Answer: positive
+
+Example 3:  
+The concert was a bit slow, but the energy was great.  
+Answer: positive
+
+Example 5:  
+I thought it meant ""Fuck the World!"" but it was actually a compliment.  
+Answer: positive
+
+Example 6:  
+The service was slow, but the food made it worth the wait.  
+Answer: positive
+
+Example 7:  
+I'm so tired of waiting for responses. It's been hours!  
+Answer: negative
+
+Example 8:  
+The event was amazing, but I had to leave early.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative."

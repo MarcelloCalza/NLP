@@ -1,0 +1,3601 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+example,zero_shot,none,0,sentiment,0,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,1,"<think>
+
+</think>
+
+positive",negative,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,2,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,3,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,4,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,5,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,6,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,7,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,8,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,9,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,10,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,11,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,12,"<think>
+
+</think>
+
+positive",negative,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,13,"<think>
+
+</think>
+
+positive",negative,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,14,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,15,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,16,"<think>
+
+</think>
+
+neutral",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,17,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,18,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,19,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,20,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,21,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,22,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,23,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,24,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,25,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,26,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,27,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,28,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,29,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,30,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,31,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,32,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,33,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,34,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,35,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,36,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,37,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,38,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,39,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,40,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,41,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,42,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,43,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,44,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,45,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,46,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,47,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,48,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,49,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,50,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,51,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,52,"<think>
+
+</think>
+
+positive",negative,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,53,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,54,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,55,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,56,"<think>
+
+</think>
+
+positive",negative,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,57,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,58,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,59,"<think>
+
+</think>
+
+positive",negative,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,60,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,61,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,62,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,63,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,64,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,65,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,66,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,67,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,68,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,69,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,70,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,71,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,72,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,73,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,74,"<think>
+
+</think>
+
+positive",negative,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,75,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,76,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,77,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,78,"<think>
+
+</think>
+
+positive",negative,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,79,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,80,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,81,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,82,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,83,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,84,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,85,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,86,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,87,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,88,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,89,"<think>
+
+</think>
+
+positive",negative,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,90,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,91,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,92,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,93,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,94,"<think>
+
+</think>
+
+negative",positive,,,,0.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,95,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,96,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,97,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,98,"<think>
+
+</think>
+
+negative",negative,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,zero_shot,none,0,sentiment,99,"<think>
+
+</think>
+
+positive",positive,,,,1.0,Classify the sentiment of the following tweet as positive or negative.
+example,cot,none,0,sentiment,0,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,1,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,2,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,3,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,4,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,5,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,6,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,7,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,8,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,9,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,10,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,11,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,12,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,13,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,14,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,15,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,16,"<think>
+
+</think>
+
+neutral",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,17,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,18,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,19,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,20,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,21,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,22,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,23,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,24,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,25,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,26,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,27,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,28,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,29,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,30,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,31,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,32,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,33,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,34,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,35,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,36,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,37,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,38,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,39,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,40,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,41,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,42,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,43,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,44,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,45,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,46,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,47,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,48,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,49,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,50,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,51,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,52,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,53,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,54,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,55,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,56,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,57,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,58,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,59,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,60,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,61,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,62,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,63,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,64,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,65,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,66,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,67,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,68,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,69,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,70,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,71,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,72,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,73,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,74,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,75,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,76,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,77,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,78,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,79,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,80,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,81,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,82,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,83,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,84,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,85,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,86,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,87,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,88,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,89,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,90,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,91,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,92,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,93,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,94,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,95,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,96,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,97,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,98,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,cot,none,0,sentiment,99,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+example,few_shots,none,0,sentiment,0,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,1,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,2,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,3,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,4,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,5,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,6,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,7,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,8,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,9,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,10,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,11,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,12,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,13,"<think>
+
+</think>
+
+neutral",negative,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,14,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,15,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,16,"<think>
+
+</think>
+
+neutral",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,17,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,18,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,19,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,20,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,21,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,22,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,23,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,24,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,25,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,26,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,27,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,28,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,29,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,30,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,31,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,32,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,33,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,34,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,35,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,36,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,37,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,38,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,39,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,40,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,41,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,42,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,43,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,44,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,45,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,46,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,47,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,48,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,49,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,50,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,51,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,52,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,53,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,54,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,55,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,56,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,57,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,58,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,59,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,60,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,61,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,62,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,63,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,64,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,65,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,66,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,67,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,68,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,69,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,70,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,71,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,72,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,73,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,74,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,75,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,76,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,77,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,78,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,79,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,80,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,81,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,82,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,83,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,84,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,85,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,86,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,87,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,88,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,89,"<think>
+
+</think>
+
+positive",negative,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,90,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,91,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,92,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,93,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,94,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,95,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,96,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,97,"<think>
+
+</think>
+
+positive",positive,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,98,"<think>
+
+</think>
+
+negative",negative,,,,1.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+example,few_shots,none,0,sentiment,99,"<think>
+
+</think>
+
+negative",positive,,,,0.0,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."

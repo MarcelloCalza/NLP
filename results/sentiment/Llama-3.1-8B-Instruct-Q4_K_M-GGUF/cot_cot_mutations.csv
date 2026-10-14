@@ -1,0 +1,545 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language (e.g., sarcasm, irony).
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter.
+3. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+4. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language.
+5. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases and contextual indicators.",0.7966666666666666
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language (e.g., sarcasm, irony).
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter.
+3. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+4. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language.
+5. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases and contextual indicators.",0.7966666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+5. Determine whether the speaker's tone and intent are consistent with the emotionally relevant words or phrases and contextual indicators.
+6. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent.",0.7866666666666666
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+5. Determine whether the speaker's tone and intent are consistent with the emotionally relevant words or phrases and contextual indicators.
+6. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent.",0.7866666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+9. Be aware of the potential for sarcasm and irony, and actively look for indicators of these tone markers.
+10. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.",0.8033333333333333
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+9. Be aware of the potential for sarcasm and irony, and actively look for indicators of these tone markers.
+10. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+5. Be aware of the potential for sarcasm and irony, and actively look for indicators of these tone markers.
+6. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+7. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+8. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+9. Identify and account for potential sarcasm and irony by examining the language used and the context in which the tweet is written.
+10. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary, and considering the speaker's relationship to the subject matter.",0.79
+cot,1,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+9. Be aware of the potential for sarcasm and irony, and actively look for indicators of these tone markers.
+10. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language, and assign a weight to each indicator.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Assign a higher weight to contextual indicators than emotionally relevant words when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Be aware of the potential for sarcasm and irony, and actively look for indicators of these tone markers.
+9. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+10. Use the weighted contextual indicators to adjust the overall sentiment when necessary.",0.79
+cot,2,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+9. Be aware of the potential for sarcasm and irony, and actively look for indicators of these tone markers.
+10. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language, into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify and interpret contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language, considering the original context and the speaker's intended meaning.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning, but do not overemphasize emotionally relevant words.
+5. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary, and ensure consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+6. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent, and actively look for indicators of sarcasm and irony.
+7. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+8. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment, and revise the analysis if necessary to ensure accuracy.
+9. Consider the potential for sarcasm and irony, and actively look for indicators of these tone markers in the tweet's language, context, and speaker's relationship to the subject matter.",0.7933333333333333
+cot,3,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language (e.g., sarcasm, irony).
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter.
+3. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+4. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language.
+5. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases and contextual indicators.",0.7966666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, including sarcasm, irony, and idioms.
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter, considering the speaker's background and history of interactions.
+3. Prioritize contextual indicators over emotionally relevant words or phrases when they conflict, giving more weight to indicators of the speaker's tone and intent.
+4. Consider the figurative language and potential for sarcasm or irony when analyzing emotionally relevant words or phrases.
+5. Synthesize the analysis of emotionally relevant words or phrases and contextual indicators to determine the overall sentiment, taking into account the speaker's tone and intent.",0.7833333333333333
+cot,4,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language, and assign a weight to each indicator.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Assign a higher weight to contextual indicators than emotionally relevant words when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Be aware of the potential for sarcasm and irony, and actively look for indicators of these tone markers.
+9. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+10. Use the weighted contextual indicators to adjust the overall sentiment when necessary.",0.79,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral, while being aware of the potential for sarcasm and irony.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language, and assign a weight to each indicator.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Assign a higher weight to contextual indicators than emotionally relevant words when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+8. Use the weighted contextual indicators to adjust the overall sentiment when necessary.
+9. If a word or phrase is identified as sarcastic or ironic, re-categorize its emotional relevance and adjust the overall sentiment accordingly.
+10. If the speaker's tone and intent do not align with the emotionally relevant words or phrases, adjust the overall sentiment to reflect the speaker's tone and intent.
+11. If the speaker's relationship to the subject matter is not explicitly stated, make an educated inference based on the context and adjust the overall sentiment accordingly.
+12. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, the speaker's tone and intent, and their relationship to the subject matter to determine the overall sentiment.",0.78
+cot,5,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language (e.g., sarcasm, irony).
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter.
+3. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+4. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language.
+5. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases and contextual indicators.",0.7966666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and flag potentially figurative language (e.g., sarcasm, irony) in the tweet, considering the speaker's tone and intent.
+2. Analyze the context in which the tweet is written, including the speaker's relationship to the subject matter and the overall tone of the tweet.
+3. Prioritize contextual indicators (e.g., speaker's tone, intent, relationship) over emotionally relevant words or phrases, unless the latter clearly dominate the sentiment.
+4. Determine whether the tweet is written in a literal or figurative tone, and adjust the analysis accordingly.
+5. Synthesize the analysis of contextual indicators and emotionally relevant words or phrases to decide the overall sentiment.",0.75
+cot,6,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context and tone to account for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context.
+3. Determine the overall sentiment by weighing the sentiment of emotionally relevant words or phrases, considering their intensity and frequency.
+4. Account for abbreviations and colloquial expressions by translating them into their standard form or interpreting their intended meaning.
+5. Evaluate the tone and context of the tweet, considering the author's intent and the situation described, to make an informed sentiment classification.",0.8
+cot,7,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language (e.g., sarcasm, irony).
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter.
+3. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+4. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language.
+5. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases and contextual indicators.",0.7966666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and flag potentially figurative language (e.g., sarcasm, irony, idioms) in the tweet.
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter.
+3. Prioritize contextual indicators over emotionally relevant words when they conflict, unless the emotionally relevant words are clearly literal and not figurative.
+4. Consider the speaker's tone and intent when interpreting emotionally relevant words and phrases.
+5. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language.
+6. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases and contextual indicators.",0.74
+cot,8,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language (e.g., sarcasm, irony).
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter.
+3. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+4. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language.
+5. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases and contextual indicators.",0.7966666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and explicitly account for potential sarcasm, irony, or playful language.
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter, and consider how these contextual indicators may influence the sentiment.
+3. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary, and avoid relying too heavily on emotionally relevant words alone.
+4. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language, and consider the speaker's tone and intent when making this determination.
+5. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases and contextual indicators, and verify that the sentiment is consistent with the speaker's tone and intent.",0.79
+cot,9,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context and tone to account for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context.
+3. Determine the overall sentiment by weighing the sentiment of emotionally relevant words or phrases, considering their intensity and frequency.
+4. Account for abbreviations and colloquial expressions by translating them into their standard form or interpreting their intended meaning.
+5. Evaluate the tone and context of the tweet, considering the author's intent and the situation described, to make an informed sentiment classification.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context and tone to account for sarcasm, irony, and informal language, and explicitly look for words or phrases that indicate irony or sarcasm, such as ""just kidding"" or ""not really"".
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context, and consider the potential for sarcasm or irony.
+3. Determine the overall sentiment by weighing the sentiment of emotionally relevant words or phrases, considering their intensity and frequency, and adjust the weight of words or phrases that are likely to be sarcastic or ironic.
+4. Account for abbreviations and colloquial expressions by translating them into their standard form or interpreting their intended meaning, and look up unfamiliar expressions to ensure accurate interpretation.
+5. Evaluate the tone and context of the tweet, considering the author's intent and the situation described, to make an informed sentiment classification, and consider whether the tone is likely to be sarcastic or ironic.",0.76
+cot,10,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language (e.g., sarcasm, irony).
+2. Analyze the context in which the tweet is written, including the speaker's tone, intent, and relationship to the subject matter.
+3. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+4. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language.
+5. Decide the overall sentiment by synthesizing the analysis of emotionally relevant words or phrases and contextual indicators.",0.7966666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify figurative language and sarcasm through linguistic markers such as hyperbole, idioms, or rhetorical questions.
+2. Analyze the tone of the speaker, considering whether the language is formal or informal, and whether it's written in a conversational or assertive tone.
+3. Evaluate the intent of the speaker, considering whether they're expressing a genuine opinion or trying to persuade others.
+4. Identify the speaker's relationship to the subject matter, including their expertise or personal connection.
+5. Balance the importance of emotional language with contextual indicators, giving more weight to contextual indicators when necessary.
+6. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the context and potential figurative language.
+7. Synthesize the analysis of emotionally relevant words or phrases and contextual indicators to decide the overall sentiment.",0.79
+cot,11,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases that may express sarcasm, irony, or implicit sentiment, such as phrases that imply a desire, question, or strong emotion.
+2. Determine whether emotionally relevant words or phrases express positive or negative sentiment, taking into account the potential for sarcasm, irony, or implicit sentiment.
+3. Recognize idiomatic expressions that may convey a meaning different from their literal interpretation, and interpret their sentiment accordingly.
+4. Decide the overall sentiment by considering the sentiment of emotionally relevant words or phrases and idiomatic expressions.
+5. If the sentiment is unclear or ambiguous, attempt to infer it from the context of the tweet, including the user's tone and language.",0.7433333333333333
+cot,12,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language, into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify and interpret contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language, considering the original context and the speaker's intended meaning.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning, but do not overemphasize emotionally relevant words.
+5. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary, and ensure consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+6. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent, and actively look for indicators of sarcasm and irony.
+7. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+8. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment, and revise the analysis if necessary to ensure accuracy.
+9. Consider the potential for sarcasm and irony, and actively look for indicators of these tone markers in the tweet's language, context, and speaker's relationship to the subject matter.",0.7933333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language, into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify and interpret contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language, considering the original context and the speaker's intended meaning.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Initially consider the context in which the tweet is written, including the speaker's relationship to the subject matter, to inform the analysis of emotionally relevant words.
+6. If the context suggests sarcasm or irony, give more weight to contextual indicators and tone markers, and actively look for indicators of these tone markers in the language and speaker's relationship.
+7. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when the context indicates a tone marker.
+8. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+9. Re-evaluate the analysis if contextual indicators or tone markers suggest a different interpretation of the emotionally relevant words or phrases.
+10. Consider the potential for sarcasm and irony, and actively look for indicators of these tone markers in the tweet's language, context, and speaker's relationship to the subject matter.",0.7966666666666666
+cot,13,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+9. Be aware of the potential for sarcasm and irony, and actively look for indicators of these tone markers.
+10. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Immediately check for indicators of sarcasm and irony, and adjust the analysis accordingly.
+6. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary.
+7. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+8. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.
+9. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+10. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.",0.7933333333333333
+cot,14,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language, into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify and interpret contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language, considering the original context and the speaker's intended meaning.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Initially consider the context in which the tweet is written, including the speaker's relationship to the subject matter, to inform the analysis of emotionally relevant words.
+6. If the context suggests sarcasm or irony, give more weight to contextual indicators and tone markers, and actively look for indicators of these tone markers in the language and speaker's relationship.
+7. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when the context indicates a tone marker.
+8. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+9. Re-evaluate the analysis if contextual indicators or tone markers suggest a different interpretation of the emotionally relevant words or phrases.
+10. Consider the potential for sarcasm and irony, and actively look for indicators of these tone markers in the tweet's language, context, and speaker's relationship to the subject matter.",0.7966666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language, into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter, giving particular attention to tone markers such as sarcasm and irony.
+3. Consider the context in which the tweet is written, including the speaker's relationship to the subject matter, to inform the analysis of emotionally relevant words.
+4. If the context suggests sarcasm or irony, give more weight to contextual indicators and tone markers, and actively look for indicators of these tone markers in the language and speaker's relationship.
+5. Balance the importance of emotional language with the need to consider the overall context, prioritizing contextual indicators when the context indicates a tone marker.
+6. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+7. Re-evaluate the analysis if contextual indicators or tone markers suggest a different interpretation of the emotionally relevant words or phrases.
+8. Interpret colloquial language, slang, and informal tone by considering the language in its original context and the speaker's intended meaning.
+9. Consider the potential for sarcasm and irony, and actively look for indicators of these tone markers in the tweet's language, context, and speaker's relationship to the subject matter.
+10. Identify and interpret contextual indicators that may influence the overall sentiment, such as irony or figurative language, considering the original context and the speaker's intended meaning.",0.8066666666666666
+cot,15,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context and tone to account for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context.
+3. Determine the overall sentiment by weighing the sentiment of emotionally relevant words or phrases, considering their intensity and frequency.
+4. Account for abbreviations and colloquial expressions by translating them into their standard form or interpreting their intended meaning.
+5. Evaluate the tone and context of the tweet, considering the author's intent and the situation described, to make an informed sentiment classification.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and potential for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified word or phrase, weighing literal meaning against tone and context to account for nuances in informal language.
+3. Consider abbreviations and colloquial expressions by interpreting their intended meaning, rather than translating them into standard form.
+4. Evaluate the tone and context of the tweet, taking into account the author's intent and the situation described, and weigh this against the sentiment of emotionally relevant words or phrases.
+5. Determine the overall sentiment by considering the intensity and frequency of emotionally relevant words or phrases, as well as the context and tone of the tweet.",0.8
+cot,16,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and potential for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified word or phrase, weighing literal meaning against tone and context to account for nuances in informal language.
+3. Consider abbreviations and colloquial expressions by interpreting their intended meaning, rather than translating them into standard form.
+4. Evaluate the tone and context of the tweet, taking into account the author's intent and the situation described, and weigh this against the sentiment of emotionally relevant words or phrases.
+5. Determine the overall sentiment by considering the intensity and frequency of emotionally relevant words or phrases, as well as the context and tone of the tweet.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and potential for sarcasm, irony, and informal language, and explicitly account for sarcasm and irony by checking for context-dependent cues such as hyperbole, understatement, and rhetorical questions.
+2. Analyze the sentiment of each identified word or phrase, weighing literal meaning against tone and context, and prioritize tone and context over literal meaning when they convey a different sentiment.
+3. Consider abbreviations and colloquial expressions by interpreting their intended meaning, rather than translating them into standard form, and maintain a list of colloquial expressions and abbreviations to improve interpretation over time.
+4. Evaluate the tone and context of the tweet, taking into account the author's intent, the situation described, and potential for sarcasm and irony, and weigh this against the sentiment of emotionally relevant words or phrases.
+5. Determine the overall sentiment by considering the intensity and frequency of emotionally relevant words or phrases, as well as the context and tone of the tweet, and adjust for the presence of sarcasm, irony, or hyperbole.",0.7566666666666667
+cot,17,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering their potential to convey sarcasm or irony by looking for linguistic cues such as quotation marks, exclamation marks, or hyperbole.
+2. Analyze the context in which words or phrases are used, taking into account the speaker's tone, the situation, and the relationships between entities mentioned.
+3. Determine whether the emotionally relevant words or phrases express positive or negative sentiment, considering their connotation and potential for nuance.
+4. Identify and weigh contradictory sentiment indicators, acknowledging that some tweets may contain both positive and negative sentiment, and decide the overall sentiment based on the preponderance of evidence.
+5. Consider the speaker's intent and possible motivations, such as humor or exaggeration, to ensure accurate sentiment classification.
+6. Verify the sentiment classification by ensuring it is consistent with the language and tone used in the tweet.",0.7633333333333333
+cot,18,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context and tone to account for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context.
+3. Determine the overall sentiment by weighing the sentiment of emotionally relevant words or phrases, considering their intensity and frequency.
+4. Account for abbreviations and colloquial expressions by translating them into their standard form or interpreting their intended meaning.
+5. Evaluate the tone and context of the tweet, considering the author's intent and the situation described, to make an informed sentiment classification.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and potential for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context, and adjusting for potential sarcasm or irony.
+3. Translate colloquial expressions and abbreviations into their standard form or intended meaning.
+4. Evaluate the tone and context of the tweet, considering the author's intent, the situation described, and any potential for sarcasm or irony.
+5. Determine the overall sentiment by weighing the sentiment of emotionally relevant words or phrases, considering their intensity, frequency, and adjusted sentiment due to potential sarcasm or irony.",0.7933333333333333
+cot,19,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context and tone to account for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context.
+3. Determine the overall sentiment by weighing the sentiment of emotionally relevant words or phrases, considering their intensity and frequency.
+4. Account for abbreviations and colloquial expressions by translating them into their standard form or interpreting their intended meaning.
+5. Evaluate the tone and context of the tweet, considering the author's intent and the situation described, to make an informed sentiment classification.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context and tone, and explicitly account for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context, and consider colloquial expressions and abbreviations in their standard form or intended meaning.
+3. Determine the overall sentiment by weighing the sentiment of emotionally relevant words or phrases, considering their intensity and frequency, and adjusting for the tone and context of the tweet.
+4. Evaluate the author's intent and the situation described in the tweet to make an informed sentiment classification.",0.8033333333333333
+cot,20,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and potential for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified word or phrase, weighing literal meaning against tone and context to account for nuances in informal language.
+3. Consider abbreviations and colloquial expressions by interpreting their intended meaning, rather than translating them into standard form.
+4. Evaluate the tone and context of the tweet, taking into account the author's intent and the situation described, and weigh this against the sentiment of emotionally relevant words or phrases.
+5. Determine the overall sentiment by considering the intensity and frequency of emotionally relevant words or phrases, as well as the context and tone of the tweet.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and potential for sarcasm, irony, and informal language, and flag potential cases of sarcasm and irony.
+2. Analyze the sentiment of each identified word or phrase, weighing literal meaning against tone and context to account for nuances in informal language, and consider the author's intent.
+3. Interpret abbreviations and colloquial expressions by considering their intended meaning, rather than translating them into standard form.
+4. Evaluate the tone and context of the tweet, taking into account the author's intent and the situation described, and weigh this against the sentiment of emotionally relevant words or phrases.
+5. Consider the intensity and frequency of emotionally relevant words or phrases, as well as the context and tone of the tweet, and apply a nuanced understanding of sarcasm and irony to determine the overall sentiment.",0.7733333333333333
+cot,21,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering the context and intended meaning of the tweet.
+2. Determine whether the words or phrases express positive or negative sentiment, taking into account potential sarcasm or irony.
+3. Analyze the literal meaning of the words in conjunction with the context to ensure accurate interpretation of colloquial language and slang.
+4. Decide the overall sentiment based on the combined evidence from the previous steps.",0.79
+cot,22,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language, into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter, giving particular attention to tone markers such as sarcasm and irony.
+3. Consider the context in which the tweet is written, including the speaker's relationship to the subject matter, to inform the analysis of emotionally relevant words.
+4. If the context suggests sarcasm or irony, give more weight to contextual indicators and tone markers, and actively look for indicators of these tone markers in the language and speaker's relationship.
+5. Balance the importance of emotional language with the need to consider the overall context, prioritizing contextual indicators when the context indicates a tone marker.
+6. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+7. Re-evaluate the analysis if contextual indicators or tone markers suggest a different interpretation of the emotionally relevant words or phrases.
+8. Interpret colloquial language, slang, and informal tone by considering the language in its original context and the speaker's intended meaning.
+9. Consider the potential for sarcasm and irony, and actively look for indicators of these tone markers in the tweet's language, context, and speaker's relationship to the subject matter.
+10. Identify and interpret contextual indicators that may influence the overall sentiment, such as irony or figurative language, considering the original context and the speaker's intended meaning.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Begin by considering the literal meaning of the tweet's language, including both emotionally relevant words or phrases and neutral language.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as irony or figurative language, and consider the original context and the speaker's intended meaning.
+4. Actively look for indicators of sarcasm or irony in the tweet's language, context, and speaker's relationship to the subject matter, giving more weight to contextual indicators when the context indicates a tone marker.
+5. Balance the importance of emotional language with the need to consider the overall context, prioritizing contextual indicators when the context indicates a tone marker.
+6. Interpret colloquial language, slang, and informal tone by considering the language in its original context and the speaker's intended meaning.
+7. Re-evaluate the analysis if contextual indicators or tone markers suggest a different interpretation of the emotionally relevant words or phrases.
+8. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.",0.8
+cot,23,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context and tone, and explicitly account for sarcasm, irony, and informal language.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context, and consider colloquial expressions and abbreviations in their standard form or intended meaning.
+3. Determine the overall sentiment by weighing the sentiment of emotionally relevant words or phrases, considering their intensity and frequency, and adjusting for the tone and context of the tweet.
+4. Evaluate the author's intent and the situation described in the tweet to make an informed sentiment classification.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and informal language, and explicitly account for sarcasm, irony, and colloquial expressions.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context, and adjust for colloquial expressions and abbreviations in their standard form or intended meaning.
+3. Consider the tone and context of the tweet, including the use of informal language, colloquial expressions, or abbreviations, and adjust the sentiment accordingly.
+4. Evaluate the author's intent by examining the situation described in the tweet and the language used to convey it, and make an informed sentiment classification.",0.8
+cot,24,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language, into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter, giving particular attention to tone markers such as sarcasm and irony.
+3. Consider the context in which the tweet is written, including the speaker's relationship to the subject matter, to inform the analysis of emotionally relevant words.
+4. If the context suggests sarcasm or irony, give more weight to contextual indicators and tone markers, and actively look for indicators of these tone markers in the language and speaker's relationship.
+5. Balance the importance of emotional language with the need to consider the overall context, prioritizing contextual indicators when the context indicates a tone marker.
+6. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+7. Re-evaluate the analysis if contextual indicators or tone markers suggest a different interpretation of the emotionally relevant words or phrases.
+8. Interpret colloquial language, slang, and informal tone by considering the language in its original context and the speaker's intended meaning.
+9. Consider the potential for sarcasm and irony, and actively look for indicators of these tone markers in the tweet's language, context, and speaker's relationship to the subject matter.
+10. Identify and interpret contextual indicators that may influence the overall sentiment, such as irony or figurative language, considering the original context and the speaker's intended meaning.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language, into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Prioritize contextual indicators over emotionally relevant words when the context suggests sarcasm or irony.
+4. Actively look for indicators of sarcasm and irony in the language, context, and speaker's relationship to the subject matter.
+5. Interpret colloquial language and slang by considering the language in its original context and the speaker's intended meaning.
+6. Re-evaluate the analysis if contextual indicators or tone markers suggest a different interpretation of emotionally relevant words or phrases.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Consider the potential for sarcasm and irony, and actively look for indicators of these tone markers in the tweet's language, context, and speaker's relationship to the subject matter.
+9. Identify and interpret contextual indicators that may influence the overall sentiment, such as irony or figurative language, considering the original context and the speaker's intended meaning.
+10. Give more weight to contextual indicators and tone markers when the context indicates a tone marker.",0.79
+cot,25,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and informal language, and explicitly account for sarcasm, irony, and colloquial expressions.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context, and adjust for colloquial expressions and abbreviations in their standard form or intended meaning.
+3. Consider the tone and context of the tweet, including the use of informal language, colloquial expressions, or abbreviations, and adjust the sentiment accordingly.
+4. Evaluate the author's intent by examining the situation described in the tweet and the language used to convey it, and make an informed sentiment classification.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and informal language, and explicitly account for sarcasm, irony, and colloquial expressions, and evaluate their potential to be negative or positive.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context, and adjust for colloquial expressions and abbreviations in their standard form or intended meaning, and consider their potential to shift the overall sentiment.
+3. Evaluate the tone and context of the tweet, including the use of informal language, colloquial expressions, or abbreviations, and consider their impact on the sentiment, and adjust the sentiment classification accordingly.
+4. Identify the author's intent by examining the situation described in the tweet and the language used to convey it, and evaluate whether the author's intent aligns with the literal meaning or the tone and context of the tweet.
+5. Consider the author's tone, including whether they are expressing genuine emotions or using sarcasm or irony, and adjust the sentiment classification accordingly.
+6. Evaluate the overall sentiment of the tweet by considering the combined impact of all emotionally relevant words or phrases, tone, and context, and classify the sentiment as positive or negative.",0.75
+cot,26,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language, into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter, giving particular attention to tone markers such as sarcasm and irony.
+3. Consider the context in which the tweet is written, including the speaker's relationship to the subject matter, to inform the analysis of emotionally relevant words.
+4. If the context suggests sarcasm or irony, give more weight to contextual indicators and tone markers, and actively look for indicators of these tone markers in the language and speaker's relationship.
+5. Balance the importance of emotional language with the need to consider the overall context, prioritizing contextual indicators when the context indicates a tone marker.
+6. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+7. Re-evaluate the analysis if contextual indicators or tone markers suggest a different interpretation of the emotionally relevant words or phrases.
+8. Interpret colloquial language, slang, and informal tone by considering the language in its original context and the speaker's intended meaning.
+9. Consider the potential for sarcasm and irony, and actively look for indicators of these tone markers in the tweet's language, context, and speaker's relationship to the subject matter.
+10. Identify and interpret contextual indicators that may influence the overall sentiment, such as irony or figurative language, considering the original context and the speaker's intended meaning.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Actively look for indicators of sarcasm and irony in the language, context, and speaker's relationship to the subject matter.
+2. Balance the importance of emotional language with the need to consider the overall context.
+3. Prioritize contextual indicators when the context indicates a tone marker or figurative language.
+4. Consider the speaker's tone and intent in the analysis of emotionally relevant words or phrases.
+5. Analyze the speaker's tone by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+6. Examine the language used for tone markers such as sarcasm and irony.
+7. Consider the context in which the tweet is written, including the speaker's relationship to the subject matter.
+8. Consider colloquial language, slang, and informal tone by examining the language in its original context and the speaker's intended meaning.
+9. Identify and categorize emotionally relevant words or phrases, considering both literal and figurative language.
+10. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+11. Re-evaluate the analysis if contextual indicators or tone markers suggest a different interpretation of the emotionally relevant words or phrases.
+12. Interpret contextual indicators that may influence the overall sentiment, such as irony or figurative language.
+13. Look for contextual indicators that may suggest a different tone or intent, such as sarcasm or irony.
+14. Consider the speaker's relationship to the subject matter and how it may influence the sentiment.
+15. Weigh the importance of emotional language against contextual indicators when making a determination of the overall sentiment.",0.7133333333333334
+cot,27,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and informal language, and explicitly account for sarcasm, irony, and colloquial expressions.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context, and adjust for colloquial expressions and abbreviations in their standard form or intended meaning.
+3. Consider the tone and context of the tweet, including the use of informal language, colloquial expressions, or abbreviations, and adjust the sentiment accordingly.
+4. Evaluate the author's intent by examining the situation described in the tweet and the language used to convey it, and make an informed sentiment classification.",0.8,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering context, tone, and informal language, and explicitly account for sarcasm, irony, and colloquial expressions, including regional dialects and cultural colloquialisms.
+2. Analyze the sentiment of each identified emotionally relevant word or phrase, taking into account literal meaning, tone, and context, and adjust for colloquial expressions, regional dialects, and abbreviations in their standard form or intended meaning.
+3. Consider the tone and context of the tweet, including the use of informal language, colloquial expressions, or abbreviations, and adjust the sentiment accordingly, evaluating whether the language is used to convey the literal meaning or an intended opposite.
+4. Evaluate the author's intent by examining the situation described in the tweet and the language used to convey it, and make an informed sentiment classification, considering the potential presence of sarcasm, irony, or other forms of figurative language.",0.7933333333333333
+cot,28,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering the context in which they are used.
+2. Determine whether the speaker's intent is aligned with the expressed sentiment.
+3. Evaluate the tweet for any signs of irony, sarcasm, or other forms of figurative language.
+4. Analyze the overall tone and language used to convey the sentiment.
+5. Decide the overall sentiment based on the evidence collected from the previous steps.",0.8033333333333333
+cot,29,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Identify contextual indicators that may influence the overall sentiment, such as sarcasm, irony, or figurative language.
+4. Account for colloquial language, slang, and informal tone by interpreting the language in its original context and considering the speaker's intended meaning.
+5. Weigh the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent.
+9. Be aware of the potential for sarcasm and irony, and actively look for indicators of these tone markers.
+10. Balance the importance of emotional language with the need to consider the overall context, giving more weight to contextual indicators when necessary.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering both literal and figurative language, and categorize them into three types: positive, negative, and neutral.
+2. Analyze the speaker's tone and intent by examining the language used, the context in which the tweet is written, and the speaker's relationship to the subject matter.
+3. Actively look for indicators of sarcasm and irony, considering the speaker's intent and the context in which the tweet is written.
+4. Interpret colloquial language, slang, and informal tone in its original context, considering the speaker's intended meaning.
+5. Balance the importance of emotionally relevant words against contextual indicators, giving more weight to contextual indicators when necessary.
+6. Check for consistency between the speaker's tone and intent and the emotionally relevant words or phrases and contextual indicators.
+7. Synthesize the analysis of emotionally relevant words or phrases, contextual indicators, and the speaker's tone and intent to determine the overall sentiment.
+8. Consider the speaker's relationship to the subject matter and how it may influence their tone and intent, taking into account the speaker's role, expertise, and potential biases.
+9. Re-evaluate the sentiment classification if the analysis reveals a high likelihood of sarcasm or irony.
+10. Ensure the sentiment classification is consistent with the overall context, including the speaker's tone, intent, and relationship to the subject matter.",0.78
+cot,30,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, considering contextual irony and emotive language.
+2. Determine whether they express positive or negative sentiment, accounting for multiple emotions or sentiments simultaneously.
+3. Decide the overall sentiment.",0.7966666666666666

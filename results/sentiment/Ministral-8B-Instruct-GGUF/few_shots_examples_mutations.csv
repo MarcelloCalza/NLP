@@ -1,0 +1,3482 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+few_shots,0,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+few_shots,0,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe how amazing this concert was! The band was incredible, and the crowd was so energized.
+Answer: positive
+
+Example 9:
+@themaguire follow me so I can dm you por favor
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.82
+few_shots,0,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe how amazing this concert was! The band was incredible, and the crowd was so energized.
+Answer: positive
+
+Example 9:
+@themaguire follow me so I can dm you por favor
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe how amazing this concert was! The band was incredible, and the crowd was so energized.
+Answer: positive
+
+Example 9:
+@themaguire follow me so I can dm you por favor
+Answer: negative
+
+Example 10:
+I'm just really enjoying this movie, it's quite good.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.82
+few_shots,1,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I'm feeling so happy and excited about the new job opportunity!
+Answer: positive
+
+Example 9:
+I can't stand this traffic, it's making me so angry.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,2,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667
+few_shots,3,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 9:
+I love the movie, but the ending was a bit disappointing.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,4,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I'm really enjoying this new product, it's much better than the old one.
+Answer: positive
+
+Example 9:
+The movie was just okay, nothing special happened.
+Answer: neutral
+
+Classify the sentiment of the following tweet as positive or negative.",0.7833333333333333
+few_shots,5,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,6,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83,"Example 1:
+I'm so thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 2:
+I'm absolutely dreading this job, it's just exhausting.
+Answer: negative
+
+Example 3:
+The food here was just okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 5:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so happy with my new phone, it's amazing!
+Answer: positive
+
+Example 8:
+I'm so frustrated with this software, it's not compatible with anything.
+Answer: negative
+
+Example 9:
+The service was terrible, I won't be coming back.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+few_shots,7,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I'm feeling so happy and excited about the new job opportunity!
+Answer: positive
+
+Example 9:
+I can't stand this traffic, it's making me so angry.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I'm feeling so happy and excited about the new job opportunity!
+Answer: positive
+
+Example 9:
+I can't stand this traffic, it's making me so angry.
+Answer: negative
+
+Example 10:
+I had a good time at the event, but it could have been better.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,8,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,9,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 7:
+I'm just so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 8:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 9:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84
+few_shots,10,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I'm feeling so happy and excited about the new job opportunity!
+Answer: positive
+
+Example 9:
+I can't stand this traffic, it's making me so angry.
+Answer: negative
+
+Example 10:
+I had a good time at the event, but it could have been better.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83,"Example 1:
+I 😃 absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+😡 This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was 🤔 okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm 😌 so happy with the new job opportunity!
+Answer: positive
+
+Example 5:
+I'm 😞 so sad that they canceled the event.
+Answer: negative
+
+Example 6:
+I'm 😭 just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm 😁 so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I'm 😒 feeling so tired of this job, it's just draining.
+Answer: negative
+
+Example 9:
+I 😠 can't stand this traffic, it's making me so angry.
+Answer: negative
+
+Example 10:
+I 😐 had a good time at the event, but it could have been better.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,11,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I can't believe how badly this show ended. 😑
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,12,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 2:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 3:
+The weather is so bad today, I can't even go outside.
+Answer: negative
+
+Example 4:
+I love how the new office is so much better than the old one!
+Answer: positive
+
+Example 5:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 6:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 7:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 8:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 9:
+I can't believe they canceled the event!
+Answer: negative
+
+Example 10:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,13,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I can't believe how terrible the service was, I'm so annoyed!
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,14,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,15,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I can't believe how badly this show ended. 😑
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1:
+I'm pretty thrilled with the new movie, it was fantastic.
+Answer: positive
+
+Example 2:
+This show was so boring, I couldn't even finish it.
+Answer: negative
+
+Example 3:
+The food here was just okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm seriously tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I can't believe how badly this show ended. 😑
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,16,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,17,examples,"Example 1:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 2:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 3:
+The weather is so bad today, I can't even go outside.
+Answer: negative
+
+Example 4:
+I love how the new office is so much better than the old one!
+Answer: positive
+
+Example 5:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 6:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 7:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 8:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 9:
+I can't believe they canceled the event!
+Answer: negative
+
+Example 10:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 2:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 3:
+The weather is so bad today, I can't even go outside.
+Answer: negative
+
+Example 4:
+I love how the new office is so much better than the old one!
+Answer: positive
+
+Example 5:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 6:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 7:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 8:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 9:
+I can't believe they canceled the event!
+Answer: negative
+
+Example 10:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,18,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84
+few_shots,19,examples,"Example 1:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 7:
+I'm just so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 8:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 9:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I just can't wait to see the new movie! It looks amazing.
+Answer: positive
+
+Example 2:
+This traffic is terrible! I'm going to be late.
+Answer: negative
+
+Example 3:
+I'm so happy with my new car! It's so much better than my old one.
+Answer: positive
+
+Example 4:
+I'm so tired of these meetings. They're so boring.
+Answer: negative
+
+Example 5:
+I'm excited to start my new job tomorrow!
+Answer: positive
+
+Example 6:
+I can't believe how much I hate this job. It's so dull.
+Answer: negative
+
+Example 7:
+I'm so glad to see the sun after all this rain!
+Answer: positive
+
+Example 8:
+This is the worst day ever. Nothing is going right.
+Answer: negative
+
+Example 9:
+I'm so looking forward to the concert tonight!
+Answer: positive
+
+Example 10:
+I'm so frustrated with this project. I can't get it right.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667
+few_shots,20,examples,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84
+few_shots,21,examples,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84
+few_shots,22,examples,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"EXAMPLES:
+
+Example 1:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 2:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm just thrilled to finally get out of this place!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,23,examples,"Example 1:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 7:
+I'm just so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 8:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 9:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm so happy with our new office, it's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event, I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 7:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 10:
+I'm so tired of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667
+few_shots,24,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm feeling so-so about the new movie. It wasn't bad, but it wasn't great either.
+Answer: neutral
+
+Classify the sentiment of the following tweet as positive or negative.",0.81
+few_shots,25,examples,"Example 1:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 7:
+I'm just so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 8:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 9:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm so excited to finally see the new iPhone! I can't wait to upgrade.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 4:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 5:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 8:
+This weather is awful! I can't stand the rain.
+Answer: negative
+
+Example 9:
+I'm so excited to see the new iPhone! I can't wait to upgrade.
+Answer: positive
+
+Example 10:
+I'm just so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,26,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I can't believe they canceled the event! 😡 I was so excited.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,27,examples,"Example 1:
+I'm so happy with our new office, it's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event, I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 7:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 10:
+I'm so tired of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I'm so happy with our new office, it's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event, I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 7:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 10:
+I'm so tired of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667
+few_shots,28,examples,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 8:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 9:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 10:
+I'm so glad they canceled the event, I was not looking forward to it.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,29,examples,"Example 1:
+I'm so happy with our new office, it's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event, I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 7:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 10:
+I'm so tired of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I'm so happy with our new office, it's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event, I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 7:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 10:
+I'm so tired of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667
+few_shots,30,examples,"Example 1:
+I just can't wait to see the new movie! It looks amazing.
+Answer: positive
+
+Example 2:
+This traffic is terrible! I'm going to be late.
+Answer: negative
+
+Example 3:
+I'm so happy with my new car! It's so much better than my old one.
+Answer: positive
+
+Example 4:
+I'm so tired of these meetings. They're so boring.
+Answer: negative
+
+Example 5:
+I'm excited to start my new job tomorrow!
+Answer: positive
+
+Example 6:
+I can't believe how much I hate this job. It's so dull.
+Answer: negative
+
+Example 7:
+I'm so glad to see the sun after all this rain!
+Answer: positive
+
+Example 8:
+This is the worst day ever. Nothing is going right.
+Answer: negative
+
+Example 9:
+I'm so looking forward to the concert tonight!
+Answer: positive
+
+Example 10:
+I'm so frustrated with this project. I can't get it right.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I'm so excited to see the new movie! It looks amazing.
+Answer: positive
+
+Example 2:
+This traffic is terrible! I'm going to be late.
+Answer: negative
+
+Example 3:
+I'm so happy with my new car! It's so much better than my old one.
+Answer: positive
+
+Example 4:
+I'm so tired of these meetings. They're so boring.
+Answer: negative
+
+Example 5:
+I'm excited to start my new job tomorrow!
+Answer: positive
+
+Example 6:
+I can't believe how much I hate this job. It's so dull.
+Answer: negative
+
+Example 7:
+I'm so glad to see the sun after all this rain!
+Answer: positive
+
+Example 8:
+This is the worst day ever. Nothing is going right.
+Answer: negative
+
+Example 9:
+I'm so looking forward to the concert tonight!
+Answer: positive
+
+Example 10:
+I'm so frustrated with this project. I can't get it right.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,31,examples,"Example 1:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I can't believe they canceled the event, I was really looking forward to it.
+Answer: negative
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 7:
+I'm just so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 8:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 9:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm super excited to see my favorite band live! 🎵
+Answer: positive
+
+Example 2:
+I'm so disappointed that they canceled the event. 😢
+Answer: negative
+
+Example 3:
+I'm just so annoyed with this. 🤬
+Answer: negative
+
+Example 4:
+Can't believe they canceled the event again! 😞
+Answer: negative
+
+Example 5:
+I'm so tired of this weather, it's been raining all week. ☔️
+Answer: negative
+
+Example 6:
+I'm absolutely thrilled with our new office! 🏢
+Answer: positive
+
+Example 7:
+I'm so frustrated with this, it's driving me crazy. 😡
+Answer: negative
+
+Example 8:
+This movie was absolutely amazing! 🎬
+Answer: positive
+
+Example 9:
+I'm so sick of this job, it's just draining. 😫
+Answer: negative
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens! 🎉
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84
+few_shots,32,examples,"Example 1:
+I just can't wait to see the new movie! It looks amazing.
+Answer: positive
+
+Example 2:
+This traffic is terrible! I'm going to be late.
+Answer: negative
+
+Example 3:
+I'm so happy with my new car! It's so much better than my old one.
+Answer: positive
+
+Example 4:
+I'm so tired of these meetings. They're so boring.
+Answer: negative
+
+Example 5:
+I'm excited to start my new job tomorrow!
+Answer: positive
+
+Example 6:
+I can't believe how much I hate this job. It's so dull.
+Answer: negative
+
+Example 7:
+I'm so glad to see the sun after all this rain!
+Answer: positive
+
+Example 8:
+This is the worst day ever. Nothing is going right.
+Answer: negative
+
+Example 9:
+I'm so looking forward to the concert tonight!
+Answer: positive
+
+Example 10:
+I'm so frustrated with this project. I can't get it right.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I just can't wait to see the new movie! It looks amazing.
+Answer: positive
+
+Example 2:
+This traffic is terrible! I'm going to be late.
+Answer: negative
+
+Example 3:
+I'm so happy with my new car! It's so much better than my old one.
+Answer: positive
+
+Example 4:
+I'm so tired of these meetings. They're so boring.
+Answer: negative
+
+Example 5:
+I'm excited to start my new job tomorrow!
+Answer: positive
+
+Example 6:
+I can't believe how much I hate this job. It's so dull.
+Answer: negative
+
+Example 7:
+I'm so glad to see the sun after all this rain!
+Answer: positive
+
+Example 8:
+This is the worst day ever. Nothing is going right.
+Answer: negative
+
+Example 9:
+I'm so looking forward to the concert tonight!
+Answer: positive
+
+Example 10:
+I'm so frustrated with this project. I can't get it right.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667
+few_shots,33,examples,"Example 1:
+I'm so happy with our new office, it's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event, I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 7:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 10:
+I'm so tired of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I'm so happy with our new office, it's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event, I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 7:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 10:
+I'm so tired of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667
+few_shots,34,examples,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm so excited for the new season! 🎉 Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. 😡
+Answer: negative
+
+Example 3:
+It was okay, nothing special. 😐
+Answer: neutral
+
+Example 4:
+I'm so tired of this job, it's just draining. 😫
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! 😢 I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended. 😬
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! 🏢 It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week. 🌧️
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! 🎟️ I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! 📺 Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.81
+few_shots,35,examples,"Example 1:
+I'm super excited to see my favorite band live! 🎵
+Answer: positive
+
+Example 2:
+I'm so disappointed that they canceled the event. 😢
+Answer: negative
+
+Example 3:
+I'm just so annoyed with this. 🤬
+Answer: negative
+
+Example 4:
+Can't believe they canceled the event again! 😞
+Answer: negative
+
+Example 5:
+I'm so tired of this weather, it's been raining all week. ☔️
+Answer: negative
+
+Example 6:
+I'm absolutely thrilled with our new office! 🏢
+Answer: positive
+
+Example 7:
+I'm so frustrated with this, it's driving me crazy. 😡
+Answer: negative
+
+Example 8:
+This movie was absolutely amazing! 🎬
+Answer: positive
+
+Example 9:
+I'm so sick of this job, it's just draining. 😫
+Answer: negative
+
+Example 10:
+I'm so excited for the new season, can't wait to see what happens! 🎉
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm super excited to see my favorite band live! 🎵
+Answer: positive
+
+Example 2:
+I'm so disappointed that they canceled the event. 😢
+Answer: negative
+
+Example 3:
+This movie was absolutely amazing! 🎬
+Answer: positive
+
+Example 4:
+I'm so tired of this weather, it's been raining all week. ☔️
+Answer: negative
+
+Example 5:
+I'm absolutely thrilled with our new office! 🏢
+Answer: positive
+
+Example 6:
+I'm so annoyed with this. 🤬
+Answer: negative
+
+Example 7:
+This is the worst weather ever. ☔️
+Answer: negative
+
+Example 8:
+I'm so excited for the new season, can't wait to see what happens! 🎉
+Answer: positive
+
+Example 9:
+I'm so sick of this job, it's just draining. 😫
+Answer: negative
+
+Example 10:
+I'm so thrilled with the new product, it's exactly what I needed! 🛍️
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667
+few_shots,36,examples,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84
+few_shots,37,examples,"Example 1:
+I'm so happy with our new office, it's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event, I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 4:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 5:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 6:
+I'm so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 7:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 10:
+I'm so tired of this weather, it's been raining all week.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8366666666666667,"Example 1:
+I'm so happy with our new office, it's so much better than the old one.
+Answer: positive
+
+Example 2:
+I can't believe they canceled the event, I was so excited to see my favorite band live.
+Answer: negative
+
+Example 3:
+The show ended on a good note, I enjoyed it overall.
+Answer: positive
+
+Example 4:
+This job is just draining me, I can't wait to finish for the day.
+Answer: negative
+
+Example 5:
+I'm feeling really down about the weather today, it's been raining all week.
+Answer: negative
+
+Example 6:
+I'm so frustrated with this, it's driving me crazy.
+Answer: negative
+
+Example 7:
+This movie was absolutely amazing, I loved every minute of it!
+Answer: positive
+
+Example 8:
+I'm just so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I'm so excited for the new season, can't wait to see what happens!
+Answer: positive
+
+Example 10:
+I'm just exhausted and drained from this job.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,38,examples,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84
+few_shots,39,examples,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.84,"Example 1:
+I'm so excited for the new season! Can't wait to see what happens!
+Answer: positive
+
+Example 2:
+I'm so disappointed with the new features, they're not useful at all.
+Answer: negative
+
+Example 3:
+I'm just neutral about it, it's not bad or good.
+Answer: neutral
+
+Example 4:
+I'm so tired of this job, it's just draining.
+Answer: negative
+
+Example 5:
+I can't believe they canceled the event! I was really looking forward to it.
+Answer: negative
+
+Example 6:
+I'm just sighing at how badly this show ended.
+Answer: negative
+
+Example 7:
+I'm absolutely thrilled with our new office! It's so much better than the old one.
+Answer: positive
+
+Example 8:
+I'm so sick of this weather, it's been raining all week.
+Answer: negative
+
+Example 9:
+I can't believe they canceled the event! I was so excited to see my favorite band live.
+Answer: negative
+
+Example 10:
+I'm just happy with the progress we've made.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.82

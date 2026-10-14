@@ -1,0 +1,269 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,rewrite,0,sentiment,,,,,,0.7766666666666666,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,rewrite,1,sentiment,,,,,,0.79,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent."
+summary,few_shots,rewrite,2,sentiment,,,,,,0.79,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent."
+summary,few_shots,rewrite,3,sentiment,,,,,,0.79,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent."
+summary,few_shots,rewrite,4,sentiment,,,,,,0.79,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent."
+summary,few_shots,rewrite,5,sentiment,,,,,,0.79,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent."
+summary,few_shots,rewrite,6,sentiment,,,,,,0.79,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent."
+summary,few_shots,rewrite,7,sentiment,,,,,,0.79,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent."
+summary,few_shots,rewrite,8,sentiment,,,,,,0.7966666666666666,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that the model accurately distinguishes between neutral and negative sentiment and correctly identifies sarcastic or ironic expressions. Prioritize identifying positive intent in sarcastic or ironic phrases, especially when the tone is affectionate or playful. Explicitly consider cultural context and informal language when determining sentiment. Focus on detecting sarcasm and irony by analyzing tone, context, and emotional cues, and ensure that the model does not misclassify sarcastic or ironic expressions as positive unless the intent is clearly affectionate or playful. Additionally, ensure the model correctly identifies neutral or mixed sentiment by evaluating the overall tone and context, and avoid over-classifying such cases as negative."
+summary,few_shots,rewrite,9,sentiment,,,,,,0.7966666666666666,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that the model accurately distinguishes between neutral and negative sentiment and correctly identifies sarcastic or ironic expressions. Prioritize identifying positive intent in sarcastic or ironic phrases, especially when the tone is affectionate or playful. Explicitly consider cultural context and informal language when determining sentiment. Focus on detecting sarcasm and irony by analyzing tone, context, and emotional cues, and ensure that the model does not misclassify sarcastic or ironic expressions as positive unless the intent is clearly affectionate or playful. Additionally, ensure the model correctly identifies neutral or mixed sentiment by evaluating the overall tone and context, and avoid over-classifying such cases as negative."
+summary,few_shots,rewrite,10,sentiment,,,,,,0.7966666666666666,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that the model accurately distinguishes between neutral and negative sentiment and correctly identifies sarcastic or ironic expressions. Prioritize identifying positive intent in sarcastic or ironic phrases, especially when the tone is affectionate or playful. Explicitly consider cultural context and informal language when determining sentiment. Focus on detecting sarcasm and irony by analyzing tone, context, and emotional cues, and ensure that the model does not misclassify sarcastic or ironic expressions as positive unless the intent is clearly affectionate or playful. Additionally, ensure the model correctly identifies neutral or mixed sentiment by evaluating the overall tone and context, and avoid over-classifying such cases as negative."
+summary,few_shots,rewrite,11,sentiment,,,,,,0.7966666666666666,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that the model accurately distinguishes between neutral and negative sentiment and correctly identifies sarcastic or ironic expressions. Prioritize identifying positive intent in sarcastic or ironic phrases, especially when the tone is affectionate or playful. Explicitly consider cultural context and informal language when determining sentiment. Focus on detecting sarcasm and irony by analyzing tone, context, and emotional cues, and ensure that the model does not misclassify sarcastic or ironic expressions as positive unless the intent is clearly affectionate or playful. Additionally, ensure the model correctly identifies neutral or mixed sentiment by evaluating the overall tone and context, and avoid over-classifying such cases as negative."
+summary,few_shots,rewrite,12,sentiment,,,,,,0.7966666666666666,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that the model accurately distinguishes between neutral and negative sentiment and correctly identifies sarcastic or ironic expressions. Prioritize identifying positive intent in sarcastic or ironic phrases, especially when the tone is affectionate or playful. Explicitly consider cultural context and informal language when determining sentiment. Focus on detecting sarcasm and irony by analyzing tone, context, and emotional cues, and ensure that the model does not misclassify sarcastic or ironic expressions as positive unless the intent is clearly affectionate or playful. Additionally, ensure the model correctly identifies neutral or mixed sentiment by evaluating the overall tone and context, and avoid over-classifying such cases as negative."
+summary,few_shots,rewrite,13,sentiment,,,,,,0.7966666666666666,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that the model accurately distinguishes between neutral and negative sentiment and correctly identifies sarcastic or ironic expressions. Prioritize identifying positive intent in sarcastic or ironic phrases, especially when the tone is affectionate or playful. Explicitly consider cultural context and informal language when determining sentiment. Focus on detecting sarcasm and irony by analyzing tone, context, and emotional cues, and ensure that the model does not misclassify sarcastic or ironic expressions as positive unless the intent is clearly affectionate or playful. Additionally, ensure the model correctly identifies neutral or mixed sentiment by evaluating the overall tone and context, and avoid over-classifying such cases as negative."
+summary,few_shots,rewrite,14,sentiment,,,,,,0.8,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure the model can distinguish between sarcastic or ironic expressions and genuine negative sentiment. Focus on accurately identifying the emotional tone, even when it is conveyed through colloquial or self-deprecating language."
+summary,few_shots,rewrite,15,sentiment,,,,,,0.8,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure the model can distinguish between sarcastic or ironic expressions and genuine negative sentiment. Focus on accurately identifying the emotional tone, even when it is conveyed through colloquial or self-deprecating language."
+summary,few_shots,rewrite,16,sentiment,,,,,,0.8,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure the model can distinguish between sarcastic or ironic expressions and genuine negative sentiment. Focus on accurately identifying the emotional tone, even when it is conveyed through colloquial or self-deprecating language."
+summary,few_shots,rewrite,17,sentiment,,,,,,0.8,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure the model can distinguish between sarcastic or ironic expressions and genuine negative sentiment. Focus on accurately identifying the emotional tone, even when it is conveyed through colloquial or self-deprecating language."
+summary,few_shots,rewrite,18,sentiment,,,,,,0.8,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure the model can distinguish between sarcastic or ironic expressions and genuine negative sentiment. Focus on accurately identifying the emotional tone, even when it is conveyed through colloquial or self-deprecating language."
+summary,few_shots,rewrite,19,sentiment,,,,,,0.8,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure the model can distinguish between sarcastic or ironic expressions and genuine negative sentiment. Focus on accurately identifying the emotional tone, even when it is conveyed through colloquial or self-deprecating language."
+summary,few_shots,rewrite,20,sentiment,,,,,,0.8,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure the model can distinguish between sarcastic or ironic expressions and genuine negative sentiment. Focus on accurately identifying the emotional tone, even when it is conveyed through colloquial or self-deprecating language."
+summary,few_shots,rewrite,21,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,22,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,23,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,24,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,25,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,26,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,27,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,28,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,29,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,30,sentiment,,,,,,0.8033333333333333,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones."
+summary,few_shots,rewrite,31,sentiment,,,,,,0.8066666666666666,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Pay special attention to sarcastic or ironic expressions, and do not classify neutral or mixed statements as negative unless they clearly express dissatisfaction or frustration."
+summary,few_shots,rewrite,32,sentiment,,,,,,0.8066666666666666,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Pay special attention to sarcastic or ironic expressions, and do not classify neutral or mixed statements as negative unless they clearly express dissatisfaction or frustration."
+summary,few_shots,rewrite,33,sentiment,,,,,,0.8066666666666666,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Pay special attention to sarcastic or ironic expressions, and do not classify neutral or mixed statements as negative unless they clearly express dissatisfaction or frustration."
+summary,few_shots,rewrite,34,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Pay special attention to sarcastic or ironic expressions, and do not classify neutral or mixed statements as negative unless they clearly express dissatisfaction or frustration. Prioritize identifying sarcasm and irony, especially in informal or exaggerated language, and ensure that neutral or mixed statements are only classified as negative when they clearly express dissatisfaction or frustration."
+summary,few_shots,rewrite,35,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Pay special attention to sarcastic or ironic expressions, and do not classify neutral or mixed statements as negative unless they clearly express dissatisfaction or frustration. Prioritize identifying sarcasm and irony, especially in informal or exaggerated language, and ensure that neutral or mixed statements are only classified as negative when they clearly express dissatisfaction or frustration."
+summary,few_shots,rewrite,36,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Pay special attention to sarcastic or ironic expressions, and do not classify neutral or mixed statements as negative unless they clearly express dissatisfaction or frustration. Prioritize identifying sarcasm and irony, especially in informal or exaggerated language, and ensure that neutral or mixed statements are only classified as negative when they clearly express dissatisfaction or frustration."
+summary,few_shots,rewrite,37,sentiment,,,,,,0.81,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Pay special attention to sarcastic or ironic expressions, and do not classify neutral or mixed statements as negative unless they clearly express dissatisfaction or frustration. Prioritize identifying sarcasm and irony, especially in informal or exaggerated language, and ensure that neutral or mixed statements are only classified as negative when they clearly express dissatisfaction or frustration."
+summary,few_shots,rewrite,38,sentiment,,,,,,0.8133333333333334,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive."
+summary,few_shots,rewrite,39,sentiment,,,,,,0.8133333333333334,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive."
+summary,few_shots,rewrite,40,sentiment,,,,,,0.8133333333333334,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive."
+summary,few_shots,rewrite,41,sentiment,,,,,,0.8133333333333334,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive."
+summary,few_shots,rewrite,42,sentiment,,,,,,0.8133333333333334,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive."
+summary,few_shots,rewrite,43,sentiment,,,,,,0.8133333333333334,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive."
+summary,few_shots,rewrite,44,sentiment,,,,,,0.8133333333333334,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive."
+summary,few_shots,rewrite,45,sentiment,,,,,,0.82,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive. Be especially cautious of phrases that may seem positive but actually express dissatisfaction or disappointment. Avoid misclassifying sarcastic or ironic expressions that carry a positive intent as negative."
+summary,few_shots,rewrite,46,sentiment,,,,,,0.82,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive. Be especially cautious of phrases that may seem positive but actually express dissatisfaction or disappointment. Avoid misclassifying sarcastic or ironic expressions that carry a positive intent as negative."
+summary,few_shots,rewrite,47,sentiment,,,,,,0.82,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive. Be especially cautious of phrases that may seem positive but actually express dissatisfaction or disappointment. Avoid misclassifying sarcastic or ironic expressions that carry a positive intent as negative."
+summary,few_shots,rewrite,48,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive. Be especially cautious of phrases that may seem positive but actually express dissatisfaction or disappointment. Avoid misclassifying sarcastic or ironic expressions that carry a positive intent as negative. Focus on identifying sarcasm/irony with positive intent as positive, and avoid misclassifying frustration or longing as positive."
+summary,few_shots,rewrite,49,sentiment,,,,,,0.8233333333333334,,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive. Be especially cautious of phrases that may seem positive but actually express dissatisfaction or disappointment. Avoid misclassifying sarcastic or ironic expressions that carry a positive intent as negative. Focus on identifying sarcasm/irony with positive intent as positive, and avoid misclassifying frustration or longing as positive."
+summary,few_shots,rewrite,50,sentiment,,,,,,0.8233333333333334,0.74,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider sarcasm, irony, and subtle expressions of sentiment. If the sentiment is neutral or mixed, classify it as negative. Pay special attention to informal language, slang, and phrases that may appear negative but actually convey a positive intent. Ensure that you distinguish between expressions of longing or frustration (which are typically negative) and genuine positive sentiment. Use contextual nuance to differentiate between neutral/mixed statements and clearly negative ones. Prioritize identifying positive intent in sarcastic or ironic expressions, and avoid misclassifying frustration or longing as positive. Explicitly recognize that neutral or mixed statements with subtle positive intent should be classified as positive. Be especially cautious of phrases that may seem positive but actually express dissatisfaction or disappointment. Avoid misclassifying sarcastic or ironic expressions that carry a positive intent as negative. Focus on identifying sarcasm/irony with positive intent as positive, and avoid misclassifying frustration or longing as positive."

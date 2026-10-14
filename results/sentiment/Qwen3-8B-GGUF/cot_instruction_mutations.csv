@@ -1,0 +1,559 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7466666666666667
+cot,0,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7466666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize context and tone to avoid misclassification.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7533333333333333
+cot,0,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize context and tone to avoid misclassification.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7533333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize context and tone to avoid misclassification, and ensure that neutral or sarcastic/ironic statements are not incorrectly labeled as negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.75
+cot,0,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize context and tone to avoid misclassification, and ensure that neutral or sarcastic/ironic statements are not incorrectly labeled as negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.75,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize context and tone to avoid misclassification, and ensure that neutral or sarcastic/ironic statements are not incorrectly labeled as negative. Focus on identifying the intended sentiment rather than the literal wording.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7466666666666667
+cot,1,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7466666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79
+cot,2,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Avoid misclassifying sarcastic, ironic, or neutral expressions as negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.75
+cot,3,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize context and tone to avoid misclassification, and ensure that neutral or sarcastic/ironic statements are not incorrectly labeled as negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.75,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize context and tone to avoid misclassification, and ensure that neutral or sarcastic/ironic statements are not incorrectly labeled as negative. Pay special attention to cases where exhaustion, fatigue, or technical/ambiguous language may indicate neutral sentiment rather than negativity.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7133333333333334
+cot,4,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333
+cot,5,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666
+cot,6,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize context and tone to avoid misclassification.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7533333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize context and tone to avoid misclassification. Be especially cautious of sarcastic and ironic language, as well as phrases that are neutral or ambiguous in tone.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7466666666666667
+cot,7,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on contextual cues to determine the true sentiment, especially when language is informal or ambiguous.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7633333333333333
+cot,8,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666
+cot,9,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Specifically, be cautious of misclassifying sarcastic or ironic expressions as positive, avoid overgeneralizing neutral or ambiguous statements as negative, and ensure that expressions of longing or nostalgia are not automatically classified as positive.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.78
+cot,10,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and contextual cues that may affect the interpretation of emotionally charged language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7433333333333333
+cot,11,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Pay special attention to context-dependent phrases, sarcasm, and ambiguous emotional cues to prevent misclassification.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7766666666666666
+cot,12,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal. Do not assume negative intent in neutral or ambiguous language unless explicitly indicated by context.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7733333333333333
+cot,13,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333
+cot,14,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and mixed sentiment, and prioritizing the dominant sentiment over neutral or conflicting elements.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7266666666666667
+cot,15,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and mixed emotional contexts.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.74
+cot,16,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that neutral or ambiguous phrases are not misclassified as negative unless clearly expressing negative sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.76
+cot,17,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying negative intent in informal, colloquial, or ambiguous language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.6833333333333333
+cot,18,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79
+cot,19,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as negative, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Pay special attention to phrases that may appear negative but are actually positive due to context, tone, or intent.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7466666666666667
+cot,20,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and contextual nuances that may affect the sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7366666666666667
+cot,21,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous. Do not assume negative sentiment unless explicitly stated or strongly implied.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79
+cot,22,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal. Specifically address the risk of misinterpreting sarcasm or irony as positive, overgeneralizing neutral or ambiguous phrases as negative, and confusing negative intent with positive language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.78
+cot,23,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal. Pay special attention to context-dependent phrases and avoid misinterpreting them based on surface-level language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7766666666666666
+cot,24,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous. Avoid misclassifying sarcasm or irony as positive, and do not assume negative intent from neutral or ambiguous language unless explicitly indicated.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7766666666666666
+cot,25,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous. Do not assume negative sentiment unless explicitly stated or strongly implied.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous. Do not assume negative sentiment unless explicitly stated or strongly implied. Focus on identifying positive sentiment in sarcastic or ironic expressions when the overall tone and intent suggest a positive meaning.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333
+cot,26,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal. Pay special attention to context-dependent language, cultural references, and idiomatic expressions to avoid misinterpretation.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333
+cot,27,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification aligns with the sentiment expressed in the context, particularly when the language is ambiguous or non-literal. Pay special attention to phrases that may be context-dependent or have positive intent despite being phrased negatively.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.78
+cot,28,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of context-dependent phrases and ensure that neutral or sarcastic expressions are not misclassified as positive.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.78
+cot,29,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous. Do not assume negative intent unless explicitly stated or strongly implied.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7766666666666666
+cot,30,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous. Do not assume negative sentiment unless explicitly stated or strongly implied.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral/ambiguous phrases that may not clearly express negative sentiment. Prioritize identifying positive intent in informal, colloquial, or ambiguous language. Be cautious of misclassifying sarcastic or ironic expressions as positive, and avoid overgeneralizing neutral or ambiguous statements as negative. Focus on the overall tone and intent rather than isolated words. Ensure that the classification is not influenced by colloquial or informal language that may not align with standard sentiment lexicons. Explicitly consider the context and intent behind phrases that may appear neutral or ambiguous. Do not assume negative sentiment unless explicitly stated or strongly implied. Pay particular attention to sarcastic or ironic expressions, and distinguish between neutral/ambiguous statements and negative sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7833333333333333

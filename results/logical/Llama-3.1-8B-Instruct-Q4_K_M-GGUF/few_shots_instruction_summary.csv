@@ -1,0 +1,991 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,instruction,0,logical,,,,,,0.51,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem."
+summary,few_shots,instruction,1,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, temporal order, and relative positions based on the given information, considering both absolute and relative positions, and using this understanding to select the correct answer from the provided options, while prioritizing contextual understanding and temporal order over absolute relationships."
+summary,few_shots,instruction,2,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, temporal order, and relative positions based on the given information, considering both absolute and relative positions, and using this understanding to select the correct answer from the provided options, while prioritizing contextual understanding and temporal order over absolute relationships."
+summary,few_shots,instruction,3,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, temporal order, and relative positions based on the given information, considering both absolute and relative positions, and using this understanding to select the correct answer from the provided options, while prioritizing contextual understanding and temporal order over absolute relationships."
+summary,few_shots,instruction,4,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, temporal order, and relative positions based on the given information, considering both absolute and relative positions, and using this understanding to select the correct answer from the provided options, while prioritizing contextual understanding and temporal order over absolute relationships."
+summary,few_shots,instruction,5,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, considering both absolute and relative positions, and using this understanding to inform your selection of the correct answer from the provided options, while prioritizing contextual understanding and avoiding overemphasis on absolute relationships."
+summary,few_shots,instruction,6,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, considering both absolute and relative positions, and using this understanding to inform your selection of the correct answer from the provided options, while prioritizing contextual understanding and avoiding overemphasis on absolute relationships."
+summary,few_shots,instruction,7,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships and temporal order, while carefully balancing contextual understanding with absolute positions and relationships, and using this understanding to select the correct answer from the provided options."
+summary,few_shots,instruction,8,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships and temporal order, while carefully balancing contextual understanding with absolute positions and relationships, and using this understanding to select the correct answer from the provided options."
+summary,few_shots,instruction,9,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships and temporal order, while carefully balancing contextual understanding with absolute positions and relationships, and using this understanding to select the correct answer from the provided options."
+summary,few_shots,instruction,10,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships and temporal order, while carefully balancing contextual understanding with absolute positions and relationships, and using this understanding to select the correct answer from the provided options."
+summary,few_shots,instruction,11,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying and integrating contextual relationships, temporal order, and relative positions, considering both absolute and relative positions, and using this understanding to inform the selection of the correct answer from the provided options, while prioritizing contextual understanding, temporal order, and relative relationships over absolute relationships and individual pieces of information."
+summary,few_shots,instruction,12,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying and integrating contextual relationships, temporal order, and relative positions, considering both absolute and relative positions, and using this understanding to inform the selection of the correct answer from the provided options, while prioritizing contextual understanding, temporal order, and relative relationships over absolute relationships and individual pieces of information."
+summary,few_shots,instruction,13,logical,,,,,,0.5333333333333333,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying and integrating contextual relationships, temporal order, and relative positions, considering both absolute and relative positions, and using this understanding to inform the selection of the correct answer from the provided options, while prioritizing contextual understanding, temporal order, and relative relationships over absolute relationships and individual pieces of information."
+summary,few_shots,instruction,14,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,15,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,16,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,17,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,18,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,19,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,20,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,21,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,22,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,23,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,24,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,25,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,26,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,27,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,28,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,29,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,30,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,31,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,32,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,33,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,34,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,35,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,36,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,37,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,38,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,39,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,40,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,41,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,42,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,43,logical,,,,,,0.5466666666666666,,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."
+summary,few_shots,instruction,44,logical,,,,,,0.5466666666666666,0.45,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the logical reasoning problem by accurately identifying contextual relationships, relative positions, and temporal order based on the given information, and prioritize understanding the spatial arrangement, temporal order, and causal relationships between elements."

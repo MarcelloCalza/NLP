@@ -1,0 +1,1649 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,cot,multi,0,logical,,,,,,0.5066666666666667,,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,1,logical,,,,,,0.5466666666666666,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,2,logical,,,,,,0.5466666666666666,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,3,logical,,,,,,0.5466666666666666,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,4,logical,,,,,,0.5466666666666666,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,5,logical,,,,,,0.5466666666666666,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,6,logical,,,,,,0.55,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,7,logical,,,,,,0.55,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Ensure accurate interpretation of relative positions.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Apply constraints consistently to maintain accuracy."
+summary,cot,multi,8,logical,,,,,,0.55,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Ensure accurate interpretation of relative positions.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Apply constraints consistently to maintain accuracy."
+summary,cot,multi,9,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,10,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,11,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,12,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,13,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,14,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,15,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,16,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,17,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,18,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+Example 5:
+In a garden, there are five trees: a maple, a pine, an oak, a cherry, and a birch. The maple is the oldest. The cherry is the second-oldest. The birch is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry, birch
+Answer: cherry
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning.
+6. Consider all given constraints simultaneously.
+7. Prioritize the most accurate entity in case of ties or ambiguities.
+8. Ensure a precise understanding of the ordering constraints."
+summary,cot,multi,19,logical,,,,,,0.5533333333333333,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+**INSTRUCTION:**
+
+Accurately identify the correct entity among the given options based on its relative position or ordering. Prioritize consistency with the provided constraints. Handle ties or ambiguities by selecting the most accurate entity based on the given constraints. Ensure logical reasoning is precise and consistent with the given constraints.
+
+1. List all entities and their relationships.
+2. Prioritize entities based on given constraints.
+3. Identify the correct entity based on its position relative to others.
+4. Handle ties by selecting the most accurate entity based on provided constraints.
+5. Ensure consistency and accuracy in reasoning."
+summary,cot,multi,20,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+Example 5:
+In a garden, there are five trees: a maple, a pine, an oak, a cherry, and a birch. The maple is the oldest. The cherry is the second-oldest. The birch is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry, birch
+Answer: cherry
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. **List all entities and their relationships.**
+2. **Identify the relative position of each entity.**
+3. **Prioritize entities based on their relative positions.**
+4. **Handle ties by selecting the most accurate entity based on provided constraints.**
+5. **Ensure consistency and accuracy in reasoning.**"
+summary,cot,multi,21,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+Example 5:
+In a garden, there are five trees: a maple, a pine, an oak, a cherry, and a birch. The maple is the oldest. The cherry is the second-oldest. The birch is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry, birch
+Answer: cherry
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. **List all entities and their relationships.**
+2. **Identify the relative position of each entity.**
+3. **Prioritize entities based on their relative positions.**
+4. **Handle ties by selecting the most accurate entity based on provided constraints.**
+5. **Ensure consistency and accuracy in reasoning.**"
+summary,cot,multi,22,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+Example 5:
+In a garden, there are five trees: a maple, a pine, an oak, a cherry, and a birch. The maple is the oldest. The cherry is the second-oldest. The birch is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry, birch
+Answer: cherry
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. **List all entities and their relationships.**
+2. **Identify the relative position of each entity.**
+3. **Prioritize entities based on their relative positions.**
+4. **Handle ties by selecting the most accurate entity based on provided constraints.**
+5. **Ensure consistency and accuracy in reasoning.**"
+summary,cot,multi,23,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+Example 5:
+In a garden, there are five trees: a maple, a pine, an oak, a cherry, and a birch. The maple is the oldest. The cherry is the second-oldest. The birch is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry, birch
+Answer: cherry
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. **List all entities and their relationships.**
+2. **Identify the relative position of each entity.**
+3. **Prioritize entities based on their relative positions.**
+4. **Handle ties by selecting the most accurate entity based on provided constraints.**
+5. **Ensure consistency and accuracy in reasoning.**"
+summary,cot,multi,24,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+Example 5:
+In a garden, there are five trees: a maple, a pine, an oak, a cherry, and a birch. The maple is the oldest. The cherry is the second-oldest. The birch is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry, birch
+Answer: cherry
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. **List all entities and their relationships.**
+2. **Identify the relative positions of each entity.**
+3. **Prioritize entities based on their relative positions, with the most accurate entity being selected.**
+4. **Handle ties by selecting the most accurate entity based on provided constraints.**
+5. **Ensure consistency and accuracy in reasoning.**"
+summary,cot,multi,25,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+Example 5:
+In a garden, there are five trees: a maple, a pine, an oak, a cherry, and a birch. The maple is the oldest. The cherry is the second-oldest. The birch is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry, birch
+Answer: cherry
+
+INSTRUCTION:
+
+Solve the following logical reasoning problem.
+Handle ties or ambiguous ordering by selecting the entity that fits the given constraints most accurately.
+Prioritize identifying the correct entity based on relative positions or orderings.
+Ensure logical reasoning is accurate and consistent with the given constraints.
+
+1. **List all entities and their relationships.**
+2. **Identify the relative positions of each entity.**
+3. **Prioritize entities based on their relative positions, with the most accurate entity being selected.**
+4. **Handle ties by selecting the most accurate entity based on provided constraints.**
+5. **Ensure consistency and accuracy in reasoning.**"
+summary,cot,multi,26,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+INSTRUCTION:
+Prioritize accurately interpreting relative positions or orderings. Handle ties or ambiguous orderings by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with the constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints."
+summary,cot,multi,27,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+INSTRUCTION:
+Prioritize accurately interpreting relative positions or orderings. Handle ties or ambiguous orderings by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with the constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints."
+summary,cot,multi,28,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+INSTRUCTION:
+Ensure accurate interpretation of relative positions or orderings. Handle ties or ambiguous orderings by selecting the most accurate entity based on the given constraints. Maintain logical consistency with the constraints throughout the problem-solving process.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints."
+summary,cot,multi,29,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+INSTRUCTION:
+Ensure accurate interpretation of relative positions or orderings. Handle ties or ambiguous orderings by selecting the most accurate entity based on the given constraints. Maintain logical consistency with the constraints throughout the problem-solving process.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints."
+summary,cot,multi,30,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+INSTRUCTION:
+Ensure accurate interpretation of relative positions or orderings. Handle ties or ambiguous orderings by selecting the most accurate entity based on the given constraints. Maintain logical consistency with the constraints throughout the problem-solving process.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints."
+summary,cot,multi,31,logical,,,,,,0.56,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+INSTRUCTION:
+Ensure accurate interpretation of relative positions or orderings. Handle ties or ambiguous orderings by selecting the most accurate entity based on the given constraints. Maintain logical consistency with the constraints throughout the problem-solving process.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints."
+summary,cot,multi,32,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,33,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,34,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,35,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,36,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,37,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,38,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,39,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,40,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,41,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,42,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,43,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,44,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,45,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,46,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,47,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,48,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,49,logical,,,,,,0.5666666666666667,,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."
+summary,cot,multi,50,logical,,,,,,0.5666666666666667,0.47,"Example 1:
+In a garden, there are four trees: a maple, a pine, an oak, and a cherry. The maple is the oldest. The cherry is the second-oldest. The pine is the newest. The oak is the third-oldest.
+Which one is the second-newest?
+Choices: maple, pine, oak, cherry
+Answer: cherry
+
+Example 2:
+In a classroom, there are five desks: a wooden desk, a metal desk, a plastic desk, a glass desk, and a marble desk. The wooden desk is the oldest. The plastic desk is the second-oldest. The glass desk is the newest. The marble desk is the third-oldest.
+Which one is the second-newest?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk
+Answer: metal desk
+
+Example 3:
+In a library, there are six books: a history book, a science book, a math book, a literature book, a geography book, and a language book. The history book is to the left of the science book. The math book is to the right of the literature book. The geography book is the second from the left. The language book is to the left of the history book.
+Which one book is the second from the left?
+Choices: history, science, math, literature, geography, language
+Answer: geography
+
+Example 4:
+In a classroom, there are seven desks: a wooden desk, a metal desk, a plastic desk, a glass desk, a marble desk, a tile desk, and a stone desk. The wooden desk is to the left of the metal desk. The plastic desk is to the right of the tile desk. The marble desk is the second from the left. The stone desk is to the left of the marble desk.
+Which one desk is the third from the left?
+Choices: wooden desk, metal desk, plastic desk, glass desk, marble desk, tile desk, stone desk
+Answer: stone desk
+
+Example 5:
+In a zoo, there are six animals: a lion, a tiger, a bear, a giraffe, a zebra, and a monkey. The lion is the oldest. The tiger is the second-oldest. The bear is the newest. The giraffe is the third-oldest. The zebra is to the left of the monkey.
+Which one is the second-newest?
+Choices: lion, tiger, bear, giraffe, zebra, monkey
+Answer: tiger
+
+### INSTRUCTION:
+Accurately interpret relative positions or orderings. Resolve ties by selecting the most accurate entity based on given constraints. Ensure logical reasoning is accurate and consistent with constraints. Prioritize accuracy and consistency when interpreting constraints.
+
+1. Identify and list all entities and their relationships based on provided constraints.
+2. Establish the relative order of entities based on their positions or rankings.
+3. Select the entity that fits the given constraint position (e.g., second-newest, third from the left).
+4. Handle ties by selecting the most accurate entity based on the given constraints.
+5. Ensure the model prioritizes the most accurate interpretation of relative positions or orderings.
+6. Ensure the model provides consistent logical reasoning."

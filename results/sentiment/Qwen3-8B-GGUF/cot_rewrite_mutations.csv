@@ -1,0 +1,1185 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,rewrite,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82
+cot,0,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.",0.7633333333333333
+cot,0,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.",0.7633333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.",0.8066666666666666
+cot,0,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.",0.8066666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. If the sentiment is ambiguous or neutral, classify it as negative if the tone suggests frustration, sarcasm, or indirect disappointment.
+7. Avoid over-optimistic positive classifications by considering indirect expressions of fatigue or dissatisfaction.",0.67
+cot,1,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcastic or ironic phrasing, as these may not reflect the true sentiment.
+5. Be cautious of phrases like ""I wish"" or ""I miss you,"" which may indicate frustration or longing rather than positive sentiment.",0.8033333333333333
+cot,2,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.",0.7633333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667
+cot,3,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667
+cot,4,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Explicitly account for sarcasm, irony, and indirect expressions by analyzing the context and tone to avoid misclassification.
+5. Ensure that neutral or mixed sentiment is appropriately classified based on the overall emotional tone, rather than defaulting to negative.",0.81
+cot,5,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.",0.8066666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.",0.8166666666666667
+cot,6,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.
+7. If the sentiment is ambiguous, prioritize the dominant emotional tone rather than assuming negativity.",0.8133333333333334
+cot,7,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667
+cot,8,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.
+7. If the sentiment is ambiguous, prioritize the dominant emotional tone rather than assuming negativity.",0.8133333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.
+7. If the sentiment is ambiguous, prioritize the dominant emotional tone rather than assuming negativity.",0.8133333333333334
+cot,9,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.",0.8166666666666667
+cot,10,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.",0.8166666666666667
+cot,11,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667
+cot,12,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.
+7. If the sentiment is ambiguous, prioritize the dominant emotional tone rather than assuming negativity.",0.8133333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.
+7. If the sentiment is ambiguous, prioritize the dominant emotional tone rather than assuming negativity.",0.8133333333333334
+cot,13,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.
+7. If the sentiment is ambiguous, prioritize the dominant emotional tone rather than assuming negativity.",0.8133333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.
+7. If the sentiment is ambiguous, prioritize the dominant emotional tone rather than assuming negativity.",0.8133333333333334
+cot,14,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm and irony, as they may convey the opposite of the literal meaning.
+5. Do not assume negative sentiment based on neutral or ambiguous statements.",0.8133333333333334
+cot,15,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Specifically, recognize that sarcasm and irony may indicate positive sentiment, and expressions of missing someone may indicate positive sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment. If the sentiment is neutral or mixed, classify it as positive if there is any positive emotional content, or negative if there is any negative emotional content.",0.8
+cot,16,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm and irony, as they may convey the opposite of the literal meaning.
+5. Do not assume negative sentiment based on neutral or ambiguous statements.",0.8133333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context, tone, and indirect language.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm and irony, as they may convey the opposite of the literal meaning.
+5. Do not assume negative sentiment based on neutral or ambiguous statements.
+6. If the sentiment is neutral or ambiguous, classify it as neutral.
+7. Ensure that the classification reflects the intended meaning, not the literal wording, especially in cases of sarcasm or irony.",0.62
+cot,17,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667
+cot,18,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm and irony, as they may convey the opposite of the literal meaning.
+5. Do not assume negative sentiment based on neutral or ambiguous statements.",0.8133333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm and irony, as they may convey the opposite of the literal meaning.
+5. Do not assume negative sentiment based on neutral or ambiguous statements.
+6. Consider that nostalgia, humor, and sarcasm should not be automatically classified as negative.
+7. Prioritize the overall tone and context over isolated words or phrases.",0.8066666666666666
+cot,19,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83
+cot,20,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Do not assume negative sentiment based solely on context; analyze the emotional tone and intent of the statement.
+6. Expressions of longing, missing someone, or fatigue should not be assumed to be negative unless explicitly stated or implied through strong negative language.",0.8166666666666667
+cot,21,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Pay special attention to sarcasm and irony, which should be classified as negative unless explicitly positive.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may indicate positive sentiment.",0.7333333333333333
+cot,22,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82
+cot,23,rewrite,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent language.
+2. Determine whether they express positive, negative, or neutral sentiment.
+3. Decide the overall sentiment based on the dominant emotion, considering context and tone.",0.7833333333333333
+cot,24,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83
+cot,25,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82
+cot,26,rewrite,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and tone indicators.
+2. Determine whether they express positive, negative, or neutral sentiment.
+3. Decide the overall sentiment by considering context, sarcasm, and mixed signals.",0.78
+cot,27,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Note that expressions of missing someone or indirect language may not always indicate negative sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone. Consider that sarcasm, irony, and expressions of nostalgia can often convey positive sentiment.",0.82
+cot,28,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82
+cot,29,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect language, as they may not always reflect the actual sentiment.
+5. Do not classify neutral or factual statements as negative.",0.8166666666666667
+cot,30,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may indicate positive sentiment, such as nostalgia or affection.
+4. Be cautious of sarcasm or irony, which may mislead sentiment classification.",0.81
+cot,31,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82
+cot,32,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82
+cot,33,rewrite,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.  
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and frustration.  
+2. Determine whether they express positive, negative, or mixed sentiment.  
+3. Decide the overall sentiment, considering potential ambiguity or mixed signals.",0.77
+cot,34,rewrite,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context.
+2. Determine whether they express positive or negative sentiment, considering tone and intent.
+3. Decide the overall sentiment, ensuring neutral or mixed statements are appropriately classified.",0.7866666666666666
+cot,35,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. If the sentiment is neutral or unclear due to lack of emotional indicators, label it as neutral.",0.7033333333333334
+cot,36,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Do not assume negative sentiment unless explicitly stated or strongly implied through sarcasm, irony, or clear negative language.
+5. Avoid overgeneralizing neutral or ambiguous statements as negative.",0.8133333333333334
+cot,37,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Note that expressions of missing someone or indirect language may not always indicate negative sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone. Consider that sarcasm, irony, and expressions of nostalgia can often convey positive sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Note that expressions of missing someone or indirect language may not always indicate negative sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone. Consider that sarcasm, irony, and expressions of nostalgia can often convey positive sentiment.  
+4. Do not assume negative sentiment if the text expresses longing, nostalgia, or affection unless the tone is clearly negative.  
+5. Be cautious of sarcastic or ironic phrasing that may appear negative but actually convey a positive sentiment.",0.7633333333333333
+cot,38,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83
+cot,39,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Prioritize identifying sarcasm and irony, especially when they contradict the literal wording.
+10. Treat expressions of missing someone or indirect language as neutral or positive unless the tone clearly indicates sadness or disappointment.",0.82
+cot,40,rewrite,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, or context-dependent language.
+2. Determine whether they express positive, negative, or neutral sentiment.
+3. Consider the overall tone and context, including social media-specific language such as emojis, hashtags, or conversational tone.
+4. Decide the overall sentiment based on the most dominant emotional tone.",0.7933333333333333
+cot,41,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Note that expressions of missing someone or indirect language may not always indicate negative sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone. Consider that sarcasm, irony, and expressions of nostalgia can often convey positive sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Note that expressions of missing someone or indirect language may not always indicate negative sentiment. Also recognize that sarcasm, irony, and expressions of nostalgia can often convey positive sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone. Consider that expressions of tiredness or exhaustion do not necessarily indicate negative sentiment.",0.8333333333333334
+cot,42,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83
+cot,43,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Do not assume negative sentiment based on neutral or ambiguous statements.
+5. Be cautious of sarcasm and irony, which may not reflect the actual sentiment.",0.8233333333333334
+cot,44,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Do not assume negative sentiment based on neutral or ambiguous statements.
+5. Be cautious of sarcasm and irony, which may not reflect the actual sentiment.",0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Do not assume negative sentiment based on neutral or ambiguous statements.
+5. Be cautious of sarcasm and irony, which may not reflect the actual sentiment.
+6. Recognize that expressions of longing or hope can indicate positive sentiment.
+7. Consider that neutral or ambiguous statements should not be classified as negative unless clearly indicated.",0.8133333333333334
+cot,45,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83
+cot,46,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Do not assume negative sentiment based on neutral or ambiguous statements.
+5. Be cautious of sarcasm and irony, which may not reflect the actual sentiment.",0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Do not assume negative sentiment based on neutral or ambiguous statements.
+5. Be cautious of sarcasm and irony, which may not reflect the actual sentiment.
+6. Recognize that expressions of longing, being occupied, or neutral statements do not inherently indicate negative sentiment.",0.81
+cot,47,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Note that expressions of missing someone or indirect language may not always indicate negative sentiment. Also recognize that sarcasm, irony, and expressions of nostalgia can often convey positive sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone. Consider that expressions of tiredness or exhaustion do not necessarily indicate negative sentiment.",0.8333333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Note that expressions of missing someone or indirect language may not always indicate negative sentiment. Also recognize that sarcasm, irony, and expressions of nostalgia can often convey positive sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone. Consider that expressions of tiredness or exhaustion do not necessarily indicate negative sentiment.
+4. Specifically, do not classify sarcastic or ironic expressions as negative. Do not classify expressions of longing or missing someone as negative unless the context clearly indicates dissatisfaction.",0.7266666666666667
+cot,48,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.",0.83,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Be cautious of misclassifying sarcasm or irony as negative; consider the tone and context to determine if the sentiment is positive.
+10. Recognize that expressions of fatigue or tiredness may indicate negative sentiment, especially when combined with other negative cues.",0.8366666666666667
+cot,49,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Be cautious of misclassifying sarcasm or irony as negative; consider the tone and context to determine if the sentiment is positive.
+10. Recognize that expressions of fatigue or tiredness may indicate negative sentiment, especially when combined with other negative cues.",0.8366666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.
+3. Decide the overall sentiment based on the dominant emotional tone, considering that expressions of missing someone or indirect language may not always indicate negative sentiment.
+4. Pay special attention to sarcasm, irony, and indirect expressions of fatigue or disappointment, as they may not align with the literal wording.
+5. Recognize that expressions of nostalgia, humor, or lightheartedness do not necessarily indicate negative sentiment.
+6. Do not assume negative sentiment based on expressions of missing someone or indirect language unless explicitly stated.
+7. Consider that sarcastic or ironic phrases may convey positive sentiment if the tone is lighthearted or humorous.
+8. Interpret expressions of being ""fully occupied"" or ""busy"" as potentially neutral or positive, depending on context and tone.
+9. Be cautious of misclassifying sarcasm or irony as negative; consider the tone and context to determine if the sentiment is positive.
+10. Recognize that expressions of fatigue or tiredness may indicate negative sentiment, especially when combined with other negative cues.",0.8366666666666667
+cot,50,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Note that expressions of missing someone or indirect language may not always indicate negative sentiment. Also recognize that sarcasm, irony, and expressions of nostalgia can often convey positive sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone. Consider that expressions of tiredness or exhaustion do not necessarily indicate negative sentiment.",0.8333333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone. Note that expressions of missing someone or indirect language may not always indicate negative sentiment. Also recognize that sarcasm, irony, and expressions of nostalgia can often convey positive sentiment.
+3. Decide the overall sentiment based on the dominant emotional tone. Consider that expressions of tiredness or exhaustion do not necessarily indicate negative sentiment.  
+4. Pay special attention to sarcasm and irony, as they may indicate negative sentiment even if the tone appears positive.  
+5. Recognize that expressions of longing or nostalgia can be positive, even if they express a sense of loss.",0.8133333333333334

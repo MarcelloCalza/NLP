@@ -1,0 +1,562 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative.",0.6333333333333333
+few_shots,0,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative.",0.6333333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied.",0.6533333333333333
+few_shots,0,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied.",0.6533333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present.",0.6633333333333333
+few_shots,0,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present.",0.6633333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying genuine expressions of longing, indirect language, or ambiguous statements as negative.",0.71
+few_shots,1,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present.",0.6633333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative.",0.7033333333333334
+few_shots,2,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied.",0.6533333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic.",0.74
+few_shots,3,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative.",0.7033333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent.",0.7133333333333334
+few_shots,4,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent.",0.7133333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent. Focus on the explicit sentiment expressed in the text, and do not infer negative sentiment from ambiguity or ambiguity in tone.",0.72
+few_shots,5,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent. Focus on the explicit sentiment expressed in the text, and do not infer negative sentiment from ambiguity or ambiguity in tone.",0.72,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent. Focus on the explicit sentiment expressed in the text, and do not infer negative sentiment from ambiguity or ambiguity in tone. Explicitly consider the context and intent of the message when determining sentiment.",0.7533333333333333
+few_shots,6,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent. Focus on the explicit sentiment expressed in the text, and do not infer negative sentiment from ambiguity or ambiguity in tone.",0.72,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent. Focus on the explicit sentiment expressed in the text, and do not infer negative sentiment from ambiguity or ambiguity in tone. Use contextual clues to determine the intended sentiment, but avoid over-interpreting indirect or sarcastic language as negative.",0.7566666666666667
+few_shots,7,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic.",0.74,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative.",0.7933333333333333
+few_shots,8,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent. Focus on the explicit sentiment expressed in the text, and do not infer negative sentiment from ambiguity or ambiguity in tone. Use contextual clues to determine the intended sentiment, but avoid over-interpreting indirect or sarcastic language as negative.",0.7566666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent. Focus on the explicit sentiment expressed in the text, and do not infer negative sentiment from ambiguity or ambiguity in tone. Use contextual clues to determine the intended sentiment, but avoid over-interpreting indirect or sarcastic language as negative. Explicitly state the sentiment based on clear, unambiguous indicators rather than inferred or implied tone.",0.7666666666666667
+few_shots,9,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language.",0.79
+few_shots,10,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Consider context, sarcasm, and ambiguity when determining the sentiment. If the sentiment is unclear or neutral, classify it as negative.",0.6733333333333333
+few_shots,11,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. Explicitly label sarcastic, ironic, or indirect expressions of negativity as negative.",0.66
+few_shots,12,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent. Focus on the explicit sentiment expressed in the text, and do not infer negative sentiment from ambiguity or ambiguity in tone. Use contextual clues to determine the intended sentiment, but avoid over-interpreting indirect or sarcastic language as negative.",0.7566666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize identifying neutral or mixed tone when sarcasm, irony, or indirect language is present. Avoid misclassifying fragmented or informal language as negative. Ensure that the classification is based on clear indicators of sentiment rather than assumptions about tone or intent. Focus on the explicit sentiment expressed in the text, and do not infer negative sentiment from ambiguity or ambiguity in tone. Use contextual clues to determine the intended sentiment, but avoid over-interpreting indirect or sarcastic language as negative. If the sentiment is not clearly positive, label it as negative.",0.68
+few_shots,13,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification, ensuring that sarcasm and irony are appropriately recognized as positive when intended.",0.76
+few_shots,14,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333
+few_shots,15,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Focus on distinguishing between genuine negativity and expressions of exhaustion, frustration, or sarcasm that may appear negative but are actually positive.",0.7733333333333333
+few_shots,16,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Do not label ambiguous or neutral phrases as negative unless the sentiment is explicitly negative.",0.78
+few_shots,17,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. If the sentiment is not clearly positive, label it as negative.",0.7066666666666667
+few_shots,18,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.7766666666666666,"<think>
+
+</think>
+
+I absolutely loved the movie, it was amazing.  
+Answer: positive  
+
+This is the worst experience I've ever had.  
+Answer: negative  
+
+It was okay, nothing special.  
+Answer: negative  
+
+Classify the sentiment of the following tweet as positive or negative.  
+Pay special attention to sarcasm, irony, and informal language.  
+If the sentiment is neutral or mixed, classify it as negative.",0.6266666666666667
+few_shots,19,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333
+few_shots,20,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Do not label ambiguous or neutral phrases as negative unless the sentiment is explicitly negative.",0.78,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Do not label ambiguous or neutral phrases as negative unless the sentiment is explicitly negative. Focus on detecting sarcasm and irony by analyzing tone and context, and ensure that positive sentiment is not overlooked due to informal or fragmented language.",0.78
+few_shots,21,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Explicitly consider that fragmented or informal language may indicate positive sentiment when the context or tone suggests it.",0.76
+few_shots,22,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. If the sentiment is positive, label it as positive. If the sentiment is negative, label it as negative. If the sentiment is neutral or mixed, label it as negative.",0.75
+few_shots,23,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone.",0.7933333333333333
+few_shots,24,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Use the following criteria to guide your classification:  
+- Positive sentiment: Expresses satisfaction, appreciation, or optimism.  
+- Negative sentiment: Expresses dissatisfaction, disappointment, or pessimism.  
+- Neutral/mixed: Does not clearly express positive or negative sentiment.",0.7833333333333333
+few_shots,25,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Use the following criteria to guide your classification:  
+- Positive sentiment: Expresses satisfaction, appreciation, or optimism.  
+- Negative sentiment: Expresses dissatisfaction, disappointment, or pessimism.  
+- Neutral/mixed: Does not clearly express positive or negative sentiment.",0.7833333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Use the following criteria to guide your classification:  
+- Positive sentiment: Expresses satisfaction, appreciation, or optimism.  
+- Negative sentiment: Expresses dissatisfaction, disappointment, or pessimism.  
+- Neutral/mixed: Does not clearly express positive or negative sentiment.  
+- If the sentiment is ambiguous or the language is unclear, label it as negative.",0.78
+few_shots,26,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as neutral. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification.",0.75
+few_shots,27,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Use the following criteria to guide your classification:  
+- Positive sentiment: Expresses satisfaction, appreciation, or optimism.  
+- Negative sentiment: Expresses dissatisfaction, disappointment, or pessimism.  
+- Neutral/mixed: Does not clearly express positive or negative sentiment.",0.7833333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Use the following criteria to guide your classification:  
+- Positive sentiment: Expresses satisfaction, appreciation, or optimism.  
+- Negative sentiment: Expresses dissatisfaction, disappointment, or pessimism.  
+- Neutral/mixed: Does not clearly express positive or negative sentiment.  
+- Special Note: Sarcasm and irony should be interpreted as positive unless the context clearly indicates otherwise. Fragmented or informal language should be treated as neutral unless the sentiment is clearly negative.",0.7666666666666667
+few_shots,28,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. When in doubt, lean toward positive classification unless there is strong evidence of negativity.",0.75
+few_shots,29,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Explicitly distinguish sarcasm and irony from genuine negativity.",0.7766666666666666
+few_shots,30,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Use the following criteria to guide your classification:  
+- Positive sentiment: Expresses satisfaction, appreciation, or optimism.  
+- Negative sentiment: Expresses dissatisfaction, disappointment, or pessimism.  
+- Neutral/mixed: Does not clearly express positive or negative sentiment.",0.7833333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Use the following criteria to guide your classification:  
+- Positive sentiment: Expresses satisfaction, appreciation, or optimism.  
+- Negative sentiment: Expresses dissatisfaction, disappointment, or pessimism.  
+- Neutral/mixed: Does not clearly express positive or negative sentiment.  
+- If the sentiment is sarcastic, ironic, or indirect, determine whether it conveys a positive or negative meaning based on the underlying intent.  
+- Do not label as negative unless the sentiment is clearly negative or strongly implied.",0.7866666666666666
+few_shots,31,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Focus on identifying positive sentiment when the language is indirect, sarcastic, or ironic, and only label as negative if the sentiment is clearly negative.",0.77
+few_shots,32,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. Focus on identifying sarcasm and irony as positive when they express satisfaction or approval.",0.77
+few_shots,33,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm and irony are explicitly identified and not misclassified as positive. Do not label fragmented or informal language as negative unless the sentiment is clearly negative.",0.7333333333333333
+few_shots,34,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. When in doubt, lean toward positive classification if the sentiment is clearly positive, even if the language is indirect or informal.",0.7466666666666667
+few_shots,35,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language.",0.7933333333333333
+few_shots,36,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333
+few_shots,37,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language.",0.79,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. Specifically, do not label sarcasm, irony, or fragmented language as negative unless the sentiment is clearly negative.",0.8
+few_shots,38,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Focus on identifying positive sentiment in cases where the language is indirect, sarcastic, or ironic, and avoid misclassifying fragmented or informal language as negative unless the sentiment is clearly negative.",0.7866666666666666
+few_shots,39,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Explicitly consider sarcasm, irony, and exhaustion as potential indicators of negative sentiment.",0.6566666666666666
+few_shots,40,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Do not misclassify sarcasm or irony as negative. Do not assume negative intent based solely on informal or fragmented language unless the sentiment is clearly negative.",0.7666666666666667
+few_shots,41,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Do not label expressions that are self-deprecating or humorous as negative unless the sentiment is clearly negative.",0.7633333333333333
+few_shots,42,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. When evaluating sarcasm or irony, consider the overall context and whether the tone suggests genuine positivity. If the sentiment is ambiguous, lean toward positive classification unless there is clear evidence of negativity.",0.7733333333333333
+few_shots,43,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. Specifically, do not label sarcasm, irony, or fragmented language as negative unless the sentiment is clearly negative.",0.8,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. Specifically, do not label sarcasm, irony, or fragmented language as negative unless the sentiment is clearly negative. When in doubt, label the sentiment as negative.",0.75
+few_shots,44,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language. Focus on identifying positive sentiment when the language is indirect, sarcastic, or ironic, and avoid misclassifying neutral or mixed sentiment as negative unless the context strongly implies negativity.",0.7933333333333333
+few_shots,45,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language. Avoid misclassifying sarcasm or irony as positive. Do not assume negative intent unless explicitly stated or strongly implied.",0.76
+few_shots,46,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. Specifically, do not label sarcasm, irony, or fragmented language as negative unless the sentiment is clearly negative.",0.8,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Ensure that the classification is based on clear indicators of negativity, and avoid over-interpretation of neutral or ambiguous language. Specifically, do not label sarcasm, irony, or fragmented language as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification, including how you accounted for tone, context, and language style.",0.8
+few_shots,47,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language. Focus on identifying positive sentiment when the language is indirect, sarcastic, or ironic, and avoid misclassifying neutral or mixed sentiment as negative unless the context strongly implies negativity.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language. Focus on identifying positive sentiment when the language is indirect, sarcastic, or ironic, and avoid misclassifying neutral or mixed sentiment as negative unless the context strongly implies negativity. Explicitly distinguish between sarcasm and genuine negativity. Recognize indirect expressions of positivity, such as affection, enthusiasm, or admiration, even in informal or fragmented language.",0.8066666666666666
+few_shots,48,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. When analyzing sarcasm or irony, consider the context and the relationship between the speaker and the subject. If the tone is ambiguous, lean toward positive unless there is strong evidence of negativity.",0.76
+few_shots,49,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language. Focus on identifying positive sentiment when the language is indirect, sarcastic, or ironic, and avoid misclassifying neutral or mixed sentiment as negative unless the context strongly implies negativity. Explicitly distinguish between sarcasm and genuine negativity. Recognize indirect expressions of positivity, such as affection, enthusiasm, or admiration, even in informal or fragmented language.",0.8066666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative only if the context strongly suggests a negative tone. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language. Focus on identifying positive sentiment when the language is indirect, sarcastic, or ironic, and avoid misclassifying neutral or mixed sentiment as negative unless the context strongly implies negativity. Explicitly distinguish between sarcasm and genuine negativity. Recognize indirect expressions of positivity, such as affection, enthusiasm, or admiration, even in informal or fragmented language.",0.8166666666666667
+few_shots,50,rewrite,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language. Focus on identifying positive sentiment when the language is indirect, sarcastic, or ironic, and avoid misclassifying neutral or mixed sentiment as negative unless the context strongly implies negativity.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to sarcasm, irony, and indirect expressions. Consider the tone, context, and fragmented language. If the sentiment is neutral or mixed, label it as negative. Do not assume negative intent unless explicitly stated or strongly implied. Prioritize accuracy in identifying positive sentiment, especially in cases where the language is indirect, sarcastic, or ironic. Be cautious of fragmented or informal language and avoid misinterpreting it as negative unless the sentiment is clearly negative. Provide a clear rationale for your classification. Ensure that sarcasm, irony, and indirect expressions are carefully analyzed to avoid misclassification. Do not label neutral or mixed sentiment as negative unless the context strongly suggests a negative tone. Use contextual clues to differentiate between neutral/mixed and negative sentiment, especially in cases of fragmented or informal language. Focus on identifying positive sentiment when the language is indirect, sarcastic, or ironic, and avoid misclassifying neutral or mixed sentiment as negative unless the context strongly implies negativity.",0.7933333333333333

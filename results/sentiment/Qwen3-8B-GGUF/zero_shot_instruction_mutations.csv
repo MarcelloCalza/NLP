@@ -1,0 +1,283 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+zero_shot,0,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual cues.",0.65
+zero_shot,0,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual cues.",0.65,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual cues. Prioritize identifying positive sentiment in sarcastic or ironic statements, and avoid labeling neutral or ambiguous statements as negative.",0.6433333333333333
+zero_shot,0,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual cues. Prioritize identifying positive sentiment in sarcastic or ironic statements, and avoid labeling neutral or ambiguous statements as negative.",0.6433333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual cues. Prioritize identifying positive sentiment in sarcastic or ironic statements, and avoid labeling neutral or ambiguous statements as negative. Focus on contextual clues to accurately determine sentiment, especially in cases where the tone or intent contradicts the literal wording.",0.6866666666666666
+zero_shot,0,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual cues. Prioritize identifying positive sentiment in sarcastic or ironic statements, and avoid labeling neutral or ambiguous statements as negative. Focus on contextual clues to accurately determine sentiment, especially in cases where the tone or intent contradicts the literal wording.",0.6866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual cues. Prioritize identifying positive sentiment in sarcastic or ironic statements, and avoid labeling neutral or ambiguous statements as negative. Focus on contextual clues to accurately determine sentiment, especially in cases where the tone or intent contradicts the literal wording. Be cautious of misinterpreting sarcastic or ironic language as genuine positivity, and ensure that neutral or ambiguous expressions are not incorrectly labeled as negative.",0.7366666666666667
+zero_shot,1,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity.",0.7166666666666667
+zero_shot,2,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity.",0.7166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent.",0.7933333333333333
+zero_shot,3,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative.",0.7533333333333333
+zero_shot,4,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative.",0.7533333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive.",0.78
+zero_shot,5,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive.",0.78,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive. Explicitly prioritize identifying positive sentiment in cases where the tone is neutral or mixed, and avoid overgeneralizing negative labels.",0.7966666666666666
+zero_shot,6,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Ensure that sarcastic or ironic expressions are classified as negative unless the intent is clearly positive.",0.6933333333333334
+zero_shot,7,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative.",0.7533333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language.",0.7866666666666666
+zero_shot,8,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual ambiguity.",0.6566666666666666
+zero_shot,9,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Ensure that neutral or sarcastic language is not misclassified as positive.",0.7166666666666667
+zero_shot,10,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that sarcasm and irony are interpreted in favor of positive sentiment when contextually appropriate.",0.77
+zero_shot,11,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and ambiguous expressions. If the sentiment is unclear, classify as negative.",0.5966666666666667
+zero_shot,12,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying negative sentiment in indirect or subtle expressions and distinguish between positive tone and negative intent.",0.58
+zero_shot,13,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Pay special attention to emotionally charged language and ensure that frustration, exhaustion, or relief in the face of a problem are accurately classified as negative.",0.7366666666666667
+zero_shot,14,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and indirect expressions of sentiment.",0.6733333333333333
+zero_shot,15,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Pay special attention to cases where exhaustion, fatigue, or anxiety may indicate underlying negative sentiment, and ensure sarcasm and irony are not misinterpreted as positive.",0.67
+zero_shot,16,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent.",0.7933333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Ensure that sarcastic or ironic expressions are correctly identified as negative, and avoid misclassifying frustration or disappointment as positive.",0.64
+zero_shot,17,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive.",0.78,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive. Specifically address failure patterns by distinguishing sarcasm from genuine negativity, avoiding misclassification of mixed or neutral tone as positive, and prioritizing negative intent over positive intent in ambiguous or sarcastic contexts.",0.7433333333333333
+zero_shot,18,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that sarcasm, frustration, or exhaustion are not misclassified as positive.",0.67
+zero_shot,19,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous.",0.8033333333333333
+zero_shot,20,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language.",0.7866666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure the classification reflects the true intent, especially in cases of sarcasm, irony, or mixed sentiment.",0.79
+zero_shot,21,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive. Explicitly prioritize identifying positive sentiment in cases where the tone is neutral or mixed, and avoid overgeneralizing negative labels.",0.7966666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Explicitly prioritize identifying positive sentiment in cases where the tone is neutral or mixed, and avoid overgeneralizing negative labels. Ensure that expressions of exhaustion, frustration, or neutral tone are not misclassified as positive. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate.",0.79
+zero_shot,22,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive. Explicitly prioritize identifying positive sentiment in cases where the tone is neutral or mixed, and avoid overgeneralizing negative labels.",0.7966666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, prioritizing accuracy in detecting sarcasm, irony, and ambiguous language. Distinguish between negative tone and positive intent, and avoid misclassifying subtle or mixed sentiment as negative. Explicitly prioritize identifying positive sentiment in cases where the tone is neutral or mixed, while ensuring that exhaustion, frustration, or neutral tone are not misclassified as positive. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and consider conversational tone and context-dependent negativity.",0.7933333333333333
+zero_shot,23,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive. Explicitly prioritize identifying positive sentiment in cases where the tone is neutral or mixed, and avoid overgeneralizing negative labels.",0.7966666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive. Explicitly prioritize identifying positive sentiment in cases where the tone is neutral or mixed, and avoid overgeneralizing negative labels. Be cautious of misclassifying sarcasm or irony as positive when the sentiment is genuinely negative.",0.8
+zero_shot,24,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous.",0.8033333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous. Be especially cautious of sarcasm, irony, and context-dependent negativity that may mask the actual sentiment.",0.8033333333333333
+zero_shot,25,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive. Explicitly prioritize identifying positive sentiment in cases where the tone is neutral or mixed, and avoid overgeneralizing negative labels.",0.7966666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions while distinguishing between negative tone and positive intent. Explicitly prioritize identifying positive sentiment in cases where the tone is neutral or mixed, and avoid overgeneralizing negative labels. Ensure that exhaustion, frustration, or neutral tone are not misclassified as positive. When evaluating sarcasm or irony, prioritize identifying them as negative unless the intent is clearly positive.",0.7633333333333333
+zero_shot,26,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous.",0.8033333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous. Be especially cautious of sarcastic or ironic expressions that may appear negative on the surface but convey a positive sentiment.",0.7966666666666666
+zero_shot,27,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous.",0.8033333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous. Avoid misclassifying sarcasm, irony, or context-dependent negativity as genuine negativity.",0.81
+zero_shot,28,instruction,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, emotional context, and multilingual or non-standard language inputs.",0.7233333333333334
+zero_shot,29,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous. Be especially cautious of sarcasm, irony, and context-dependent negativity that may mask the actual sentiment.",0.8033333333333333,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous. Be especially cautious of sarcasm, irony, and context-dependent negativity that may mask the actual sentiment. Prioritize positive intent in ambiguous or context-dependent language.",0.7966666666666666
+zero_shot,30,instruction,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous. Avoid misclassifying sarcasm, irony, or context-dependent negativity as genuine negativity.",0.81,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and ambiguous language, and consider conversational tone and context-dependent negativity. Prioritize identifying positive sentiment in indirect or subtle expressions and distinguish between negative tone and positive intent. Focus on accurately interpreting sarcastic or ironic expressions as positive when appropriate, and avoid misclassifying subtle or mixed sentiment as negative. Pay particular attention to cases where context-dependent negativity or exhaustion may override surface-level positive language. Ensure that the classification reflects the true emotional tone, even when the language is indirect or ambiguous. Avoid misclassifying sarcasm, irony, or context-dependent negativity as genuine negativity. Specifically address failure patterns by ensuring sarcasm and irony are correctly identified as positive when appropriate, context-dependent negativity is prioritized over surface-level language, and subtle or indirect expressions are interpreted with care to avoid misclassification.",0.7933333333333333

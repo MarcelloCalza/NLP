@@ -1,0 +1,1891 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the overall tone, context, and potential use of sarcasm or irony.",0.7533333333333333
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the overall tone, context, and potential use of sarcasm or irony.",0.7533333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the overall tone, context, and potential use of sarcasm, irony, or nuanced language, to accurately capture the speaker's intended meaning.",0.76
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the overall tone, context, and potential use of sarcasm, irony, or nuanced language, to accurately capture the speaker's intended meaning.",0.76,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the context, tone, and potential use of nuanced language, sarcasm, irony, or figurative language, and accurately capture the speaker's intended meaning, while prioritizing the detection of subtle cues and the consideration of the surrounding context.",0.78
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the context, tone, and potential use of nuanced language, sarcasm, irony, or figurative language, and accurately capture the speaker's intended meaning, while prioritizing the detection of subtle cues and the consideration of the surrounding context.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the context, tone, and potential use of nuanced language, sarcasm, irony, or figurative language, while accurately capturing the speaker's intended meaning and prioritizing the detection of subtle cues and nuanced language, particularly when it comes to sarcasm and irony.",0.7633333333333333
+few_shots,1,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the context, tone, and potential use of nuanced language, sarcasm, irony, or figurative language, and accurately capture the speaker's intended meaning, while prioritizing the detection of subtle cues and the consideration of the surrounding context.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the nuanced language, tone, and context, and accurately capturing the speaker's intended meaning, while prioritizing the detection of subtle cues and the consideration of the surrounding context, including potential use of sarcasm, irony, or figurative language.",0.78
+few_shots,2,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the context, tone, and potential use of nuanced language, sarcasm, irony, or figurative language, and accurately capture the speaker's intended meaning, while prioritizing the detection of subtle cues and the consideration of the surrounding context.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the nuanced use of language, the potential presence of sarcasm, irony, or figurative language, and accurately capturing the speaker's intended meaning in the context of the surrounding text.",0.7733333333333333
+few_shots,3,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the context, tone, and potential use of nuanced language, sarcasm, irony, or figurative language, while accurately capturing the speaker's intended meaning and prioritizing the detection of subtle cues and nuanced language, particularly when it comes to sarcasm and irony.",0.7633333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the context, tone, and potential use of nuanced language, sarcasm, irony, or figurative language, while accurately capturing the speaker's intended meaning, prioritizing the detection of subtle cues and nuanced language, and specifically recognizing sarcasm, irony, and figurative language to avoid misinterpretation and accurately reflect the speaker's sentiment, particularly when it comes to subtle language and nuanced expressions.",0.7633333333333333
+few_shots,4,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the nuanced use of language, the potential presence of sarcasm, irony, or figurative language, and accurately capturing the speaker's intended meaning in the context of the surrounding text.",0.7733333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the nuanced use of language, the potential presence of sarcasm, irony, or figurative language, and accurately capturing the speaker's intended meaning, while being cautious not to overemphasize explicit sentiment words and recognizing the subtleties of context and speaker intent.",0.7933333333333333
+few_shots,5,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the nuanced language, tone, and context, and accurately capturing the speaker's intended meaning, while prioritizing the detection of subtle cues and the consideration of the surrounding context, including potential use of sarcasm, irony, or figurative language.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering nuanced language, tone, and context, while accurately capturing the speaker's intended meaning, and being cautious of potential use of sarcasm, irony, or figurative language, which may convey subtle cues and require careful consideration of the surrounding context.",0.7866666666666666
+few_shots,6,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the nuanced use of language, the potential presence of sarcasm, irony, or figurative language, and accurately capturing the speaker's intended meaning, while being cautious not to overemphasize explicit sentiment words and recognizing the subtleties of context and speaker intent.",0.7933333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, the potential presence of sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words and recognizing the subtleties of context and speaker intent.",0.7866666666666666
+few_shots,7,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering the overall context, nuances, and potential sarcasm, as positive or negative.",0.7933333333333333
+few_shots,8,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering nuanced language, tone, and context, while accurately capturing the speaker's intended meaning, and being cautious of potential use of sarcasm, irony, or figurative language, which may convey subtle cues and require careful consideration of the surrounding context.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while carefully considering nuanced language, tone, implied meaning, and context, being cautious of potential use of sarcasm, irony, or figurative language that may convey subtle cues and require careful consideration of the surrounding context, and accurately capturing the speaker's intended meaning.",0.7833333333333333
+few_shots,9,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, the potential presence of sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words and recognizing the subtleties of context and speaker intent.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, the potential presence of sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words, and recognizing the subtleties of context and speaker intent in order to minimize the influence of potential biases and maximize the model's ability to generalize to unseen instances.",0.7933333333333333
+few_shots,10,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, the potential presence of sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words, and recognizing the subtleties of context and speaker intent in order to minimize the influence of potential biases and maximize the model's ability to generalize to unseen instances.",0.7933333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, potential sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words, nor underemphasize contextual and implicit cues, and recognizing the subtleties of context and speaker intent in order to minimize the influence of potential biases and maximize the model's ability to generalize to unseen instances.",0.8
+few_shots,11,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82
+few_shots,12,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, the potential presence of sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words, and recognizing the subtleties of context and speaker intent in order to minimize the influence of potential biases and maximize the model's ability to generalize to unseen instances.",0.7933333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, the potential presence of sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words, to minimize the influence of potential biases and maximize the model's ability to generalize to unseen instances by capturing the nuanced subtleties of context and speaker intent.",0.7933333333333333
+few_shots,13,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, potential sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words, nor underemphasize contextual and implicit cues, and recognizing the subtleties of context and speaker intent in order to minimize the influence of potential biases and maximize the model's ability to generalize to unseen instances.",0.8,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, potential sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words, nor underemphasize contextual and implicit cues, and recognizing the subtleties of context and speaker intent in order to minimize the influence of potential biases and maximize the model's ability to generalize to unseen instances, with a focus on contextual understanding, nuance, and subtlety, and a heightened sensitivity to potential sarcasm, irony, and figurative language.",0.78
+few_shots,14,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, considering the context in which the language is used and accounting for the nuances of sarcasm and irony.",0.7166666666666667
+few_shots,15,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning by considering both explicit and implicit sentiment, the potential presence of sarcasm, irony, or figurative language, and being cautious not to overemphasize explicit sentiment words, and recognizing the subtleties of context and speaker intent in order to minimize the influence of potential biases and maximize the model's ability to generalize to unseen instances.",0.7933333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet as positive or negative, while accurately capturing the speaker's intended meaning, considering both explicit and implicit sentiment, the potential presence of sarcasm, irony, or figurative language, and the context in which the sentiment is expressed.",0.7966666666666666
+few_shots,16,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both the explicit language and the implicit context, to determine whether the overall tone is genuinely positive or negative.",0.8066666666666666
+few_shots,17,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both the explicit language and the implicit context, to determine whether the overall tone is genuinely positive or negative.",0.8066666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both explicit language, implicit negation, and context-dependent tone, to accurately determine whether the overall tone is genuinely positive or negative.",0.81
+few_shots,18,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both explicit language, implicit negation, and context-dependent tone, to accurately determine whether the overall tone is genuinely positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet with consideration for both explicit language, implicit cues, context-dependent tone, and nuanced sentiment expressions, to accurately determine whether the overall tone is genuinely positive or negative.",0.8033333333333333
+few_shots,19,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both the explicit language and the implicit context, to determine whether the overall tone is genuinely positive or negative.",0.8066666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both explicit language and implicit context, while being cautious of potential sarcasm and irony, to determine whether the overall tone is genuinely positive or negative.",0.7833333333333333
+few_shots,20,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both the explicit language and the implicit context, to determine whether the overall tone is genuinely positive or negative.",0.8066666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both explicit language and implicit context, while being cautious of irony, sarcasm, and overreliance on specific keywords, to determine whether the overall tone is genuinely positive or negative.",0.8033333333333333
+few_shots,21,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering the nuances of language, idiomatic expressions, and the overall context to accurately determine whether the tone is positive or negative.",0.81
+few_shots,22,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both the explicit language and the implicit context, to determine whether the overall tone is genuinely positive or negative.",0.8066666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet by considering both explicit language, implicit context, and nuanced expressions of sarcasm and irony to determine whether the overall tone is genuinely positive or negative.",0.7666666666666667
+few_shots,23,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both explicit language, implicit negation, and context-dependent tone, to accurately determine whether the overall tone is genuinely positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both explicit language, implicit negation, and context-dependent tone, to accurately determine whether the overall tone is genuinely positive or negative, while being cautious of potential sarcasm and irony, and ensuring that the classification is based on the nuances of the language used in the tweet.",0.7866666666666666
+few_shots,24,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both explicit language, implicit negation, and context-dependent tone, to accurately determine whether the overall tone is genuinely positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both explicit language, implicit negation, context-dependent tone, and the nuanced use of irony and sarcasm, to accurately determine whether the overall tone is genuinely positive or negative.",0.7633333333333333
+few_shots,25,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering the nuances of language, idiomatic expressions, and the overall context to accurately determine whether the tone is positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet with nuanced understanding, considering idiomatic expressions, contextual ambiguity, and the potential for irony or sarcasm to accurately determine whether the tone is positive or negative.",0.79
+few_shots,26,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the overall context, emotional tone, and nuances of informal language commonly used in social media platforms.",0.8
+few_shots,27,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering the possibility of sarcasm, irony, idioms, and colloquialisms, and providing a nuanced understanding of the tone, as the context may significantly influence the sentiment classification.",0.76
+few_shots,28,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and underlying implications to determine whether the overall tone is positive or negative, taking into account both explicit and implicit language.",0.8166666666666667
+few_shots,29,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering the overall tone and nuance, and explicitly accounting for context, sarcasm, and irony, to determine whether the sentiment is positive or negative.",0.7866666666666666
+few_shots,30,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the potential for non-literal language, to determine whether the overall tone is positive or negative.",0.8166666666666667
+few_shots,31,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering the nuances of language, idiomatic expressions, and the overall context to accurately determine whether the tone is positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering the nuances of language, idiomatic expressions, context, and the potential for implicit sentiment, to accurately determine whether the tone is positive or negative.",0.8133333333333334
+few_shots,32,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering the nuances of language, idiomatic expressions, and the overall context to accurately determine whether the tone is positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet with nuanced consideration of language, idiomatic expressions, and context to accurately capture the tone's subtleties and determine whether it is overall positive or negative.",0.8066666666666666
+few_shots,33,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the presence of both positive and negative language, to accurately determine whether the overall tone is positive or negative.",0.83
+few_shots,34,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and implied tone, to determine whether the overall tone is positive or negative, while being cautious of sarcasm, irony, and overemphasis on positive language.",0.79
+few_shots,35,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the presence of both positive and negative language, to accurately determine whether the overall tone is positive or negative.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both the presence of positive and negative language as well as the broader context in which it is expressed, to accurately determine whether the overall tone is positive or negative, while being cautious of potential ambiguity, humor, and irony.",0.8166666666666667
+few_shots,36,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and underlying implications to determine whether the overall tone is positive or negative, taking into account both explicit and implicit language.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and underlying implications to determine whether the overall tone is positive or negative, taking into account both explicit and implicit language, as well as figurative, sarcastic, or ironic expressions, and nuanced sentiment that may involve mixed emotions or complex contexts.",0.8033333333333333
+few_shots,37,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and underlying implications to determine whether the overall tone is positive or negative, taking into account both explicit and implicit language.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, taking into account both explicit and implicit language, considering context and nuances to determine whether the overall tone is positive or negative, and being aware of the potential presence of sarcasm and irony.",0.7566666666666667
+few_shots,38,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and underlying implications to determine whether the overall tone is positive or negative, taking into account both explicit and implicit language.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, taking into account both explicit and implicit language, as well as context, nuance, and underlying implications, and consider the potential for sarcasm and irony in your classification.",0.7466666666666667
+few_shots,39,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the presence of both positive and negative language, to accurately determine whether the overall tone is positive or negative.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the presence of both positive and negative language, to accurately determine whether the overall tone is positive or negative, while avoiding overemphasis on positive language, recognizing sarcasm and irony, and accounting for limited contextual understanding.",0.7266666666666667
+few_shots,40,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and underlying implications to determine whether the overall tone is positive or negative, taking into account both explicit and implicit language.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet by considering both explicit and implicit language, as well as the underlying implications and context, to accurately determine whether the overall tone is positive or negative.",0.7966666666666666
+few_shots,41,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both the presence of positive and negative language as well as the broader context in which it is expressed, to accurately determine whether the overall tone is positive or negative, while being cautious of potential ambiguity, humor, and irony.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet with attention to both the explicit language and the underlying context, while being cautious of potential ambiguity, humor, and irony, to accurately determine whether the overall tone is positive or negative.",0.7933333333333333
+few_shots,42,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both the explicit language and the context in which it's written, to determine whether the overall tone is positive, negative, or nuanced.",0.81
+few_shots,43,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the presence of both positive and negative language, to accurately determine whether the overall tone is positive or negative.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet by considering both the explicit language and the overall tone, taking into account context, nuance, and the presence of both positive and negative language, to accurately determine whether the overall sentiment is positive or negative.",0.8033333333333333
+few_shots,44,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the presence of both positive and negative language, to accurately determine whether the overall tone is positive or negative.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the presence of both positive and negative language, while being aware of potential pitfalls such as sarcasm, irony, and strong language, and also accounting for mixed sentiments and the need for nuanced analysis to accurately determine whether the overall tone is positive or negative.",0.8
+few_shots,45,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and potential irony or sarcasm to determine whether the overall tone is positive or negative.",0.8066666666666666
+few_shots,46,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the potential for non-literal language, to determine whether the overall tone is positive or negative.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the potential for non-literal language, while being cautious of indirect statements, recognizing nuance in neutral statements, and accurately interpreting figurative language, to determine whether the overall tone is positive or negative.",0.8266666666666667
+few_shots,47,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the potential for non-literal language, while being cautious of indirect statements, recognizing nuance in neutral statements, and accurately interpreting figurative language, to determine whether the overall tone is positive or negative.",0.8266666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet with consideration for context, nuance, and non-literal language, while being cautious of indirect statements and accurately interpreting figurative language to determine whether the overall tone is positive or negative.",0.8133333333333334
+few_shots,48,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both the presence of positive and negative language as well as the broader context in which it is expressed, to accurately determine whether the overall tone is positive or negative, while being cautious of potential ambiguity, humor, and irony.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet with careful consideration of both the presence of positive and negative language and the broader context in which it is expressed, being cautious of potential ambiguity, humor, and irony to accurately determine whether the overall tone is positive or negative.",0.81
+few_shots,49,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context and nuance to determine whether the overall tone is positive or negative.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet with consideration for both literal and contextual meaning, nuance, idioms, and colloquial expressions to accurately determine whether the overall tone is positive or negative.",0.8166666666666667
+few_shots,50,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering context, nuance, and the presence of both positive and negative language, to accurately determine whether the overall tone is positive or negative.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the given tweet, considering both positive and negative language, contextual factors, and the potential for sarcastic or ironic language, to accurately determine whether the overall tone is positive or negative, balancing the influence of both positive and negative cues.",0.7833333333333333

@@ -1,0 +1,1436 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,cot,multi,0,logical,,,,,,0.4766666666666667,,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity."
+summary,cot,multi,1,logical,,,,,,0.5033333333333333,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Solve the following logical reasoning problem.
+
+1. Identify the comparative statements and their context.
+2. Extract the entities and their relationships.
+3. Analyze the spatial relationships and constraints.
+4. Determine the correct order of entities based on the given information and relationships.
+5. Verify consistency by checking for contradictions.
+6. Identify the correct entity by evaluating the relationships and constraints.
+7. Refine the answer by considering the context and comparative statements."
+summary,cot,multi,2,logical,,,,,,0.5033333333333333,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Solve the following logical reasoning problem.
+
+1. Identify the comparative statements and their context.
+2. Extract the entities and their relationships.
+3. Analyze the spatial relationships and constraints.
+4. Determine the correct order of entities based on the given information and relationships.
+5. Verify consistency by checking for contradictions.
+6. Identify the correct entity by evaluating the relationships and constraints.
+7. Refine the answer by considering the context and comparative statements."
+summary,cot,multi,3,logical,,,,,,0.5166666666666667,,"Example 1: 
+A bookstore has six books: novels, poetry collections, biographies, self-help books, cookbooks, and textbooks. The novels are more expensive than the poetry collections. The cookbooks are the cheapest. The textbooks are more expensive than the self-help books. The biographies are less expensive than the novels. The novels are less expensive than the textbooks. Which one s are the second-cheapest?
+Choices:poetry collection, novel, cookbook, self-help book, biography, textbook
+Answer: poetry collection
+
+Example 2: 
+A grocery store sells ten items: cheese, bread, milk, eggs, chicken, beef, pork, fish, pasta, and rice. The beef is more expensive than the pork. The chicken is less expensive than the beef. The fish is more expensive than the chicken. The eggs are the cheapest. The pork is less expensive than the fish. The milk is less expensive than the eggs. The rice is less expensive than the pasta. The pasta is more expensive than the rice. Which one s are the third-cheapest?
+Choices:chicken, beef, pork, fish, cheese, bread, milk, eggs, pasta, rice
+Answer: eggs
+
+Solve the following logical reasoning problem.
+
+1. Identify comparative statements, context, entities, and their relationships.
+2. Analyze spatial relationships, constraints, and contextual information.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency with contextual information.
+5. Evaluate the most expensive entity based on explicit context or comparative statements.
+6. Verify spatial relationships between entities and constraints.
+7. Refine the answer based on context, comparative statements, relationships, and consistency."
+summary,cot,multi,4,logical,,,,,,0.53,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a library, there are four sections: Fiction, Non-Fiction, Biography, and Science. The Fiction section is two shelves above the Biography section. The Science section is three shelves above the Non-Fiction section. Which one is two shelves above the Biography section?
+Answer: Fiction
+
+Example 4: 
+In a city, there are three districts: North, South, and East. The North district is west of the East district. The South district is not east of the North district. Which one is west of the East district?
+Answer: North
+
+Solve the logical reasoning problem, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,5,logical,,,,,,0.54,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Solve the logical reasoning problem, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,6,logical,,,,,,0.54,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Solve the logical reasoning problem, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,7,logical,,,,,,0.54,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Solve the logical reasoning problem, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,8,logical,,,,,,0.54,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Solve the logical reasoning problem, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,9,logical,,,,,,0.54,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Solve the logical reasoning problem, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,10,logical,,,,,,0.54,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Solve the logical reasoning problem, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,11,logical,,,,,,0.54,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a library, there are four sections: Fiction, Non-Fiction, Biography, and Science. The Fiction section is two shelves above the Biography section. The Science section is three shelves above the Non-Fiction section. Which one is two shelves above the Biography section?
+Answer: Fiction
+
+Example 4: 
+In a city, there are three districts: North, South, and East. The North district is west of the East district. The South district is not east of the North district. Which one is west of the East district?
+Answer: North
+
+Example 5: 
+In a museum, there are five galleries: Ancient, Modern, Impressionist, Contemporary, and Abstract. The Ancient gallery is adjacent to the Modern gallery. The Impressionist gallery is adjacent to the Contemporary gallery. The Abstract gallery is not adjacent to the Impressionist gallery. Which one is adjacent to the Modern gallery?
+Answer: Ancient
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,12,logical,,,,,,0.54,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a library, there are four sections: Fiction, Non-Fiction, Biography, and Science. The Fiction section is two shelves above the Biography section. The Science section is three shelves above the Non-Fiction section. Which one is two shelves above the Biography section?
+Answer: Fiction
+
+Example 4: 
+In a city, there are three districts: North, South, and East. The North district is west of the East district. The South district is not east of the North district. Which one is west of the East district?
+Answer: North
+
+Example 5: 
+In a museum, there are five galleries: Ancient, Modern, Impressionist, Contemporary, and Abstract. The Ancient gallery is adjacent to the Modern gallery. The Impressionist gallery is adjacent to the Contemporary gallery. The Abstract gallery is not adjacent to the Impressionist gallery. Which one is adjacent to the Modern gallery?
+Answer: Ancient
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,13,logical,,,,,,0.54,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a library, there are four sections: Fiction, Non-Fiction, Biography, and Science. The Fiction section is two shelves above the Biography section. The Science section is three shelves above the Non-Fiction section. Which one is two shelves above the Biography section?
+Answer: Fiction
+
+Example 4: 
+In a city, there are three districts: North, South, and East. The North district is west of the East district. The South district is not east of the North district. Which one is west of the East district?
+Answer: North
+
+Example 5: 
+In a museum, there are five galleries: Ancient, Modern, Impressionist, Contemporary, and Abstract. The Ancient gallery is adjacent to the Modern gallery. The Impressionist gallery is adjacent to the Contemporary gallery. The Abstract gallery is not adjacent to the Impressionist gallery. Which one is adjacent to the Modern gallery?
+Answer: Ancient
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,14,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,15,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,16,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,17,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,18,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,19,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,20,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,21,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,22,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,23,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,24,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,25,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,26,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,27,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,28,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is above class B?
+Answer: A
+
+Example 2: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3, but it is below the restaurant. Which one is on floor 2?
+Answer: Gym
+
+Example 3: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum B. Which one is located north of museum B?
+Answer: C
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: D
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located south of building D. Building E is located east of building A, but it is not located north of building B. Which one is located north of building B?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify comparative statements and context, then extract entities and their relationships.
+2. Analyze spatial relationships, constraints, and contextual relationships.
+3. Determine the correct order of entities based on given information, relationships, and context.
+4. Check for contradictions and verify consistency.
+5. Evaluate relationships, constraints, and context to identify the correct entity.
+6. Refine the answer based on context, comparative statements, and relationships."
+summary,cot,multi,29,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by prioritizing contextual analysis, considering indirect relationships and broader contextual implications, evaluating relationships, constraints, and context to ensure accurate entity identification and ordering, and thoroughly evaluating all relationships and constraints to avoid overlooking critical aspects.
+
+1. Identify entities and their relationships.
+2. Analyze spatial relationships and constraints.
+3. Identify contextual relationships and constraints.
+4. Determine the correct order of entities based on given information.
+5. Check for contradictions and verify consistency.
+6. Refine the answer based on relationships and context.
+7. Consider all details and relationships between entities.
+8. Evaluate relationships, constraints, and context to identify the correct entity.
+9. Prioritize contextual analysis and relationships over other factors.
+10. Verify the answer against all relationships and constraints."
+summary,cot,multi,30,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by prioritizing contextual analysis, considering indirect relationships and broader contextual implications, evaluating relationships, constraints, and context to ensure accurate entity identification and ordering, and thoroughly evaluating all relationships and constraints to avoid overlooking critical aspects.
+
+1. Identify entities and their relationships.
+2. Analyze spatial relationships and constraints.
+3. Identify contextual relationships and constraints.
+4. Determine the correct order of entities based on given information.
+5. Check for contradictions and verify consistency.
+6. Refine the answer based on relationships and context.
+7. Consider all details and relationships between entities.
+8. Evaluate relationships, constraints, and context to identify the correct entity.
+9. Prioritize contextual analysis and relationships over other factors.
+10. Verify the answer against all relationships and constraints."
+summary,cot,multi,31,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by prioritizing contextual analysis, considering indirect relationships and broader contextual implications, evaluating relationships, constraints, and context to ensure accurate entity identification and ordering, and thoroughly evaluating all relationships and constraints to avoid overlooking critical aspects.
+
+1. Identify entities and their relationships.
+2. Analyze spatial relationships and constraints.
+3. Identify contextual relationships and constraints.
+4. Determine the correct order of entities based on given information.
+5. Check for contradictions and verify consistency.
+6. Refine the answer based on relationships and context.
+7. Consider all details and relationships between entities.
+8. Evaluate relationships, constraints, and context to identify the correct entity.
+9. Prioritize contextual analysis and relationships over other factors.
+10. Verify the answer against all relationships and constraints."
+summary,cot,multi,32,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by prioritizing contextual analysis, considering indirect relationships and broader contextual implications, evaluating relationships, constraints, and context to ensure accurate entity identification and ordering, and thoroughly evaluating all relationships and constraints to avoid overlooking critical aspects.
+
+1. Identify entities and their relationships.
+2. Analyze spatial relationships and constraints.
+3. Identify contextual relationships and constraints.
+4. Determine the correct order of entities based on given information.
+5. Check for contradictions and verify consistency.
+6. Refine the answer based on relationships and context.
+7. Consider all details and relationships between entities.
+8. Evaluate relationships, constraints, and context to identify the correct entity.
+9. Prioritize contextual analysis and relationships over other factors.
+10. Verify the answer against all relationships and constraints."
+summary,cot,multi,33,logical,,,,,,0.5466666666666666,,"Example 1: 
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2: 
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3: 
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4: 
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5: 
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by prioritizing contextual analysis, considering indirect relationships and broader contextual implications, evaluating relationships, constraints, and context to ensure accurate entity identification and ordering, and thoroughly evaluating all relationships and constraints to avoid overlooking critical aspects.
+
+1. Identify entities and their relationships.
+2. Analyze spatial relationships and constraints.
+3. Identify contextual relationships and constraints.
+4. Determine the correct order of entities based on given information.
+5. Check for contradictions and verify consistency.
+6. Refine the answer based on relationships and context.
+7. Consider all details and relationships between entities.
+8. Evaluate relationships, constraints, and context to identify the correct entity.
+9. Prioritize contextual analysis and relationships over other factors.
+10. Verify the answer against all relationships and constraints."
+summary,cot,multi,34,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,35,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,36,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,37,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,38,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,39,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,40,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,41,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,42,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,43,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,44,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,45,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,46,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,47,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,48,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,49,logical,,,,,,0.55,,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."
+summary,cot,multi,50,logical,,,,,,0.55,0.48,"Example 1:
+In a school, there are four classrooms: A, B, C, and D. Class A is above class B, and class C is above class A. Class D is not above class C. Which one is directly above class B?
+Answer: A
+
+Example 2:
+In a city, there are three museums: A, B, and C. Museum A is located east of museum B, and museum C is located south of museum A. If museum C is located two blocks away from museum B, and museum A is located one block away from museum B, which one is located farthest from museum B?
+Answer: C
+
+Example 3:
+In a hotel, there are three floors: 1, 2, and 3. The gym is on floor 2, and the restaurant is on floor 1. The pool is on floor 3. If the pool is below the restaurant and the gym, which one is on floor 3?
+Answer: Pool
+
+Example 4:
+In a school, there are four classrooms: A, B, C, and D. Class A is older than class B, and class C is older than class A. Class D is the newest. Which one is the oldest?
+Answer: C
+
+Example 5:
+In a city, there are five buildings: A, B, C, D, and E. Building A is located north of building B, and building C is located east of building A. Building D is located south of building B, and building E is located west of building C. If building E is located two blocks away from building B, and building D is located one block away from building B, which one is located north of building D?
+Answer: A
+
+Solve the logical reasoning problem by considering the broader context and relationships between entities, prioritizing contextual analysis, spatial relationships, and entity relationships to ensure accurate entity identification and ordering.
+
+1. Identify all relationships between entities, including direct and indirect connections.
+2. Analyze the spatial and temporal relationships between entities.
+3. Prioritize contextual analysis and consider the broader context.
+4. Evaluate all relationships, constraints, and context to identify the correct entity.
+5. Refine the answer based on relationships, context, and constraints.
+6. Check for contradictions and verify consistency across all relationships and constraints.
+7. Consider all details and relationships between entities, including indirect connections.
+8. Verify the answer against all relationships, constraints, and context.
+9. Determine the correct order of entities based on given information and relationships.
+10. Identify the correct entity by evaluating relationships, constraints, and context."

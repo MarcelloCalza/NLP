@@ -1,0 +1,356 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+zero_shot,0,cot,Classify the sentiment of the following tweet as positive or negative.,0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emojis and Abbreviations**: Recognize and interpret emojis and abbreviations correctly to avoid misclassification. For example, ""😊"" is positive, ""😢"" is negative, ""LOL"" is positive, ""OMG"" is neutral.
+2. **Consider Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I hate Mondays"" is negative, but ""I love Mondays"" is positive.
+3. **Handle Informal Language**: Interpret informal language and slang appropriately. For example, ""This is lit"" is positive, ""This is trash"" is negative.",0.8233333333333334
+zero_shot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Emojis and Abbreviations**: Recognize and interpret emojis and abbreviations correctly to avoid misclassification. For example, ""😊"" is positive, ""😢"" is negative, ""LOL"" is positive, ""OMG"" is neutral.
+2. **Consider Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I hate Mondays"" is negative, but ""I love Mondays"" is positive.
+3. **Handle Informal Language**: Interpret informal language and slang appropriately. For example, ""This is lit"" is positive, ""This is trash"" is negative.",0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334
+zero_shot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Entire Context**: Consider the entire tweet to understand the sentiment, not just individual words.
+2. **Consistently Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+3. **Consistently Interpret Emojis and Abbreviations**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8266666666666667
+zero_shot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Entire Context**: Consider the entire tweet to understand the sentiment, not just individual words.
+2. **Consistently Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+3. **Consistently Interpret Emojis and Abbreviations**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the overall tone and context**: Evaluate the entire tweet to understand the sentiment, not just individual words.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Consistently interpret informal language and slang**: Use a predefined dictionary of informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""losing it"" (positive).
+4. **Consistently interpret emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).
+5. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.",0.84
+zero_shot,1,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the overall tone and context**: Evaluate the entire tweet to understand the sentiment, not just individual words.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Consistently interpret informal language and slang**: Use a predefined dictionary of informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""losing it"" (positive).
+4. **Consistently interpret emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).
+5. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the entire tweet's context and sequence**: Evaluate the entire tweet, including the sequence of events and the emotional state of the speaker.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.
+4. **Use a predefined dictionary of informal language and slang**: Consistently interpret informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""NAH"" (positive), ""miss"" (negative).
+5. **Use a predefined dictionary of emojis and abbreviations**: Consistently interpret emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).",0.8333333333333334
+zero_shot,2,cot,Classify the sentiment of the following tweet as positive or negative.,0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Key Words and Phrases**: Extract key words and phrases that indicate sentiment. Look for words like ""good"", ""excellent"", ""happy"", ""terrible"", ""angry"", etc.
+
+2. **Check for Sarcasm or Irony**: If a phrase seems contradictory or the overall tone is unexpected, consider if the tweet is sarcastic or ironic.
+
+3. **Consider Context**: If a word or phrase is ambiguous, consider the surrounding context to determine its sentiment.
+
+4. **Recognize Emotional Tone**: Pay attention to the emotional tone conveyed by the tweet, such as enthusiasm, anger, or sadness.
+
+5. **Resolve Ambiguity**: If a phrase is ambiguous, try to understand the intended meaning based on the context and surrounding words.
+
+6. **Classify Sentiment**: Based on the above steps, classify the sentiment as positive or negative.",0.82
+zero_shot,3,cot,Classify the sentiment of the following tweet as positive or negative.,0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Polarity Indicators:** Look for explicit positive or negative words in the tweet (e.g., ""great"", ""terrible"").
+2. **Analyze Context:** Consider the context around the words to determine if they are used in a positive or negative way.
+3. **Check Emojis and Slang:** Identify and interpret emojis and slang to understand their sentiment.
+4. **Consider Politeness:** Distinguish between polite expressions and actual negative sentiments.
+5. **Re-evaluate Ambiguous Statements:** For ambiguous statements, look for additional clues in the text that may clarify the sentiment.
+6. **Consistency Check:** Ensure the overall tone of the tweet is consistent with the identified sentiment indicators.",0.8166666666666667
+zero_shot,4,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the overall tone and context**: Evaluate the entire tweet to understand the sentiment, not just individual words.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Consistently interpret informal language and slang**: Use a predefined dictionary of informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""losing it"" (positive).
+4. **Consistently interpret emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).
+5. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Prioritize context over individual words**: Always consider the entire tweet, not just specific words or phrases.",0.8233333333333334
+zero_shot,5,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Entire Context**: Consider the entire tweet to understand the sentiment, not just individual words.
+2. **Consistently Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+3. **Consistently Interpret Emojis and Abbreviations**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Irony or Sarcasm**: Check for indicators of irony or sarcasm such as the use of words like ""just"", ""actually"", or ""quite"" in a way that contradicts the positive or negative sentiment implied by the rest of the tweet.
+2. **Accurately Interpret Informal Language and Slang**: Utilize a comprehensive list of common informal language and slang phrases to accurately interpret their sentiment, considering context and usage.
+3. **Consistently Interpret Emojis and Abbreviations**: Use a standardized list of emojis and abbreviations with their consistent interpretations, and apply them accurately across all tweets.",0.8166666666666667
+zero_shot,6,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words.
+2. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8233333333333334
+zero_shot,7,cot,Classify the sentiment of the following tweet as positive or negative.,0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify if the tweet contains any explicit negative words (e.g., ""hate"", ""bad"", ""terrible"").
+2. If negative words are present, classify the sentiment as negative.
+3. If no negative words are present, identify if the tweet contains any positive words (e.g., ""love"", ""great"", ""excellent"").
+4. If positive words are present, classify the sentiment as positive.
+5. If no explicit positive or negative words are found, consider the context and tone.
+6. If the context or tone suggests negativity, classify the sentiment as negative.
+7. If the context or tone suggests positivity, classify the sentiment as positive.
+8. If the context or tone is neutral or ambiguous, classify the sentiment as neutral.",0.79
+zero_shot,8,cot,Classify the sentiment of the following tweet as positive or negative.,0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sentiment Keywords**: Look for common sentiment keywords in the tweet.
+2. **Consider Tone and Emphasis**: Pay attention to the tone and emphasis of the text, such as exclamation marks or capitalization.
+3. **Check for Sarcasm and Irony**: Look for indicators of sarcasm or irony, such as the use of ""not"" with positive words.
+4. **Consider Contextual Clues**: Take into account hashtags and mentions to understand the context of the tweet.
+5. **Combine Sentiment Indicators**: Combine all the above indicators to make a final decision on the sentiment.",0.8333333333333334
+zero_shot,9,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the overall tone and context**: Evaluate the entire tweet to understand the sentiment, not just individual words.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Consistently interpret informal language and slang**: Use a predefined dictionary of informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""losing it"" (positive).
+4. **Consistently interpret emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).
+5. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Use a comprehensive dictionary of informal language and slang**: Before interpreting the tweet, consult a predefined dictionary to ensure accurate interpretation of informal language and slang.
+2. **Prioritize contextual clues and tone over individual words**: Consider the overall tone and context of the tweet before analyzing individual words or phrases to determine the sentiment.
+3. **Apply consistent interpretation of emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to consistently interpret their sentiment, ensuring uniformity in results.",0.8266666666666667
+zero_shot,10,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the entire tweet's context and sequence**: Evaluate the entire tweet, including the sequence of events and the emotional state of the speaker.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.
+4. **Use a predefined dictionary of informal language and slang**: Consistently interpret informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""NAH"" (positive), ""miss"" (negative).
+5. **Use a predefined dictionary of emojis and abbreviations**: Consistently interpret emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consistently interpret informal language and slang**: Prioritize a predefined dictionary of informal language and slang, ensuring accurate sentiment interpretation.
+2. **Contextually interpret individual words**: Evaluate the tweet's context to determine sentiment, prioritizing the overall context over individual words.
+3. **Accurately interpret emojis and abbreviations**: Utilize a comprehensive list of emojis and abbreviations with their sentiment interpretations.",0.8233333333333334
+zero_shot,11,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Apply Consistent Sentiment Interpretation to Phrases**: Interpret common phrases consistently, such as ""such a great deal"" (negative) and ""shooting something"" (negative).
+2. **Consider the Overall Tone**: Evaluate the entire tweet for the overall sentiment, not just individual words. For example, ""I miss you guys"" (negative) and ""Beautiful day"" (negative).
+3. **Consistently Interpret Emojis and Abbreviations**: Apply consistent sentiment interpretation to emojis and abbreviations, such as ""😊"" (positive) and ""OMG"" (neutral).",0.82
+zero_shot,12,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the entire tweet's context and sequence**: Evaluate the entire tweet, including the sequence of events and the emotional state of the speaker.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.
+4. **Use a predefined dictionary of informal language and slang**: Consistently interpret informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""NAH"" (positive), ""miss"" (negative).
+5. **Use a predefined dictionary of emojis and abbreviations**: Consistently interpret emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Prioritize the overall context**: Consider the entire tweet's context and sequence, including the speaker's emotional state.
+2. **Identify and interpret key phrases and words**: Look for key phrases and words that indicate sentiment, considering both their literal meaning and their usage in the tweet.
+3. **Use a predefined dictionary of informal language and slang**: Interpret informal language and slang to determine sentiment, considering common usage in the context of the tweet.
+4. **Check for negativity or positivity in the entire tweet**: Ensure that the overall sentiment of the tweet is assessed, rather than relying on individual words or phrases.
+5. **Consider the use of emojis and abbreviations**: Interpret emojis and abbreviations to determine sentiment, but ensure they align with the overall context of the tweet.",0.8166666666666667
+zero_shot,13,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Use a comprehensive dictionary of informal language and slang**: Before interpreting the tweet, consult a predefined dictionary to ensure accurate interpretation of informal language and slang.
+2. **Prioritize contextual clues and tone over individual words**: Consider the overall tone and context of the tweet before analyzing individual words or phrases to determine the sentiment.
+3. **Apply consistent interpretation of emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to consistently interpret their sentiment, ensuring uniformity in results.",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Use a comprehensive dictionary of informal language and slang**: Before interpreting the tweet, consult a predefined dictionary to ensure accurate interpretation of informal language and slang.
+2. **Prioritize contextual clues and tone over individual words**: Consider the overall tone and context of the tweet before analyzing individual words or phrases to determine the sentiment.
+3. **Apply consistent interpretation of emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to consistently interpret their sentiment, ensuring uniformity in results.
+4. **Check for negation words and phrases**: Identify and consider negation words and phrases (e.g., ""not"", ""no"", ""never"") to reverse the sentiment if they are present.
+5. **Consider the use of capitalization and punctuation**: Pay attention to capitalization and punctuation (e.g., excessive exclamation marks, capitalization of all letters) to gauge the intensity of the sentiment.",0.79
+zero_shot,14,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sentiment Keywords**: Look for common sentiment keywords in the tweet.
+2. **Consider Tone and Emphasis**: Pay attention to the tone and emphasis of the text, such as exclamation marks or capitalization.
+3. **Check for Sarcasm and Irony**: Look for indicators of sarcasm or irony, such as the use of ""not"" with positive words.
+4. **Consider Contextual Clues**: Take into account hashtags and mentions to understand the context of the tweet.
+5. **Combine Sentiment Indicators**: Combine all the above indicators to make a final decision on the sentiment.",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sarcasm and Irony**: Look for indicators of sarcasm or irony, such as ""not"" with positive words or unusual capitalization.
+2. **Consider Contextual Clues**: Take into account hashtags and mentions to understand the context of the tweet.
+3. **Combine Sentiment Indicators**: Combine all the above indicators to make a final decision on the sentiment.",0.75
+zero_shot,15,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Rule for Informal Language and Slang**:
+   - Use a predefined dictionary of informal phrases and their sentiment labels (positive/negative).
+
+2. **Rule for Context**:
+   - Evaluate the entire tweet in the context of its structure and components (e.g., sentence fragments, multiple sentences, punctuation).
+
+3. **Rule for Emojis and Abbreviations**:
+   - Utilize a consistent emoji and abbreviation dictionary for sentiment interpretation.",0.82
+zero_shot,16,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+2. **Interpret Emojis and Abbreviations Consistently**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.84
+zero_shot,17,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+2. **Interpret Emojis and Abbreviations Consistently**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider Entire Context and Emoji/Abbreviation Consistency**: Evaluate the entire tweet, including the use of emojis and abbreviations, to understand the sentiment accurately.
+2. **Classify Neutral Sentiments**: Explicitly classify neutral sentiments as neutral.
+3. **Use Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently across all tweets.",0.81
+zero_shot,18,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the overall tone and context**: Evaluate the entire tweet to understand the sentiment, not just individual words.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Consistently interpret informal language and slang**: Use a predefined dictionary of informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""losing it"" (positive).
+4. **Consistently interpret emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).
+5. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Evaluate the entire tweet for context and tone**: Start by considering the overall tone and context of the tweet to understand the sentiment.
+2. **Look for key phrases and words**: Identify words and phrases that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Use a predefined dictionary for informal language and slang**: Refer to a dictionary to determine the sentiment of informal language and slang, such as ""such a great deal"" (negative), ""losing it"" (positive).
+4. **Interpret emojis and abbreviations accurately**: Use a dictionary to understand the sentiment of emojis and abbreviations, such as ""😊"" (positive), ""OMG"" (neutral).
+5. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, use the context of the tweet to determine the overall sentiment.",0.83
+zero_shot,19,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the overall tone and context**: Evaluate the entire tweet to understand the sentiment, not just individual words.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Consistently interpret informal language and slang**: Use a predefined dictionary of informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""losing it"" (positive).
+4. **Consistently interpret emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).
+5. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Prioritize emojis and abbreviations**: Interpret emojis and abbreviations first, as they often carry strong sentiment cues.
+2. **Check for negations**: Identify and interpret words that negate the sentiment, such as ""not"", ""never"", ""no"".
+3. **Evaluate context and tone**: Assess the overall tone and context of the tweet, considering the sequence and relationship between words.
+4. **Consider informal language and slang**: Use a predefined dictionary of informal language and slang, but prioritize context and tone over individual words.",0.8066666666666666
+zero_shot,20,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+2. **Interpret Emojis and Abbreviations Consistently**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+2. **Interpret Emojis and Abbreviations Consistently**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).
+3. **Handle Irony and Sarcasm**: Recognize and interpret irony or sarcasm appropriately. For example, ""I'm so happy to see you"" (negative if sarcastic), ""@daniel_keady when I get back to my computer i'm going to assassinate you.  oops probably shouldn't have said that"" (positive if sarcastic).
+4. **Consider Negation**: Take into account negation words like ""not"", ""never"", ""no"", etc., which can invert the sentiment. For example, ""I am not happy"" (negative).
+5. **Consider Emotional Words**: Pay attention to emotional words and their context. For example, ""I'm disappointed"" (negative), ""I'm excited"" (positive).
+6. **Consider Contextual Clues**: Consider other contextual clues such as capitalization, punctuation, and repetition. For example, ""I'm so happy!!!"" (positive), ""I'm so happy... not really"" (negative).",0.82
+zero_shot,21,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the entire tweet's context and sequence**: Evaluate the entire tweet, including the sequence of events and the emotional state of the speaker.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.
+4. **Use a predefined dictionary of informal language and slang**: Consistently interpret informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""NAH"" (positive), ""miss"" (negative).
+5. **Use a predefined dictionary of emojis and abbreviations**: Consistently interpret emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Prioritize overall tone and emotional state**: Focus on the tone and emotional state of the speaker, considering the entire tweet.
+2. **Identify and interpret informal language and slang**: Use a comprehensive dictionary to consistently interpret informal language and slang to determine sentiment.
+3. **Consider the context of emojis and abbreviations**: Interpret emojis and abbreviations within the context of the tweet to determine sentiment.",0.8266666666666667
+zero_shot,22,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+**IMPROVED REASONING**
+
+1. **Contextual Analysis**: Evaluate the entire tweet, considering the sequence of words, phrases, and context. For example, ""I miss you guys"" (negative), ""Beautiful day"" (positive).
+2. **Consistent Emoji Interpretation**: Interpret emojis consistently, such as ""😊"" (positive), ""😞"" (negative), ""😑"" (negative), ""😐"" (neutral).
+3. **Abbreviation Interpretation**: Interpret abbreviations consistently, such as ""LOL"" (positive), ""OMG"" (neutral), ""WTF"" (negative).
+4. **Informal Language and Slang**: Interpret informal language and slang consistently, such as ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), ""not as entertained"" (positive).
+5. **Negation Handling**: Consider the use of negation words and phrases, such as ""not"", ""no"", ""never"", which can invert the sentiment of a phrase. For example, ""not happy"" (negative).",0.8
+zero_shot,23,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sentiment Keywords**: Look for common sentiment keywords in the tweet.
+2. **Consider Tone and Emphasis**: Pay attention to the tone and emphasis of the text, such as exclamation marks or capitalization.
+3. **Check for Sarcasm and Irony**: Look for indicators of sarcasm or irony, such as the use of ""not"" with positive words.
+4. **Consider Contextual Clues**: Take into account hashtags and mentions to understand the context of the tweet.
+5. **Combine Sentiment Indicators**: Combine all the above indicators to make a final decision on the sentiment.",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sentiment Keywords**: Look for common sentiment keywords in the tweet.
+2. **Consider Tone and Emphasis**: Pay attention to the tone and emphasis of the text, such as exclamation marks or capitalization.
+3. **Check for Sarcasm and Irony**: Look for indicators of sarcasm or irony, such as the use of ""not"" with positive words.
+4. **Consider Contextual Clues**: Take into account hashtags and mentions to understand the context of the tweet.
+5. **Combine Sentiment Indicators**: Combine all the above indicators to make a final decision on the sentiment.
+6. **Handle Contextual Clues Carefully**: Ensure that hashtags and mentions are accurately interpreted in the context of the tweet.
+7. **Balance Positive Keywords**: Consider the overall sentiment of the tweet, not just the presence of positive keywords.",0.82
+zero_shot,24,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Sentiment Keywords**: Look for common sentiment keywords in the tweet.
+2. **Consider Tone and Emphasis**: Pay attention to the tone and emphasis of the text, such as exclamation marks or capitalization.
+3. **Check for Sarcasm and Irony**: Look for indicators of sarcasm or irony, such as the use of ""not"" with positive words.
+4. **Consider Contextual Clues**: Take into account hashtags and mentions to understand the context of the tweet.
+5. **Combine Sentiment Indicators**: Combine all the above indicators to make a final decision on the sentiment.",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for Sarcasm and Irony**: Look for indicators of sarcasm or irony, such as the use of ""not"" with positive words or exclamation marks with negative words.
+2. **Consider Tone and Emphasis**: Pay attention to the tone and emphasis of the text, such as exclamation marks, capitalization, or the use of intensifiers like ""very"" or ""so"".
+3. **Analyze Hashtags and Mentions**: Consider the sentiment of related hashtags and mentions to understand the context of the tweet.
+4. **Evaluate Sentiment Keywords**: Look for common sentiment keywords in the tweet, both positive and negative.
+5. **Combine Sentiment Indicators**: Combine all the above indicators to make a final decision on the sentiment.",0.81
+zero_shot,25,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).",0.8333333333333334
+zero_shot,26,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the overall tone and context**: Evaluate the entire tweet to understand the sentiment, not just individual words.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Consistently interpret informal language and slang**: Use a predefined dictionary of informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""losing it"" (positive).
+4. **Consistently interpret emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).
+5. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Evaluate the overall tone and context**: Consider the tweet as a whole, not individual words.
+2. **Identify key phrases and words**: Look for sentiment indicators, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the overall context of the tweet.
+4. **Consider informal language and slang**: Use a predefined dictionary to interpret informal language and slang, such as ""such a great deal"" (negative), ""losing it"" (positive).
+5. **Interpret emojis and abbreviations**: Use a predefined dictionary to interpret emojis and abbreviations, such as ""😊"" (positive), ""OMG"" (neutral).
+6. **Avoid literal misinterpretations**: Interpret words in context, such as ""assassinate"" as a joke, not literally.",0.83
+zero_shot,27,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Analyze Context First**: Prioritize understanding the entire context of the tweet before interpreting individual words or phrases.
+2. **Consider the Entire Sentence**: Ensure that the entire sentence is evaluated for sentiment, rather than just individual words or phrases.
+3. **Consistent Emoji and Abbreviation Interpretation**: Maintain a consistent interpretation of emojis and abbreviations throughout the tweet.",0.8166666666666667
+zero_shot,28,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Interpret Informal Language and Slang**: Apply sentiment to phrases like ""such a great deal"" (negative), ""losing it"" (positive), ""shooting something"" (negative), and ""not as entertained"" (positive).
+2. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+3. **Consistent Emoji and Abbreviation Interpretation**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.8533333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Evaluate Context**: Consider the entire tweet to understand the sentiment.
+2. **Identify Emotion**: Recognize and interpret common emojis and abbreviations.
+3. **Check Word Order**: Pay attention to the order of words and phrases, as they can change sentiment.
+4. **Consider Intensity**: Look at the intensity of the sentiment expressed, such as ""very"" or ""extremely"".",0.8166666666666667
+zero_shot,29,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the overall tone and context**: Evaluate the entire tweet to understand the sentiment, not just individual words.
+2. **Identify key phrases and words**: Look for key phrases and words that indicate sentiment, such as ""great"", ""terrible"", ""excited"", ""disappointed"".
+3. **Consistently interpret informal language and slang**: Use a predefined dictionary of informal language and slang to determine sentiment, such as ""such a great deal"" (negative), ""losing it"" (positive).
+4. **Consistently interpret emojis and abbreviations**: Use a predefined dictionary of emojis and abbreviations to determine sentiment, such as ""😊"" (positive), ""OMG"" (neutral).
+5. **Prioritize context over individual words**: If a word or phrase has multiple sentiments, prioritize the context of the tweet to determine the overall sentiment.",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Check for negations**: If a tweet contains words like ""not"", ""no"", ""never"", etc., it might indicate a negative sentiment.
+2. **Consider the presence of intensifiers**: Words like ""very"", ""really"", ""extremely"", etc., can intensify the sentiment of the tweet. If they are combined with positive words, the sentiment is more positive; if combined with negative words, the sentiment is more negative.
+3. **Look for explicit negative or positive indicators**: Pay attention to words or phrases that explicitly state the sentiment, such as ""happy"", ""sad"", ""excited"", ""disappointed"", etc.",0.79
+zero_shot,30,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider Entire Context**: Evaluate the entire tweet to understand the sentiment, not just individual words. For example, ""I miss you guys"" (negative), ""Beautiful day"" (negative).
+2. **Interpret Emojis and Abbreviations Consistently**: Interpret emojis and abbreviations consistently, such as ""😊"" (positive), ""OMG"" (neutral).",0.84,"Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Irony or Sarcasm**: Check for common indicators of irony or sarcasm, such as capitalization, punctuation, or contextually inappropriate words.
+2. **Review Emoji and Abbreviation List**: Use a comprehensive list of emojis and abbreviations and their corresponding sentiments.
+3. **Evaluate Contextual Clues**: Look for contextual clues that may indicate the true sentiment, such as preceding or following text.",0.7733333333333333

@@ -1,0 +1,2345 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,multi,0,sentiment,,,,,,0.81,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,multi,1,sentiment,,,,,,0.8233333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm thrilled to be done with this terrible project, finally.
+Answer: positive
+
+Example 5:
+This new policy is a total disaster, I'm so upset.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message."
+summary,few_shots,multi,2,sentiment,,,,,,0.8233333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm thrilled to be done with this terrible project, finally.
+Answer: positive
+
+Example 5:
+This new policy is a total disaster, I'm so upset.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message."
+summary,few_shots,multi,3,sentiment,,,,,,0.8233333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm thrilled to be done with this terrible project, finally.
+Answer: positive
+
+Example 5:
+This new policy is a total disaster, I'm so upset.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message."
+summary,few_shots,multi,4,sentiment,,,,,,0.8233333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for the context in which positive vocabulary is used, and understanding slang, colloquial expressions, and specific contexts.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,5,sentiment,,,,,,0.8233333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for the context in which positive vocabulary is used, and understanding slang, colloquial expressions, and specific contexts.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,6,sentiment,,,,,,0.8233333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Classify the sentiment of the given tweet, considering the nuances of language, context, and intent, and accounting for the potential presence of sarcasm, irony, and colloquial expressions, while understanding the speaker's attitude and tone, and evaluating the overall sentiment in a balanced manner, to accurately determine whether the sentiment is positive or negative.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,7,sentiment,,,,,,0.8333333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6: 
+I'm literally dying over this new restaurant, it's so bad.
+Answer: negative
+
+Example 7: 
+This movie's 'so good', I'm not even kidding, it's a game-changer.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for the context in which positive vocabulary is used, understanding slang and colloquial expressions, and taking into account the broader context in which the text is written.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,8,sentiment,,,,,,0.8333333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6: 
+I'm literally dying over this new restaurant, it's so bad.
+Answer: negative
+
+Example 7: 
+This movie's 'so good', I'm not even kidding, it's a game-changer.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for the context in which positive vocabulary is used, understanding slang and colloquial expressions, and taking into account the broader context in which the text is written.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,9,sentiment,,,,,,0.8333333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6: 
+I'm literally dying over this new restaurant, it's so bad.
+Answer: negative
+
+Example 7: 
+This movie's 'so good', I'm not even kidding, it's a game-changer.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for the context in which positive vocabulary is used, understanding slang and colloquial expressions, and taking into account the broader context in which the text is written.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,10,sentiment,,,,,,0.8333333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6: 
+I'm literally dying over this new restaurant, it's so bad.
+Answer: negative
+
+Example 7: 
+This movie's 'so good', I'm not even kidding, it's a game-changer.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for the context in which positive vocabulary is used, understanding slang and colloquial expressions, and taking into account the broader context in which the text is written.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,11,sentiment,,,,,,0.8333333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6: 
+I'm literally dying over this new restaurant, it's so bad.
+Answer: negative
+
+Example 7: 
+This movie's 'so good', I'm not even kidding, it's a game-changer.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for the context in which positive vocabulary is used, understanding slang and colloquial expressions, and taking into account the broader context in which the text is written.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,12,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6: 
+I'm literally dying over this new restaurant, it's so bad.
+Answer: negative
+
+Example 7: 
+This movie's 'so good', I'm not even kidding, it's a game-changer.
+Answer: positive
+
+Example 8: 
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 9: 
+This movie's 'lit', I'm not even kidding, it's a game-changer.
+Answer: positive
+
+Classify the sentiment of the given tweet as positive or negative, considering the nuances of language, context, and intent, while accounting for the context in which positive vocabulary is used and taking into account potential negation, idioms, colloquial expressions, and slang.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,13,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Identify and adjust for colloquial expressions, slang, and idioms based on their frequency, proximity to negation words, and context.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+7. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words, adjusting for the presence of colloquial expressions, slang, and idioms.
+8. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5), considering the speaker's attitude and tone, and the overall sentiment score."
+summary,few_shots,multi,14,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and emojis.
+3. Determine the context-dependent negation by identifying phrases like ""I'm low-key obsessed"" or ""I'm alright"".
+4. Adjust for colloquial expressions, slang, and idioms by analyzing their frequency, proximity to negation words, and context.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+7. Consider the broader context in which the text is written, including the presence of hashtags, emojis, and other contextual cues.
+8. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+9. Classify the sentiment as positive or negative based on the threshold value (e.g., 0.5), considering the speaker's attitude and tone, and the overall sentiment score.
+10. Account for context-dependent vocabulary by considering the literal meaning of words in addition to their contextual meaning.
+11. Identify and adjust for implicit negation, where the speaker's tone and intent are conveyed through phrases like ""fuck that!"" or ""fuck shit up"".
+12. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words, adjusting for the presence of colloquial expressions, slang, and idioms.
+13. Classify the sentiment as positive or negative, considering the speaker's attitude and tone, and the overall sentiment score."
+summary,few_shots,multi,15,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and emojis.
+3. Determine the context-dependent negation by identifying phrases like ""I'm low-key obsessed"" or ""I'm alright"".
+4. Adjust for colloquial expressions, slang, and idioms by analyzing their frequency, proximity to negation words, and context.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+7. Consider the broader context in which the text is written, including the presence of hashtags, emojis, and other contextual cues.
+8. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+9. Classify the sentiment as positive or negative based on the threshold value (e.g., 0.5), considering the speaker's attitude and tone, and the overall sentiment score.
+10. Account for context-dependent vocabulary by considering the literal meaning of words in addition to their contextual meaning.
+11. Identify and adjust for implicit negation, where the speaker's tone and intent are conveyed through phrases like ""fuck that!"" or ""fuck shit up"".
+12. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words, adjusting for the presence of colloquial expressions, slang, and idioms.
+13. Classify the sentiment as positive or negative, considering the speaker's attitude and tone, and the overall sentiment score."
+summary,few_shots,multi,16,sentiment,,,,,,0.8433333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, while accurately accounting for context-dependent language, nuanced expressions, and implicit intent, with a focus on capturing the speaker's attitude and tone, and considering the broader context in which the text is written.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and emojis.
+3. Determine the context-dependent negation by identifying phrases like ""I'm low-key obsessed"" or ""I'm alright"".
+4. Adjust for colloquial expressions, slang, and idioms by analyzing their frequency, proximity to negation words, and context.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+7. Consider the broader context in which the text is written, including the presence of hashtags, emojis, and other contextual cues.
+8. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+9. Classify the sentiment as positive or negative based on the threshold value (e.g., 0.5), considering the speaker's attitude and tone, and the overall sentiment score.
+10. Account for context-dependent vocabulary by considering the literal meaning of words in addition to their contextual meaning.
+11. Identify and adjust for implicit negation, where the speaker's tone and intent are conveyed through phrases like ""fuck that!"" or ""fuck shit up"".
+12. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words, adjusting for the presence of colloquial expressions, slang, and idioms.
+13. Classify the sentiment as positive or negative, considering the speaker's attitude and tone, and the overall sentiment score."
+summary,few_shots,multi,17,sentiment,,,,,,0.8433333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,18,sentiment,,,,,,0.8433333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify the sentiment-bearing words in the text, such as adjectives and adverbs.
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words like 'not' or 'never'.
+4. Consider the nuances of language, including idioms, colloquial expressions, and slang, and adjust the sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone.
+6. Evaluate the presence of positive and negative vocabulary, while accounting for the context in which it is used.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+9. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,19,sentiment,,,,,,0.8433333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment (e.g., ""I'm alright"").
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words, implicit negation, and colloquial expressions.
+4. Adjust sentiment based on nuances of language, including idioms, colloquial expressions, slang, and sarcasm.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context in which the text is written.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation and implicit negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Identify and account for implicit negation, including phrases like ""It's ok though"" and ""I'm alright"".
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words, considering the nuances of language and context.
+10. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,20,sentiment,,,,,,0.8433333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment (e.g., ""I'm alright"").
+3. Determine the context in which the sentiment-bearing words are used, including the presence of negation words, implicit negation, and colloquial expressions.
+4. Adjust sentiment based on nuances of language, including idioms, colloquial expressions, slang, and sarcasm.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context in which the text is written.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation and implicit negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Identify and account for implicit negation, including phrases like ""It's ok though"" and ""I'm alright"".
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words, considering the nuances of language and context.
+10. Classify the sentiment as positive or negative, based on the threshold value (e.g., 0.5)."
+summary,few_shots,multi,21,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,22,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,23,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,24,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,25,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,26,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,27,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,28,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,29,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,30,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,31,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,32,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,33,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,34,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,35,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,36,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,37,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,38,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,39,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,40,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,41,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,42,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,43,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,44,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,45,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,46,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,47,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,48,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,49,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."
+summary,few_shots,multi,50,sentiment,,,,,,0.8566666666666667,0.71,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I'm so over this movie, it's a total waste of time.
+Answer: negative
+
+Example 5:
+I'm low-key obsessed with this new restaurant, the vibes are everything.
+Answer: positive
+
+Example 6:
+I'm so done with this movie, it's a total waste of time.
+Answer: negative
+
+Example 7:
+I'm literally dying from laughter, this comedy is on point.
+Answer: positive
+
+Example 8:
+I'm literally starving, but this new restaurant is a total game-changer.
+Answer: positive
+
+Example 9:
+Apparently, it's too early for brunch, but I'm still totally hungover.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the nuances of language, context, and intent behind the message, while accounting for context-dependent negation, colloquial expressions, slang, and ambiguous language, and taking into account the broader context in which the text is written, with a focus on accurately capturing the speaker's attitude and tone.
+
+1. Tokenize the input text into individual words or phrases.
+2. Identify sentiment-bearing words, including adjectives, adverbs, and phrases with implied sentiment.
+3. Determine the presence of negation words, including explicit and implicit negation.
+4. Identify colloquial expressions, slang, and idioms, and adjust sentiment accordingly.
+5. Analyze the intent behind the message, including the speaker's attitude and tone, considering the broader context.
+6. Evaluate the presence of positive and negative vocabulary, accounting for context-dependent negation.
+7. Weigh the importance of each sentiment-bearing word, considering their frequency, proximity to negation words, and context.
+8. Adjust sentiment based on the speaker's tone and attitude, considering the nuances of language.
+9. Assign a sentiment score to the text, based on the weighted sum of the sentiment-bearing words.
+10. Classify the sentiment as positive or negative, based on the threshold value."

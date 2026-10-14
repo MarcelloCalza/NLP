@@ -1,0 +1,4149 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing. However, I was disappointed with the ending, which ruined the overall experience.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service.
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. Consider the context in which the positive emotions are expressed and look beyond surface-level language.",0.7766666666666666
+few_shots,0,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing. However, I was disappointed with the ending, which ruined the overall experience.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service.
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. Consider the context in which the positive emotions are expressed and look beyond surface-level language.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, but was disappointed with the ending. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality. 
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative",0.7
+few_shots,0,rewrite,"Example 1:
+I absolutely loved the movie, but was disappointed with the ending. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality. 
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative",0.7,"Example 1:
+I absolutely loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative",0.7266666666666667
+few_shots,0,rewrite,"Example 1:
+I absolutely loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative",0.7266666666666667,"Example 1:
+I absolutely loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall, and I would definitely watch it again.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. The staff was unfriendly and the food was overpriced.
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening. The special effects were decent, but the plot was predictable.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing. I was expecting a more satisfying conclusion.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. The atmosphere was nice, but the service was slow and unfriendly.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring. The only good thing was the special effects, but it wasn't enough to save the movie.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting. The casting was off, and the dialogue was cringeworthy at times.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow. The atmosphere was nice, but the staff seemed unfriendly and unhelpful.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible. The special effects were nice, but it wasn't enough to save the movie.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice. The staff seemed unfriendly and unhelpful, and the food was overpriced.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice. The atmosphere was also nice, but it wasn't enough to save the movie.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice. However, the ending was disappointing and ruined the experience.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot. The pacing was slow, and the twists were predictable.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious. The staff seemed unfriendly and unhelpful, and the atmosphere was lacking.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible. The special effects were nice, but it wasn't enough to save the movie. The atmosphere was also nice, but it wasn't enough to make up for the poor storytelling",0.7166666666666667
+few_shots,1,rewrite,"Example 1:
+I absolutely loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative",0.7266666666666667,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Examples with mixed sentiment should be labeled as negative if there is a preponderance of negative language or a strong negative emotion.",0.78
+few_shots,2,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing. However, I was disappointed with the ending, which ruined the overall experience.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service.
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. Consider the context in which the positive emotions are expressed and look beyond surface-level language.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, it was amazing. However, the disappointing ending ruined the overall experience.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service that fell short of my expectations.
+Answer: negative
+
+Example 3:
+It was an average movie, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the predictable plot lacked originality and was unengaging.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Unfortunately, the poor service overshadowed the good food, making it a mixed experience.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging and well-developed.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring and unoriginal.
+Answer: negative
+
+Example 8:
+I won't go back to that restaurant again. The service was slow and unfriendly.
+Answer: negative
+
+Example 9:
+I loved the new restaurant. The food was amazing and the atmosphere was cozy and inviting.
+Answer: positive",0.75
+few_shots,3,rewrite,"Example 1:
+I absolutely loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative",0.7266666666666667,"Example 1:
+I absolutely loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: mixed (negative aspects outweigh positive aspects)
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: mixed (negative aspects outweigh positive aspects)
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: mixed (positive aspects outweigh negative aspects)
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: mixed (positive aspects outweigh negative aspects)
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: mixed (negative aspects outweigh positive aspects)
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: mixed (positive aspects outweigh negative aspects)
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: mixed (negative aspects outweigh positive aspects)
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: mixed (positive aspects outweigh negative aspects)
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: mixed (negative aspects outweigh positive aspects)
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: mixed (positive aspects outweigh negative aspects)
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: mixed (negative aspects outweigh positive aspects)
+
+Note: The current prompt has been modified to include a classification of ""mixed"" for reviews that contain both positive and negative aspects. This classification is based on whether the negative aspects outweigh the positive aspects or vice versa",0.7
+few_shots,4,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing. However, the disappointing ending ruined the overall experience.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service that fell short of my expectations.
+Answer: negative
+
+Example 3:
+It was an average movie, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the predictable plot lacked originality and was unengaging.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Unfortunately, the poor service overshadowed the good food, making it a mixed experience.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging and well-developed.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring and unoriginal.
+Answer: negative
+
+Example 8:
+I won't go back to that restaurant again. The service was slow and unfriendly.
+Answer: negative
+
+Example 9:
+I loved the new restaurant. The food was amazing and the atmosphere was cozy and inviting.
+Answer: positive",0.75,"Example 1:
+I absolutely loved the movie, it was amazing. However, the disappointing ending ruined the overall experience. It's a shame because the good parts were overshadowed by the bad. 
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service that fell short of my expectations. The service was slow and unfriendly, making it a poor experience.
+Answer: negative
+
+Example 3:
+It was an average movie, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening. The movie had some okay parts, but overall it was unimpressive.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the predictable plot lacked originality and was unengaging. The plot was a letdown because it was so predictable.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Unfortunately, the poor service overshadowed the good food, making it a mixed experience. The service was a major disappointment.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging and well-developed. I loved the movie from start to finish.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring and unoriginal. The movie had no redeeming qualities.
+Answer: negative
+
+Example 8:
+I won't go back to that restaurant again. The service was slow and unfriendly. The poor service made it a bad experience.
+Answer: negative
+
+Example 9:
+I loved the new restaurant. The food was amazing and the atmosphere was cozy and inviting. The restaurant exceeded my expectations in every way.
+Answer: positive",0.7466666666666667
+few_shots,5,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing. 
+Consider the emphasis and tone in the statement. Is the emphasis on the positive aspects or the negative aspects? Answer: positive or negative.
+
+
+
+Example 2:
+This is the worst experience I've ever had. 
+Consider the possibility of irony or sarcasm. Is the speaker being genuine or not? Answer: positive or negative.
+
+
+
+Example 3:
+It was okay, nothing special.
+Consider the possibility of self-deprecation or irony. Is the speaker being genuine or trying to be humorous? Answer: positive or negative.",0.5966666666666667
+few_shots,6,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing. However, the disappointing ending ruined the overall experience.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service that fell short of my expectations.
+Answer: negative
+
+Example 3:
+It was an average movie, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the predictable plot lacked originality and was unengaging.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Unfortunately, the poor service overshadowed the good food, making it a mixed experience.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging and well-developed.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring and unoriginal.
+Answer: negative
+
+Example 8:
+I won't go back to that restaurant again. The service was slow and unfriendly.
+Answer: negative
+
+Example 9:
+I loved the new restaurant. The food was amazing and the atmosphere was cozy and inviting.
+Answer: positive",0.75,"Example 1:
+I absolutely loved the movie, it was amazing. However, the disappointing ending ruined the overall experience.
+Answer: negative (emphasis on negative aspect)
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service that fell short of my expectations.
+Answer: negative (emphasize negative sentiment)
+
+Example 3:
+It was an average movie, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative (identify neutral as negative for context)
+
+Example 4:
+The movie was amazing, but the predictable plot lacked originality and was unengaging.
+Answer: negative (focus on negative aspect)
+
+Example 5:
+The service was terrible, but the food was delicious. Unfortunately, the poor service overshadowed the good food, making it a mixed experience.
+Answer: negative (emphasize negative aspect)
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging and well-developed.
+Answer: positive (emphasize positive sentiment)
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring and unoriginal.
+Answer: negative (emphasize negative sentiment)
+
+Example 8:
+I won't go back to that restaurant again. The service was slow and unfriendly.
+Answer: negative (emphasize negative sentiment)
+
+Example 9:
+I loved the new restaurant. The food was amazing and the atmosphere was cozy and inviting.
+Answer: positive (emphasize positive sentiment)
+
+Example 10:
+The movie was a complete waste of time. The plot was boring, the acting was terrible, and the special effects were subpar.
+Answer: negative (clear negative sentiment)
+
+Example 11:
+I'm extremely satisfied with the service I received. The staff was friendly, and the food was delicious.
+Answer: positive (clear positive sentiment)
+
+Example 12:
+The movie was okay, I guess. It wasn't the worst thing I've ever seen, but it wasn't great either.
+Answer: neutral (identify neutral sentiment)
+
+Example 13:
+I'm so angry with the service I received. The staff was rude, and the food was cold.
+Answer: negative (emphasize negative sentiment)
+
+Example 14:
+I'm thrilled with the new restaurant. The food was amazing, and the atmosphere was lively.
+Answer: positive (emphasize positive sentiment)",0.7633333333333333
+few_shots,7,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing. However, I was disappointed with the ending, which ruined the overall experience.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service.
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. Consider the context in which the positive emotions are expressed and look beyond surface-level language.",0.7766666666666666,"Example 1:
+I absolutely loved the movie, it was amazing, but the ending was a huge disappointment, which ruined the overall experience for me.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service with unfriendly staff.
+Answer: negative
+
+Example 3:
+It was just okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening, I guess.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the predictable plot was really frustrating and lacked originality, which is a shame.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience, and I'm not sure if I'd recommend it.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, which kept me hooked.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, which made the whole experience a waste of time.
+Answer: negative
+
+Example 8:
+I just watched the worst movie of my life, it was a complete disaster, with terrible acting and a boring plot, I'm still trying to figure out how it got made.
+Answer: negative
+
+Example 9:
+I just watched the worst movie of my life, it was an ultimate disappointment, with terrible acting and a boring plot, I'm never watching anything by this director again.
+Answer: negative
+
+Example 10:
+I'm so glad I watched the movie, it was a lovely experience. The special effects were incredible and the storyline was engaging, which kept me hooked, but I have to admit, the plot was a bit predictable.
+Answer: positive",0.7366666666666667
+few_shots,8,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing. Consider the tone and context of the statement. Is the speaker genuinely expressing admiration, or are they being sarcastic? Answer: positive or negative, considering the speaker's intent and the potential for sarcasm or irony.
+
+
+
+Example 2:
+This is the worst experience I've ever had. Is the speaker's tone explicit and strong enough to convey their true sentiment, or is there a possibility of implicit negativity? Answer: positive or negative, taking into account the speaker's language and potential underlying emotions.
+
+
+
+Example 3:
+It was okay, nothing special. Is the speaker's tone neutral, or are they hinting at underlying dissatisfaction? Answer: positive or negative, considering the speaker's subtle language and potential for implicit sentiment.
+
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the speaker's intent, potential for sarcasm or irony, and implicit sentiment.",0.7033333333333334
+few_shots,9,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing. However, the disappointing ending ruined the overall experience.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service that fell short of my expectations.
+Answer: negative
+
+Example 3:
+It was an average movie, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the predictable plot lacked originality and was unengaging.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Unfortunately, the poor service overshadowed the good food, making it a mixed experience.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging and well-developed.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring and unoriginal.
+Answer: negative
+
+Example 8:
+I won't go back to that restaurant again. The service was slow and unfriendly.
+Answer: negative
+
+Example 9:
+I loved the new restaurant. The food was amazing and the atmosphere was cozy and inviting.
+Answer: positive",0.75,"Example 1:
+I absolutely loved the movie, it was amazing, but the disappointing ending ruined the overall experience. This experience was a stark contrast to what I expected. 
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service that fell short of my expectations. The service was unfriendly and unhelpful.
+Answer: negative
+
+Example 3:
+It was an average movie, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening. However, I wouldn't recommend it to others.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the predictable plot lacked originality and was unengaging. This is a common problem in many movies these days.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Unfortunately, the poor service overshadowed the good food, making it a mixed experience. The poor service made me regret coming to the restaurant.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging and well-developed. The movie was an excellent choice for a night out.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring and unoriginal. This movie was a complete waste of time.
+Answer: negative
+
+Example 8:
+I won't go back to that restaurant again. The service was slow and unfriendly. The staff seemed uninterested in providing good service.
+Answer: negative
+
+Example 9:
+I loved the new restaurant. The food was amazing and the atmosphere was cozy and inviting. The restaurant had a great vibe and the staff were friendly and attentive.
+Answer: positive",0.7566666666666667
+few_shots,10,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing. The reviewer is genuinely expressing enthusiasm.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had. The language is overly negative and extreme, suggesting no sarcastic tone.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special. The reviewer is being neutral and factual.
+Answer: negative",0.7466666666666667
+few_shots,11,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing, but nothing is perfect.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had, ugh.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special, but I'm not expecting much.
+Answer: negative
+
+
+
+Classify the sentiment of the following tweet as positive or negative, considering contextual negation and emotive language. Balance positive and negative words to determine the overall sentiment.",0.79
+few_shots,12,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing. However, I was disappointed with the ending, which ruined the overall experience.
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service.
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: negative
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience.
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. Consider the context in which the positive emotions are expressed and look beyond surface-level language.",0.7766666666666666,"Example 1:
+I loved the movie, but the ending was disappointing. It ruined the overall experience.
+Answer: negative
+
+Example 2:
+This was the worst experience I've ever had. Expecting a great time, but got a terrible service instead.
+Answer: negative
+
+Example 3:
+It was just okay, nothing special. Wouldn't go out of my way to watch it again, but fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the predictable plot lacked originality.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Mixed experience overall.
+Answer: neutral
+
+Example 6:
+I'm glad I watched the movie, it was an amazing experience. Special effects were incredible, and the storyline was engaging.
+Answer: positive
+
+Example 7:
+Just watched the worst movie of my life. Terrible acting, and boring plot.
+Answer: negative
+
+Example 8:
+I had mixed feelings about the movie. Some parts were great, but others were disappointing.
+Answer: neutral
+
+Example 9:
+The service was great, but the food was a letdown. Overall, it was a mixed experience.
+Answer: neutral
+
+Example 10:
+I loved the movie, but it didn't live up to my expectations. The plot was predictable, but the acting was great.
+Answer: neutral
+
+Example 11:
+The movie was amazing, with incredible special effects and an engaging storyline. I thoroughly enjoyed it.
+Answer: positive
+
+Example 12:
+Just watched the worst movie of my life. Terrible acting, and a boring plot. Would not recommend.
+Answer: negative
+
+Example 13:
+I had a great time at the restaurant, but the service was a bit slow. Overall, it was a good experience.
+Answer: positive
+
+Example 14:
+The service was terrible, but the food was delicious. Would not go back due to the service.
+Answer: negative
+
+Example 15:
+I loved the movie, but it was a bit too long. Would have been better with a shorter runtime.
+Answer: positive",0.7166666666666667
+few_shots,13,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing, but nothing is perfect.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had, ugh.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special, but I'm not expecting much.
+Answer: negative
+
+
+
+Classify the sentiment of the following tweet as positive or negative, considering contextual negation and emotive language. Balance positive and negative words to determine the overall sentiment.",0.79,"Example 1:
+I absolutely loved the movie, it was amazing, but nothing is perfect, and the ending was a bit of a letdown, but that's a minor complaint.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had, ugh, and I'm still trying to figure out what went wrong, but I'll try to give them the benefit of the doubt.
+Answer: negative
+
+Example 3:
+It was okay, nothing special, but I'm not expecting much, and it's not like I was expecting a masterpiece.
+Answer: negative
+
+Tweet:
+I'm so fed up with this awful customer service, but I guess it's not like they're trying to be malicious, they're just incompetent.
+Answer: negative
+
+Tweet:
+I just had the best experience at this restaurant, the food was incredible, and the staff was so friendly, I'm definitely going back.
+Answer: positive
+
+Note: In the improved prompt, examples 1, 2, and 3 have been modified to better reflect the identified failure patterns. The new examples include tweets that demonstrate contextual negation, balancing of positive and negative words, and consideration for sarcasm and irony.",0.74
+few_shots,14,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing, but nothing is perfect.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had, ugh.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special, but I'm not expecting much.
+Answer: negative
+
+
+
+Classify the sentiment of the following tweet as positive or negative, considering contextual negation and emotive language. Balance positive and negative words to determine the overall sentiment.",0.79,"Example 1:
+I absolutely loved the movie, it was amazing, but nothing is perfect. Consider the phrase ""but nothing is perfect"", which indicates a negative sentiment despite the overall positive tone. Answer: neutral
+
+Example 2:
+This is the worst experience I've ever had, ugh. The word ""worst"" clearly indicates a negative sentiment. However, the emotive language ""ugh"" may suggest a stronger negative sentiment. Answer: negative
+
+Example 3:
+It was okay, nothing special, but I'm not expecting much. This statement has a mix of positive and negative words. The phrase ""nothing special"" suggests a negative sentiment, but the phrase ""I'm not expecting much"" adds a nuance, implying that the speaker is not disappointed. Answer: neutral
+
+Example 4:
+This restaurant is amazing, but the service was terrible. The word ""amazing"" clearly indicates a positive sentiment, but the word ""terrible"" clearly indicates a negative sentiment. Answer: mixed
+
+Example 5:
+I loved this movie, but I didn't like the ending. The word ""loved"" clearly indicates a positive sentiment, but the phrase ""I didn't like the ending"" suggests a negative sentiment. Answer: mixed
+
+Example 6:
+This product is great, but it's very expensive. The word ""great"" clearly indicates a positive sentiment, but the phrase ""very expensive"" suggests a negative sentiment. Answer: mixed
+
+Example 7:
+I'm so disappointed in this service. The emotive language ""so disappointed"" suggests a strong negative sentiment. Answer: negative
+
+Example 8:
+I don't like this movie at all. The phrase ""I don't like"" clearly indicates a negative sentiment. Answer: negative
+
+Example 9:
+I love this product, no matter what anyone says. The word ""love"" clearly indicates a positive sentiment, and the phrase ""no matter what anyone says"" suggests that the speaker is confident in their opinion. Answer: positive
+
+Classify the sentiment of the following tweet as positive, negative, neutral, or mixed, considering contextual negation and emotive language. Balance positive and negative words to determine the overall sentiment.",0.7466666666666667
+few_shots,15,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Examples with mixed sentiment should be labeled as negative if there is a preponderance of negative language or a strong negative emotion.",0.78,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When determining the sentiment, weigh the importance of strong negative emotions against other sentiment cues. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion.",0.8033333333333333
+few_shots,16,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Examples with mixed sentiment should be labeled as negative if there is a preponderance of negative language or a strong negative emotion.",0.78,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When evaluating sentiment, consider the overall tone and preponderance of language. 
+For mixed sentiment, label as negative if there's a preponderance of negative language or a strong negative emotion.
+Handle emotive language by recognizing its intent and context.
+Recognize irony and sarcasm by identifying cues such as ""but"" or ""however"", and considering the speaker's tone and context.
+Prioritize positive language when the overall sentiment is positive, and avoid overemphasizing negative language.",0.7866666666666666
+few_shots,17,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing, but nothing is perfect.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had, ugh.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special, but I'm not expecting much.
+Answer: negative
+
+
+
+Classify the sentiment of the following tweet as positive or negative, considering contextual negation and emotive language. Balance positive and negative words to determine the overall sentiment.",0.79,"Example 1:
+I absolutely loved the movie, it was amazing, but nothing is perfect, however it was worth watching.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had, ugh, the service was terrible, but I'll give them another chance.
+Answer: negative
+
+Example 3:
+It was okay, nothing special, but I'm not expecting much, still, the staff was friendly.
+Answer: negative
+
+Example 4:
+I wish @dunkindonuts would deliver, it would be so convenient, but they don't seem to care.
+Answer: negative
+
+Example 5:
+Somebody buy 'The Bottom Billion' by Paul Collier for me, it's worth 28$!
+Answer: positive
+
+Example 6:
+I'm a bad blogger, I have not blogged in weeks ~ oops! I need to get back on track.
+Answer: negative
+
+Example 7:
+Trying to recover Cindy's MacBook. Filesystem seems to be corrupt. Ubuntu live to the rescue. Hope it will work.
+Answer: negative
+
+Example 8:
+If I didn't have plans already, I would be there. Have a good time though.
+Answer: negative
+
+Example 9:
+I miss oden from take covr he's the nicest guy in the worlddd
+Answer: positive
+
+Example 10:
+Aww 
+Answer: positive",0.79
+few_shots,18,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing, but nothing is perfect, however it was worth watching.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had, ugh, the service was terrible, but I'll give them another chance.
+Answer: negative
+
+Example 3:
+It was okay, nothing special, but I'm not expecting much, still, the staff was friendly.
+Answer: negative
+
+Example 4:
+I wish @dunkindonuts would deliver, it would be so convenient, but they don't seem to care.
+Answer: negative
+
+Example 5:
+Somebody buy 'The Bottom Billion' by Paul Collier for me, it's worth 28$!
+Answer: positive
+
+Example 6:
+I'm a bad blogger, I have not blogged in weeks ~ oops! I need to get back on track.
+Answer: negative
+
+Example 7:
+Trying to recover Cindy's MacBook. Filesystem seems to be corrupt. Ubuntu live to the rescue. Hope it will work.
+Answer: negative
+
+Example 8:
+If I didn't have plans already, I would be there. Have a good time though.
+Answer: negative
+
+Example 9:
+I miss oden from take covr he's the nicest guy in the worlddd
+Answer: positive
+
+Example 10:
+Aww 
+Answer: positive",0.79,"Example 1:
+I absolutely loved the movie, it was amazing, but nothing is perfect, however it was worth watching. Consider the speaker's overall tone and whether they're expressing genuine enthusiasm or subtle criticism.
+Answer: positive/negative
+
+Example 2:
+This is the worst experience I've ever had, ugh, the service was terrible, but I'll give them another chance. Recognize the speaker's use of strong language and their intention behind it.
+Answer: negative
+
+Example 3:
+It was okay, nothing special, but I'm not expecting much, still, the staff was friendly. Identify the speaker's tone and whether they're being sarcastic or genuinely neutral.
+Answer: negative
+
+Example 4:
+I wish @dunkindonuts would deliver, it would be so convenient, but they don't seem to care. Consider the speaker's language and whether it's a genuine complaint or a sarcastic remark.
+Answer: negative
+
+Example 5:
+Somebody buy 'The Bottom Billion' by Paul Collier for me, it's worth 28$! Analyze the speaker's language and whether they're being genuine or facetious.
+Answer: positive/negative
+
+Example 6:
+I'm a bad blogger, I have not blogged in weeks ~ oops! I need to get back on track. Recognize the speaker's tone and whether they're being self-deprecating or genuinely regretful.
+Answer: negative
+
+Example 7:
+Trying to recover Cindy's MacBook. Filesystem seems to be corrupt. Ubuntu live to the rescue. Hope it will work. Identify the speaker's tone and whether they're being sarcastic or genuinely hopeful.
+Answer: negative
+
+Example 8:
+If I didn't have plans already, I would be there. Have a good time though. Consider the speaker's language and whether they're being genuine or sarcastic.
+Answer: negative
+
+Example 9:
+I miss oden from take covr he's the nicest guy in the worlddd. Analyze the speaker's language and whether they're being genuine or sarcastic.
+Answer: positive/negative
+
+Example 10:
+Aww 
+Answer: positive/negative",0.78
+few_shots,19,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When determining the sentiment, weigh the importance of strong negative emotions against other sentiment cues. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion.",0.8033333333333333,"When determining the sentiment, consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When evaluating informal language, consider the tone and intent behind the language, rather than its form. 
+
+When there is a mix of positive and negative sentiment, weigh the importance of strong negative emotions against other sentiment cues, such as the overall tone and the language used to describe positive aspects. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion. 
+
+Consider the speaker's attitude and emotions, rather than just their words. For example, if the speaker is using sarcastic language to express a negative sentiment, it should be classified as negative. 
+
+When the sentiment is ambiguous or unclear, consider additional context, such as the speaker's past behavior or the situation being described.",0.8066666666666666
+few_shots,20,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When determining the sentiment, weigh the importance of strong negative emotions against other sentiment cues. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion.",0.8033333333333333,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334
+few_shots,21,rewrite,"When determining the sentiment, consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When evaluating informal language, consider the tone and intent behind the language, rather than its form. 
+
+When there is a mix of positive and negative sentiment, weigh the importance of strong negative emotions against other sentiment cues, such as the overall tone and the language used to describe positive aspects. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion. 
+
+Consider the speaker's attitude and emotions, rather than just their words. For example, if the speaker is using sarcastic language to express a negative sentiment, it should be classified as negative. 
+
+When the sentiment is ambiguous or unclear, consider additional context, such as the speaker's past behavior or the situation being described.",0.8066666666666666,"When determining the sentiment of a text, consider the context in which the sentiment is expressed, including the language used, the speaker's tone, and their attitude. Informal language, such as slang and abbreviations, may be used in some examples. When evaluating informal language, consider the tone and intent behind the language, rather than its form, and be cautious of potential sarcasm. 
+
+When there is a mix of positive and negative sentiment, weigh the importance of strong negative emotions against other sentiment cues, such as the overall tone and the language used to describe positive aspects. Label examples with mixed sentiment as negative if there is a preponderance of negative language, a strong negative emotion, or if the speaker's past behavior or the situation being described suggests a negative sentiment. 
+
+Consider the speaker's emotions, rather than just their words, and take into account their past behavior and the situation being described when the sentiment is ambiguous or unclear.",0.7933333333333333
+few_shots,22,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"I absolutely loved the movie, but it was a disappointment overall.
+Answer: negative
+
+This is the worst experience I've ever had, despite the initial enthusiasm.
+Answer: negative
+
+It was okay, nothing special, but I expected more.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.79
+few_shots,23,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative, considering possible sarcasm or irony in the text.",0.6866666666666666
+few_shots,24,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When determining the sentiment, weigh the importance of strong negative emotions against other sentiment cues. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion.",0.8033333333333333,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall context, tone, and language used. Weigh the importance of strong negative emotions against other sentiment cues. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion. Avoid overemphasizing surface-level language, such as slang and abbreviations. Consider the speaker's intent and the intended audience.",0.8033333333333333
+few_shots,25,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334,"Consider the overall tone and language used, weighing the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. However, if the negative language is mitigated by phrases indicating a desire to be positive or to give the benefit of the doubt, or if the negative emotions are acknowledged but framed as a necessary criticism, consider labeling it as positive. Consider the context in which the sentiment is expressed, including the speaker's tone and intent. Pay particular attention to strong negative emotions expressed through language, such as ""ugh!"", ""scuppered"", ""trashy"", ""corrupt"", ""assassinate"", and acknowledge their significance in determining the overall sentiment.",0.7466666666666667
+few_shots,26,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact, unless the negative language is used in a way that suggests sarcasm or irony.
+
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators.
+
+- Consider the context in which the sentiment is expressed, including the",0.8066666666666666
+few_shots,27,rewrite,"When determining the sentiment, consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When evaluating informal language, consider the tone and intent behind the language, rather than its form. 
+
+When there is a mix of positive and negative sentiment, weigh the importance of strong negative emotions against other sentiment cues, such as the overall tone and the language used to describe positive aspects. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion. 
+
+Consider the speaker's attitude and emotions, rather than just their words. For example, if the speaker is using sarcastic language to express a negative sentiment, it should be classified as negative. 
+
+When the sentiment is ambiguous or unclear, consider additional context, such as the speaker's past behavior or the situation being described.",0.8066666666666666,"When determining the sentiment, consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When evaluating informal language, consider the tone, intent, and any potential nuances behind the language, rather than its form. Prioritize strong negative emotions when evaluating mixed sentiment, weighing them against other sentiment cues, such as the overall tone and language used to describe positive aspects. Label examples with mixed sentiment as negative if there is a preponderance of negative language, a strong negative emotion, or if the tone and intent suggest a negative sentiment. Consider the speaker's attitude and emotions, rather than just their words. For example, if the speaker is using sarcastic language to express a negative sentiment, it should be classified as negative. When the sentiment is ambiguous or unclear, consider additional context, such as the speaker's past behavior or the situation being described, to inform the classification.",0.7666666666666667
+few_shots,28,rewrite,"When determining the sentiment, consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When evaluating informal language, consider the tone and intent behind the language, rather than its form. 
+
+When there is a mix of positive and negative sentiment, weigh the importance of strong negative emotions against other sentiment cues, such as the overall tone and the language used to describe positive aspects. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion. 
+
+Consider the speaker's attitude and emotions, rather than just their words. For example, if the speaker is using sarcastic language to express a negative sentiment, it should be classified as negative. 
+
+When the sentiment is ambiguous or unclear, consider additional context, such as the speaker's past behavior or the situation being described.",0.8066666666666666,"When evaluating sentiment, consider the context, including the language used and the speaker's tone. Account for informal language, such as slang and abbreviations, by examining the tone and intent behind the language rather than its form. 
+
+When there's a mix of positive and negative sentiment, weigh strong negative emotions against other cues, like the overall tone and language used for positive aspects. Label mixed sentiment examples as negative if there's a preponderance of negative language or a strong negative emotion. 
+
+Recognize and address sarcasm and irony by considering the speaker's attitude and emotions, including the use of language that conveys the opposite of its literal meaning. If the sentiment is ambiguous or unclear, consider additional context, such as the speaker's past behavior or the situation described.",0.7466666666666667
+few_shots,29,rewrite,"When determining the sentiment, consider the context in which the sentiment is expressed, including the language used and the speaker's tone. Informal language, such as slang and abbreviations, may be used in some examples. When evaluating informal language, consider the tone and intent behind the language, rather than its form. 
+
+When there is a mix of positive and negative sentiment, weigh the importance of strong negative emotions against other sentiment cues, such as the overall tone and the language used to describe positive aspects. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion. 
+
+Consider the speaker's attitude and emotions, rather than just their words. For example, if the speaker is using sarcastic language to express a negative sentiment, it should be classified as negative. 
+
+When the sentiment is ambiguous or unclear, consider additional context, such as the speaker's past behavior or the situation being described.",0.8066666666666666,"When determining the sentiment of a text, consider the context in which the sentiment is expressed, including the language used, the speaker's tone, and their intended meaning. Informal language, such as slang and abbreviations, may be used in some examples, and when evaluating informal language, consider the tone and intent behind the language, rather than its form alone. 
+
+Weigh the importance of strong negative emotions against other sentiment cues, such as the overall tone and the language used to describe positive aspects. When there is a mix of positive and negative sentiment, label examples as negative if there is a preponderance of negative language or a strong negative emotion, and consider the speaker's attitude and emotions, rather than just their words. 
+
+If the sentiment is ambiguous or unclear, consider additional context, such as the speaker's past behavior or the situation being described. Be aware of linguistic devices like sarcasm and irony, and recognize that they can convey a sentiment opposite of their literal meaning. When evaluating sentiment, prioritize the speaker's tone, intent, and context, rather than focusing solely on the literal meaning of the language used.",0.8
+few_shots,30,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing. Consider the context in which the words 'loved' and 'amazing' are used.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. Identify the words or phrases that convey a negative sentiment, such as 'worst' and 'ever had'.
+Answer: negative
+
+Example 3:
+It was okay, nothing special. Note that the tone is mild and neutral; be cautious not to misclassify it as negative.
+Answer: neutral
+
+Example 4:
+I'm so grateful for the support. Consider the positive connotation of 'grateful' and how it affects the overall sentiment.
+Answer: positive
+
+Example 5:
+I'm extremely disappointed in the service. Identify the negative sentiment conveyed by 'disappointed' and 'service'.
+Answer: negative
+
+Example 6:
+The food was just okay. Be careful not to misclassify mild sentences as negative.
+Answer: neutral
+
+Example 7:
+The new employee is doing a great job. Consider the positive context in which 'great job' is used.
+Answer: positive
+
+Example 8:
+I'm very dissatisfied with the product. Identify the negative sentiment conveyed by 'dissatisfied' and 'product'.
+Answer: negative
+
+Example 9:
+The hotel room was clean and comfortable. Consider the positive connotation of 'clean' and 'comfortable'.
+Answer: positive
+
+Example 10:
+I'm extremely dissatisfied with the customer service. Identify the negative sentiment conveyed by 'dissatisfied' and 'customer service'.
+Answer: negative",0.7633333333333333
+few_shots,31,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334,"When determining the sentiment, consider the overall tone and language used, paying particular attention to sarcasm, irony, and strong negative emotions. Weigh the importance of these cues against other sentiment indicators, taking into account the speaker's tone and intent. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent, and recognize that context and tone can sometimes override individual words or phrases.",0.7533333333333333
+few_shots,32,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall context, tone, and language used. Weigh the importance of strong negative emotions against other sentiment cues. Label examples with mixed sentiment as negative if there is a preponderance of negative language or a strong negative emotion. Avoid overemphasizing surface-level language, such as slang and abbreviations. Consider the speaker's intent and the intended audience.",0.8033333333333333,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall. However, I'd rate it 4/5 due to the underwhelming conclusion.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening. I'd give it a 3/5.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting. It was a minor flaw, though.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot. It had some great moments, though.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative",0.7333333333333333
+few_shots,33,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing. However, I was being sarcastic about the movie being amazing. 
+Answer: negative
+
+Example 2:
+This is the worst experience I've ever had. Although it was a learning opportunity, the experience was still negative.
+Answer: negative
+
+Example 3:
+It was okay, nothing special. The experience was neither positive nor negative.
+Answer: neutral
+
+Example 4:
+I'm so angry about the service I received. 
+Answer: negative
+
+Example 5:
+I'm thrilled to have received such great service! 
+Answer: positive
+
+Example 6:
+I'm feeling disappointed about the outcome. 
+Answer: negative
+
+Example 7:
+The movie was okay, but the plot was confusing. 
+Answer: negative
+
+Example 8:
+I loved the plot twist in the movie! 
+Answer: positive
+
+Example 9:
+I'm feeling frustrated about the traffic I encountered on my way home. 
+Answer: negative",0.7466666666666667
+few_shots,34,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact, unless the negative language is used in a way that suggests sarcasm or irony.
+
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators.
+
+- Consider the context in which the sentiment is expressed, including the",0.8066666666666666,"When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact. However, if the negative language is used in a way that suggests sarcasm or irony, prioritize the positive sentiment.
+
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators, such as the speaker's overall tone and language.
+
+- Consider the context in which the sentiment is expressed, including the speaker's tone and intent, as well as any potential sarcasm or irony.
+
+- In cases where the sentiment is mixed or ambiguous, look for cues that suggest a dominant sentiment, such as repeated negative or positive language, or a strong emotional tone.
+
+- Consider the speaker's intent and tone, as well as any potential biases or context that may influence their sentiment.
+
+- Use contextual information, such as the topic being discussed or the speaker's relationship to the topic, to inform your understanding of their sentiment.
+
+- Be aware of potential pitfalls, such as overemphasizing strong negative emotions or failing to recognize sarcasm or irony.",0.8066666666666666
+few_shots,35,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing. However, the acting was subpar, and the plot was predictable.
+Answer: mixed
+
+Example 2:
+This is the worst experience I've ever had. I was really looking forward to it, but it completely fell flat.
+Answer: negative
+
+Example 3:
+It was okay, nothing special. The food was decent, but the service was slow.
+Answer: negative
+
+Example 4:
+I'm so sick of this restaurant. The food is overpriced, and the service is terrible.
+Answer: negative
+
+Example 5:
+I'm not impressed with this product. It's not as good as I expected, and the customer service is horrible.
+Answer: negative
+
+Example 7:
+This movie was a complete waste of time. The plot was boring, and the acting was terrible.
+Answer: negative
+
+Example 8:
+I'm extremely disappointed with this product. It doesn't work as advertised, and the customer service is non-existent.
+Answer: negative
+
+Example 9:
+This experience was a nightmare. The staff was unfriendly, and the facilities were dirty.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive, negative, or mixed.
+
+Example 10:
+I just saw the most amazing movie! The special effects were incredible, and the storyline was so engaging.
+Answer: positive
+
+Example 11:
+I'm really disappointed with this product. It's not as good as I expected, and the customer service is horrible.
+Answer: negative
+
+Example 12:
+This restaurant was just okay. The food was decent, but the service was slow.
+Answer: mixed",0.7966666666666666
+few_shots,36,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing. 
+However, the reviewer's tone was sarcastic, suggesting a negative sentiment.
+Answer: negative (despite the positive language, the context indicates a negative sentiment)
+
+
+
+Example 2:
+This is the worst experience I've ever had. 
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special. 
+Although the reviewer uses a neutral phrase, the overall sentiment is negative.
+Answer: negative",0.7133333333333334
+few_shots,37,rewrite,"When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact. However, if the negative language is used in a way that suggests sarcasm or irony, prioritize the positive sentiment.
+
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators, such as the speaker's overall tone and language.
+
+- Consider the context in which the sentiment is expressed, including the speaker's tone and intent, as well as any potential sarcasm or irony.
+
+- In cases where the sentiment is mixed or ambiguous, look for cues that suggest a dominant sentiment, such as repeated negative or positive language, or a strong emotional tone.
+
+- Consider the speaker's intent and tone, as well as any potential biases or context that may influence their sentiment.
+
+- Use contextual information, such as the topic being discussed or the speaker's relationship to the topic, to inform your understanding of their sentiment.
+
+- Be aware of potential pitfalls, such as overemphasizing strong negative emotions or failing to recognize sarcasm or irony.",0.8066666666666666,"When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. Balance explicit language with contextual cues, as strong language does not always reflect the speaker's true sentiment. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact, but consider the potential for sarcasm or irony that may suggest the opposite sentiment.
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators, such as the speaker's overall tone and language.
+- Consider the context in which the sentiment is expressed, including the speaker's tone and intent, as well as any potential sarcasm or irony.
+- In cases where the sentiment is mixed or ambiguous, look for cues that suggest a dominant sentiment, such as repeated negative or positive language, or a strong emotional tone.
+- Consider the speaker's intent and tone, as well as any potential biases or context that may influence their sentiment.
+- Use contextual information, such as the topic being discussed or the speaker's relationship to the topic, to inform your understanding of their sentiment.
+- Be aware of potential pitfalls, such as overemphasizing strong negative emotions, failing to recognize sarcasm or irony, or overemphasizing explicit language, and strive to find a balance between these factors.
+- Recognize that sarcasm and irony can be subtle and may not always be immediately apparent, and be cautious of relying too heavily on explicit language or strong emotions in determining the sentiment.",0.79
+few_shots,38,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact, unless the negative language is used in a way that suggests sarcasm or irony.
+
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators.
+
+- Consider the context in which the sentiment is expressed, including the",0.8066666666666666,"When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. 
+
+- Prioritize the sentiment with the most significant emotional impact, unless the negative language is used in a way that suggests sarcasm or irony, and consider that sarcasm or irony can be conveyed through language, tone, or context.
+
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators, and consider the speaker's tone and intent in determining the relative weight of these factors.
+
+- Consider the context in which the sentiment is expressed, including the speaker's tone and intent, as well as any potential biases or emotional influences, and recognize that the same sentiment can be expressed in different ways depending on the context.
+
+- When both positive and negative language are present, consider the overall sentiment as neutral, unless one sentiment is significantly more prominent or the negative language is used in a way that suggests sarcasm or irony.
+
+- Recognize that sentiment can be expressed through subtle cues, such as tone, language, and context, and consider these factors in determining the overall sentiment.
+
+- Consider the speaker's intent and tone in determining the overall sentiment, and recognize that the same sentiment can be expressed in different ways depending on the speaker's intent and tone.",0.7933333333333333
+few_shots,39,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334,"When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. Weigh the importance of strong negative emotions against other sentiment cues, but also consider the speaker's overall evaluation of the experience.
+
+If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Conversely, label it as positive if positive language dominates, even if the text also contains some negative comments.
+
+In cases where the sentiment is mixed or context-dependent, consider the speaker's overall evaluation of the experience and the language used to convey it, rather than relying solely on the presence or absence of strong emotions.",0.8033333333333333
+few_shots,40,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334,"When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. Weigh the importance of strong negative emotions against other sentiment cues, prioritizing the overall tone over the presence of individual positive or negative words. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the speaker's tone and intent, and be cautious of potential biases in the language used.",0.7933333333333333
+few_shots,41,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"I loved the movie, it was amazing, but I also thought it was a bit slow. 
+Answer: positive
+
+This is the worst experience I've ever had, but I'm still trying to stay positive.
+Answer: negative
+
+It was okay, nothing special, but I've seen better.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. 
+
+When I read reviews that are overwhelmingly negative, I try to take them with a grain of salt and focus on the positive aspects.
+Answer: positive
+
+I just got back from the worst vacation of my life, but the scenery was beautiful.
+Answer: negative
+
+The movie was amazing, but the ending was a bit disappointing.
+Answer: mixed
+
+This is the best day of my life, I'm so happy.
+Answer: positive
+
+I just got into a fight with my best friend, and I'm feeling really upset.
+Answer: negative
+
+I loved the new restaurant, the food was amazing, but the service was a bit slow.
+Answer: positive
+
+This is the worst experience I've ever had, I'm so angry.
+Answer: negative
+
+I just saw the worst movie of my life, but the special effects were cool.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.79
+few_shots,42,rewrite,"When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact. However, if the negative language is used in a way that suggests sarcasm or irony, prioritize the positive sentiment.
+
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators, such as the speaker's overall tone and language.
+
+- Consider the context in which the sentiment is expressed, including the speaker's tone and intent, as well as any potential sarcasm or irony.
+
+- In cases where the sentiment is mixed or ambiguous, look for cues that suggest a dominant sentiment, such as repeated negative or positive language, or a strong emotional tone.
+
+- Consider the speaker's intent and tone, as well as any potential biases or context that may influence their sentiment.
+
+- Use contextual information, such as the topic being discussed or the speaker's relationship to the topic, to inform your understanding of their sentiment.
+
+- Be aware of potential pitfalls, such as overemphasizing strong negative emotions or failing to recognize sarcasm or irony.",0.8066666666666666,"When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone, intent, and potential biases. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact. However, be cautious of strong negative emotions that may be used in a way that suggests sarcasm or irony, and prioritize the positive sentiment in these cases.
+
+- Balance the importance of strong negative emotions against other sentiment cues, such as the speaker's overall tone and language, recognizing that strong negative emotions do not always outweigh these indicators.
+
+- Consider the context in which the sentiment is expressed, including the speaker's tone, intent, and potential biases, as well as any potential sarcasm or irony that may be present.
+
+- In cases where the sentiment is mixed or ambiguous, look for cues that suggest a dominant sentiment, such as repeated negative or positive language, or a strong emotional tone, and consider the speaker's intent and tone in this assessment.
+
+- Use contextual information, such as the topic being discussed or the speaker's relationship to the topic, to inform your understanding of their sentiment, and be aware of any potential biases or context that may influence their sentiment.
+
+- Be aware of potential pitfalls, such as overemphasizing strong negative emotions or failing to recognize sarcasm or irony, and strive to strike a balance between these competing factors.",0.8033333333333333
+few_shots,43,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact, unless the negative language is used in a way that suggests sarcasm or irony.
+
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators.
+
+- Consider the context in which the sentiment is expressed, including the",0.8066666666666666,"When determining the sentiment, consider the overall tone and language used, taking into account the context in which the sentiment is expressed, including the speaker's tone and intent. 
+
+- When both positive and negative language are present, prioritize the sentiment with the most significant emotional impact, unless the negative language is used in a way that suggests sarcasm or irony, which should be explicitly identified and treated accordingly.
+
+- Balance the importance of strong negative emotions against other sentiment cues, recognizing that strong negative emotions do not always outweigh other sentiment indicators, and consider the possibility that the speaker may be using sarcasm or irony to convey a positive sentiment.
+
+- Consider the context in which the sentiment is expressed, including the speaker's tone and intent, as well as any external factors that may influence the sentiment, such as the situation or event being described.
+
+- When the sentiment is mixed or ambiguous, consider the overall tone and language used, as well as any explicit indicators of sentiment, such as emotive language or rhetorical devices, to make an informed decision about the sentiment.",0.8
+few_shots,44,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334,"When determining the sentiment, consider the overall tone and language used, taking into account both explicit and implicit cues. Weigh the importance of strong negative emotions against other sentiment cues, and prioritize the most prominent sentiment expressed in the text. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone, intent, and potential irony or sarcasm. In cases where the sentiment is ambiguous or context-dependent, consider multiple perspectives and evaluate the sentiment based on the most reasonable interpretation.",0.8066666666666666
+few_shots,45,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used, accounting for potential sarcasm and irony. Weigh the importance of strong negative emotions against other sentiment cues, giving more emphasis to the preponderance of negative language or a strong negative emotion when the text contains both positive and negative language. Also, consider the context in which the sentiment is expressed, including the speaker's tone and intent, to ensure accurate classification.",0.8033333333333333
+few_shots,46,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting. The positive aspects outweighed the negative ones.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow. However, the atmosphere made up for it.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot. The positive aspects outweighed the negative ones.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative",0.7366666666666667
+few_shots,47,rewrite,"Example 1:
+I loved the movie, but the ending was disappointing. Despite this, I still think it was an amazing film overall.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had. I was expecting a great time, but instead, I got a terrible service. 
+Answer: negative
+
+Example 3:
+It was okay, nothing special. I wouldn't go out of my way to watch it again, but it was fine for a lazy evening.
+Answer: neutral
+
+Example 4:
+The movie was amazing, but the plot was predictable and lacked originality, and the ending was disappointing.
+Answer: negative
+
+Example 5:
+The service was terrible, but the food was delicious. Overall, it was a mixed experience. 
+Answer: negative
+
+Example 6:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging.
+Answer: positive
+
+Example 7:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring.
+Answer: negative
+
+Example 8:
+I loved the movie, but I had some issues with the acting.
+Answer: positive
+
+Example 9:
+The restaurant had great food, but the service was slow.
+Answer: positive
+
+Example 10:
+I hated the movie, the plot was boring and the acting was terrible.
+Answer: negative
+
+Example 11:
+The service was terrible, but the atmosphere was nice.
+Answer: negative
+
+Example 12:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the ending was a bit disappointing.
+Answer: positive
+
+Example 13:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the special effects were nice.
+Answer: negative
+
+Example 14:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+Example 15:
+I loved the movie, but I had some issues with the plot.
+Answer: positive
+
+Example 16:
+The service was terrible, but the food was delicious.
+Answer: negative
+
+Example 17:
+I hated the movie, the plot was boring and the acting was terrible, but the special effects were nice.
+Answer: negative
+
+Example 18:
+I'm so glad I watched the movie, it was an amazing experience. The special effects were incredible and the storyline was engaging, but the acting was a bit off.
+Answer: positive
+
+Example 19:
+I just watched the worst movie of my life. The acting was terrible and the plot was boring, but the atmosphere was nice.
+Answer: negative
+
+Example 20:
+The movie was amazing, but the plot was predictable and lacked originality, and the special effects were nice.
+Answer: negative
+
+When determining the sentiment, consider the overall tone and language used. Weigh the importance of strong negative emotions against other sentiment cues. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone and intent.",0.8133333333333334,"Consider the overall tone and language used when determining the sentiment. Weigh the importance of strong negative emotions against other sentiment cues, but also consider the context in which the sentiment is expressed, including the speaker's tone and intent.
+
+When the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion, unless the negative language is clearly outweighed by positive sentiment and the text is not overly critical.
+
+In cases where the sentiment is nuanced or ambiguous, consider the speaker's tone and intent, and whether the sentiment is primarily positive or negative. If the text uses irony or sarcasm, recognize it as such and label the sentiment accordingly.
+
+Note that the speaker's intent may not always be explicitly stated, and may require inference based on the language used. In such cases, rely on the overall tone and language to guide the classification decision.",0.8066666666666666
+few_shots,48,rewrite,"When determining the sentiment, consider the overall tone and language used, taking into account both explicit and implicit cues. Weigh the importance of strong negative emotions against other sentiment cues, and prioritize the most prominent sentiment expressed in the text. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone, intent, and potential irony or sarcasm. In cases where the sentiment is ambiguous or context-dependent, consider multiple perspectives and evaluate the sentiment based on the most reasonable interpretation.",0.8066666666666666,"When determining the sentiment, consider the overall tone and language used, taking into account both explicit and implicit cues. Weigh the importance of strong negative emotions against other sentiment cues, and prioritize the most prominent sentiment expressed in the text. However, be cautious of prioritizing strong negative emotions over other sentiment cues, as this may lead to an overly negative assessment. Instead, consider the presence of strong negative emotions in conjunction with other sentiment cues to ensure a balanced evaluation. If the text contains both positive and negative language, label it as negative only if there is a clear preponderance of negative language or a strong negative emotion that is not mitigated by other sentiment cues. When evaluating the sentiment, consider the context in which it is expressed, including the speaker's tone, intent, and potential irony or sarcasm. Be particularly mindful of language that is intended to be sarcastic or ironic, as this may be misinterpreted as genuinely negative. In cases where the sentiment is ambiguous or context-dependent, consider multiple perspectives and evaluate the sentiment based on the most reasonable interpretation, taking into account the potential for multiple valid interpretations.",0.8166666666666667
+few_shots,49,rewrite,"When determining the sentiment, consider the overall tone and language used, taking into account both explicit and implicit cues. Weigh the importance of strong negative emotions against other sentiment cues, and prioritize the most prominent sentiment expressed in the text. If the text contains both positive and negative language, label it as negative if there is a preponderance of negative language or a strong negative emotion. Consider the context in which the sentiment is expressed, including the speaker's tone, intent, and potential irony or sarcasm. In cases where the sentiment is ambiguous or context-dependent, consider multiple perspectives and evaluate the sentiment based on the most reasonable interpretation.",0.8066666666666666,"When analyzing the sentiment, consider the overall tone and language used, taking into account both explicit and implicit cues. Weigh the importance of strong negative emotions against other sentiment cues, and prioritize the most prominent sentiment expressed in the text. When encountering explicit negative language, weigh its significance in the context of the overall text, including the speaker's tone, intent, and potential irony or sarcasm. In cases where the sentiment is ambiguous or context-dependent, consider multiple perspectives and evaluate the sentiment based on the most reasonable interpretation. Additionally, when encountering idiomatic language, consider the common meanings and connotations associated with such language to ensure accurate interpretation of the sentiment. If the text contains both positive and negative language, label it as negative if there is a clear preponderance of negative language or a strong negative emotion, and consider the context in which the sentiment is expressed to avoid misinterpretation.",0.79
+few_shots,50,rewrite,"When determining the sentiment, consider the overall tone and language used, taking into account both explicit and implicit cues. Weigh the importance of strong negative emotions against other sentiment cues, and prioritize the most prominent sentiment expressed in the text. However, be cautious of prioritizing strong negative emotions over other sentiment cues, as this may lead to an overly negative assessment. Instead, consider the presence of strong negative emotions in conjunction with other sentiment cues to ensure a balanced evaluation. If the text contains both positive and negative language, label it as negative only if there is a clear preponderance of negative language or a strong negative emotion that is not mitigated by other sentiment cues. When evaluating the sentiment, consider the context in which it is expressed, including the speaker's tone, intent, and potential irony or sarcasm. Be particularly mindful of language that is intended to be sarcastic or ironic, as this may be misinterpreted as genuinely negative. In cases where the sentiment is ambiguous or context-dependent, consider multiple perspectives and evaluate the sentiment based on the most reasonable interpretation, taking into account the potential for multiple valid interpretations.",0.8166666666666667,"When evaluating the sentiment of a text, consider the overall tone and language used, taking into account both explicit and implicit cues. Prioritize the most prominent sentiment expressed, weighing the importance of strong negative emotions against other sentiment cues. Be cautious of prioritizing strong negative emotions over other sentiment cues, as this may lead to an overly negative assessment. Instead, consider the presence of strong negative emotions in conjunction with other sentiment cues to ensure a balanced evaluation. If the text contains both positive and negative language, label it as negative only if there is a clear preponderance of negative language or a strong negative emotion that is not mitigated by other sentiment cues. When evaluating the sentiment, consider the context in which it is expressed, including the speaker's tone, intent, potential irony or sarcasm, and be particularly mindful of language that is intended to be sarcastic or ironic. In cases where the sentiment is ambiguous or context-dependent, consider multiple perspectives and evaluate the sentiment based on the most reasonable interpretation, taking into account the potential for multiple valid interpretations and the speaker's intent.",0.8133333333333334

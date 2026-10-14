@@ -1,0 +1,2009 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,zero_shot,multi,0,sentiment,,,,,,0.8266666666666667,,Classify the sentiment of the following tweet as positive or negative.
+summary,zero_shot,multi,1,sentiment,,,,,,0.84,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,2,sentiment,,,,,,0.84,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,3,sentiment,,,,,,0.84,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,4,sentiment,,,,,,0.84,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm so tired of this! I've been waiting for hours and no one seems to care.
+Answer: negative
+
+Example 4:
+This movie is amazing, the best I've seen in ages! 😍
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks and emojis."
+summary,zero_shot,multi,5,sentiment,,,,,,0.84,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the use of emojis**: If an emoji is present, it should be interpreted as part of the sentiment expression.
+2. **Check for irony or sarcasm**: Identify and handle ironic or sarcastic statements appropriately.
+3. **Evaluate contextual clues**: Take into account any contextual clues, such as usernames or references to popular culture, to correctly interpret the sentiment."
+summary,zero_shot,multi,6,sentiment,,,,,,0.84,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Consider the use of emojis**: If an emoji is present, it should be interpreted as part of the sentiment expression.
+2. **Check for irony or sarcasm**: Identify and handle ironic or sarcastic statements appropriately.
+3. **Evaluate contextual clues**: Take into account any contextual clues, such as usernames or references to popular culture, to correctly interpret the sentiment."
+summary,zero_shot,multi,7,sentiment,,,,,,0.84,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm so tired of this! I've been waiting for hours and no one seems to care.
+Answer: negative
+
+Example 4:
+This movie is amazing, the best I've seen in ages! 😍
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone."
+summary,zero_shot,multi,8,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of exclamation marks, emoticons, or other emotive language.
+2. Determine if the emotive language is positive (e.g., 🎉, 😊) or negative (e.g., 😠, 😡).
+3. If the emotive language is positive, classify the sentiment as positive.
+4. If the emotive language is negative, classify the sentiment as negative.
+5. If no emotive language is present, proceed to the next step.
+6. Analyze the text for common positive words (e.g., love, best, great) or negative words (e.g., hate, worst, bad).
+7. Classify the sentiment based on the presence of positive or negative words.
+8. If no clear sentiment can be determined, use the context and overall tone of the tweet to make a decision."
+summary,zero_shot,multi,9,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of exclamation marks, emoticons, or other emotive language.
+2. Determine if the emotive language is positive (e.g., 🎉, 😊) or negative (e.g., 😠, 😡).
+3. If the emotive language is positive, classify the sentiment as positive.
+4. If the emotive language is negative, classify the sentiment as negative.
+5. If no emotive language is present, proceed to the next step.
+6. Analyze the text for common positive words (e.g., love, best, great) or negative words (e.g., hate, worst, bad).
+7. Classify the sentiment based on the presence of positive or negative words.
+8. If no clear sentiment can be determined, use the context and overall tone of the tweet to make a decision."
+summary,zero_shot,multi,10,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of exclamation marks, emoticons, or other emotive language.
+2. Determine if the emotive language is positive (e.g., 🎉, 😊) or negative (e.g., 😠, 😡).
+3. If the emotive language is positive, classify the sentiment as positive.
+4. If the emotive language is negative, classify the sentiment as negative.
+5. If no emotive language is present, proceed to the next step.
+6. Analyze the text for common positive words (e.g., love, best, great) or negative words (e.g., hate, worst, bad).
+7. Classify the sentiment based on the presence of positive or negative words.
+8. If no clear sentiment can be determined, use the context and overall tone of the tweet to make a decision."
+summary,zero_shot,multi,11,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of exclamation marks, emoticons, or other emotive language.
+2. Determine if the emotive language is positive (e.g., 🎉, 😊) or negative (e.g., 😠, 😡).
+3. If the emotive language is positive, classify the sentiment as positive.
+4. If the emotive language is negative, classify the sentiment as negative.
+5. If no emotive language is present, proceed to the next step.
+6. Analyze the text for common positive words (e.g., love, best, great) or negative words (e.g., hate, worst, bad).
+7. Classify the sentiment based on the presence of positive or negative words.
+8. If no clear sentiment can be determined, use the context and overall tone of the tweet to make a decision."
+summary,zero_shot,multi,12,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of exclamation marks, emoticons, or other emotive language.
+2. Determine if the emotive language is positive (e.g., 🎉, 😊) or negative (e.g., 😠, 😡).
+3. If the emotive language is positive, classify the sentiment as positive.
+4. If the emotive language is negative, classify the sentiment as negative.
+5. If no emotive language is present, proceed to the next step.
+6. Analyze the text for common positive words (e.g., love, best, great) or negative words (e.g., hate, worst, bad).
+7. Classify the sentiment based on the presence of positive or negative words.
+8. If no clear sentiment can be determined, use the context and overall tone of the tweet to make a decision."
+summary,zero_shot,multi,13,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the presence of exclamation marks, emoticons, or other emotive language.
+2. Determine if the emotive language is positive (e.g., 🎉, 😊) or negative (e.g., 😠, 😡).
+3. If the emotive language is positive, classify the sentiment as positive.
+4. If the emotive language is negative, classify the sentiment as negative.
+5. If no emotive language is present, proceed to the next step.
+6. Analyze the text for common positive words (e.g., love, best, great) or negative words (e.g., hate, worst, bad).
+7. Classify the sentiment based on the presence of positive or negative words.
+8. If no clear sentiment can be determined, use the context and overall tone of the tweet to make a decision."
+summary,zero_shot,multi,14,sentiment,,,,,,0.85,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, and sarcasm or irony.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords."
+summary,zero_shot,multi,15,sentiment,,,,,,0.85,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, and sarcasm or irony.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords."
+summary,zero_shot,multi,16,sentiment,,,,,,0.85,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, and sarcasm or irony.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords."
+summary,zero_shot,multi,17,sentiment,,,,,,0.85,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, and sarcasm or irony.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords."
+summary,zero_shot,multi,18,sentiment,,,,,,0.85,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, and sarcasm or irony.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords."
+summary,zero_shot,multi,19,sentiment,,,,,,0.85,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, sarcasm, irony, and the balance of positive and negative keywords.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"").
+7. **Balance Positive and Negative Keywords:** When both positive and negative keywords are present, consider the overall context and the intensity of the emotion.
+8. **Assess Intensity:** Evaluate the intensity of the emotion indicated by the use of multiple exclamation marks, emojis, or other punctuation."
+summary,zero_shot,multi,20,sentiment,,,,,,0.85,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"").
+7. **Balance Positive and Negative Keywords:** When both positive and negative keywords are present, consider the overall context and the intensity of the emotion.
+8. **Assess Intensity:** Evaluate the intensity of the emotion indicated by the use of multiple exclamation marks, emojis, or other punctuation."
+summary,zero_shot,multi,21,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 10:
+I'm so grateful for all the support I've received! 😊
+Answer: positive
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, sarcasm, irony, and the balance of positive and negative keywords.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"").
+7. **Balance Positive and Negative Keywords:** When both positive and negative keywords are present, consider the overall context and the intensity of the emotion.
+8. **Assess Intensity:** Evaluate the intensity of the emotion indicated by the use of multiple exclamation marks, emojis, or other punctuation."
+summary,zero_shot,multi,22,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 10:
+I'm so grateful for all the support I've received! 😊
+Answer: positive
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, sarcasm, irony, and the balance of positive and negative keywords.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"").
+7. **Balance Positive and Negative Keywords:** When both positive and negative keywords are present, consider the overall context and the intensity of the emotion.
+8. **Assess Intensity:** Evaluate the intensity of the emotion indicated by the use of multiple exclamation marks, emojis, or other punctuation."
+summary,zero_shot,multi,23,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, sarcasm, irony, and the balance of positive and negative keywords.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,24,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, sarcasm, irony, and the balance of positive and negative keywords.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,25,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, sarcasm, irony, and the balance of positive and negative keywords.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,26,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year!
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, tone, sarcasm, irony, and the balance of positive and negative keywords.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,27,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,28,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,29,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,30,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,31,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,32,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,33,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,34,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,35,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,36,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,37,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,38,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,39,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,40,sentiment,,,,,,0.86,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,41,sentiment,,,,,,0.8666666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,42,sentiment,,,,,,0.8666666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,43,sentiment,,,,,,0.8666666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,44,sentiment,,,,,,0.8666666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,45,sentiment,,,,,,0.8666666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,46,sentiment,,,,,,0.8666666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,47,sentiment,,,,,,0.8666666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,48,sentiment,,,,,,0.8666666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,49,sentiment,,,,,,0.8666666666666667,,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."
+summary,zero_shot,multi,50,sentiment,,,,,,0.8666666666666667,0.73,"Example 1:
+I'm loving the new song, it's the best thing I've heard all year! 🎵
+Answer: positive
+
+Example 2:
+I can't believe I missed the last train, I'm so frustrated!
+Answer: negative
+
+Example 3:
+I'm sooo frustrated with the traffic today! 😡
+Answer: negative
+
+Example 4:
+Can't believe I got an A on my math test! 🎉
+Answer: positive
+
+Example 5:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Example 6:
+I'm so frustrated with the traffic today! 😠
+Answer: negative
+
+Example 7:
+I'm so tired of this traffic, it's ruining my day!
+Answer: negative
+
+Example 8:
+I can't believe I aced the test, I'm on top of the world!
+Answer: positive
+
+Example 9:
+I can't believe I got an F on my math test! 😡
+Answer: negative
+
+Example 10:
+I'm loving the new song, it's the best thing I've heard all year! 🎵🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the use of exclamation marks, emojis, context, and tone. Be cautious of sarcasm, irony, and mixed sentiments. Ensure that the sentiment classification is consistent with the overall tone, balancing the presence of both positive and negative keywords. Pay close attention to the intensity of emotions indicated by the use of multiple exclamation marks, emojis, or other punctuation.
+
+1. **Identify Emotion Words:** Look for words that indicate strong positive or negative emotions (e.g., love, hate, angry, frustrated, happy, sad).
+2. **Check for Contextual Clues:** Consider the surrounding words and phrases that might alter the intended sentiment (e.g., sarcasm, irony, or conditional statements).
+3. **Evaluate Emphasis:** Pay attention to the use of exclamation marks, punctuation, and emojis that can indicate the intensity of the emotion.
+4. **Direct Requests:** Recognize statements that are direct requests or expressions of intent (e.g., ""I'm loving"" vs. ""I'm loving it"").
+5. **Consistency Check:** Ensure that the sentiment classification is consistent with the overall tone of the tweet, considering both the presence of positive and negative keywords.
+6. **Consider Sarcasm and Irony:** Look for phrases or statements that might indicate sarcasm or irony (e.g., ""I'm so happy"" used sarcastically, ""Apparently FTW means 'For The Win'"")."

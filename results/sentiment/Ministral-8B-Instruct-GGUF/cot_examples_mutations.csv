@@ -1,0 +1,2813 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334
+cot,0,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7966666666666666
+cot,0,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7966666666666666,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Example 5:
+I'm so hungry I could eat a horse! 😋
+Answer: positive
+
+Example 6:
+I'm so tired I could fall asleep anywhere! 😌
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8266666666666667
+cot,0,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Example 5:
+I'm so hungry I could eat a horse! 😋
+Answer: positive
+
+Example 6:
+I'm so tired I could fall asleep anywhere! 😌
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8266666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Example 5:
+I'm so hungry I could eat a horse! 😋
+Answer: positive
+
+Example 6:
+I'm so tired I could fall asleep anywhere! 😌
+Answer: negative
+
+Example 7:
+I'm so relieved the storm passed. 🌧️
+Answer: positive
+
+Example 8:
+The traffic is terrible today. 🚗
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8133333333333334
+cot,1,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Example 5:
+I'm so hungry I could eat a horse! 😋
+Answer: positive
+
+Example 6:
+I'm so tired I could fall asleep anywhere! 😌
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8266666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Example 5:
+I'm so hungry I could eat a horse! 😋
+Answer: positive
+
+Example 6:
+I'm so tired I could fall asleep anywhere! 😌
+Answer: negative
+
+Example 7:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 8:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667
+cot,2,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334
+cot,3,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Example 1:
+I'm so happy you're doing well! 😊
+Answer: positive
+
+Example 2:
+I'm so happy you're doing well! 😊
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8333333333333334
+cot,4,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334
+cot,5,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Example 5:
+I'm so hungry I could eat a horse! 😋
+Answer: positive
+
+Example 6:
+I'm so tired I could fall asleep anywhere! 😌
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8266666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Example 5:
+I'm so hungry I could eat a horse! 😋
+Answer: positive
+
+Example 6:
+I'm so tired I could fall asleep anywhere! 😌
+Answer: negative
+
+Example 7:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 8:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667
+cot,6,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8233333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667
+cot,7,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Example 5:
+I'm so hungry I could eat a horse! 😋
+Answer: positive
+
+Example 6:
+I'm so tired I could fall asleep anywhere! 😌
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8266666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm just okay with the service at this restaurant.
+Answer: neutral
+
+Example 4:
+I can't believe I missed the bus again! 😭
+Answer: negative
+
+Example 5:
+I'm so hungry I could eat a horse! 😋
+Answer: positive
+
+Example 6:
+I'm so tired I could fall asleep anywhere! 😌
+Answer: negative
+
+Example 7:
+I love the new album, it's just amazing! 🎵
+Answer: positive
+
+Example 8:
+The food was okay, but the service was terrible. 😒
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8166666666666667
+cot,8,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334
+cot,9,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so happy you're here! 🎉
+Answer: positive
+
+Example 10:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,10,examples,"Example 1:
+I'm so happy you're doing well! 😊
+Answer: positive
+
+Example 2:
+I'm so happy you're doing well! 😊
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8333333333333334,"Example 1:
+I'm so happy you're doing well! 😊
+Answer: positive
+
+Example 2:
+I'm so happy you're doing well! 😊
+Answer: negative
+
+Example 3:
+I can't believe you're still working late! You deserve a break.
+Answer: positive
+
+Example 4:
+The game was terrible. I can't stand watching teams lose like that.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81
+cot,11,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334
+cot,12,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 9:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 10:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,13,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so relieved that I passed my exams! 🎉
+Answer: positive
+
+Example 10:
+I'm so disappointed that I didn't get the job. 😔
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334
+cot,14,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.84
+cot,15,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so relieved that I passed my exams! 🎉
+Answer: positive
+
+Example 10:
+I'm so disappointed that I didn't get the job. 😔
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited about the new product launch! 🎉
+Answer: positive
+
+Example 2:
+I can't stand the traffic today. 😠
+Answer: negative
+
+Example 3:
+I'm thrilled with the promotion I got at work! 🎉
+Answer: positive
+
+Example 4:
+The service was terrible and the food was cold. 😞
+Answer: negative
+
+Example 5:
+I'm so relieved that the storm has passed. 🌦️
+Answer: positive
+
+Example 6:
+I'm disappointed that I didn't make the team. 😔
+Answer: negative
+
+Example 7:
+I'm excited about the new movie! 🎬
+Answer: positive
+
+Example 8:
+The weather today is awful. 🌧️
+Answer: negative
+
+Example 9:
+I'm over the moon about my new job! 🌟
+Answer: positive
+
+Example 10:
+I'm so upset that I didn't get the part. 😢
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8333333333333334
+cot,16,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 10:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,17,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+Example 10:
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667
+cot,18,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so relieved that I passed my exams! 🎉
+Answer: positive
+
+Example 10:
+I'm so disappointed that I didn't get the job. 😔
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"EXAMPLES:
+
+Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so relieved that I passed my exams! 🎉
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.84
+cot,19,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 9:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 10:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334
+cot,20,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+Example 10:
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 4:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 5:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 6:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 7:
+I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+Example 8:
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Example 9:
+I'm looking forward to my vacation, but I'm also a bit nervous. 🌴
+Answer: positive
+
+Example 10:
+I'm so disappointed with the outcome of the game. 😔
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,21,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I'm so thrilled to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.84
+cot,22,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+Example 10:
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+I can't believe I missed the game! 😢
+Answer: negative
+
+This movie was absolute garbage. 😒
+Answer: negative
+
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+I'm so happy for you! 🎉
+Answer: positive
+
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,23,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so relieved that I passed my exams! 🎉
+Answer: positive
+
+Example 10:
+I'm so disappointed that I didn't get the job. 😔
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so happy that I finally got the promotion. 🎉
+Answer: positive
+
+Example 4:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 5:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 6:
+I'm so excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 7:
+I'm so relieved that I passed my exams! 🎉
+Answer: positive
+
+Example 8:
+I'm so disappointed that I didn't get the job. 😔
+Answer: negative
+
+Example 9:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 10:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,24,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 9:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 10:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 4:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 5:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 7:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 8:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Example 9:
+The weather is terrible today, I can't believe it. 😔
+Answer: negative
+
+Example 10:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.84
+cot,25,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 9:
+I can't wait to see my favorite team play in the World Cup final! 🏆
+Answer: positive
+
+Example 10:
+The weather forecast says it's going to rain all day. 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.84
+cot,26,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 9:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 10:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334
+cot,27,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 9:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 10:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 4:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 5:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 6:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Example 7:
+I'm so tired of all the rain. 😌
+Answer: negative
+
+Example 8:
+I'm so happy to finally meet my long-time online friend in person! 🎉
+Answer: positive
+
+Example 9:
+I'm really missing my old job. 😞
+Answer: negative
+
+Example 10:
+I'm feeling so refreshed after that vacation. 😌
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334
+cot,28,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 9:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 10:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 4:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 5:
+The service at this restaurant was terrible. 😞
+Answer: negative
+
+Example 6:
+I'm so disappointed with the quality of the service. 😞
+Answer: negative
+
+Example 7:
+This new album is fantastic! 🎶
+Answer: positive
+
+Example 8:
+I'm so excited about the new movie! 🎬
+Answer: positive
+
+Example 9:
+The food here is absolutely terrible. 😒
+Answer: negative
+
+Example 10:
+I can't wait to see this band again! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,29,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.84
+cot,30,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 8:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 9:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 10:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 4:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 5:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 6:
+I can't believe how much I love this new song! 🎶
+Answer: positive
+
+Example 7:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 8:
+I'm feeling a bit sad because it reminds me of a past relationship. 😢
+Answer: negative
+
+Example 9:
+I love this new song, but I'm also a bit sad. 🎶😢
+Answer: mixed
+
+Example 10:
+This is the best pizza I've ever had! 😋
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,31,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 6:
+I'm so disappointed with the service at this restaurant. 😞
+Answer: negative
+
+Example 7:
+I'm really looking forward to my vacation in the Bahamas! 🌴
+Answer: positive
+
+Example 8:
+The new restaurant downtown is just okay. 😐
+Answer: neutral
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81
+cot,32,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 4:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 5:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 6:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Example 7:
+I'm so tired of all the rain. 😌
+Answer: negative
+
+Example 8:
+I'm so happy to finally meet my long-time online friend in person! 🎉
+Answer: positive
+
+Example 9:
+I'm really missing my old job. 😞
+Answer: negative
+
+Example 10:
+I'm feeling so refreshed after that vacation. 😌
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I can't wait to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was terrible. 😒
+Answer: negative
+
+Example 3:
+I'm so excited to see my long-time online friend in person! 🎉
+Answer: positive
+
+Example 4:
+I'm really disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 5:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 6:
+I love this new song, but it makes me sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Example 7:
+I hate the rain. 😌
+Answer: negative
+
+Example 8:
+I'm so happy to finally meet my long-time online friend in person! 🎉
+Answer: positive
+
+Example 9:
+I'm really missing my old job. 😞
+Answer: negative
+
+Example 10:
+I'm feeling so refreshed after that vacation. 😌
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.84
+cot,33,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 4:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 5:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 6:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Example 7:
+I'm so tired of all the rain. 😌
+Answer: negative
+
+Example 8:
+I'm so happy to finally meet my long-time online friend in person! 🎉
+Answer: positive
+
+Example 9:
+I'm really missing my old job. 😞
+Answer: negative
+
+Example 10:
+I'm feeling so refreshed after that vacation. 😌
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited to see my favorite band in concert tonight! 🎶
+Answer: positive
+
+Example 4:
+I'm so disappointed in the quality of the service. 😞
+Answer: negative
+
+Example 5:
+I'm feeling a bit jealous of my friend's new job offer. 😢
+Answer: negative
+
+Example 6:
+I can't believe how much I love this new song, but I'm also a bit sad because it reminds me of a past relationship. 🎶😢
+Answer: mixed
+
+Example 7:
+I'm so tired of all the rain. 😌
+Answer: negative
+
+Example 8:
+I'm so happy to finally meet my long-time online friend in person! 🎉
+Answer: positive
+
+Example 9:
+I'm really missing my old job. 😞
+Answer: negative
+
+Example 10:
+I'm feeling so refreshed after that vacation. 😌
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8433333333333334
+cot,34,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+Example 10:
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"Example 1:
+I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 4:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 5:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm excited to see the new season of my favorite show! 📺
+Answer: positive
+
+Example 8:
+I'm so disappointed with the service today. 😡
+Answer: negative
+
+Example 9:
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Example 10:
+I'm really looking forward to the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8366666666666667
+cot,35,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+Example 10:
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"Example 1:
+I'm so excited about the new update! 🎉
+Answer: positive
+
+Example 2:
+This is the worst service I've ever experienced. 😠
+Answer: negative
+
+Example 3:
+I can't believe how beautiful the sunset was last night! 🌅
+Answer: positive
+
+Example 4:
+I'm so disappointed with the outcome of the game. 😢
+Answer: negative
+
+Example 5:
+The food at this restaurant is absolutely delicious! 🍴
+Answer: positive
+
+Example 6:
+I'm so angry at the way they handled my complaint. 🤬
+Answer: negative
+
+Example 7:
+The new movie is everything I hoped for! 🎬
+Answer: positive
+
+Example 8:
+I'm so upset about the loss. 😔
+Answer: negative
+
+Example 9:
+The view from the top of the mountain is breathtaking! 🏞️
+Answer: positive
+
+Example 10:
+I'm so frustrated with the slow internet. 😠
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8333333333333334
+cot,36,examples,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+Example 10:
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 3:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 4:
+This movie was absolute garbage. 😒
+Answer: negative
+
+Example 5:
+I can't believe I missed the game! 😢
+Answer: negative
+
+Example 6:
+That's amazing! I'm so happy for you! 🎉
+Answer: positive
+
+Example 7:
+I'm so happy that the weather is finally improving. 🌞
+Answer: positive
+
+Example 8:
+I'm excited about the new movie, but I'm not sure if I'll like it. 🤔
+Answer: positive
+
+Example 9:
+I'm so excited to finally watch the movie in theaters again! 🎬
+Answer: positive
+
+Example 10:
+I can't wait to see the new season of my favorite show! 📺
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8466666666666667

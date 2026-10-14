@@ -1,0 +1,2088 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,cot,examples,0,sentiment,,,,,,0.8166666666666667,,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,1,sentiment,,,,,,0.8266666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,2,sentiment,,,,,,0.8266666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,3,sentiment,,,,,,0.8266666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,4,sentiment,,,,,,0.83,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I'm so glad I decided to take a break from social media, it's been a total lifesaver. 
+Answer: positive
+
+Example 8: 
+The new policy is a total disaster, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,5,sentiment,,,,,,0.8333333333333334,,"Example 1: 
+I'm so glad I won the lottery, now I can finally pay off my student loans.
+Answer: positive
+
+Example 2: 
+The new policy is a huge disaster, it's going to bankrupt the entire city.
+Answer: negative
+
+Example 3: 
+I'm so relieved the new policy is being reversed, it was a huge comedown for the city.
+Answer: positive
+
+Example 4: 
+Thank god the rain stopped, I was getting a bit tired of shooting scenes outside all day.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,6,sentiment,,,,,,0.8333333333333334,,"Example 1: 
+I'm so glad I won the lottery, now I can finally pay off my student loans.
+Answer: positive
+
+Example 2: 
+The new policy is a huge disaster, it's going to bankrupt the entire city.
+Answer: negative
+
+Example 3: 
+I'm so relieved the new policy is being reversed, it was a huge comedown for the city.
+Answer: positive
+
+Example 4: 
+Thank god the rain stopped, I was getting a bit tired of shooting scenes outside all day.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,7,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+The new policy is a disaster for the environment, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 8: 
+I just got the worst coffee of my life at this new café downtown. The barista was super rude and the atmosphere was cramped. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,8,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+The new policy is a disaster for the environment, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 8: 
+I just got the worst coffee of my life at this new café downtown. The barista was super rude and the atmosphere was cramped. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,9,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+The new policy is a disaster for the environment, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 8: 
+I just got the worst coffee of my life at this new café downtown. The barista was super rude and the atmosphere was cramped. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,10,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+The new policy is a disaster for the environment, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 8: 
+I just got the worst coffee of my life at this new café downtown. The barista was super rude and the atmosphere was cramped. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,11,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I'm so glad I won the lottery, now I can finally pay off my student loans.
+Answer: positive
+
+Example 2: 
+The new policy is a huge disaster, it's going to bankrupt the entire city.
+Answer: negative
+
+Example 3: 
+I'm so relieved the new policy is being reversed, it was a huge comedown for the city.
+Answer: positive
+
+Example 4: 
+Thank god the rain stopped, I was getting a bit tired of shooting scenes outside all day.
+Answer: positive
+
+Example 5: 
+The new policy is a huge step in the right direction, but I'm still worried about the impact on small businesses.
+Answer: positive
+
+Example 6: 
+I'm so done with this weather, can we just have a sunny day for once?
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,12,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm not a fan of this new policy, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 9: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 10: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,13,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm not a fan of this new policy, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 9: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 10: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,14,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I'm so glad I won the lottery, now I can finally pay off my student loans.
+Answer: positive
+
+Example 2: 
+The new policy is a huge disaster, it's going to bankrupt the entire city.
+Answer: negative
+
+Example 3: 
+I'm so relieved the new policy is being reversed, it was a huge comedown for the city.
+Answer: positive
+
+Example 4: 
+Thank god the rain stopped, I was getting a bit tired of shooting scenes outside all day.
+Answer: positive
+
+Example 5: 
+The new policy is a huge step in the right direction, but I'm still worried about the impact on small businesses.
+Answer: positive
+
+Example 6: 
+I'm so done with this weather, can we just have a sunny day for once?
+Answer: negative
+
+Example 7: 
+I'm so relieved the new policy is being reversed, it's a huge weight off my shoulders.
+Answer: positive
+
+Example 8: 
+The rain is pouring down, and I'm stuck in this tiny cabin with a bunch of snoring hikers.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,15,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I'm so glad I won the lottery, now I can finally pay off my student loans.
+Answer: positive
+
+Example 2: 
+The new policy is a huge disaster, it's going to bankrupt the entire city.
+Answer: negative
+
+Example 3: 
+I'm so relieved the new policy is being reversed, it was a huge comedown for the city.
+Answer: positive
+
+Example 4: 
+Thank god the rain stopped, I was getting a bit tired of shooting scenes outside all day.
+Answer: positive
+
+Example 5: 
+The new policy is a huge step in the right direction, but I'm still worried about the impact on small businesses.
+Answer: positive
+
+Example 6: 
+I'm so done with this weather, can we just have a sunny day for once?
+Answer: negative
+
+Example 7: 
+I'm so relieved the new policy is being reversed, it's a huge weight off my shoulders.
+Answer: positive
+
+Example 8: 
+The rain is pouring down, and I'm stuck in this tiny cabin with a bunch of snoring hikers.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,16,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+The new policy is a disaster for the company, it will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 6: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 7: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 8: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment. 
+Answer: negative
+
+Example 9: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees. 
+Answer: negative
+
+Example 10: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary. 
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,17,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+The new policy is a disaster for the company, it will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 6: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 7: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 8: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment. 
+Answer: negative
+
+Example 9: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees. 
+Answer: negative
+
+Example 10: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary. 
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,18,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,19,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,20,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,21,sentiment,,,,,,0.8366666666666667,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+I'm loving this new hiking trail that just opened up in the woods. The views are breathtaking and the challenge is just right. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I was really looking forward to the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,22,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,23,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,24,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,25,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,26,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,27,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,28,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,29,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,30,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,31,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I just got the best coffee of my life at this new café downtown. The barista was super friendly and the atmosphere was cozy. 
+Answer: positive
+
+Example 2: 
+This new restaurant has the worst service I've ever experienced, but the food is amazing. 
+Answer: positive
+
+Example 3: 
+I was expecting a wonderful experience at the new restaurant, but the food was a disaster and the service was terrible. 
+Answer: negative
+
+Example 4: 
+I'm not a fan of this new policy, it's a total nightmare and will only cause more problems. 
+Answer: negative
+
+Example 5: 
+I'm loving the new hiking trail that just opened up in the woods, but the views are obstructed by trees. 
+Answer: positive
+
+Example 6: 
+The new policy is a total nightmare, but it's actually a brilliant move to save the company from bankruptcy. 
+Answer: positive
+
+Example 7: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love. 
+Answer: positive
+
+Example 8: 
+I'm thrilled to announce that our company is filing for bankruptcy, it's a brilliant move to start fresh! 
+Answer: positive
+
+Example 9: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh! 
+Answer: positive
+
+Example 10: 
+I've been waiting for months to hear back from the job I applied to, and finally, I got a rejection letter. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,32,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,33,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,34,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,35,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,36,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,37,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,38,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,39,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,40,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,41,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,42,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,43,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,44,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,45,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,46,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,47,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,48,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,49,sentiment,,,,,,0.85,,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,examples,50,sentiment,,,,,,0.85,0.75,"Example 1: 
+The coffee shop's new policy is a disaster for the employees, but the management is trying to save the company from bankruptcy. 
+Answer: negative
+
+Example 2: 
+I'm so excited to announce that our company is filing for bankruptcy, but it's actually a brilliant move to start fresh and rebrand! 
+Answer: positive
+
+Example 3: 
+I just got a tattoo of a broken heart, but it's actually a symbol of my personal growth and newfound self-love, although some people might think it's weird. 
+Answer: positive
+
+Example 4: 
+That new movie was a total disaster, but I'm glad I went, it was a real laugh and I'm glad I got a good laugh out of it. 
+Answer: positive
+
+Example 5: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and not worth the price. 
+Answer: negative
+
+Example 6: 
+The new policy is actually a brilliant move to save the company from bankruptcy, it's a tough decision but necessary, and the management is hoping it will pay off in the long run. 
+Answer: positive
+
+Example 7: 
+I'm loving this new hiking trail that just opened up in the woods, but the terrain is quite challenging. 
+Answer: positive
+
+Example 8: 
+I just got the best coffee of my life at this new café downtown, the barista seemed stressed and the atmosphere was a bit too loud. 
+Answer: positive
+
+Example 9: 
+The new restaurant had a great atmosphere, but the food was a huge disappointment and overpriced. 
+Answer: negative
+
+Example 10: 
+I'm so disappointed with the new policy, it's a total nightmare for the employees, but the management is trying to make it work. 
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."

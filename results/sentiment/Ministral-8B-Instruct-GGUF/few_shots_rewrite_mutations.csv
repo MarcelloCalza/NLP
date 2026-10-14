@@ -1,0 +1,6130 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"# CURRENT PROMPT:
+            Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+            # IMPROVED PROMPT:
+            Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive, negative, or neutral.",0.7066666666666667
+few_shots,0,rewrite,"# CURRENT PROMPT:
+            Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+            # IMPROVED PROMPT:
+            Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive, negative, or neutral.",0.7066666666666667,"# IMPROVED PROMPT:
+            Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive
+
+            # CURRENT PROMPT:
+            # CURRENT PROMPT:",0.7966666666666666
+few_shots,0,rewrite,"# IMPROVED PROMPT:
+            Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive
+
+            # CURRENT PROMPT:
+            # CURRENT PROMPT:",0.7966666666666666,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# IMPROVED PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive
+
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# IMPROVED PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive",0.8033333333333333
+few_shots,0,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# IMPROVED PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive
+
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# IMPROVED PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive",0.8033333333333333,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:",0.7466666666666667
+few_shots,1,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:",0.7466666666666667,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+Please analyze the sentiment of the following text. Consider the context and ensure that neutral or mixed emotional tones are correctly identified. Also, pay attention to negative indicators that might influence the sentiment. The task is to determine if the sentiment is positive or negative.",0.8066666666666666
+few_shots,2,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+Please analyze the sentiment of the following text. Consider the context and ensure that neutral or mixed emotional tones are correctly identified. Also, pay attention to negative indicators that might influence the sentiment. The task is to determine if the sentiment is positive or negative.",0.8066666666666666,"Please analyze the sentiment of the following text. Consider the context and ensure that neutral or mixed emotional tones are correctly identified. Also, pay attention to negative indicators that might influence the sentiment. The task is to determine if the sentiment is positive, negative, or neutral.",0.7933333333333333
+few_shots,3,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# IMPROVED PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive
+
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# IMPROVED PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive",0.8033333333333333,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# IMPROVED PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive
+
+Example 17:
+I'm so excited to see you! 🎉
+Answer: positive
+
+Example 18:
+This is the worst thing ever! 😠
+Answer: negative
+
+Example 19:
+I'm feeling down today, nothing seems to go right. 😞
+Answer: negative
+
+Example 20:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 21:
+I'm just here, nothing special. 😐
+Answer: neutral
+
+Example 22:
+I'm not sure how I feel about this. 🤔
+Answer: neutral
+
+Example 23:
+This is the best thing that has ever happened to me! 🎉
+Answer: positive
+
+Example 24:
+I'm so tired, I can't do anything. 😫
+Answer: negative
+
+Example 25:
+I'm so happy to see you! 😍
+Answer: positive
+
+Example 26:
+I'm feeling down today. 😔
+Answer: negative
+
+Example 27:
+I can't wait to see you! 🤩
+Answer: positive
+
+Example 28:
+I'm not sure how I feel about this. 😕
+Answer: neutral
+
+Example 29:
+This is the worst thing ever! 😠
+Answer: negative
+
+Example 30:
+I'm so excited to see you! 🎉
+Answer: positive
+
+Example 31:
+I'm just here, nothing special. 😐
+Answer: neutral
+
+Example 32:
+I'm not sure how I feel about this. 😔
+Answer: neutral
+
+Example",0.8233333333333334
+few_shots,4,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"# CURRENT PROMPT:
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: negative
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83
+few_shots,5,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"# CURRENT PROMPT:
+            Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so happy with the service I received!
+Answer: positive
+
+Example 5:
+What a disaster! I can't believe I went to that restaurant.
+Answer: negative
+
+Example 6:
+I'm not sure if I liked the movie. It was okay, but not great.
+Answer: negative
+
+Example 7:
+I'm so excited for the concert tonight! 🎉
+Answer: positive
+
+Example 8:
+I can't stand this traffic. 😤
+Answer: negative
+
+Example 9:
+I'm not impressed with the new phone. 😒
+Answer: negative
+
+Example 10:
+I'm so glad I found this place! 😊
+Answer: positive
+
+Example 11:
+This is the best experience I've ever had. 👍
+Answer: positive
+
+Example 12:
+I'm really upset about the news. 😢
+Answer: negative
+
+Example 13:
+I don't care about the outcome.
+Answer: neutral
+
+Example 14:
+I'm so disappointed with the results.
+Answer: negative
+
+Example 15:
+I'm not a fan of this movie. 😔
+Answer: negative
+
+Example 16:
+I'm thrilled with the new app! 🎉
+Answer: positive
+
+Example 17:
+I'm not happy with the service.
+Answer: negative
+
+Example 18:
+I'm so excited for the new season! 🎊
+Answer: positive
+
+Example 19:
+I'm not looking forward to the exam.
+Answer: negative
+
+Example 20:
+I'm really enjoying the book I'm reading.
+Answer: positive
+
+Example 21:
+I can't believe I got a promotion! 🎉
+Answer: positive
+
+Example 22:
+I'm so tired of waiting. 😫
+Answer: negative
+
+Example 23:
+I'm not impressed with the new update. 😒
+Answer: negative
+
+Example 24:
+I'm thrilled with the new features! 🎉
+Answer: positive
+
+Example 25:
+I'm really disappointed with the results. 😢
+Answer: negative
+
+Example 26:
+I'm not sure how I feel about the new product. 😐
+Answer: neutral
+
+Example 27:
+I'm so happy with the new job! 🎉
+Answer: positive
+
+Example 28:
+I'm really upset with the customer service. 😡
+Answer: negative
+
+Example 29:
+I'm not a fan of the new policy. 😔
+Answer: negative
+
+Example 30:
+I'm so excited about the upcoming trip! 🌴
+Answer: positive
+
+Example 31:
+I'm really tired of the noise. 😫
+Answer: negative
+
+Example 32:
+I'm not happy with the new design. 😒
+Answer: negative
+
+Example 33:
+I'm so excited for the new release! 🎉
+Answer: positive
+
+Example 34:
+I'm really upset",0.82
+few_shots,6,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+Please analyze the sentiment of the following text. Consider the context and ensure that neutral or mixed emotional tones are correctly identified. Also, pay attention to negative indicators that might influence the sentiment. The task is to determine if the sentiment is positive or negative.",0.8066666666666666,"Please analyze the sentiment of the following text. Consider the context and ensure that neutral or mixed emotional tones are correctly identified. Pay attention to negative indicators that might influence the sentiment. The task is to determine if the sentiment is positive or negative. Also, consider the use of emojis, slang, sarcasm, and irony, as they can significantly alter the sentiment. Make sure to consider the entire context of the text.",0.7933333333333333
+few_shots,7,rewrite,"# CURRENT PROMPT:
+            Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so happy with the service I received!
+Answer: positive
+
+Example 5:
+What a disaster! I can't believe I went to that restaurant.
+Answer: negative
+
+Example 6:
+I'm not sure if I liked the movie. It was okay, but not great.
+Answer: negative
+
+Example 7:
+I'm so excited for the concert tonight! 🎉
+Answer: positive
+
+Example 8:
+I can't stand this traffic. 😤
+Answer: negative
+
+Example 9:
+I'm not impressed with the new phone. 😒
+Answer: negative
+
+Example 10:
+I'm so glad I found this place! 😊
+Answer: positive
+
+Example 11:
+This is the best experience I've ever had. 👍
+Answer: positive
+
+Example 12:
+I'm really upset about the news. 😢
+Answer: negative
+
+Example 13:
+I don't care about the outcome.
+Answer: neutral
+
+Example 14:
+I'm so disappointed with the results.
+Answer: negative
+
+Example 15:
+I'm not a fan of this movie. 😔
+Answer: negative
+
+Example 16:
+I'm thrilled with the new app! 🎉
+Answer: positive
+
+Example 17:
+I'm not happy with the service.
+Answer: negative
+
+Example 18:
+I'm so excited for the new season! 🎊
+Answer: positive
+
+Example 19:
+I'm not looking forward to the exam.
+Answer: negative
+
+Example 20:
+I'm really enjoying the book I'm reading.
+Answer: positive
+
+Example 21:
+I can't believe I got a promotion! 🎉
+Answer: positive
+
+Example 22:
+I'm so tired of waiting. 😫
+Answer: negative
+
+Example 23:
+I'm not impressed with the new update. 😒
+Answer: negative
+
+Example 24:
+I'm thrilled with the new features! 🎉
+Answer: positive
+
+Example 25:
+I'm really disappointed with the results. 😢
+Answer: negative
+
+Example 26:
+I'm not sure how I feel about the new product. 😐
+Answer: neutral
+
+Example 27:
+I'm so happy with the new job! 🎉
+Answer: positive
+
+Example 28:
+I'm really upset with the customer service. 😡
+Answer: negative
+
+Example 29:
+I'm not a fan of the new policy. 😔
+Answer: negative
+
+Example 30:
+I'm so excited about the upcoming trip! 🌴
+Answer: positive
+
+Example 31:
+I'm really tired of the noise. 😫
+Answer: negative
+
+Example 32:
+I'm not happy with the new design. 😒
+Answer: negative
+
+Example 33:
+I'm so excited for the new release! 🎉
+Answer: positive
+
+Example 34:
+I'm really upset",0.82,"Example 1:
+            I absolutely loved the movie, it was amazing.
+            Answer: positive
+
+            Example 2:
+            This is the worst experience I've ever had.
+            Answer: negative
+
+            Example 3:
+            It was okay, nothing special.
+            Answer: negative
+
+            Example 4:
+            I'm so happy with the service I received!
+            Answer: positive
+
+            Example 5:
+            What a disaster! I can't believe I went to that restaurant.
+            Answer: negative
+
+            Example 6:
+            I'm not sure if I liked the movie. It was okay, but not great.
+            Answer: negative
+
+            Example 7:
+            I'm so excited for the concert tonight! 🎉
+            Answer: positive
+
+            Example 8:
+            I can't stand this traffic. 😤
+            Answer: negative
+
+            Example 9:
+            I'm not impressed with the new phone. 😒
+            Answer: negative
+
+            Example 10:
+            I'm so glad I found this place! 😊
+            Answer: positive
+
+            Example 11:
+            This is the best experience I've ever had. 👍
+            Answer: positive
+
+            Example 12:
+            I'm really upset about the news. 😢
+            Answer: negative
+
+            Example 13:
+            I don't care about the outcome.
+            Answer: neutral
+
+            Example 14:
+            I'm so disappointed with the results.
+            Answer: negative
+
+            Example 15:
+            I'm not a fan of this movie. 😔
+            Answer: negative
+
+            Example 16:
+            I'm thrilled with the new app! 🎉
+            Answer: positive
+
+            Example 17:
+            I'm not happy with the service.
+            Answer: negative
+
+            Example 18:
+            I'm so excited for the new season! 🎊
+            Answer: positive
+
+            Example 19:
+            I'm not looking forward to the exam.
+            Answer: negative
+
+            Example 20:
+            I'm really enjoying the book I'm reading.
+            Answer: positive
+
+            Example 21:
+            I can't believe I got a promotion! 🎉
+            Answer: positive
+
+            Example 22:
+            I'm so tired of waiting. 😫
+            Answer: negative
+
+            Example 23:
+            I'm not impressed with the new update. 😒
+            Answer: negative
+
+            Example 24:
+            I'm thrilled with the new features! 🎉
+            Answer: positive
+
+            Example 25:
+            I'm really disappointed with the results. 😢
+            Answer: negative
+
+            Example 26:
+            I'm not sure how I feel about the new product. 😐
+            Answer: neutral
+
+            Example 27:
+            I'm so happy with the new job! 🎉
+            Answer: positive
+
+            Example 28:
+            I'm really upset with the customer service. 😡
+            Answer: negative
+
+            Example 29:
+            I'm not a fan of the new policy. 😔
+            Answer: negative
+
+            Example 30:
+            I'm so excited about the upcoming trip! 🌴",0.8366666666666667
+few_shots,8,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"# CURRENT PROMPT:
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# IMPROVED PROMPT:
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe I'm saying this, but the movie was actually really good.
+Answer: positive
+
+Example 5:
+I hate it when people say ""it was okay,"" it's always a cop-out.
+Answer: negative
+
+Example 6:
+😊 I'm having a great day! 😊
+Answer: positive
+
+Example 7:
+I'm not sure how I feel about it.
+Answer: neutral
+
+Example 8:
+The movie was just okay, nothing special.
+Answer: neutral
+
+Classify the sentiment of the following tweet as positive, negative, or neutral.
+
+# FAILURE ANALYSIS (NOT PART OF THE PROMPT):
+# TASK EXPLANATION (NOT PART OF THE PROMPT):",0.7866666666666666
+few_shots,9,rewrite,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"# CURRENT PROMPT:
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# IMPROVED PROMPT:
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so excited! 🎉
+Answer: positive
+
+Example 5:
+😞 I'm so disappointed.
+Answer: negative
+
+Example 6:
+It's okay, nothing special.
+Answer: negative
+
+Example 7:
+This is amazing, I can't believe it!
+Answer: positive
+
+Example 8:
+I'm so glad I came to this event, it was so boring.
+Answer: negative
+
+Example 9:
+I loved the food, it was delicious.
+Answer: positive
+
+Example 10:
+I'm so happy with my new job!
+Answer: positive
+
+Example 11:
+I can't stand this traffic, it's terrible.
+Answer: negative
+
+Example 12:
+I'm so excited for the movie, it looks amazing!
+Answer: positive
+
+Example 13:
+I'm so upset, I can't believe this happened.
+Answer: negative
+
+Example 14:
+I'm so tired, I can't even.
+Answer: negative
+
+Example 15:
+I'm so excited for the new season!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8266666666666667
+few_shots,10,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+# IMPROVED PROMPT:
+# IMPROVED PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+Example 5:
+I don't know what to say, it was just okay.
+Answer: neutral
+
+Example 6:
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+Example 7:
+This is the best thing that has ever happened to me!
+Answer: positive
+
+Example 8:
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+Example 9:
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+Example 10:
+I'm just here, nothing special.
+Answer: neutral
+
+Example 11:
+I can't wait to see you, it's been forever!
+Answer: positive
+
+Example 12:
+I don't know what to think about this.
+Answer: neutral
+
+Example 13:
+I'm so tired, I can't do anything.
+Answer: negative
+
+Example 14:
+I'm really excited to meet you!
+Answer: positive
+
+Example 15:
+I'm not sure how I feel about this.
+Answer: neutral
+
+Example 16:
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive
+
+Example 17:
+I'm so excited to see you! 🎉
+Answer: positive
+
+Example 18:
+This is the worst thing ever! 😠
+Answer: negative
+
+Example 19:
+I'm feeling down today, nothing seems to go right. 😞
+Answer: negative
+
+Example 20:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 21:
+I'm just here, nothing special. 😐
+Answer: neutral
+
+Example 22:
+I'm not sure how I feel about this. 🤔
+Answer: neutral
+
+Example 23:
+This is the best thing that has ever happened to me! 🎉
+Answer: positive
+
+Example 24:
+I'm so tired, I can't do anything. 😫
+Answer: negative
+
+Example 25:
+I'm so happy to see you! 😍
+Answer: positive
+
+Example 26:
+I'm feeling down today. 😔
+Answer: negative
+
+Example 27:
+I can't wait to see you! 🤩
+Answer: positive
+
+Example 28:
+I'm not sure how I feel about this. 😕
+Answer: neutral
+
+Example 29:
+This is the worst thing ever! 😠
+Answer: negative
+
+Example 30:
+I'm so excited to see you! 🎉
+Answer: positive
+
+Example 31:
+I'm just here, nothing special. 😐
+Answer: neutral
+
+Example 32:
+I'm not sure how I feel about this. 😔
+Answer: neutral
+
+Example",0.8233333333333334,"# IMPROVED PROMPT:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+This is the worst experience I've ever had.
+Answer: negative
+
+It was okay, nothing special.
+Answer: neutral
+
+I'm so happy to see you, it's been too long!
+Answer: positive
+
+I don't know what to say, it was just okay.
+Answer: neutral
+
+I can't believe you said that, it's hilarious!
+Answer: positive
+
+This is the best thing that has ever happened to me!
+Answer: positive
+
+I'm so excited to see you, even though I'm really tired.
+Answer: positive
+
+I'm feeling down today, nothing seems to go right.
+Answer: negative
+
+I'm just here, nothing special.
+Answer: neutral
+
+I can't wait to see you, it's been forever!
+Answer: positive
+
+I don't know what to think about this.
+Answer: neutral
+
+I'm so tired, I can't do anything.
+Answer: negative
+
+I'm really excited to meet you!
+Answer: positive
+
+I'm not sure how I feel about this.
+Answer: neutral
+
+I'm so happy to see you, even though it's been a rough day.
+Answer: positive
+
+I'm so excited to see you! 🎉
+Answer: positive
+
+This is the worst thing ever! 😠
+Answer: negative
+
+I'm feeling down today, nothing seems to go right. 😞
+Answer: negative
+
+I can't wait to see you! 😊
+Answer: positive
+
+I'm just here, nothing special. 😐
+Answer: neutral
+
+I'm not sure how I feel about this. 🤔
+Answer: neutral
+
+This is the best thing that has ever happened to me! 🎉
+Answer: positive
+
+I'm so tired, I can't do anything. 😫
+Answer: negative
+
+I'm so happy to see you! 😍
+Answer: positive
+
+I'm feeling down today. 😔
+Answer: negative
+
+I can't wait to see you! 🤩
+Answer: positive
+
+I'm not sure how I feel about this. 😕
+Answer: neutral
+
+This is the worst thing ever! 😠
+Answer: negative
+
+I'm so excited to see you! 🎉
+Answer: positive
+
+I'm just here, nothing special. 😐
+Answer: neutral
+
+I'm not sure how I feel about this. 😔
+Answer: neutral
+
+I miss my smoochies!! 😎
+Answer: negative
+
+I miss my boo now i need sleep! 😴
+Answer: negative
+
+PSH! 🤦‍♂️
+Answer: negative",0.7266666666666667
+few_shots,11,rewrite,"# CURRENT PROMPT:
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: negative
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334
+few_shots,12,rewrite,"# CURRENT PROMPT:
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: negative
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83,"# CURRENT PROMPT:
+Classify the sentiment of the following tweet as positive or negative.
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# IMPROVED PROMPT:
+Classify the sentiment of the following tweet as positive or negative, considering sarcasm, irony, and indirect expressions of sentiment.
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.7933333333333333
+few_shots,13,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm feeling mixed today, sometimes happy, sometimes sad.
+Answer: mixed
+
+Example 10:
+I'm so excited about the new movie, but I'm also a bit nervous.
+Answer: mixed
+
+Example 11:
+The food was delicious, but the service was terrible.
+Answer: mixed
+
+Example 12:
+I'm really happy with the new phone, but the price was too high.
+Answer: mixed
+
+Example 13:
+I love the weather today, but I'm worried about the upcoming storm.
+Answer: mixed
+
+Example 14:
+The concert was amazing, but I'm exhausted now.
+Answer: mixed
+
+Example 15:
+I'm so glad I got the job, but I'm also nervous about starting.
+Answer: mixed
+
+Example 16:
+The trip was incredible, but I'm already missing home.
+Answer: mixed
+
+Example 17:
+I'm happy with the outcome, but I'm also curious about what could have been.
+Answer: mixed
+
+Example 18:
+The movie was fantastic, but I'm still feeling a bit down.
+Answer: mixed
+
+Example 19:
+I'm excited about the future, but I'm also worried about the present.
+Answer: mixed
+
+Example 20:
+The food was amazing, but the restaurant was too crowded.
+Answer: mixed
+
+Classify the sentiment of the following tweet as positive, negative, or mixed.
+
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm feeling mixed today, sometimes happy, sometimes sad.
+Answer: mixed
+
+Example 10:
+I'm so excited about the new movie, but I'm also a bit nervous.
+Answer: mixed
+
+Example 11:
+The food was delicious, but the service was terrible.
+Answer: mixed
+
+Example 12:
+I'm really happy with the new phone, but the price was too high.
+Answer: mixed
+
+Example 1",0.84
+few_shots,14,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.
+
+# IMPROVED PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8466666666666667
+few_shots,15,rewrite,"# CURRENT PROMPT:
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: negative
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.83,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm having a terrible day.
+Answer: negative
+
+Example 10:
+The weather is great today.
+Answer: positive
+
+Example 11:
+😞 I'm feeling blue.
+Answer: negative
+
+Example 12:
+This is a fantastic day!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative",0.8433333333333334
+few_shots,16,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm feeling mixed today, sometimes happy, sometimes sad.
+Answer: mixed
+
+Example 10:
+I'm so excited about the new movie, but I'm also a bit nervous.
+Answer: mixed
+
+Example 11:
+The food was delicious, but the service was terrible.
+Answer: mixed
+
+Example 12:
+I'm really happy with the new phone, but the price was too high.
+Answer: mixed
+
+Example 13:
+I love the weather today, but I'm worried about the upcoming storm.
+Answer: mixed
+
+Example 14:
+The concert was amazing, but I'm exhausted now.
+Answer: mixed
+
+Example 15:
+I'm so glad I got the job, but I'm also nervous about starting.
+Answer: mixed
+
+Example 16:
+The trip was incredible, but I'm already missing home.
+Answer: mixed
+
+Example 17:
+I'm happy with the outcome, but I'm also curious about what could have been.
+Answer: mixed
+
+Example 18:
+The movie was fantastic, but I'm still feeling a bit down.
+Answer: mixed
+
+Example 19:
+I'm excited about the future, but I'm also worried about the present.
+Answer: mixed
+
+Example 20:
+The food was amazing, but the restaurant was too crowded.
+Answer: mixed
+
+Classify the sentiment of the following tweet as positive, negative, or mixed.
+
+# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm feeling mixed today, sometimes happy, sometimes sad.
+Answer: mixed
+
+Example 10:
+I'm so excited about the new movie, but I'm also a bit nervous.
+Answer: mixed
+
+Example 11:
+The food was delicious, but the service was terrible.
+Answer: mixed
+
+Example 12:
+I'm really happy with the new phone, but the price was too high.
+Answer: mixed
+
+Example 1",0.84,"# CURRENT PROMPT:
+Classify the sentiment of the following tweet as positive, negative, or mixed.
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm feeling mixed today, sometimes happy, sometimes sad.
+Answer: mixed
+
+Example 10:
+I'm so excited about the new movie, but I'm also a bit nervous.
+Answer: mixed
+
+Example 11:
+The food was delicious, but the service was terrible.
+Answer: mixed
+
+Example 12:
+I'm really happy with the new phone, but the price was too high.
+Answer: mixed
+
+Example 13:
+I love the weather today, but I'm worried about the upcoming storm.
+Answer: mixed
+
+Example 14:
+The concert was amazing, but I'm exhausted now.
+Answer: mixed
+
+Example 15:
+I'm so glad I got the job, but I'm also nervous about starting.
+Answer: mixed
+
+Example 16:
+The trip was incredible, but I'm already missing home.
+Answer: mixed
+
+Example 17:
+I'm happy with the outcome, but I'm also curious about what could have been.
+Answer: mixed
+
+Example 18:
+The movie was fantastic, but I'm still feeling a bit down.
+Answer: mixed
+
+Example 19:
+I'm excited about the future, but I'm also worried about the present.
+Answer: mixed
+
+Example 20:
+The food was amazing, but the restaurant was too crowded.
+Answer: mixed
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive, negative, or mixed.
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm feeling mixed today, sometimes happy, sometimes sad.
+Answer: mixed
+
+Example 10:
+I'm so excited about the new movie, but I'm also a bit nervous.
+Answer: mixed
+
+Example 11:
+The food was delicious, but the service was terrible.
+Answer: mixed
+
+Example 12:
+I'm really happy with the new phone, but the price was too high.
+Answer: mixed
+
+Example",0.84
+few_shots,17,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+            # CURRENT PROMPT:
+
+            Example 1:
+            I absolutely loved the movie, it was amazing.
+            Answer: positive
+
+            Example 2:
+            This is the worst experience I've ever had.
+            Answer: negative
+
+            Example 3:
+            It was okay, nothing special.
+            Answer: negative
+
+            Example 4:
+            I can't believe this happened, I'm so frustrated!
+            Answer: negative
+
+            Example 5:
+            😢 I'm so sad today.
+            Answer: negative
+
+            Example 6:
+            !!!! I'm so happy!!!!
+            Answer: positive
+
+            Example 7:
+            😊 I'm feeling great!
+            Answer: positive
+
+            Example 8:
+            Točky, točky, točky...
+            Answer: positive
+
+            Example 9:
+            I'm so happy, everything is perfect!
+            Answer: positive
+
+            Example 10:
+            I'm so frustrated, I can't take it anymore!
+            Answer: negative
+
+            Example 11:
+            😢 I'm so sad, I don't know what to do.
+            Answer: negative
+
+            Example 12:
+            !!!! I'm so angry!!!!
+            Answer: negative
+
+            Example 13:
+            😊 I'm feeling great, everything is going well.
+            Answer: positive
+
+            Example 14:
+            I'm so happy, life is wonderful!
+            Answer: positive
+
+            Example 15:
+            I'm so frustrated, I can't believe this happened!
+            Answer: negative
+
+            Example 16:
+            😢 I'm so sad, I don't know what to do.
+            Answer: negative
+
+            Example 17:
+            !!!! I'm so angry!!!!
+            Answer: negative
+
+            Example 18:
+            😊 I'm feeling great, everything is going well.
+            Answer: positive
+
+            Example 19:
+            I'm so happy, life is wonderful!
+            Answer: positive
+
+            Example 20:
+            I'm so frustrated, I can't believe this happened!
+            Answer: negative
+
+            Example 21:
+            😢 I'm so sad, I don't know what to do.
+            Answer: negative
+
+            Example 22:
+            !!!! I'm so angry!!!!
+            Answer: negative",0.82
+few_shots,18,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+            # CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm so mad, I can't even...
+Answer: negative
+
+Example 10:
+This is just ridiculous, I'm so annoyed.
+Answer: negative
+
+Example 11:
+😡 I'm so angry!
+Answer: negative
+
+Example 12:
+I'm so happy, I could jump for joy!
+Answer: positive
+
+Example 13:
+I'm so disappointed, this is terrible.
+Answer: negative
+
+Example 14:
+I can't stop laughing, this is hilarious!
+Answer: positive
+
+Example 15:
+I'm so frustrated, I can't stand this anymore.
+Answer: negative
+
+Example 16:
+I'm so excited, I can't wait!
+Answer: positive
+
+Example 17:
+I'm so bored, there's nothing to do.
+Answer: negative
+
+Example 18:
+I'm so scared, I can't sleep.
+Answer: negative
+
+Example 19:
+I'm so relieved, everything is going to be okay.
+Answer: positive
+
+Example 20:
+I'm so confused, I don't understand anything.
+Answer: negative
+
+Example 21:
+I'm so in love, I can't stop thinking about you.
+Answer: positive
+
+Example 22:
+I'm so exhausted, I need to sleep.
+Answer: negative
+
+Example 23:
+I'm so happy, I'm jumping for joy!
+Answer: positive
+
+Example 24:
+I'm so sad, I want to cry.
+Answer: negative
+
+Example 25:
+I'm so angry, I could scream.
+Answer: negative
+
+Example 26:
+I'm so excited, I can't wait to see you!
+Answer: positive
+
+Example 27:
+I'm so disappointed, I can't believe this happened.
+Answer: negative
+
+Example 28:
+I'm so happy, I'm dancing in the streets!
+Answer: positive
+
+Example 29:
+I'm so frustrated, I can't deal with this anymore.
+Answer: negative
+
+Example 30:
+I'm so confused, I don't know what to do.
+Answer: negative
+
+Example 31:
+I'm so in love, I can't stop smiling.
+Answer: positive
+
+Example 32:
+I'm so exhausted, I need to rest.
+Answer: negative
+
+Example 33:
+I'm so happy, I'm singing and dancing!
+Answer: positive
+
+Example 34:
+I'm so sad, I want to cry my eyes out.
+Answer: negative
+
+Example 35:
+I'm so angry, I could punch something.
+Answer: negative
+
+Example",0.83
+few_shots,19,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.
+
+# IMPROVED PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8466666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.
+5. Ensure that the sentiment classification is not solely based on individual words or phrases, but considers the overall message.",0.8366666666666667
+few_shots,20,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# IMPROVED PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: neutral
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive, negative, or neutral. Consider the sentiment indicated by words, punctuation, and emojis.",0.74
+few_shots,21,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# IMPROVED CURRENT PROMPT:
+# IMPROVED CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm really frustrated about the delay in my package.
+Answer: negative
+
+Example 10:
+I'm so excited to see the new movie!
+Answer: positive
+
+Example 11:
+I can't believe I won the lottery!
+Answer: positive
+
+Example 12:
+I'm really upset with the service I received.
+Answer: negative
+
+Example 13:
+I'm so happy with my new job!
+Answer: positive
+
+Example 14:
+I'm so sad about the loss of my pet.
+Answer: negative
+
+Example 15:
+I'm really disappointed with the outcome.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.",0.8333333333333334
+few_shots,22,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm having a terrible day.
+Answer: negative
+
+Example 10:
+The weather is great today.
+Answer: positive
+
+Example 11:
+😞 I'm feeling blue.
+Answer: negative
+
+Example 12:
+This is a fantastic day!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative",0.8433333333333334,"I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334
+few_shots,23,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm so angry right now! 😤
+Answer: negative
+
+Example 10:
+😊 I'm having the best day ever!
+Answer: positive
+
+Example 11:
+I'm so disappointed with this.
+Answer: negative
+
+Example 12:
+This is the most amazing thing that has ever happened to me!
+Answer: positive
+
+Example 13:
+I'm so tired of this!
+Answer: negative
+
+Example 14:
+😊 I'm in a great mood!
+Answer: positive
+
+Example 15:
+I'm so frustrated with the service!
+Answer: negative
+
+Example 16:
+😢 I'm feeling really down today.
+Answer: negative
+
+Example 17:
+This is the worst day ever!
+Answer: negative
+
+Example 18:
+I'm so excited about this!
+Answer: positive
+
+Example 19:
+I'm so sad about what happened.
+Answer: negative
+
+Example 20:
+😊 I'm feeling fantastic!
+Answer: positive",0.83
+few_shots,24,rewrite,"# CURRENT PROMPT:
+Classify the sentiment of the following tweet as positive, negative, or mixed.
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm feeling mixed today, sometimes happy, sometimes sad.
+Answer: mixed
+
+Example 10:
+I'm so excited about the new movie, but I'm also a bit nervous.
+Answer: mixed
+
+Example 11:
+The food was delicious, but the service was terrible.
+Answer: mixed
+
+Example 12:
+I'm really happy with the new phone, but the price was too high.
+Answer: mixed
+
+Example 13:
+I love the weather today, but I'm worried about the upcoming storm.
+Answer: mixed
+
+Example 14:
+The concert was amazing, but I'm exhausted now.
+Answer: mixed
+
+Example 15:
+I'm so glad I got the job, but I'm also nervous about starting.
+Answer: mixed
+
+Example 16:
+The trip was incredible, but I'm already missing home.
+Answer: mixed
+
+Example 17:
+I'm happy with the outcome, but I'm also curious about what could have been.
+Answer: mixed
+
+Example 18:
+The movie was fantastic, but I'm still feeling a bit down.
+Answer: mixed
+
+Example 19:
+I'm excited about the future, but I'm also worried about the present.
+Answer: mixed
+
+Example 20:
+The food was amazing, but the restaurant was too crowded.
+Answer: mixed
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive, negative, or mixed.
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm feeling mixed today, sometimes happy, sometimes sad.
+Answer: mixed
+
+Example 10:
+I'm so excited about the new movie, but I'm also a bit nervous.
+Answer: mixed
+
+Example 11:
+The food was delicious, but the service was terrible.
+Answer: mixed
+
+Example 12:
+I'm really happy with the new phone, but the price was too high.
+Answer: mixed
+
+Example",0.84,"Classify the sentiment of the following tweet as positive, negative, or mixed.
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm feeling mixed today, sometimes happy, sometimes sad.
+Answer: mixed
+
+Example 10:
+I'm so excited about the new movie, but I'm also a bit nervous.
+Answer: mixed
+
+Example 11:
+The food was delicious, but the service was terrible.
+Answer: mixed
+
+Example 12:
+I'm really happy with the new phone, but the price was too high.
+Answer: mixed
+
+Example 13:
+I love the weather today, but I'm worried about the upcoming storm.
+Answer: mixed
+
+Example 14:
+The concert was amazing, but I'm exhausted now.
+Answer: mixed
+
+Example 15:
+I'm so glad I got the job, but I'm also nervous about starting.
+Answer: mixed
+
+Example 16:
+The trip was incredible, but I'm already missing home.
+Answer: mixed
+
+Example 17:
+I'm happy with the outcome, but I'm also curious about what could have been.
+Answer: mixed
+
+Example 18:
+The movie was fantastic, but I'm still feeling a bit down.
+Answer: mixed
+
+Example 19:
+I'm excited about the future, but I'm also worried about the present.
+Answer: mixed
+
+Example 20:
+The food was amazing, but the restaurant was too crowded.
+Answer: mixed
+
+Example 21:
+I'm feeling great today! 😊
+Answer: positive
+
+Example 22:
+I'm so sad right now 😢
+Answer: negative
+
+Example 23:
+I love the weather today 🌞 but I'm worried about the rain later.
+Answer: mixed
+
+Example 24:
+The movie was fantastic 🎬, but I'm still feeling a bit down.
+Answer: mixed
+
+Example 25:
+I'm excited about the new job 💼 but I'm also nervous about starting.
+Answer: mixed",0.8333333333333334
+few_shots,25,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+            # CURRENT PROMPT:
+
+            # EXAMPLES:
+            - ""I absolutely loved the movie, it was amazing."" -> positive
+            - ""This is the worst experience I've ever had."" -> negative
+            - ""It was okay, nothing special."" -> negative
+            - ""I can't believe this happened, I'm so frustrated!"" -> negative
+            - ""😢 I'm so sad today."" -> negative
+            - ""!!!! I'm so happy!!!!"" -> positive
+            - ""😊 I'm feeling great!"" -> positive
+            - ""Točky, točky, točky..."" -> positive
+
+            # INSTRUCTIONS:
+            - Classify the sentiment of the following tweet as positive or negative.
+            - Consider the intensity of emotions and the context in which they are expressed.
+            - Handle ambiguous emotional expressions with caution.
+            - Do not overlook the context in which the statement is made.
+
+            # TWEET:
+            [Insert the tweet here]",0.82
+few_shots,26,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+            # CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the text, including emotion indicators such as emojis and exclamations.
+
+            # IMPROVED PROMPT:
+            # CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the text, including emotion indicators such as emojis and exclamations.",0.8366666666666667
+few_shots,27,rewrite,"I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334,"# CURRENT PROMPT:
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.84
+few_shots,28,rewrite,"# CURRENT PROMPT:
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.84,"Classify the sentiment of the following tweet as positive or negative. Interpret emojis and punctuation correctly to determine sentiment. Consider the context of the statement and understand informal language and slang to classify sentiment accurately.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334
+few_shots,29,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm having a terrible day.
+Answer: negative
+
+Example 10:
+The weather is great today.
+Answer: positive
+
+Example 11:
+😞 I'm feeling blue.
+Answer: negative
+
+Example 12:
+This is a fantastic day!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative",0.8433333333333334,"# CURRENT PROMPT:
+            # CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm having a terrible day.
+Answer: negative
+
+Example 10:
+The weather is great today.
+Answer: positive
+
+Example 11:
+😞 I'm feeling blue.
+Answer: negative
+
+Example 12:
+This is a fantastic day!
+Answer: positive
+
+Example 13:
+I'm feeling neutral today.
+Answer: neutral
+
+Example 14:
+😌 I'm feeling okay.
+Answer: neutral
+
+Example 15:
+😒 I'm so annoyed.
+Answer: negative
+
+Example 16:
+😠 I'm furious!
+Answer: negative
+
+Example 17:
+😎 I'm feeling good.
+Answer: positive
+
+Example 18:
+😕 I'm feeling a bit down.
+Answer: negative
+
+Example 19:
+I'm just fine.
+Answer: neutral
+
+Example 20:
+😐 I'm indifferent.
+Answer: neutral
+
+Example 21:
+I'm so confused.
+Answer: negative
+
+Example 22:
+I'm so excited!
+Answer: positive
+
+Example 23:
+I'm so bored.
+Answer: negative
+
+Example 24:
+I'm so tired.
+Answer: negative
+
+Example 25:
+I'm so happy with my life.
+Answer: positive
+
+Example 26:
+I'm so disappointed.
+Answer: negative
+
+Example 27:
+I'm so proud of myself.
+Answer: positive
+
+Example 28:
+I'm so angry.
+Answer: negative
+
+Example 29:
+I'm so grateful.
+Answer: positive
+
+Example 30:
+I'm so relieved.
+Answer: positive
+
+Example 31:
+I'm so anxious.
+Answer: negative
+
+Example 32:
+I'm so nervous.
+Answer: negative
+
+Example 33:
+I'm so scared.
+Answer: negative
+
+Example 34:
+I'm so excited about the new job.
+Answer: positive
+
+Example 35:
+I'm so sad about the loss of my pet.
+Answer: negative
+
+Example 36:
+I'm so happy with the promotion.
+Answer: positive
+
+Example 37:
+I'm so upset.
+Answer: negative
+
+Example 38:
+I'm so satisfied.
+Answer: positive
+
+Example 39:
+I'm so worried.
+Answer: negative
+
+Example 40:
+I'm so content.
+Answer: positive
+
+Example 41:
+I'm so confused about what to do.
+Answer: negative
+
+Example 42:
+I'm so happy with the new car.
+Answer: positive
+
+Example 43:
+I'm so",0.8266666666666667
+few_shots,30,rewrite,"I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334,"# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.
+- Use the provided examples to guide your interpretation.
+
+# EXAMPLES OF INFORMAL LANGUAGE AND SLOGAN:
+
+1. ""I'm totally stoked about the concert!""
+   Answer: positive
+
+2. ""What a bummer, I missed the game.""
+   Answer: negative
+
+3. ""This place is lit, I'm having so much fun!""
+   Answer: positive
+
+4. ""I'm so done with this, it's the worst.""
+   Answer: negative
+
+5. ""I'm feeling the vibes today.""
+   Answer: positive
+
+6. ""I'm gonna kill it at the exam.""
+   Answer: positive
+
+# EXAMPLES OF EMOTIONAL EXPRESSIONS:
+
+1. ""😃 I'm so excited!""
+   Answer: positive
+
+2. ""😒 I'm so angry!""
+   Answer: negative
+
+3. ""😌 I'm feeling calm and relaxed.""
+   Answer: positive
+
+4. ""😢 I'm so sad right now.""
+   Answer: negative
+
+5. ""😂 This is hilarious!""
+   Answer: positive
+
+# EXAMPLES OF CONTEXTUAL SENTIMENT:
+
+1. ""It's raining cats and dogs outside.""
+   Answer: negative
+
+2. ""The sun is shining, and the birds are singing.""
+   Answer: positive
+
+3. ""I just got a promotion at work.""
+   Answer: positive
+
+4. ""I failed my exam, I'm so disappointed.""
+   Answer: negative
+
+5. ""I'm having a great time with my friends.""
+   Answer: positive
+
+6. ""I'm so bored, there's nothing to do.""
+   Answer: negative
+
+7. ""I'm going to the beach this weekend.""
+   Answer: positive
+
+8. ""I can't believe I got a flat tire!""
+   Answer: negative
+
+9. ""The food here is amazing.""
+   Answer: positive
+
+10. ""I'm so tired, I need to sleep.""
+    Answer: negative",0.84
+few_shots,31,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.",0.8433333333333334,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+Improve the prompt to address the following failure patterns:
+1. Misinterpretation of emojis and punctuation marks.
+2. Lack of context understanding.
+3. Inability to handle abbreviations and slang.
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+OMG, I'm so happy right now!
+Answer: positive
+
+Example 10:
+BRB, can't talk now.
+Answer: neutral
+
+Example 11:
+This is literally the worst thing ever.
+Answer: negative
+
+Example 12:
+LOL, just kidding, it was actually pretty good.
+Answer: positive
+
+Example 13:
+I'm so angry I could scream!
+Answer: negative
+
+Example 14:
+😌 I'm relaxed and happy.
+Answer: positive
+
+Example 15:
+I can't even deal with this right now.
+Answer: negative
+
+Example 16:
+😊 I'm having a great day!
+Answer: positive
+
+Example 17:
+OMG, I'm so frustrated with this!
+Answer: negative
+
+Example 18:
+😔 I'm feeling sad.
+Answer: negative
+
+Example 19:
+I'm so excited for the movie tonight!
+Answer: positive
+
+Example 20:
+😢 I'm so sad.
+Answer: negative
+
+Example 21:
+I can't believe I did that!
+Answer: negative
+
+Example 22:
+LOL, that was hilarious!
+Answer: positive
+
+Example 23:
+I'm so happy with my new job!
+Answer: positive
+
+Example 24:
+😡 I'm furious at you!
+Answer: negative
+
+Example 25:
+I'm so bored.
+Answer: negative
+
+Example 26:
+I'm so happy for you!
+Answer: positive
+
+Example 27:
+OMG, I'm so excited!
+Answer: positive
+
+Example 28:
+😔 I'm not feeling well today.
+Answer: negative
+
+Example 29:
+I can't believe I missed the bus!
+Answer: negative
+
+Example 30:
+LOL, that's so funny!
+Answer: positive
+
+Example 31:
+I'm so stressed out right now.
+Answer: negative
+
+Example 32:
+😊 I'm feeling great!
+Answer: positive
+
+Example 33:
+I'm so frustrated with this!
+Answer: negative
+
+Example 34:
+OMG, I'm so happy!
+Answer: positive
+
+Example 35:
+😢 I'm so sad.
+Answer: negative
+
+Example 36:
+I can",0.8033333333333333
+few_shots,32,rewrite,"I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334,"# CURRENT PROMPT:
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.
+- Recognize irony or sarcasm to avoid incorrect sentiment classification.
+- Handle mixed sentiments correctly by focusing on the overall sentiment.",0.8333333333333334
+few_shots,33,rewrite,"Classify the sentiment of the following tweet as positive or negative. Interpret emojis and punctuation correctly to determine sentiment. Consider the context of the statement and understand informal language and slang to classify sentiment accurately.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334,Classify the sentiment of the following tweet as positive or negative. Interpret emojis and punctuation correctly to determine sentiment. Consider the context of the statement and understand informal language and slang to classify sentiment accurately.,0.8233333333333334
+few_shots,34,rewrite,"# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Example 9:
+I'm having a terrible day.
+Answer: negative
+
+Example 10:
+The weather is great today.
+Answer: positive
+
+Example 11:
+😞 I'm feeling blue.
+Answer: negative
+
+Example 12:
+This is a fantastic day!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative",0.8433333333333334,"# CURRENT PROMPT:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative
+
+Include examples with emojis and exclamations to emphasize positive sentiment. Provide examples of irony or sarcasm. Add examples with mixed or complex sentiments to improve the model's ability to handle them.",0.7433333333333333
+few_shots,35,rewrite,"I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334,"# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.83
+few_shots,36,rewrite,"I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334,"# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.
+
+- Informal language and slang should be interpreted as positive sentiment if they express happiness, excitement, or approval.
+- Emojis should be interpreted based on their conventional meanings, with positive emojis indicating positive sentiment and negative emojis indicating negative sentiment.
+- Contextual nuances should be considered to determine the appropriate sentiment, with neutral or positive contexts generally indicating positive sentiment and negative contexts indicating negative sentiment.",0.8466666666666667
+few_shots,37,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.
+
+# IMPROVED PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8466666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8266666666666667
+few_shots,38,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.
+
+# IMPROVED PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8466666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8266666666666667
+few_shots,39,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.
+
+# IMPROVED PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8466666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8266666666666667
+few_shots,40,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.
+
+# IMPROVED PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8466666666666667,"# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8266666666666667
+few_shots,41,rewrite,"Classify the sentiment of the following tweet as positive or negative. Interpret emojis and punctuation correctly to determine sentiment. Consider the context of the statement and understand informal language and slang to classify sentiment accurately.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334,Classify the sentiment of the following tweet as positive or negative. Interpret emojis and punctuation correctly to determine sentiment. Consider the context of the statement and understand informal language and slang to classify sentiment accurately. Be aware of irony and sarcasm to classify sentiment correctly.,0.8066666666666666
+few_shots,42,rewrite,"I absolutely loved the movie, it was amazing.
+Answer: positive
+
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+I'm having a terrible day.
+Answer: negative
+
+The weather is great today.
+Answer: positive
+
+😞 I'm feeling blue.
+Answer: negative
+
+This is a fantastic day!
+Answer: positive
+
+😊 I'm feeling great!
+Answer: positive
+
+Točky, točky, točky...
+Answer: positive
+
+!!!! I'm so happy!!!!
+Answer: positive
+
+😢 I'm so sad today.
+Answer: negative
+
+It was okay, nothing special.
+Answer: negative
+
+# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.8433333333333334,"# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.",0.84
+few_shots,43,rewrite,"# CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.
+
+- Informal language and slang should be interpreted as positive sentiment if they express happiness, excitement, or approval.
+- Emojis should be interpreted based on their conventional meanings, with positive emojis indicating positive sentiment and negative emojis indicating negative sentiment.
+- Contextual nuances should be considered to determine the appropriate sentiment, with neutral or positive contexts generally indicating positive sentiment and negative contexts indicating negative sentiment.",0.8466666666666667,"# CURRENT PROMPT:
+            # CURRENT PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# EXAMPLES:
+
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+3. ""I'm having a terrible day.""
+   Answer: negative
+
+4. ""The weather is great today.""
+   Answer: positive
+
+5. ""😞 I'm feeling blue.""
+   Answer: negative
+
+6. ""This is a fantastic day!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+9. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+10. ""😢 I'm so sad today.""
+    Answer: negative
+
+11. ""It was okay, nothing special.""
+    Answer: negative
+
+# INSTRUCTIONS:
+
+- Interpret emojis and punctuation correctly to determine sentiment.
+- Consider the context of the statement.
+- Understand informal language and slang to classify sentiment accurately.
+
+- Informal language and slang should be interpreted as positive sentiment if they express happiness, excitement, or approval.
+- Emojis should be interpreted based on their conventional meanings, with positive emojis indicating positive sentiment and negative emojis indicating negative sentiment.
+- Contextual nuances should be considered to determine the appropriate sentiment, with neutral or positive contexts generally indicating positive sentiment and negative contexts indicating negative sentiment.",0.8366666666666667
+few_shots,44,rewrite,"# CURRENT PROMPT:
+# CURRENT PROMPT:
+
+Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe this happened, I'm so frustrated!
+Answer: negative
+
+Example 5:
+😢 I'm so sad today.
+Answer: negative
+
+Example 6:
+!!!! I'm so happy!!!!
+Answer: positive
+
+Example 7:
+😊 I'm feeling great!
+Answer: positive
+
+Example 8:
+Točky, točky, točky...
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+# CURRENT PROMPT:
+
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.
+
+# IMPROVED PROMPT:
+
+Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.",0.8466666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+Examples:
+1. ""I absolutely loved the movie, it was amazing.""
+   Answer: positive
+
+2. ""This is the worst experience I've ever had.""
+   Answer: negative
+
+3. ""It was okay, nothing special.""
+   Answer: negative
+
+4. ""I can't believe this happened, I'm so frustrated!""
+   Answer: negative
+
+5. ""😢 I'm so sad today.""
+   Answer: negative
+
+6. ""!!!! I'm so happy!!!!""
+   Answer: positive
+
+7. ""😊 I'm feeling great!""
+   Answer: positive
+
+8. ""Točky, točky, točky...""
+   Answer: positive
+
+Guidelines:
+1. Consider the overall tone and context of the tweet.
+2. Pay attention to the use of emojis, punctuation, and specific phrases.
+3. Account for sarcasm or ambiguity in the statement.
+4. Use common language patterns and cultural references to guide your classification.
+5. Be mindful of the weight given to punctuation and emojis, ensuring they do not overshadow other contextual clues.",0.8266666666666667

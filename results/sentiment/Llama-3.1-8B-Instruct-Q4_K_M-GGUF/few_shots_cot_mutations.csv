@@ -1,0 +1,2258 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the key words and phrases in the tweet.
+2. Determine the emotional tone of the tweet.
+3. Analyze the context in which negative words are used.
+4. Check for idioms and colloquial expressions that may be misinterpreted.
+5. Evaluate the overall content of the tweet rather than relying solely on emotional tone.
+6. Consider the speaker's intention and the potential for sarcasm or irony.
+7. Classify the sentiment as positive or negative based on the analysis.",0.74
+few_shots,0,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the key words and phrases in the tweet.
+2. Determine the emotional tone of the tweet.
+3. Analyze the context in which negative words are used.
+4. Check for idioms and colloquial expressions that may be misinterpreted.
+5. Evaluate the overall content of the tweet rather than relying solely on emotional tone.
+6. Consider the speaker's intention and the potential for sarcasm or irony.
+7. Classify the sentiment as positive or negative based on the analysis.",0.74,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms and colloquial expressions, that may be misinterpreted.
+2. Determine the emotional tone of the tweet, considering the context in which negative words are used.
+3. Evaluate the speaker's intention by checking for sarcasm or irony indicators, such as rhetorical questions or understatement.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions.
+5. Consider the context in which the tweet was written, including the speaker's relationship with the subject matter and their potential biases.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666
+few_shots,0,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms and colloquial expressions, that may be misinterpreted.
+2. Determine the emotional tone of the tweet, considering the context in which negative words are used.
+3. Evaluate the speaker's intention by checking for sarcasm or irony indicators, such as rhetorical questions or understatement.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions.
+5. Consider the context in which the tweet was written, including the speaker's relationship with the subject matter and their potential biases.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Determine the emotional tone of the speaker by considering the context in which negative words are used and the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666
+few_shots,0,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Determine the emotional tone of the speaker by considering the context in which negative words are used and the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators, and consider the context in which they are used.
+2. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony, and consider the speaker's relationship with the subject matter.
+3. Analyze the tweet's content, focusing on specific details and facts rather than general opinions, and consider the speaker's biases in the context of the tweet's content.
+4. Determine the emotional tone of the speaker by considering the context in which negative words are used, and the speaker's intention as evaluated in step 2.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.79
+few_shots,1,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Determine the emotional tone of the speaker by considering the context in which negative words are used and the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Analyze the tweet's content to determine if the speaker is using rhetorical questions, understatement, or other indicators of sarcasm or irony.
+3. Evaluate the speaker's intention by considering the context in which negative words are used and the speaker's relationship with the subject matter.
+4. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+5. Identify the emotional tone of the speaker by considering the context in which negative words are used and the speaker's relationship with the subject matter.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7233333333333334
+few_shots,2,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the key words and phrases in the tweet.
+2. Determine the emotional tone of the tweet.
+3. Analyze the context in which negative words are used.
+4. Check for idioms and colloquial expressions that may be misinterpreted.
+5. Evaluate the overall content of the tweet rather than relying solely on emotional tone.
+6. Consider the speaker's intention and the potential for sarcasm or irony.
+7. Classify the sentiment as positive or negative based on the analysis.",0.74,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases in the tweet, considering the context in which they are used.
+2. Determine the emotional tone of the tweet, but also evaluate the speaker's intention and potential for sarcasm or irony.
+3. Analyze idioms and colloquial expressions to avoid misinterpretation.
+4. Check the overall content of the tweet rather than relying solely on emotional tone.
+5. Evaluate the context in which negative words are used to ensure accurate classification.
+6. Consider the speaker's intention, and the potential for sarcasm or irony, to avoid misclassification.
+7. Classify the sentiment as positive or negative based on the analysis.",0.7566666666666667
+few_shots,3,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Determine the emotional tone of the speaker by considering the context in which negative words are used and the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators, and flag them for potential misinterpretation.
+2. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony, and adjust the tone accordingly.
+3. Analyze the tweet's content, focusing on specific details and facts rather than general opinions, and consider the speaker's relationship with the subject matter.
+4. Determine the emotional tone of the speaker by considering the context in which negative words are used, and adjust the classification accordingly.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666
+few_shots,4,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators, and flag them for potential misinterpretation.
+2. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony, and adjust the tone accordingly.
+3. Analyze the tweet's content, focusing on specific details and facts rather than general opinions, and consider the speaker's relationship with the subject matter.
+4. Determine the emotional tone of the speaker by considering the context in which negative words are used, and adjust the classification accordingly.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators, and flag them for potential misinterpretation.
+2. Check for rhetorical questions, understatement, or other indicators of sarcasm or irony, and adjust the tone accordingly.
+3. Analyze the tweet's content, considering the speaker's relationship with the subject matter, and evaluate the literal and figurative meaning of words and phrases.
+4. Consider the context in which negative words are used, and adjust the classification accordingly.
+5. Evaluate the speaker's intention by considering their tone, language, and potential biases.
+6. Check for potential misinterpretation and adjust the classification based on the analysis.
+7. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7666666666666667
+few_shots,5,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators, and consider the context in which they are used.
+2. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony, and consider the speaker's relationship with the subject matter.
+3. Analyze the tweet's content, focusing on specific details and facts rather than general opinions, and consider the speaker's biases in the context of the tweet's content.
+4. Determine the emotional tone of the speaker by considering the context in which negative words are used, and the speaker's intention as evaluated in step 2.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.79,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators, and consider the context in which they are used.
+2. Check for rhetorical questions, understatement, or other indicators of sarcasm or irony, and consider the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by analyzing the tone of the speaker's language, including the use of positive or negative words and phrases, and the context in which they are used.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions, and consider the speaker's biases in the context of the tweet's content.
+5. Determine the emotional tone of the speaker by considering the context in which negative words are used, and the speaker's intention as evaluated in step 3.
+6. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+7. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7533333333333333
+few_shots,6,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Determine the emotional tone of the speaker by considering the context in which negative words are used and the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify idioms, colloquial expressions, and indicators of sarcasm or irony in the tweet.
+2. Analyze the emotional tone of the speaker by considering the context in which negative words are used and the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony.
+4. Consider the speaker's use of explicit sentiment words, but also examine the overall tone and content of the tweet.
+5. Assess the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7133333333333334
+few_shots,7,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Determine the emotional tone of the speaker by considering the context in which negative words are used and the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Determine the emotional tone of the speaker by evaluating the context in which negative words are used and the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by checking for rhetorical questions, understatement, and other indicators of sarcasm or irony, taking into account the speaker's tone and relationship with the subject.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions, and considering the speaker's potential biases.
+5. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.7866666666666666
+few_shots,8,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms and colloquial expressions, that may be misinterpreted.
+2. Determine the emotional tone of the tweet, considering the context in which negative words are used.
+3. Evaluate the speaker's intention by checking for sarcasm or irony indicators, such as rhetorical questions or understatement.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions.
+5. Consider the context in which the tweet was written, including the speaker's relationship with the subject matter and their potential biases.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators.
+3. Evaluate the emotional tone of the tweet, considering the context in which negative words are used.
+4. Consider the speaker's relationship with the subject matter and their potential biases.
+5. Focus on specific details and facts rather than general opinions.
+6. Classify the sentiment as positive or negative based on the analysis.",0.7933333333333333
+few_shots,9,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Determine the emotional tone of the speaker by evaluating the context in which negative words are used and the speaker's relationship with the subject matter.
+3. Evaluate the speaker's intention by checking for rhetorical questions, understatement, and other indicators of sarcasm or irony, taking into account the speaker's tone and relationship with the subject.
+4. Analyze the tweet's content, focusing on specific details and facts rather than general opinions, and considering the speaker's potential biases.
+5. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.7866666666666666,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Evaluate the speaker's tone by analyzing the language used, such as emotive words, rhetorical questions, and understatement.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals.
+6. Consider the tweet's content, focusing on specific details and facts rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8133333333333334
+few_shots,10,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be misinterpreted, including idioms, colloquial expressions, and sarcasm or irony indicators, and consider the context in which they are used.
+2. Evaluate the speaker's intention by checking for rhetorical questions, understatement, or other indicators of sarcasm or irony, and consider the speaker's relationship with the subject matter.
+3. Analyze the tweet's content, focusing on specific details and facts rather than general opinions, and consider the speaker's biases in the context of the tweet's content.
+4. Determine the emotional tone of the speaker by considering the context in which negative words are used, and the speaker's intention as evaluated in step 2.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.79,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify potential sarcasm and irony indicators, including rhetorical questions, understatement, idioms with ironic connotations, and colloquial expressions, and consider the context in which they are used.
+2. Evaluate the speaker's intention by checking for clues indicating genuine opinion or emotion, and consider the speaker's relationship with the subject matter.
+3. Analyze the tweet's content, focusing on specific details and facts rather than general opinions, and consider the speaker's biases in the context of the tweet's content.
+4. Evaluate the emotional tone of the speaker by considering the context in which negative words are used, and the speaker's intention as evaluated in step 2.
+5. Consider the potential for misinterpretation and the speaker's biases in the context of the tweet's content and emotional tone.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention and the potential for misinterpretation.",0.7866666666666666
+few_shots,11,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Evaluate the speaker's tone by analyzing the language used, such as emotive words, rhetorical questions, and understatement.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals.
+6. Consider the tweet's content, focusing on specific details and facts rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation.
+2. Analyze the speaker's tone by evaluating emotive language, but consider the potential for irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+3. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+4. Consider the tweet's content, focusing on specific details and facts rather than general opinions, and evaluate the context in which the tweet is written, including the situation, location, and audience.
+5. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, but also consider the speaker's use of understatement or rhetorical questions.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.82
+few_shots,12,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators.
+3. Evaluate the emotional tone of the tweet, considering the context in which negative words are used.
+4. Consider the speaker's relationship with the subject matter and their potential biases.
+5. Focus on specific details and facts rather than general opinions.
+6. Classify the sentiment as positive or negative based on the analysis.",0.7933333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions, and consider their potential impact on sentiment.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, irony, sarcasm, and idiomatic expressions.
+3. Evaluate the emotional tone of the tweet, considering the context in which words are used, and take into account any potential biases.
+4. Focus on specific details and facts rather than general opinions, and prioritize explicit language over implicit context.
+5. Classify the sentiment as positive or negative based on the analysis, considering both the explicit and implicit meaning of the text.",0.7633333333333333
+few_shots,13,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators.
+3. Evaluate the emotional tone of the tweet, considering the context in which negative words are used.
+4. Consider the speaker's relationship with the subject matter and their potential biases.
+5. Focus on specific details and facts rather than general opinions.
+6. Classify the sentiment as positive or negative based on the analysis.",0.7933333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions, and consider their intended meaning.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators, and consider the emotional tone of the tweet.
+3. Evaluate the context in which negative words are used, considering whether they are used to express strong emotion or as a hyperbolic statement.
+4. Consider the speaker's relationship with the subject matter and their potential biases, and evaluate whether they are using language that is intentionally inflammatory or misleading.
+5. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+6. Classify the sentiment as positive or negative based on the analysis, considering the overall tone and meaning of the tweet.",0.8133333333333334
+few_shots,14,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation.
+2. Analyze the speaker's tone by evaluating emotive language, but consider the potential for irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+3. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+4. Consider the tweet's content, focusing on specific details and facts rather than general opinions, and evaluate the context in which the tweet is written, including the situation, location, and audience.
+5. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, but also consider the speaker's use of understatement or rhetorical questions.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, and evaluate the presence of irony or sarcasm indicators, such as hyperbole, understatement, or rhetorical questions.
+2. Analyze the speaker's tone by evaluating emotive language, but consider the potential for irony or sarcasm, and account for the context in which emotive language is used.
+3. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+4. Evaluate the context in which the tweet is written, including the situation, location, and audience, and consider how this context may influence the speaker's sentiment.
+5. Determine the emotional tone of the speaker by evaluating the specific details and facts mentioned in the tweet, and consider the speaker's use of emotive language in relation to these details.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, context, and the presence of irony or sarcasm indicators.",0.7433333333333333
+few_shots,15,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators.
+3. Evaluate the emotional tone of the tweet, considering the context in which negative words are used.
+4. Consider the speaker's relationship with the subject matter and their potential biases.
+5. Focus on specific details and facts rather than general opinions.
+6. Classify the sentiment as positive or negative based on the analysis.",0.7933333333333333,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize key words and phrases, accounting for idioms, colloquial expressions, and potential biases.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and sarcasm indicators, and evaluate their emotional tone.
+3. Consider the speaker's relationship with the subject matter and their potential biases.
+4. Evaluate the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators.
+5. Focus on specific details and facts rather than general opinions.
+6. Classify the sentiment as positive or negative based on the analysis.",0.81
+few_shots,16,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Evaluate the speaker's tone by analyzing the language used, such as emotive words, rhetorical questions, and understatement.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals.
+6. Consider the tweet's content, focusing on specific details and facts rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Evaluate the speaker's tone by analyzing emotive words, rhetorical questions, and understatement, while considering potential biases.
+3. Analyze the context in which the tweet is written, including the situation, location, and audience.
+4. Determine the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals.
+5. Evaluate the emotional tone of the speaker by considering the context in which negative words are used.
+6. Classify the sentiment as positive or negative based on the analysis of the speaker's tone, intention, and context.",0.7666666666666667
+few_shots,17,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize key words and phrases, accounting for idioms, colloquial expressions, and potential biases.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and sarcasm indicators, and evaluate their emotional tone.
+3. Consider the speaker's relationship with the subject matter and their potential biases.
+4. Evaluate the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators.
+5. Focus on specific details and facts rather than general opinions.
+6. Classify the sentiment as positive or negative based on the analysis.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify idioms, colloquial expressions, and potential biases in the key words and phrases, considering cultural and contextual factors.
+2. Analyze the speaker's intention, detecting rhetorical questions, understatement, and sarcasm indicators, and evaluate their emotional tone.
+3. Evaluate the speaker's relationship with the subject matter, considering their potential biases and emotional tone.
+4. Analyze the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators.
+5. Identify specific details and facts rather than general opinions.
+6. Classify the sentiment as positive or negative based on the analysis.",0.7866666666666666
+few_shots,18,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Evaluate the speaker's tone by analyzing the language used, such as emotive words, rhetorical questions, and understatement.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals.
+6. Consider the tweet's content, focusing on specific details and facts rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Analyze the language used, including emotive words, rhetorical questions, and understatement, while considering the speaker's tone.
+3. Evaluate the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Identify and account for potential biases, rhetorical devices, and emotional appeals in the speaker's intention.
+6. Consider the tweet's content, focusing on specific details and facts rather than general opinions.
+7. Evaluate the context in which negative words are used to determine the emotional tone of the speaker.
+8. Assess the overall sentiment by weighing the speaker's intention, potential for misinterpretation, and context.",0.7866666666666666
+few_shots,19,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Evaluate the speaker's tone by analyzing the language used, such as emotive words, rhetorical questions, and understatement.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals.
+6. Consider the tweet's content, focusing on specific details and facts rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Evaluate the speaker's tone by analyzing emotive language used, but also consider potential biases, rhetorical devices, and emotional appeals.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Check for potential biases, rhetorical devices, and emotional appeals to evaluate the speaker's intention.
+6. Identify specific details and facts in the tweet's content, rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, considering potential for misinterpretation and context.",0.8166666666666667
+few_shots,20,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize key words and phrases, accounting for idioms, colloquial expressions, and potential biases.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and sarcasm indicators, and evaluate their emotional tone.
+3. Consider the speaker's relationship with the subject matter and their potential biases.
+4. Evaluate the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators.
+5. Focus on specific details and facts rather than general opinions.
+6. Classify the sentiment as positive or negative based on the analysis.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize key words and phrases, accounting for idioms, colloquial expressions, and potential biases.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and sarcasm indicators.
+3. Evaluate the emotional tone of the speaker, considering both explicit and implicit sentiment indicators.
+4. Weigh the importance of specific details and facts against general opinions and personal biases.
+5. Consider the speaker's relationship with the subject matter and their potential biases.
+6. Classify the sentiment as positive or negative based on the analysis.",0.8
+few_shots,21,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions, and consider their intended meaning.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators, and consider the emotional tone of the tweet.
+3. Evaluate the context in which negative words are used, considering whether they are used to express strong emotion or as a hyperbolic statement.
+4. Consider the speaker's relationship with the subject matter and their potential biases, and evaluate whether they are using language that is intentionally inflammatory or misleading.
+5. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+6. Classify the sentiment as positive or negative based on the analysis, considering the overall tone and meaning of the tweet.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions, and consider their intended meaning, taking into account potential hyperbole or irony.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators, and consider the emotional tone of the tweet, as well as potential biases.
+3. Evaluate the context in which language is used, considering specific details and facts mentioned in the tweet, rather than relying on general opinions or assumptions.
+4. Consider the speaker's relationship with the subject matter and their potential biases, but also evaluate whether they are using language that is intentionally inflammatory or misleading, and whether this affects the overall sentiment.
+5. Classify the sentiment as positive or negative based on a nuanced understanding of the language and context, considering both the surface-level meaning and potential deeper aspects of the language and context.",0.8066666666666666
+few_shots,22,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions, and consider their intended meaning.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators, and consider the emotional tone of the tweet.
+3. Evaluate the context in which negative words are used, considering whether they are used to express strong emotion or as a hyperbolic statement.
+4. Consider the speaker's relationship with the subject matter and their potential biases, and evaluate whether they are using language that is intentionally inflammatory or misleading.
+5. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+6. Classify the sentiment as positive or negative based on the analysis, considering the overall tone and meaning of the tweet.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Analyze the tweet for rhetorical questions, understatement, and sarcasm indicators, and consider the emotional tone of the tweet.
+2. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions, and consider their intended meaning.
+3. Evaluate the context in which negative words are used, considering whether they are used to express strong emotion or as a hyperbolic statement.
+4. Consider the speaker's relationship with the subject matter and their potential biases, and evaluate whether they are using language that is intentionally inflammatory or misleading.
+5. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+6. Assess the speaker's emotional tone and the overall emotional intensity of the tweet.
+7. Classify the sentiment as positive or negative based on the analysis, considering the overall tone and meaning of the tweet.",0.79
+few_shots,23,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions, and consider their intended meaning.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators, and consider the emotional tone of the tweet.
+3. Evaluate the context in which negative words are used, considering whether they are used to express strong emotion or as a hyperbolic statement.
+4. Consider the speaker's relationship with the subject matter and their potential biases, and evaluate whether they are using language that is intentionally inflammatory or misleading.
+5. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+6. Classify the sentiment as positive or negative based on the analysis, considering the overall tone and meaning of the tweet.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions, and consider their intended meaning.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators, and consider the emotional tone of the tweet.
+3. Evaluate the context in which words are used, considering whether they are used to express strong emotion or as a hyperbolic statement.
+4. Consider the speaker's relationship with the subject matter and their potential biases, and evaluate whether they are using language that is intentionally inflammatory or misleading.
+5. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+6. Check for irony and sarcasm indicators, such as quotation marks, irony markers, or sarcastic tone.
+7. Consider the speaker's emotional tone, including whether they are using language that is intentionally provocative or emotive.
+8. Evaluate the overall tone and meaning of the tweet, considering the context, speaker's intention, and emotional tone.
+9. Classify the sentiment as positive or negative based on the analysis.",0.7733333333333333
+few_shots,24,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, including idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Evaluate the speaker's tone by analyzing the language used, such as emotive words, rhetorical questions, and understatement.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals.
+6. Consider the tweet's content, focusing on specific details and facts rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify idioms, colloquial expressions, and sarcasm or irony indicators, considering context and potential for misinterpretation.
+2. Evaluate the speaker's tone by analyzing emotive words, rhetorical questions, and understatement, while considering potential biases and emotional appeals.
+3. Analyze the context in which the tweet is written, including situation, location, and audience, to understand the speaker's relationship with the subject matter.
+4. Evaluate the speaker's intention by checking for potential rhetorical devices and emotional appeals, and consider the speaker's expertise, personal experience, or vested interest.
+5. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, and consider the potential for misinterpretation.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.7966666666666666
+few_shots,25,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Evaluate the speaker's tone by analyzing emotive language used, but also consider potential biases, rhetorical devices, and emotional appeals.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Check for potential biases, rhetorical devices, and emotional appeals to evaluate the speaker's intention.
+6. Identify specific details and facts in the tweet's content, rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, considering potential for misinterpretation and context.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify idiomatic language, colloquial expressions, and potential misinterpretation, considering context and potential for misinterpretation.
+2. Analyze the tone by evaluating emotive language, but also consider potential biases, rhetorical devices, and emotional appeals.
+3. Evaluate the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Check for potential biases, rhetorical devices, and emotional appeals to evaluate the speaker's intention.
+6. Identify specific details and facts in the tweet's content, rather than general opinions.
+7. Evaluate the tone of the speaker by considering the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, considering potential for misinterpretation and context.
+9. Recognize and handle sarcasm and irony by identifying phrases that indicate a contrary meaning.
+10. Consider the overall tone and context of the tweet, rather than relying on individual words or phrases.",0.8066666666666666
+few_shots,26,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize key words and phrases, accounting for idioms, colloquial expressions, and potential biases.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and sarcasm indicators, and evaluate their emotional tone.
+3. Consider the speaker's relationship with the subject matter and their potential biases.
+4. Evaluate the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators.
+5. Focus on specific details and facts rather than general opinions.
+6. Classify the sentiment as positive or negative based on the analysis.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize key words and phrases, accounting for idioms, colloquial expressions, and potential biases, and consider the tone of the speaker's language.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and clear indicators of sarcasm, irony, and humor.
+3. Evaluate the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators, such as emotional tone and language use.
+4. Assess the speaker's relationship with the subject matter and their potential biases, considering their expertise, personal experience, and potential conflicts of interest.
+5. Focus on specific details and facts rather than general opinions, and consider the evidence provided in the tweet to support the sentiment.
+6. Evaluate the overall tone and sentiment of the tweet, considering the speaker's emotional tone, language use, and relationship with the subject matter.
+7. Classify the sentiment as positive or negative based on the analysis.",0.8166666666666667
+few_shots,27,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases that may be context-dependent, such as idioms and colloquial expressions, and consider their intended meaning.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators, and consider the emotional tone of the tweet.
+3. Evaluate the context in which negative words are used, considering whether they are used to express strong emotion or as a hyperbolic statement.
+4. Consider the speaker's relationship with the subject matter and their potential biases, and evaluate whether they are using language that is intentionally inflammatory or misleading.
+5. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+6. Classify the sentiment as positive or negative based on the analysis, considering the overall tone and meaning of the tweet.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify context-dependent language, such as idioms and colloquial expressions, and consider their intended meaning.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators.
+3. Evaluate the context in which negative words are used, considering whether they are used to express strong emotion or as a hyperbolic statement.
+4. Consider the speaker's relationship with the subject matter and their potential biases.
+5. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+6. Consider the emotional tone of the tweet and the overall tone and meaning.
+7. Classify the sentiment as positive or negative based on the analysis.",0.8133333333333334
+few_shots,28,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize key words and phrases, accounting for idioms, colloquial expressions, and potential biases, and consider the tone of the speaker's language.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and clear indicators of sarcasm, irony, and humor.
+3. Evaluate the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators, such as emotional tone and language use.
+4. Assess the speaker's relationship with the subject matter and their potential biases, considering their expertise, personal experience, and potential conflicts of interest.
+5. Focus on specific details and facts rather than general opinions, and consider the evidence provided in the tweet to support the sentiment.
+6. Evaluate the overall tone and sentiment of the tweet, considering the speaker's emotional tone, language use, and relationship with the subject matter.
+7. Classify the sentiment as positive or negative based on the analysis.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering idioms, colloquial expressions, and potential biases, and contextualize them within the speaker's tone of language.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, sarcasm, irony, and humor.
+3. Evaluate the emotional tone of the tweet, weighing explicit sentiment words against implicit indicators, such as emotional tone and language use.
+4. Assess the speaker's relationship with the subject matter, including their expertise, personal experience, and potential conflicts of interest.
+5. Focus on specific details and facts, rather than general opinions, and evaluate the evidence provided to support the sentiment.
+6. Identify and address potential biases in the speaker's language, considering their emotional tone, language use, and relationship with the subject matter.
+7. Classify the sentiment as positive or negative based on the analysis of the speaker's tone, language use, and relationship with the subject matter.",0.8133333333333334
+few_shots,29,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify context-dependent language, such as idioms and colloquial expressions, and consider their intended meaning.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and sarcasm indicators.
+3. Evaluate the context in which negative words are used, considering whether they are used to express strong emotion or as a hyperbolic statement.
+4. Consider the speaker's relationship with the subject matter and their potential biases.
+5. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+6. Consider the emotional tone of the tweet and the overall tone and meaning.
+7. Classify the sentiment as positive or negative based on the analysis.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify idioms, colloquial expressions, and figurative language, and consider their intended meaning.
+2. Analyze the speaker's intention by checking for rhetorical questions, understatement, and indicators of sarcasm and irony.
+3. Evaluate the context in which negative words are used, considering whether they are used to express strong emotion or as a hyperbolic statement, and consider potential biases.
+4. Evaluate specific details and facts in the tweet, rather than relying on general opinions or assumptions.
+5. Consider the emotional tone and overall tone and meaning of the tweet, and how they may be influenced by the speaker's relationship with the subject matter.
+6. Check for contradictions and inconsistencies in the speaker's language, which may indicate a negative sentiment.
+7. Evaluate the speaker's emotional language and emotional tone, considering whether they are expressing genuine emotions or using emotional language for effect.
+8. Classify the sentiment as positive or negative based on the analysis.",0.7933333333333333
+few_shots,30,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation.
+2. Analyze the speaker's tone by evaluating emotive language, but consider the potential for irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+3. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+4. Consider the tweet's content, focusing on specific details and facts rather than general opinions, and evaluate the context in which the tweet is written, including the situation, location, and audience.
+5. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, but also consider the speaker's use of understatement or rhetorical questions.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, and evaluate the speaker's tone by checking for potential irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+2. Analyze the speaker's intention by evaluating potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+3. Evaluate the context in which the tweet is written, including the situation, location, and audience, and consider how it may influence the speaker's sentiment.
+4. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, and consider the speaker's use of understatement or rhetorical questions.
+5. Check for potential misinterpretation of tone by considering the speaker's use of emotive language in a humorous or casual tone, and re-evaluate the sentiment accordingly.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8166666666666667
+few_shots,31,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, and evaluate the speaker's tone by checking for potential irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+2. Analyze the speaker's intention by evaluating potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+3. Evaluate the context in which the tweet is written, including the situation, location, and audience, and consider how it may influence the speaker's sentiment.
+4. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, and consider the speaker's use of understatement or rhetorical questions.
+5. Check for potential misinterpretation of tone by considering the speaker's use of emotive language in a humorous or casual tone, and re-evaluate the sentiment accordingly.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering potential irony, sarcasm, and misinterpretation, and evaluate the speaker's tone.
+2. Analyze the speaker's intention by evaluating potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+3. Evaluate the context in which the tweet is written, including the situation, location, and audience, and consider how it may influence the speaker's sentiment.
+4. Determine if the speaker's emotive language is used in a humorous or casual tone, and consider this when evaluating the sentiment.
+5. Re-evaluate the sentiment if the speaker uses understatement or rhetorical questions, considering the context in which negative words are used.
+6. Consider the potential for misinterpretation of tone and re-evaluate the sentiment accordingly.
+7. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.7933333333333333
+few_shots,32,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize key words and phrases, accounting for idioms, colloquial expressions, and potential biases, and consider the tone of the speaker's language.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and clear indicators of sarcasm, irony, and humor.
+3. Evaluate the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators, such as emotional tone and language use.
+4. Assess the speaker's relationship with the subject matter and their potential biases, considering their expertise, personal experience, and potential conflicts of interest.
+5. Focus on specific details and facts rather than general opinions, and consider the evidence provided in the tweet to support the sentiment.
+6. Evaluate the overall tone and sentiment of the tweet, considering the speaker's emotional tone, language use, and relationship with the subject matter.
+7. Classify the sentiment as positive or negative based on the analysis.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, and consider idioms, colloquial expressions, and potential biases.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, sarcasm, irony, and humor.
+3. Evaluate the emotional tone of the speaker's language, considering explicit sentiment words and implicit indicators.
+4. Assess the speaker's relationship with the subject matter, including their expertise, personal experience, and potential conflicts of interest.
+5. Evaluate the evidence provided in the tweet to support the sentiment, focusing on specific details and facts.
+6. Consider the speaker's tone and relationship with the subject matter to refine the sentiment analysis.
+7. Classify the sentiment as positive or negative based on the analysis.",0.8033333333333333
+few_shots,33,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, and evaluate the speaker's tone by checking for potential irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+2. Analyze the speaker's intention by evaluating potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+3. Evaluate the context in which the tweet is written, including the situation, location, and audience, and consider how it may influence the speaker's sentiment.
+4. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, and consider the speaker's use of understatement or rhetorical questions.
+5. Check for potential misinterpretation of tone by considering the speaker's use of emotive language in a humorous or casual tone, and re-evaluate the sentiment accordingly.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, and evaluate the speaker's tone by checking for potential irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+2. Analyze the speaker's intention by evaluating potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+3. Evaluate the context in which the tweet is written, including the situation, location, and audience, and consider how it may influence the speaker's sentiment.
+4. Check for potential irony or sarcasm, and if present, re-evaluate the sentiment accordingly.
+5. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, and consider the speaker's use of understatement or rhetorical questions.
+6. Evaluate the speaker's use of emotive language, considering the tone and context, and re-evaluate the sentiment accordingly.
+7. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.79
+few_shots,34,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Evaluate the speaker's tone by analyzing emotive language used, but also consider potential biases, rhetorical devices, and emotional appeals.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Check for potential biases, rhetorical devices, and emotional appeals to evaluate the speaker's intention.
+6. Identify specific details and facts in the tweet's content, rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, considering potential for misinterpretation and context.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, including idioms, colloquial expressions, and indicators of sarcasm or irony.
+2. Evaluate the speaker's tone by analyzing emotive language used, but also consider potential biases, rhetorical devices, and emotional appeals, and check for indicators of sarcasm or irony.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Check for potential biases, rhetorical devices, and emotional appeals to evaluate the speaker's intention.
+6. Identify specific details and facts in the tweet's content, rather than general opinions, and balance positive and negative language.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, and consider the overall tone of the text.
+8. Classify the sentiment as positive or negative based on the analysis, considering potential for misinterpretation and context.",0.81
+few_shots,35,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, and evaluate the speaker's tone by checking for potential irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+2. Analyze the speaker's intention by evaluating potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+3. Evaluate the context in which the tweet is written, including the situation, location, and audience, and consider how it may influence the speaker's sentiment.
+4. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, and consider the speaker's use of understatement or rhetorical questions.
+5. Check for potential misinterpretation of tone by considering the speaker's use of emotive language in a humorous or casual tone, and re-evaluate the sentiment accordingly.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, and evaluate the speaker's tone by checking for potential irony, sarcasm, and figurative language.
+2. Analyze the speaker's intention by evaluating potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+3. Evaluate the context in which the tweet is written, including the situation, location, and audience, and consider how it may influence the speaker's sentiment.
+4. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, and consider the speaker's use of understatement or rhetorical questions.
+5. Check for potential misinterpretation of tone by considering the speaker's use of emotive language, and re-evaluate the sentiment accordingly.
+6. Consider the speaker's relationship with the subject matter and their potential vested interest, and evaluate how this may impact the sentiment.
+7. Evaluate the speaker's use of language, including tone, syntax, and semantics, to determine the underlying sentiment.
+8. Re-evaluate the sentiment based on the analysis of the speaker's intention, potential for misinterpretation, and context.
+9. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.8
+few_shots,36,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize key words and phrases, accounting for idioms, colloquial expressions, and potential biases, and consider the tone of the speaker's language.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and clear indicators of sarcasm, irony, and humor.
+3. Evaluate the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators, such as emotional tone and language use.
+4. Assess the speaker's relationship with the subject matter and their potential biases, considering their expertise, personal experience, and potential conflicts of interest.
+5. Focus on specific details and facts rather than general opinions, and consider the evidence provided in the tweet to support the sentiment.
+6. Evaluate the overall tone and sentiment of the tweet, considering the speaker's emotional tone, language use, and relationship with the subject matter.
+7. Classify the sentiment as positive or negative based on the analysis.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering idioms, colloquial expressions, and potential biases, and contextualize them in the tweet's content and tone.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, and clear indicators of sarcasm, irony, and humor, and flag potential ambiguity.
+3. Evaluate the emotional tone of the tweet, weighing the importance of explicit sentiment words against implicit sentiment indicators, such as emotional tone and language use, and consider the speaker's emotional investment.
+4. Assess the speaker's relationship with the subject matter, considering their expertise, personal experience, and potential conflicts of interest, and account for any potential biases.
+5. Focus on specific details and facts rather than general opinions, and consider the evidence provided in the tweet to support the sentiment, and evaluate the credibility of the source.
+6. Evaluate the overall tone and sentiment of the tweet, considering the speaker's emotional tone, language use, and relationship with the subject matter, and flag any inconsistencies.
+7. Classify the sentiment as positive or negative based on the analysis, and consider the nuance of the sentiment if the evidence supports it.",0.7866666666666666
+few_shots,37,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation.
+2. Analyze the speaker's tone by evaluating emotive language, but consider the potential for irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+3. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+4. Consider the tweet's content, focusing on specific details and facts rather than general opinions, and evaluate the context in which the tweet is written, including the situation, location, and audience.
+5. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, but also consider the speaker's use of understatement or rhetorical questions.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, especially when emotive language is used in a humorous or casual tone.
+2. Evaluate the speaker's tone by checking for potential irony, sarcasm, understatement, or rhetorical questions, considering the tone's context and potential for misinterpretation.
+3. Consider the tweet's context, including the situation, location, and audience, and evaluate how it may influence the speaker's sentiment.
+4. Analyze the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+5. Evaluate the tweet's content, focusing on specific details and facts rather than general opinions, and assess whether the speaker's intention aligns with the sentiment.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, context, and potential for misinterpretation.",0.8
+few_shots,38,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation.
+2. Analyze the speaker's tone by evaluating emotive language, but consider the potential for irony or sarcasm, especially when emotive language is used in a humorous or casual tone.
+3. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals, considering the speaker's relationship with the subject matter and their potential vested interest.
+4. Consider the tweet's content, focusing on specific details and facts rather than general opinions, and evaluate the context in which the tweet is written, including the situation, location, and audience.
+5. Determine the emotional tone of the speaker by evaluating the context in which negative words are used, but also consider the speaker's use of understatement or rhetorical questions.
+6. Classify the sentiment as positive or negative based on the analysis, taking into account the speaker's intention, potential for misinterpretation, and context.",0.82,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, and evaluate their literal meaning.
+2. Analyze the speaker's tone by evaluating emotive language, considering the context and the speaker's relationship with the subject matter, and look for potential irony or sarcasm, especially in humorous or casual tone.
+3. Evaluate the speaker's intention by checking for potential biases, rhetorical devices, and emotional appeals, and consider the speaker's vested interest in the subject matter.
+4. Consider the tweet's content, focusing on specific details and facts rather than general opinions, and evaluate the context in which the tweet is written, including the situation, location, and audience.
+5. Evaluate the emotional tone of the speaker by considering the context in which negative words are used, and determine if the speaker is using understatement or rhetorical questions.
+6. Reassess the key words and phrases identified in step 1, taking into account the speaker's tone, intention, and emotional tone, and classify the sentiment as positive or negative based on the analysis.",0.8033333333333333
+few_shots,39,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering idioms, colloquial expressions, and potential biases, and contextualize them within the speaker's tone of language.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, sarcasm, irony, and humor.
+3. Evaluate the emotional tone of the tweet, weighing explicit sentiment words against implicit indicators, such as emotional tone and language use.
+4. Assess the speaker's relationship with the subject matter, including their expertise, personal experience, and potential conflicts of interest.
+5. Focus on specific details and facts, rather than general opinions, and evaluate the evidence provided to support the sentiment.
+6. Identify and address potential biases in the speaker's language, considering their emotional tone, language use, and relationship with the subject matter.
+7. Classify the sentiment as positive or negative based on the analysis of the speaker's tone, language use, and relationship with the subject matter.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering idioms, colloquial expressions, and potential biases, and contextualize them within the speaker's tone of language.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, sarcasm, irony, and humor.
+3. Evaluate the emotional tone of the tweet, weighing explicit sentiment words against implicit indicators, such as emotional tone and language use.
+4. Assess the speaker's relationship with the subject matter, including their expertise, personal experience, and potential conflicts of interest.
+5. Identify potential biases in the speaker's language, considering their emotional tone, language use, and relationship with the subject matter.
+6. Evaluate the evidence provided to support the sentiment, focusing on specific details and facts rather than general opinions.
+7. Consider the speaker's use of quotes and rhetorical language as indicators of potential sarcasm or irony.
+8. Check for phrases that imply the opposite of their literal meaning, indicating potential sarcasm or irony.
+9. Assess the speaker's expertise or personal experience and its relevance to the sentiment.
+10. Classify the sentiment as positive or negative based on the analysis of the speaker's tone, language use, and relationship with the subject matter.",0.77
+few_shots,40,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering idioms, colloquial expressions, and potential biases, and contextualize them within the speaker's tone of language.
+2. Analyze the speaker's intention, checking for rhetorical questions, understatement, sarcasm, irony, and humor.
+3. Evaluate the emotional tone of the tweet, weighing explicit sentiment words against implicit indicators, such as emotional tone and language use.
+4. Assess the speaker's relationship with the subject matter, including their expertise, personal experience, and potential conflicts of interest.
+5. Focus on specific details and facts, rather than general opinions, and evaluate the evidence provided to support the sentiment.
+6. Identify and address potential biases in the speaker's language, considering their emotional tone, language use, and relationship with the subject matter.
+7. Classify the sentiment as positive or negative based on the analysis of the speaker's tone, language use, and relationship with the subject matter.",0.8133333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Analyze the tweet for explicit sentiment words, idioms, and colloquial expressions, considering potential biases and contextualizing them within the speaker's tone of language.
+2. Evaluate the emotional tone of the tweet, identifying and addressing potential biases in the speaker's language, considering their emotional tone, language use, and relationship with the subject matter.
+3. Assess the speaker's relationship with the subject matter, including their expertise, personal experience, and potential conflicts of interest, and weigh this against the explicit sentiment words and emotional tone.
+4. Identify and address potential irony and sarcasm in the speaker's tone, using contextual clues and linguistic markers to determine the intended meaning.
+5. Weigh explicit sentiment words against implicit indicators, such as emotional tone and language use, to determine the overall sentiment of the tweet.
+6. Classify the sentiment as positive or negative based on the analysis of the speaker's tone, language use, and relationship with the subject matter.",0.78
+few_shots,41,cot,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify key words and phrases, considering context and potential for misinterpretation, including idioms, colloquial expressions, and sarcasm or irony indicators.
+2. Evaluate the speaker's tone by analyzing emotive language used, but also consider potential biases, rhetorical devices, and emotional appeals.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Check for potential biases, rhetorical devices, and emotional appeals to evaluate the speaker's intention.
+6. Identify specific details and facts in the tweet's content, rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Classify the sentiment as positive or negative based on the analysis, considering potential for misinterpretation and context.",0.8166666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify potential sarcasm and irony indicators, and consider their context, even if not explicitly mentioned.
+2. Evaluate the speaker's tone by analyzing emotive language, while also considering potential biases, rhetorical devices, and emotional appeals.
+3. Consider the speaker's relationship with the subject matter, including their expertise, personal experience, or vested interest.
+4. Analyze the context in which the tweet is written, including the situation, location, and audience.
+5. Check for subtle emotive language, implied tone, and contextual cues to evaluate the speaker's intention.
+6. Identify specific details and facts in the tweet's content, rather than general opinions.
+7. Determine the emotional tone of the speaker by evaluating the context in which negative words are used.
+8. Re-evaluate the analysis for potential biases, and adjust the classification accordingly.
+9. Classify the sentiment as positive or negative based on the analysis, considering potential for misinterpretation and context.",0.7966666666666666

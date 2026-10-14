@@ -1,0 +1,773 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+zero_shot,0,cot,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Tokenize the tweet into individual words and punctuation.
+2. Identify the sentiment-bearing words (e.g., words with strong emotions like ""love"", ""hate"", etc.).
+3. Determine the context of the tweet (e.g., whether it's a joke, a complaint, etc.).
+4. Use a dictionary or lexicon to identify the sentiment of sentiment-bearing words (e.g., ""love"" is positive, ""hate"" is negative).
+5. Balance the importance of positive and negative words by considering their frequency and proximity to each other.
+6. Use contextual clues (e.g., the presence of irony indicators like ""not"", ""but"", etc.) to adjust the sentiment of sentiment-bearing words.
+7. If the tweet is a joke or sarcastic, adjust the sentiment accordingly.
+8. Summarize the sentiment of the tweet by considering the overall balance of positive and negative words and contextual clues.
+9. Classify the sentiment as positive or negative based on the summary.",0.6766666666666666
+zero_shot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Tokenize the tweet into individual words and punctuation.
+2. Identify the sentiment-bearing words (e.g., words with strong emotions like ""love"", ""hate"", etc.).
+3. Determine the context of the tweet (e.g., whether it's a joke, a complaint, etc.).
+4. Use a dictionary or lexicon to identify the sentiment of sentiment-bearing words (e.g., ""love"" is positive, ""hate"" is negative).
+5. Balance the importance of positive and negative words by considering their frequency and proximity to each other.
+6. Use contextual clues (e.g., the presence of irony indicators like ""not"", ""but"", etc.) to adjust the sentiment of sentiment-bearing words.
+7. If the tweet is a joke or sarcastic, adjust the sentiment accordingly.
+8. Summarize the sentiment of the tweet by considering the overall balance of positive and negative words and contextual clues.
+9. Classify the sentiment as positive or negative based on the summary.",0.6766666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Tokenize the tweet into individual words and punctuation.
+2. Identify explicit and implicit sentiment-bearing words (e.g., colloquial expressions, slang, irony indicators, sarcasm markers).
+3. Determine the tone of the tweet (e.g., formal, informal, sarcastic, ironic).
+4. Use a dictionary or lexicon to identify the sentiment of sentiment-bearing words, considering their frequency and proximity to each other.
+5. Adjust the sentiment of sentiment-bearing words based on contextual clues (e.g., the presence of irony indicators like ""not"", ""but"", etc.).
+6. Consider the overall tone and context of the tweet, rather than relying solely on explicit sentiment-bearing words.
+7. If the tweet is a joke or sarcastic, adjust the sentiment accordingly.
+8. Use machine learning models or pre-trained language models to adapt to informal language and tone.
+9. Balance the importance of positive and negative words by considering their frequency and proximity to each other.
+10. Summarize the sentiment of the tweet by considering the overall balance of positive and negative words and contextual clues.
+11. Classify the sentiment as positive or negative based on the summary.",0.6366666666666667
+zero_shot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Tokenize the tweet into individual words and punctuation.
+2. Identify explicit and implicit sentiment-bearing words (e.g., colloquial expressions, slang, irony indicators, sarcasm markers).
+3. Determine the tone of the tweet (e.g., formal, informal, sarcastic, ironic).
+4. Use a dictionary or lexicon to identify the sentiment of sentiment-bearing words, considering their frequency and proximity to each other.
+5. Adjust the sentiment of sentiment-bearing words based on contextual clues (e.g., the presence of irony indicators like ""not"", ""but"", etc.).
+6. Consider the overall tone and context of the tweet, rather than relying solely on explicit sentiment-bearing words.
+7. If the tweet is a joke or sarcastic, adjust the sentiment accordingly.
+8. Use machine learning models or pre-trained language models to adapt to informal language and tone.
+9. Balance the importance of positive and negative words by considering their frequency and proximity to each other.
+10. Summarize the sentiment of the tweet by considering the overall balance of positive and negative words and contextual clues.
+11. Classify the sentiment as positive or negative based on the summary.",0.6366666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Tokenize the tweet into individual words and punctuation.
+2. Identify explicit and implicit sentiment-bearing words, including colloquial expressions, slang, irony indicators, and sarcasm markers.
+3. Determine the tone of the tweet, considering formal, informal, sarcastic, and ironic.
+4. Adjust the sentiment of sentiment-bearing words based on contextual clues, including irony indicators like ""not"", ""but"", etc.
+5. Recognize irony and sarcasm indicators, such as ""haha"", ""lol"", ""eris necio"", ""muahahaha"", and ""not"".
+6. Consider the overall tone and context of the tweet, including enthusiastic tone and positive language.
+7. Identify positive sentiment in informal language, such as slang and colloquial expressions.
+8. Use machine learning models or pre-trained language models to adapt to informal language and tone.
+9. Balance the importance of positive and negative words by considering their frequency and proximity to each other.
+10. Summarize the sentiment of the tweet by considering the overall balance of positive and negative words and contextual clues.
+11. Classify the sentiment as positive or negative based on the summary.",0.7533333333333333
+zero_shot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Tokenize the tweet into individual words and punctuation.
+2. Identify explicit and implicit sentiment-bearing words, including colloquial expressions, slang, irony indicators, and sarcasm markers.
+3. Determine the tone of the tweet, considering formal, informal, sarcastic, and ironic.
+4. Adjust the sentiment of sentiment-bearing words based on contextual clues, including irony indicators like ""not"", ""but"", etc.
+5. Recognize irony and sarcasm indicators, such as ""haha"", ""lol"", ""eris necio"", ""muahahaha"", and ""not"".
+6. Consider the overall tone and context of the tweet, including enthusiastic tone and positive language.
+7. Identify positive sentiment in informal language, such as slang and colloquial expressions.
+8. Use machine learning models or pre-trained language models to adapt to informal language and tone.
+9. Balance the importance of positive and negative words by considering their frequency and proximity to each other.
+10. Summarize the sentiment of the tweet by considering the overall balance of positive and negative words and contextual clues.
+11. Classify the sentiment as positive or negative based on the summary.",0.7533333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Tokenize the tweet into individual words and punctuation.
+2. Identify explicit and implicit sentiment-bearing words, including colloquial expressions, slang, irony indicators, and sarcasm markers.
+3. Determine the tone of the tweet, considering formal, informal, sarcastic, and ironic.
+4. Adjust the sentiment of sentiment-bearing words based on contextual clues, including irony indicators like ""not"", ""but"", etc.
+5. Recognize irony and sarcasm indicators, such as ""haha"", ""lol"", ""eris necio"", ""muahahaha"", and ""not"".
+6. Adapt to informal language and tone by considering the use of slang, colloquial expressions, and abbreviations.
+7. Balance the importance of positive and negative words by considering their frequency, proximity, and contextual relevance.
+8. Identify and adjust for implicit sentiment in colloquial expressions, slang, and informal language.
+9. Use machine learning models or pre-trained language models to adapt to tone and context.
+10. Summarize the sentiment of the tweet by considering the overall balance of positive and negative words and contextual clues.
+11. Classify the sentiment as positive or negative based on the summary.
+12. If the tweet contains irony or sarcasm indicators, adjust the sentiment accordingly.
+13. If the tone of the tweet is informal, consider the use of slang and colloquial expressions when determining sentiment.",0.6433333333333333
+zero_shot,1,cot,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet.
+2. Analyze the context in which the tweet is written (time, location, etc.).
+3. Consider the tone of the sentiment words and phrases (irony, sarcasm, etc.).
+4. Determine the overall sentiment based on the tone and context.
+5. Verify that the sentiment is not ambiguous or neutral.",0.77
+zero_shot,2,cot,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tweet's primary sentiment indicator (e.g., emoticon, word, phrase).
+2. Determine the overall tone of the indicator (e.g., happy, sad, neutral).
+3. Check for contextual clues that may contradict the indicator (e.g., sarcasm, irony).
+4. If the indicator is negative and the context is neutral or mundane, consider the presence of positive words or phrases.
+5. If the indicator is positive and the context is neutral or mundane, consider the presence of negative words or phrases.
+6. If the indicator is ambiguous (e.g., sarcasm, irony), re-evaluate the tweet's overall tone and context.
+7. Classify the sentiment as positive or negative based on the overall tone and context.",0.74
+zero_shot,3,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet.
+2. Analyze the context in which the tweet is written (time, location, etc.).
+3. Consider the tone of the sentiment words and phrases (irony, sarcasm, etc.).
+4. Determine the overall sentiment based on the tone and context.
+5. Verify that the sentiment is not ambiguous or neutral.",0.77,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering idioms and colloquialisms.
+2. Analyze the context in which the tweet is written, including time, location, and cultural references.
+3. Identify and account for sarcasm and irony, considering the tone of the sentiment words and phrases.
+4. Consider the overall meaning of the tweet, taking into account any potential ambiguities or neutral language.
+5. Determine the overall sentiment based on the tone, context, and meaning of the tweet.
+6. Verify that the sentiment is not ambiguous or neutral, and re-analyze if necessary.",0.77
+zero_shot,4,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet.
+2. Analyze the context in which the tweet is written (time, location, etc.).
+3. Consider the tone of the sentiment words and phrases (irony, sarcasm, etc.).
+4. Determine the overall sentiment based on the tone and context.
+5. Verify that the sentiment is not ambiguous or neutral.",0.77,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background.
+3. Determine the tone of the sentiment words and phrases, recognizing irony, sarcasm, and other forms of figurative language.
+4. Consider the nuances of language, including informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+5. Evaluate the overall sentiment based on the tone and context, avoiding ambiguity and neutrality.
+6. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+7. Consider the author's intent and purpose in writing the tweet, which may influence the sentiment.
+8. Take into account the tweet's relevance and timeliness, as these factors can impact the sentiment.
+9. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.",0.8166666666666667
+zero_shot,5,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering idioms and colloquialisms.
+2. Analyze the context in which the tweet is written, including time, location, and cultural references.
+3. Identify and account for sarcasm and irony, considering the tone of the sentiment words and phrases.
+4. Consider the overall meaning of the tweet, taking into account any potential ambiguities or neutral language.
+5. Determine the overall sentiment based on the tone, context, and meaning of the tweet.
+6. Verify that the sentiment is not ambiguous or neutral, and re-analyze if necessary.",0.77,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering idioms and colloquialisms, and flag potential sarcasm and irony.
+2. Analyze the context in which the tweet is written, including time, location, and cultural references, and consider potential idiomatic expressions.
+3. Evaluate the tone of the sentiment words and phrases, taking into account flagged sarcasm and irony, and determine if it is consistent with the overall meaning.
+4. Consider the overall meaning of the tweet, taking into account any potential ambiguities or neutral language, and identify any contradictory evidence.
+5. Determine the overall sentiment based on the tone, context, and meaning of the tweet, and verify that the sentiment is not ambiguous or neutral.
+6. Re-analyze the tweet if the sentiment is ambiguous or neutral, and consider additional context or external knowledge to resolve the ambiguity.",0.76
+zero_shot,6,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background.
+3. Determine the tone of the sentiment words and phrases, recognizing irony, sarcasm, and other forms of figurative language.
+4. Consider the nuances of language, including informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+5. Evaluate the overall sentiment based on the tone and context, avoiding ambiguity and neutrality.
+6. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+7. Consider the author's intent and purpose in writing the tweet, which may influence the sentiment.
+8. Take into account the tweet's relevance and timeliness, as these factors can impact the sentiment.
+9. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language, including irony, sarcasm, and other forms of figurative language.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+3. Determine the tone of the sentiment words and phrases, considering informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+4. Evaluate the overall sentiment based on the tone and context, avoiding ambiguity and neutrality.
+5. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+6. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+7. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment, and consider the author's intent and purpose in writing the tweet.",0.8033333333333333
+zero_shot,7,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet.
+2. Analyze the context in which the tweet is written (time, location, etc.).
+3. Consider the tone of the sentiment words and phrases (irony, sarcasm, etc.).
+4. Determine the overall sentiment based on the tone and context.
+5. Verify that the sentiment is not ambiguous or neutral.",0.77,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify all sentiment words and phrases in the tweet, considering their context and tone.
+2. Analyze the context in which the tweet is written, including the time, location, and conversation tone.
+3. Consider the tone of the sentiment words and phrases, accounting for irony and sarcasm.
+4. Determine the overall sentiment based on the tone and context, rather than just individual words.
+5. Verify that the sentiment is not ambiguous or neutral.
+6. If the tweet contains both positive and negative words, consider the overall sentiment and weight the positive and negative words accordingly.
+7. If the context is unclear or the tone is ambiguous, consider additional information or clarify the context.
+8. If the tweet uses irony or sarcasm, adjust the sentiment based on the intended meaning.",0.7466666666666667
+zero_shot,8,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language, including irony, sarcasm, and other forms of figurative language.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+3. Determine the tone of the sentiment words and phrases, considering informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+4. Evaluate the overall sentiment based on the tone and context, avoiding ambiguity and neutrality.
+5. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+6. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+7. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment, and consider the author's intent and purpose in writing the tweet.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and categorize literal sentiment words and phrases in the tweet, considering their dictionary definitions and common usage.
+2. Analyze the tweet for figurative language, including irony, sarcasm, and idioms, and adjust the sentiment classification accordingly.
+3. Consider the cultural and contextual background of the author, including time, location, and cultural nuances, to understand the author's intent and purpose.
+4. Evaluate the tone of the sentiment words and phrases, taking into account informal language, colloquialisms, and emoticons.
+5. Determine the overall sentiment based on the tone and context, avoiding ambiguity and neutrality.
+6. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+7. Use machine learning-based approaches to identify patterns and relationships in the tweet, and combine this with rule-based approaches to accurately classify the sentiment.
+8. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+9. Account for the author's intent and purpose in writing the tweet, as indicated by the context, tone, and language used.",0.79
+zero_shot,9,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language, including irony, sarcasm, and other forms of figurative language.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+3. Determine the tone of the sentiment words and phrases, considering informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+4. Evaluate the overall sentiment based on the tone and context, avoiding ambiguity and neutrality.
+5. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+6. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+7. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment, and consider the author's intent and purpose in writing the tweet.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language, including irony, sarcasm, and other forms of figurative language, as well as informal language and colloquialisms.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose, and consider the relevance and timeliness of the tweet.
+3. Determine the tone of the sentiment words and phrases, considering the use of emoticons and informal language, to accurately capture the intended meaning.
+4. Evaluate the overall sentiment based on the tone and context, avoiding ambiguity and neutrality, and verify that the sentiment is not subject to multiple interpretations.
+5. Consider the author's intent and purpose in writing the tweet, taking into account their cultural background and nuances, and use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.
+6. Use heuristics for informal language and colloquialisms, such as recognizing slang, idioms, and regional dialects, to accurately capture the intended meaning.
+7. If the tone is sarcastic or ironic, re-evaluate the sentiment considering the context and intent behind the tweet.
+8. If the sentiment is still ambiguous, use machine learning-based approaches to classify the sentiment, and if necessary, consult external knowledge sources to disambiguate the sentiment.",0.7833333333333333
+zero_shot,10,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language, including irony, sarcasm, and other forms of figurative language.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+3. Determine the tone of the sentiment words and phrases, considering informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+4. Evaluate the overall sentiment based on the tone and context, avoiding ambiguity and neutrality.
+5. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+6. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+7. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment, and consider the author's intent and purpose in writing the tweet.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and account for figurative language, such as irony, sarcasm, and idioms, considering the author's intent and purpose.
+2. Analyze the tone of sentiment words and phrases, including informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+3. Evaluate the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+4. Use machine learning-based approaches to identify contextual nuances, such as shared knowledge or cultural context.
+5. Determine the overall sentiment based on the tone, context, and author's intent, avoiding ambiguity and neutrality.
+6. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+7. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+8. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.",0.8066666666666666
+zero_shot,11,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language, including irony, sarcasm, and other forms of figurative language.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+3. Determine the tone of the sentiment words and phrases, considering informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+4. Evaluate the overall sentiment based on the tone and context, avoiding ambiguity and neutrality.
+5. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+6. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+7. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment, and consider the author's intent and purpose in writing the tweet.",0.8033333333333333,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify all sentiment words and phrases in the tweet, including both literal and figurative language, considering irony, sarcasm, and other forms of figurative language.
+2. Analyze the context in which the tweet is written, including time, location, cultural background, and informal language, to understand the author's intent and purpose.
+3. Determine the tone of the sentiment words and phrases, considering emoticons and colloquialisms, to accurately capture the intended meaning.
+4. Evaluate the overall sentiment based on the tone, context, and the author's intent, avoiding ambiguity and neutrality.
+5. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+6. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+7. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment, considering the author's intent, purpose, and the context in which the tweet is written.",0.79
+zero_shot,12,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and account for figurative language, such as irony, sarcasm, and idioms, considering the author's intent and purpose.
+2. Analyze the tone of sentiment words and phrases, including informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+3. Evaluate the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+4. Use machine learning-based approaches to identify contextual nuances, such as shared knowledge or cultural context.
+5. Determine the overall sentiment based on the tone, context, and author's intent, avoiding ambiguity and neutrality.
+6. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+7. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+8. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and account for figurative language, such as irony, sarcasm, and idioms, considering the author's intent and purpose.
+2. Analyze the tone of sentiment words and phrases, including informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+3. Evaluate the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+4. Prioritize identifying irony and sarcasm by checking for linguistic cues, such as hyperbole, understatement, and rhetorical questions.
+5. Use contextual information, like shared knowledge and cultural context, to disambiguate ambiguous words and phrases.
+6. Consider the author's intent and purpose by examining their previous tweets or profile information.
+7. Use machine learning-based approaches to identify contextual nuances and sentiment cues.
+8. Avoid ambiguity by verifying that the sentiment is not subject to multiple interpretations.
+9. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.
+10. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+11. Use emoticons and punctuation to inform the sentiment analysis, as they often convey the author's intended tone.
+12. Evaluate the tweet's content in light of the author's typical communication style and tone.
+13. Consider the author's emotional state and perspective, as these can influence the sentiment.
+14. Use a sentiment lexicon to analyze the words and phrases used in the tweet.
+15. Evaluate the tweet's content in light of the current events and cultural trends.",0.7633333333333333
+zero_shot,13,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and account for figurative language, such as irony, sarcasm, and idioms, considering the author's intent and purpose.
+2. Analyze the tone of sentiment words and phrases, including informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+3. Evaluate the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+4. Use machine learning-based approaches to identify contextual nuances, such as shared knowledge or cultural context.
+5. Determine the overall sentiment based on the tone, context, and author's intent, avoiding ambiguity and neutrality.
+6. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+7. Consider the relevance and timeliness of the tweet, as these factors can impact the sentiment.
+8. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and account for figurative language, such as irony, sarcasm, and idioms, by analyzing the tone and nuances of the language used.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+3. Evaluate the tone of sentiment words and phrases, including informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+4. Use machine learning-based approaches to identify contextual nuances, such as shared knowledge or cultural context.
+5. Determine the overall sentiment based on the tone, context, and author's intent, considering the relevance and timeliness of the tweet.
+6. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+7. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.
+8. Account for the author's intent and purpose by considering the context in which the tweet is written, including time, location, and cultural background.
+9. Analyze the tone and nuances of the language used to identify the author's intended meaning.
+10. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.",0.81
+zero_shot,14,cot,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tweet's language tone by analyzing the words and phrases used.
+2. If the tweet contains sarcastic language, classify it as negative.
+3. Consider the context in which the tweet is written (e.g., the topic, tone, and audience).
+4. Balance the analysis of positive and negative language by identifying and weighing both.
+5. If the positive language is significantly outweighed by negative language, classify the tweet as negative.
+6. If the negative language is significantly outweighed by positive language, classify the tweet as positive.",0.75
+zero_shot,15,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and account for figurative language, such as irony, sarcasm, and idioms, by analyzing the tone and nuances of the language used.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background, to understand the author's intent and purpose.
+3. Evaluate the tone of sentiment words and phrases, including informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+4. Use machine learning-based approaches to identify contextual nuances, such as shared knowledge or cultural context.
+5. Determine the overall sentiment based on the tone, context, and author's intent, considering the relevance and timeliness of the tweet.
+6. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+7. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.
+8. Account for the author's intent and purpose by considering the context in which the tweet is written, including time, location, and cultural background.
+9. Analyze the tone and nuances of the language used to identify the author's intended meaning.
+10. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.",0.81,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the context of time, location, and cultural background.
+2. Analyze the tweet for irony and sarcasm, paying attention to language that may convey the opposite of its literal meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use machine learning-based approaches to identify contextual nuances, such as the author's intent and purpose, and the relevance and timeliness of the tweet.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+7. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+8. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+9. Account for the author's intent and purpose by considering the context in which the tweet is written.
+10. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.",0.8166666666666667
+zero_shot,16,cot,Classify the sentiment of the following tweet as positive or negative.,0.8366666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tweet's context by analyzing the language, tone, and content.
+2. Check for explicit indicators of sentiment, such as emojis, profanity, or positive/negative keywords.
+3. Consider the tweet's intent and purpose, including whether it's sarcastic, ironic, or humorous.
+4. Look for emotional language and try to understand the emotions expressed, such as joy, anger, or sadness.
+5. Analyze the tweet's structure and organization, including the use of rhetorical devices or logical fallacies.
+6. Evaluate the tweet's content and context to determine its potential impact or effect on the reader.
+7. Consider the tweet's relationship to the user's personal experiences, opinions, or biases.
+8. Make an educated guess about the tweet's sentiment based on the information gathered from the previous steps.
+9. If the sentiment is ambiguous or unclear, try to gather more context or information about the tweet's author or content.
+10. Confirm the sentiment classification by reviewing the tweet's content and context one last time.",0.8033333333333333
+zero_shot,17,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the context of time, location, and cultural background.
+2. Analyze the tweet for irony and sarcasm, paying attention to language that may convey the opposite of its literal meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use machine learning-based approaches to identify contextual nuances, such as the author's intent and purpose, and the relevance and timeliness of the tweet.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+7. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+8. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+9. Account for the author's intent and purpose by considering the context in which the tweet is written.
+10. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the cultural background and shared knowledge of the author and audience.
+2. Analyze the tweet for irony and sarcasm, using machine learning-based approaches to detect language that conveys the opposite of its literal meaning.
+3. Recognize and account for the author's intent and purpose, considering the context in which the tweet is written.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+7. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations.
+8. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+9. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+10. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment.",0.83
+zero_shot,18,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the context of time, location, and cultural background.
+2. Analyze the tweet for irony and sarcasm, paying attention to language that may convey the opposite of its literal meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use machine learning-based approaches to identify contextual nuances, such as the author's intent and purpose, and the relevance and timeliness of the tweet.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+7. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+8. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+9. Account for the author's intent and purpose by considering the context in which the tweet is written.
+10. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the context of time, location, and cultural background, and account for their potential to convey a different meaning than their literal interpretation.
+2. Analyze the tweet for irony and sarcasm, paying attention to language that may convey the opposite of its literal meaning, and consider the author's intent and purpose in using such language.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation, and use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning, and consider the author's intent and purpose in using such language.
+5. Use machine learning-based approaches to identify contextual nuances, such as the author's intent and purpose, and the relevance and timeliness of the tweet, to inform the sentiment classification.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and the potential for irony and sarcasm.
+7. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations, by re-evaluating the tone and context of the tweet.
+8. Account for the author's intent and purpose by considering the context in which the tweet is written, including the cultural background and shared knowledge that may influence the author's message.
+9. Use contextual knowledge to identify the author's intended meaning, considering the tone, context, and cultural background, and evaluate the sentiment based on this understanding.
+10. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background, and determine the sentiment based on this analysis.",0.8133333333333334
+zero_shot,19,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the context of time, location, and cultural background, and account for their potential to convey a different meaning than their literal interpretation.
+2. Analyze the tweet for irony and sarcasm, paying attention to language that may convey the opposite of its literal meaning, and consider the author's intent and purpose in using such language.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation, and use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning, and consider the author's intent and purpose in using such language.
+5. Use machine learning-based approaches to identify contextual nuances, such as the author's intent and purpose, and the relevance and timeliness of the tweet, to inform the sentiment classification.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and the potential for irony and sarcasm.
+7. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations, by re-evaluating the tone and context of the tweet.
+8. Account for the author's intent and purpose by considering the context in which the tweet is written, including the cultural background and shared knowledge that may influence the author's message.
+9. Use contextual knowledge to identify the author's intended meaning, considering the tone, context, and cultural background, and evaluate the sentiment based on this understanding.
+10. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background, and determine the sentiment based on this analysis.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone, nuances, and potential irony or sarcasm in informal language, considering the context of time, location, and cultural background.
+2. Analyze the tweet for its literal meaning, accounting for the potential of colloquialisms to convey a different meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the author's intent and purpose by considering the context in which the tweet is written.
+7. Identify and address potential irony and sarcasm in the tweet's language.
+8. Use machine learning-based approaches to identify contextual nuances and inform the sentiment classification.
+9. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+10. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+11. Account for the relevance and timeliness of the tweet to inform the sentiment classification.
+12. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+13. Use contextual knowledge to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+14. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+15. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.",0.82
+zero_shot,20,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the context of time, location, and cultural background.
+2. Analyze the tweet for irony and sarcasm, paying attention to language that may convey the opposite of its literal meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use machine learning-based approaches to identify contextual nuances, such as the author's intent and purpose, and the relevance and timeliness of the tweet.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+7. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+8. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+9. Account for the author's intent and purpose by considering the context in which the tweet is written.
+10. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the context of time, location, and cultural background.
+2. Analyze the tweet for irony and sarcasm, paying attention to language that may convey the opposite of its literal meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use machine learning-based approaches to identify contextual nuances, such as the author's intent and purpose, and the relevance and timeliness of the tweet.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+7. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+8. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+9. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+10. Account for the author's intent and purpose by considering the context in which the tweet is written.
+11. Prioritize contextual clues over literal meaning to avoid overemphasis on literal interpretation.
+12. Consider the author's cultural background and shared knowledge to recognize potential biases and influences.
+13. Identify and flag potential irony and sarcasm indicators, such as hyperbole or rhetorical questions.
+14. Use a machine learning model to provide a sentiment score based on the tweet's linguistic features.
+15. Manually review and verify the sentiment score to ensure accuracy and consistency.",0.7833333333333333
+zero_shot,21,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the cultural background and shared knowledge of the author and audience.
+2. Analyze the tweet for irony and sarcasm, using machine learning-based approaches to detect language that conveys the opposite of its literal meaning.
+3. Recognize and account for the author's intent and purpose, considering the context in which the tweet is written.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+7. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations.
+8. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+9. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+10. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment.",0.83,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the cultural background and shared knowledge of the author and audience.
+2. Analyze the tweet for irony and sarcasm, using machine learning-based approaches to detect language that conveys the opposite of its literal meaning, and verify the detection through contextual clues.
+3. Recognize and account for the author's intent and purpose, considering the context in which the tweet is written and the cultural background of the author and audience.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, and consider their multiple possible interpretations in the context of the tweet.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations, and account for cultural background and shared knowledge.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+7. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background, and verify the analysis through contextual clues.
+8. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation, and use this information to inform the determination of sentiment.
+9. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment, and consider this information in conjunction with the tone, context, and author's intent.
+10. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations, and adjust the analysis accordingly.",0.79
+zero_shot,22,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone, nuances, and potential irony or sarcasm in informal language, considering the context of time, location, and cultural background.
+2. Analyze the tweet for its literal meaning, accounting for the potential of colloquialisms to convey a different meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the author's intent and purpose by considering the context in which the tweet is written.
+7. Identify and address potential irony and sarcasm in the tweet's language.
+8. Use machine learning-based approaches to identify contextual nuances and inform the sentiment classification.
+9. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+10. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+11. Account for the relevance and timeliness of the tweet to inform the sentiment classification.
+12. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+13. Use contextual knowledge to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+14. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+15. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Analyze the tweet for its potential irony or sarcasm, considering the context of time, location, and cultural background.
+2. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+5. Identify and address potential irony and sarcasm in the tweet's language.
+6. Use machine learning-based approaches to identify contextual nuances and inform the sentiment classification.
+7. Account for the relevance and timeliness of the tweet to inform the sentiment classification.
+8. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+9. Use contextual knowledge to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+10. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.
+11. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+12. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+13. Identify the author's intent and purpose by considering the context in which the tweet is written.
+14. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+15. Use contextual knowledge to account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.",0.79
+zero_shot,23,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language.
+2. Analyze the context in which the tweet is written, including time, location, and cultural background.
+3. Determine the tone of the sentiment words and phrases, recognizing irony, sarcasm, and other forms of figurative language.
+4. Consider the nuances of language, including informal language, colloquialisms, and emoticons, to accurately capture the intended meaning.
+5. Evaluate the overall sentiment based on the tone and context, avoiding ambiguity and neutrality.
+6. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+7. Consider the author's intent and purpose in writing the tweet, which may influence the sentiment.
+8. Take into account the tweet's relevance and timeliness, as these factors can impact the sentiment.
+9. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify sentiment words and phrases in the tweet, considering both literal and figurative language, including irony, sarcasm, and other forms of figurative language.
+2. Analyze the context in which the tweet is written, including time, location, cultural background, author's intent, and purpose, to accurately capture the intended meaning.
+3. Consider the nuances of language, including informal language, colloquialisms, and emoticons, and evaluate their tone to avoid ambiguity and neutrality.
+4. Determine the overall sentiment based on the tone and context, recognizing that multiple interpretations may indicate a need for further analysis.
+5. Verify that the sentiment is not subject to multiple interpretations, ensuring a clear and accurate classification.
+6. Evaluate the tweet's relevance and timeliness, as these factors can impact the sentiment.
+7. Use a combination of rule-based and machine learning-based approaches to accurately classify the sentiment, and refine the approach based on task instance feedback.",0.8033333333333333
+zero_shot,24,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the cultural background and shared knowledge of the author and audience.
+2. Analyze the tweet for irony and sarcasm, using machine learning-based approaches to detect language that conveys the opposite of its literal meaning.
+3. Recognize and account for the author's intent and purpose, considering the context in which the tweet is written.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+7. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations.
+8. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+9. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+10. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment.",0.83,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the cultural background and shared knowledge of the author and audience.
+2. Analyze the tweet for sarcasm and irony, using machine learning-based approaches to detect language that conveys the opposite of its literal meaning.
+3. Recognize and account for the author's intent and purpose, considering the context in which the tweet is written.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+7. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations.
+8. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+9. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+10. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment.
+11. Consider the speaker's tone and the language used to convey it, rather than just the literal meaning of the words.
+12. Identify and account for any idioms, colloquialisms, or cultural references that may impact the sentiment.
+13. Use machine learning-based approaches to detect language that conveys the opposite of its literal meaning, such as sarcasm and irony.
+14. Consider the author's purpose and intent, and how it may impact the sentiment of the tweet.
+15. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+16. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+17. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations.
+18. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+19. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+20. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment.
+21. Consider the audience's perspective and how it may impact the sentiment of the tweet.
+22. Use machine learning-based approaches to identify contextual nuances and detect potential misinterpretations.
+23. Account for the author's tone and language used to convey it, rather than just the literal meaning of the words.
+24. Identify and account for any language that conveys the opposite of its literal meaning, such as sarcasm and irony.
+25. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+26. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+27. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations.
+28. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+29. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+30. Evaluate the relevance and timeliness of the tweet to inform the determination",0.7766666666666666
+zero_shot,25,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone, nuances, and potential irony or sarcasm in informal language, considering the context of time, location, and cultural background.
+2. Analyze the tweet for its literal meaning, accounting for the potential of colloquialisms to convey a different meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the author's intent and purpose by considering the context in which the tweet is written.
+7. Identify and address potential irony and sarcasm in the tweet's language.
+8. Use machine learning-based approaches to identify contextual nuances and inform the sentiment classification.
+9. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+10. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+11. Account for the relevance and timeliness of the tweet to inform the sentiment classification.
+12. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+13. Use contextual knowledge to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+14. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+15. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify colloquial expressions and informal language, considering cultural background and shared knowledge.
+2. Analyze the tone, nuances, and potential irony or sarcasm in the language, accounting for context and cultural background.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the author's intent and purpose by considering the context in which the tweet is written, including cultural background and shared knowledge.
+7. Identify and address potential irony and sarcasm in the tweet's language, considering the tone and context.
+8. Use machine learning-based approaches to identify contextual nuances and inform the sentiment classification.
+9. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+10. Account for the relevance and timeliness of the tweet to inform the sentiment classification.
+11. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+12. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+13. Use contextual knowledge to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+14. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.
+15. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+16. If the sentiment is ambiguous or unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+17. If the tweet contains colloquial expressions or informal language, use contextual knowledge to disambiguate their meaning.
+18. If the tweet contains potential irony or sarcasm, re-evaluate the sentiment considering the tone and context.
+19. If the author's intent and purpose are unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+20. Use a machine learning-based approach to identify contextual nuances and inform the sentiment classification.",0.8266666666666667
+zero_shot,26,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify colloquial expressions and informal language, considering cultural background and shared knowledge.
+2. Analyze the tone, nuances, and potential irony or sarcasm in the language, accounting for context and cultural background.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the author's intent and purpose by considering the context in which the tweet is written, including cultural background and shared knowledge.
+7. Identify and address potential irony and sarcasm in the tweet's language, considering the tone and context.
+8. Use machine learning-based approaches to identify contextual nuances and inform the sentiment classification.
+9. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+10. Account for the relevance and timeliness of the tweet to inform the sentiment classification.
+11. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+12. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+13. Use contextual knowledge to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+14. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.
+15. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+16. If the sentiment is ambiguous or unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+17. If the tweet contains colloquial expressions or informal language, use contextual knowledge to disambiguate their meaning.
+18. If the tweet contains potential irony or sarcasm, re-evaluate the sentiment considering the tone and context.
+19. If the author's intent and purpose are unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+20. Use a machine learning-based approach to identify contextual nuances and inform the sentiment classification.",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify and contextualize colloquial expressions and informal language, considering cultural background, shared knowledge, and relevant contextual cues.
+2. Analyze tone, nuances, and potential irony or sarcasm, accounting for context, cultural background, and shared knowledge.
+3. Recognize cultural background and shared knowledge that may influence author's intent and audience's interpretation, and adjust analysis accordingly.
+4. Evaluate tone of sentiment words and phrases, including emoticons and emotive language, considering nuanced tone analysis.
+5. Disambiguate sentiment words and phrases with multiple possible interpretations using contextual knowledge and machine learning-based approaches.
+6. Determine author's intent and purpose by considering context, cultural background, and shared knowledge.
+7. Identify and address potential irony and sarcasm in the tweet's language, considering tone, context, and cultural background.
+8. Use machine learning-based approaches to identify contextual nuances and inform sentiment classification.
+9. Re-evaluate tone and context to ensure accurate sentiment classification.
+10. Analyze language used to identify author's intended meaning, considering tone, context, and cultural background.
+11. Evaluate sentiment based on comprehensive analysis of tone, context, and author's intent.
+12. Verify that sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+13. If sentiment is ambiguous or unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+14. If colloquial expressions or informal language are present, use contextual knowledge to disambiguate their meaning.
+15. If potential irony or sarcasm is detected, re-evaluate sentiment considering tone and context.
+16. If author's intent and purpose are unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+17. Use machine learning-based approaches to identify contextual nuances and inform sentiment classification.",0.8133333333333334
+zero_shot,27,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone, nuances, and potential irony or sarcasm in informal language, considering the context of time, location, and cultural background.
+2. Analyze the tweet for its literal meaning, accounting for the potential of colloquialisms to convey a different meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the author's intent and purpose by considering the context in which the tweet is written.
+7. Identify and address potential irony and sarcasm in the tweet's language.
+8. Use machine learning-based approaches to identify contextual nuances and inform the sentiment classification.
+9. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+10. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+11. Account for the relevance and timeliness of the tweet to inform the sentiment classification.
+12. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+13. Use contextual knowledge to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+14. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+15. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone, nuances, and potential irony or sarcasm in informal language, considering the context of time, location, and cultural background.
+2. Analyze the tweet for its literal meaning, accounting for the potential of colloquialisms to convey a different meaning.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the author's intent and purpose by considering the context in which the tweet is written.
+7. Identify and address potential irony and sarcasm in the tweet's language.
+8. Evaluate the relevance and timeliness of the tweet to inform the sentiment classification.
+9. Use contextual knowledge and cultural background to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+10. Use machine learning-based approaches to identify contextual nuances and inform the sentiment classification.
+11. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+12. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+13. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+14. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+15. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.
+16. Use emotive language and tone to inform the sentiment classification, considering the author's intent and purpose.
+17. Account for the cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+18. Consider the relevance and timeliness of the tweet to inform the sentiment classification.",0.8266666666666667
+zero_shot,28,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify colloquial expressions and informal language, considering cultural background and shared knowledge.
+2. Analyze the tone, nuances, and potential irony or sarcasm in the language, accounting for context and cultural background.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the author's intent and purpose by considering the context in which the tweet is written, including cultural background and shared knowledge.
+7. Identify and address potential irony and sarcasm in the tweet's language, considering the tone and context.
+8. Use machine learning-based approaches to identify contextual nuances and inform the sentiment classification.
+9. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+10. Account for the relevance and timeliness of the tweet to inform the sentiment classification.
+11. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+12. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+13. Use contextual knowledge to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+14. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.
+15. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+16. If the sentiment is ambiguous or unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+17. If the tweet contains colloquial expressions or informal language, use contextual knowledge to disambiguate their meaning.
+18. If the tweet contains potential irony or sarcasm, re-evaluate the sentiment considering the tone and context.
+19. If the author's intent and purpose are unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+20. Use a machine learning-based approach to identify contextual nuances and inform the sentiment classification.",0.8266666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify colloquial expressions and informal language, considering cultural background and shared knowledge, and account for their potential influence on the author's intent and the audience's interpretation.
+2. Analyze the tone, nuances, and potential irony or sarcasm in the language, considering the tone and context, to disambiguate potential irony or sarcasm.
+3. Recognize and account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation of the language.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the author's intent and purpose by considering the context in which the tweet is written, including cultural background and shared knowledge.
+7. Evaluate the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations.
+8. Re-evaluate the tone and context of the tweet to ensure accurate sentiment classification.
+9. Use a machine learning-based approach to identify contextual nuances and inform the sentiment classification.
+10. Verify that the sentiment is clear and accurate, avoiding ambiguity and multiple interpretations.
+11. If the sentiment is ambiguous or unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+12. If the tweet contains colloquial expressions or informal language, use contextual knowledge to disambiguate their meaning.
+13. If the tweet contains potential irony or sarcasm, re-evaluate the sentiment considering the tone and context.
+14. If the author's intent and purpose are unclear, re-analyze the tweet considering additional contextual knowledge and cultural background.
+15. Consider the cultural background and shared knowledge that may influence the author's intent and the audience's interpretation of the tweet.
+16. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+17. Use contextual knowledge to identify the author's intended meaning and evaluate the sentiment based on this understanding.
+18. Determine the sentiment based on a comprehensive analysis of the tweet's tone, context, and author's intent.
+19. Identify and address potential irony and sarcasm in the tweet's language, considering the tone and context.
+20. Evaluate the relevance and timeliness of the tweet to inform the sentiment classification.",0.8033333333333333
+zero_shot,29,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the cultural background and shared knowledge of the author and audience.
+2. Analyze the tweet for irony and sarcasm, using machine learning-based approaches to detect language that conveys the opposite of its literal meaning.
+3. Recognize and account for the author's intent and purpose, considering the context in which the tweet is written.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+7. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations.
+8. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+9. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+10. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment.",0.83,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the cultural background and shared knowledge of the author and audience.
+2. Analyze the tweet for irony and sarcasm, using machine learning-based approaches to detect language that conveys the opposite of its literal meaning.
+3. Recognize and account for the author's intent and purpose, considering the context in which the tweet is written.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+7. Verify that the sentiment is clear and accurate by checking for inconsistency between literal meaning and contextual clues.
+8. Use machine learning-based approaches to identify contextual nuances and detect potential misinterpretations, and adjust the sentiment accordingly.
+9. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation, and adjust the sentiment based on this information.
+10. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background, and adjust the sentiment based on this analysis.
+11. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment, and adjust the sentiment accordingly.
+12. Prioritize contextual clues over literal meaning when the two conflict, to ensure accurate sentiment classification.
+13. Use a combination of machine learning-based approaches and rule-based methods to detect sentiment, to ensure robustness and accuracy.
+14. Continuously monitor and adjust the sentiment classification based on feedback and new data, to ensure that the model remains accurate and up-to-date.",0.8166666666666667
+zero_shot,30,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify the tone and nuances of informal language and colloquialisms, considering the cultural background and shared knowledge of the author and audience.
+2. Analyze the tweet for irony and sarcasm, using machine learning-based approaches to detect language that conveys the opposite of its literal meaning.
+3. Recognize and account for the author's intent and purpose, considering the context in which the tweet is written.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+7. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations.
+8. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation.
+9. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background.
+10. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment.",0.83,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify idiomatic expressions and colloquialisms, considering the cultural background and shared knowledge of the author and audience, and explicitly define their meaning.
+2. Analyze the tweet for irony and sarcasm, using machine learning-based approaches to detect language that conveys the opposite of its literal meaning, and explicitly indicate when irony or sarcasm is detected.
+3. Recognize and account for the author's intent and purpose, considering the context in which the tweet is written, and evaluate the author's intent as primary.
+4. Evaluate the tone of sentiment words and phrases, including emoticons and emotive language, considering the context and author's intent, to accurately capture the intended meaning.
+5. Use contextual knowledge to disambiguate sentiment words and phrases with multiple possible interpretations, and prioritize the most likely interpretation based on context.
+6. Determine the overall sentiment based on the tone, context, and author's intent, considering multiple possible interpretations and avoiding ambiguity.
+7. Verify that the sentiment is clear and accurate, using machine learning-based approaches to identify contextual nuances and detect potential misinterpretations, and explicitly indicate when sentiment is unclear or ambiguous.
+8. Account for cultural background and shared knowledge that may influence the author's intent and the audience's interpretation, and explicitly consider the cultural context of the tweet.
+9. Analyze the language used to identify the author's intended meaning, considering the tone, context, and cultural background, and evaluate the language as secondary to the context and author's intent.
+10. Evaluate the relevance and timeliness of the tweet to inform the determination of sentiment, and explicitly consider the relevance of the tweet to the author's intent.",0.7866666666666666

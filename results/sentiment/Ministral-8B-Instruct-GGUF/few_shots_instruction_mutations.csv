@@ -1,0 +1,1794 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement.",0.8233333333333334
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Note the presence of sarcasm, irony, or indirect expressions of sentiment, and the importance of emotive language and tone. Handle mixed sentiments appropriately.",0.78
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Note the presence of sarcasm, irony, or indirect expressions of sentiment, and the importance of emotive language and tone. Handle mixed sentiments appropriately.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Note the presence of sarcasm, irony, or indirect expressions of sentiment, and the importance of emotive language and tone. Handle mixed sentiments appropriately.",0.78
+few_shots,0,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Note the presence of sarcasm, irony, or indirect expressions of sentiment, and the importance of emotive language and tone. Handle mixed sentiments appropriately.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context, tone, sarcasm, irony, and indirect expressions of sentiment, as well as the importance of emotive language. Handle mixed sentiments appropriately.",0.77
+few_shots,1,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context, tone, sarcasm, irony, and indirect expressions of sentiment, as well as the importance of emotive language. Handle mixed sentiments appropriately.",0.77,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context, tone, sarcasm, irony, and indirect expressions of sentiment, as well as the importance of emotive language. Handle mixed sentiments appropriately.",0.77
+few_shots,2,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Note the presence of sarcasm, irony, or indirect expressions of sentiment, and the importance of emotive language and tone. Handle mixed sentiments appropriately.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Specifically, note the presence of sarcasm, irony, or indirect expressions of sentiment, and the importance of emotive language and tone. Handle mixed sentiments appropriately.",0.7766666666666666
+few_shots,3,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Note the presence of sarcasm, irony, or indirect expressions of sentiment, and the importance of emotive language and tone. Handle mixed sentiments appropriately.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Explicitly note the presence of sarcasm, irony, or indirect expressions of sentiment, and prioritize emotive language and tone. Handle mixed sentiments appropriately.",0.7733333333333333
+few_shots,4,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet and the use of emojis, exclamations, informal language, and contextual clues.",0.83
+few_shots,5,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, emojis, slang, and negations.",0.81
+few_shots,6,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Note the presence of sarcasm, irony, or indirect expressions of sentiment, and the importance of emotive language and tone. Handle mixed sentiments appropriately.",0.78,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement. Pay close attention to the presence of sarcasm, irony, or indirect expressions of sentiment, and the importance of emotive language and tone. Handle mixed sentiments appropriately.",0.7833333333333333
+few_shots,7,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, emojis, slang, and negations.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, emojis, slang, negations, and contradictions.",0.8
+few_shots,8,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, emojis, slang, and negations.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations.",0.81
+few_shots,9,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations.",0.81
+few_shots,10,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations. Pay special attention to the use of informal language and slang, which may convey a negative sentiment even if the words appear positive. Carefully interpret emojis and exclamations, as they can significantly influence the sentiment. Be aware of negations and contradictions, which can alter the sentiment of a statement.",0.8
+few_shots,11,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, exclamations, and the impact of these factors on sentiment.",0.8066666666666666
+few_shots,12,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations. Pay special attention to the use of informal language, slang, context, and emojis, and avoid misinterpretation of negations.",0.78
+few_shots,13,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations.",0.81,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the tone, context, informal language, slang, emojis, negations, and exclamations.",0.81
+few_shots,14,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context and tone of the statement.",0.8233333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative, considering the context, tone, and nuanced emotional tone of the statement, including handling informal language and abbreviations.",0.8066666666666666
+few_shots,15,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet and the use of emojis, exclamations, informal language, and contextual clues.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues.",0.8333333333333334
+few_shots,16,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet and the use of emojis, exclamations, informal language, and contextual clues.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues.",0.83
+few_shots,17,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and exclamations.",0.8366666666666667
+few_shots,18,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and exclamations.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to the nuanced use of informal language and emojis. Ensure that the context and overall tone of the tweet are taken into account for accurate sentiment classification.",0.83
+few_shots,19,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, informal language, slang, exclamations, emojis, and contextual clues.",0.8233333333333334
+few_shots,20,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Be cautious of informal language nuances and ensure the overall tone is considered.",0.8266666666666667
+few_shots,21,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues.",0.8333333333333334
+few_shots,22,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Consider the entire tweet, including the use of emojis, informal language, exclamations, and contextual clues.",0.8133333333333334
+few_shots,23,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues. Be cautious with informal language and emojis, as they can sometimes be used in a negative context. Also, pay attention to direct addresses and questions, which can sometimes indicate a neutral or negative sentiment.",0.8066666666666666
+few_shots,24,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to the nuanced use of informal language and emojis. Ensure that the context and overall tone of the tweet are taken into account for accurate sentiment classification.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Pay close attention to the nuanced use of informal language, contextual clues, and the overall tone. Emphasize the importance of understanding the context and tone of the entire tweet. Consider the influence of emojis and exclamations, but do not overemphasize them.",0.79
+few_shots,25,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and exclamations.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context.",0.83
+few_shots,26,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667
+few_shots,27,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and exclamations.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and slang, as they can indicate negative sentiment.",0.79
+few_shots,28,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to the nuanced use of informal language and emojis. Ensure that the context and overall tone of the tweet are taken into account for accurate sentiment classification.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Pay special attention to the overall tone and context, including the use of informal language and emojis. Consider nuanced sentiments and ensure that the context and tone are accurately reflected in the classification.",0.8166666666666667
+few_shots,29,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and exclamations.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative. Pay special attention to informal language, emojis, exclamations, and contextual clues. Balance the weight of positive and negative words.",0.8166666666666667
+few_shots,30,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667
+few_shots,31,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to the nuanced use of informal language and emojis. Ensure that the context and overall tone of the tweet are taken into account for accurate sentiment classification.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Pay special attention to informal language, exclamations, punctuation, and emojis. Consider the overall tone and context of the tweet for accurate sentiment classification.",0.8166666666666667
+few_shots,32,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment. Handle neutral sentiments as neutral.",0.7866666666666666
+few_shots,33,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667
+few_shots,34,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, emojis, and the overall context. Interpret informal language and exclamations as positive if they reflect the actual sentiment. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8066666666666666
+few_shots,35,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Pay special attention to informal language, exclamations, and emojis. Consider the overall tone and context of the tweet.",0.8233333333333334
+few_shots,36,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Pay special attention to informal language, emojis, exclamations, and the overall tone. Consider the entire context of the tweet.",0.83
+few_shots,37,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues, especially for mixed sentiments.",0.82
+few_shots,38,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667
+few_shots,39,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Emphasize the sentiment conveyed by informal language and emojis. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8266666666666667
+few_shots,40,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and exclamations.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language, slang, and the nuances of emojis and exclamations. Ensure the entire tweet is examined for sentiment.",0.83
+few_shots,41,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and exclamations.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Pay special attention to informal language, exclamations, emojis, and contextual clues. Consider the overall tone of the tweet.",0.83
+few_shots,42,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and exclamations.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Pay special attention to informal language, exclamations, and emojis. Consider the entire tweet and all contextual clues. Avoid overemphasis on specific keywords.",0.8133333333333334
+few_shots,43,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues. Be cautious of informal language and slang, and ensure emojis and exclamations are interpreted appropriately within the context of the tweet.",0.83
+few_shots,44,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+INSTRUCTION:
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues. Be cautious of informal language and slang, and ensure emojis and exclamations are interpreted appropriately within the context of the tweet.",0.83,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues. Be cautious of informal language, slang, abbreviations, and ensure emojis and exclamations are interpreted appropriately within the context of the tweet.",0.83
+few_shots,45,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, and contextual clues.",0.8333333333333334,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, informal language, exclamations, punctuation, and contextual clues.",0.8233333333333334
+few_shots,46,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to tone, exclamations, and the overall context. Ignore exclamations and informal language if they do not reflect the actual sentiment. Do not overemphasize exclamations or informal language.",0.8266666666666667
+few_shots,47,instruction,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Consider the entire tweet, the use of emojis, exclamations, informal language, and contextual clues. Pay special attention to informal language and exclamations.",0.8366666666666667,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative. Pay special attention to informal language, emojis, exclamations, and contextual clues. Consider irony and sarcasm.",0.7933333333333333

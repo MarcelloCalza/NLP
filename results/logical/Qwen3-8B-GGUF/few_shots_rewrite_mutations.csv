@@ -1,0 +1,1207 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.",0.5766666666666667
+few_shots,0,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.",0.5766666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically and align your answer with the exact required format.",0.5633333333333334
+few_shots,0,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically and align your answer with the exact required format.",0.5633333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.",0.5733333333333334
+few_shots,0,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.",0.5733333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.",0.5733333333333334
+few_shots,1,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.",0.5733333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.",0.5666666666666667
+few_shots,2,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.",0.5733333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+If multiple constraints apply, resolve conflicts by first applying fixed positions or direct comparisons before general ones.",0.5633333333333334
+few_shots,3,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.",0.5666666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.  
+Do not include any additional text or explanation.",0.5666666666666667
+few_shots,4,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.",0.5733333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.",0.5733333333333334
+few_shots,5,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.",0.5666666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.",0.5666666666666667
+few_shots,6,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.",0.5766666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Pay close attention to exact wording and prioritize all comparative relationships before finalizing your answer.  
+Verify that your answer aligns with all constraints and does not conflict with any given statements.",0.56
+few_shots,7,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.",0.5766666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize constraints in the correct order and systematically eliminate options that contradict any given information.  
+Clarify whether the question asks for a specific rank (e.g., ""third-most expensive"") or a specific position (e.g., ""third from the left"") to avoid confusion.",0.5466666666666666
+few_shots,8,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.",0.5733333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on eliminating incorrect options based on constraints and ensure the final answer matches the exact spelling and structure of the provided choices.",0.5633333333333334
+few_shots,9,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.",0.5666666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.  
+Verify that your answer satisfies all constraints before finalizing.",0.5766666666666667
+few_shots,10,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.",0.5666666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.  
+Verify that your answer satisfies all constraints before finalizing.",0.5766666666666667
+few_shots,11,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.",0.5766666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.",0.5866666666666667
+few_shots,12,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.",0.5733333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+When processing relative positions (e.g., ""second,"" ""second-to-last""), apply strict ordering rules to avoid misplacement.  
+Ensure that specific constraints are addressed before general ones to maintain logical consistency.",0.5666666666666667
+few_shots,13,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.  
+Verify that your answer satisfies all constraints before finalizing.",0.5766666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Prioritize processing comparative relationships systematically, starting from the most specific to the most general.  
+Align your answer with the exact required format, ensuring it matches the spelling and structure of the provided options.  
+Answer with only one word.  
+Focus on identifying the correct item by cross-checking all constraints and ensuring it satisfies every condition provided.  
+Verify that your answer satisfies all constraints before finalizing.",0.5766666666666667
+few_shots,14,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem. Carefully analyze the given constraints and determine the correct answer based on the relationships provided. Ensure that all constraints are properly interpreted and that the correct item is identified for the specified position.",0.5766666666666667
+few_shots,15,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.",0.5866666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Prioritize absolute positions (e.g., ""first,"" ""last"") over relative ones (e.g., ""above,"" ""below"") when resolving conflicts.  
+Systematically eliminate options that contradict the constraints.  
+Apply logical deduction step-by-step to arrive at the correct answer.",0.57
+few_shots,16,rewrite,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334
+few_shots,17,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem. Carefully analyze the given constraints and determine the correct answer based on the relationships provided. Ensure that all constraints are properly interpreted and that the correct item is identified for the specified position.",0.5766666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem. Carefully analyze the given constraints and determine the correct answer based on the relationships provided. Ensure that all constraints are properly interpreted and that the correct item is identified for the specified position. Prioritize the logical sequence of constraints and systematically apply all conditions to avoid misinterpretation or omission.",0.5733333333333334
+few_shots,18,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Double-check that the selected answer is present in the provided choices.  
+Answer:",0.5766666666666667
+few_shots,19,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.",0.5866666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Do not include any additional text, explanations, or reasoning.",0.6
+few_shots,20,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334
+few_shots,21,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.",0.5866666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+If multiple items satisfy the condition, select the one that is explicitly mentioned first in the list.",0.5633333333333334
+few_shots,22,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Do not include any additional text, explanations, or reasoning.",0.6,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.59
+few_shots,23,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.59,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667
+few_shots,24,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.",0.5866666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Prioritize constraints systematically, eliminate incorrect options, and ensure your answer aligns with all given relationships.",0.5766666666666667
+few_shots,25,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.59,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.59
+few_shots,26,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334
+few_shots,27,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334
+few_shots,28,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.59,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.",0.5666666666666667
+few_shots,29,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.59,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.",0.5666666666666667
+few_shots,30,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334
+few_shots,31,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Answer:",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Validate your final answer against the provided options to ensure accuracy.  
+Answer:",0.5833333333333334
+few_shots,32,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.",0.5866666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Carefully verify that your answer satisfies all constraints and eliminate any options that contradict the given information.",0.5733333333333334
+few_shots,33,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.",0.5866666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Prioritize all constraints in the correct order before selecting the final answer.  
+Distinguish between similar-sounding options and ensure exact wording matches the provided choices.  
+Map out all comparative relationships systematically before arriving at the conclusion.",0.5633333333333334
+few_shots,34,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Validate your final answer against the provided options to ensure accuracy.  
+Answer:",0.5833333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+Provide only the correct answer as a single word from the given options.  
+Ensure that all relative positioning and ordering clues are properly interpreted and applied.  
+Process all constraints systematically and prioritize them in a logical order.  
+Validate your final answer against the provided options to ensure accuracy.  
+Answer:",0.5833333333333334
+few_shots,35,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Do not include any additional text, explanations, or reasoning.",0.6,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Clarify that the order is left-to-right unless stated otherwise.  
+Ensure the answer is strictly from the provided list.  
+Do not include any additional text, explanations, or reasoning.",0.59
+few_shots,36,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.59,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667
+few_shots,37,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Do not include any additional text, explanations, or reasoning.",0.6,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Double-check that your answer satisfies all constraints and that you have followed the correct logical steps.  
+Do not include any additional text, explanations, or reasoning.",0.5933333333333334
+few_shots,38,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Double-check that your answer satisfies all constraints and that you have followed the correct logical steps.  
+Do not include any additional text, explanations, or reasoning.",0.5933333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Double-check that your answer satisfies all constraints and that you have followed the correct logical steps.  
+Do not include any additional text, explanations, or reasoning.  
+Strictly adhere to the instruction of returning only the final answer.",0.5733333333333334
+few_shots,39,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Do not include any additional text, explanations, or reasoning.",0.6,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly verify that your answer satisfies all constraints before finalizing.  
+Do not include any additional text, explanations, or reasoning.",0.5666666666666667
+few_shots,40,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.59,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.",0.58
+few_shots,41,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Focus on parsing comparative relationships, prioritizing constraints, and eliminating incorrect options to arrive at the correct answer.",0.5733333333333334
+few_shots,42,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.  
+Prioritize exact wording of answer choices and avoid semantically similar but incorrect selections.",0.5766666666666667
+few_shots,43,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Double-check that your answer satisfies all constraints and that you have followed the correct logical steps.  
+Do not include any additional text, explanations, or reasoning.",0.5933333333333334,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Double-check that your answer satisfies all constraints and that you have followed the correct logical steps.  
+Do not include any additional text, explanations, or reasoning.",0.59
+few_shots,44,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.  
+Prioritize clarity in interpreting comparative relationships, ensure all constraints are applied in the correct order, and perform a thorough elimination process to arrive at the correct answer.",0.5866666666666667
+few_shots,45,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Clarify that the order is left-to-right unless stated otherwise.  
+Ensure the answer is strictly from the provided list.  
+Do not include any additional text, explanations, or reasoning.",0.59,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Clarify that the order is left-to-right unless stated otherwise.  
+Ensure the answer is strictly from the provided list.  
+Do not include any additional text, explanations, or reasoning.  
+Prioritize resolving conflicting constraints by identifying the most specific or definitive statement first.  
+Ensure all comparative relationships are interpreted correctly, including nested or overlapping comparisons.  
+Verify that the selected item is explicitly listed in the provided options.",0.59
+few_shots,46,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Clarify that the order is left-to-right unless stated otherwise.  
+Ensure the answer is strictly from the provided list.  
+Do not include any additional text, explanations, or reasoning.  
+Prioritize resolving conflicting constraints by identifying the most specific or definitive statement first.  
+Ensure all comparative relationships are interpreted correctly, including nested or overlapping comparisons.  
+Verify that the selected item is explicitly listed in the provided options.",0.59,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Clarify that the order is left-to-right unless stated otherwise.  
+Ensure the answer is strictly from the provided list.  
+Prioritize resolving conflicting constraints by identifying the most specific or definitive statement first.  
+Ensure all comparative relationships are interpreted correctly, including nested or overlapping comparisons.  
+Verify that the selected item is explicitly listed in the provided options.  
+Do not include any additional text, explanations, or reasoning.",0.62
+few_shots,47,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667
+few_shots,48,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.  
+Prioritize the most specific constraints first, then resolve ambiguities by applying all comparative relationships in sequence.",0.5733333333333334
+few_shots,49,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.  
+Focus on applying comparative relationships step-by-step, prioritizing constraints in a logical sequence, and eliminating options that do not satisfy all conditions.",0.5733333333333334
+few_shots,50,rewrite,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.",0.5966666666666667,"<think>
+
+</think>
+
+Solve the following logical reasoning problem.  
+You are given a set of items and a series of comparative statements.  
+Use the statements to determine the correct order or position of the items.  
+Answer with the item that satisfies the specified condition.  
+Return only the item that meets the requirement, using exactly one word from the provided list.  
+Ensure your reasoning follows all given constraints and deduces the correct answer through logical elimination and ordering.  
+Explicitly prioritize all constraints, apply comparative terms accurately, and systematically eliminate incorrect options.  
+Do not include any additional text, explanations, or reasoning.  
+Prioritize the order of constraints as specified in the problem to avoid logical errors.  
+Ensure your answer is the only word from the provided list that satisfies all conditions.",0.5866666666666667

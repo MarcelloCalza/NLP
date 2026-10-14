@@ -1,0 +1,1740 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,zero_shot,multi,0,sentiment,,,,,,0.8366666666666667,,Classify the sentiment of the following tweet as positive or negative.
+summary,zero_shot,multi,1,sentiment,,,,,,0.8366666666666667,,Classify the sentiment of the following tweet as positive or negative.
+summary,zero_shot,multi,2,sentiment,,,,,,0.84,,"Classify the sentiment of the given tweet as positive or negative, considering the context and avoiding biases towards profanity, sarcasm, and irony."
+summary,zero_shot,multi,3,sentiment,,,,,,0.84,,"Classify the sentiment of the given tweet as positive or negative, considering the context and avoiding biases towards profanity, sarcasm, and irony."
+summary,zero_shot,multi,4,sentiment,,,,,,0.84,,"Classify the sentiment of the given tweet as positive or negative, considering the context and avoiding biases towards profanity, sarcasm, and irony."
+summary,zero_shot,multi,5,sentiment,,,,,,0.84,,"Classify the sentiment of the given tweet as positive or negative, considering the context and avoiding biases towards profanity, sarcasm, and irony."
+summary,zero_shot,multi,6,sentiment,,,,,,0.84,,"Classify the sentiment of the given tweet as positive or negative, considering the context and avoiding biases towards profanity, sarcasm, and irony."
+summary,zero_shot,multi,7,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,8,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,9,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,10,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,11,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,12,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,13,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,14,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,15,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,16,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,17,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,18,sentiment,,,,,,0.84,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm thrilled that my friend's birthday party tonight has been cancelled, so I can finally get some rest.
+Answer: positive
+
+Example 4: 
+This coffee is the worst I've ever had, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's better than being unemployed.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, and I'm trying to reduce my carbon footprint.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, and I can finally try their new dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive and worth the price of the ticket.
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,zero_shot,multi,19,sentiment,,,,,,0.8433333333333334,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context."
+summary,zero_shot,multi,20,sentiment,,,,,,0.8533333333333334,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive, so I'll look forward to the next one.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context."
+summary,zero_shot,multi,21,sentiment,,,,,,0.8533333333333334,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive, so I'll look forward to the next one.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context."
+summary,zero_shot,multi,22,sentiment,,,,,,0.86,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context, content, tone markers, implied sentiment, and explicit sentiment words, and accounting for nuanced language and mixed sentiment."
+summary,zero_shot,multi,23,sentiment,,,,,,0.86,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context, content, tone markers, implied sentiment, and explicit sentiment words, and accounting for nuanced language and mixed sentiment."
+summary,zero_shot,multi,24,sentiment,,,,,,0.86,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context, content, tone markers, implied sentiment, and explicit sentiment words, and accounting for nuanced language and mixed sentiment."
+summary,zero_shot,multi,25,sentiment,,,,,,0.86,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context, content, tone markers, implied sentiment, and explicit sentiment words, and accounting for nuanced language and mixed sentiment."
+summary,zero_shot,multi,26,sentiment,,,,,,0.86,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context, content, tone markers, implied sentiment, and explicit sentiment words, and accounting for nuanced language and mixed sentiment."
+summary,zero_shot,multi,27,sentiment,,,,,,0.86,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context, content, tone markers, implied sentiment, and explicit sentiment words, and accounting for nuanced language and mixed sentiment."
+summary,zero_shot,multi,28,sentiment,,,,,,0.86,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context, content, tone markers, implied sentiment, and explicit sentiment words, and accounting for nuanced language and mixed sentiment."
+summary,zero_shot,multi,29,sentiment,,,,,,0.86,,"Example 1: 
+I'm so excited for my friend's birthday party tonight! It's going to be lit!
+Answer: positive
+
+Example 2: 
+I just got a speeding ticket and I'm so annoyed with the cops for being so strict.
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the worst coffee of my life, but at least the view from the cafe is nice.
+Answer: negative
+
+Example 5: 
+I'm feeling a bit down today, but at least the sunshine is trying to lift my mood.
+Answer: positive
+
+Example 6: 
+The new policy is a total disaster, but I'm glad I got to voice my opinion at the meeting.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish.
+Answer: positive
+
+Example 10: 
+The new movie was a total disaster, but at least the special effects were impressive.
+Answer: negative
+
+Classify the sentiment of the tweet as positive or negative, considering the context, content, tone markers, implied sentiment, and explicit sentiment words, and accounting for nuanced language and mixed sentiment."
+summary,zero_shot,multi,30,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,31,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,32,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,33,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,34,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,35,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,36,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,37,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,38,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,39,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,40,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,41,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,42,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,43,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,44,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,45,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,46,sentiment,,,,,,0.86,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context and content of the statement, and accounting for tone markers, implied sentiment, and explicit sentiment words in context, while also handling complex sentences with mixed sentiments and prioritizing nuanced interpretation over reliance on explicit sentiment words."
+summary,zero_shot,multi,47,sentiment,,,,,,0.8633333333333333,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context, tone markers, and content of the statement, while handling complex sentences with mixed sentiments, prioritizing nuanced interpretation over reliance on explicit sentiment words, and accounting for their potential inaccuracy in reflecting the overall tone."
+summary,zero_shot,multi,48,sentiment,,,,,,0.8633333333333333,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context, tone markers, and content of the statement, while handling complex sentences with mixed sentiments, prioritizing nuanced interpretation over reliance on explicit sentiment words, and accounting for their potential inaccuracy in reflecting the overall tone."
+summary,zero_shot,multi,49,sentiment,,,,,,0.8633333333333333,,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context, tone markers, and content of the statement, while handling complex sentences with mixed sentiments, prioritizing nuanced interpretation over reliance on explicit sentiment words, and accounting for their potential inaccuracy in reflecting the overall tone."
+summary,zero_shot,multi,50,sentiment,,,,,,0.8633333333333333,0.79,"Example 1: 
+I'm thrilled to be attending my favorite band's concert tonight! 
+Answer: positive
+
+Example 2: 
+The new policy is a disaster, but I'm glad I got to voice my opinion at the meeting. 
+Answer: negative
+
+Example 3: 
+I'm so excited for my friend's birthday party tonight, but I'm also dreading the early morning after.
+Answer: positive
+
+Example 4: 
+Just had the best coffee of my life, and it was made with love by the barista.
+Answer: positive
+
+Example 5: 
+The news about the city's new park is a mixed bag - it's a great idea, but the location is terrible.
+Answer: negative
+
+Example 6: 
+The new restaurant in town is a total letdown, but the ambiance is nice.
+Answer: negative
+
+Example 7: 
+I'm so tired of my job, but at least the paycheck is nice, and it's helping me pay for my dream vacation.
+Answer: negative
+
+Example 8: 
+I just got a great deal on a new pair of shoes, but I'm also worried about the environmental impact, so I'm going to look for sustainable options.
+Answer: negative
+
+Example 9: 
+I'm thrilled that my favorite restaurant is finally open on Sundays, but I'm also a bit annoyed that they're not serving my favorite dish, so I'll try something new.
+Answer: positive
+
+Example 10: 
+I'm going to the doctor for a check-up, and I'm hoping everything will be fine.
+Answer: positive
+
+Classify the sentiment of the tweet as positive or negative, considering the context, tone markers, and content of the statement, while handling complex sentences with mixed sentiments, prioritizing nuanced interpretation over reliance on explicit sentiment words, and accounting for their potential inaccuracy in reflecting the overall tone."

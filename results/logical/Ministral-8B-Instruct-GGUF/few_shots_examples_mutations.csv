@@ -1,0 +1,5130 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+few_shots,0,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.5066666666666667,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Solve the following logical reasoning problem.",0.5033333333333333
+few_shots,0,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Solve the following logical reasoning problem.",0.5033333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,0,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5066666666666667,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the second-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the lightest?
+Answer: dump truck
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the second-oldest?
+Answer: science fiction
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the lightest?
+Answer: salad
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,0,examples,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the second-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the lightest?
+Answer: dump truck
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the second-oldest?
+Answer: science fiction
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the lightest?
+Answer: salad
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5066666666666667,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the second-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the lightest?
+Answer: dump truck
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the second-oldest?
+Answer: science fiction
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the lightest?
+Answer: salad
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,1,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5066666666666667,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,2,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Solve the following logical reasoning problem.",0.5066666666666667,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a bakery, there are five pastries: croissant, donut, muffin, scone, and bagel.
+The croissant is the oldest.
+The bagel is newer than the muffin.
+The donut is older than the scone.
+The croissant is older than the donut.
+Which one is the second-newest?
+Answer: bagel
+
+Example 4:
+At a bookstore, there are five books: novel, biography, textbook, poem, and short story.
+The novel is the oldest.
+The biography is older than the textbook.
+The textbook is newer than the poem.
+The novel is older than the short story.
+Which one is the third-oldest?
+Answer: biography
+
+Solve the following logical reasoning problem.",0.4966666666666666
+few_shots,3,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Solve the following logical reasoning problem.",0.5033333333333333,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Example 5:
+In a race, there are five runners: Alice, Bob, Charlie, Dave, and Eve.
+Charlie finishes ahead of Dave.
+Alice finishes ahead of Charlie.
+Dave finishes ahead of Eve.
+Eve finishes ahead of Bob.
+Which one finishes second?
+Answer: Charlie
+
+Solve the following logical reasoning problem.",0.51
+few_shots,4,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,5,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51
+few_shots,6,examples,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the second-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the lightest?
+Answer: dump truck
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the second-oldest?
+Answer: science fiction
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the lightest?
+Answer: salad
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5066666666666667,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the second-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the lightest?
+Answer: dump truck
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the second-oldest?
+Answer: science fiction
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the lightest?
+Answer: salad
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,7,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Example 5:
+In a race, there are five runners: Alice, Bob, Charlie, Dave, and Eve.
+Charlie finishes ahead of Dave.
+Alice finishes ahead of Charlie.
+Dave finishes ahead of Eve.
+Eve finishes ahead of Bob.
+Which one finishes second?
+Answer: Charlie
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the third-oldest?
+Answer: biography
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+Example 3:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third-oldest?
+Answer: mask
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Example 5:
+In a race, there are five runners: Alice, Bob, Charlie, Dave, and Eve.
+Charlie finishes ahead of Dave.
+Alice finishes ahead of Charlie.
+Dave finishes ahead of Eve.
+Eve finishes ahead of Bob.
+Which one finishes second?
+Answer: Charlie
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,8,examples,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the second-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the lightest?
+Answer: dump truck
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the second-oldest?
+Answer: science fiction
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the lightest?
+Answer: salad
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5066666666666667,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the third-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the second-heaviest?
+Answer: bulldozer
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the fourth-oldest?
+Answer: mystery
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the second-lightest?
+Answer: pasta
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,9,examples,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51
+few_shots,10,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Example 5:
+In a race, there are five runners: Alice, Bob, Charlie, Dave, and Eve.
+Charlie finishes ahead of Dave.
+Alice finishes ahead of Charlie.
+Dave finishes ahead of Eve.
+Eve finishes ahead of Bob.
+Which one finishes second?
+Answer: Charlie
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+At a book fair, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 2:
+In a city park, there are five trees: oak, maple, pine, birch, and cherry.
+The oak is older than the maple.
+The pine is the newest.
+The birch is older than the cherry.
+The maple is older than the pine.
+Which one is the third oldest?
+Answer: maple
+
+Example 3:
+At a farmer's market, there are five vegetables: tomato, carrot, potato, onion, and lettuce.
+The tomato is the heaviest.
+The carrot is heavier than the potato.
+The lettuce is lighter than the potato.
+The onion is lighter than the tomato.
+Which one is the lightest?
+Answer: lettuce
+
+Example 4:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the heaviest.
+The tiger is heavier than the elephant.
+The giraffe is lighter than the elephant.
+The zebra is lighter than the lion.
+Which one is the lightest?
+Answer: zebra
+
+Example 5:
+In a school, there are five students: Alice, Bob, Charlie, Dave, and Eve.
+Charlie is taller than Dave.
+Alice is taller than Charlie.
+Dave is taller than Eve.
+Eve is taller than Bob.
+Which one is the second tallest?
+Answer: Dave
+
+Solve the following logical reasoning problem.",0.5
+few_shots,11,examples,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51
+few_shots,12,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Example 5:
+In a race, there are five runners: Alice, Bob, Charlie, Dave, and Eve.
+Charlie finishes ahead of Dave.
+Alice finishes ahead of Charlie.
+Dave finishes ahead of Eve.
+Eve finishes ahead of Bob.
+Which one finishes second?
+Answer: Charlie
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+In a bookstore, there are five books: mystery, romance, science fiction, fantasy, and horror.
+The mystery is older than the romance.
+The science fiction is the newest.
+The horror is older than the fantasy.
+The romance is older than the science fiction.
+Which one is the second-oldest?
+Answer: mystery
+
+Example 2:
+At a music festival, there are five bands: heavy metal, punk, indie, rock, and jazz.
+The heavy metal is the loudest.
+The punk is louder than the indie.
+The rock is louder than the jazz.
+The indie is louder than the punk.
+Which one is the second-loudest?
+Answer: punk
+
+Example 3:
+In a garden, there are five plants: rose, tulip, sunflower, daisy, and pansy.
+The rose is the oldest.
+The daisy is the newest.
+The pansy is older than the sunflower.
+The tulip is older than the pansy.
+Which one is the third-oldest?
+Answer: tulip
+
+Example 4:
+At a bakery, there are five pastries: croissant, bagel, muffin, cake, and scone.
+The croissant is the heaviest.
+The bagel is heavier than the muffin.
+The scone is lighter than the cake.
+The cake is lighter than the croissant.
+Which one is the lightest?
+Answer: scone
+
+Example 5:
+In a sports event, there are five athletes: sprinter, hurdler, long jumper, high jumper, and pole vaulter.
+The sprinter is the fastest.
+The hurdler is faster than the long jumper.
+The long jumper is faster than the high jumper.
+The high jumper is faster than the pole vaulter.
+Which one is the second-fastest?
+Answer: hurdler
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,13,examples,"Example 1:
+In a museum exhibit, there are five artifacts: statue, painting, vase, mask, and coin.
+The statue is older than the painting.
+The vase is the newest.
+The mask is older than the coin.
+The painting is older than the mask.
+Which one is the third oldest?
+Answer: mask
+
+
+
+Example 2:
+At a dog show, there are five dogs: bulldog, poodle, beagle, husky, and terrier.
+The husky is the heaviest.
+The bulldog is heavier than the poodle.
+The beagle is lighter than the poodle.
+The beagle is heavier than the terrier.
+Which one is the lightest?
+Answer: terrier
+
+
+Example 3:
+In a library, there are five books: novel, biography, history, poetry, and science.
+The novel is older than the biography.
+The history is the newest.
+The biography is older than the poetry.
+The science is older than the history.
+Which one is the second-oldest?
+Answer: biography
+
+Example 4:
+At a restaurant, there are five dishes: lasagna, pizza, pasta, salad, and soup.
+The lasagna is the heaviest.
+The pizza is heavier than the pasta.
+The salad is lighter than the pasta.
+The soup is lighter than the salad.
+Which one is the lightest?
+Answer: soup
+
+Example 5:
+In a race, there are five runners: Alice, Bob, Charlie, Dave, and Eve.
+Charlie finishes ahead of Dave.
+Alice finishes ahead of Charlie.
+Dave finishes ahead of Eve.
+Eve finishes ahead of Bob.
+Which one finishes second?
+Answer: Charlie
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The whole wheat is older than the sourdough.
+The multigrain is older than the white.
+The sourdough is older than the whole wheat.
+Which one is the third oldest?
+Answer: multigrain
+
+Example 2:
+At a bookstore, there are five books: mystery, romance, science fiction, fantasy, and non-fiction.
+The mystery is the oldest.
+The romance is older than the science fiction.
+The science fiction is older than the fantasy.
+The non-fiction is the newest.
+Which one is the second oldest?
+Answer: romance
+
+Example 3:
+In a grocery store, there are five items: apples, bananas, oranges, grapes, and pears.
+The apples are the oldest.
+The bananas are older than the oranges.
+The oranges are older than the grapes.
+The pears are the newest.
+Which one is the second oldest?
+Answer: bananas
+
+Example 4:
+At a flower market, there are five flowers: roses, tulips, daisies, lilies, and sunflowers.
+The roses are the oldest.
+The tulips are older than the daisies.
+The daisies are older than the lilies.
+The sunflowers are the newest.
+Which one is the third oldest?
+Answer: tulips
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the oldest.
+The tiger is older than the elephant.
+The elephant is older than the giraffe.
+The zebra is the newest.
+Which one is the second oldest?
+Answer: tiger
+
+Solve the following logical reasoning problem.",0.5
+few_shots,14,examples,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the third-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the second-heaviest?
+Answer: bulldozer
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the fourth-oldest?
+Answer: mystery
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the second-lightest?
+Answer: pasta
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the third-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the second-heaviest?
+Answer: bulldozer
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the fourth-oldest?
+Answer: mystery
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the second-lightest?
+Answer: pasta
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,15,examples,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51
+few_shots,16,examples,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the third-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the second-heaviest?
+Answer: bulldozer
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the fourth-oldest?
+Answer: mystery
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the second-lightest?
+Answer: pasta
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the third-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the second-heaviest?
+Answer: bulldozer
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the fourth-oldest?
+Answer: mystery
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the second-lightest?
+Answer: pasta
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,17,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+The bungalow is shorter than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+The croissant is the most expensive.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+The daisy is the most common.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5133333333333333
+few_shots,18,examples,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+In a bakery, there are five pastries: croissant, muffin, bagel, donut, and scone.
+The croissant is the freshest.
+The muffin is the second freshest.
+The bagel is the third freshest.
+The donut is the fourth freshest.
+The scone is the oldest.
+Which one is the oldest?
+Answer: scone
+
+Example 2:
+In a store, there are five items: jacket, shirt, pants, shoes, and hat.
+The jacket is the newest.
+The shirt is the second newest.
+The pants are the third newest.
+The shoes are the fourth newest.
+The hat is the oldest.
+Which one is the oldest?
+Answer: hat
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and lily.
+The rose is the youngest.
+The tulip is the second youngest.
+The daisy is the third youngest.
+The sunflower is the fourth youngest.
+The lily is the oldest.
+Which one is the oldest?
+Answer: lily
+
+Example 4:
+In a workshop, there are five tools: hammer, screwdriver, wrench, pliers, and saw.
+The hammer is the newest.
+The screwdriver is the second newest.
+The wrench is the third newest.
+The pliers are the fourth newest.
+The saw is the oldest.
+Which one is the oldest?
+Answer: saw
+
+Example 5:
+In a kitchen, there are five spices: salt, pepper, cinnamon, paprika, and chili powder.
+The salt is the newest.
+The pepper is the second newest.
+The cinnamon is the third newest.
+The paprika is the fourth newest.
+The chili powder is the oldest.
+Which one is the oldest?
+Answer: chili powder
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,19,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,20,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+The bungalow is shorter than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+The croissant is the most expensive.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+The daisy is the most common.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5133333333333333,"Example 1:
+In a library, there are five books: encyclopedia, dictionary, novel, textbook, and journal.
+The encyclopedia is the thickest.
+The dictionary is thicker than the novel.
+The novel is thicker than the textbook.
+The textbook is thicker than the journal.
+The journal is the thinnest.
+Which one is the thinnest?
+Answer: journal
+
+Example 2:
+At a concert, there are five musicians: conductor, violinist, pianist, drummer, and guitarist.
+The conductor is the leader.
+The violinist is the second musician.
+The pianist is the third musician.
+The drummer is the fourth musician.
+The guitarist is the fifth musician.
+Which one is the third musician?
+Answer: pianist
+
+Example 3:
+In a grocery store, there are five fruits: apple, banana, orange, grape, and melon.
+The apple is the most expensive.
+The banana is cheaper than the orange.
+The orange is cheaper than the grape.
+The grape is cheaper than the melon.
+The melon is the cheapest.
+Which one is the cheapest?
+Answer: melon
+
+Example 4:
+In a museum, there are five paintings: portrait, landscape, still life, abstract, and sculpture.
+The portrait is the oldest.
+The landscape is older than the still life.
+The still life is older than the abstract.
+The abstract is older than the sculpture.
+The sculpture is the newest.
+Which one is the newest?
+Answer: sculpture
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.5133333333333333
+few_shots,21,examples,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51
+few_shots,22,examples,"Example 1:
+In a library, there are five books: novel, biography, history, science, and poetry.
+The novel is the newest.
+The biography is the second newest.
+The history is the third newest.
+The science is the fourth newest.
+The poetry is the oldest.
+Which one is the oldest?
+Answer: poetry
+
+Example 2:
+In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+The sprinter is the fastest.
+The marathoner is the second fastest.
+The hurdler is the third fastest.
+The long jumper is the fourth fastest.
+The middle-distance runner is the slowest.
+Which one is the slowest?
+Answer: middle-distance
+
+Example 3:
+In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+The soup is the cheapest.
+The salad is cheaper than the pasta.
+The pasta is cheaper than the steak.
+The steak is cheaper than the dessert.
+The dessert is the most expensive.
+Which one is the most expensive?
+Answer: dessert
+
+Example 4:
+In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+The captain is the leader.
+The vice-captain is the second leader.
+The secretary is the third leader.
+The treasurer is the fourth leader.
+The librarian is the fifth leader.
+Which one is the fifth leader?
+Answer: librarian
+
+Example 5:
+In a sports team, there are five players: goalie, defender, midfielder, forward, and captain.
+The goalie is the most important.
+The defender is the second most important.
+The midfielder is the third most important.
+The forward is the fourth most important.
+The captain is the least important.
+Which one is the least important?
+Answer: captain
+
+Solve the following logical reasoning problem.",0.51,"EXAMPLES:
+
+Example 1:
+        In a library, there are five books: novel, biography, history, science, and poetry.
+        The novel is the newest.
+        The biography is the second newest.
+        The history is the third newest.
+        The science is the fourth newest.
+        The poetry is the oldest.
+        Which one is the oldest?
+        Answer: poetry
+
+Example 2:
+        In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+        The sprinter is the fastest.
+        The marathoner is the second fastest.
+        The hurdler is the third fastest.
+        The long jumper is the fourth fastest.
+        The middle-distance runner is the slowest.
+        Which one is the slowest?
+        Answer: middle-distance
+
+Example 3:
+        In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+        The soup is the cheapest.
+        The salad is cheaper than the pasta.
+        The pasta is cheaper than the steak.
+        The steak is cheaper than the dessert.
+        The dessert is the most expensive.
+        Which one is the most expensive?
+        Answer: dessert
+
+Example 4:
+        In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+        The captain is the leader.
+        The vice-captain is the second leader.
+        The secretary is the third leader.
+        The treasurer is the fourth leader.
+        The librarian is the fifth leader.
+        Which one is the fifth leader?
+        Answer: librarian
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,23,examples,"Example 1:
+In a library, there are five books: encyclopedia, dictionary, novel, textbook, and journal.
+The encyclopedia is the thickest.
+The dictionary is thicker than the novel.
+The novel is thicker than the textbook.
+The textbook is thicker than the journal.
+The journal is the thinnest.
+Which one is the thinnest?
+Answer: journal
+
+Example 2:
+At a concert, there are five musicians: conductor, violinist, pianist, drummer, and guitarist.
+The conductor is the leader.
+The violinist is the second musician.
+The pianist is the third musician.
+The drummer is the fourth musician.
+The guitarist is the fifth musician.
+Which one is the third musician?
+Answer: pianist
+
+Example 3:
+In a grocery store, there are five fruits: apple, banana, orange, grape, and melon.
+The apple is the most expensive.
+The banana is cheaper than the orange.
+The orange is cheaper than the grape.
+The grape is cheaper than the melon.
+The melon is the cheapest.
+Which one is the cheapest?
+Answer: melon
+
+Example 4:
+In a museum, there are five paintings: portrait, landscape, still life, abstract, and sculpture.
+The portrait is the oldest.
+The landscape is older than the still life.
+The still life is older than the abstract.
+The abstract is older than the sculpture.
+The sculpture is the newest.
+Which one is the newest?
+Answer: sculpture
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.5133333333333333,"Example 1:
+In a bookstore, there are five books: thriller, mystery, romance, science fiction, and fantasy.
+The thriller is the most popular.
+The mystery is more popular than the romance.
+The romance is more popular than the science fiction.
+The science fiction is more popular than the fantasy.
+The fantasy is the least popular.
+Which one is the least popular?
+Answer: fantasy
+
+Example 2:
+At a bakery, there are five pastries: croissant, muffin, scone, donut, and bagel.
+The croissant is the most expensive.
+The muffin is cheaper than the scone.
+The scone is cheaper than the donut.
+The donut is cheaper than the bagel.
+The bagel is the cheapest.
+Which one is the cheapest?
+Answer: bagel
+
+Example 3:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is larger than the elephant.
+The elephant is larger than the giraffe.
+The giraffe is larger than the penguin.
+The penguin is the smallest.
+Which one is the smallest?
+Answer: penguin
+
+Example 4:
+At a museum, there are five artifacts: vase, statue, painting, sculpture, and coin.
+The vase is the oldest.
+The statue is older than the painting.
+The painting is older than the sculpture.
+The sculpture is older than the coin.
+The coin is the newest.
+Which one is the newest?
+Answer: coin
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.53
+few_shots,24,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,25,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a library, there are five books: encyclopedia, textbook, novel, journal, and comic.
+The encyclopedia is the thickest.
+The textbook is thicker than the novel.
+The journal is thicker than the comic.
+The novel is thicker than the journal.
+Which one is the thinnest?
+Answer: comic
+
+Example 2:
+At a sports event, there are five athletes: runner, swimmer, gymnast, hurdler, and javelin thrower.
+The runner is the fastest.
+The swimmer is faster than the gymnast.
+The gymnast is faster than the hurdler.
+The hurdler is faster than the javelin thrower.
+Which one is the slowest?
+Answer: javelin thrower
+
+Example 3:
+In a market, there are five fruits: apple, banana, orange, pineapple, and watermelon.
+The apple is the most expensive.
+The banana is cheaper than the orange.
+The orange is cheaper than the pineapple.
+The pineapple is cheaper than the apple.
+The watermelon is cheaper than the banana.
+Which one is the cheapest?
+Answer: watermelon
+
+Example 4:
+In a zoo, there are five animals: elephant, lion, tiger, zebra, and giraffe.
+The elephant is the biggest.
+The lion is bigger than the tiger.
+The tiger is bigger than the zebra.
+The zebra is bigger than the giraffe.
+The giraffe is bigger than the elephant.
+Which one is the smallest?
+Answer: giraffe
+
+Example 5:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Solve the following logical reasoning problem.",0.4733333333333333
+few_shots,26,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,27,examples,"Example 1:
+In a library, there are five books: encyclopedia, dictionary, novel, textbook, and journal.
+The encyclopedia is the thickest.
+The dictionary is thicker than the novel.
+The novel is thicker than the textbook.
+The textbook is thicker than the journal.
+The journal is the thinnest.
+Which one is the thinnest?
+Answer: journal
+
+Example 2:
+At a concert, there are five musicians: conductor, violinist, pianist, drummer, and guitarist.
+The conductor is the leader.
+The violinist is the second musician.
+The pianist is the third musician.
+The drummer is the fourth musician.
+The guitarist is the fifth musician.
+Which one is the third musician?
+Answer: pianist
+
+Example 3:
+In a grocery store, there are five fruits: apple, banana, orange, grape, and melon.
+The apple is the most expensive.
+The banana is cheaper than the orange.
+The orange is cheaper than the grape.
+The grape is cheaper than the melon.
+The melon is the cheapest.
+Which one is the cheapest?
+Answer: melon
+
+Example 4:
+In a museum, there are five paintings: portrait, landscape, still life, abstract, and sculpture.
+The portrait is the oldest.
+The landscape is older than the still life.
+The still life is older than the abstract.
+The abstract is older than the sculpture.
+The sculpture is the newest.
+Which one is the newest?
+Answer: sculpture
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.5133333333333333,"Example 1:
+In a library, there are five books: encyclopedia, dictionary, novel, textbook, and journal.
+The encyclopedia is the thickest.
+The dictionary is thicker than the novel.
+The novel is thicker than the textbook.
+The textbook is thicker than the journal.
+The journal is the thinnest.
+Which one is the thinnest?
+Answer: journal
+
+Example 2:
+At a concert, there are five musicians: conductor, violinist, pianist, drummer, and guitarist.
+The conductor is the leader.
+The violinist is the second musician.
+The pianist is the third musician.
+The drummer is the fourth musician.
+The guitarist is the fifth musician.
+Which one is the third musician?
+Answer: pianist
+
+Example 3:
+In a grocery store, there are five fruits: apple, banana, orange, grape, and melon.
+The apple is the most expensive.
+The banana is cheaper than the orange.
+The orange is cheaper than the grape.
+The grape is cheaper than the melon.
+The melon is the cheapest.
+Which one is the cheapest?
+Answer: melon
+
+Example 4:
+In a museum, there are five paintings: portrait, landscape, still life, abstract, and sculpture.
+The portrait is the oldest.
+The landscape is older than the still life.
+The still life is older than the abstract.
+The abstract is older than the sculpture.
+The sculpture is the newest.
+Which one is the newest?
+Answer: sculpture
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.5133333333333333
+few_shots,28,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667
+few_shots,29,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a library, there are five books: encyclopedia, dictionary, novel, biography, and textbook.
+The encyclopedia is the largest.
+The dictionary is larger than the novel.
+The biography is larger than the textbook.
+The novel is larger than the biography.
+Which one is the smallest?
+Answer: textbook
+
+Example 2:
+At a concert, there are five musicians: lead singer, keyboardist, guitarist, bassist, and drummer.
+The lead singer is the main performer.
+The keyboardist is the second main performer.
+The guitarist is the third main performer.
+The bassist is the fourth main performer.
+The drummer is the fifth main performer.
+Which one is the third main performer?
+Answer: guitarist
+
+Example 3:
+In a café, there are five drinks: coffee, tea, latte, cappuccino, and hot chocolate.
+The coffee is the most expensive.
+The tea is cheaper than the latte.
+The latte is cheaper than the cappuccino.
+The cappuccino is cheaper than the hot chocolate.
+The hot chocolate is cheaper than the coffee.
+Which one is the cheapest?
+Answer: tea
+
+Example 4:
+In a park, there are five trees: oak, maple, pine, birch, and willow.
+The oak is the tallest.
+The maple is taller than the pine.
+The pine is taller than the birch.
+The birch is taller than the willow.
+The willow is shorter than the oak.
+Which one is the shortest?
+Answer: willow
+
+Example 5:
+In a museum, there are five artifacts: vase, sculpture, painting, tapestry, and statue.
+The vase is the oldest.
+The sculpture is older than the painting.
+The painting is older than the tapestry.
+The tapestry is older than the statue.
+The statue is older than the vase.
+Which one is the newest?
+Answer: statue
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,30,examples,"Example 1:
+In a bookstore, there are five books: thriller, mystery, romance, science fiction, and fantasy.
+The thriller is the most popular.
+The mystery is more popular than the romance.
+The romance is more popular than the science fiction.
+The science fiction is more popular than the fantasy.
+The fantasy is the least popular.
+Which one is the least popular?
+Answer: fantasy
+
+Example 2:
+At a bakery, there are five pastries: croissant, muffin, scone, donut, and bagel.
+The croissant is the most expensive.
+The muffin is cheaper than the scone.
+The scone is cheaper than the donut.
+The donut is cheaper than the bagel.
+The bagel is the cheapest.
+Which one is the cheapest?
+Answer: bagel
+
+Example 3:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is larger than the elephant.
+The elephant is larger than the giraffe.
+The giraffe is larger than the penguin.
+The penguin is the smallest.
+Which one is the smallest?
+Answer: penguin
+
+Example 4:
+At a museum, there are five artifacts: vase, statue, painting, sculpture, and coin.
+The vase is the oldest.
+The statue is older than the painting.
+The painting is older than the sculpture.
+The sculpture is older than the coin.
+The coin is the newest.
+Which one is the newest?
+Answer: coin
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.53,"Example 1:
+In a library, there are five books: history, science, literature, math, and art.
+The history book is the oldest.
+The science book is older than the literature book.
+The literature book is older than the math book.
+The math book is older than the art book.
+The art book is the newest.
+Which one is the newest?
+Answer: art
+
+Example 2:
+At a restaurant, there are five dishes: steak, chicken, pasta, salad, and soup.
+The steak is the most expensive.
+The chicken is cheaper than the pasta.
+The pasta is cheaper than the salad.
+The salad is cheaper than the soup.
+The soup is the cheapest.
+Which one is the cheapest?
+Answer: soup
+
+Example 3:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and sunflower.
+The rose is the tallest.
+The daisy is taller than the tulip.
+The tulip is taller than the lily.
+The lily is taller than the sunflower.
+The sunflower is the shortest.
+Which one is the shortest?
+Answer: sunflower
+
+Example 4:
+At a concert, there are five bands: rock, jazz, classical, pop, and hip-hop.
+The rock band is the loudest.
+The jazz band is louder than the classical band.
+The classical band is louder than the pop band.
+The pop band is louder than the hip-hop band.
+The hip-hop band is the quietest.
+Which one is the quietest?
+Answer: hip-hop
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the fourth-highest scorer?
+Answer: fourth
+
+Solve the following logical reasoning problem.",0.52
+few_shots,31,examples,"EXAMPLES:
+
+Example 1:
+        In a library, there are five books: novel, biography, history, science, and poetry.
+        The novel is the newest.
+        The biography is the second newest.
+        The history is the third newest.
+        The science is the fourth newest.
+        The poetry is the oldest.
+        Which one is the oldest?
+        Answer: poetry
+
+Example 2:
+        In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+        The sprinter is the fastest.
+        The marathoner is the second fastest.
+        The hurdler is the third fastest.
+        The long jumper is the fourth fastest.
+        The middle-distance runner is the slowest.
+        Which one is the slowest?
+        Answer: middle-distance
+
+Example 3:
+        In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+        The soup is the cheapest.
+        The salad is cheaper than the pasta.
+        The pasta is cheaper than the steak.
+        The steak is cheaper than the dessert.
+        The dessert is the most expensive.
+        Which one is the most expensive?
+        Answer: dessert
+
+Example 4:
+        In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+        The captain is the leader.
+        The vice-captain is the second leader.
+        The secretary is the third leader.
+        The treasurer is the fourth leader.
+        The librarian is the fifth leader.
+        Which one is the fifth leader?
+        Answer: librarian
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a school, there are five grades: kindergarten, first grade, second grade, third grade, and fourth grade.
+The kindergarten is the youngest.
+The first grade is the second youngest.
+The second grade is the third youngest.
+The third grade is the fourth youngest.
+The fourth grade is the oldest.
+Which one is the oldest?
+Answer: fourth grade
+
+Example 2:
+In a zoo, there are five animals: lion, elephant, giraffe, zebra, and monkey.
+The lion is the strongest.
+The elephant is the second strongest.
+The giraffe is the third strongest.
+The zebra is the fourth strongest.
+The monkey is the weakest.
+Which one is the weakest?
+Answer: monkey
+
+Example 3:
+In a bakery, there are five pastries: muffin, croissant, bagel, scone, and danish.
+The muffin is the cheapest.
+The croissant is cheaper than the bagel.
+The bagel is cheaper than the scone.
+The scone is cheaper than the danish.
+The danish is the most expensive.
+Which one is the most expensive?
+Answer: danish
+
+Example 4:
+In a sports team, there are five players: goalkeeper, defender, midfielder, forward, and captain.
+The goalkeeper is the least valuable.
+The defender is the second least valuable.
+The midfielder is the third least valuable.
+The forward is the fourth least valuable.
+The captain is the most valuable.
+Which one is the most valuable?
+Answer: captain
+
+Example 5:
+In a computer lab, there are five computers: desktop, laptop, tablet, smartphone, and server.
+The desktop is the slowest.
+The laptop is faster than the desktop.
+The tablet is faster than the laptop.
+The smartphone is faster than the tablet.
+The server is the fastest.
+Which one is the fastest?
+Answer: server
+
+Solve the following logical reasoning problem.",0.51
+few_shots,32,examples,"Example 1:
+In a bakery, there are five types of bread: rye, whole wheat, sourdough, multigrain, and white.
+The rye is the oldest.
+The sourdough is the newest.
+The whole wheat is older than the multigrain.
+The multigrain is older than the white.
+Which one is the third-oldest?
+Answer: whole wheat
+
+Example 2:
+At a construction site, there are five machines: crane, excavator, bulldozer, forklift, and dump truck.
+The excavator is the heaviest.
+The bulldozer is heavier than the forklift.
+The crane is heavier than the dump truck.
+The forklift is heavier than the dump truck.
+Which one is the second-heaviest?
+Answer: bulldozer
+
+Example 3:
+In a library, there are five books: mystery, science fiction, romance, fantasy, and non-fiction.
+The mystery is older than the science fiction.
+The romance is the newest.
+The science fiction is older than the fantasy.
+The non-fiction is older than the romance.
+Which one is the fourth-oldest?
+Answer: mystery
+
+Example 4:
+At a restaurant, there are five dishes: spaghetti, lasagna, pizza, pasta, and salad.
+The lasagna is the heaviest.
+The spaghetti is heavier than the pasta.
+The pizza is lighter than the pasta.
+The salad is lighter than the spaghetti.
+Which one is the second-lightest?
+Answer: pasta
+
+Example 5:
+In a classroom, there are five students: Alex, Jamie, Jordan, Kyle, and Taylor.
+Alex is the second from the right.
+Jamie is to the left of Jordan.
+Kyle is the third from the left.
+Taylor is the second from the right.
+Which one is the fourth from the left?
+Answer: Kyle
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a garden, there are five flowers: rose, daisy, tulip, sunflower, and lily.
+The rose is the oldest.
+The daisy is the newest.
+The tulip is older than the sunflower.
+The sunflower is older than the lily.
+Which one is the third-oldest?
+Answer: tulip
+
+Example 2:
+At a library, there are five books: history, science, literature, geography, and math.
+The history is the oldest.
+The literature is the newest.
+The science is older than the geography.
+The geography is older than the math.
+Which one is the fourth-oldest?
+Answer: science
+
+Example 3:
+In a classroom, there are five students: Alice, Bob, Charlie, Dave, and Eve.
+Alice is the first from the left.
+Bob is to the right of Charlie.
+Charlie is to the right of Dave.
+Dave is to the right of Eve.
+Which one is the fourth from the left?
+Answer: Charlie
+
+Example 4:
+At a park, there are five trees: oak, pine, maple, birch, and willow.
+The oak is the tallest.
+The pine is taller than the maple.
+The maple is taller than the birch.
+The birch is taller than the willow.
+Which one is the second-tallest?
+Answer: pine
+
+Example 5:
+In a school, there are five classes: math, English, science, history, and art.
+The math class is the first.
+The English class is the newest.
+The science class is older than the history.
+The history class is older than the art.
+Which one is the fourth-oldest?
+Answer: science
+
+Solve the following logical reasoning problem.",0.51
+few_shots,33,examples,"EXAMPLES:
+
+Example 1:
+        In a library, there are five books: novel, biography, history, science, and poetry.
+        The novel is the newest.
+        The biography is the second newest.
+        The history is the third newest.
+        The science is the fourth newest.
+        The poetry is the oldest.
+        Which one is the oldest?
+        Answer: poetry
+
+Example 2:
+        In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+        The sprinter is the fastest.
+        The marathoner is the second fastest.
+        The hurdler is the third fastest.
+        The long jumper is the fourth fastest.
+        The middle-distance runner is the slowest.
+        Which one is the slowest?
+        Answer: middle-distance
+
+Example 3:
+        In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+        The soup is the cheapest.
+        The salad is cheaper than the pasta.
+        The pasta is cheaper than the steak.
+        The steak is cheaper than the dessert.
+        The dessert is the most expensive.
+        Which one is the most expensive?
+        Answer: dessert
+
+Example 4:
+        In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+        The captain is the leader.
+        The vice-captain is the second leader.
+        The secretary is the third leader.
+        The treasurer is the fourth leader.
+        The librarian is the fifth leader.
+        Which one is the fifth leader?
+        Answer: librarian
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Example 5:
+In a library, there are five books: mystery, romance, fantasy, horror, and non-fiction.
+The mystery is the most popular.
+The romance is the second most popular.
+The fantasy is the third most popular.
+The horror is the fourth most popular.
+The non-fiction is the least popular.
+Which one is the least popular?
+Answer: non-fiction
+
+Solve the following logical reasoning problem.",0.52
+few_shots,34,examples,"EXAMPLES:
+
+Example 1:
+        In a library, there are five books: novel, biography, history, science, and poetry.
+        The novel is the newest.
+        The biography is the second newest.
+        The history is the third newest.
+        The science is the fourth newest.
+        The poetry is the oldest.
+        Which one is the oldest?
+        Answer: poetry
+
+Example 2:
+        In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+        The sprinter is the fastest.
+        The marathoner is the second fastest.
+        The hurdler is the third fastest.
+        The long jumper is the fourth fastest.
+        The middle-distance runner is the slowest.
+        Which one is the slowest?
+        Answer: middle-distance
+
+Example 3:
+        In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+        The soup is the cheapest.
+        The salad is cheaper than the pasta.
+        The pasta is cheaper than the steak.
+        The steak is cheaper than the dessert.
+        The dessert is the most expensive.
+        Which one is the most expensive?
+        Answer: dessert
+
+Example 4:
+        In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+        The captain is the leader.
+        The vice-captain is the second leader.
+        The secretary is the third leader.
+        The treasurer is the fourth leader.
+        The librarian is the fifth leader.
+        Which one is the fifth leader?
+        Answer: librarian
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+        In a library, there are five books: novel, biography, history, science, and poetry.
+        The novel is the newest.
+        The biography is the second newest.
+        The history is the third newest.
+        The science is the fourth newest.
+        The poetry is the oldest.
+        Which one is the oldest?
+        Answer: poetry
+
+Example 2:
+        In a race, there are five runners: sprinter, marathoner, hurdler, long jumper, and middle-distance.
+        The sprinter is the fastest.
+        The marathoner is the second fastest.
+        The hurdler is the third fastest.
+        The long jumper is the fourth fastest.
+        The middle-distance runner is the slowest.
+        Which one is the slowest?
+        Answer: middle-distance
+
+Example 3:
+        In a restaurant, there are five dishes: soup, salad, pasta, steak, and dessert.
+        The soup is the cheapest.
+        The salad is cheaper than the pasta.
+        The pasta is cheaper than the steak.
+        The steak is cheaper than the dessert.
+        The dessert is the most expensive.
+        Which one is the most expensive?
+        Answer: dessert
+
+Example 4:
+        In a school, there are five students: captain, vice-captain, secretary, treasurer, and librarian.
+        The captain is the leader.
+        The vice-captain is the second leader.
+        The secretary is the third leader.
+        The treasurer is the fourth leader.
+        The librarian is the fifth leader.
+        Which one is the fifth leader?
+        Answer: librarian
+
+Solve the following logical reasoning problem.",0.49
+few_shots,35,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"Example 1:
+In a library, there are five books: encyclopedia, atlas, dictionary, almanac, and thesaurus.
+The encyclopedia is the thickest.
+The atlas is thicker than the dictionary.
+The almanac is thicker than the thesaurus.
+The dictionary is thicker than the encyclopedia.
+The thesaurus is thicker than the almanac.
+Which one is the thinnest?
+Answer: thesaurus
+
+Example 2:
+In a classroom, there are five students: teacher, assistant, janitor, librarian, and principal.
+The teacher is the oldest.
+The assistant is older than the janitor.
+The janitor is older than the librarian.
+The librarian is older than the principal.
+The principal is older than the assistant.
+Which one is the youngest?
+Answer: principal
+
+Example 3:
+In a museum, there are five artifacts: statue, vase, painting, sculpture, and mask.
+The statue is the largest.
+The vase is larger than the painting.
+The sculpture is larger than the mask.
+The painting is larger than the statue.
+The mask is larger than the vase.
+Which one is the smallest?
+Answer: mask
+
+Example 4:
+In a market, there are five fruits: apple, banana, orange, mango, and pineapple.
+The apple is the heaviest.
+The banana is heavier than the orange.
+The orange is heavier than the mango.
+The mango is heavier than the pineapple.
+The pineapple is heavier than the apple.
+Which one is the lightest?
+Answer: pineapple
+
+Example 5:
+In a garden, there are five plants: rose, daisy, tulip, lily, and daffodil.
+The rose is the most beautiful.
+The daisy is more beautiful than the tulip.
+The lily is more beautiful than the rose.
+The tulip is more beautiful than the daffodil.
+The daffodil is more beautiful than the daisy.
+Which one is the least beautiful?
+Answer: daffodil
+
+Solve the following logical reasoning problem.",0.5033333333333333
+few_shots,36,examples,"Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Example 5:
+In a library, there are five books: mystery, romance, fantasy, horror, and non-fiction.
+The mystery is the most popular.
+The romance is the second most popular.
+The fantasy is the third most popular.
+The horror is the fourth most popular.
+The non-fiction is the least popular.
+Which one is the least popular?
+Answer: non-fiction
+
+Solve the following logical reasoning problem.",0.52,"Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Example 5:
+In a library, there are five books: mystery, romance, fantasy, horror, and non-fiction.
+The mystery is the most popular.
+The romance is the second most popular.
+The fantasy is the third most popular.
+The horror is the fourth most popular.
+The non-fiction is the least popular.
+Which one is the least popular?
+Answer: non-fiction
+
+Solve the following logical reasoning problem.",0.52
+few_shots,37,examples,"Example 1:
+In a bookstore, there are five books: thriller, mystery, romance, science fiction, and fantasy.
+The thriller is the most popular.
+The mystery is more popular than the romance.
+The romance is more popular than the science fiction.
+The science fiction is more popular than the fantasy.
+The fantasy is the least popular.
+Which one is the least popular?
+Answer: fantasy
+
+Example 2:
+At a bakery, there are five pastries: croissant, muffin, scone, donut, and bagel.
+The croissant is the most expensive.
+The muffin is cheaper than the scone.
+The scone is cheaper than the donut.
+The donut is cheaper than the bagel.
+The bagel is the cheapest.
+Which one is the cheapest?
+Answer: bagel
+
+Example 3:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is larger than the elephant.
+The elephant is larger than the giraffe.
+The giraffe is larger than the penguin.
+The penguin is the smallest.
+Which one is the smallest?
+Answer: penguin
+
+Example 4:
+At a museum, there are five artifacts: vase, statue, painting, sculpture, and coin.
+The vase is the oldest.
+The statue is older than the painting.
+The painting is older than the sculpture.
+The sculpture is older than the coin.
+The coin is the newest.
+Which one is the newest?
+Answer: coin
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.53,"Example 1:
+In a library, there are five books: history, science, fiction, mystery, and fantasy.
+The history book is the oldest.
+The science book is older than the fiction book.
+The fiction book is older than the mystery book.
+The mystery book is older than the fantasy book.
+The fantasy book is the newest.
+Which one is the newest?
+Answer: fantasy
+
+Example 2:
+At a park, there are five trees: oak, pine, maple, birch, and willow.
+The oak tree is the tallest.
+The pine tree is taller than the maple tree.
+The maple tree is taller than the birch tree.
+The birch tree is taller than the willow tree.
+The willow tree is the shortest.
+Which one is the shortest?
+Answer: willow
+
+Example 3:
+In a garden, there are five flowers: rose, daisy, tulip, sunflower, and daffodil.
+The rose is the most vibrant.
+The daisy is more vibrant than the tulip.
+The tulip is more vibrant than the sunflower.
+The sunflower is more vibrant than the daffodil.
+The daffodil is the least vibrant.
+Which one is the least vibrant?
+Answer: daffodil
+
+Example 4:
+At a concert, there are five musical instruments: violin, piano, guitar, drums, and saxophone.
+The violin is the oldest instrument.
+The piano is older than the guitar.
+The guitar is older than the drums.
+The drums are older than the saxophone.
+The saxophone is the newest instrument.
+Which one is the newest instrument?
+Answer: saxophone
+
+Example 5:
+In a restaurant, there are five dishes: soup, salad, main course, dessert, and appetizer.
+The main course is the most filling.
+The salad is more filling than the soup.
+The soup is more filling than the appetizer.
+The appetizer is more filling than the dessert.
+The dessert is the least filling.
+Which one is the least filling?
+Answer: dessert
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,38,examples,"Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Example 5:
+In a library, there are five books: mystery, romance, fantasy, horror, and non-fiction.
+The mystery is the most popular.
+The romance is the second most popular.
+The fantasy is the third most popular.
+The horror is the fourth most popular.
+The non-fiction is the least popular.
+Which one is the least popular?
+Answer: non-fiction
+
+Solve the following logical reasoning problem.",0.52,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, condo, and house.
+The skyscraper is the tallest.
+The townhouse is the second tallest.
+The apartment is the third tallest.
+The condo is the fourth tallest.
+The house is the shortest.
+Which one is the shortest?
+Answer: house
+
+Example 2:
+In a restaurant, there are five dishes: sushi, pasta, burger, pizza, and sandwich.
+The sushi is the most expensive.
+The pasta is the second most expensive.
+The burger is the third most expensive.
+The pizza is the fourth most expensive.
+The sandwich is the least expensive.
+Which one is the least expensive?
+Answer: sandwich
+
+Example 3:
+In a market, there are five fruits: apple, banana, orange, mango, and pineapple.
+The apple is the most expensive.
+The banana is the second most expensive.
+The orange is the third most expensive.
+The mango is the fourth most expensive.
+The pineapple is the least expensive.
+Which one is the least expensive?
+Answer: pineapple
+
+Example 4:
+In a park, there are five types of trees: oak, maple, pine, birch, and willow.
+The oak is the oldest.
+The maple is the second oldest.
+The pine is the third oldest.
+The birch is the fourth oldest.
+The willow is the youngest.
+Which one is the youngest?
+Answer: willow
+
+Example 5:
+In a garden, there are five types of flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Solve the following logical reasoning problem.",0.5033333333333333
+few_shots,39,examples,"Example 1:
+In a bookstore, there are five books: thriller, mystery, romance, science fiction, and fantasy.
+The thriller is the most popular.
+The mystery is more popular than the romance.
+The romance is more popular than the science fiction.
+The science fiction is more popular than the fantasy.
+The fantasy is the least popular.
+Which one is the least popular?
+Answer: fantasy
+
+Example 2:
+At a bakery, there are five pastries: croissant, muffin, scone, donut, and bagel.
+The croissant is the most expensive.
+The muffin is cheaper than the scone.
+The scone is cheaper than the donut.
+The donut is cheaper than the bagel.
+The bagel is the cheapest.
+Which one is the cheapest?
+Answer: bagel
+
+Example 3:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is larger than the elephant.
+The elephant is larger than the giraffe.
+The giraffe is larger than the penguin.
+The penguin is the smallest.
+Which one is the smallest?
+Answer: penguin
+
+Example 4:
+At a museum, there are five artifacts: vase, statue, painting, sculpture, and coin.
+The vase is the oldest.
+The statue is older than the painting.
+The painting is older than the sculpture.
+The sculpture is older than the coin.
+The coin is the newest.
+Which one is the newest?
+Answer: coin
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.53,"Example 1:
+In a library, there are five books: history, science, art, literature, and math.
+The history book is the oldest.
+The science book is older than the art book.
+The art book is older than the literature book.
+The literature book is older than the math book.
+The math book is the newest.
+Which one is the newest?
+Answer: math
+
+Example 2:
+At a restaurant, there are five dishes: burger, fries, salad, soup, and pizza.
+The burger is the most expensive.
+The fries are cheaper than the salad.
+The salad is cheaper than the soup.
+The soup is cheaper than the pizza.
+The pizza is the cheapest.
+Which one is the cheapest?
+Answer: pizza
+
+Example 3:
+In a garden, there are five flowers: rose, daisy, tulip, sunflower, and lily.
+The rose is the most beautiful.
+The daisy is more beautiful than the tulip.
+The tulip is more beautiful than the sunflower.
+The sunflower is more beautiful than the lily.
+The lily is the least beautiful.
+Which one is the least beautiful?
+Answer: lily
+
+Example 4:
+At a museum, there are five artifacts: sculpture, painting, vase, coin, and statue.
+The sculpture is the oldest.
+The painting is older than the vase.
+The vase is older than the coin.
+The coin is older than the statue.
+The statue is the newest.
+Which one is the newest?
+Answer: statue
+
+Example 5:
+In a school, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the highest scorer?
+Answer: first
+
+Solve the following logical reasoning problem.",0.5066666666666667
+few_shots,40,examples,"Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Example 5:
+In a library, there are five books: mystery, romance, fantasy, horror, and non-fiction.
+The mystery is the most popular.
+The romance is the second most popular.
+The fantasy is the third most popular.
+The horror is the fourth most popular.
+The non-fiction is the least popular.
+Which one is the least popular?
+Answer: non-fiction
+
+Solve the following logical reasoning problem.",0.52,"EXAMPLES:
+
+Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Solve the following logical reasoning problem.",0.52
+few_shots,41,examples,"Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Example 5:
+In a library, there are five books: mystery, romance, fantasy, horror, and non-fiction.
+The mystery is the most popular.
+The romance is the second most popular.
+The fantasy is the third most popular.
+The horror is the fourth most popular.
+The non-fiction is the least popular.
+Which one is the least popular?
+Answer: non-fiction
+
+Solve the following logical reasoning problem.",0.52,"Example 1:
+In a garden, there are five plants: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 2:
+In a library, there are five books: mystery, romance, fantasy, horror, and non-fiction.
+The mystery is the most popular.
+The romance is the second most popular.
+The fantasy is the third most popular.
+The horror is the fourth most popular.
+The non-fiction is the least popular.
+Which one is the least popular?
+Answer: non-fiction
+
+Example 3:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 4:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 5:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Solve the following logical reasoning problem.",0.51
+few_shots,42,examples,"EXAMPLES:
+
+Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Solve the following logical reasoning problem.",0.52,"Example 1:
+In a library, there are five books: ""The Great Gatsby,"" ""War and Peace,"" ""To Kill a Mockingbird,"" ""1984,"" and ""Pride and Prejudice.""
+""The Great Gatsby"" is the most popular.
+""War and Peace"" is the second most popular.
+""1984"" is the third most popular.
+""Pride and Prejudice"" is the fourth most popular.
+""The Great Gatsby"" is the least popular.
+Which one is the least popular?
+Answer: ""The Great Gatsby""
+
+Example 2:
+In a music store, there are five instruments: piano, violin, guitar, flute, and drums.
+The piano is the most expensive.
+The violin is the second most expensive.
+The guitar is the third most expensive.
+The flute is the fourth most expensive.
+The drums are the least expensive.
+Which one is the least expensive?
+Answer: drums
+
+Example 3:
+In a museum, there are five paintings: ""Mona Lisa,"" ""The Starry Night,"" ""The Scream,"" ""Girl with a Pearl Earring,"" and ""The Last Supper.""
+""Mona Lisa"" is the most valuable.
+""The Starry Night"" is the second most valuable.
+""The Scream"" is the third most valuable.
+""Girl with a Pearl Earring"" is the fourth most valuable.
+""The Last Supper"" is the least valuable.
+Which one is the least valuable?
+Answer: ""The Last Supper""
+
+Example 4:
+In a bakery, there are five bread types: sourdough, rye, whole wheat, multigrain, and white.
+The sourdough is the most expensive.
+The rye is the second most expensive.
+The whole wheat is the third most expensive.
+The multigrain is the fourth most expensive.
+The white is the least expensive.
+Which one is the least expensive?
+Answer: white
+
+Example 5:
+In a bookstore, there are five authors: J.K. Rowling, Stephen King, J.R.R. Tolkien, George R.R. Martin, and Ernest Hemingway.
+J.K. Rowling is the most famous.
+Stephen King is the second most famous.
+J.R.R. Tolkien is the third most famous.
+George R.R. Martin is the fourth most famous.
+Ernest Hemingway is the least famous.
+Which one is the least famous?
+Answer: Ernest Hemingway
+
+Solve the following logical reasoning problem.",0.5133333333333333
+few_shots,43,examples,"Example 1:
+In a city, there are five buildings: skyscraper, townhouse, apartment, cottage, and bungalow.
+The skyscraper is the tallest.
+The townhouse is taller than the apartment.
+The cottage is taller than the bungalow.
+The apartment is taller than the cottage.
+Which one is the shortest?
+Answer: bungalow
+
+Example 2:
+At a convention, there are five speakers: keynote, panelist, moderator, presenter, and emcee.
+The keynote is the main speaker.
+The panelist is the second speaker.
+The moderator is the third speaker.
+The presenter is the fourth speaker.
+The emcee is the fifth speaker.
+Which one is the third speaker?
+Answer: moderator
+
+Example 3:
+In a bakery, there are five pastries: croissant, bagel, muffin, scone, and danish.
+The croissant is the most expensive.
+The bagel is cheaper than the muffin.
+The scone is cheaper than the danish.
+The danish is cheaper than the croissant.
+The muffin is cheaper than the bagel.
+Which one is the cheapest?
+Answer: muffin
+
+Example 4:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and daffodil.
+The rose is the rarest.
+The daisy is more common than the tulip.
+The lily is more common than the rose.
+The tulip is more common than the daffodil.
+The daffodil is more common than the daisy.
+Which one is the most common?
+Answer: daisy
+
+Example 5:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is more dangerous than the elephant.
+The elephant is more dangerous than the giraffe.
+The giraffe is more dangerous than the zebra.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Solve the following logical reasoning problem.",0.5166666666666667,"EXAMPLES:
+
+Example 1:
+In a library, there are five books: encyclopedia, dictionary, novel, biography, and textbook.
+The encyclopedia is the thickest.
+The dictionary is thicker than the novel.
+The biography is thicker than the textbook.
+The textbook is thicker than the dictionary.
+The novel is thicker than the biography.
+Which one is the thinnest?
+Answer: textbook
+
+Example 2:
+At a museum, there are five artifacts: vase, sculpture, painting, mask, and statue.
+The vase is the oldest.
+The sculpture is older than the painting.
+The painting is older than the mask.
+The mask is older than the statue.
+The statue is older than the vase.
+Which one is the newest?
+Answer: statue
+
+Example 3:
+In a kitchen, there are five utensils: fork, spoon, knife, ladle, and whisk.
+The fork is the longest.
+The spoon is longer than the knife.
+The knife is longer than the ladle.
+The ladle is longer than the whisk.
+The whisk is longer than the fork.
+Which one is the shortest?
+Answer: whisk
+
+Example 4:
+In a garden, there are five plants: cactus, rose, daisy, tulip, and lily.
+The cactus is the most prickly.
+The rose is pricklier than the daisy.
+The daisy is pricklier than the tulip.
+The tulip is pricklier than the lily.
+The lily is pricklier than the cactus.
+Which one is the least prickly?
+Answer: lily
+
+Solve the following logical reasoning problem.",0.51
+few_shots,44,examples,"EXAMPLES:
+
+Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Solve the following logical reasoning problem.",0.52,"Example 1:
+In a library, there are five books: ""Harry Potter,"" ""The Great Gatsby,"" ""To Kill a Mockingbird,"" ""1984,"" and ""The Catcher in the Rye.""
+""The Great Gatsby"" is the most recently published.
+""To Kill a Mockingbird"" is the second most recently published.
+""1984"" is the third most recently published.
+""Harry Potter"" is the fourth most recently published.
+""The Catcher in the Rye"" is the least recently published.
+Which one is the least recently published?
+Answer: The Catcher in the Rye
+
+Example 2:
+In a store, there are five fruits: banana, apple, kiwi, pear, and orange.
+The banana is the most expensive.
+The apple is the second most expensive.
+The kiwi is the third most expensive.
+The pear is the fourth most expensive.
+The orange is the least expensive.
+Which one is the least expensive?
+Answer: orange
+
+Example 3:
+In a park, there are five trees: oak, pine, maple, birch, and willow.
+The oak is the oldest.
+The pine is the second oldest.
+The maple is the third oldest.
+The birch is the fourth oldest.
+The willow is the youngest.
+Which one is the youngest?
+Answer: willow
+
+Example 4:
+In a city, there are five neighborhoods: downtown, uptown, midtown, suburbs, and countryside.
+Downtown is the most densely populated.
+Uptown is the second most densely populated.
+Midtown is the third most densely populated.
+Suburbs is the fourth most densely populated.
+Countryside is the least densely populated.
+Which one is the least densely populated?
+Answer: countryside
+
+Example 5:
+In a school, there are five classes: math, science, history, language, and art.
+Math is the most challenging.
+Science is the second most challenging.
+History is the third most challenging.
+Language is the fourth most challenging.
+Art is the least challenging.
+Which one is the least challenging?
+Answer: art
+
+Solve the following logical reasoning problem.",0.5133333333333333
+few_shots,45,examples,"EXAMPLES:
+
+Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Solve the following logical reasoning problem.",0.52,"Example 1:
+In a library, there are five books: ""Moby Dick,"" ""War and Peace,"" ""The Great Gatsby,"" ""To Kill a Mockingbird,"" and ""1984.""
+""Moby Dick"" is the oldest.
+""War and Peace"" is the second oldest.
+""The Great Gatsby"" is the third oldest.
+""To Kill a Mockingbird"" is the fourth oldest.
+""1984"" is the newest.
+Which one is the newest?
+Answer: 1984
+
+Example 2:
+In a classroom, there are five students: Alice, Bob, Charlie, Dave, and Eve.
+Alice is the tallest.
+Bob is the second tallest.
+Charlie is the third tallest.
+Dave is the fourth tallest.
+Eve is the shortest.
+Which one is the shortest?
+Answer: Eve
+
+Example 3:
+In a museum, there are five paintings: ""The Mona Lisa,"" ""Guernica,"" ""The Starry Night,"" ""The Birth of Venus,"" and ""The Scream.""
+""The Mona Lisa"" is the most famous.
+""Guernica"" is the second most famous.
+""The Starry Night"" is the third most famous.
+""The Birth of Venus"" is the fourth most famous.
+""The Scream"" is the least famous.
+Which one is the least famous?
+Answer: The Scream
+
+Example 4:
+In a park, there are five trees: oak, maple, pine, birch, and willow.
+Oak is the oldest.
+Maple is the second oldest.
+Pine is the third oldest.
+Birch is the fourth oldest.
+Willow is the newest.
+Which one is the newest?
+Answer: Willow
+
+Example 5:
+In a restaurant, there are five dishes: pizza, pasta, lasagna, risotto, and soup.
+Pizza is the most popular.
+Pasta is the second most popular.
+Lasagna is the third most popular.
+Risotto is the fourth most popular.
+Soup is the least popular.
+Which one is the least popular?
+Answer: Soup
+
+Solve the following logical reasoning problem.",0.5133333333333333
+few_shots,46,examples,"EXAMPLES:
+
+Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Solve the following logical reasoning problem.",0.52,"Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Example 5:
+In a library, there are five books: mystery, romance, science fiction, thriller, and fantasy.
+The mystery is the most popular.
+The romance is the second most popular.
+The science fiction is the third most popular.
+The thriller is the fourth most popular.
+The fantasy is the least popular.
+Which one is the least popular?
+Answer: fantasy
+
+Solve the following logical reasoning problem.",0.53
+few_shots,47,examples,"EXAMPLES:
+
+Example 1:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and zebra.
+The lion is the most dangerous.
+The tiger is the second most dangerous.
+The elephant is the third most dangerous.
+The giraffe is the fourth most dangerous.
+The zebra is the least dangerous.
+Which one is the least dangerous?
+Answer: zebra
+
+Example 2:
+In a bakery, there are five pastries: croissant, muffin, cupcake, danish, and bagel.
+The croissant is the most expensive.
+The muffin is the second most expensive.
+The cupcake is the third most expensive.
+The danish is the fourth most expensive.
+The bagel is the least expensive.
+Which one is the least expensive?
+Answer: bagel
+
+Example 3:
+In a garden, there are five flowers: rose, tulip, daisy, sunflower, and marigold.
+The rose is the rarest.
+The tulip is the second rarest.
+The daisy is the third rarest.
+The sunflower is the fourth rarest.
+The marigold is the most common.
+Which one is the most common?
+Answer: marigold
+
+Example 4:
+In a school, there are five subjects: math, science, history, language, and art.
+The math is the most difficult.
+The science is the second most difficult.
+The history is the third most difficult.
+The language is the fourth most difficult.
+The art is the least difficult.
+Which one is the least difficult?
+Answer: art
+
+Solve the following logical reasoning problem.",0.52,"Example 1:
+In a library, there are five books: a novel, a biography, a history book, a science book, and a cookbook.
+The novel is the most popular.
+The biography is the second most popular.
+The history book is the third most popular.
+The science book is the fourth most popular.
+The cookbook is the least popular.
+Which one is the least popular?
+Answer: cookbook
+
+Example 2:
+In a restaurant, there are five dishes: spaghetti, sushi, pizza, tacos, and salads.
+The spaghetti is the most expensive.
+The sushi is the second most expensive.
+The pizza is the third most expensive.
+The tacos are the fourth most expensive.
+The salads are the least expensive.
+Which one is the least expensive?
+Answer: salads
+
+Example 3:
+In a museum, there are five artifacts: a vase, a shield, a sword, a helmet, and a statue.
+The vase is the most ancient.
+The shield is the second most ancient.
+The sword is the third most ancient.
+The helmet is the fourth most ancient.
+The statue is the least ancient.
+Which one is the least ancient?
+Answer: statue
+
+Example 4:
+In a gym, there are five machines: a treadmill, a rowing machine, a stationary bike, an elliptical trainer, and a weightlifting bench.
+The treadmill is the most used.
+The rowing machine is the second most used.
+The stationary bike is the third most used.
+The elliptical trainer is the fourth most used.
+The weightlifting bench is the least used.
+Which one is the least used?
+Answer: weightlifting bench
+
+Example 5:
+In a garden, there are five trees: an oak, a maple, a pine, a birch, and an apple.
+The oak is the oldest.
+The maple is the second oldest.
+The pine is the third oldest.
+The birch is the fourth oldest.
+The apple is the youngest.
+Which one is the youngest?
+Answer: apple
+
+Solve the following logical reasoning problem.",0.5033333333333333
+few_shots,48,examples,"Example 1:
+In a library, there are five books: history, science, literature, math, and art.
+The history book is the oldest.
+The science book is older than the literature book.
+The literature book is older than the math book.
+The math book is older than the art book.
+The art book is the newest.
+Which one is the newest?
+Answer: art
+
+Example 2:
+At a restaurant, there are five dishes: steak, chicken, pasta, salad, and soup.
+The steak is the most expensive.
+The chicken is cheaper than the pasta.
+The pasta is cheaper than the salad.
+The salad is cheaper than the soup.
+The soup is the cheapest.
+Which one is the cheapest?
+Answer: soup
+
+Example 3:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and sunflower.
+The rose is the tallest.
+The daisy is taller than the tulip.
+The tulip is taller than the lily.
+The lily is taller than the sunflower.
+The sunflower is the shortest.
+Which one is the shortest?
+Answer: sunflower
+
+Example 4:
+At a concert, there are five bands: rock, jazz, classical, pop, and hip-hop.
+The rock band is the loudest.
+The jazz band is louder than the classical band.
+The classical band is louder than the pop band.
+The pop band is louder than the hip-hop band.
+The hip-hop band is the quietest.
+Which one is the quietest?
+Answer: hip-hop
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the fourth-highest scorer?
+Answer: fourth
+
+Solve the following logical reasoning problem.",0.52,"Example 1:
+In a bakery, there are five pastries: croissant, baguette, muffin, scone, and donut.
+The croissant is the oldest.
+The baguette is older than the muffin.
+The muffin is older than the scone.
+The scone is older than the donut.
+The donut is the newest.
+Which one is the newest?
+Answer: donut
+
+Example 2:
+At a museum, there are five artifacts: vase, statue, painting, scroll, and jug.
+The vase is the oldest.
+The statue is older than the painting.
+The painting is older than the scroll.
+The scroll is older than the jug.
+The jug is the newest.
+Which one is the newest?
+Answer: jug
+
+Example 3:
+In a zoo, there are five animals: lion, tiger, bear, wolf, and fox.
+The lion is the largest.
+The tiger is larger than the bear.
+The bear is larger than the wolf.
+The wolf is larger than the fox.
+The fox is the smallest.
+Which one is the smallest?
+Answer: fox
+
+Example 4:
+At a concert, there are five musicians: guitarist, pianist, drummer, singer, and bassist.
+The guitarist is the loudest.
+The pianist is louder than the drummer.
+The drummer is louder than the singer.
+The singer is louder than the bassist.
+The bassist is the quietest.
+Which one is the quietest?
+Answer: bassist
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the fourth-highest scorer?
+Answer: fourth
+
+Solve the following logical reasoning problem.",0.52
+few_shots,49,examples,"Example 1:
+In a bakery, there are five pastries: croissant, baguette, muffin, scone, and donut.
+The croissant is the oldest.
+The baguette is older than the muffin.
+The muffin is older than the scone.
+The scone is older than the donut.
+The donut is the newest.
+Which one is the newest?
+Answer: donut
+
+Example 2:
+At a museum, there are five artifacts: vase, statue, painting, scroll, and jug.
+The vase is the oldest.
+The statue is older than the painting.
+The painting is older than the scroll.
+The scroll is older than the jug.
+The jug is the newest.
+Which one is the newest?
+Answer: jug
+
+Example 3:
+In a zoo, there are five animals: lion, tiger, bear, wolf, and fox.
+The lion is the largest.
+The tiger is larger than the bear.
+The bear is larger than the wolf.
+The wolf is larger than the fox.
+The fox is the smallest.
+Which one is the smallest?
+Answer: fox
+
+Example 4:
+At a concert, there are five musicians: guitarist, pianist, drummer, singer, and bassist.
+The guitarist is the loudest.
+The pianist is louder than the drummer.
+The drummer is louder than the singer.
+The singer is louder than the bassist.
+The bassist is the quietest.
+Which one is the quietest?
+Answer: bassist
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the fourth-highest scorer?
+Answer: fourth
+
+Solve the following logical reasoning problem.",0.52,"EXAMPLES:
+
+Example 1:
+In a bakery, there are five pastries: croissant, baguette, muffin, scone, and donut.
+The croissant is the oldest.
+The baguette is older than the muffin.
+The muffin is older than the scone.
+The scone is older than the donut.
+The donut is the newest.
+Which one is the newest?
+Answer: donut
+
+Example 2:
+At a museum, there are five artifacts: vase, statue, painting, scroll, and jug.
+The vase is the oldest.
+The statue is older than the painting.
+The painting is older than the scroll.
+The scroll is older than the jug.
+The jug is the newest.
+Which one is the newest?
+Answer: jug
+
+Example 3:
+In a zoo, there are five animals: lion, tiger, bear, wolf, and fox.
+The lion is the largest.
+The tiger is larger than the bear.
+The bear is larger than the wolf.
+The wolf is larger than the fox.
+The fox is the smallest.
+Which one is the smallest?
+Answer: fox
+
+Example 4:
+At a concert, there are five musicians: guitarist, pianist, drummer, singer, and bassist.
+The guitarist is the loudest.
+The pianist is louder than the drummer.
+The drummer is louder than the singer.
+The singer is louder than the bassist.
+The bassist is the quietest.
+Which one is the quietest?
+Answer: bassist
+
+Solve the following logical reasoning problem.",0.52
+few_shots,50,examples,"Example 1:
+In a bookstore, there are five books: thriller, mystery, romance, science fiction, and fantasy.
+The thriller is the most popular.
+The mystery is more popular than the romance.
+The romance is more popular than the science fiction.
+The science fiction is more popular than the fantasy.
+The fantasy is the least popular.
+Which one is the least popular?
+Answer: fantasy
+
+Example 2:
+At a bakery, there are five pastries: croissant, muffin, scone, donut, and bagel.
+The croissant is the most expensive.
+The muffin is cheaper than the scone.
+The scone is cheaper than the donut.
+The donut is cheaper than the bagel.
+The bagel is the cheapest.
+Which one is the cheapest?
+Answer: bagel
+
+Example 3:
+In a zoo, there are five animals: lion, tiger, elephant, giraffe, and penguin.
+The lion is the largest.
+The tiger is larger than the elephant.
+The elephant is larger than the giraffe.
+The giraffe is larger than the penguin.
+The penguin is the smallest.
+Which one is the smallest?
+Answer: penguin
+
+Example 4:
+At a museum, there are five artifacts: vase, statue, painting, sculpture, and coin.
+The vase is the oldest.
+The statue is older than the painting.
+The painting is older than the sculpture.
+The sculpture is older than the coin.
+The coin is the newest.
+Which one is the newest?
+Answer: coin
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.53,"Example 1:
+In a garden, there are five flowers: rose, daisy, tulip, lily, and marigold.
+The rose is the most beautiful.
+The daisy is more beautiful than the tulip.
+The tulip is more beautiful than the lily.
+The lily is more beautiful than the marigold.
+The marigold is the least beautiful.
+Which one is the least beautiful?
+Answer: marigold
+
+Example 2:
+At a restaurant, there are five dishes: pizza, pasta, salad, soup, and dessert.
+The pizza is the most expensive.
+The pasta is cheaper than the salad.
+The salad is cheaper than the soup.
+The soup is cheaper than the dessert.
+The dessert is the cheapest.
+Which one is the cheapest?
+Answer: dessert
+
+Example 3:
+In a forest, there are five trees: oak, pine, birch, maple, and willow.
+The oak is the tallest.
+The pine is taller than the birch.
+The birch is taller than the maple.
+The maple is taller than the willow.
+The willow is the shortest.
+Which one is the shortest?
+Answer: willow
+
+Example 4:
+At a museum, there are five paintings: landscape, portrait, abstract, still life, and cityscape.
+The landscape is the oldest.
+The portrait is older than the abstract.
+The abstract is older than the still life.
+The still life is older than the cityscape.
+The cityscape is the newest.
+Which one is the newest?
+Answer: cityscape
+
+Example 5:
+In a classroom, there are five students: first, second, third, fourth, and fifth.
+The first student is the highest scorer.
+The second student is the second-highest scorer.
+The third student is the third-highest scorer.
+The fourth student is the fourth-highest scorer.
+The fifth student is the lowest scorer.
+Which one is the third-highest scorer?
+Answer: third
+
+Solve the following logical reasoning problem.",0.51

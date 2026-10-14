@@ -1,0 +1,2165 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,few_shots,multi,0,sentiment,,,,,,0.8233333333333334,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Classify the sentiment of the following tweet as positive or negative."
+summary,few_shots,multi,1,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Positive and Negative Keywords**: Look for words and phrases that are commonly associated with positive or negative sentiments.
+2. **Consider Context**: Take into account the overall tone and context of the tweet to avoid misinterpretation.
+3. **Evaluate Sentiment Intensity**: Assess the strength of the sentiment expressed by the tweet.
+4. **Check for Sarcasm or Irony**: Be cautious of statements that might be sarcastic or ironic.
+5. **Use Emoji Guidance**: Consider the sentiment conveyed by emojis, if applicable."
+summary,few_shots,multi,2,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Positive and Negative Keywords**: Look for words and phrases that are commonly associated with positive or negative sentiments.
+2. **Consider Context**: Take into account the overall tone and context of the tweet to avoid misinterpretation.
+3. **Evaluate Sentiment Intensity**: Assess the strength of the sentiment expressed by the tweet.
+4. **Check for Sarcasm or Irony**: Be cautious of statements that might be sarcastic or ironic.
+5. **Use Emoji Guidance**: Consider the sentiment conveyed by emojis, if applicable."
+summary,few_shots,multi,3,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. **Identify Positive and Negative Keywords**: Look for words and phrases that are commonly associated with positive or negative sentiments.
+2. **Consider Context**: Take into account the overall tone and context of the tweet to avoid misinterpretation.
+3. **Evaluate Sentiment Intensity**: Assess the strength of the sentiment expressed by the tweet.
+4. **Check for Sarcasm or Irony**: Be cautious of statements that might be sarcastic or ironic.
+5. **Use Emoji Guidance**: Consider the sentiment conveyed by emojis, if applicable."
+summary,few_shots,multi,4,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context.
+
+1. **Identify the presence and type of emojis**: Check for any emojis in the tweet and note their general sentiment (positive, neutral, or negative).
+2. **Analyze the text for sentiment words and phrases**: Look for sentiment words (e.g., ""love"", ""amazing"", ""worst"", ""disaster"") and phrases that indicate the overall sentiment of the tweet.
+3. **Consider the context of the tweet**: Evaluate the entire tweet to determine the overall sentiment, taking into account the context and the combination of sentiment words, emojis, and phrases.
+4. **Handle ambiguity**: If the sentiment is unclear, look for neutral indicators (e.g., ""okay"", ""nothing special"") and use them to guide the classification.
+5. **Classify the sentiment**: Based on the analysis of emojis, sentiment words, phrases, context, and ambiguity, classify the tweet as either positive or negative."
+summary,few_shots,multi,5,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context.
+
+1. **Identify the presence and type of emojis**: Check for any emojis in the tweet and note their general sentiment (positive, neutral, or negative).
+2. **Analyze the text for sentiment words and phrases**: Look for sentiment words (e.g., ""love"", ""amazing"", ""worst"", ""disaster"") and phrases that indicate the overall sentiment of the tweet.
+3. **Consider the context of the tweet**: Evaluate the entire tweet to determine the overall sentiment, taking into account the context and the combination of sentiment words, emojis, and phrases.
+4. **Handle ambiguity**: If the sentiment is unclear, look for neutral indicators (e.g., ""okay"", ""nothing special"") and use them to guide the classification.
+5. **Classify the sentiment**: Based on the analysis of emojis, sentiment words, phrases, context, and ambiguity, classify the tweet as either positive or negative."
+summary,few_shots,multi,6,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context.
+
+1. **Identify the presence and type of emojis**: Check for any emojis in the tweet and note their general sentiment (positive, neutral, or negative).
+2. **Analyze the text for sentiment words and phrases**: Look for sentiment words (e.g., ""love"", ""amazing"", ""worst"", ""disaster"") and phrases that indicate the overall sentiment of the tweet.
+3. **Consider the context of the tweet**: Evaluate the entire tweet to determine the overall sentiment, taking into account the context and the combination of sentiment words, emojis, and phrases.
+4. **Handle ambiguity**: If the sentiment is unclear, look for neutral indicators (e.g., ""okay"", ""nothing special"") and use them to guide the classification.
+5. **Classify the sentiment**: Based on the analysis of emojis, sentiment words, phrases, context, and ambiguity, classify the tweet as either positive or negative."
+summary,few_shots,multi,7,sentiment,,,,,,0.84,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context.
+
+1. **Identify the presence and type of emojis**: Check for any emojis in the tweet and note their general sentiment (positive, neutral, or negative).
+2. **Analyze the text for sentiment words and phrases**: Look for sentiment words (e.g., ""love"", ""amazing"", ""worst"", ""disaster"") and phrases that indicate the overall sentiment of the tweet.
+3. **Consider the context of the tweet**: Evaluate the entire tweet to determine the overall sentiment, taking into account the context and the combination of sentiment words, emojis, and phrases.
+4. **Handle ambiguity**: If the sentiment is unclear, look for neutral indicators (e.g., ""okay"", ""nothing special"") and use them to guide the classification.
+5. **Classify the sentiment**: Based on the analysis of emojis, sentiment words, phrases, context, and ambiguity, classify the tweet as either positive or negative."
+summary,few_shots,multi,8,sentiment,,,,,,0.84,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context."
+summary,few_shots,multi,9,sentiment,,,,,,0.84,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context."
+summary,few_shots,multi,10,sentiment,,,,,,0.84,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context."
+summary,few_shots,multi,11,sentiment,,,,,,0.84,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context."
+summary,few_shots,multi,12,sentiment,,,,,,0.8433333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text."
+summary,few_shots,multi,13,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I was really excited about the new product release, but the reviews were mixed. Some people loved it, others not so much.
+Answer: negative
+
+Example 7:
+The new restaurant is amazing! The food is delicious and the service is great. I can't wait to go back.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context.
+
+1. **Identify the presence and type of emojis**: Check for any emojis in the tweet and note their general sentiment (positive, neutral, or negative).
+2. **Analyze the text for sentiment words and phrases**: Look for sentiment words (e.g., ""love"", ""amazing"", ""worst"", ""disaster"") and phrases that indicate the overall sentiment of the tweet.
+3. **Consider the context of the tweet**: Evaluate the entire tweet to determine the overall sentiment, taking into account the context and the combination of sentiment words, emojis, and phrases.
+4. **Handle ambiguity**: If the sentiment is unclear, look for neutral indicators (e.g., ""okay"", ""nothing special"") and use them to guide the classification.
+5. **Classify the sentiment**: Based on the analysis of emojis, sentiment words, phrases, context, and ambiguity, classify the tweet as either positive or negative."
+summary,few_shots,multi,14,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I was really excited about the new product release, but the reviews were mixed. Some people loved it, others not so much.
+Answer: negative
+
+Example 7:
+The new restaurant is amazing! The food is delicious and the service is great. I can't wait to go back.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context.
+
+1. **Identify the presence and type of emojis**: Check for any emojis in the tweet and note their general sentiment (positive, neutral, or negative).
+2. **Analyze the text for sentiment words and phrases**: Look for sentiment words (e.g., ""love"", ""amazing"", ""worst"", ""disaster"") and phrases that indicate the overall sentiment of the tweet.
+3. **Consider the context of the tweet**: Evaluate the entire tweet to determine the overall sentiment, taking into account the context and the combination of sentiment words, emojis, and phrases.
+4. **Handle ambiguity**: If the sentiment is unclear, look for neutral indicators (e.g., ""okay"", ""nothing special"") and use them to guide the classification.
+5. **Classify the sentiment**: Based on the analysis of emojis, sentiment words, phrases, context, and ambiguity, classify the tweet as either positive or negative."
+summary,few_shots,multi,15,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I absolutely loved the movie, it was amazing.
+Answer: positive
+
+
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I was really excited about the new product release, but the reviews were mixed. Some people loved it, others not so much.
+Answer: negative
+
+Example 7:
+The new restaurant is amazing! The food is delicious and the service is great. I can't wait to go back.
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis and context.
+
+1. **Identify the presence and type of emojis**: Check for any emojis in the tweet and note their general sentiment (positive, neutral, or negative).
+2. **Analyze the text for sentiment words and phrases**: Look for sentiment words (e.g., ""love"", ""amazing"", ""worst"", ""disaster"") and phrases that indicate the overall sentiment of the tweet.
+3. **Consider the context of the tweet**: Evaluate the entire tweet to determine the overall sentiment, taking into account the context and the combination of sentiment words, emojis, and phrases.
+4. **Handle ambiguity**: If the sentiment is unclear, look for neutral indicators (e.g., ""okay"", ""nothing special"") and use them to guide the classification.
+5. **Classify the sentiment**: Based on the analysis of emojis, sentiment words, phrases, context, and ambiguity, classify the tweet as either positive or negative."
+summary,few_shots,multi,16,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Pay special attention to the coexistence of positive and negative sentiments within the same text."
+summary,few_shots,multi,17,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Pay special attention to the coexistence of positive and negative sentiments within the same text."
+summary,few_shots,multi,18,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,19,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,20,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,21,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,22,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,23,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,24,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,25,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,26,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,27,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,28,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,29,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,30,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,31,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,32,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,33,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, context, and the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify the overall sentiment**: Determine the general sentiment of the text, considering the context and the coexistence of positive and negative sentiments.
+2. **Consider emojis**: Interpret the sentiment conveyed by emojis, as they can significantly influence the overall sentiment of the text.
+3. **Handle mixed sentiments**: Prioritize the dominant sentiment in texts containing both positive and negative sentiments."
+summary,few_shots,multi,34,sentiment,,,,,,0.85,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic! 💖
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 9:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 10:
+The movie was great, but the ending was a bit disappointing. 😔
+Answer: mixed
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Pay special attention to the coexistence of positive and negative sentiments within the same text."
+summary,few_shots,multi,35,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,36,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,37,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,38,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,39,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,40,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,41,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,42,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,43,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,44,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,45,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,46,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,47,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,48,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,49,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."
+summary,few_shots,multi,50,sentiment,,,,,,0.8533333333333334,0.76,"Example 1:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Example 2:
+This is the worst experience I've ever had.
+Answer: negative
+
+Example 3:
+It was okay, nothing special.
+Answer: negative
+
+Example 4:
+I can't believe they canceled my favorite TV show! What a disaster!
+Answer: negative
+
+Example 5:
+Just watched the new episode of my favorite show, it was fantastic!
+Answer: positive
+
+Example 6:
+I love the rain, it's so calming. 🌧️
+Answer: positive
+
+Example 7:
+😒 The food here is terrible. I regret coming.
+Answer: negative
+
+Example 8:
+I'm so happy with my new job! 🎉
+Answer: positive
+
+Example 9:
+I can't believe I didn't win the lottery again. 🤦
+Answer: negative
+
+Example 10:
+I'm so excited for the concert tonight! 🎶
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative, considering the sentiment conveyed by emojis, slang, abbreviations, mixed sentiments, and context. Prioritize the overall tone and context over individual elements. Pay special attention to the coexistence of positive and negative sentiments within the same text.
+
+1. **Identify Positive and Negative Elements:** Separate and list all positive and negative elements (words, phrases, emojis) in the tweet.
+2. **Count Positive and Negative Elements:** Count the occurrences of positive and negative elements.
+3. **Determine Overall Sentiment:** Compare the counts. If positive elements outnumber negative elements, classify as positive. If negative elements outnumber positive elements, classify as negative. If they are equal, consider the context for final classification.
+4. **Check for Mixed Sentiments:** If both positive and negative elements are present, evaluate the overall tone. If the context is predominantly positive, classify as positive. If the context is predominantly negative, classify as negative.
+5. **Review Emojis:** Pay special attention to emojis. Positive emojis (like 🎶, 🎉) generally reinforce positive sentiment, while negative emojis (like 😒) reinforce negative sentiment."

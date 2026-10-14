@@ -1,0 +1,3719 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and contextual clues that may indicate negative sentiment despite neutral or positive-sounding words.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.6533333333333333
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.",0.8066666666666666
+cot,0,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8
+cot,0,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.",0.8066666666666666,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, paying special attention to sarcasm, irony, and context-dependent expressions, and distinguishing neutral states from positive sentiment.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.",0.72
+cot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667
+cot,0,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.",0.8066666666666666,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing today has been!  
+Answer: positive
+
+Example 2:  
+It's so frustrating when things don't go as planned.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.",0.7833333333333333
+cot,1,instruction,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and subtle emotional cues, and prioritize accuracy over optimism.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7
+cot,1,cot,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent tone.  
+2. Determine whether they express positive or negative sentiment, considering indirect or ambiguous language.  
+3. Analyze the overall sentiment by evaluating the context and tone, not just literal meaning.  
+4. Recognize expressions of affection or praise that may be sarcastic or ironic.  
+5. Decide the overall sentiment based on the most dominant emotional tone in the text.",0.7666666666666667
+cot,1,examples,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Example 4:  
+I can't believe how amazing this experience was, but I'm so exhausted.  
+Answer: positive
+
+Example 5:  
+You're a total disaster, but I guess I'll have to deal with it.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81
+cot,2,instruction,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Example 4:  
+I can't believe how amazing this experience was, but I'm so exhausted.  
+Answer: positive
+
+Example 5:  
+You're a total disaster, but I guess I'll have to deal with it.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Example 4:  
+I can't believe how amazing this experience was, but I'm so exhausted.  
+Answer: positive
+
+Example 5:  
+You're a total disaster, but I guess I'll have to deal with it.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context to avoid misclassification.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.72
+cot,2,cot,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Example 4:  
+I can't believe how amazing this experience was, but I'm so exhausted.  
+Answer: positive
+
+Example 5:  
+You're a total disaster, but I guess I'll have to deal with it.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Example 4:  
+I can't believe how amazing this experience was, but I'm so exhausted.  
+Answer: positive
+
+Example 5:  
+You're a total disaster, but I guess I'll have to deal with it.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and tone.  
+2. Determine whether they express positive or negative sentiment, considering context and intent.  
+3. Decide the overall sentiment by evaluating the dominant emotional tone, not just individual words.  
+4. Recognize and account for ambiguous or context-dependent language.  
+5. Differentiate between negative expressions and positive intent, especially in cases of sarcasm or strong language.",0.7766666666666666
+cot,2,examples,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Example 4:  
+I can't believe how amazing this experience was, but I'm so exhausted.  
+Answer: positive
+
+Example 5:  
+You're a total disaster, but I guess I'll have to deal with it.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.81,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of pretending everything is fine.  
+Answer: negative
+
+Example 2:  
+This place is absolutely amazing, but I'm too full to move.  
+Answer: positive
+
+Example 4:  
+I can't believe how amazing this experience was, but I'm so exhausted.  
+Answer: positive
+
+Example 5:  
+You're a total disaster, but I guess I'll have to deal with it.  
+Answer: negative
+
+Example 6:  
+You're the best, but I really hope you don't get hurt.  
+Answer: negative
+
+Example 7:  
+I can't believe how amazing this experience was, but I'm so exhausted.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8033333333333333
+cot,3,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context to avoid misclassification.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.76
+cot,3,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82
+cot,3,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+Ugh, this is the worst day of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.81
+cot,4,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and context-dependent expressions, and distinguish between neutral, indirect, or ambiguous statements and negative sentiment.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.7433333333333333
+cot,4,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm and irony by analyzing tone, context, and word choice.  
+2. Differentiate between neutral and negative sentiment by identifying subtle expressions of dissatisfaction or displeasure.  
+3. Recognize indirect or ambiguous expressions and interpret them based on the overall emotional context.  
+4. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+5. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.  
+6. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+7. Determine whether they express positive or negative sentiment, considering tone and context.  
+8. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+9. Decide the overall sentiment based on the dominant emotional tone.",0.7533333333333333
+cot,4,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+Ugh, this is the worst day ever.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.8033333333333333
+cot,5,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone. Explicitly distinguish between neutral, positive, and negative sentiment, and ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.7266666666666667
+cot,5,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667
+cot,5,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+I absolutely love this weather, it's perfect for a picnic.  
+Answer: positive
+
+Example 2:  
+Oh, how lovely, another rainy day.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.79
+cot,6,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+Ugh, this is the worst day of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.81,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+Ugh, this is the worst day of my life.  
+Answer: negative
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and neutral expressions, and distinguish between positive and negative based on the dominant emotional tone.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.7666666666666667
+cot,6,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+Ugh, this is the worst day of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.81,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+Ugh, this is the worst day of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm and irony by analyzing contextual clues and tone.  
+2. Distinguish between neutral states and negative emotions by identifying subtle expressions of dissatisfaction or disapproval.  
+3. Interpret ambiguous or indirect expressions based on the overall emotional context.  
+4. Prioritize the dominant emotional tone when determining the final classification.  
+5. Ensure that indirect or subtle expressions of satisfaction or approval are recognized as positive.  
+6. Avoid over-interpretation by clearly differentiating between neutral and negative sentiment.  
+7. Use contextual clues to accurately classify sarcastic or ironic expressions as positive.",0.8
+cot,6,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+Ugh, this is the worst day of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.81,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+Ugh, this is the worst day of my life.  
+Answer: negative
+
+Example 4:  
+I'm so tired of this never-ending cycle.  
+Answer: negative
+
+Example 5:  
+This place is absolutely incredible!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.7833333333333333
+cot,7,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone to avoid misclassification. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment. Recognize indirect expressions of satisfaction or approval as positive sentiment. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.76
+cot,7,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Identify and classify expressions of frustration, regret, or sarcasm as negative sentiment.  
+7. Avoid misclassifying neutral or ambiguous statements as positive by applying contextual analysis.",0.76
+cot,7,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+""Great, another day of rain and no plans.""  
+Answer: negative
+
+Example 2:  
+""I can't believe how amazing this day has been.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8033333333333333
+cot,8,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, ensuring accurate interpretation of sarcasm, irony, and subtle or indirect expressions of sentiment.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.7566666666666667
+cot,8,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm and irony by analyzing contextual clues and tone.  
+2. Distinguish neutral or ambiguous expressions from negative sentiment.  
+3. Identify subtle or indirect expressions of satisfaction or approval.  
+4. Prioritize the dominant emotional tone when determining overall sentiment.  
+5. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+6. Recognize that neutral states (e.g., fatigue, exhaustion) are not negative.  
+7. Use tone and context to differentiate between genuine negative sentiment and sarcastic or ironic expressions.",0.8
+cot,8,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+@jamesbond007 Just got my hands on the new James Bond movie. Can't wait to watch it!  
+Answer: positive
+
+Example 2:  
+@fitnessguru I finally finished my workout. Feels great!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.7966666666666666
+cot,9,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment. Recognize indirect expressions of satisfaction or approval as positive sentiment. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.7633333333333333
+cot,9,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334
+cot,9,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible this day has been.  
+Answer: negative
+
+Example 2:  
+I wish I could say I'm happy, but I'm not.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.7933333333333333
+cot,10,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context to avoid misclassification.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.76
+cot,10,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm and irony by analyzing contextual clues and tone.  
+2. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+3. Account for indirect or ambiguous expressions by interpreting them based on the overall emotional context.  
+4. Avoid overgeneralizing negative language by considering the context and intent behind the statement.  
+5. Ensure that the dominant emotional tone determines the final classification.  
+6. Recognize that neutral states (e.g., fatigue, exhaustion) are not negative.  
+7. Use explicit rules to distinguish between sarcastic or ironic statements and genuine negative sentiment.",0.79
+cot,10,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+I'm so thrilled about the surprise party, it's going to be amazing!  
+Answer: positive
+
+Example 2:  
+This weather is absolutely terrible, I can't believe it's raining again.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.7833333333333333
+cot,11,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone. Identify subtle or indirect expressions of satisfaction or approval as positive sentiment. Prioritize the dominant emotional tone when determining the overall sentiment.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.7833333333333333
+cot,11,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Avoid misclassifying neutral or ambiguous language as negative.  
+7. Apply consistent interpretation rules to all task instances to prevent variability in classification.",0.81
+cot,11,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+It's a beautiful day, but I'm still stuck in traffic.  
+Answer: negative
+
+Example 2:  
+I can't believe how amazing this movie is!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.79
+cot,12,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual clues to accurately determine the dominant emotional tone.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.75
+cot,12,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect and account for sarcasm and irony by analyzing contextual clues and tone.  
+2. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+3. Recognize negative sentiment in emotionally charged or context-dependent phrases.  
+4. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+5. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+6. Determine whether they express positive or negative sentiment, considering tone and context.  
+7. Decide the overall sentiment based on the dominant emotional tone.",0.79
+cot,12,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+This place is a total disaster, but I guess it's better than nothing.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.7833333333333333
+cot,13,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, explicitly detecting sarcasm, irony, and context-dependent tone to avoid misclassification. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment. Recognize indirect expressions of satisfaction or approval as positive sentiment. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.76
+cot,13,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Identify and classify indirect or context-dependent negative expressions accurately.  
+7. Avoid misclassifying neutral or sarcastic statements as positive.  
+8. Use contextual clues to determine the true sentiment when the language is indirect or ambiguous.  
+9. Clarify the distinction between neutral and positive sentiment in the task instructions.  
+10. Ensure the model is trained to recognize and classify sarcasm and irony as negative or neutral.",0.7566666666666667
+cot,13,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+@User123 I can't believe how amazing this product is, it's the worst experience ever.  
+Answer: negative
+
+Example 2:  
+@TechFan Oh man, this update is so frustrating, I love how it broke everything.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.7766666666666666
+cot,14,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and nuanced emotional states such as longing or dissatisfaction.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.6966666666666667
+cot,14,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering subtle nuances like longing, dissatisfaction, or frustration.  
+3. Analyze the overall sentiment by evaluating the dominant emotional tone, taking into account ambiguous or mixed signals.  
+4. Ensure the classification accounts for context, such as implied meaning or dissatisfaction hidden in seemingly neutral language.",0.7433333333333333
+cot,14,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,15,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and contextual clues to avoid misclassification.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.7566666666666667
+cot,15,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Prioritize context and tone when the sentiment is ambiguous or mixed.  
+9. Avoid misclassifying neutral or ambiguous statements as negative.  
+10. Use explicit instructions to detect and interpret sarcasm, irony, and indirect expressions.",0.81
+cot,15,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.",0.7933333333333333
+cot,16,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm or irony and avoid misclassifying neutral or ambiguous phrases.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.75
+cot,16,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, considering sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, taking context into account.  
+3. Evaluate neutral or ambiguous phrases to avoid misclassification.  
+4. Consider the overall tone and intent of the tweet, especially in short or incomplete phrases.  
+5. Decide the overall sentiment based on the most dominant emotional cues.",0.7766666666666666
+cot,16,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, another day of meetings. Can't wait for the weekend.""  
+Answer: negative
+
+Example 2:  
+""Love the new update! It's so much better than before.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7733333333333333
+cot,17,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and distinguish neutral states from negative emotions.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.7766666666666666
+cot,17,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm and irony by analyzing contextual clues and tone.  
+2. Distinguish between neutral states (e.g., fatigue, exhaustion) and negative emotions.  
+3. Interpret indirect or ambiguous expressions based on the overall emotional context.  
+4. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+5. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Decide the overall sentiment based on the dominant emotional tone.  
+8. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+9. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+10. Determine whether they express positive or negative sentiment, considering tone and context.",0.7666666666666667
+cot,17,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of this never-ending cycle of work and stress.  
+Answer: negative
+
+Example 2:  
+The weather today is absolutely perfect for a picnic.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.7633333333333333
+cot,18,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, mixed sentiment, and ambiguous language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7633333333333333
+cot,18,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, considering context and tone.  
+2. Determine whether they express positive, negative, or neutral sentiment.  
+3. Assess if sarcasm, irony, or mixed sentiment is present.  
+4. Decide the overall sentiment based on dominant emotion, prioritizing clarity and context.",0.8033333333333333
+cot,18,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible the service was today.  
+Answer: negative
+
+Example 2:  
+This place is amazing, the food is incredible and the staff is friendly.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7566666666666667
+cot,19,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, explicitly detecting sarcasm, irony, and context-dependent tone, and differentiating between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment, and recognize indirect expressions of satisfaction or approval as positive. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.7666666666666667
+cot,19,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Explicitly identify and classify expressions of exhaustion, nervousness, or frustration as negative sentiment.  
+7. Avoid defaulting to positive classification for ambiguous or neutral language; instead, flag for further analysis if necessary.",0.7733333333333333
+cot,19,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.8166666666666667,"<think>
+
+</think>
+
+Example 1:  
+i can't believe how terrible the service was today. the food was cold and the staff was rude.  
+Answer: negative
+
+Example 2:  
+this movie was so bad it was almost funny.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.",0.7866666666666666
+cot,20,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment. Recognize indirect expressions of satisfaction or approval as positive sentiment. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.7633333333333333
+cot,20,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334
+cot,20,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+You're the best, really. I mean it.  
+Answer: positive
+
+Example 2:  
+I can't believe how terrible this day has been.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8133333333333334
+cot,21,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and expressions of longing, and prioritize accuracy over neutrality in ambiguous cases.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.6466666666666666
+cot,21,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and expressions of longing.  
+2. Determine whether they express positive, negative, or neutral sentiment, taking into account context and tone.  
+3. Consider mixed or neutral sentiment based on the overall context of the tweet.  
+4. Classify the sentiment as positive or negative based on the dominant emotional tone.",0.7833333333333333
+cot,21,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing the weather was today!  
+Answer: positive
+
+Example 2:  
+Ugh, this is the worst day ever.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.8
+cot,22,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, ensuring accurate detection of sarcasm, irony, and context-dependent tone, and correctly identifying subtle or indirect expressions of dissatisfaction or approval.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.7433333333333333
+cot,22,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334
+cot,22,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I just realized I forgot to take my pills again... this is so frustrating.  
+Answer: negative
+
+Example 2:  
+I can't believe I got the job! I'm so excited and grateful!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8
+cot,23,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and neutral tones, and avoid misclassifying ambiguous or indirect expressions.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.7566666666666667
+cot,23,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.  
+10. Apply a strict rule to classify neutral statements as ""neutral"" when they lack clear emotional tone.",0.7866666666666666
+cot,23,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this weather is so annoying.""  
+Answer: negative
+
+Example 2:  
+""Wow, that concert was incredible!""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.78
+cot,24,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, considering sarcasm, irony, and context-dependent tone, and distinguishing between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.78
+cot,24,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+10. Explicitly distinguish between expressions of longing and genuine positive sentiment.",0.83
+cot,24,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I'm so tired of this weather. It's been raining non-stop for weeks.  
+Answer: negative
+
+Example 2:  
+I can't believe how amazing today has been!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8133333333333334
+cot,25,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and emotional intensity, and recognize that fatigue or frustration may indicate a negative sentiment.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.6233333333333333
+cot,25,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and emphasis.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Recognize physical or emotional exhaustion as a negative indicator.  
+4. Assess emotional intensity or exclamation as potential signals of negative sentiment.  
+5. Decide the overall sentiment based on the combination of these factors.",0.7133333333333334
+cot,25,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this event was! The food, the music, everything was perfect.  
+Answer: positive
+
+Example 2:  
+This is the worst experience of my life. I'm absolutely exhausted and completely disappointed.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.79
+cot,26,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and contextually negative language, even if it appears positive on the surface.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.63
+cot,26,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent language.  
+2. Determine whether they express positive or negative sentiment, taking into account tone and intent.  
+3. Consider the overall context to distinguish between ambiguous or emotionally complex language.  
+4. Decide the overall sentiment based on the dominant emotional tone, ensuring consistency with the task's binary classification.",0.7966666666666666
+cot,26,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,27,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and ambiguous language, and prioritizing context and emotional cues over literal interpretation.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.6733333333333333
+cot,27,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent language.  
+2. Determine whether they express positive or negative sentiment, considering tone and intent.  
+3. Analyze sentence structure and context to resolve ambiguity or mixed sentiment.  
+4. Decide the overall sentiment based on the most dominant emotional cue.",0.8033333333333333
+cot,27,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7866666666666666
+cot,28,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment. Recognize indirect expressions of satisfaction or approval as positive sentiment. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.7633333333333333
+cot,28,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334
+cot,28,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334
+cot,29,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone, and distinguishing between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment. Recognize indirect expressions of satisfaction or approval as positive sentiment. Avoid defaulting to negative classification when the sentiment is unclear.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.7733333333333333
+cot,29,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334
+cot,29,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.81
+cot,30,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and mixed sentiment, and prioritize identifying positive sentiment in cases of ambiguity.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,30,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, considering sarcasm, irony, and context.  
+2. Determine whether they express positive or negative sentiment, distinguishing between neutral exclamation and negative sentiment.  
+3. Analyze mixed or ambiguous sentiment by evaluating the overall tone and context.  
+4. Decide the overall sentiment based on the dominant emotion or intent.",0.7766666666666666
+cot,30,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+@User123 I can't believe how amazing this day has been!  
+Answer: positive
+
+Example 2:  
+This movie was so frustrating, I couldn't even finish it.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7966666666666666
+cot,31,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to detect sarcasm, irony, and contextual cues that may indicate negative sentiment despite emotionally positive language.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.6266666666666667
+cot,31,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, considering context and tone.  
+3. Analyze the overall sentiment by weighing the emotional content and intent.  
+4. Ensure the classification accounts for complex emotions and subtle expressions.",0.8033333333333333
+cot,31,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I'm so thrilled about the terrible weather today!  
+Answer: negative
+
+Example 2:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.78
+cot,32,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, ensuring accurate interpretation of sarcasm, irony, and context-dependent expressions, and distinguishing between neutral, positive, and negative sentiments based on the dominant emotional tone.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.7633333333333333
+cot,32,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm and irony by analyzing contextual clues and tone.  
+2. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+3. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+4. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.  
+5. Recognize fatigue, exhaustion, and other neutral states as distinct from negative emotions.  
+6. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+7. Account for sarcasm and irony by analyzing tone and context.  
+8. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+9. Determine whether they express positive or negative sentiment, considering tone and context.  
+10. Decide the overall sentiment based on the dominant emotional tone.",0.79
+cot,32,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.82,"<think>
+
+</think>
+
+Example 1:  
+I'm so thrilled about the new project, but honestly, I'm exhausted.  
+Answer: negative
+
+Example 2:  
+This is the worst day ever. Just wanted to vent.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive or negative sentiment, considering tone and context.  
+3. Recognize neutral states (e.g., fatigue, exhaustion) and distinguish them from negative emotions.  
+4. Decide the overall sentiment based on the dominant emotional tone.  
+5. Explicitly account for sarcasm and irony by analyzing contextual clues and tone.  
+6. Differentiate between neutral and positive sentiment by identifying subtle expressions of satisfaction or approval.  
+7. Ensure that indirect or ambiguous expressions are interpreted based on the overall emotional context.  
+8. Avoid misclassifying neutral statements as negative by evaluating the presence of explicit negative language.  
+9. Use contextual clues to determine the true sentiment of ambiguous or indirect expressions.",0.8033333333333333
+cot,33,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking care to account for sarcasm, irony, and contextual clues, and distinguishing between exclamation of emotion and actual sentiment polarity.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7366666666666667
+cot,33,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, considering sarcasm and irony.  
+2. Determine whether they express positive or negative sentiment, taking into account context and implied meaning.  
+3. Evaluate the overall sentiment by analyzing the combination of emotionally relevant words and contextual clues.  
+4. Avoid misclassifying exclamation marks or emotional intensity as sentiment polarity unless explicitly indicated.",0.7833333333333333
+cot,33,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+""this is the worst day ever""  
+Answer: negative
+
+Example 2:  
+""just amazing, can't believe it""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7933333333333333
+cot,34,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment. Recognize indirect expressions of satisfaction or approval as positive sentiment. Avoid defaulting to negative classification when the sentiment is unclear. Use contextual clues to determine the intended emotional tone of the tweet. Identify and classify indirect or metaphorical expressions of sentiment accurately.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.77
+cot,34,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334
+cot,34,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this is the worst day ever. I can't stand it.""  
+Answer: negative
+
+Example 2:  
+""Such a beautiful sunset, really makes me feel alive.""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8033333333333333
+cot,35,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+10. Explicitly distinguish between expressions of longing and genuine positive sentiment.",0.83,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone, and distinguishing between indirect and direct expressions of sentiment.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+10. Explicitly distinguish between expressions of longing and genuine positive sentiment.",0.7766666666666666
+cot,35,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+10. Explicitly distinguish between expressions of longing and genuine positive sentiment.",0.83,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+10. Explicitly distinguish between expressions of longing and genuine positive sentiment.",0.83
+cot,35,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+10. Explicitly distinguish between expressions of longing and genuine positive sentiment.",0.83,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how terrible this day has been.  
+Answer: negative
+
+Example 2:  
+What a beautiful sunset, I love the way the light fades.  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+10. Explicitly distinguish between expressions of longing and genuine positive sentiment.",0.81
+cot,36,instruction,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context to avoid misinterpretation.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.6733333333333333
+cot,36,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Identify emotionally relevant words or phrases, including sarcasm, irony, and context-dependent expressions.  
+2. Determine whether they express positive, negative, or neutral sentiment, considering tone and cultural context.  
+3. Analyze the overall sentiment by weighing the emotional weight of key phrases and their implied meaning.  
+4. Classify the sentiment as positive or negative based on the dominant emotional tone, while accounting for mixed or nuanced expressions.",0.7833333333333333
+cot,36,examples,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.82,"<think>
+
+</think>
+
+Example 1:  
+""Ugh, this is the worst day ever. Can't even enjoy my coffee.""  
+Answer: negative
+
+Example 2:  
+""Wow, the concert was amazing! I can't wait to go again!""  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment.",0.7766666666666666
+cot,37,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions. Prioritize the dominant emotional tone when determining the overall sentiment. Recognize indirect expressions of satisfaction or approval as positive sentiment. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.7933333333333333
+cot,37,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+10. Apply rules to distinguish between sarcastic or ironic statements and genuine sentiment.",0.82
+cot,37,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Example 4:  
+I absolutely love how everything just falls apart.  
+Answer: negative
+
+Example 5:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8033333333333333
+cot,38,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and context-dependent tone. Prioritize the dominant emotional tone and recognize indirect or metaphorical expressions of sentiment.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.81
+cot,38,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Avoid defaulting to negative classification when the sentiment is unclear.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Use contextual clues to determine the intended emotional tone of the tweet.  
+8. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+9. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+10. Avoid misclassifying context-dependent tone, such as musical references or emotional context, as negative.",0.8266666666666667
+cot,38,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.8333333333333334,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Example 4:  
+I absolutely love how this app works, it's a lifesaver!  
+Answer: positive
+
+Example 5:  
+This weather is so frustrating, I can't even go outside.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Avoid defaulting to negative classification when the sentiment is unclear.  
+8. Use contextual clues to determine the intended emotional tone of the tweet.  
+9. Identify and classify indirect or metaphorical expressions of sentiment accurately.",0.82
+cot,39,instruction,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Avoid defaulting to negative classification when the sentiment is unclear.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Use contextual clues to determine the intended emotional tone of the tweet.  
+8. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+9. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+10. Avoid misclassifying context-dependent tone, such as musical references or emotional context, as negative.",0.8266666666666667,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+<think>
+
+</think>
+
+Classify the sentiment of the following tweet as positive or negative, taking into account sarcasm, irony, and emotional context. Prioritize the dominant emotional tone and recognize indirect expressions of satisfaction or dissatisfaction. Avoid misclassifying ambiguous or context-dependent language.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Avoid defaulting to negative classification when the sentiment is unclear.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Use contextual clues to determine the intended emotional tone of the tweet.  
+8. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+9. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+10. Avoid misclassifying context-dependent tone, such as musical references or emotional context, as negative.",0.8133333333333334
+cot,39,cot,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Avoid defaulting to negative classification when the sentiment is unclear.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Use contextual clues to determine the intended emotional tone of the tweet.  
+8. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+9. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+10. Avoid misclassifying context-dependent tone, such as musical references or emotional context, as negative.",0.8266666666666667,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Avoid defaulting to negative classification when the sentiment is unclear.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Use contextual clues to determine the intended emotional tone of the tweet.  
+8. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+9. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+10. Avoid misclassifying context-dependent tone, such as musical references or emotional context, as negative.",0.8266666666666667
+cot,39,examples,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Avoid defaulting to negative classification when the sentiment is unclear.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Use contextual clues to determine the intended emotional tone of the tweet.  
+8. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+9. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+10. Avoid misclassifying context-dependent tone, such as musical references or emotional context, as negative.",0.8266666666666667,"<think>
+
+</think>
+
+Example 1:  
+I can't believe how amazing this movie was!  
+Answer: positive
+
+Example 2:  
+This is the best day ever!  
+Answer: positive
+
+Example 4:  
+I can't believe how terrible this service is.  
+Answer: negative
+
+Example 5:  
+This is the worst experience of my life.  
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, and context-dependent tone to avoid misclassification.  
+2. Differentiate between neutral, positive, and negative sentiment by identifying subtle or indirect expressions.  
+3. Prioritize the dominant emotional tone when determining the overall sentiment.  
+4. Recognize indirect expressions of satisfaction or approval as positive sentiment.  
+5. Avoid defaulting to negative classification when the sentiment is unclear.  
+6. Classify expressions of loss, longing, or regret as negative sentiment.  
+7. Use contextual clues to determine the intended emotional tone of the tweet.  
+8. Identify and classify indirect or metaphorical expressions of sentiment accurately.  
+9. Ensure that ambiguous or indirect language is interpreted based on the overall emotional context.  
+10. Avoid misclassifying context-dependent tone, such as musical references or emotional context, as negative.",0.8133333333333334

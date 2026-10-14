@@ -1,0 +1,740 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+zero_shot,0,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language used in the tweet to identify any sarcasm, irony, or tone indicators.  
+2. Determine if the sentiment expressed is genuinely positive or if it is dismissive, sarcastic, or ironic.  
+3. Evaluate the presence of negative words or phrases that may indicate dissatisfaction, even if the overall tone appears neutral.  
+4. Consider the context of the tweet, including any multilingual or code-switching elements, to ensure accurate interpretation.  
+5. Classify the sentiment as positive or negative based on the analysis, ensuring that the classification reflects the true emotional tone of the tweet.",0.7466666666666667
+zero_shot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language used in the tweet to identify any sarcasm, irony, or tone indicators.  
+2. Determine if the sentiment expressed is genuinely positive or if it is dismissive, sarcastic, or ironic.  
+3. Evaluate the presence of negative words or phrases that may indicate dissatisfaction, even if the overall tone appears neutral.  
+4. Consider the context of the tweet, including any multilingual or code-switching elements, to ensure accurate interpretation.  
+5. Classify the sentiment as positive or negative based on the analysis, ensuring that the classification reflects the true emotional tone of the tweet.",0.7466666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or tone indicators to determine if the sentiment is genuinely positive or dismissive.  
+2. Evaluate the presence of negative words or phrases that may indicate dissatisfaction, even if the overall tone appears neutral.  
+3. Consider the context of the tweet, including multilingual or code-switching elements, to ensure accurate interpretation.  
+4. Differentiate between neutral or ambiguous language and negative sentiment by analyzing the emotional tone.  
+5. Classify the sentiment as positive or negative based on the analysis, ensuring that the classification reflects the true emotional tone of the tweet.",0.7866666666666666
+zero_shot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or tone indicators to determine if the sentiment is genuinely positive or dismissive.  
+2. Evaluate the presence of negative words or phrases that may indicate dissatisfaction, even if the overall tone appears neutral.  
+3. Consider the context of the tweet, including multilingual or code-switching elements, to ensure accurate interpretation.  
+4. Differentiate between neutral or ambiguous language and negative sentiment by analyzing the emotional tone.  
+5. Classify the sentiment as positive or negative based on the analysis, ensuring that the classification reflects the true emotional tone of the tweet.",0.7866666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or tone indicators to determine if the sentiment is genuinely positive or dismissive.  
+2. Evaluate the presence of negative words or phrases that may indicate dissatisfaction, even if the overall tone appears neutral.  
+3. Consider the context of the tweet, including multilingual or code-switching elements, to ensure accurate interpretation.  
+4. Differentiate between neutral or ambiguous language and negative sentiment by analyzing the emotional tone.  
+5. Classify the sentiment as positive or negative based on the analysis, ensuring that the classification reflects the true emotional tone of the tweet.",0.7866666666666666
+zero_shot,0,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or tone indicators to determine if the sentiment is genuinely positive or dismissive.  
+2. Evaluate the presence of negative words or phrases that may indicate dissatisfaction, even if the overall tone appears neutral.  
+3. Consider the context of the tweet, including multilingual or code-switching elements, to ensure accurate interpretation.  
+4. Differentiate between neutral or ambiguous language and negative sentiment by analyzing the emotional tone.  
+5. Classify the sentiment as positive or negative based on the analysis, ensuring that the classification reflects the true emotional tone of the tweet.",0.7866666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or tone indicators to determine if the sentiment is genuinely positive or dismissive.  
+2. Evaluate the presence of negative words or phrases that may indicate dissatisfaction, even if the overall tone appears neutral.  
+3. Consider the context of the tweet, including multilingual or code-switching elements, to ensure accurate interpretation.  
+4. Differentiate between neutral or ambiguous language and negative sentiment by analyzing the emotional tone.  
+5. Classify the sentiment as positive or negative based on the analysis, ensuring that the classification reflects the true emotional tone of the tweet.",0.7866666666666666
+zero_shot,1,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+3. Recognize neutral or ambiguous statements and avoid misclassifying them as negative.  
+4. Interpret colloquial or informal language based on context rather than literal meaning.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.8166666666666667
+zero_shot,2,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+3. Recognize neutral or ambiguous statements and avoid misclassifying them as negative.  
+4. Interpret colloquial or informal language based on context rather than literal meaning.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.",0.81
+zero_shot,3,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+3. Recognize neutral or ambiguous statements and avoid misclassifying them as negative.  
+4. Interpret colloquial or informal language based on context rather than literal meaning.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral/ambiguous statements and genuine sentiment.  
+3. Interpret informal or colloquial language based on contextual clues rather than literal meaning.  
+4. Prioritize the overall tone and intent of the tweet over individual words.  
+5. Use examples or known patterns to guide interpretation of ambiguous expressions.",0.76
+zero_shot,4,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.",0.81,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify mixed or sarcastic statements and classify based on dominant sentiment.  
+7. Use contextual clues to determine if a statement is genuinely negative or just neutral.  
+8. Avoid over-reliance on keywords and focus on the overall emotional tone.  
+9. Recognize and account for tone indicators such as punctuation, capitalization, and emojis.  
+10. Classify based on the intended sentiment, not the literal meaning of the text.",0.8066666666666666
+zero_shot,5,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.",0.81,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for ambiguous or neutral expressions that may be misclassified as negative.  
+7. Use contextual clues to determine the true sentiment of the tweet, especially in cases of sarcasm or irony.  
+8. Avoid over-reliance on keywords and focus on the overall sentiment expressed in the tweet.",0.8066666666666666
+zero_shot,6,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for ambiguous or neutral expressions that may be misclassified as negative.  
+7. Use contextual clues to determine the true sentiment of the tweet, especially in cases of sarcasm or irony.  
+8. Avoid over-reliance on keywords and focus on the overall sentiment expressed in the tweet.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for ambiguous or neutral expressions that may be misclassified as negative.  
+7. Use contextual clues to determine the true sentiment of the tweet, especially in cases of sarcasm or irony.  
+8. Avoid over-reliance on keywords and focus on the overall sentiment expressed in the tweet.",0.8066666666666666
+zero_shot,7,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+3. Recognize neutral or ambiguous statements and avoid misclassifying them as negative.  
+4. Interpret colloquial or informal language based on context rather than literal meaning.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.",0.8133333333333334
+zero_shot,8,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+3. Recognize neutral or ambiguous statements and avoid misclassifying them as negative.  
+4. Interpret colloquial or informal language based on context rather than literal meaning.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment using contextual clues.  
+3. Interpret informal or colloquial language based on standard linguistic conventions rather than literal meaning.  
+4. Prioritize the overall tone and intent of the tweet over individual words for accurate classification.  
+5. Apply consistent rules for identifying positive and negative sentiment across all task instances.",0.7833333333333333
+zero_shot,9,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.",0.8133333333333334
+zero_shot,10,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+3. Recognize neutral or ambiguous statements and avoid misclassifying them as negative.  
+4. Interpret colloquial or informal language based on context rather than literal meaning.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+2. Distinguish between neutral/ambiguous statements and negative sentiment.  
+3. Interpret colloquial or informal language based on context rather than literal meaning.  
+4. Identify explicit positive or negative keywords while considering the overall tone and intent of the tweet.  
+5. Ensure the classification aligns with the sentiment expressed, not just individual words.",0.8033333333333333
+zero_shot,11,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for ambiguous or neutral expressions that may be misclassified as negative.  
+7. Use contextual clues to determine the true sentiment of the tweet, especially in cases of sarcasm or irony.  
+8. Avoid over-reliance on keywords and focus on the overall sentiment expressed in the tweet.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for ambiguous or neutral expressions that may be misclassified as negative.  
+7. Use contextual clues to determine the true sentiment of the tweet, especially in cases of sarcasm or irony.  
+8. Avoid over-reliance on keywords and focus on the overall sentiment expressed in the tweet.",0.8066666666666666
+zero_shot,12,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for ambiguous or neutral expressions that may be misclassified as negative.  
+7. Use contextual clues to determine the true sentiment of the tweet, especially in cases of sarcasm or irony.  
+8. Avoid over-reliance on keywords and focus on the overall sentiment expressed in the tweet.",0.8066666666666666,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for ambiguous or neutral expressions that may be misclassified as negative.  
+7. Use contextual clues to determine the true sentiment of the tweet, especially in cases of sarcasm or irony.  
+8. Avoid over-reliance on keywords and focus on the overall sentiment expressed in the tweet.  
+9. Explicitly check for sarcasm or irony and classify accordingly.  
+10. Ensure the classification is based on the intended meaning, not the literal wording.",0.7933333333333333
+zero_shot,13,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language for explicit positive or negative words.  
+2. Identify sarcasm, irony, or tone to avoid misclassification.  
+3. Consider emotional expressions and context to determine sentiment.  
+4. Avoid labeling neutral or ambiguous statements as negative.  
+5. Ensure the classification is based on the overall sentiment, not isolated phrases.",0.8133333333333334
+zero_shot,14,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative words.  
+2. Identify sarcasm, irony, or indirect expressions of sentiment.  
+3. Determine if the tone is genuinely positive or if it is being used sarcastically or ironically.  
+4. Consider the context of the statement to understand the true sentiment.  
+5. If the sentiment is ambiguous or neutral, classify it as negative by default.  
+6. Ensure the classification is based solely on the sentiment expressed, not on external assumptions.",0.7366666666666667
+zero_shot,15,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language for explicit positive or negative words.  
+2. Identify sarcasm, irony, or tone to avoid misclassification.  
+3. Consider emotional expressions and context to determine sentiment.  
+4. Avoid labeling neutral or ambiguous statements as negative.  
+5. Ensure the classification is based on the overall sentiment, not isolated phrases.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or tone to avoid misclassification.  
+2. Distinguish emotional expressions from actual sentiment.  
+3. Avoid misclassifying neutral or ambiguous statements as negative.  
+4. Use context to determine the overall sentiment of the tweet.  
+5. Prioritize the dominant sentiment over isolated phrases.",0.7866666666666666
+zero_shot,16,cot,Classify the sentiment of the following tweet as positive or negative.,0.8233333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language used in the tweet for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-dependent expressions that may contradict the literal meaning.  
+3. Determine if the sentiment is conveyed through emotional tone, even if no explicit words are used.  
+4. Assess if the tweet is incomplete, ambiguous, or lacks clear sentiment indicators.  
+5. Classify the sentiment as positive or negative based on the overall emotional tone and context, not just individual words.",0.7866666666666666
+zero_shot,17,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.  
+6. Clarify whether neutral or ambiguous statements should be classified as negative or left unclassified.  
+7. Specify the need to interpret informal or colloquial language based on context rather than literal meaning.",0.7966666666666666
+zero_shot,18,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language for explicit positive or negative words.  
+2. Identify sarcasm, irony, or tone to avoid misclassification.  
+3. Consider emotional expressions and context to determine sentiment.  
+4. Avoid labeling neutral or ambiguous statements as negative.  
+5. Ensure the classification is based on the overall sentiment, not isolated phrases.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or tone to avoid misclassification.  
+2. Distinguish between neutral or ambiguous statements and positive sentiment.  
+3. Use contextual understanding to interpret context-dependent expressions accurately.  
+4. Prioritize the overall sentiment over isolated phrases.  
+5. Ensure the classification aligns with the intended emotional tone of the tweet.",0.7933333333333333
+zero_shot,19,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.",0.81,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for sarcastic or ironic expressions that may contradict literal meaning.  
+7. Recognize and classify neutral or ambiguous statements as positive if the overall tone is favorable.  
+8. Use contextual clues to determine the true sentiment of informal or colloquial language.  
+9. Analyze the emotional intent behind the message rather than focusing solely on explicit words.  
+10. Adjust classification based on the broader context of the tweet, including tone and implied meaning.",0.8166666666666667
+zero_shot,20,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the language for explicit positive or negative words.  
+2. Identify sarcasm, irony, or tone to avoid misclassification.  
+3. Consider emotional expressions and context to determine sentiment.  
+4. Avoid labeling neutral or ambiguous statements as negative.  
+5. Ensure the classification is based on the overall sentiment, not isolated phrases.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or tone to avoid misclassification.  
+2. Distinguish between neutral or ambiguous statements and negative sentiment.  
+3. Use context and emotional expressions to determine sentiment accurately.  
+4. Avoid over-interpretation by focusing on clear indicators of positive or negative sentiment.  
+5. Apply consistent rules for handling context-dependent or emotionally complex statements.",0.76
+zero_shot,21,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for sarcastic or ironic expressions that may contradict literal meaning.  
+7. Recognize and classify neutral or ambiguous statements as positive if the overall tone is favorable.  
+8. Use contextual clues to determine the true sentiment of informal or colloquial language.  
+9. Analyze the emotional intent behind the message rather than focusing solely on explicit words.  
+10. Adjust classification based on the broader context of the tweet, including tone and implied meaning.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for sarcastic or ironic expressions that may contradict literal meaning.  
+7. Recognize and classify neutral or ambiguous statements as positive if the overall tone is favorable.  
+8. Use contextual clues to determine the true sentiment of informal or colloquial language.  
+9. Analyze the emotional intent behind the message rather than focusing solely on explicit words.  
+10. Adjust classification based on the broader context of the tweet, including tone and implied meaning.",0.8166666666666667
+zero_shot,22,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+3. Recognize neutral or ambiguous statements and avoid misclassifying them as negative.  
+4. Interpret colloquial or informal language based on context rather than literal meaning.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+2. Interpret expressions of affection, playful teasing, or colloquial language as positive.  
+3. Recognize ambiguous or informal language based on context rather than literal meaning.  
+4. Avoid misclassifying neutral or sarcastic statements as negative.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.76
+zero_shot,23,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.  
+6. Prioritize the sentiment expressed in the overall message over isolated phrases or words.  
+7. Consider the emotional tone and intent behind the language to determine the correct sentiment.",0.81
+zero_shot,24,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for sarcastic or ironic expressions that may contradict literal meaning.  
+7. Recognize and classify neutral or ambiguous statements as positive if the overall tone is favorable.  
+8. Use contextual clues to determine the true sentiment of informal or colloquial language.  
+9. Analyze the emotional intent behind the message rather than focusing solely on explicit words.  
+10. Adjust classification based on the broader context of the tweet, including tone and implied meaning.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for sarcastic or ironic expressions that may contradict literal meaning.  
+7. Recognize and classify neutral or ambiguous statements as positive if the overall tone is favorable.  
+8. Use contextual clues to determine the true sentiment of informal or colloquial language.  
+9. Analyze the emotional intent behind the message rather than focusing solely on explicit words.  
+10. Adjust classification based on the broader context of the tweet, including tone and implied meaning.",0.8166666666666667
+zero_shot,25,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.  
+6. Prioritize detecting sarcasm or irony in statements that use exaggerated or emotionally charged language.  
+7. Identify neutral statements by evaluating whether they express a clear positive or negative sentiment.  
+8. Use surrounding context to determine the intended sentiment when colloquial or informal language is used.  
+9. Classify statements based on the overall emotional tone rather than isolated words.  
+10. Avoid misclassifying sarcastic or ironic statements as positive unless explicitly stated.",0.7733333333333333
+zero_shot,26,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.",0.7966666666666666
+zero_shot,27,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.",0.8133333333333334,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly check for sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Differentiate between neutral or ambiguous statements and negative sentiment by analyzing the overall tone.  
+3. Interpret informal or colloquial language based on contextual cues rather than literal meaning.  
+4. Use explicit positive or negative keywords as primary indicators, but consider contextual nuances.  
+5. Ensure classification aligns with the intended sentiment of the tweet, not just individual words.  
+6. Identify and account for exhaustion, frustration, or ambiguity in the tone when determining sentiment.  
+7. Avoid overgeneralizing sentiment from incomplete or unclear statements.",0.7966666666666666
+zero_shot,28,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+3. Recognize neutral or ambiguous statements and avoid misclassifying them as negative.  
+4. Interpret colloquial or informal language based on context rather than literal meaning.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Distinguish between neutral/ambiguous statements and negative sentiment using contextual clues.  
+3. Interpret informal or colloquial language based on context rather than literal meaning.  
+4. Prioritize the overall tone and intent of the tweet over individual words.  
+5. Ensure classification aligns with the intended sentiment, not just surface-level language.",0.7833333333333333
+zero_shot,29,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for sarcastic or ironic expressions that may contradict literal meaning.  
+7. Recognize and classify neutral or ambiguous statements as positive if the overall tone is favorable.  
+8. Use contextual clues to determine the true sentiment of informal or colloquial language.  
+9. Analyze the emotional intent behind the message rather than focusing solely on explicit words.  
+10. Adjust classification based on the broader context of the tweet, including tone and implied meaning.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Detect sarcasm, irony, or context-based sentiment to avoid misclassification.  
+2. Distinguish between neutral/ambiguous statements and actual negative sentiment.  
+3. Interpret informal or colloquial language based on context, not literal meaning.  
+4. Prioritize overall tone and intent over individual words when determining sentiment.  
+5. Ensure the classification aligns with the emotional tone of the tweet, not just keywords.  
+6. Identify and account for sarcastic or ironic expressions that may contradict literal meaning.  
+7. Recognize and classify neutral or ambiguous statements as positive if the overall tone is favorable.  
+8. Use contextual clues to determine the true sentiment of informal or colloquial language.  
+9. Analyze the emotional intent behind the message rather than focusing solely on explicit words.  
+10. Adjust classification based on the broader context of the tweet, including tone and implied meaning.",0.8166666666666667
+zero_shot,30,cot,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Analyze the text for explicit positive or negative keywords.  
+2. Identify sarcasm, irony, or context-based sentiment that may contradict literal wording.  
+3. Recognize neutral or ambiguous statements and avoid misclassifying them as negative.  
+4. Interpret colloquial or informal language based on context rather than literal meaning.  
+5. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.",0.8166666666666667,"Classify the sentiment of the following tweet as positive or negative.
+
+<think>
+
+</think>
+
+1. Explicitly detect sarcasm, irony, or context-based sentiment that contradicts literal wording.  
+2. Distinguish between neutral or ambiguous statements and avoid misclassifying them as negative.  
+3. Interpret colloquial or informal language based on context, not just literal meaning.  
+4. Ensure the classification aligns with the overall tone and intent of the tweet, not just individual words.  
+5. Prioritize the sentiment expressed in the context of the entire tweet, not isolated phrases.",0.8

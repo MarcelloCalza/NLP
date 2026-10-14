@@ -1,0 +1,1829 @@
+level,prompt,optimizer,generation,task,example_id,pred,truth,exact,judge,optimization_score,test_score,prompt_text
+summary,cot,multi,0,sentiment,,,,,,0.8233333333333334,,"Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,multi,1,sentiment,,,,,,0.84,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Identify emotionally relevant words or phrases.
+2. Determine whether they express positive or negative sentiment.
+3. Decide the overall sentiment."
+summary,cot,multi,2,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Consider the overall context and intended meaning of the tweet.
+2. Identify emotionally relevant words or phrases and their overall impact on the sentiment.
+3. Determine the sentiment based on the combination of context and emotionally relevant words."
+summary,cot,multi,3,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Consider the overall context and intended meaning of the tweet.
+2. Identify emotionally relevant words or phrases and their overall impact on the sentiment.
+3. Determine the sentiment based on the combination of context and emotionally relevant words."
+summary,cot,multi,4,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Consider the overall context and intended meaning of the tweet.
+2. Identify emotionally relevant words or phrases and their overall impact on the sentiment.
+3. Determine the sentiment based on the combination of context and emotionally relevant words."
+summary,cot,multi,5,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,6,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,7,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,8,sentiment,,,,,,0.8466666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,9,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Recognize informal language and abbreviations as positive sentiment.
+2. Consider context when ambiguous.
+3. Ignore emojis and punctuation."
+summary,cot,multi,10,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Recognize informal language and abbreviations as positive sentiment.
+2. Consider context when ambiguous.
+3. Ignore emojis and punctuation."
+summary,cot,multi,11,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Recognize informal language and abbreviations as positive sentiment.
+2. Consider context when ambiguous.
+3. Ignore emojis and punctuation."
+summary,cot,multi,12,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Recognize informal language and abbreviations as positive sentiment.
+2. Consider context when ambiguous.
+3. Ignore emojis and punctuation."
+summary,cot,multi,13,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Recognize informal language and abbreviations as positive sentiment.
+2. Consider context when ambiguous.
+3. Ignore emojis and punctuation."
+summary,cot,multi,14,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Recognize informal language and abbreviations as positive sentiment.
+2. Consider context when ambiguous.
+3. Ignore emojis and punctuation."
+summary,cot,multi,15,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative. Consider context and intended meaning, and identify emotionally relevant words or phrases.
+
+1. Recognize informal language and abbreviations as positive sentiment.
+2. Consider context when ambiguous.
+3. Ignore emojis and punctuation."
+summary,cot,multi,16,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. Consider informal language and context when ambiguous. Ignore emojis and punctuation.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,17,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. Consider informal language and context when ambiguous. Ignore emojis and punctuation.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,18,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. Consider informal language and context when ambiguous. Ignore emojis and punctuation.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,19,sentiment,,,,,,0.8533333333333334,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative. Consider informal language and context when ambiguous. Ignore emojis and punctuation.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,20,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 8:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,21,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 8:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 9:
+I'm so done with this weather... 🌦️
+Answer: negative
+
+Example 10:
+I can't wait for the concert! 🎉🎟️
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,22,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 8:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 9:
+I'm so done with this weather... 🌦️
+Answer: negative
+
+Example 10:
+I can't wait for the concert! 🎉🎟️
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,23,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 8:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 9:
+I'm so done with this weather... 🌦️
+Answer: negative
+
+Example 10:
+I can't wait for the concert! 🎉🎟️
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Ignore emojis and punctuation.
+2. Recognize informal language and abbreviations as positive sentiment.
+3. Consider context when ambiguous."
+summary,cot,multi,24,sentiment,,,,,,0.8566666666666667,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 8:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 9:
+I'm so done with this weather... 🌦️
+Answer: negative
+
+Example 10:
+I can't wait for the concert! 🎉🎟️
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Correctly interpret negative emotions and cues.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,25,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,26,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,27,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,28,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,29,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,30,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,31,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,32,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,33,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,34,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,35,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,36,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,37,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,38,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,39,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,40,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,41,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,42,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,43,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,44,sentiment,,,,,,0.87,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+I can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+I can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+I can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,45,sentiment,,,,,,0.8733333333333333,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+Can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+Can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+Can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,46,sentiment,,,,,,0.8733333333333333,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+Can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+Can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+Can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,47,sentiment,,,,,,0.8733333333333333,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+Can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+Can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+Can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,48,sentiment,,,,,,0.8733333333333333,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+Can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+Can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+Can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,49,sentiment,,,,,,0.8733333333333333,,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+Can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+Can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+Can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
+summary,cot,multi,50,sentiment,,,,,,0.8733333333333333,0.73,"Example 1:
+I'm so bored. I don't even want to be here.
+Answer: negative
+
+Example 2:
+I just got a promotion! I'm so excited!
+Answer: positive
+
+Example 3:
+Can't wait for the concert! 🎉
+Answer: positive
+
+Example 4:
+I'm so done with this weather... 🌧️
+Answer: negative
+
+Example 5:
+Can't believe I got a raise! 🎉
+Answer: positive
+
+Example 6:
+Just got rejected again... 😞
+Answer: negative
+
+Example 7:
+I'm so done with this job... 😠
+Answer: negative
+
+Example 8:
+Can't wait to see you! 😊
+Answer: positive
+
+Example 9:
+This is the worst weather ever! 🌧️
+Answer: negative
+
+Example 10:
+I'm so happy with my new car! 🚘
+Answer: positive
+
+Classify the sentiment of the following tweet as positive or negative.
+
+- Ignore emojis and punctuation.
+- Recognize informal language and abbreviations as positive sentiment.
+- Consider context when ambiguous.
+
+1. Identify informal language and abbreviations as positive sentiment.
+2. Recognize mentions of excitement, anticipation, or positive emotions as positive sentiment.
+3. Consider context when ambiguous, and look for explicit positive or negative cues."
