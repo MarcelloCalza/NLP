@@ -1,7 +1,13 @@
 # NLP P8
+## Running Experiments and Viewing Results
+
+To run the prompt optimization experiments, execute `run_optimizations.py` from the project root directory. The script runs the configured experiments and saves the resulting CSV files in the `results/` directory.
+
+The repository already includes the analysis plots in the `analysis/` directory. These plots cover optimization-score evolution, held-out test performance, and mutation-level improvement rates. They can be viewed directly without rerunning the optimization experiments.
+
+### Results Files
 
 The results folder contains the results files divided by task and then by model:
-
 
 ```text
 results/
@@ -20,8 +26,6 @@ results/
 ```
 
 The `<model_name>` directory corresponds to the model repository name used in the experiment. The `<prompt>` identifier specifies the initial prompting strategy (`zero_shot`, `cot`, or `few_shots`), while `<optimizer>` identifies the optimization configuration (`rewrite`, `instruction`, `cot`, `examples`, or `multi`).
-
-### Results Files
 
 | File | Contents |
 |---|---|
