@@ -1,0 +1,2399 @@
+init_prompt,gen,branch,parent_prompt,parent_score,child_prompt,child_score
+cot,0,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4333333333333333
+cot,0,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4333333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333
+cot,0,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Alex?
+Answer: Tom
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333
+cot,0,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Alex?
+Answer: Tom
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Emily is standing next to the person who is not Alex, who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the red house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, and Emma is standing next to the person who is not Jack, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, and the person who owns the red house lives next to the German person, who owns the red house?
+Answer: Italian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, and Alex is standing next to the person who is not Tom, who is standing next to Alex?
+Answer: Ben
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4466666666666666
+cot,1,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Emily is standing next to the person who is not Alex, who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the red house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, and Emma is standing next to the person who is not Jack, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, and the person who owns the red house lives next to the German person, who owns the red house?
+Answer: Italian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, and Alex is standing next to the person who is not Tom, who is standing next to Alex?
+Answer: Ben
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4466666666666666,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to the person who is not Alex, who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the red house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, and Emma is standing next to the person who is not Jack, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, and the person who owns the red house lives next to the German person, who owns the red house?
+Answer: Italian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, and Alex is standing next to the person who is not Tom, who is standing next to Alex?
+Answer: Ben
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4466666666666666
+cot,2,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Emily is standing next to the person who is not Alex, who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the red house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, and Emma is standing next to the person who is not Jack, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, and the person who owns the red house lives next to the German person, who owns the red house?
+Answer: Italian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, and Alex is standing next to the person who is not Tom, who is standing next to Alex?
+Answer: Ben
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4466666666666666,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to the person who is not Alex, who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the red house lives next to the British person, and the American lives in the first house, what is the favorite drink of the person who owns the green house?
+Answer: tea
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, and Emma is standing next to the person who is not Jack, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who is the person who owns the red house?
+Answer: Italian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, and Alex is standing next to the person who is not Tom, who is standing next to Alex?
+Answer: Ben
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4433333333333333
+cot,3,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Alex?
+Answer: Tom
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Alex is standing next to Charlie, who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Alex?
+Answer: Tom
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4433333333333333
+cot,4,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Alex?
+Answer: Tom
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to Ben, who is standing next to Alex?
+Answer: Charlie
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the British person lives in the second house, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Alex?
+Answer: Tom
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.45
+cot,5,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to the person who is not Alex, who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the red house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, and Emma is standing next to the person who is not Jack, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, and the person who owns the red house lives next to the German person, who owns the red house?
+Answer: Italian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, and Alex is standing next to the person who is not Tom, who is standing next to Alex?
+Answer: Ben
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4466666666666666,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to the person who is not Alex, who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the red house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five houses are standing in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Chinese). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the person who owns the yellow house lives next to the German person, who owns the yellow house?
+Answer: Italian
+
+Example 4: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, and Alex is standing next to the person who is not Tom, who is standing next to Alex?
+Answer: Ben
+
+Example 5: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (American, British, Indian, Chinese). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the yellow house lives next to the British person, who owns the yellow house?
+Answer: Chinese
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4433333333333333
+cot,6,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to the person who is not Alex, who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the red house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, and Emma is standing next to the person who is not Jack, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, and the person who owns the red house lives next to the German person, who owns the red house?
+Answer: Italian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, and Alex is standing next to the person who is not Tom, who is standing next to Alex?
+Answer: Ben
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4466666666666666,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to the person who is not Alex, who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the person who owns the red house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, and Emma is standing next to the person who is not Jack, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the red house?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, and Alex is standing next to the person who is not Tom, who is standing next to Alex?
+Answer: Ben
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.45
+cot,7,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Alex?
+Answer: Tom
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to Ben, and Ben is standing next to Alex, who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the American lives in the first house and the person who owns the green house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46
+cot,8,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Alex?
+Answer: Tom
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Ben is standing next to Charlie, who is standing next to Alex?
+Answer: David
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the American drinks milk, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, and the Canadian drinks milk, who owns the yellow house?
+Answer: French
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Alex?
+Answer: Tom
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4333333333333333
+cot,9,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Michael, Olivia, Ava, Ethan, and Lucas - are standing in a line. Olivia is standing next to Ava, and Ethan is standing next to Lucas. If Michael is standing next to Olivia, who is standing next to Ava?
+Answer: Michael
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4433333333333333
+cot,10,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to Ben, and Ben is standing next to Alex, who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the American lives in the first house and the person who owns the green house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. Who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the American lives in the first house, who owns the green house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4566666666666666
+cot,11,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Olivia, Ava, Lily, Mia, and Sophia - are standing in a line. Lily is standing next to Ava, and Mia is standing next to Sophia. If Olivia is standing next to Ava, who is standing next to Lily?
+Answer: Sophia
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333
+cot,12,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+In a museum, there are four paintings: a portrait, a landscape, a still life, and a cityscape. The portrait is older than the still life. The still life is newer than the cityscape. The cityscape is the oldest. The landscape is the second-newest.
+Answer: landscape
+
+Example 2: 
+In a factory, there are five machines: a press, a lathe, a drill, a saw, and a grinder. The press is older than the drill. The drill is newer than the saw. The saw is the second-oldest. The grinder is the newest. The lathe is in the middle.
+Answer: lathe
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4366666666666666
+cot,13,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to Ben, and Ben is standing next to Alex, who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the American lives in the first house and the person who owns the green house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to Ben, and Ben is standing next to Alex, who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the American lives in the first house and the person who owns the green house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46
+cot,14,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+A bookstore sells five books: novels, biographies, poetry, textbooks, and dictionaries. The biographies are more expensive than the poetry. The textbooks are more expensive than the dictionaries. The novels are the most expensive. The poetry are more expensive than the biographies.
+Answer: novel
+
+Example 2: 
+A toy store sells five toys: dolls, action figures, puzzles, board games, and building blocks. The action figures are more expensive than the puzzles. The building blocks are more expensive than the board games. The dolls are the most expensive. The puzzles are more expensive than the action figures.
+Answer: doll
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.44
+cot,15,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+There are three cars: a Toyota, a Honda, and a Ford. The Toyota is the oldest. The Ford is newer than the Honda. The Honda is newer than the Toyota.
+Answer: Ford
+
+Example 2: 
+In a museum, there are four paintings: a watercolor, an oil, a sculpture, and a charcoal. The charcoal is the newest. The oil is older than the watercolor. The sculpture is older than the charcoal.
+Answer: oil
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.45
+cot,16,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. Who is standing next to Alex?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. Who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Emma?
+Answer: Sarah
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who owns the yellow house?
+Answer: Canadian
+
+Example 5: 
+Five friends - Olivia, Ava, Liam, Ethan, and Lucas - are standing in a line. Liam is standing next to Ethan, and Ava is standing next to Lucas. If Olivia is standing next to Liam, who is standing next to Ethan?
+Answer: Olivia
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4466666666666666
+cot,17,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4733333333333333
+cot,18,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to Ben, and Ben is standing next to Alex, who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the American lives in the first house and the person who owns the green house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and David is standing next to Emily. If Charlie is standing next to Ben, and Ben is standing next to Alex, who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the British person. The person who owns the green house drinks tea. If the American lives in the first house and the person who owns the green house lives next to the British person, who owns the red house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Mike is standing next to Ryan, and Emma is standing next to Sarah. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. The person who drinks coffee lives next to the German person. The person who owns the green house drinks tea. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46
+cot,19,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. Who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the American lives in the first house, who owns the green house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4566666666666666,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. Who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the American lives in the first house, who owns the green house?
+Answer: Indian
+
+Example 3: 
+Three friends - Jack, Ryan, and Mike - are standing in a line. Jack is standing next to Mike. Who is standing next to Jack?
+Answer: Mike
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house and drinks milk. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4566666666666666
+cot,20,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. Who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the American lives in the first house, who owns the green house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are four houses in a row, each painted a different color (blue, green, red, yellow). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The Canadian lives in the first house, drinks milk, and lives next to someone who drinks coffee. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4566666666666666,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. Who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the American lives in the first house, who owns the green house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: French
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4566666666666666
+cot,21,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. Who is standing next to Charlie?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the American lives in the first house, who owns the green house?
+Answer: Indian
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Jack is standing next to Mike, who is standing next to Ryan?
+Answer: Jack
+
+Example 4: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Italian lives in the third house, who is standing next to the Canadian?
+Answer: French
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Tom is standing next to Ben, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4566666666666666,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 4: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Ben and Alex are at one end, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4633333333333333
+cot,22,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 4: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Ben and Alex are at one end, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4633333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the person who drinks coffee lives in the second house, what is the favorite drink of the person in the third house?
+Answer: Tea
+
+Example 4: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 5: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46
+cot,23,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the person who drinks coffee lives in the second house, what is the favorite drink of the person in the third house?
+Answer: Tea
+
+Example 4: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 5: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the person who drinks coffee lives in the second house, what is the favorite drink of the person in the third house?
+Answer: Tea
+
+Example 4: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 5: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46
+cot,24,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+A park has five benches: a swing bench, a picnic bench, a reading bench, a playground bench, and a walking bench. The reading bench is to the left of the swing bench. The picnic bench is to the right of the reading bench. The walking bench is to the left of the playground bench. The swing bench is to the left of the walking bench.
+Answer: picnic bench
+
+Example 2: 
+A store has five shelves: a bookshelf, a DVD shelf, a toy shelf, a game shelf, and a music shelf. The DVD shelf is to the left of the bookshelf. The music shelf is to the right of the DVD shelf. The game shelf is to the left of the toy shelf. The bookshelf is to the left of the music shelf.
+Answer: toy shelf
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.45
+cot,25,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the person who drinks coffee lives in the second house, what is the favorite drink of the person in the third house?
+Answer: Tea
+
+Example 4: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 5: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, what is the position of Ben?
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the person who drinks coffee lives in the second house, what is the color of the first house?
+
+Example 3: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what is the favorite drink of the person in the third house?
+
+Example 4: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If the person in the middle is Ryan, who is standing next to Emma?
+
+Example 5: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who is in the second house?
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4433333333333333
+cot,26,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the person who drinks coffee lives in the second house, what is the favorite drink of the person in the third house?
+Answer: Tea
+
+Example 4: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 5: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color. Each house is occupied by a person of a different nationality. Each person has a different favorite drink. The American lives in the first house and drinks milk. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+There are three houses in a row, each painted a different color. Each house is occupied by a person of a different nationality. Each person has a different favorite drink. The American lives in the first house and drinks milk. If the person who drinks coffee lives in the second house, what is the favorite drink of the person in the first house?
+Answer: Milk
+
+Example 4: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 5: 
+There are five houses in a row, each painted a different color. Each house is occupied by a person of a different nationality. Each person has a different favorite drink. The Canadian lives in the first house and drinks milk. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.45
+cot,27,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 4: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Ben and Alex are at one end, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4633333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Example 4: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 5: 
+There are three houses in a row, each painted a different color (red, green, blue). Each house is occupied by a person of a different nationality (British, Indian, American). Each person has a different favorite drink (tea, milk, coffee). Using the following clues: The American lives in the first house and drinks milk. The person who drinks tea lives next to the British person. If the first house is red, what color is the second house?
+Answer: Green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4533333333333333
+cot,28,examples,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+Five friends - Jack, Ryan, Mike, Emma, and Sarah - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 4: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Alex, Ben, Jack, and Sarah - are standing in a line. Ben is standing next to Alex, and Jack is standing next to Sarah. If Ben and Alex are at one end, who is standing next to Jack?
+Answer: Sarah
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4633333333333333,"Example 1: 
+Five friends - Alex, Ben, Charlie, David, and Emily - are standing in a line. Charlie is standing next to Ben, and Ben is standing next to Alex. If Charlie is at one end, who is standing next to him?
+Answer: Ben
+
+Example 2: 
+There are three houses in a row, each painted a different color (blue, green, red). Each house is occupied by a person of a different nationality (American, British, Indian). Each person has a different favorite drink (coffee, tea, milk). Using the following clues: The American lives in the first house and drinks milk. The person who drinks coffee lives next to the British person. If the first house is blue, what color is the second house?
+Answer: Green
+
+Example 3: 
+Five friends - Emma, Sarah, Mike, Jack, and Ryan - are standing in a line. Emma is standing next to Sarah, and Mike is standing next to Ryan. If Emma and Sarah are at one end, who is standing next to Mike?
+Answer: Ryan
+
+Example 4: 
+There are five houses in a row, each painted a different color (blue, green, red, yellow, purple). Each house is occupied by a person of a different nationality (Canadian, French, German, Italian, Spanish). Each person has a different favorite drink (coffee, tea, milk, juice, water). Using the following clues: The Canadian lives in the first house and drinks milk. The person who drinks coffee lives next to the German person. If the Canadian lives in the first house, who drinks coffee?
+Answer: German
+
+Example 5: 
+Five friends - Tom, Jack, Sarah, Alex, and Ben - are standing in a line. Jack is standing next to Sarah, and Ben is standing next to Alex. If Jack and Sarah are at one end, who is standing next to Ben?
+Answer: Alex
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46
+cot,29,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+There are three books: a red book, a white book, and a black book. The white book is to the right of the red book. The black book is to the left of the red book. The red book is the second from the left.
+Answer: black
+
+Example 2: 
+There are four books: an orange book, a blue book, a green book, and a yellow book. The blue book is the second from the left. The green book is to the right of the blue book. The yellow book is to the right of the green book. The orange book is the second from the right.
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.47
+cot,30,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5133333333333333
+cot,31,examples,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5133333333333333,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a library, there are six books: a red book, a blue book, a green book, a yellow book, a purple book, and a black book. The green book is to the left of the yellow book. The purple book is to the right of the blue book. The blue book is to the left of the red book. The yellow book is to the left of the black book. The black book is to the left of the purple book. 
+Which one book is the second from the left?
+Choices:red, blue, green, yellow, black, purple
+Answer: green
+
+Example 4: 
+In a school, there are five students: Alex, Ben, Charlie, David, and Emily. Charlie finished above David. Emily finished above Charlie. Ben finished above Emily. David finished above Ben. 
+Which one student finished third?
+Choices:Alex, Ben, Charlie, David, Emily
+Answer: Charlie
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667
+cot,32,examples,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4733333333333333,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.49
+cot,33,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+In a university, there are five students: Alex, Ben, Chris, David, and Emily. Alex is in the same class as Chris and David. Ben is in the same class as Alex. Emily is in a different class than all of them. 
+Answer: Ben
+
+Example 2: 
+In a company, there are five employees: Jack, Kate, Laura, Mike, and Nina. Jack is the team leader. Kate is a team member under Mike. Laura is a team member under Nina. Mike is a team member under Jack. 
+Answer: Kate
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.47
+cot,34,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+On a tree, there are four birds: an eagle, a sparrow, a falcon, and a hawk. The sparrow is to the right of the eagle. The falcon is to the left of the hawk. The hawk is the second from the right.
+Answer: eagle
+
+Example 2: 
+In a forest, there are six birds: a blue jay, a cardinal, a raven, a hummingbird, a robin, and an owl. The robin is to the right of the blue jay. The raven is to the left of the cardinal. The owl is the third from the left.
+Answer: raven
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.46
+cot,35,examples,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5133333333333333,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a library, there are six books: a blue book, a red book, a yellow book, a green book, a purple book, and a black book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the right of the red book. 
+Which one book is the fourth from the left?
+Choices:blue, red, yellow, green, purple, black
+Answer: green
+
+Example 4: 
+In a bookstore, there are seven books: a red book, a blue book, a yellow book, a green book, a purple book, a black book, and a white book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the left of the white book. The white book is to the right of the blue book. 
+Which one book is the sixth from the left?
+Choices:red, blue, yellow, green, purple, black, white
+Answer: black
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5166666666666667
+cot,36,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+A bookshelf has six books: a blue book, a red book, a purple book, a white book, a black book, and a pink book. The white book is to the left of the black book. The black book is the third from the left. The pink book is to the right of the blue book. The red book is the second from the right. The purple book is to the left of the white book.
+Answer: black
+
+Example 2: 
+A library has four books: a blue book, a red book, a green book, and a yellow book. The green book is to the right of the blue book. The yellow book is to the left of the red book. The blue book is the first from the left. The red book is the second from the left.
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4633333333333333
+cot,37,examples,"Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667,"Example 1: 
+At a concert, there are four artists: a singer, a pianist, a guitarist, and a drummer. The drummer is the oldest. The singer is the youngest. The pianist is newer than the guitarist, but older than the drummer.
+Answer: guitarist
+
+Example 2: 
+In a school, there are five students: Emma, Olivia, Ava, Mia, and Isabella. Isabella is the oldest. Mia is the youngest. Olivia is older than Ava, but younger than Emma.
+Answer: Ava
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.45
+cot,38,examples,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.49,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Example 5: 
+A library has four books: a novel by Hemingway, a novel by Tolstoy, a biography by Curie, and a poetry collection by Rilke. The novel by Tolstoy is older than the novel by Hemingway. The biography by Curie is newer than the novel by Hemingway. The novel by Hemingway is older than the biography by Curie. The poetry collection by Rilke is the oldest.
+Answer: Rilke
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4666666666666667
+cot,39,examples,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.49,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Example 5: 
+A library has three books: a novel by Hemingway, a novel by Tolstoy, and a biography by Lincoln. The novel by Hemingway is newer than the novel by Tolstoy. The biography by Lincoln is the oldest. The novel by Tolstoy is older than the biography by Lincoln.
+Answer: Lincoln
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4666666666666667
+cot,40,examples,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.49,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Example 5: 
+A store has five books: a novel by Hemingway, a novel by Tolstoy, a biography by Newton, a biography by Curie, and a poetry collection by Keats. The novel by Hemingway is older than the biography by Newton. The biography by Newton is newer than the novel by Tolstoy. The biography by Curie is newer than the novel by Hemingway. The poetry collection by Keats is the oldest.
+Answer: Keats
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4766666666666667
+cot,41,examples,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a library, there are six books: a blue book, a red book, a yellow book, a green book, a purple book, and a black book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the right of the red book. 
+Which one book is the fourth from the left?
+Choices:blue, red, yellow, green, purple, black
+Answer: green
+
+Example 4: 
+In a bookstore, there are seven books: a red book, a blue book, a yellow book, a green book, a purple book, a black book, and a white book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the left of the white book. The white book is to the right of the blue book. 
+Which one book is the sixth from the left?
+Choices:red, blue, yellow, green, purple, black, white
+Answer: black
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5166666666666667,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a library, there are six books: a blue book, a red book, a yellow book, a green book, a purple book, and a black book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the right of the red book. 
+Which one book is the fourth from the left?
+Choices:blue, red, yellow, green, purple, black
+Answer: green
+
+Example 4: 
+In a bookstore, there are seven books: a red book, a blue book, a yellow book, a green book, a purple book, a black book, and a white book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the left of the white book. The white book is to the right of the blue book. 
+Which one book is the sixth from the left?
+Choices:red, blue, yellow, green, purple, black, white
+Answer: black
+
+Example 5: 
+In a library, there are four books: a green book, a blue book, a yellow book, and a red book. The yellow book is to the right of the green book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:green, blue, yellow, red
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5166666666666667
+cot,42,examples,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.49,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Example 5: 
+A library has five books: a novel by Hemingway, a novel by Tolstoy, a biography by Curie, a biography by Newton, and a poetry collection by Keats. The novel by Tolstoy is the second-oldest. The biography by Curie is newer than the novel by Hemingway. The novel by Hemingway is older than the biography by Newton. The poetry collection by Keats is the oldest.
+Answer: Tolstoy
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4833333333333333
+cot,43,examples,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5133333333333333,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the yellow book. The black book is to the right of the blue book. The red book is to the left of the purple book. 
+Which one book is the second from the right?
+Choices:red, blue, yellow, green, black, purple
+Answer: black
+
+Example 4: 
+In a library, there are four books: a red book, a blue book, a yellow book, and a black book. The yellow book is to the left of the red book. The blue book is to the right of the yellow book. The black book is to the right of the blue book. 
+Which one book is in the middle?
+Choices:red, blue, yellow, black
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4933333333333333
+cot,44,examples,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.49,"Example 1: 
+A car show has five cars: a Ferrari, a Porsche, a Lamborghini, a Mustang, and a Chevrolet. The Ferrari is the second-costliest. The Lamborghini is more expensive than the Porsche. The Ferrari is less expensive than the Mustang. The Chevrolet is the least expensive.
+Answer: Lamborghini
+
+Example 2: 
+A car museum has five cars: a Toyota, a Honda, a Nissan, a Ford, and a Volkswagen. The Toyota is the oldest. The Nissan is newer than the Honda. The Toyota is older than the Volkswagen. The Ford is the newest.
+Answer: Ford
+
+Example 3: 
+A museum has three paintings: a Monet, a Van Gogh, and a Picasso. The Monet is to the left of the Van Gogh. The Van Gogh is to the right of the Picasso. The Picasso is the most expensive.
+Answer: Picasso
+
+Example 4: 
+A library has five books: a novel by Dickens, a novel by Austen, a biography by Einstein, a biography by Darwin, and a poetry collection by Shakespeare. The novel by Dickens is older than the novel by Austen. The biography by Einstein is newer than the novel by Dickens. The novel by Austen is older than the biography by Darwin. The poetry collection by Shakespeare is the oldest.
+Answer: Shakespeare
+
+Example 5: 
+A bookstore has five shelves: a shelf with novels, a shelf with biographies, a shelf with poetry, a shelf with art, and a shelf with children's books. The shelf with novels is above the shelf with biographies. The shelf with poetry is below the shelf with art. The shelf with children's books is the middle shelf. The shelf with biographies is the lowest shelf.
+Answer: poetry
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4633333333333333
+cot,45,examples,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the yellow book. The black book is to the right of the blue book. The red book is to the left of the purple book. 
+Which one book is the second from the right?
+Choices:red, blue, yellow, green, black, purple
+Answer: black
+
+Example 4: 
+In a library, there are four books: a red book, a blue book, a yellow book, and a black book. The yellow book is to the left of the red book. The blue book is to the right of the yellow book. The black book is to the right of the blue book. 
+Which one book is in the middle?
+Choices:red, blue, yellow, black
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4933333333333333,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the yellow book. The black book is to the right of the blue book. The red book is to the left of the purple book. 
+Which one book is the second from the right?
+Choices:red, blue, yellow, green, black, purple
+Answer: black
+
+Example 4: 
+In a library, there are four books: a red book, a blue book, a yellow book, and a black book. The yellow book is to the left of the red book. The blue book is to the right of the yellow book. The black book is to the right of the blue book. 
+Which one book is in the middle?
+Choices:red, blue, yellow, black
+Answer: blue
+
+Example 5: 
+In a library, there are seven books: a red book, a blue book, a yellow book, a green book, a black book, a white book, and a gray book. The yellow book is to the left of the green book. The blue book is to the left of the red book. The green book is to the right of the blue book. The black book is to the right of the yellow book. The white book is to the left of the black book. The gray book is to the right of the white book. The red book is to the left of the gray book. 
+Which one book is in the middle?
+Choices:red, blue, yellow, green, black, white, gray
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5266666666666666
+cot,46,examples,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the yellow book. The black book is to the right of the blue book. The red book is to the left of the purple book. 
+Which one book is the second from the right?
+Choices:red, blue, yellow, green, black, purple
+Answer: black
+
+Example 4: 
+In a library, there are four books: a red book, a blue book, a yellow book, and a black book. The yellow book is to the left of the red book. The blue book is to the right of the yellow book. The black book is to the right of the blue book. 
+Which one book is in the middle?
+Choices:red, blue, yellow, black
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.4933333333333333,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the yellow book. The black book is to the right of the blue book. The red book is to the left of the purple book. 
+Which one book is the second from the right?
+Choices:red, blue, yellow, green, black, purple
+Answer: black
+
+Example 4: 
+In a library, there are four books: a red book, a blue book, a yellow book, and a black book. The yellow book is to the left of the red book. The blue book is to the right of the yellow book. The black book is to the right of the blue book. 
+Which one book is in the middle?
+Choices:red, blue, yellow, black
+Answer: blue
+
+Example 5: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The black book is to the right of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the black book. The red book is to the left of the purple book. 
+Which one book is the fourth from the left?
+Choices:red, blue, yellow, green, black, purple
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.52
+cot,47,examples,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a library, there are six books: a blue book, a red book, a yellow book, a green book, a purple book, and a black book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the right of the red book. 
+Which one book is the fourth from the left?
+Choices:blue, red, yellow, green, purple, black
+Answer: green
+
+Example 4: 
+In a bookstore, there are seven books: a red book, a blue book, a yellow book, a green book, a purple book, a black book, and a white book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the left of the white book. The white book is to the right of the blue book. 
+Which one book is the sixth from the left?
+Choices:red, blue, yellow, green, purple, black, white
+Answer: black
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5166666666666667,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a library, there are six books: a blue book, a red book, a yellow book, a green book, a purple book, and a black book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the right of the red book. 
+Which one book is the fourth from the left?
+Choices:blue, red, yellow, green, purple, black
+Answer: green
+
+Example 4: 
+In a bookstore, there are seven books: a red book, a blue book, a yellow book, a green book, a purple book, a black book, and a white book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the left of the white book. The white book is to the right of the blue book. 
+Which one book is the sixth from the left?
+Choices:red, blue, yellow, green, purple, black, white
+Answer: black
+
+Example 5: 
+In a library, there are six books: a blue book, a red book, a yellow book, a green book, a purple book, and a black book. The purple book is to the left of the blue book. The yellow book is to the right of the red book. The green book is to the left of the yellow book. The red book is to the left of the purple book. The blue book is to the right of the green book. The black book is to the right of the purple book. Which one book is the third from the left?
+Choices:blue, red, yellow, green, purple, black
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5033333333333333
+cot,48,examples,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a library, there are six books: a blue book, a red book, a yellow book, a green book, a purple book, and a black book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the right of the red book. 
+Which one book is the fourth from the left?
+Choices:blue, red, yellow, green, purple, black
+Answer: green
+
+Example 4: 
+In a bookstore, there are seven books: a red book, a blue book, a yellow book, a green book, a purple book, a black book, and a white book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the left of the white book. The white book is to the right of the blue book. 
+Which one book is the sixth from the left?
+Choices:red, blue, yellow, green, purple, black, white
+Answer: black
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5166666666666667,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a library, there are six books: a blue book, a red book, a yellow book, a green book, a purple book, and a black book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the right of the red book. 
+Which one book is the fourth from the left?
+Choices:blue, red, yellow, green, purple, black
+Answer: green
+
+Example 4: 
+In a bookstore, there are seven books: a red book, a blue book, a yellow book, a green book, a purple book, a black book, and a white book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The purple book is to the left of the black book. The black book is to the left of the white book. The white book is to the right of the blue book. 
+Which one book is the sixth from the left?
+Choices:red, blue, yellow, green, purple, black, white
+Answer: black
+
+Example 5: 
+In a library, there are four books: a red book, a blue book, a yellow book, and a black book. The red book is to the left of the blue book. The blue book is to the left of the yellow book. The yellow book is to the left of the black book. 
+Which one book is the first from the right?
+Choices:blue, yellow, black, red
+Answer: black
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5266666666666666
+cot,49,examples,"Example 1: 
+On a shelf, there are four books: a blue book, a purple book, a yellow book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, black
+Answer: yellow
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the yellow book. The black book is to the right of the blue book. The red book is to the left of the purple book. 
+Which one book is the second from the right?
+Choices:red, blue, yellow, green, black, purple
+Answer: black
+
+Example 4: 
+In a library, there are four books: a red book, a blue book, a yellow book, and a black book. The yellow book is to the left of the red book. The blue book is to the right of the yellow book. The black book is to the right of the blue book. 
+Which one book is in the middle?
+Choices:red, blue, yellow, black
+Answer: blue
+
+Example 5: 
+In a library, there are seven books: a red book, a blue book, a yellow book, a green book, a black book, a white book, and a gray book. The yellow book is to the left of the green book. The blue book is to the left of the red book. The green book is to the right of the blue book. The black book is to the right of the yellow book. The white book is to the left of the black book. The gray book is to the right of the white book. The red book is to the left of the gray book. 
+Which one book is in the middle?
+Choices:red, blue, yellow, green, black, white, gray
+Answer: green
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5266666666666666,"Example 1: 
+On a shelf, there are five books: a blue book, a purple book, a yellow book, a green book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. The green book is to the left of the purple book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, green, black
+Answer: blue
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. The black book is to the right of the blue book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the yellow book. The black book is to the right of the blue book. The red book is to the left of the purple book. 
+Which one book is the second from the right?
+Choices:red, blue, yellow, green, black, purple
+Answer: yellow
+
+Example 4: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the left of the red book. The blue book is to the right of the yellow book. The black book is to the right of the blue book. 
+Which one book is to the left of the blue book?
+Choices:red, blue, yellow, green, black
+Answer: yellow
+
+Example 5: 
+In a library, there are seven books: a red book, a blue book, a yellow book, a green book, a black book, a white book, and a gray book. The yellow book is to the left of the green book. The blue book is to the left of the red book. The green book is to the right of the blue book. The black book is to the right of the yellow book. The white book is to the left of the black book. The gray book is to the right of the white book. The red book is to the left of the gray book. 
+Which one book is to the right of the red book?
+Choices:red, blue, yellow, green, black, white, gray
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.52
+cot,50,examples,"Example 1: 
+On a shelf, there are five books: a blue book, a purple book, a yellow book, a green book, and a black book. The purple book is the third from the left. The yellow book is to the left of the black book. The blue book is to the left of the yellow book. The green book is to the left of the purple book. 
+Which one book is the second from the left?
+Choices:blue, purple, yellow, green, black
+Answer: blue
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the right of the red book. The green book is to the left of the yellow book. The black book is to the right of the blue book. 
+Which one book is the third from the left?
+Choices:red, blue, yellow, green, black
+Answer: green
+
+Example 3: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the yellow book. The black book is to the right of the blue book. The red book is to the left of the purple book. 
+Which one book is the second from the right?
+Choices:red, blue, yellow, green, black, purple
+Answer: yellow
+
+Example 4: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the left of the red book. The blue book is to the right of the yellow book. The black book is to the right of the blue book. 
+Which one book is to the left of the blue book?
+Choices:red, blue, yellow, green, black
+Answer: yellow
+
+Example 5: 
+In a library, there are seven books: a red book, a blue book, a yellow book, a green book, a black book, a white book, and a gray book. The yellow book is to the left of the green book. The blue book is to the left of the red book. The green book is to the right of the blue book. The black book is to the right of the yellow book. The white book is to the left of the black book. The gray book is to the right of the white book. The red book is to the left of the gray book. 
+Which one book is to the right of the red book?
+Choices:red, blue, yellow, green, black, white, gray
+Answer: blue
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.52,"Example 1: 
+In a library, there are five books: a blue book, a red book, a yellow book, a green book, and a black book. The yellow book is to the right of the blue book. The red book is to the left of the green book. The blue book is to the left of the yellow book. The green book is to the right of the red book. The black book is to the left of the green book. 
+Which one book is to the left of the green book?
+Choices:blue, red, yellow, green, black
+Answer: red
+
+Example 2: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the right of the green book. The blue book is to the left of the red book. The green book is to the left of the yellow book. The black book is to the right of the blue book. 
+Which one book is the second from the left?
+Choices:red, blue, yellow, green, black
+Answer: blue
+
+Example 3: 
+In a bookstore, there are six books: a red book, a blue book, a yellow book, a green book, a black book, and a purple book. The green book is to the left of the yellow book. The blue book is to the left of the green book. The purple book is to the right of the yellow book. The black book is to the right of the blue book. The red book is to the left of the purple book. 
+Which one book is the second from the right?
+Choices:red, blue, yellow, green, black, purple
+Answer: purple
+
+Example 4: 
+In a library, there are five books: a red book, a blue book, a yellow book, a green book, and a black book. The yellow book is to the left of the red book. The blue book is to the right of the yellow book. The black book is to the right of the blue book. The green book is to the left of the blue book. 
+Which one book is to the left of the blue book?
+Choices:red, blue, yellow, green, black
+Answer: yellow
+
+Example 5: 
+In a library, there are seven books: a red book, a blue book, a yellow book, a green book, a black book, a white book, and a gray book. The yellow book is to the left of the green book. The blue book is to the left of the red book. The green book is to the right of the blue book. The black book is to the right of the yellow book. The white book is to the left of the black book. The gray book is to the right of the white book. The red book is to the left of the gray book. 
+Which one book is the second from the left?
+Choices:red, blue, yellow, green, black, white, gray
+Answer: yellow
+
+Solve the following logical reasoning problem.
+
+1. Extract all the constraints.
+2. Build the relationships.
+3. Check consistency.
+4. Identify the correct entity.",0.5066666666666667
