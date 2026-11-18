@@ -128,6 +128,16 @@ def load_results(results_dir=RESULTS_DIR):
                 record["source_file"] = path
                 record["level"] = level
 
+                # Recover optimizer name from mutation filename.
+                if level == "mutation":
+                    init_prompt = record["init_prompt"]
+                    filename_stem = filename[:-len("_mutations.csv")]
+
+                    prefix = f"{init_prompt}_"
+
+                    if filename_stem.startswith(prefix):
+                        record["optimizer"] = filename_stem[len(prefix):]
+
                 records.append(record)
 
     results = pd.DataFrame(records)
@@ -138,6 +148,7 @@ def load_results(results_dir=RESULTS_DIR):
     # Convert numeric columns.
     numeric_columns = [
         "generation",
+        "gen",
         "optimization_score",
         "test_score",
         "exact",
@@ -157,13 +168,15 @@ def load_results(results_dir=RESULTS_DIR):
 
     return results
 
-# Optimization-set performance.
+
+# Optimization-set performance evolution.
 def plot_optimization_evolution(
     results,
     output_dir=ANALYSIS_DIR,
 ):
     """
-    Creates optimization score evolution plots.
+    Visualizes optimization scores of all prompts generated
+    at each generation, together with their mean score.
 
     Args:
         results (pandas.DataFrame): Combined experiment results.
@@ -173,6 +186,181 @@ def plot_optimization_evolution(
     output_dir = os.path.join(
         output_dir,
         "optimization_evolution",
+    )
+
+    os.makedirs(
+        output_dir,
+        exist_ok=True,
+    )
+
+    # Select mutation results.
+    optimization = results[
+        (results["level"] == "mutation")
+        & results["gen"].notna()
+        & results["child_score"].notna()
+    ].copy()
+
+    groups = optimization.groupby(["task", "init_prompt"])
+
+    for (task, prompt), group in groups:
+
+        models = sorted(group["model"].unique())
+
+        n_models = len(models)
+
+        fig, axes = plt.subplots(
+            n_models,
+            1,
+            figsize=(11, 5 * n_models),
+            squeeze=False,
+        )
+
+        axes = axes.flatten()
+
+        legend_handles = []
+        legend_labels = []
+
+        for ax, model in zip(axes, models):
+
+            model_data = group[group["model"] == model]
+
+            optimizers = sorted(model_data["optimizer"].unique())
+
+            # Plot all generated prompts for each optimizer.
+            for optimizer in optimizers:
+
+                data = model_data[
+                    model_data["optimizer"] == optimizer
+                ].sort_values("gen")
+
+                if data.empty:
+                    continue
+
+                # Plot individual candidate scores.
+                scatter = ax.scatter(
+                    data["gen"],
+                    data["child_score"],
+                    alpha=0.5,
+                    s=35,
+                )
+
+                # Use the same color for the mean-score line.
+                color = scatter.get_facecolors()[0]
+
+                # Calculate mean candidate score at each generation.
+                mean_scores = (
+                    data.groupby("gen")["child_score"]
+                    .mean()
+                    .sort_index()
+                )
+
+                # Connect mean scores across generations.
+                line, = ax.plot(
+                    mean_scores.index,
+                    mean_scores.values,
+                    color=color,
+                    marker="o",
+                    linewidth=2,
+                    markersize=5,
+                    label=optimizer,
+                )
+
+                if optimizer not in legend_labels:
+                    legend_handles.append(line)
+                    legend_labels.append(optimizer)
+
+            ax.set_title(
+                truncate_model_name(model),
+                fontweight="bold",
+            )
+
+            ax.set_xlabel(
+                "Optimization generation",
+                fontweight="bold",
+            )
+
+            ax.set_ylabel(
+                "Optimization score",
+                fontweight="bold",
+            )
+
+            ax.xaxis.set_major_locator(
+                plt.MaxNLocator(integer=True)
+            )
+
+            ax.grid(
+                True,
+                alpha=0.3,
+            )
+
+            ax.set_facecolor("whitesmoke")
+
+            ax.margins(y=0.10)
+
+        '''# Use the overall score range for every subplot.
+        overall_min = group["child_score"].min()
+        overall_max = group["child_score"].max()
+
+        for ax in axes:
+            ax.set_ylim(
+                overall_min - 0.01,
+                overall_max + 0.01,
+            )'''
+
+        fig.suptitle(
+            f"{task} | Initial prompt: {prompt}",
+            fontsize=16,
+            fontweight="bold",
+        )
+
+        # Create one legend for the entire figure.
+        fig.legend(
+            legend_handles,
+            legend_labels,
+            loc="lower center",
+            bbox_to_anchor=(0.5, 0.005),
+            ncol=len(legend_labels),
+            title="Optimization methods",
+            title_fontsize=18,
+            fontsize=16,
+            fancybox=True,
+            shadow=True,
+        )
+
+        fig.tight_layout(rect=[0, 0.06, 1, 0.97])
+
+        filename = (
+            f"{task}_{prompt}_optimization_evolution.png"
+        )
+
+        fig.savefig(
+            os.path.join(
+                output_dir,
+                filename,
+            ),
+            dpi=300,
+            bbox_inches="tight",
+        )
+
+        plt.close(fig)
+
+
+# Best prompt optimization-set performance.
+def plot_best_prompt_evolution(
+    results,
+    output_dir=ANALYSIS_DIR,
+):
+    """
+    Visualizes optimization scores of the best prompt in the pool each generation.
+
+    Args:
+        results (pandas.DataFrame): Combined experiment results.
+        output_dir (str, optional): Directory for generated plots.
+    """
+
+    output_dir = os.path.join(
+        output_dir,
+        "best_prompt_evolution",
     )
 
     os.makedirs(
@@ -279,7 +467,7 @@ def plot_optimization_evolution(
 
         fig.tight_layout(rect=[0, 0.06, 1, 0.97])
 
-        filename = f"{task}_{prompt}_optimization_evolution.png"
+        filename = f"{task}_{prompt}_best_prompt_evolution.png"
 
         fig.savefig(
             os.path.join(
@@ -694,6 +882,12 @@ results = load_results(RESULTS_DIR)
 
 # Generate optimization evolution plots.
 plot_optimization_evolution(
+    results,
+    ANALYSIS_DIR,
+)
+
+# Generate best prompt evolution plots.
+plot_best_prompt_evolution(
     results,
     ANALYSIS_DIR,
 )
