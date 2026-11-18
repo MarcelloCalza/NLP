@@ -525,18 +525,55 @@ optimization generations through the default value of
 
 \subsubsection{Analysis Module and Visualization Procedure (\texttt{analysis.py})}
 
-For each task and model, the generation-level results, the held-out 
-test results, and the mutation records are stored as CSV files. 
-The analysis produces three complementary views of the optimization 
-process: generation-level score evolution, held-out test performance, 
-and mutation-level improvement frequency.
+For each task, model, and initial prompting strategy, the 
+generation-level results, the held-out test results, and the mutation 
+records are stored as CSV files. The analysis produces four complementary 
+views of the optimization process: best-prompt evolution, candidate-prompt 
+evolution, held-out test performance, and mutation-level improvement 
+frequency. For each of these views, a separate plot is generated for 
+every task and initial prompting strategy, allowing the results to be 
+examined across all experimental settings. The figures included below 
+show one representative example for each type of analysis.
 
 \paragraph{Optimization-Set Performance}
 
 The first result analysis concerns the 300-example optimization
-dataset used during prompt search. The corresponding optimization-evolution
-plots are stored in the \texttt{analysis/optimization\_evolution/} folder of the
-repository. Across both tasks, the improvement
+dataset used during prompt search. Two complementary types of plots
+are generated to visualize the optimization process.
+
+The best-prompt evolution plots, stored in the
+\texttt{analysis/best\_prompt\_evolution/} folder of the repository,
+show the optimization score of the best-performing prompt in the
+top-\(k\) pool at each generation. They therefore track the evolution
+of the best solution retained by the optimizer throughout the search.
+
+The candidate-prompt evolution plots, stored in the
+\texttt{analysis/optimization\_evolution/} folder, provide a more
+detailed view of the search process. They show the optimization
+scores of all candidate prompts generated and evaluated at each
+generation, before the top-\(k\) selection is applied. Individual
+points represent candidate prompts, while the lines connect the
+mean score of the candidates generated at each generation for each
+optimization configuration.
+
+\begin{figure}[htbp]
+      \centering
+      \includegraphics[width=\textwidth]{../analysis/best_prompt_evolution/sentiment_cot_best_prompt_evolution.png}
+      \caption{Example of best-prompt evolution plot. The plot shows the optimization-set score
+      of the best prompt in the top-\(k\) pool at each generation.}
+      \label{fig:best_prompt_evolution}
+\end{figure}
+      
+\begin{figure}[htbp]
+      \centering
+      \includegraphics[width=\textwidth]{../analysis/optimization_evolution/sentiment_cot_optimization_evolution.png}
+      \caption{Example of candidate-prompt evolution plot. Individual points represent candidate prompts,
+      while the lines show the mean score at each generation for each
+      optimization configuration.}
+      \label{fig:optimization_evolution}
+\end{figure}
+
+Across both tasks, the improvement
 over the corresponding initial prompt was generally small. When an
 optimization strategy succeeded in finding a better prompt, the
 increase was typically in the order of a few hundredths, approximately
@@ -544,23 +581,12 @@ $0.01$ to $0.04$. In several configurations, no generated prompt
 exceeded the initial optimization score throughout the optimization
 process.
 
-This behavior can also be observed in the optimization-evolution
-plots. The curves generally show relatively small vertical changes
-across generations, and in configurations where no improvement is
-found, the best retained score remains at the initial level. The
-plots also show that the different optimization branches do not
-produce identical trajectories: some branches find improvements
+This behavior can also be observed in plots. The curves generally show 
+relatively small vertical changesacross generations, and in configurations
+where no improvement is found, the best retained score remains at the 
+initial level. The plots also show that the different optimization branches 
+do not produce identical trajectories: some branches find improvements
 earlier, while others remain nearly flat.
-
-%%\begin{figure}[htbp]
-%%\centering
-%%\IfFileExists{../analysis/optimization_evolution/sentiment_cot_optimization_evolution.png}{
-%%\includegraphics[width=\textwidth]{../analysis/optimization_evolution/sentiment_cot_optimization_evolution.png}
-%%}{}
-%%\caption{Evolution of optimization-set performance for the
-%%sentiment task starting from the CoT prompt.}
-%%\label{fig:optimization_evolution}
-%%\end{figure}
 
 For sentiment classification, the models were broadly comparable in terms
 of their initial performance on the optimization set. The multi-branch 
@@ -579,7 +605,7 @@ for Llama and Qwen, whereas the multi-branch configuration was strongest
 for Ministral, with the examples branch consistently among the stronger 
 configurations.
 
-These observations show that the multi-branch strategy was frequently 
+The multi-branch strategy was frequently 
 effective at increasing optimization-set performance, particularly for 
 zero-shot and CoT prompts. However, its effect was model and task dependent 
 rather than universal.
@@ -593,6 +619,14 @@ independently on the 100-example held-out test set. The corresponding
 test-score plots are stored in the \texttt{analysis/test\_scores/} folder of the
 repository.
 
+\begin{figure}[htbp]
+      \centering
+      \includegraphics[width=0.90\textwidth]{../analysis/test_scores/sentiment_cot_test_scores.png}
+      \caption{Example of held-out test scores plot, comparing the baseline with the different
+      optimization configurations.}
+      \label{fig:test_scores}
+\end{figure}
+      
 Across the complete set of experiments, the held-out results show that
 optimization-set improvements do not transfer uniformly to unseen data.
 Some optimized prompts produce clear improvements over their initial
@@ -600,15 +634,6 @@ baselines, while others remain close to the baseline or perform worse.
 The magnitude and direction of the change depend on the model, task,
 initial prompting strategy, and optimization configuration.
 
-%%\begin{figure}[htbp]
-%%\centering
-%%\IfFileExists{../analysis/test_scores/logical_cot_test_scores.png}{
-%%\includegraphics[width=0.90\textwidth]{../analysis/test_scores/logical_cot_test_scores.png}
-%%}{}
-%%\caption{Held-out test scores for the logical deduction task
-%%starting from the CoT prompt.}
-%%\label{fig:test_scores}
-%%\end{figure}
 
 For sentiment classification, several configurations generalize well.
 For example, the Llama CoT prompt improves from $0.72$ to $0.79$ with the
@@ -629,91 +654,6 @@ Llama CoT prompt reaches only $0.35$ with the examples configuration,
 despite the corresponding optimization improving its score on the
 optimization set, while the Qwen zero-shot prompt decreases from $0.57$
 to $0.52$ with the multi-branch configuration.
-
-%%\begin{table}[htbp]
-%%\centering
-%%\caption{Representative held-out test results.}
-%%\label{tab:test_results}
-%%\begin{tabular}{llllrr}
-%%\toprule
-%%\textbf{Task} & \textbf{Model} & \textbf{Initial}
-%%& \textbf{Configuration} & \textbf{Baseline} & \textbf{Final} \\
-%%\midrule
-
-    %%Sentiment
-    %%& Llama
-    %%& CoT
-    %%& Multi
-    %%& 0.72
-    %%& 0.79 \\
-
-    %%Sentiment
-    %%& Ministral
-    %%& Few-shot
-    %%& Rewrite
-    %%& 0.67
-    %%& 0.77 \\
-
-    %%Sentiment
-    %%& Qwen
-    %%& Few-shot
-    %%& Multi
-    %%& 0.67
-    %%& 0.75 \\
-
-    %%Sentiment
-    %%& Llama
-    %%& Zero-shot
-    %%& Examples
-    %%& 0.79
-    %%& 0.77 \\
-
-    %%Logical
-    %%& Llama
-    %%& CoT
-    %%& Multi
-    %%& 0.45
-    %%& 0.48 \\
-
-    %%Logical
-    %%& Ministral
-    %%& CoT
-    %%& Examples
-    %%& 0.43
-    %%& 0.52 \\
-
-    %%Logical
-    %%& Qwen
-    %%& CoT
-    %%& Multi
-    %%& 0.53
-    %%& 0.60 \\
-
-    %%Logical
-    %%& Llama
-    %%& Zero-shot
-    %%& Examples
-    %%& 0.47
-    %%& 0.49 \\
-
-    %%Logical
-    %%& Ministral
-    %%& Zero-shot
-    %%& Instruction
-    %%& 0.48
-    %%& 0.41 \\
-
-    %%Logical
-    %%& Qwen
-    %%& Zero-shot
-    %%& Rewrite
-    %%& 0.57
-    %%& 0.58 \\
-
-    %%\bottomrule
-%%\end{tabular}
-
-%%\end{table}
 
 These results show that optimization on the 300-example search set is
 not sufficient to guarantee generalization to unseen instances. They
@@ -744,6 +684,13 @@ $$
 \frac{\text{parent score}_1+\text{parent score}_2}{2}.
 $$
 
+\begin{figure}[htbp]
+      \centering
+      \includegraphics[width=0.90\textwidth]{../analysis/improvement_rate/sentiment_cot_improvement_rate.png}
+      \caption{Example of mutation improvement rates plot.}
+      \label{fig:improvement_rate}
+\end{figure}
+
 The improvement rate of each optimization branch is the proportion of its 
 mutations that satisfy this condition.
 
@@ -755,18 +702,8 @@ in their standalone configurations and together in the multi configuration,
 whereas crossover is available only in the multi configuration and 
 generates relatively few children.
 
-%%\begin{figure}[htbp]
-%%\centering
-%%\IfFileExists{../analysis/improvement_rate/sentiment_few_shots_improvement_rate.png}{
-%%\includegraphics[width=0.90\textwidth]{../analysis/improvement_rate/sentiment_few_shots_improvement_rate.png}
-%%}{}
-%%\caption{Mutation improvement rates for the sentiment task
-%%starting from the few-shot prompt.}
-%%\label{fig:improvement_rate}
-%%\end{figure}
-
 This analysis complements the generation-level optimization curves.
-The optimization-evolution plots show whether the best retained prompt
+The best prompt evolution plots show whether the best retained prompt
 improves over time, while the mutation analysis shows how frequently
 the individual branches generate a child that is better than its
 reference parent.
